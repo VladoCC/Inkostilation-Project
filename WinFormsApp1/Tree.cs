@@ -1,7 +1,7 @@
 ﻿namespace WinFormsApp1
 {
     
-    public class Tree<T>: Collection<T> where T: Element
+    public class Tree<T>: ICollection<T> where T: IElement
     {
         private Position<T> _root;
         private int _size = 0;
@@ -44,20 +44,20 @@
             }
             else
             {
-                add(_root, element);
+                Add(_root, element);
             }
 
             _size++;
         }
 
-        private void add(Position<T> parent, T element)
+        private void Add(Position<T> parent, T element)
         {
             int cmp = parent.Element.Compare(element);
             if (cmp > 0)
             {
                 if (parent.LeftChild != null)
                 {
-                    add(parent.LeftChild, element);
+                    Add(parent.LeftChild, element);
                 }
                 else
                 {
@@ -69,7 +69,7 @@
             {
                 if (parent.RightChild != null)
                 {
-                    add(parent.RightChild, element);
+                    Add(parent.RightChild, element);
                 }
                 else
                 {
@@ -82,7 +82,7 @@
             {
                 if (parent.CenterChild != null)
                 {
-                    add(parent.CenterChild, element);
+                    Add(parent.CenterChild, element);
                 }
                 else
                 {
@@ -188,7 +188,7 @@
             }
         }
         
-        class Position<T> where T: Element
+        class Position<T> where T: IElement
         {
             public Position(T element)
             {

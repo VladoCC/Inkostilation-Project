@@ -1,8 +1,8 @@
 ﻿namespace WinFormsApp1
 {
-    public interface Element
+    public interface IElement
     {
-        int Compare(Element elem);
+        int Compare(IElement elem);
 
         string ToString();
     }
