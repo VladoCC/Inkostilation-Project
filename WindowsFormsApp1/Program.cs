@@ -15,16 +15,7 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-            Tree<Test> tree = new Tree<Test>();
-            tree.Add(new Test(5));
-            tree.Add(new Test(2));
-            tree.Add(new Test(3));
-            tree.Add(new Test(-1));
-            tree.Add(new Test(1));
-            tree.Add(new Test(0));
-            tree.Add(new Test(-2));
-            tree.Remove(new Test(2));
-            Test[] tests = tree.ToArray();
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new GUI());
