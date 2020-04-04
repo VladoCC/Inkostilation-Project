@@ -30,6 +30,7 @@
                 if (_array[realIndex] == null || _deleted[realIndex])
                 {
                     _array[realIndex] = element;
+                    _deleted[realIndex] = false;
                     found = true;
                     break;
                 }
@@ -49,7 +50,7 @@
         private void Inflate()
         {
             V[] newArray = new V[_array.Length * 2];
-            bool[] newDeleted = new bool[_array.Length * 2];
+            bool[] newDeleted = new bool[_deleted.Length * 2];
             for (int i = 0; i < _array.Length; i++)
             {
                 newArray[i] = _array[i];

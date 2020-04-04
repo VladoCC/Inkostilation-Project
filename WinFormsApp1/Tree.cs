@@ -5,7 +5,7 @@
     {
         private Position<T> _root;
         private int _size = 0;
-        
+
         public T[] ToArray()
         {
             T[] arr = new T[_size];
