@@ -1,11 +1,17 @@
-﻿namespace WinFormsApp1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WinFormsApp1
 {
-    public class HashMap<K, V>: ICollection<V> where V: IKeyedElement<K>
+    public class HashMap<K, V> : ICollection<V> where V : IKeyedElement<K>
     {
-        
+
         private IHashFunction<K> _function;
         private IStorage<K, V> _storage;
-        
+
         public HashMap(IHashFunction<K> function, IStorage<K, V> storage)
         {
             _function = function;

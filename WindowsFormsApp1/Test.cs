@@ -1,4 +1,10 @@
-﻿namespace WinFormsApp1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WinFormsApp1
 {
     public class Test : IElement
     {
@@ -13,7 +19,7 @@
 
         public int Compare(IElement elem)
         {
-            Test test = (Test) elem;
+            Test test = (Test)elem;
             return num - test.Num;
         }
     }
