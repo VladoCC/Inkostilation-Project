@@ -1,6 +1,12 @@
-﻿namespace WinFormsApp1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WinFormsApp1
 {
-    public class DoubleHashStorage<K, V>: IStorage<K, V> where V: IKeyedElement<K>
+    public class DoubleHashStorage<K, V> : IStorage<K, V> where V : IKeyedElement<K>
     {
         private IHashFunction<K> _function;
         private V[] _array = new V[16];
@@ -69,9 +75,9 @@
                 {
                     _deleted[realIndex] = true;
                     _size--;
-                    
+
                     return true;
-                } 
+                }
                 if (_array[realIndex] == null)
                 {
                     return false;

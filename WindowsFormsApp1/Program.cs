@@ -1,15 +1,16 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1;
 
-namespace WinFormsApp1
+namespace WindowsFormsApp1
 {
     static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
         static void Main()
@@ -24,7 +25,6 @@ namespace WinFormsApp1
             tree.Add(new Test(-2));
             tree.Remove(new Test(2));
             Test[] tests = tree.ToArray();
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new GUI());

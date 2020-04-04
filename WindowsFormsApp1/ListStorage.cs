@@ -1,9 +1,14 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 using System.Drawing;
 
 namespace WinFormsApp1
 {
-    public class ListStorage<K, V>: IStorage<K, V> where V: IKeyedElement<K>
+    public class ListStorage<K, V> : IStorage<K, V> where V : IKeyedElement<K>
     {
         private Position<V>[] array;
 
@@ -68,14 +73,14 @@ namespace WinFormsApp1
             }
             return arr;
         }
-        
-        private class Position<T> where T: IElement
+
+        private class Position<T> where T : IElement
         {
             private Position<T> _next;
             private T _element;
 
             public T Element => _element;
-            
+
             public Position<T> Next => _next;
 
             public Position(T element)

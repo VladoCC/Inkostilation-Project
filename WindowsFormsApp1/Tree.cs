@@ -1,7 +1,13 @@
-﻿namespace WinFormsApp1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WinFormsApp1
 {
-    
-    public class Tree<T>: ICollection<T> where T: IElement
+
+    public class Tree<T> : ICollection<T> where T : IElement
     {
         private Position<T> _root;
         private int _size = 0;
@@ -65,7 +71,8 @@
                     parent.LeftChild = child;
                     child.Parent = parent;
                 }
-            } else if (cmp < 0)
+            }
+            else if (cmp < 0)
             {
                 if (parent.RightChild != null)
                 {
@@ -120,7 +127,7 @@
                     return false;
                 }
                 return Remove(position.LeftChild, element);
-            } 
+            }
             else if (cmp < 0)
             {
                 if (position.RightChild == null)
@@ -150,22 +157,22 @@
                             max.LeftChild.Parent = max.Parent;
                         }
                     }
-                    else if (position.RightChild != null) 
+                    else if (position.RightChild != null)
                     {
-                        if (position.Parent.LeftChild == position) 
-                        { 
+                        if (position.Parent.LeftChild == position)
+                        {
                             position.Parent.LeftChild = position.RightChild;
-                        } 
-                        else if (position.Parent.RightChild == position) 
-                        { 
+                        }
+                        else if (position.Parent.RightChild == position)
+                        {
                             position.Parent.RightChild = position.RightChild;
                         }
-                        else 
-                        { 
+                        else
+                        {
                             position.Parent.CenterChild = position.RightChild;
-                        } 
-                        position.RightChild.Parent = position.Parent; 
-                    } 
+                        }
+                        position.RightChild.Parent = position.Parent;
+                    }
                     return true;
                 }
                 return Remove(position.CenterChild, element);
@@ -181,14 +188,14 @@
             else if (parent.CenterChild != null)
             {
                 return Max(parent.CenterChild);
-            } 
+            }
             else
             {
                 return parent;
             }
         }
-        
-        class Position<T> where T: IElement
+
+        class Position<T> where T : IElement
         {
             public Position(T element)
             {
