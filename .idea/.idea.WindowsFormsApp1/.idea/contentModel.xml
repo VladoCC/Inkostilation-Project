@@ -27,6 +27,7 @@
       <e p="WindowsFormsApp1" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Client.cs" t="Include" />
         <e p="DoubleHashStorage.cs" t="Include" />
         <e p="GUI.cs" t="Include" />
         <e p="GUI.Designer.cs" t="Include" />
@@ -37,7 +38,10 @@
         <e p="IKeyedElement.cs" t="Include" />
         <e p="IStorage.cs" t="Include" />
         <e p="ListStorage.cs" t="Include" />
+        <e p="Machine.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="Operation.cs" t="Include" />
+        <e p="Percent.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
