@@ -49,7 +49,7 @@ namespace TestProject2
             Client client2 = new Client(33, 2, "petrov");
             Client client3 = new Client(49, 3, "ivanov");
             Client client4 = new Client(4, 4, "smirnov");
-            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(16),
+            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(10),
                 new ListStorage<int, Client>());
             map.Add(client1);
             map.Add(client2);
