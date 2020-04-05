@@ -10,6 +10,14 @@ namespace WindowsFormsApp1
         private int _machineNumber;
         private int _sum;
 
+        public Operation(int operationType, int cardNumber, int machineNumber, int sum)
+        {
+            _operationType = operationType;
+            _cardNumber = cardNumber;
+            _machineNumber = machineNumber;
+            _sum = sum;
+        }
+
         public int Compare(IElement elem)
         {
             Operation operation = (Operation) elem;

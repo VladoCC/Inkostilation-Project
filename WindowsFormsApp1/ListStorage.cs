@@ -12,9 +12,9 @@ namespace WinFormsApp1
     {
         private Position<V>[] array;
 
-        public ListStorage(int size)
+        public ListStorage()
         {
-            array = new Position<V>[size];
+            array = new Position<V>[10];
         }
 
         public int Size()
@@ -99,7 +99,7 @@ namespace WinFormsApp1
 
             public void Add(T element)
             {
-                if (_next == null)
+                if (_next != null)
                 {
                     _next.Add(element);
                 }

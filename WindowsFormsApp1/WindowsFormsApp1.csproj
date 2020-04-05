@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="ModFunction.cs" />
     <Compile Include="DoubleHashStorage.cs" />
     <Compile Include="GUI.cs">
       <SubType>Form</SubType>
@@ -62,6 +63,7 @@
     <Compile Include="IStorage.cs" />
     <Compile Include="ListStorage.cs" />
     <Compile Include="Machine.cs" />
+    <Compile Include="OddFunction.cs" />
     <Compile Include="Operation.cs" />
     <Compile Include="Percent.cs" />
     <Compile Include="Program.cs" />

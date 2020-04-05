@@ -39,7 +39,9 @@
         <e p="IStorage.cs" t="Include" />
         <e p="ListStorage.cs" t="Include" />
         <e p="Machine.cs" t="Include" />
+        <e p="ModFunction.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="OddFunction.cs" t="Include" />
         <e p="Operation.cs" t="Include" />
         <e p="Percent.cs" t="Include" />
         <e p="Program.cs" t="Include" />

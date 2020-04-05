@@ -9,7 +9,15 @@ namespace WindowsFormsApp1
         private int _senderBank;
         private int _receiverBank;
         private int _percent;
-        
+
+        public Percent(int operationType, int senderBank, int receiverBank, int percent)
+        {
+            _operationType = operationType;
+            _senderBank = senderBank;
+            _receiverBank = receiverBank;
+            _percent = percent;
+        }
+
         public int Compare(IElement elem)
         {
             Percent percent = (Percent) elem;

@@ -7,7 +7,14 @@ namespace WindowsFormsApp1
         private int _machineNum;
         private string _address;
         private string _bankName;
-        
+
+        public Machine(int machineNum, string address, string bankName)
+        {
+            _machineNum = machineNum;
+            _address = address;
+            _bankName = bankName;
+        }
+
         public int GetKey()
         {
             return _machineNum;
