@@ -28,6 +28,7 @@
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Client.cs" t="Include" />
+        <e p="Database.cs" t="Include" />
         <e p="DoubleHashStorage.cs" t="Include" />
         <e p="GUI.cs" t="Include" />
         <e p="GUI.Designer.cs" t="Include" />

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="Database.cs" />
     <Compile Include="ModFunction.cs" />
     <Compile Include="DoubleHashStorage.cs" />
     <Compile Include="GUI.cs">

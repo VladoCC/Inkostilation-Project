@@ -32,5 +32,13 @@ namespace WindowsFormsApp1
                             + "\nSum: " + _sum;
             return result;
         }
+
+        public int OperationType => _operationType;
+
+        public int CardNumber => _cardNumber;
+
+        public int MachineNumber => _machineNumber;
+
+        public int Sum => _sum;
     }
 }
