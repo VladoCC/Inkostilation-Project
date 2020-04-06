@@ -9,13 +9,14 @@ namespace WinFormsApp1
     public class HashMap<K, V> : ICollection<V> where V : IKeyedElement<K>
     {
 
-        private IHashFunction<K> _function;
-        private IStorage<K, V> _storage;
+        private HashFunction<K> _function;
+        private Storage<K, V> _storage;
 
-        public HashMap(IHashFunction<K> function, IStorage<K, V> storage)
+        public HashMap(HashFunction<K> function, Storage<K, V> storage)
         {
             _function = function;
             _storage = storage;
+            _function.SetSize(storage.SizeContainer());
         }
 
         public V[] ToArray()
@@ -25,7 +26,7 @@ namespace WinFormsApp1
 
         public int Size()
         {
-            return _storage.Size();
+            return _storage.GetSize();
         }
 
         public void Add(V element)

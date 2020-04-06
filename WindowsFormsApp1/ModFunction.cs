@@ -2,18 +2,11 @@
 
 namespace WindowsFormsApp1
 {
-    public class ModFunction: IHashFunction<int>
+    public class ModFunction: HashFunction<int>
     {
-        private int _size;
-
-        public ModFunction(int size)
+        public override int Hash(int key)
         {
-            _size = size;
-        }
-
-        public int Hash(int key)
-        {
-            return key % _size;
+            return key % GetStorageSize();
         }
     }
 }

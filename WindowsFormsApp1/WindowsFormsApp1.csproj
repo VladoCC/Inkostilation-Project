@@ -58,9 +58,9 @@
     <Compile Include="HashMap.cs" />
     <Compile Include="ICollection.cs" />
     <Compile Include="IElement.cs" />
-    <Compile Include="IHashFunction.cs" />
+    <Compile Include="HashFunction.cs" />
     <Compile Include="IKeyedElement.cs" />
-    <Compile Include="IStorage.cs" />
+    <Compile Include="Storage.cs" />
     <Compile Include="ListStorage.cs" />
     <Compile Include="Machine.cs" />
     <Compile Include="OddFunction.cs" />
@@ -68,6 +68,7 @@
     <Compile Include="Percent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SizeContainer.cs" />
     <Compile Include="Tree.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -6,28 +6,29 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1
 {
-    public class DoubleHashStorage<K, V> : IStorage<K, V> where V : IKeyedElement<K>
+    public class DoubleHashStorage<K, V> : Storage<K, V> where V : IKeyedElement<K>
     {
-        private IHashFunction<K> _function;
+        private HashFunction<K> _function;
         private V[] _array = new V[16];
         private bool[] _deleted = new bool[16];
         private int _size = 0;
 
-        public DoubleHashStorage(IHashFunction<K> function)
+        public DoubleHashStorage(HashFunction<K> function): base(16)
         {
             _function = function;
+            _function.SetSize(base.SizeContainer());
             for (int i = 0; i < 16; i++)
             {
                 _deleted[i] = false;
             }
         }
 
-        public int Size()
+        public override int GetSize()
         {
             return _size;
         }
 
-        public void Add(int index, V element)
+        public override void Add(int index, V element)
         {
             bool found = false;
             for (int i = 0; i < _array.Length; i++)
@@ -64,9 +65,10 @@ namespace WinFormsApp1
             }
             _array = newArray;
             _deleted = newDeleted;
+            base.SizeContainer().Size = newArray.Length;
         }
 
-        public bool Remove(int index, V element)
+        public override bool Remove(int index, V element)
         {
             for (int i = 0; i < _array.Length; i++)
             {
@@ -86,9 +88,9 @@ namespace WinFormsApp1
             return false;
         }
 
-        public V[] ToArray()
+        public override V[] ToArray()
         {
-            V[] arr = new V[_size];
+            V[] arr = new V[GetSize()];
             int pos = 0;
             for (int i = 0; i < _array.Length; i++)
             {

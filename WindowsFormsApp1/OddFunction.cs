@@ -2,18 +2,11 @@
 
 namespace WindowsFormsApp1
 {
-    public class OddFunction: IHashFunction<int>
+    public class OddFunction: HashFunction<int>
     {
-        private int _size;
-
-        public OddFunction(int size)
+        public override int Hash(int key)
         {
-            _size = size;
-        }
-
-        public int Hash(int key)
-        {
-            return key % (_size - 1) / 2 * 2 + 1;
+            return key % (GetStorageSize() - 1) / 2 * 2 + 1;
         }
     }
 }

@@ -31,12 +31,11 @@
         <e p="DoubleHashStorage.cs" t="Include" />
         <e p="GUI.cs" t="Include" />
         <e p="GUI.Designer.cs" t="Include" />
+        <e p="HashFunction.cs" t="Include" />
         <e p="HashMap.cs" t="Include" />
         <e p="ICollection.cs" t="Include" />
         <e p="IElement.cs" t="Include" />
-        <e p="IHashFunction.cs" t="Include" />
         <e p="IKeyedElement.cs" t="Include" />
-        <e p="IStorage.cs" t="Include" />
         <e p="ListStorage.cs" t="Include" />
         <e p="Machine.cs" t="Include" />
         <e p="ModFunction.cs" t="Include" />
@@ -52,6 +51,8 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="SizeContainer.cs" t="Include" />
+        <e p="Storage.cs" t="Include" />
         <e p="Tree.cs" t="Include" />
         <e p="WindowsFormsApp1.csproj" t="IncludeRecursive" />
       </e>

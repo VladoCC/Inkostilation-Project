@@ -8,16 +8,16 @@ using System.Drawing;
 
 namespace WinFormsApp1
 {
-    public class ListStorage<K, V> : IStorage<K, V> where V : IKeyedElement<K>
+    public class ListStorage<K, V> : Storage<K, V> where V : IKeyedElement<K>
     {
         private Position<V>[] array;
 
-        public ListStorage()
+        public ListStorage(): base(10)
         {
             array = new Position<V>[10];
         }
 
-        public int Size()
+        public override int GetSize()
         {
             int size = 0;
             foreach (var v in array)
@@ -30,7 +30,7 @@ namespace WinFormsApp1
             return size;
         }
 
-        public void Add(int index, V element)
+        public override void Add(int index, V element)
         {
             if (array[index] == null)
             {
@@ -42,7 +42,7 @@ namespace WinFormsApp1
             }
         }
 
-        public bool Remove(int index, V element)
+        public override bool Remove(int index, V element)
         {
             if (array[index] == null)
             {
@@ -60,9 +60,9 @@ namespace WinFormsApp1
             return array[index].Remove(element);
         }
 
-        public V[] ToArray()
+        public override V[] ToArray()
         {
-            V[] arr = new V[Size()];
+            V[] arr = new V[GetSize()];
             int pos = 0;
             foreach (var v in array)
             {

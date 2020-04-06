@@ -31,8 +31,8 @@ namespace TestProject2
             Client client2 = new Client(33, 2, "petrov");
             Client client3 = new Client(49, 3, "ivanov");
             Client client4 = new Client(4, 4, "smirnov");
-            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(16),
-                new DoubleHashStorage<int, Client>(new OddFunction(16)));
+            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(),
+                new DoubleHashStorage<int, Client>(new OddFunction()));
             map.Add(client1);
             map.Add(client2);
             map.Add(client3);
@@ -49,7 +49,7 @@ namespace TestProject2
             Client client2 = new Client(33, 2, "petrov");
             Client client3 = new Client(49, 3, "ivanov");
             Client client4 = new Client(4, 4, "smirnov");
-            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(10),
+            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(),
                 new ListStorage<int, Client>());
             map.Add(client1);
             map.Add(client2);
@@ -63,8 +63,8 @@ namespace TestProject2
         [TestMethod]
         public void DoubleHashMapFillingTest()
         {
-            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(16),
-                new DoubleHashStorage<int, Client>(new OddFunction(16)));
+            HashMap<int, Client> map = new HashMap<int, Client>(new ModFunction(),
+                new DoubleHashStorage<int, Client>(new OddFunction()));
             for (int i = 0; i < 20; i++)
             {
                 Client client = new Client(i, i, "name" + i);
