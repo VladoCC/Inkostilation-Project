@@ -102,5 +102,22 @@ namespace WinFormsApp1
             }
             return arr;
         }
+
+        public override string Find(int index, V element)
+        {
+            for (int i = 0; i < _array.Length; i++)
+            {
+                int realIndex = (index + i * _function.Hash(element.GetKey())) % _array.Length;
+                if (_array[realIndex].Compare(element) == 0 && !_deleted[realIndex])
+                {
+                    return "Checks: " + (i + 1) + "\n" + _array[realIndex].ToString();
+                }
+                if (_array[realIndex] == null)
+                {
+                    return "Not found";
+                }
+            }
+            return "Not found";
+        }
     }
 }

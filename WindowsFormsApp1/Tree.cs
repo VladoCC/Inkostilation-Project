@@ -195,6 +195,35 @@ namespace WinFormsApp1
             }
         }
 
+        public string Find(T element)
+        {
+            return Find(_root, element, 0);
+        }
+
+        private string Find(Position<T> position, T element, int counter)
+        {
+            if (position == null)
+            {
+                return "Not found";
+            }
+            counter++;
+            int cmp = position.Element.Compare(element);
+            if (cmp == 0)
+            {
+                return "Checks: " + counter + "\n" + position.Element.ToString();
+            }
+            if (cmp > 0)
+            {
+                return Find(position.LeftChild, element, counter);
+            }
+            if (cmp < 0)
+            {
+                return Find(position.RightChild, element, counter);
+            }
+
+            return Find(position.CenterChild, element, counter);
+        }
+
         class Position<T> where T : IElement
         {
             public Position(T element)

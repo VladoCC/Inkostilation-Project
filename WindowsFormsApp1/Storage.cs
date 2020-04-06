@@ -28,5 +28,7 @@ namespace WinFormsApp1
         public abstract bool Remove(int index, V element);
 
         public abstract V[] ToArray();
+
+        public abstract string Find(int index, V element);
     }
 }

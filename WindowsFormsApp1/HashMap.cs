@@ -40,5 +40,11 @@ namespace WinFormsApp1
             int index = _function.Hash(element.GetKey());
             return _storage.Remove(index, element);
         }
+
+        public string Find(V element)
+        {
+            int index = _function.Hash(element.GetKey());
+            return _storage.Find(index, element);
+        }
     }
 }

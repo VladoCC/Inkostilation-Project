@@ -73,6 +73,27 @@ namespace WinFormsApp1
             }
             return arr;
         }
+        
+        public override string Find(int index, V element)
+        {
+            Position<V> position = array[index];
+            return Find(position, element, 0);
+        }
+
+        private string Find(Position<V> position, V element, int counter)
+        {
+            if (position == null)
+            {
+                return "Not found";
+            }
+            counter++;
+            if (position.Element.Compare(element) == 0)
+            {
+                return "Checks: " + counter + "\n" + position.Element.ToString();
+            }
+
+            return Find(position.Next, element, counter);
+        }
 
         private class Position<T> where T : IElement
         {

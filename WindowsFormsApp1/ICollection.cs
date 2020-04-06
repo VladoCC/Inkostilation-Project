@@ -15,5 +15,7 @@ namespace WinFormsApp1
         void Add(T element);
 
         bool Remove(T element);
+
+        string Find(T element);
     }
 }
