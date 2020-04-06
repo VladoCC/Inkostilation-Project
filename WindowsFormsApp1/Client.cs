@@ -25,5 +25,11 @@ namespace WindowsFormsApp1
             Client client = (Client) elem;
             return _cardNumber - client._cardNumber;
         }
+
+        public int CardNumber => _cardNumber;
+
+        public int BankNumber => _bankNumber;
+
+        public string Name => _name;
     }
 }

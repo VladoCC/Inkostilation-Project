@@ -32,5 +32,13 @@ namespace WindowsFormsApp1
                             + _receiverBank + "\nPercent: " + _percent + "%";
             return result;
         }
+
+        public int OperationType => _operationType;
+
+        public int SenderBank => _senderBank;
+
+        public int ReceiverBank => _receiverBank;
+
+        public int Percent1 => _percent;
     }
 }
