@@ -32,6 +32,7 @@
         <e p="DoubleHashStorage.cs" t="Include" />
         <e p="GUI.cs" t="Include" />
         <e p="GUI.Designer.cs" t="Include" />
+        <e p="GUI.resx" t="Include" />
         <e p="HashFunction.cs" t="Include" />
         <e p="HashMap.cs" t="Include" />
         <e p="ICollection.cs" t="Include" />

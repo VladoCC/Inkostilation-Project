@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using WinFormsApp1;
 
 namespace WindowsFormsApp1
@@ -15,9 +18,16 @@ namespace WindowsFormsApp1
 
         public static Database GetInstance(string filePath = null)
         {
-            if (_instance == null || filePath != null)
+            if (filePath != null)
             {
-                _instance = new Database(filePath);
+                IFormatter formatter = new BinaryFormatter();  
+                Stream stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);  
+                _instance = (Database) formatter.Deserialize(stream);  
+                stream.Close();  
+            }
+            else if (_instance == null)
+            {
+                _instance = new Database(null);
             }
             return _instance;
         }
@@ -34,6 +44,14 @@ namespace WindowsFormsApp1
             {
                 //TODO load from file
             }
+        }
+
+        public void Save(string filePath)
+        {
+            IFormatter formatter = new BinaryFormatter();  
+            Stream stream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.None);  
+            formatter.Serialize(stream, this);  
+            stream.Close();  
         }
 
         public void AddClient(Client client)
@@ -74,6 +92,26 @@ namespace WindowsFormsApp1
         public bool RemovePercent(Percent percent)
         {
             return _percents.Remove(percent);
+        }
+        
+        public string FindClient(Client client)
+        {
+            return _clients.Find(client);
+        }
+
+        public string FindMachine(Machine machine)
+        {
+            return _machines.Find(machine);
+        }
+
+        public string FindOperation(Operation operation)
+        {
+            return _operations.Find(operation);
+        }
+
+        public string FindPercent(Percent percent)
+        {
+            return _percents.Find(percent);
         }
         
         public string Consistence()
