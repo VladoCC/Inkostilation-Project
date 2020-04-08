@@ -8,6 +8,7 @@ using System.Drawing;
 
 namespace WinFormsApp1
 {
+    [Serializable]
     public class ListStorage<K, V> : Storage<K, V> where V : IKeyedElement<K>
     {
         private Position<V>[] array;
@@ -95,6 +96,7 @@ namespace WinFormsApp1
             return Find(position.Next, element, counter);
         }
 
+        [Serializable]
         private class Position<T> where T : IElement
         {
             private Position<T> _next;

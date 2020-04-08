@@ -1,5 +1,8 @@
-﻿namespace WindowsFormsApp1
+﻿using System;
+
+namespace WindowsFormsApp1
 {
+    [Serializable]
     public class SizeContainer
     {
         private int _size;

@@ -3,6 +3,7 @@ using WinFormsApp1;
 
 namespace WindowsFormsApp1
 {
+    [Serializable]
     public class Operation: IElement
     {
         private int _operationType;

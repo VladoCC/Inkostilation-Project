@@ -7,6 +7,7 @@ using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
+    [Serializable]
     public abstract class HashFunction<T>
     {
         private SizeContainer _size;

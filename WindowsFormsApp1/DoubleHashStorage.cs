@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1
 {
+    [Serializable]
     public class DoubleHashStorage<K, V> : Storage<K, V> where V : IKeyedElement<K>
     {
         private HashFunction<K> _function;

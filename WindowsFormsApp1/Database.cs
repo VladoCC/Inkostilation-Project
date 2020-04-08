@@ -114,6 +114,26 @@ namespace WindowsFormsApp1
             return _percents.Find(percent);
         }
         
+        public int ClientSize()
+        {
+            return _clients.Size();
+        }
+
+        public int MachineSize()
+        {
+            return _machines.Size();
+        }
+
+        public int OperationSize()
+        {
+            return _operations.Size();
+        }
+
+        public int PercentSize()
+        {
+            return _percents.Size();
+        }
+        
         public string Consistence()
         {
             string errors = "";

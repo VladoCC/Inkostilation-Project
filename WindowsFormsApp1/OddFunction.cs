@@ -1,7 +1,9 @@
-﻿using WinFormsApp1;
+﻿using System;
+using WinFormsApp1;
 
 namespace WindowsFormsApp1
 {
+    [Serializable]
     public class OddFunction: HashFunction<int>
     {
         public override int Hash(int key)

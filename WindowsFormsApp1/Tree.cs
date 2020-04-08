@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1
 {
-
+    [Serializable]
     public class Tree<T> : ICollection<T> where T : IElement
     {
         private Position<T> _root;
@@ -224,6 +224,7 @@ namespace WinFormsApp1
             return Find(position.CenterChild, element, counter);
         }
 
+        [Serializable]
         class Position<T> where T : IElement
         {
             public Position(T element)

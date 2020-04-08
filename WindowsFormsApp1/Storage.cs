@@ -7,6 +7,7 @@ using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
+    [Serializable]
     public abstract class Storage<K, V> where V : IKeyedElement<K>
     {
         private SizeContainer _size;
