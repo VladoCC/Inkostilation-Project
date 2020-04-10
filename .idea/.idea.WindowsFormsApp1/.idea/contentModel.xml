@@ -53,6 +53,7 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="RB.cs" t="Include" />
         <e p="SizeContainer.cs" t="Include" />
         <e p="Storage.cs" t="Include" />
         <e p="Tree.cs" t="Include" />

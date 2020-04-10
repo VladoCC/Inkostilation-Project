@@ -61,6 +61,7 @@
     <Compile Include="IElement.cs" />
     <Compile Include="HashFunction.cs" />
     <Compile Include="IKeyedElement.cs" />
+    <Compile Include="RB.cs" />
     <Compile Include="Storage.cs" />
     <Compile Include="ListStorage.cs" />
     <Compile Include="Machine.cs" />
