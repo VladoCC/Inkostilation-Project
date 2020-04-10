@@ -27,23 +27,19 @@ namespace WindowsFormsApp1
             }
             else if (_instance == null)
             {
-                _instance = new Database(null);
+                _instance = new Database();
             }
             return _instance;
         }
 
         public static Database GetNewInstance()
         {
-            _instance = new Database(null);
+            _instance = new Database();
             return _instance;
         }
         
-        private Database(string filePath)
+        private Database()
         {
-            if (filePath != null)
-            {
-                //TODO load from file
-            }
         }
 
         public void Save(string filePath)
@@ -132,6 +128,36 @@ namespace WindowsFormsApp1
         public int PercentSize()
         {
             return _percents.Size();
+        }
+        
+        public Client[] ClientArray()
+        {
+            return _clients.ToArray();
+        }
+
+        public Machine[] MachineArray()
+        {
+            return _machines.ToArray();
+        }
+
+        public Operation[] OperationArray()
+        {
+            return _operations.ToArray();
+        }
+
+        public Percent[] PercentArray()
+        {
+            return _percents.ToArray();
+        }
+
+        public HashFunction<int> ClientsFunction()
+        {
+            return _clients.Function;
+        }
+        
+        public HashFunction<int> MachinesFunction()
+        {
+            return _machines.Function;
         }
         
         public string Consistence()
