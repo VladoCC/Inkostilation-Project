@@ -149,6 +149,16 @@ namespace WindowsFormsApp1
         {
             return _percents.ToArray();
         }
+
+        public HashFunction<int> ClientsFunction()
+        {
+            return _clients.Function;
+        }
+        
+        public HashFunction<int> MachinesFunction()
+        {
+            return _machines.Function;
+        }
         
         public string Consistence()
         {

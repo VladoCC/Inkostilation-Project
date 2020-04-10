@@ -47,5 +47,7 @@ namespace WinFormsApp1
             int index = _function.Hash(element.GetKey());
             return _storage.Find(index, element);
         }
+
+        public HashFunction<K> Function => _function;
     }
 }
