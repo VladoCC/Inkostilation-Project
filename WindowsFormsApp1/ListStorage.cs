@@ -63,16 +63,22 @@ namespace WinFormsApp1
 
         public override V[] ToArray()
         {
-            V[] arr = new V[GetSize()];
-            int pos = 0;
-            foreach (var v in array)
+            if (GetSize() > 0)
             {
-                if (v != null)
+                V[] arr = new V[GetSize()];
+                int pos = 0;
+                foreach (var v in array)
                 {
-                    pos = v.FillArray(arr, pos);
+                    if (v != null)
+                    {
+                        pos = v.FillArray(arr, pos);
+                    }
                 }
+
+                return arr;
             }
-            return arr;
+
+            return null;
         }
         
         public override string Find(int index, V element)
