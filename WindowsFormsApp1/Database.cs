@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
         {
             _clients.Add(client);
             string con = Consistence();
-            if (con != "Database is consistent")
+            if (con != "База данных совместима")
             {
                 _clients.Remove(client);
             }
@@ -70,7 +70,7 @@ namespace WindowsFormsApp1
         {
             _machines.Add(machine);
             string con = Consistence();
-            if (con != "Database is consistent")
+            if (con != "База данных совместима")
             {
                 _machines.Remove(machine);
             }
@@ -81,7 +81,7 @@ namespace WindowsFormsApp1
         {
             _operations.Add(operation);
             string con = Consistence();
-            if (con != "Database is consistent")
+            if (con != "База данных совместима")
             {
                 _operations.Remove(operation);
             }
@@ -92,7 +92,7 @@ namespace WindowsFormsApp1
         {
             _percents.Add(percent);
             string con = Consistence();
-            if (con != "Database is consistent")
+            if (con != "База данных совместима")
             {
                 _percents.Remove(percent);
             }
@@ -210,15 +210,15 @@ namespace WindowsFormsApp1
                     if (!found)
                     {
                         count++;
-                        errors += "Percent with operation type " + percent.OperationType +
-                                  " not matching any operation\n";
+                        errors += "Процент с операцией " + percent.OperationType +
+                                  " не соответствует ни одной операции\n";
                     }
                 }
             }
             else if (_percents.Size() > 0 && _operations.Size() == 0)
             {
                 count++;
-                errors += "Percent can't exist without at least one operation\n";
+                errors += "Процент не может существовать без хотя бы одной операции\n";
             }
 
             errors += "\n";
@@ -240,14 +240,14 @@ namespace WindowsFormsApp1
                     if (!found)
                     {
                         count++;
-                        errors += "Operation with card number " + operation.CardNumber + " not matching any client\n";
+                        errors += "Операция с номером карты " + operation.CardNumber + " не соответствует ни одному клиенту\n";
                     }
                 }
             }
             else if (_operations.Size() > 0 && _clients.Size() == 0)
             {
                 count++;
-                errors += "Operation can't exist without at least one client\n";
+                errors += "Операция не может существовать без хотя бы одного клиента\n";
             }
 
             errors += "\n";
@@ -269,20 +269,20 @@ namespace WindowsFormsApp1
                     if (!found)
                     {
                         count++;
-                        errors += "Operation with machine number " + operation.MachineNumber +
-                                  " not matching any machine\n";
+                        errors += "Операция с номером банкомата " + operation.MachineNumber +
+                                  " не соответствует ни одному банкомату\n";
                     }
                 }
             }
             else if (_operations.Size() > 0 && _machines.Size() == 0)
             {
                 count++;
-                errors += "Operation can't exist without at least one machine\n";
+                errors += "Операция не может существовать без хотя бы одного банкомата\n";
             }
 
             if (count == 0)
             {
-                return "Database is consistent";
+                return "База данных совместима";
             }
 
             return errors;

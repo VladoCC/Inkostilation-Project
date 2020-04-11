@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
             Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
                 Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
             string tempstring = myDatabase.AddMachine(NewMachine);
-            if (tempstring == "")
+            if (tempstring == "База данных совместима")
             {
                 HashFunction<int> myHashFunction1 = myDatabase.MachinesFunction();
                 dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction1.Hash(NewMachine.GetKey());
@@ -47,8 +47,8 @@ namespace WindowsFormsApp1
                 dataGridView1.Rows.RemoveAt(NumRows1);
                 NumRows1 -= 1;
                 ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.ShowDialog();
                 ErrorWindow.label1.Text = tempstring;
+                ErrorWindow.ShowDialog();
             }
         }
 
@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
             Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
                 Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
             string tempstring = myDatabase.AddClient(NewClient);
-            if (tempstring == "")
+            if (tempstring == "База данных совместима")
             {
                 HashFunction<int> myHashFunction2 = myDatabase.ClientsFunction();
                 dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction2.Hash(NewClient.GetKey());
@@ -74,8 +74,8 @@ namespace WindowsFormsApp1
                 dataGridView3.Rows.RemoveAt(NumRows2);
                 NumRows2 -= 1;
                 ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.ShowDialog();
                 ErrorWindow.label1.Text = tempstring;
+                ErrorWindow.ShowDialog();
             }
         }
 
@@ -94,7 +94,7 @@ namespace WindowsFormsApp1
                 Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
                 Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
             string tempstring = myDatabase.AddPercent(NewPercent);
-            if (tempstring == "")
+            if (tempstring == "База данных совместима")
             {
 
             }
@@ -103,8 +103,8 @@ namespace WindowsFormsApp1
                 dataGridView2.Rows.RemoveAt(NumRows3);
                 NumRows3 -= 1;
                 ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.ShowDialog();
                 ErrorWindow.label1.Text = tempstring;
+                ErrorWindow.ShowDialog();
             }
         }
 
@@ -123,7 +123,7 @@ namespace WindowsFormsApp1
                 Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
                 Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
             string tempstring = myDatabase.AddOperation(NewOperation);
-            if (tempstring == "")
+            if (tempstring == "База данных совместима")
             {
 
             }
@@ -132,8 +132,8 @@ namespace WindowsFormsApp1
                 dataGridView4.Rows.RemoveAt(NumRows4);
                 NumRows4 -= 1;
                 ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.ShowDialog();
                 ErrorWindow.label1.Text = tempstring;
+                ErrorWindow.ShowDialog();
             }
         }
     }
