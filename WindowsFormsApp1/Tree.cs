@@ -14,9 +14,14 @@ namespace WinFormsApp1
 
         public T[] ToArray()
         {
-            T[] arr = new T[_size];
-            FillArray(arr, 0, _root);
-            return arr;
+            if (Size() > 0)
+            {
+                T[] arr = new T[_size];
+                FillArray(arr, 0, _root);
+                return arr;
+            }
+
+            return null;
         }
 
         private int FillArray(T[] arr, int index, Position<T> pos)

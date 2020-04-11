@@ -10,11 +10,11 @@ namespace WindowsFormsApp1
     public class Database
     {
         private static Database _instance;
-        
-        private HashMap<int, Client> _clients = new HashMap<int, Client>(new ModFunction(), new DoubleHashStorage<int, Client>(new OddFunction()));
-        private HashMap<int, Machine> _machines = new HashMap<int, Machine>(new ModFunction(), new ListStorage<int, Machine>());
-        private Tree<Operation> _operations = new Tree<Operation>();
-        private Tree<Percent> _percents = new Tree<Percent>();
+
+        private HashMap<int, Client> _clients;
+        private HashMap<int, Machine> _machines;
+        private Tree<Operation> _operations;
+        private Tree<Percent> _percents;
 
         public static Database GetInstance(string filePath = null)
         {
@@ -40,6 +40,10 @@ namespace WindowsFormsApp1
         
         private Database()
         {
+            _percents = new Tree<Percent>();
+            _operations = new Tree<Operation>();
+            _machines = new HashMap<int, Machine>(new ModFunction(), new ListStorage<int, Machine>());
+            _clients = new HashMap<int, Client>(new ModFunction(), new DoubleHashStorage<int, Client>(new OddFunction()));
         }
 
         public void Save(string filePath)
@@ -188,66 +192,91 @@ namespace WindowsFormsApp1
         {
             string errors = "";
             int count = 0;
-            foreach (Percent percent in _percents.ToArray())
+            if (_percents.Size() > 0 && _operations.Size() > 0)
             {
-                bool found = false;
+                foreach (Percent percent in _percents.ToArray())
+                {
+                    bool found = false;
+                    foreach (Operation operation in _operations.ToArray())
+                    {
+                        if (percent.OperationType == operation.OperationType)
+                        {
+                            found = true;
+                            break;
+                        }
+                    }
+
+                    if (!found)
+                    {
+                        count++;
+                        errors += "Percent with operation type " + percent.OperationType +
+                                  " not matching any operation\n";
+                    }
+                }
+            }
+            else if (_percents.Size() > 0 && _operations.Size() == 0)
+            {
+                count++;
+                errors += "Percent can't exist without at least one operation\n";
+            }
+
+            errors += "\n";
+
+            if (_operations.Size() > 0 && _clients.Size() > 0)
+            {
                 foreach (Operation operation in _operations.ToArray())
                 {
-                    if (percent.OperationType == operation.OperationType)
+                    bool found = false;
+                    foreach (Client client in _clients.ToArray())
                     {
-                        found = true;
-                        break;
+                        if (operation.CardNumber == client.CardNumber)
+                        {
+                            found = true;
+                            break;
+                        }
+                    }
+
+                    if (!found)
+                    {
+                        count++;
+                        errors += "Operation with card number " + operation.CardNumber + " not matching any client\n";
                     }
                 }
-
-                if (!found)
-                {
-                    count++;
-                    errors += "Percent with operation type " + percent.OperationType + " not matching any operation\n";
-                }
+            }
+            else if (_operations.Size() > 0 && _clients.Size() == 0)
+            {
+                count++;
+                errors += "Operation can't exist without at least one client\n";
             }
 
             errors += "\n";
 
-            foreach (Operation operation in _operations.ToArray())
+            if (_operations.Size() > 0 && _machines.Size() > 0)
             {
-                bool found = false;
-                foreach (Client client in _clients.ToArray())
+                foreach (Operation operation in _operations.ToArray())
                 {
-                    if (operation.CardNumber == client.CardNumber)
+                    bool found = false;
+                    foreach (Machine machine in _machines.ToArray())
                     {
-                        found = true;
-                        break;
+                        if (operation.MachineNumber == machine.MachineNumber)
+                        {
+                            found = true;
+                            break;
+                        }
                     }
-                }
 
-                if (!found)
-                {
-                    count++;
-                    errors += "Operation with card number " + operation.CardNumber + " not matching any client\n";
+                    if (!found)
+                    {
+                        count++;
+                        errors += "Operation with machine number " + operation.MachineNumber +
+                                  " not matching any machine\n";
+                    }
                 }
             }
-
-            errors += "\n";
-
-            foreach (Operation operation in _operations.ToArray())
+            else if (_operations.Size() > 0 && _machines.Size() == 0)
             {
-                bool found = false;
-                foreach (Machine machine in _machines.ToArray())
-                {
-                    if (operation.MachineNumber == machine.MachineNumber)
-                    {
-                        found = true;
-                        break;
-                    }
-                }
-
-                if (!found)
-                {
-                    count++;
-                    errors += "Operation with machine number " + operation.MachineNumber +
-                              " not matching any machine\n";
-                }
+                count++;
+                errors += "Operation can't exist without at least one machine\n";
             }
 
             if (count == 0)
