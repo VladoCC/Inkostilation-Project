@@ -14,8 +14,7 @@ namespace WindowsFormsApp1
         /// </summary>
         [STAThread]
         static void Main()
-        {
-            string s = Database.GetInstance().AddClient(new Client(1, 1, "v"));
+        { 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new GUI());

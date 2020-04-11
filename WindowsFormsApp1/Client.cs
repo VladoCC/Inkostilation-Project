@@ -7,13 +7,13 @@ namespace WindowsFormsApp1
     public class Client: IKeyedElement<int>
     {
         private int _cardNumber;
-        private int _bankNumber;
+        private string _bankName;
         private string _name;
 
-        public Client(int cardNumber, int bankNumber, string name)
+        public Client(int cardNumber, string bankName, string name)
         {
             _cardNumber = cardNumber;
-            _bankNumber = bankNumber;
+            _bankName = bankName;
             _name = name;
         }
 
@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
 
         public int CardNumber => _cardNumber;
 
-        public int BankNumber => _bankNumber;
+        public string BankName => _bankName;
 
         public string Name => _name;
     }
