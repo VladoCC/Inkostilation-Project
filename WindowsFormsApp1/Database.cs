@@ -50,24 +50,48 @@ namespace WindowsFormsApp1
             stream.Close();  
         }
 
-        public void AddClient(Client client)
+        public string AddClient(Client client)
         {
             _clients.Add(client);
+            string con = Consistence();
+            if (con != "Database is consistent")
+            {
+                _clients.Remove(client);
+            }
+            return con;
         }
 
-        public void AddMachine(Machine machine)
+        public string AddMachine(Machine machine)
         {
             _machines.Add(machine);
+            string con = Consistence();
+            if (con != "Database is consistent")
+            {
+                _machines.Remove(machine);
+            }
+            return con;
         }
 
-        public void AddOperation(Operation operation)
+        public string AddOperation(Operation operation)
         {
             _operations.Add(operation);
+            string con = Consistence();
+            if (con != "Database is consistent")
+            {
+                _operations.Remove(operation);
+            }
+            return con;
         }
 
-        public void AddPercent(Percent percent)
+        public string AddPercent(Percent percent)
         {
             _percents.Add(percent);
+            string con = Consistence();
+            if (con != "Database is consistent")
+            {
+                _percents.Remove(percent);
+            }
+            return con;
         }
         
         public bool RemoveClient(Client client)
