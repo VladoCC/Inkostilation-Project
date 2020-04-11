@@ -30,11 +30,20 @@
         <e p="Client.cs" t="Include" />
         <e p="Database.cs" t="Include" />
         <e p="DoubleHashStorage.cs" t="Include" />
+        <e p="ErrorForm.cs" t="Include" />
+        <e p="ErrorForm.Designer.cs" t="Include" />
+        <e p="ErrorForm.resx" t="Include" />
         <e p="GUI.cs" t="Include" />
         <e p="GUI.Designer.cs" t="Include" />
         <e p="GUI.resx" t="Include" />
         <e p="HashFunction.cs" t="Include" />
         <e p="HashMap.cs" t="Include" />
+        <e p="HashMap1Dialog.cs" t="Include" />
+        <e p="HashMap1Dialog.Designer.cs" t="Include" />
+        <e p="HashMap1Dialog.resx" t="Include" />
+        <e p="HashMap2Dialog.cs" t="Include" />
+        <e p="HashMap2Dialog.Designer.cs" t="Include" />
+        <e p="HashMap2Dialog.resx" t="Include" />
         <e p="ICollection.cs" t="Include" />
         <e p="IElement.cs" t="Include" />
         <e p="IKeyedElement.cs" t="Include" />
@@ -53,10 +62,15 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
-        <e p="RB.cs" t="Include" />
         <e p="SizeContainer.cs" t="Include" />
         <e p="Storage.cs" t="Include" />
         <e p="Tree.cs" t="Include" />
+        <e p="Tree1Dialog.cs" t="Include" />
+        <e p="Tree1Dialog.Designer.cs" t="Include" />
+        <e p="Tree1Dialog.resx" t="Include" />
+        <e p="Tree2Dialog.cs" t="Include" />
+        <e p="Tree2Dialog.Designer.cs" t="Include" />
+        <e p="Tree2Dialog.resx" t="Include" />
         <e p="WindowsFormsApp1.csproj" t="IncludeRecursive" />
       </e>
       <e p="WindowsFormsApp1.sln" t="IncludeFlat" />
