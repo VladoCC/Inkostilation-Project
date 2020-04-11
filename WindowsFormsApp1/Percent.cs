@@ -7,11 +7,11 @@ namespace WindowsFormsApp1
     public class Percent: IElement
     {
         private int _operationType;
-        private int _senderBank;
-        private int _receiverBank;
+        private string _senderBank;
+        private string _receiverBank;
         private int _percent;
 
-        public Percent(int operationType, int senderBank, int receiverBank, int percent)
+        public Percent(int operationType, string senderBank, string receiverBank, int percent)
         {
             _operationType = operationType;
             _senderBank = senderBank;
@@ -36,9 +36,9 @@ namespace WindowsFormsApp1
 
         public int OperationType => _operationType;
 
-        public int SenderBank => _senderBank;
+        public string SenderBank => _senderBank;
 
-        public int ReceiverBank => _receiverBank;
+        public string ReceiverBank => _receiverBank;
 
         public int Percent1 => _percent;
     }

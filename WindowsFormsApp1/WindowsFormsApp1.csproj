@@ -54,6 +54,18 @@
     <Compile Include="HashMap1Dialog.Designer.cs">
       <DependentUpon>HashMap1Dialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="HashMap2Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HashMap2Dialog.Designer.cs">
+      <DependentUpon>HashMap2Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tree1Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tree1Dialog.Designer.cs">
+      <DependentUpon>Tree1Dialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModFunction.cs" />
     <Compile Include="DoubleHashStorage.cs" />
     <Compile Include="GUI.cs">
@@ -67,7 +79,6 @@
     <Compile Include="IElement.cs" />
     <Compile Include="HashFunction.cs" />
     <Compile Include="IKeyedElement.cs" />
-    <Compile Include="RB.cs" />
     <Compile Include="Storage.cs" />
     <Compile Include="ListStorage.cs" />
     <Compile Include="Machine.cs" />
@@ -83,6 +94,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HashMap1Dialog.resx">
       <DependentUpon>HashMap1Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HashMap2Dialog.resx">
+      <DependentUpon>HashMap2Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tree1Dialog.resx">
+      <DependentUpon>Tree1Dialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
