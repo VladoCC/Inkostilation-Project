@@ -96,7 +96,7 @@ namespace TestProject2
             database.AddMachine(machine2);
             database.AddMachine(machine3);
             
-            Operation operation = new Operation(1, 1, 1, 1);
+            Operation operation = new Operation("1", 1, 1, 1);
             database.AddOperation(operation);
             
             database.Save("test.bin");

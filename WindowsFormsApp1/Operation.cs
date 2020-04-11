@@ -6,12 +6,12 @@ namespace WindowsFormsApp1
     [Serializable]
     public class Operation: IElement
     {
-        private int _operationType;
+        private string _operationType;
         private int _cardNumber;
         private int _machineNumber;
         private int _sum;
 
-        public Operation(int operationType, int cardNumber, int machineNumber, int sum)
+        public Operation(string operationType, int cardNumber, int machineNumber, int sum)
         {
             _operationType = operationType;
             _cardNumber = cardNumber;
@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             return result;
         }
 
-        public int OperationType => _operationType;
+        public string OperationType => _operationType;
 
         public int CardNumber => _cardNumber;
 

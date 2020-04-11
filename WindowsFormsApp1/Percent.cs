@@ -6,12 +6,12 @@ namespace WindowsFormsApp1
     [Serializable]
     public class Percent: IElement
     {
-        private int _operationType;
+        private string _operationType;
         private string _senderBank;
         private string _receiverBank;
         private int _percent;
 
-        public Percent(int operationType, string senderBank, string receiverBank, int percent)
+        public Percent(string operationType, string senderBank, string receiverBank, int percent)
         {
             _operationType = operationType;
             _senderBank = senderBank;
@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             return result;
         }
 
-        public int OperationType => _operationType;
+        public string OperationType => _operationType;
 
         public string SenderBank => _senderBank;
 
