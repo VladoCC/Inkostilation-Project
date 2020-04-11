@@ -43,7 +43,8 @@ namespace WindowsFormsApp1
             _percents = new Tree<Percent>();
             _operations = new Tree<Operation>();
             _machines = new HashMap<int, Machine>(new ModFunction(), new ListStorage<int, Machine>());
-            _clients = new HashMap<int, Client>(new ModFunction(), new DoubleHashStorage<int, Client>(new OddFunction()));
+            ModFunction function = new ModFunction();
+            _clients = new HashMap<int, Client>(function, new DoubleHashStorage<int, Client>(new OddFunction(), function));
         }
 
         public void Save(string filePath)

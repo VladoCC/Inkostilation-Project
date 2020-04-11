@@ -9,15 +9,17 @@ namespace WinFormsApp1
     [Serializable]
     public class DoubleHashStorage<K, V> : Storage<K, V> where V : IKeyedElement<K>
     {
-        private HashFunction<K> _function;
+        private HashFunction<K> _mainFunction;
+        private HashFunction<K> _outsideFunction;
         private V[] _array = new V[16];
         private bool[] _deleted = new bool[16];
         private int _size = 0;
 
-        public DoubleHashStorage(HashFunction<K> function): base(16)
+        public DoubleHashStorage(HashFunction<K> mainFunction, HashFunction<K> outsideFunction): base(16)
         {
-            _function = function;
-            _function.SetSize(base.SizeContainer());
+            _mainFunction = mainFunction;
+            _mainFunction.SetSize(base.SizeContainer());
+            _outsideFunction = outsideFunction;
             for (int i = 0; i < 16; i++)
             {
                 _deleted[i] = false;
@@ -34,7 +36,7 @@ namespace WinFormsApp1
             bool found = false;
             for (int i = 0; i < _array.Length; i++)
             {
-                int realIndex = (index + i * _function.Hash(element.GetKey())) % _array.Length;
+                int realIndex = (index + i * _mainFunction.Hash(element.GetKey())) % _array.Length;
                 if (_array[realIndex] == null || _deleted[realIndex])
                 {
                     _array[realIndex] = element;
@@ -59,21 +61,25 @@ namespace WinFormsApp1
         {
             V[] newArray = new V[_array.Length * 2];
             bool[] newDeleted = new bool[_deleted.Length * 2];
-            for (int i = 0; i < _array.Length; i++)
+            V[] arr = ToArray();
+            for (int i = 0; i < newDeleted.Length; i++)
             {
-                newArray[i] = _array[i];
-                newDeleted[i] = _deleted[i];
+                newDeleted[i] = false;
             }
             _array = newArray;
             _deleted = newDeleted;
             base.SizeContainer().Size = newArray.Length;
+            foreach (V element in arr)
+            {
+                Add(_outsideFunction.Hash(element.GetKey()), element);
+            }
         }
 
         public override bool Remove(int index, V element)
         {
             for (int i = 0; i < _array.Length; i++)
             {
-                int realIndex = (index + i * _function.Hash(element.GetKey())) % _array.Length;
+                int realIndex = (index + i * _mainFunction.Hash(element.GetKey())) % _array.Length;
                 if (_array[realIndex].Compare(element) == 0 && !_deleted[realIndex])
                 {
                     _deleted[realIndex] = true;
@@ -114,7 +120,7 @@ namespace WinFormsApp1
         {
             for (int i = 0; i < _array.Length; i++)
             {
-                int realIndex = (index + i * _function.Hash(element.GetKey())) % _array.Length;
+                int realIndex = (index + i * _mainFunction.Hash(element.GetKey())) % _array.Length;
                 if (_array[realIndex].Compare(element) == 0 && !_deleted[realIndex])
                 {
                     return "Checks: " + (i + 1) + "\n" + _array[realIndex].ToString();
