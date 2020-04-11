@@ -54,14 +54,14 @@
             this.textBox1.Location = new System.Drawing.Point(129, 63);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(129, 89);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 2;
+            this.textBox2.TabIndex = 4;
             // 
             // label2
             // 
@@ -69,7 +69,7 @@
             this.label2.Location = new System.Drawing.Point(43, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
-            this.label2.TabIndex = 4;
+            this.label2.TabIndex = 1;
             this.label2.Text = "Номер";
             // 
             // label3
@@ -78,7 +78,7 @@
             this.label3.Location = new System.Drawing.Point(46, 92);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 5;
+            this.label3.TabIndex = 3;
             this.label3.Text = "Адрес";
             // 
             // button1
@@ -86,7 +86,7 @@
             this.button1.Location = new System.Drawing.Point(75, 153);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 27);
-            this.button1.TabIndex = 6;
+            this.button1.TabIndex = 7;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -97,7 +97,7 @@
             this.label4.Location = new System.Drawing.Point(22, 118);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 13);
-            this.label4.TabIndex = 7;
+            this.label4.TabIndex = 5;
             this.label4.Text = "Название банка";
             // 
             // textBox3
@@ -105,7 +105,7 @@
             this.textBox3.Location = new System.Drawing.Point(129, 115);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
+            this.textBox3.TabIndex = 6;
             // 
             // HashMap1Dialog
             // 

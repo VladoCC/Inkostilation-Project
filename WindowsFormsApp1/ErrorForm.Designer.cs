@@ -35,10 +35,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(221, 118);
+            this.button1.Location = new System.Drawing.Point(239, 118);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 27);
-            this.button1.TabIndex = 32;
+            this.button1.TabIndex = 1;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -50,7 +50,7 @@
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 13);
-            this.label1.TabIndex = 27;
+            this.label1.TabIndex = 0;
             this.label1.Text = "/текст ошибки/";
             // 
             // ErrorForm
@@ -73,7 +73,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
