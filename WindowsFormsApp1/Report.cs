@@ -30,12 +30,26 @@ namespace WindowsFormsApp1
 
         public V[] Data ()
         {
+            if (_root == null)
+            {
+                return null;
+            }
             V[] arr = new V[_root.Size()];
             _root.Fill(arr, 0);
             _sorter.Sort(arr);
             return arr;
         }
 
+        public int DataSize()
+        {
+            if (_root == null)
+            {
+                return 0;
+            }
+
+            return _root.Size();
+        }
+        
         class Container<T> where T: IElement
         {
             private T _element;

@@ -287,5 +287,75 @@ namespace WindowsFormsApp1
 
             return errors;
         }
+
+        public Report<Client, Operation> ClientOperationReport(Client client)
+        {
+            Report<Client, Operation> report = new Report<Client, Operation>(client, new ShellSorter<Operation>());
+            if (_operations.Size() > 0)
+            {
+                foreach (Operation operation in _operations.ToArray())
+                {
+                    if (operation.CardNumber == client.CardNumber)
+                    {
+                        report.Add(operation);
+                    }
+                }
+            }
+            return report;
+        }
+        
+        public Report<Machine, Operation> MachineOperationReport(Machine machine)
+        {
+            Report<Machine, Operation> report = new Report<Machine, Operation>(machine, new QuickStackSorter<Operation>());
+            if (_operations.Size() > 0)
+            {
+                foreach (Operation operation in _operations.ToArray())
+                {
+                    if (operation.MachineNumber == machine.MachineNumber)
+                    {
+                        report.Add(operation);
+                    }
+                }
+            }
+            return report;
+        }
+        
+        public Report<Operation, Percent> OperationPercentReport(Operation operation)
+        {
+            Report<Operation, Percent> report = new Report<Operation, Percent>(operation, new BubbleSorter<Percent>());
+            if (_percents.Size() > 0)
+            {
+                foreach (Percent percent in _percents.ToArray())
+                {
+                    if (percent.OperationType == operation.OperationType)
+                    {
+                        report.Add(percent);
+                    }   
+                }
+            }
+            return report;
+        }
+        
+        public Report<Machine, Percent> MachinePercentReport(Machine machine)
+        {
+            Report<Machine, Percent> report = new Report<Machine, Percent>(machine, new QuickLastSorter<Percent>());
+            if (_percents.Size() > 0 && _operations.Size() > 0)
+            {
+                foreach (Operation operation in _operations.ToArray())
+                {
+                    if (operation.MachineNumber == machine.MachineNumber)
+                    {
+                        foreach (Percent percent in _percents.ToArray())
+                        {
+                            if (percent.OperationType == operation.OperationType && percent.ReceiverBank != machine.BankName)
+                            {
+                                report.Add(percent);
+                            }
+                        }
+                    }
+                }
+            }
+            return report;
+        }
     }
 }
