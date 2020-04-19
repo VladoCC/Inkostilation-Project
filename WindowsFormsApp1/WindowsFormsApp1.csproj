@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BubbleSorter.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="ErrorForm.cs">
@@ -66,6 +67,11 @@
     <Compile Include="HashMap2Dialog.Designer.cs">
       <DependentUpon>HashMap2Dialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuickLastSorter.cs" />
+    <Compile Include="QuickStackSorter.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="ShellSorter.cs" />
+    <Compile Include="ISorter.cs" />
     <Compile Include="Tree1Dialog.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -28,56 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(GUI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.импортироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.Hash1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НомерКарточки = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Банк = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ФИО = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НомерБанкомата = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.СуммаОперации = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView4)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.создатьToolStripMenuItem});
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {this.создатьToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1260, 24);
@@ -87,13 +91,11 @@
             // создатьToolStripMenuItem
             // 
             this.создатьToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьToolStripMenuItem,
-            this.импортироватьToolStripMenuItem,
-            this.сохранитьToolStripMenuItem});
+            this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[]
+                {this.открытьToolStripMenuItem, this.импортироватьToolStripMenuItem, this.сохранитьToolStripMenuItem});
             this.создатьToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
-            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.создатьToolStripMenuItem.Text = "Файл";
             // 
             // открытьToolStripMenuItem
@@ -121,12 +123,10 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Hash,
-            this.Номер,
-            this.Адрес,
-            this.НазваниеБанка});
+            this.dataGridView1.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.Hash, this.Номер, this.Адрес, this.НазваниеБанка});
             this.dataGridView1.Location = new System.Drawing.Point(21, 87);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -135,10 +135,50 @@
             this.dataGridView1.Size = new System.Drawing.Size(300, 464);
             this.dataGridView1.TabIndex = 2;
             // 
+            // Hash
+            // 
+            this.Hash.HeaderText = "Хэш-функция";
+            this.Hash.Name = "Hash";
+            this.Hash.ReadOnly = true;
+            this.Hash.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Hash.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Hash.Width = 82;
+            // 
+            // Номер
+            // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.Номер.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Номер.HeaderText = "Номер";
+            this.Номер.Name = "Номер";
+            this.Номер.ReadOnly = true;
+            this.Номер.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Номер.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Номер.Width = 65;
+            // 
+            // Адрес
+            // 
+            this.Адрес.HeaderText = "Адрес";
+            this.Адрес.Name = "Адрес";
+            this.Адрес.ReadOnly = true;
+            this.Адрес.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Адрес.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Адрес.Width = 75;
+            // 
+            // НазваниеБанка
+            // 
+            this.НазваниеБанка.HeaderText = "Название банка";
+            this.НазваниеБанка.Name = "НазваниеБанка";
+            this.НазваниеБанка.ReadOnly = true;
+            this.НазваниеБанка.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НазваниеБанка.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НазваниеБанка.Width = 75;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label1.Location = new System.Drawing.Point(100, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 25);
@@ -148,7 +188,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label2.Location = new System.Drawing.Point(726, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 25);
@@ -158,7 +199,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label3.Location = new System.Drawing.Point(431, 59);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 25);
@@ -168,7 +210,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label4.Location = new System.Drawing.Point(1028, 59);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 25);
@@ -182,12 +225,10 @@
             this.dataGridView2.AllowUserToResizeColumns = false;
             this.dataGridView2.AllowUserToResizeRows = false;
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Тип,
-            this.Отправитель,
-            this.Получатель,
-            this.Процент});
+            this.dataGridView2.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.Тип, this.Отправитель, this.Получатель, this.Процент});
             this.dataGridView2.Location = new System.Drawing.Point(633, 87);
             this.dataGridView2.MultiSelect = false;
             this.dataGridView2.Name = "dataGridView2";
@@ -196,95 +237,10 @@
             this.dataGridView2.Size = new System.Drawing.Size(300, 464);
             this.dataGridView2.TabIndex = 8;
             // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.AllowUserToResizeColumns = false;
-            this.dataGridView3.AllowUserToResizeRows = false;
-            this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Hash1,
-            this.НомерКарточки,
-            this.Банк,
-            this.ФИО});
-            this.dataGridView3.Location = new System.Drawing.Point(327, 87);
-            this.dataGridView3.MultiSelect = false;
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.RowHeadersVisible = false;
-            this.dataGridView3.Size = new System.Drawing.Size(300, 464);
-            this.dataGridView3.TabIndex = 5;
-            // 
-            // dataGridView4
-            // 
-            this.dataGridView4.AllowUserToAddRows = false;
-            this.dataGridView4.AllowUserToDeleteRows = false;
-            this.dataGridView4.AllowUserToResizeColumns = false;
-            this.dataGridView4.AllowUserToResizeRows = false;
-            this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ТипОперации1,
-            this.НомерКарточки1,
-            this.НомерБанкомата,
-            this.СуммаОперации});
-            this.dataGridView4.Location = new System.Drawing.Point(939, 87);
-            this.dataGridView4.MultiSelect = false;
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.ReadOnly = true;
-            this.dataGridView4.RowHeadersVisible = false;
-            this.dataGridView4.Size = new System.Drawing.Size(300, 464);
-            this.dataGridView4.TabIndex = 11;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(69, 557);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 30);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Добавить запись";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(680, 557);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 30);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Добавить запись";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(384, 557);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 30);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Добавить запись";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(989, 557);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 30);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "Добавить запись";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // Тип
             // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.Тип.DefaultCellStyle = dataGridViewCellStyle2;
             this.Тип.HeaderText = "Тип операции";
             this.Тип.Name = "Тип";
@@ -320,6 +276,25 @@
             this.Процент.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.Процент.Width = 67;
             // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.AllowUserToResizeColumns = false;
+            this.dataGridView3.AllowUserToResizeRows = false;
+            this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView3.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.Hash1, this.НомерКарточки, this.Банк, this.ФИО});
+            this.dataGridView3.Location = new System.Drawing.Point(327, 87);
+            this.dataGridView3.MultiSelect = false;
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.RowHeadersVisible = false;
+            this.dataGridView3.Size = new System.Drawing.Size(300, 464);
+            this.dataGridView3.TabIndex = 5;
+            // 
             // Hash1
             // 
             this.Hash1.HeaderText = "Хэш-функция";
@@ -331,7 +306,8 @@
             // 
             // НомерКарточки
             // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.НомерКарточки.DefaultCellStyle = dataGridViewCellStyle3;
             this.НомерКарточки.HeaderText = "Номер карточки";
             this.НомерКарточки.Name = "НомерКарточки";
@@ -358,47 +334,29 @@
             this.ФИО.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.ФИО.Width = 75;
             // 
-            // Hash
+            // dataGridView4
             // 
-            this.Hash.HeaderText = "Хэш-функция";
-            this.Hash.Name = "Hash";
-            this.Hash.ReadOnly = true;
-            this.Hash.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Hash.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Hash.Width = 82;
-            // 
-            // Номер
-            // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Номер.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Номер.HeaderText = "Номер";
-            this.Номер.Name = "Номер";
-            this.Номер.ReadOnly = true;
-            this.Номер.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Номер.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Номер.Width = 65;
-            // 
-            // Адрес
-            // 
-            this.Адрес.HeaderText = "Адрес";
-            this.Адрес.Name = "Адрес";
-            this.Адрес.ReadOnly = true;
-            this.Адрес.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Адрес.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Адрес.Width = 75;
-            // 
-            // НазваниеБанка
-            // 
-            this.НазваниеБанка.HeaderText = "Название банка";
-            this.НазваниеБанка.Name = "НазваниеБанка";
-            this.НазваниеБанка.ReadOnly = true;
-            this.НазваниеБанка.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НазваниеБанка.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НазваниеБанка.Width = 75;
+            this.dataGridView4.AllowUserToAddRows = false;
+            this.dataGridView4.AllowUserToDeleteRows = false;
+            this.dataGridView4.AllowUserToResizeColumns = false;
+            this.dataGridView4.AllowUserToResizeRows = false;
+            this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView4.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.ТипОперации1, this.НомерКарточки1, this.НомерБанкомата, this.СуммаОперации});
+            this.dataGridView4.Location = new System.Drawing.Point(939, 87);
+            this.dataGridView4.MultiSelect = false;
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.ReadOnly = true;
+            this.dataGridView4.RowHeadersVisible = false;
+            this.dataGridView4.Size = new System.Drawing.Size(300, 464);
+            this.dataGridView4.TabIndex = 11;
             // 
             // ТипОперации1
             // 
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.ТипОперации1.DefaultCellStyle = dataGridViewCellStyle4;
             this.ТипОперации1.HeaderText = "Тип операции";
             this.ТипОперации1.Name = "ТипОперации1";
@@ -434,6 +392,54 @@
             this.СуммаОперации.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.СуммаОперации.Width = 67;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.button1.Location = new System.Drawing.Point(69, 557);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(179, 30);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Добавить запись";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.button2.Location = new System.Drawing.Point(680, 557);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(179, 30);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Добавить запись";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.button3.Location = new System.Drawing.Point(384, 557);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(179, 30);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Добавить запись";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.button4.Location = new System.Drawing.Point(989, 557);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(179, 30);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "Добавить запись";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // GUI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -453,20 +459,19 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inkostilation";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

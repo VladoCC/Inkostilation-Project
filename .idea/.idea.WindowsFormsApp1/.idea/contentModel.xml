@@ -27,6 +27,7 @@
       <e p="WindowsFormsApp1" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BubbleSorter.cs" t="Include" />
         <e p="Client.cs" t="Include" />
         <e p="Database.cs" t="Include" />
         <e p="DoubleHashStorage.cs" t="Include" />
@@ -47,6 +48,7 @@
         <e p="ICollection.cs" t="Include" />
         <e p="IElement.cs" t="Include" />
         <e p="IKeyedElement.cs" t="Include" />
+        <e p="ISorter.cs" t="Include" />
         <e p="ListStorage.cs" t="Include" />
         <e p="Machine.cs" t="Include" />
         <e p="ModFunction.cs" t="Include" />
@@ -62,6 +64,10 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="QuickLastSorter.cs" t="Include" />
+        <e p="QuickStackSorter.cs" t="Include" />
+        <e p="Report.cs" t="Include" />
+        <e p="ShellSorter.cs" t="Include" />
         <e p="SizeContainer.cs" t="Include" />
         <e p="Storage.cs" t="Include" />
         <e p="Tree.cs" t="Include" />
