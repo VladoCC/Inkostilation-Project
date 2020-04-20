@@ -185,9 +185,27 @@ namespace WinFormsApp1
                             _root = position.RightChild;
                         }
                     }
-                    else if (position == _root)
+                    else 
                     {
-                        _root = null;
+                        if (position == _root)
+                        {
+                            _root = null;
+                        }
+                        else
+                        {
+                            if (position.Parent.LeftChild == position)
+                            {
+                                position.Parent.LeftChild = null;
+                            } 
+                            else if (position.Parent.CenterChild == position)
+                            {
+                                position.Parent.CenterChild = null;
+                            }
+                            else
+                            {
+                                position.Parent.RightChild = null;
+                            }
+                        }
                     }
                     return true;
                 }
