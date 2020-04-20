@@ -38,6 +38,11 @@
             this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.импортироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.операцииПоКлиентуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.операцииБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.процентыОперацийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.процентыБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -70,11 +75,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.операцииПоКлиентуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.операцииБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.процентыОперацийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.процентыБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -123,6 +123,41 @@
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
             this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
+            // 
+            // отчётыToolStripMenuItem
+            // 
+            this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.операцииПоКлиентуToolStripMenuItem,
+            this.операцииБанкоматаToolStripMenuItem,
+            this.процентыОперацийToolStripMenuItem,
+            this.процентыБанкоматаToolStripMenuItem});
+            this.отчётыToolStripMenuItem.Name = "отчётыToolStripMenuItem";
+            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.отчётыToolStripMenuItem.Text = "Отчёты";
+            // 
+            // операцииПоКлиентуToolStripMenuItem
+            // 
+            this.операцииПоКлиентуToolStripMenuItem.Name = "операцииПоКлиентуToolStripMenuItem";
+            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.операцииПоКлиентуToolStripMenuItem.Text = "Операции клиента";
+            // 
+            // операцииБанкоматаToolStripMenuItem
+            // 
+            this.операцииБанкоматаToolStripMenuItem.Name = "операцииБанкоматаToolStripMenuItem";
+            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.операцииБанкоматаToolStripMenuItem.Text = "Операции банкомата";
+            // 
+            // процентыОперацийToolStripMenuItem
+            // 
+            this.процентыОперацийToolStripMenuItem.Name = "процентыОперацийToolStripMenuItem";
+            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.процентыОперацийToolStripMenuItem.Text = "Проценты операций";
+            // 
+            // процентыБанкоматаToolStripMenuItem
+            // 
+            this.процентыБанкоматаToolStripMenuItem.Name = "процентыБанкоматаToolStripMenuItem";
+            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.процентыБанкоматаToolStripMenuItem.Text = "Проценты банкомата";
             // 
             // dataGridView1
             // 
@@ -199,10 +234,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(726, 59);
+            this.label2.Location = new System.Drawing.Point(1041, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 25);
-            this.label2.TabIndex = 9;
+            this.label2.TabIndex = 13;
             this.label2.Text = "Процент";
             // 
             // label3
@@ -219,10 +254,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(1028, 59);
+            this.label4.Location = new System.Drawing.Point(719, 59);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 25);
-            this.label4.TabIndex = 13;
+            this.label4.TabIndex = 9;
             this.label4.Text = "Операция";
             // 
             // dataGridView2
@@ -238,14 +273,14 @@
             this.Отправитель,
             this.Получатель,
             this.Процент});
-            this.dataGridView2.Location = new System.Drawing.Point(633, 87);
+            this.dataGridView2.Location = new System.Drawing.Point(939, 87);
             this.dataGridView2.MultiSelect = false;
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView2.Size = new System.Drawing.Size(300, 464);
-            this.dataGridView2.TabIndex = 10;
+            this.dataGridView2.TabIndex = 14;
             this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
             // Тип
@@ -360,14 +395,14 @@
             this.НомерКарточки1,
             this.НомерБанкомата,
             this.СуммаОперации});
-            this.dataGridView4.Location = new System.Drawing.Point(939, 87);
+            this.dataGridView4.Location = new System.Drawing.Point(633, 87);
             this.dataGridView4.MultiSelect = false;
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
             this.dataGridView4.RowHeadersVisible = false;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView4.Size = new System.Drawing.Size(300, 464);
-            this.dataGridView4.TabIndex = 14;
+            this.dataGridView4.TabIndex = 10;
             this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
             // 
             // ТипОперации1
@@ -422,10 +457,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(647, 557);
+            this.button2.Location = new System.Drawing.Point(957, 557);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 30);
-            this.button2.TabIndex = 11;
+            this.button2.TabIndex = 15;
             this.button2.Text = "Добавить";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -444,10 +479,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(957, 557);
+            this.button4.Location = new System.Drawing.Point(647, 557);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(139, 30);
-            this.button4.TabIndex = 15;
+            this.button4.TabIndex = 11;
             this.button4.Text = "Добавить";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -477,10 +512,10 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(792, 557);
+            this.button7.Location = new System.Drawing.Point(1102, 557);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(133, 30);
-            this.button7.TabIndex = 12;
+            this.button7.TabIndex = 16;
             this.button7.Text = "Удалить";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
@@ -488,48 +523,13 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button8.Location = new System.Drawing.Point(1102, 557);
+            this.button8.Location = new System.Drawing.Point(792, 557);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(133, 30);
-            this.button8.TabIndex = 16;
+            this.button8.TabIndex = 12;
             this.button8.Text = "Удалить";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // отчётыToolStripMenuItem
-            // 
-            this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.операцииПоКлиентуToolStripMenuItem,
-            this.операцииБанкоматаToolStripMenuItem,
-            this.процентыОперацийToolStripMenuItem,
-            this.процентыБанкоматаToolStripMenuItem});
-            this.отчётыToolStripMenuItem.Name = "отчётыToolStripMenuItem";
-            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.отчётыToolStripMenuItem.Text = "Отчёты";
-            // 
-            // операцииПоКлиентуToolStripMenuItem
-            // 
-            this.операцииПоКлиентуToolStripMenuItem.Name = "операцииПоКлиентуToolStripMenuItem";
-            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.операцииПоКлиентуToolStripMenuItem.Text = "Операции клиента";
-            // 
-            // операцииБанкоматаToolStripMenuItem
-            // 
-            this.операцииБанкоматаToolStripMenuItem.Name = "операцииБанкоматаToolStripMenuItem";
-            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.операцииБанкоматаToolStripMenuItem.Text = "Операции банкомата";
-            // 
-            // процентыОперацийToolStripMenuItem
-            // 
-            this.процентыОперацийToolStripMenuItem.Name = "процентыОперацийToolStripMenuItem";
-            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.процентыОперацийToolStripMenuItem.Text = "Проценты операций";
-            // 
-            // процентыБанкоматаToolStripMenuItem
-            // 
-            this.процентыБанкоматаToolStripMenuItem.Name = "процентыБанкоматаToolStripMenuItem";
-            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.процентыБанкоматаToolStripMenuItem.Text = "Проценты банкомата";
             // 
             // GUI
             // 
