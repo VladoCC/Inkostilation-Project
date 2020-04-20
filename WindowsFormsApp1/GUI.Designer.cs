@@ -70,6 +70,11 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.операцииПоКлиентуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.операцииБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.процентыОперацийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.процентыБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -81,7 +86,8 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.создатьToolStripMenuItem});
+            this.создатьToolStripMenuItem,
+            this.отчётыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1260, 24);
@@ -490,6 +496,41 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // отчётыToolStripMenuItem
+            // 
+            this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.операцииПоКлиентуToolStripMenuItem,
+            this.операцииБанкоматаToolStripMenuItem,
+            this.процентыОперацийToolStripMenuItem,
+            this.процентыБанкоматаToolStripMenuItem});
+            this.отчётыToolStripMenuItem.Name = "отчётыToolStripMenuItem";
+            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.отчётыToolStripMenuItem.Text = "Отчёты";
+            // 
+            // операцииПоКлиентуToolStripMenuItem
+            // 
+            this.операцииПоКлиентуToolStripMenuItem.Name = "операцииПоКлиентуToolStripMenuItem";
+            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.операцииПоКлиентуToolStripMenuItem.Text = "Операции клиента";
+            // 
+            // операцииБанкоматаToolStripMenuItem
+            // 
+            this.операцииБанкоматаToolStripMenuItem.Name = "операцииБанкоматаToolStripMenuItem";
+            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.операцииБанкоматаToolStripMenuItem.Text = "Операции банкомата";
+            // 
+            // процентыОперацийToolStripMenuItem
+            // 
+            this.процентыОперацийToolStripMenuItem.Name = "процентыОперацийToolStripMenuItem";
+            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.процентыОперацийToolStripMenuItem.Text = "Проценты операций";
+            // 
+            // процентыБанкоматаToolStripMenuItem
+            // 
+            this.процентыБанкоматаToolStripMenuItem.Name = "процентыБанкоматаToolStripMenuItem";
+            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.процентыБанкоматаToolStripMenuItem.Text = "Проценты банкомата";
+            // 
             // GUI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -568,6 +609,11 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.ToolStripMenuItem отчётыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem операцииПоКлиентуToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem операцииБанкоматаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem процентыОперацийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem процентыБанкоматаToolStripMenuItem;
     }
 }
 
