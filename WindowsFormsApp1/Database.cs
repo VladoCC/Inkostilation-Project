@@ -147,6 +147,26 @@ namespace WindowsFormsApp1
             return query;
         }
         
+        public SearchQuery<Client> FindClient(int cardNumber)
+        {
+            return FindClient(new Client(cardNumber, "", ""));
+        }
+
+        public SearchQuery<Machine> FindMachine(int machineNumber)
+        {
+            return FindMachine(new Machine(machineNumber, "", ""));
+        }
+
+        public SearchQuery<Operation> FindOperation(string operationType, int cardNumber, int machineNumber)
+        {
+            return FindOperation(new Operation(operationType, cardNumber, machineNumber, 0));
+        }
+
+        public SearchQuery<Percent> FindPercent( string operationType, string senderBank, string receiverBank)
+        {
+            return FindPercent(new Percent(operationType, senderBank, receiverBank, 0));
+        }
+        
         public int ClientSize()
         {
             return _clients.Size();
