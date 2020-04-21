@@ -30,6 +30,6 @@ namespace WinFormsApp1
 
         public abstract V[] ToArray();
 
-        public abstract string Find(int index, V element);
+        public abstract void Find(int index, KeyedSearchQuery<K, V> keyedQuery);
     }
 }

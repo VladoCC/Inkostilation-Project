@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
@@ -116,21 +117,20 @@ namespace WinFormsApp1
             return null;
         }
 
-        public override string Find(int index, V element)
+        public override void Find(int index, KeyedSearchQuery<K, V> keyedQuery)
         {
             for (int i = 0; i < _array.Length; i++)
             {
-                int realIndex = (index + i * _mainFunction.Hash(element.GetKey())) % _array.Length;
-                if (_array[realIndex].Compare(element) == 0 && !_deleted[realIndex])
+                int realIndex = (index + i * _mainFunction.Hash(keyedQuery.SearchKey())) % _array.Length;
+                if (keyedQuery.Check(_array[realIndex]) == 0 && !_deleted[realIndex])
                 {
-                    return "Checks: " + (i + 1) + "\n" + _array[realIndex].ToString();
+                    return;
                 }
                 if (_array[realIndex] == null)
                 {
-                    return "Not found";
+                    return;
                 }
             }
-            return "Not found";
         }
     }
 }

@@ -49,6 +49,7 @@
         <e p="IElement.cs" t="Include" />
         <e p="IKeyedElement.cs" t="Include" />
         <e p="ISorter.cs" t="Include" />
+        <e p="KeyedSearchQuery.cs" t="Include" />
         <e p="ListStorage.cs" t="Include" />
         <e p="Machine.cs" t="Include" />
         <e p="ModFunction.cs" t="Include" />
@@ -67,6 +68,7 @@
         <e p="QuickLastSorter.cs" t="Include" />
         <e p="QuickStackSorter.cs" t="Include" />
         <e p="Report.cs" t="Include" />
+        <e p="SearchQuery.cs" t="Include" />
         <e p="ShellSorter.cs" t="Include" />
         <e p="SizeContainer.cs" t="Include" />
         <e p="Storage.cs" t="Include" />

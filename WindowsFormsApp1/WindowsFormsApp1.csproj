@@ -67,9 +67,11 @@
     <Compile Include="HashMap2Dialog.Designer.cs">
       <DependentUpon>HashMap2Dialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeyedSearchQuery.cs" />
     <Compile Include="QuickLastSorter.cs" />
     <Compile Include="QuickStackSorter.cs" />
     <Compile Include="Report.cs" />
+    <Compile Include="SearchQuery.cs" />
     <Compile Include="ShellSorter.cs" />
     <Compile Include="ISorter.cs" />
     <Compile Include="Tree1Dialog.cs">

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.Drawing;
+using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
@@ -81,25 +82,25 @@ namespace WinFormsApp1
             return null;
         }
         
-        public override string Find(int index, V element)
+        public override void Find(int index, KeyedSearchQuery<K, V> keyedQuery)
         {
             Position<V> position = array[index];
-            return Find(position, element, 0);
+            Find(position, keyedQuery);
         }
 
-        private string Find(Position<V> position, V element, int counter)
+        private void Find(Position<V> position, KeyedSearchQuery<K, V> keyedQuery)
         {
             if (position == null)
             {
-                return "Not found";
+                return;
             }
-            counter++;
-            if (position.Element.Compare(element) == 0)
+            
+            if (keyedQuery.Check(position.Element) == 0)
             {
-                return "Checks: " + counter + "\n" + position.Element.ToString();
+                return;
             }
 
-            return Find(position.Next, element, counter);
+            Find(position.Next, keyedQuery);
         }
 
         [Serializable]

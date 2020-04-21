@@ -119,24 +119,32 @@ namespace WindowsFormsApp1
             return _percents.Remove(percent);
         }
         
-        public string FindClient(Client client)
+        public SearchQuery<Client> FindClient(Client client)
         {
-            return _clients.Find(client);
+            var query = new KeyedSearchQuery<int, Client>(client);
+            _clients.Find(query);
+            return query;
         }
 
-        public string FindMachine(Machine machine)
+        public SearchQuery<Machine> FindMachine(Machine machine)
         {
-            return _machines.Find(machine);
+            var query = new KeyedSearchQuery<int, Machine>(machine);
+            _machines.Find(query);
+            return query;
         }
 
-        public string FindOperation(Operation operation)
+        public SearchQuery<Operation> FindOperation(Operation operation)
         {
-            return _operations.Find(operation);
+            var query = new SearchQuery<Operation>(operation);
+            _operations.Find(query);
+            return query;
         }
 
-        public string FindPercent(Percent percent)
+        public SearchQuery<Percent> FindPercent(Percent percent)
         {
-            return _percents.Find(percent);
+            var query = new SearchQuery<Percent>(percent);
+            _percents.Find(query);
+            return query;
         }
         
         public int ClientSize()

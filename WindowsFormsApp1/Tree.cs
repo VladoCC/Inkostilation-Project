@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
@@ -229,33 +230,33 @@ namespace WinFormsApp1
             }
         }
 
-        public string Find(T element)
+        public void Find(SearchQuery<T> query)
         {
-            return Find(_root, element, 0);
+            Find(_root, query);
         }
 
-        private string Find(Position<T> position, T element, int counter)
+        private void Find(Position<T> position, SearchQuery<T> query)
         {
             if (position == null)
             {
-                return "Not found";
+                return;
             }
-            counter++;
-            int cmp = position.Element.Compare(element);
+
+            int cmp = query.Check(position.Element);
             if (cmp == 0)
             {
-                return "Checks: " + counter + "\n" + position.Element.ToString();
+                return;
             }
             if (cmp > 0)
             {
-                return Find(position.LeftChild, element, counter);
+                Find(position.LeftChild, query);
             }
             if (cmp < 0)
             {
-                return Find(position.RightChild, element, counter);
+                Find(position.RightChild, query);
             }
 
-            return Find(position.CenterChild, element, counter);
+            Find(position.CenterChild, query);
         }
 
         [Serializable]

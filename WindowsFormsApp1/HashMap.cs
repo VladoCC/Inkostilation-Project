@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
@@ -42,10 +43,11 @@ namespace WinFormsApp1
             return _storage.Remove(index, element);
         }
 
-        public string Find(V element)
+        public void Find(SearchQuery<V> query)
         {
-            int index = _function.Hash(element.GetKey());
-            return _storage.Find(index, element);
+            KeyedSearchQuery<K, V> keyedQuery = (KeyedSearchQuery<K, V>) query;
+            int index = _function.Hash(keyedQuery.SearchKey()); 
+            _storage.Find(index, keyedQuery);
         }
 
         public HashFunction<K> Function => _function;
