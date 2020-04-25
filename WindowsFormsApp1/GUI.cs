@@ -31,7 +31,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string errormessage = "Неверный формат данных в поле ";
+            string errormessage = "";
+            bool flagstring = false;
             HashMap1Dialog DialogWindow1 = new HashMap1Dialog();
             DialogWindow1.ShowDialog();
             if ((DialogWindow1.textBox1.Text == "") || (DialogWindow1.textBox2.Text == "") || (DialogWindow1.textBox3.Text == ""))
@@ -47,11 +48,32 @@ namespace WindowsFormsApp1
                 {
                     if (!(DialogWindow1.textBox1.Text[i] >= '0' && DialogWindow1.textBox1.Text[i] <= '9'))
                     {
-                        errormessage = errormessage + "<Номер>";
+                        errormessage = errormessage + "Неверный формат данных в поле <Номер>\n\n";
+                        flagstring = true;
                         break;
                     }
                 }
-                if (errormessage == "Неверный формат данных в поле ")
+                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow1.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow1.textBox1.Text) > 500)))
+                {
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер>\n\n";
+                }
+                for (int i = 0; i < DialogWindow1.textBox2.Text.Length; i++)
+                {
+                    if (!(DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Адрес>\n\n";
+                        break;
+                    }
+                }
+                for (int i = 0; i < DialogWindow1.textBox3.Text.Length; i++)
+                {
+                    if (!(DialogWindow1.textBox3.Text[i] >= 'А' && DialogWindow1.textBox3.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Название>\n\n";
+                        break;
+                    }
+                }
+                if (errormessage == "")
                 {
                     dataGridView1.Rows.Add();
                     NumRows1 += 1;
@@ -86,7 +108,8 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string errormessage = "Неверный формат данных в поле ";
+            string errormessage = "";
+            bool flagstring = false;
             HashMap2Dialog DialogWindow2 = new HashMap2Dialog();
             DialogWindow2.ShowDialog();
             if ((DialogWindow2.textBox1.Text == "") || (DialogWindow2.textBox2.Text == "") || (DialogWindow2.textBox3.Text == ""))
@@ -101,11 +124,32 @@ namespace WindowsFormsApp1
                 {
                     if (!(DialogWindow2.textBox1.Text[i] >= '0' && DialogWindow2.textBox1.Text[i] <= '9'))
                     {
-                        errormessage = errormessage + "<Номер карточки>";
+                        errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
+                        flagstring = true;
                         break;
                     }
                 }
-                if (errormessage == "Неверный формат данных в поле ")
+                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 1000)))
+                {
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
+                }
+                for (int i = 0; i < DialogWindow2.textBox2.Text.Length; i++)
+                {
+                    if (!(DialogWindow2.textBox2.Text[i] >= 'А' && DialogWindow2.textBox2.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Обслуживающий банк>\n\n";
+                        break;
+                    }
+                }
+                for (int i = 0; i < DialogWindow2.textBox3.Text.Length; i++)
+                {
+                    if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <ФИО>\n\n";
+                        break;
+                    }
+                }
+                if (errormessage == "")
                 {
                     dataGridView3.Rows.Add();
                     NumRows2 += 1;
@@ -140,7 +184,8 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string errormessage = "Неверный формат данных в поле ";
+            string errormessage = "";
+            bool flagstring = false;
             Tree1Dialog DialogWindow3 = new Tree1Dialog();
             DialogWindow3.ShowDialog();
             if ((DialogWindow3.textBox1.Text == "") || (DialogWindow3.textBox2.Text == "") || (DialogWindow3.textBox3.Text == "") || (DialogWindow3.textBox4.Text == ""))
@@ -155,11 +200,40 @@ namespace WindowsFormsApp1
                 {
                     if (!(DialogWindow3.textBox4.Text[i] >= '0' && DialogWindow3.textBox4.Text[i] <= '9'))
                     {
-                        errormessage = errormessage + "<Процент>";
+                        errormessage = errormessage + "Неверный формат данных в поле <Процент>\n\n";
+                        flagstring = true;
                         break;
                     }
                 }
-                if (errormessage == "Неверный формат данных в поле ")
+                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow3.textBox4.Text) < 0) || (Convert.ToInt32(DialogWindow3.textBox4.Text) > 100)))
+                {
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Процент>\n\n";
+                }
+                for (int i = 0; i < DialogWindow3.textBox1.Text.Length; i++)
+                {
+                    if (!(DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                        break;
+                    }
+                }
+                for (int i = 0; i < DialogWindow3.textBox2.Text.Length; i++)
+                {
+                    if (!(DialogWindow3.textBox2.Text[i] >= 'А' && DialogWindow3.textBox2.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n\n";
+                        break;
+                    }
+                }
+                for (int i = 0; i < DialogWindow3.textBox3.Text.Length; i++)
+                {
+                    if (!(DialogWindow3.textBox3.Text[i] >= 'А' && DialogWindow3.textBox3.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
+                        break;
+                    }
+                }
+                if (errormessage == "")
                 {
                     dataGridView2.Rows.Add();
                     NumRows3 += 1;
@@ -196,7 +270,10 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string errormessage = "Неверный формат данных в поле ";
+            string errormessage = "";
+            bool flagstring1 = false;
+            bool flagstring2 = false;
+            bool flagstring3 = false;
             Tree2Dialog DialogWindow4 = new Tree2Dialog();
             DialogWindow4.ShowDialog();
             if ((DialogWindow4.textBox1.Text == "") || (DialogWindow4.textBox2.Text == "") || (DialogWindow4.textBox3.Text == "") || (DialogWindow4.textBox4.Text == ""))
@@ -207,45 +284,54 @@ namespace WindowsFormsApp1
             }
             else
             {
+                for (int i = 0; i < DialogWindow4.textBox1.Text.Length; i++)
+                {
+                    if (!(DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я'))
+                    {
+                        errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                        break;
+                    }
+                }
                 for (int i = 0; i < DialogWindow4.textBox2.Text.Length; i++)
                 {
                     if (!(DialogWindow4.textBox2.Text[i] >= '0' && DialogWindow4.textBox2.Text[i] <= '9'))
                     {
-                        errormessage = errormessage + "<Номер карточки>\n\n";
+                        errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
+                        flagstring1 = true;
                     }
                     break;
+                }
+                if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 1000)))
+                {
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
                 }
                 for (int i = 0; i < DialogWindow4.textBox3.Text.Length; i++)
                 {
                     if (!(DialogWindow4.textBox3.Text[i] >= '0' && DialogWindow4.textBox3.Text[i] <= '9'))
                     {
-                        if (!(errormessage == "Неверный формат данных в поле "))
-                        {
-                            errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
-                        }
-                        else 
-                        {
-                            errormessage = errormessage + "<Номер банкомата>\n\n";
-                        }
-                        break;
+                        errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
+                        flagstring2 = true;
                     }
+                    break;
+                }
+                if ((flagstring2 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 500)))
+                {
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата>\n\n";
                 }
                 for (int i = 0; i < DialogWindow4.textBox4.Text.Length; i++)
                 {
                     if (!(DialogWindow4.textBox4.Text[i] >= '0' && DialogWindow4.textBox4.Text[i] <= '9'))
                     {
-                        if (!(errormessage == "Неверный формат данных в поле "))
-                        {
-                            errormessage = errormessage + "Неверный формат данных в поле <Сумма операции>";
-                        }
-                        else
-                        {
-                            errormessage = errormessage + "<Сумма операции>\n\n";
-                        }
-                        break;
+                        errormessage = errormessage + "Неверный формат данных в поле <Сумма операции>\n\n";
+                        flagstring3 = true;
                     }
+                    break;
                 }
-                if (errormessage == "Неверный формат данных в поле ")
+                if ((flagstring3 == false) && ((Convert.ToInt32(DialogWindow4.textBox4.Text) < 0) || (Convert.ToInt32(DialogWindow4.textBox4.Text) > 10000000)))
+                {
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Сумма операции>\n\n";
+                }
+                if (errormessage == "")
                 {
                     dataGridView4.Rows.Add();
                     NumRows4 += 1;
@@ -289,7 +375,8 @@ namespace WindowsFormsApp1
         {
             if (index1 != -1)
             {
-                myDatabase.RemoveMachine(myDatabase.MachineArray()[index1]);
+                Machine removableMachine = new Machine (Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
+                myDatabase.RemoveMachine(removableMachine);
                 dataGridView1.Rows.RemoveAt(index1);
                 NumRows1 -= 1;
                 index1 = -1;
@@ -306,7 +393,8 @@ namespace WindowsFormsApp1
         {
             if (index2 != -1)
             {
-                myDatabase.RemoveClient(myDatabase.ClientArray()[index2]);
+                Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
+                myDatabase.RemoveClient(removableClient);
                 dataGridView3.Rows.RemoveAt(index2);
                 NumRows2 -= 1;
                 index2 = -1;
@@ -323,7 +411,8 @@ namespace WindowsFormsApp1
         {
             if (index3 != -1)
             {
-                myDatabase.RemovePercent(myDatabase.PercentArray()[index3]);
+                Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
+                myDatabase.RemovePercent(removablePercent);
                 dataGridView2.Rows.RemoveAt(index3);
                 NumRows3 -= 1;
                 index3 = -1;
@@ -340,7 +429,8 @@ namespace WindowsFormsApp1
         {
             if (index4 != -1)
             {
-                myDatabase.RemoveOperation(myDatabase.OperationArray()[index4]);
+                Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
+                myDatabase.RemoveOperation(removableOperation);
                 dataGridView4.Rows.RemoveAt(index4);
                 NumRows4 -= 1;
                 index4 = -1;
