@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow1.textBox2.Text.Length; i++)
                 {
-                    if (!(DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я'))
+                    if (!(DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я') && !(DialogWindow1.textBox2.Text[i] >= 'а' && DialogWindow1.textBox2.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Адрес>\n\n";
                         break;
@@ -67,7 +67,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow1.textBox3.Text.Length; i++)
                 {
-                    if (!(DialogWindow1.textBox3.Text[i] >= 'А' && DialogWindow1.textBox3.Text[i] <= 'Я'))
+                    if (!(DialogWindow1.textBox3.Text[i] >= 'А' && DialogWindow1.textBox3.Text[i] <= 'Я') && !(DialogWindow1.textBox3.Text[i] >= 'а' && DialogWindow1.textBox3.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Название>\n\n";
                         break;
@@ -129,13 +129,13 @@ namespace WindowsFormsApp1
                         break;
                     }
                 }
-                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 1000)))
+                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 111) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 999999999)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
                 }
                 for (int i = 0; i < DialogWindow2.textBox2.Text.Length; i++)
                 {
-                    if (!(DialogWindow2.textBox2.Text[i] >= 'А' && DialogWindow2.textBox2.Text[i] <= 'Я'))
+                    if (!(DialogWindow2.textBox2.Text[i] >= 'А' && DialogWindow2.textBox2.Text[i] <= 'Я') && !(DialogWindow2.textBox2.Text[i] >= 'а' && DialogWindow2.textBox2.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Обслуживающий банк>\n\n";
                         break;
@@ -143,7 +143,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow2.textBox3.Text.Length; i++)
                 {
-                    if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я'))
+                    if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я') && !(DialogWindow2.textBox3.Text[i] >= 'а' && DialogWindow2.textBox3.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <ФИО>\n\n";
                         break;
@@ -211,7 +211,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow3.textBox1.Text.Length; i++)
                 {
-                    if (!(DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я'))
+                    if (!(DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') && !(DialogWindow3.textBox1.Text[i] >= 'а' && DialogWindow3.textBox1.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
                         break;
@@ -219,7 +219,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow3.textBox2.Text.Length; i++)
                 {
-                    if (!(DialogWindow3.textBox2.Text[i] >= 'А' && DialogWindow3.textBox2.Text[i] <= 'Я'))
+                    if (!(DialogWindow3.textBox2.Text[i] >= 'А' && DialogWindow3.textBox2.Text[i] <= 'Я') && !(DialogWindow3.textBox2.Text[i] >= 'а' && DialogWindow3.textBox2.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n\n";
                         break;
@@ -227,7 +227,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow3.textBox3.Text.Length; i++)
                 {
-                    if (!(DialogWindow3.textBox3.Text[i] >= 'А' && DialogWindow3.textBox3.Text[i] <= 'Я'))
+                    if (!(DialogWindow3.textBox3.Text[i] >= 'А' && DialogWindow3.textBox3.Text[i] <= 'Я') && !(DialogWindow3.textBox3.Text[i] >= 'а' && DialogWindow3.textBox3.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
                         break;
@@ -286,7 +286,7 @@ namespace WindowsFormsApp1
             {
                 for (int i = 0; i < DialogWindow4.textBox1.Text.Length; i++)
                 {
-                    if (!(DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я'))
+                    if (!(DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') && !(DialogWindow4.textBox1.Text[i] >= 'а' && DialogWindow4.textBox1.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
                         break;
@@ -294,14 +294,14 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow4.textBox2.Text.Length; i++)
                 {
-                    if (!(DialogWindow4.textBox2.Text[i] >= '0' && DialogWindow4.textBox2.Text[i] <= '9'))
+                    if (!(DialogWindow4.textBox2.Text[i] >= '0' && DialogWindow4.textBox2.Text[i] <= '9') && !(DialogWindow4.textBox2.Text[i] >= 'а' && DialogWindow4.textBox2.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
                         flagstring1 = true;
                     }
                     break;
                 }
-                if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 1000)))
+                if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 111) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 999999999)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
                 }
