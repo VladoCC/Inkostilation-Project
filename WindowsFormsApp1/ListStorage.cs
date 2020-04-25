@@ -159,12 +159,12 @@ namespace WinFormsApp1
 
             public int FillArray(T[] array, int pos)
             {
-                array[pos] = _element;
+                array[pos++] = _element;
                 if (_next != null)
                 {
-                    return _next.FillArray(array, pos + 1);
+                    return _next.FillArray(array, pos);
                 }
-                return pos = 1;
+                return pos;
             }
         }
     }
