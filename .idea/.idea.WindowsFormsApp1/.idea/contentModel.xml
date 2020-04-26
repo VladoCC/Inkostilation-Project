@@ -29,6 +29,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BubbleSorter.cs" t="Include" />
         <e p="Client.cs" t="Include" />
+        <e p="ClientFound.cs" t="Include" />
+        <e p="ClientFound.Designer.cs" t="Include" />
+        <e p="ClientFound.resx" t="Include" />
         <e p="Database.cs" t="Include" />
         <e p="DoubleHashStorage.cs" t="Include" />
         <e p="ErrorForm.cs" t="Include" />
@@ -52,6 +55,9 @@
         <e p="KeyedSearchQuery.cs" t="Include" />
         <e p="ListStorage.cs" t="Include" />
         <e p="Machine.cs" t="Include" />
+        <e p="MachineFound.cs" t="Include" />
+        <e p="MachineFound.Designer.cs" t="Include" />
+        <e p="MachineFound.resx" t="Include" />
         <e p="ModFunction.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="OddFunction.cs" t="Include" />

@@ -122,11 +122,11 @@ namespace WinFormsApp1
             for (int i = 0; i < _array.Length; i++)
             {
                 int realIndex = (index + i * _mainFunction.Hash(keyedQuery.SearchKey())) % _array.Length;
-                if (keyedQuery.Check(_array[realIndex]) == 0 && !_deleted[realIndex])
+                if (_array[realIndex] == null)
                 {
                     return;
                 }
-                if (_array[realIndex] == null)
+                if (keyedQuery.Check(_array[realIndex]) == 0 && !_deleted[realIndex])
                 {
                     return;
                 }
