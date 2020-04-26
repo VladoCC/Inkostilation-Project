@@ -30,8 +30,8 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +58,10 @@
             this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.Hash1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НомерКарточки = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Банк = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ФИО = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -71,10 +75,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.Hash1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НомерКарточки = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Банк = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ФИО = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button9 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -172,7 +176,7 @@
             this.Номер,
             this.Адрес,
             this.НазваниеБанка});
-            this.dataGridView1.Location = new System.Drawing.Point(21, 87);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 140);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -224,7 +228,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(100, 59);
+            this.label1.Location = new System.Drawing.Point(103, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 25);
             this.label1.TabIndex = 1;
@@ -234,7 +238,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(1041, 59);
+            this.label2.Location = new System.Drawing.Point(1041, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 25);
             this.label2.TabIndex = 13;
@@ -244,7 +248,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(431, 59);
+            this.label3.Location = new System.Drawing.Point(431, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 25);
             this.label3.TabIndex = 5;
@@ -254,7 +258,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(719, 59);
+            this.label4.Location = new System.Drawing.Point(728, 112);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 25);
             this.label4.TabIndex = 9;
@@ -273,7 +277,7 @@
             this.Отправитель,
             this.Получатель,
             this.Процент});
-            this.dataGridView2.Location = new System.Drawing.Point(939, 87);
+            this.dataGridView2.Location = new System.Drawing.Point(939, 140);
             this.dataGridView2.MultiSelect = false;
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
@@ -334,7 +338,7 @@
             this.НомерКарточки,
             this.Банк,
             this.ФИО});
-            this.dataGridView3.Location = new System.Drawing.Point(327, 87);
+            this.dataGridView3.Location = new System.Drawing.Point(327, 140);
             this.dataGridView3.MultiSelect = false;
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
@@ -343,6 +347,44 @@
             this.dataGridView3.Size = new System.Drawing.Size(300, 464);
             this.dataGridView3.TabIndex = 6;
             this.dataGridView3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellClick);
+            // 
+            // Hash1
+            // 
+            this.Hash1.HeaderText = "Хэш функция";
+            this.Hash1.Name = "Hash1";
+            this.Hash1.ReadOnly = true;
+            this.Hash1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Hash1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Hash1.Width = 60;
+            // 
+            // НомерКарточки
+            // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.НомерКарточки.DefaultCellStyle = dataGridViewCellStyle3;
+            this.НомерКарточки.HeaderText = "Номер карточки";
+            this.НомерКарточки.Name = "НомерКарточки";
+            this.НомерКарточки.ReadOnly = true;
+            this.НомерКарточки.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НомерКарточки.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НомерКарточки.Width = 65;
+            // 
+            // Банк
+            // 
+            this.Банк.HeaderText = "Банк";
+            this.Банк.Name = "Банк";
+            this.Банк.ReadOnly = true;
+            this.Банк.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Банк.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Банк.Width = 80;
+            // 
+            // ФИО
+            // 
+            this.ФИО.HeaderText = "ФИО";
+            this.ФИО.Name = "ФИО";
+            this.ФИО.ReadOnly = true;
+            this.ФИО.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ФИО.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ФИО.Width = 92;
             // 
             // dataGridView4
             // 
@@ -357,7 +399,7 @@
             this.НомерКарточки1,
             this.НомерБанкомата,
             this.СуммаОперации});
-            this.dataGridView4.Location = new System.Drawing.Point(633, 87);
+            this.dataGridView4.Location = new System.Drawing.Point(633, 140);
             this.dataGridView4.MultiSelect = false;
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
@@ -408,7 +450,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(29, 557);
+            this.button1.Location = new System.Drawing.Point(32, 610);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 30);
             this.button1.TabIndex = 3;
@@ -419,7 +461,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(957, 557);
+            this.button2.Location = new System.Drawing.Point(950, 610);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 30);
             this.button2.TabIndex = 15;
@@ -430,7 +472,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(337, 557);
+            this.button3.Location = new System.Drawing.Point(338, 610);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 30);
             this.button3.TabIndex = 7;
@@ -441,7 +483,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(647, 557);
+            this.button4.Location = new System.Drawing.Point(644, 610);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(139, 30);
             this.button4.TabIndex = 11;
@@ -452,7 +494,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(178, 557);
+            this.button5.Location = new System.Drawing.Point(181, 610);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(133, 30);
             this.button5.TabIndex = 4;
@@ -463,7 +505,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Location = new System.Drawing.Point(482, 557);
+            this.button6.Location = new System.Drawing.Point(483, 610);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(133, 30);
             this.button6.TabIndex = 8;
@@ -474,7 +516,7 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(1102, 557);
+            this.button7.Location = new System.Drawing.Point(1095, 610);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(133, 30);
             this.button7.TabIndex = 16;
@@ -485,7 +527,7 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button8.Location = new System.Drawing.Point(792, 557);
+            this.button8.Location = new System.Drawing.Point(789, 610);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(133, 30);
             this.button8.TabIndex = 12;
@@ -493,49 +535,60 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // Hash1
+            // textBox1
             // 
-            this.Hash1.HeaderText = "Хэш функция";
-            this.Hash1.Name = "Hash1";
-            this.Hash1.ReadOnly = true;
-            this.Hash1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Hash1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Hash1.Width = 60;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.textBox1.Location = new System.Drawing.Point(86, 42);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(398, 23);
+            this.textBox1.TabIndex = 17;
             // 
-            // НомерКарточки
+            // label5
             // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.НомерКарточки.DefaultCellStyle = dataGridViewCellStyle3;
-            this.НомерКарточки.HeaderText = "Номер карточки";
-            this.НомерКарточки.Name = "НомерКарточки";
-            this.НомерКарточки.ReadOnly = true;
-            this.НомерКарточки.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НомерКарточки.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НомерКарточки.Width = 65;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(18, 43);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 18);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Поиск:";
             // 
-            // Банк
+            // comboBox1
             // 
-            this.Банк.HeaderText = "Банк";
-            this.Банк.Name = "Банк";
-            this.Банк.ReadOnly = true;
-            this.Банк.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Банк.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Банк.Width = 80;
+            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Банкомат",
+            "Клиент",
+            "Операция",
+            "Процент"});
+            this.comboBox1.Location = new System.Drawing.Point(483, 42);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.TabIndex = 19;
             // 
-            // ФИО
+            // button9
             // 
-            this.ФИО.HeaderText = "ФИО";
-            this.ФИО.Name = "ФИО";
-            this.ФИО.ReadOnly = true;
-            this.ФИО.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ФИО.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ФИО.Width = 92;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button9.Location = new System.Drawing.Point(617, 43);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(106, 23);
+            this.button9.TabIndex = 20;
+            this.button9.Text = "Найти";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // GUI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1260, 677);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -614,5 +667,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерКарточки;
         private System.Windows.Forms.DataGridViewTextBoxColumn Банк;
         private System.Windows.Forms.DataGridViewTextBoxColumn ФИО;
+        public System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button9;
     }
 }

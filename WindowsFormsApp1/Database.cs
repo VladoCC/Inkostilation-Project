@@ -162,7 +162,7 @@ namespace WindowsFormsApp1
             return FindOperation(new Operation(operationType, cardNumber, machineNumber, 0));
         }
 
-        public SearchQuery<Percent> FindPercent( string operationType, string senderBank, string receiverBank)
+        public SearchQuery<Percent> FindPercent(string operationType, string senderBank, string receiverBank)
         {
             return FindPercent(new Percent(operationType, senderBank, receiverBank, 0));
         }

@@ -457,5 +457,125 @@ namespace WindowsFormsApp1
         {
             index4 = e.RowIndex;
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int NumRowsF1 = -1;
+            int NumRowsF2 = -1;
+            string errormessage = "";
+            bool flagstring = false;
+            MachineFound machineFound = new MachineFound();
+            ClientFound clientFound = new ClientFound();
+            if (!(textBox1.Text == ""))
+            {
+                if (Convert.ToString(comboBox1.SelectedItem) == "Банкомат")
+                {
+                    for (int i = 0; i < textBox1.Text.Length; i++)
+                    {
+                        if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
+                            flagstring = true;
+                            break;
+                        }
+                    }
+                    if ((flagstring == false) && ((Convert.ToInt32(textBox1.Text) < 1) || (Convert.ToInt32(textBox1.Text) > 500)))
+                    {
+                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
+                    }
+                    if (errormessage == "")
+                    {
+                        if (myDatabase.FindMachine(Convert.ToInt32(textBox1.Text)).Found() == true)
+                        {
+                            string data = string.Empty;
+                            foreach (DataGridViewRow row in dataGridView1.Rows)
+                            {
+                                data = Convert.ToString(row.Cells[1].Value);
+                                if (data == textBox1.Text)
+                                {
+                                    machineFound.MachineResults.Rows.Add();
+                                    NumRowsF1 += 1;
+                                    machineFound.MachineResults.Rows[NumRowsF1].Cells[0].Value = row.Cells[0].Value;
+                                    machineFound.MachineResults.Rows[NumRowsF1].Cells[1].Value = row.Cells[1].Value;
+                                    machineFound.MachineResults.Rows[NumRowsF1].Cells[2].Value = row.Cells[2].Value;
+                                    machineFound.MachineResults.Rows[NumRowsF1].Cells[3].Value = row.Cells[3].Value;
+                                }
+                            }
+                            machineFound.ShowDialog();
+                        }
+                        else
+                        {
+                            ErrorForm ErrorWindow = new ErrorForm();
+                            ErrorWindow.label1.Text = "Элемент не был найден";
+                            ErrorWindow.ShowDialog();
+                        }
+                    }
+                    else
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = errormessage;
+                        ErrorWindow.ShowDialog();
+                    }
+                }
+                else
+                {
+                    if (Convert.ToString(comboBox1.SelectedItem) == "Клиент")
+                    {
+                        for (int i = 0; i < textBox1.Text.Length; i++)
+                        {
+                            if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                            {
+                                errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
+                                flagstring = true;
+                                break;
+                            }
+                        }
+                        if ((flagstring == false) && ((Convert.ToInt32(textBox1.Text) < 111) || (Convert.ToInt32(textBox1.Text) > 999999999)))
+                        {
+                            errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
+                        }
+                        if (errormessage == "")
+                        {
+                            if (myDatabase.FindClient(Convert.ToInt32(textBox1.Text)).Found() == true)
+                            {
+                                string data = string.Empty;
+                                foreach (DataGridViewRow row in dataGridView3.Rows)
+                                {
+                                    data = Convert.ToString(row.Cells[1].Value);
+                                    if (data == textBox1.Text)
+                                    {
+                                        clientFound.ClientResults.Rows.Add();
+                                        NumRowsF2 += 1;
+                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[0].Value = row.Cells[0].Value;
+                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[1].Value = row.Cells[1].Value;
+                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[2].Value = row.Cells[2].Value;
+                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[3].Value = row.Cells[3].Value;
+                                    }
+                                }
+                                clientFound.ShowDialog();
+                            }
+                            else
+                            {
+                                ErrorForm ErrorWindow = new ErrorForm();
+                                ErrorWindow.label1.Text = "Элемент не был найден";
+                                ErrorWindow.ShowDialog();
+                            }
+                        }
+                        else
+                        {
+                            ErrorForm ErrorWindow = new ErrorForm();
+                            ErrorWindow.label1.Text = errormessage;
+                            ErrorWindow.ShowDialog();
+                        }
+                    }
+                }
+            }
+            else
+            {
+                ErrorForm ErrorWindow = new ErrorForm();
+                ErrorWindow.label1.Text = "Строка поиска не может быть пустой";
+                ErrorWindow.ShowDialog();
+            }
+        }
     }
 }
