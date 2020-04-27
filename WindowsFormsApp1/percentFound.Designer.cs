@@ -143,7 +143,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "percentFound";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "percentFound";
+            this.Text = "Результаты поиска процентов";
             ((System.ComponentModel.ISupportInitialize)(this.percentResults)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
