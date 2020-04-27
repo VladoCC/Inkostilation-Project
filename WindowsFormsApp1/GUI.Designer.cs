@@ -540,7 +540,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.textBox1.Location = new System.Drawing.Point(86, 42);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(398, 23);
+            this.textBox1.Size = new System.Drawing.Size(400, 23);
             this.textBox1.TabIndex = 17;
             // 
             // label5

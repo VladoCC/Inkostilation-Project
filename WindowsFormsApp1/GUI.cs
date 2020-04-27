@@ -112,7 +112,7 @@ namespace WindowsFormsApp1
             bool flagstring = false;
             HashMap2Dialog DialogWindow2 = new HashMap2Dialog();
             DialogWindow2.ShowDialog();
-            if ((DialogWindow2.textBox1.Text == "") || (DialogWindow2.textBox2.Text == "") || (DialogWindow2.textBox3.Text == ""))
+            if ((DialogWindow2.textBox1.Text == "") || (DialogWindow2.textBox2.Text == "") || (DialogWindow2.textBox3.Text == "") || (DialogWindow2.textBox3.Text == "_"))
             {
                 ErrorForm ErrorWindow = new ErrorForm();
                 ErrorWindow.label1.Text = "Поля формы не могут быть пустыми";
@@ -129,7 +129,7 @@ namespace WindowsFormsApp1
                         break;
                     }
                 }
-                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 111) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 999999999)))
+                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 99999999)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
                 }
@@ -143,7 +143,7 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow2.textBox3.Text.Length; i++)
                 {
-                    if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я') && !(DialogWindow2.textBox3.Text[i] >= 'а' && DialogWindow2.textBox3.Text[i] <= 'я'))
+                    if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я') && !(DialogWindow2.textBox3.Text[i] >= 'а' && DialogWindow2.textBox3.Text[i] <= 'я') && !(DialogWindow2.textBox3.Text[i] == '_'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <ФИО>\n\n";
                         break;
@@ -294,14 +294,14 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 0; i < DialogWindow4.textBox2.Text.Length; i++)
                 {
-                    if (!(DialogWindow4.textBox2.Text[i] >= '0' && DialogWindow4.textBox2.Text[i] <= '9') && !(DialogWindow4.textBox2.Text[i] >= 'а' && DialogWindow4.textBox2.Text[i] <= 'я'))
+                    if (!(DialogWindow4.textBox2.Text[i] >= '0' && DialogWindow4.textBox2.Text[i] <= '9'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
                         flagstring1 = true;
                     }
                     break;
                 }
-                if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 111) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 999999999)))
+                if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 99999999)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
                 }
@@ -462,10 +462,20 @@ namespace WindowsFormsApp1
         {
             int NumRowsF1 = -1;
             int NumRowsF2 = -1;
+            int NumRowsF3 = -1;
+            int NumRowsF4 = -1;
+            int l = 0;
             string errormessage = "";
+            string pole = "";
+            string pole1 = "";
+            string pole2 = "";
             bool flagstring = false;
+            bool flagstring1 = false;
+            bool flagstring2 = false;
             MachineFound machineFound = new MachineFound();
             ClientFound clientFound = new ClientFound();
+            operationFound operationfound = new operationFound();
+            percentFound percentfound = new percentFound();
             if (!(textBox1.Text == ""))
             {
                 if (Convert.ToString(comboBox1.SelectedItem) == "Банкомат")
@@ -501,6 +511,7 @@ namespace WindowsFormsApp1
                                     machineFound.MachineResults.Rows[NumRowsF1].Cells[3].Value = row.Cells[3].Value;
                                 }
                             }
+                            machineFound.label3.Text = Convert.ToString(myDatabase.FindMachine(Convert.ToInt32(textBox1.Text)).Counter);
                             machineFound.ShowDialog();
                         }
                         else
@@ -517,10 +528,8 @@ namespace WindowsFormsApp1
                         ErrorWindow.ShowDialog();
                     }
                 }
-                else
+                if (Convert.ToString(comboBox1.SelectedItem) == "Клиент")
                 {
-                    if (Convert.ToString(comboBox1.SelectedItem) == "Клиент")
-                    {
                         for (int i = 0; i < textBox1.Text.Length; i++)
                         {
                             if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
@@ -530,7 +539,7 @@ namespace WindowsFormsApp1
                                 break;
                             }
                         }
-                        if ((flagstring == false) && ((Convert.ToInt32(textBox1.Text) < 111) || (Convert.ToInt32(textBox1.Text) > 999999999)))
+                        if ((flagstring == false) && ((Convert.ToInt32(textBox1.Text) < 1) || (Convert.ToInt32(textBox1.Text) > 99999999)))
                         {
                             errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
                         }
@@ -552,6 +561,7 @@ namespace WindowsFormsApp1
                                         clientFound.ClientResults.Rows[NumRowsF2].Cells[3].Value = row.Cells[3].Value;
                                     }
                                 }
+                                clientFound.label1.Text = Convert.ToString(myDatabase.FindClient(Convert.ToInt32(textBox1.Text)).Counter);
                                 clientFound.ShowDialog();
                             }
                             else
@@ -567,6 +577,199 @@ namespace WindowsFormsApp1
                             ErrorWindow.label1.Text = errormessage;
                             ErrorWindow.ShowDialog();
                         }
+                }
+                if (Convert.ToString(comboBox1.SelectedItem) == "Операция")
+                {
+                    if (textBox1.Text[textBox1.Text.Length-1] == '/')
+                    {
+                        for (int i = 0; i < textBox1.Text.Length; i++)
+                        {
+                            while (textBox1.Text[i] != '/')
+                            {
+                                pole = pole + textBox1.Text[i];
+                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                {
+                                    errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                                    break;
+                                }
+                                i++;
+                            }
+                            l = i;
+                            break;
+                        }
+                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        {
+                            while (textBox1.Text[i] != '/')
+                            {
+                                pole1 = pole1 + textBox1.Text[i];
+                                if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                                {
+                                    errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
+                                    flagstring1 = true;
+                                    break;
+                                }
+                                i++;
+                            }
+                            if ((flagstring1 == false) && ((Convert.ToInt32(pole1) < 1) || (Convert.ToInt32(pole1) > 99999999)))
+                            {
+                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
+                            }
+                            l = i;
+                            break;
+                        }
+                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        {
+                            while (textBox1.Text[i] != '/')
+                            {
+                                pole2 = pole2 + textBox1.Text[i];
+                                if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                                {
+                                    errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
+                                    flagstring2 = true;
+                                    break;
+                                }
+                                i++;
+                            }
+                            if ((flagstring2 == false) && ((Convert.ToInt32(pole2) < 1) || (Convert.ToInt32(pole2) > 500)))
+                            {
+                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата>\n\n";
+                            }
+                        }
+                        if ((pole == "") || (pole1 == "") || (pole2 == ""))
+                        {
+                            errormessage = errormessage + "Некорректный формат данных в строке поиска\n\n";
+                        }
+                    }
+                    else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
+                    if (errormessage == "")
+                    {
+                        if (myDatabase.FindOperation(pole,Convert.ToInt32(pole1), Convert.ToInt32(pole2)).Found() == true)
+                        {
+                            string data1 = string.Empty;
+                            string data2 = string.Empty;
+                            string data3 = string.Empty;
+                            foreach (DataGridViewRow row in dataGridView4.Rows)
+                            {
+                                data1 = Convert.ToString(row.Cells[0].Value);
+                                data2 = Convert.ToString(row.Cells[1].Value);
+                                data3 = Convert.ToString(row.Cells[2].Value);
+                                if ((data1 == pole) && (data2 == pole1) && (data3 == pole2))
+                                {
+                                    operationfound.operationResults.Rows.Add();
+                                    NumRowsF3 += 1;
+                                    operationfound.operationResults.Rows[NumRowsF3].Cells[0].Value = row.Cells[0].Value;
+                                    operationfound.operationResults.Rows[NumRowsF3].Cells[1].Value = row.Cells[1].Value;
+                                    operationfound.operationResults.Rows[NumRowsF3].Cells[2].Value = row.Cells[2].Value;
+                                    operationfound.operationResults.Rows[NumRowsF3].Cells[3].Value = row.Cells[3].Value;
+                                }
+                            }
+                            operationfound.label1.Text = Convert.ToString(myDatabase.FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2)).Counter);
+                            operationfound.ShowDialog();
+                        }
+                        else
+                        {
+                            ErrorForm ErrorWindow = new ErrorForm();
+                            ErrorWindow.label1.Text = "Элемент не был найден";
+                            ErrorWindow.ShowDialog();
+                        }
+                    }
+                    else
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = errormessage;
+                        ErrorWindow.ShowDialog();
+                    }
+                }
+                if (Convert.ToString(comboBox1.SelectedItem) == "Процент")
+                {
+                    if (textBox1.Text[textBox1.Text.Length - 1] == '/')
+                    {
+                        for (int i = 0; i < textBox1.Text.Length; i++)
+                        {
+                            while (textBox1.Text[i] != '/')
+                            {
+                                pole = pole + textBox1.Text[i];
+                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                {
+                                    errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                                    break;
+                                }
+                                i++;
+                            }
+                            l = i;
+                            break;
+                        }
+                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        {
+                            while (textBox1.Text[i] != '/')
+                            {
+                                pole1 = pole1 + textBox1.Text[i];
+                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                {
+                                    errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n\n";
+                                    break;
+                                }
+                                i++;
+                            }
+                            l = i;
+                            break;
+                        }
+                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        {
+                            while (textBox1.Text[i] != '/')
+                            {
+                                pole2 = pole2 + textBox1.Text[i];
+                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                {
+                                    errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
+                                    break;
+                                }
+                                i++;
+                            }
+                        }
+                        if ((pole == "") || (pole1 == "") || (pole2 == ""))
+                        {
+                            errormessage = errormessage + "Некорректный формат данных в строке поиска\n\n";
+                        }
+                    }
+                    else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
+                    if (errormessage == "")
+                    {
+                        if (myDatabase.FindPercent(pole, pole1, pole2).Found() == true)
+                        {
+                            string data1 = string.Empty;
+                            string data2 = string.Empty;
+                            string data3 = string.Empty;
+                            foreach (DataGridViewRow row in dataGridView2.Rows)
+                            {
+                                data1 = Convert.ToString(row.Cells[0].Value);
+                                data2 = Convert.ToString(row.Cells[1].Value);
+                                data3 = Convert.ToString(row.Cells[2].Value);
+                                if ((data1 == pole) && (data2 == pole1) && (data3 == pole2))
+                                {
+                                    percentfound.percentResults.Rows.Add();
+                                    NumRowsF4 += 1;
+                                    percentfound.percentResults.Rows[NumRowsF4].Cells[0].Value = row.Cells[0].Value;
+                                    percentfound.percentResults.Rows[NumRowsF4].Cells[1].Value = row.Cells[1].Value;
+                                    percentfound.percentResults.Rows[NumRowsF4].Cells[2].Value = row.Cells[2].Value;
+                                    percentfound.percentResults.Rows[NumRowsF4].Cells[3].Value = row.Cells[3].Value;
+                                }
+                            }
+                            percentfound.label3.Text = Convert.ToString(myDatabase.FindPercent(pole, pole1, pole2).Counter);
+                            percentfound.ShowDialog();
+                        }
+                        else
+                        {
+                            ErrorForm ErrorWindow = new ErrorForm();
+                            ErrorWindow.label1.Text = "Элемент не был найден";
+                            ErrorWindow.ShowDialog();
+                        }
+                    }
+                    else
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = errormessage;
+                        ErrorWindow.ShowDialog();
                     }
                 }
             }

@@ -80,6 +80,18 @@
     <Compile Include="MachineFound.Designer.cs">
       <DependentUpon>MachineFound.cs</DependentUpon>
     </Compile>
+    <Compile Include="operationFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="operationFound.Designer.cs">
+      <DependentUpon>operationFound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="percentFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="percentFound.Designer.cs">
+      <DependentUpon>percentFound.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuickLastSorter.cs" />
     <Compile Include="QuickStackSorter.cs" />
     <Compile Include="Report.cs" />
@@ -138,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MachineFound.resx">
       <DependentUpon>MachineFound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operationFound.resx">
+      <DependentUpon>operationFound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="percentFound.resx">
+      <DependentUpon>percentFound.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tree1Dialog.resx">
       <DependentUpon>Tree1Dialog.cs</DependentUpon>

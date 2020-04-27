@@ -36,6 +36,8 @@
             this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.MachineResults)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,14 +54,14 @@
             this.Номер,
             this.Адрес,
             this.НазваниеБанка});
-            this.MachineResults.Location = new System.Drawing.Point(23, 51);
+            this.MachineResults.Location = new System.Drawing.Point(21, 37);
             this.MachineResults.MultiSelect = false;
             this.MachineResults.Name = "MachineResults";
             this.MachineResults.ReadOnly = true;
             this.MachineResults.RowHeadersVisible = false;
             this.MachineResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.MachineResults.Size = new System.Drawing.Size(300, 464);
-            this.MachineResults.TabIndex = 3;
+            this.MachineResults.TabIndex = 1;
             // 
             // Hash
             // 
@@ -103,17 +105,39 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(118, 23);
+            this.label1.Location = new System.Drawing.Point(112, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 25);
-            this.label1.TabIndex = 4;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Банкомат";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(59, 513);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(132, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Число сравнений:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(197, 513);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "/число/";
             // 
             // MachineFound
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 538);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.MachineResults);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -135,5 +159,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Адрес;
         private System.Windows.Forms.DataGridViewTextBoxColumn НазваниеБанка;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
     }
 }
