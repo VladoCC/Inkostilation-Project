@@ -61,7 +61,7 @@
             this.operationResults.RowHeadersVisible = false;
             this.operationResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.operationResults.Size = new System.Drawing.Size(300, 464);
-            this.operationResults.TabIndex = 11;
+            this.operationResults.TabIndex = 1;
             // 
             // ТипОперации1
             // 
@@ -108,7 +108,7 @@
             this.label4.Location = new System.Drawing.Point(111, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 25);
-            this.label4.TabIndex = 12;
+            this.label4.TabIndex = 0;
             this.label4.Text = "Операция";
             // 
             // label2
@@ -118,7 +118,7 @@
             this.label2.Location = new System.Drawing.Point(67, 521);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(132, 16);
-            this.label2.TabIndex = 13;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Число сравнений:";
             // 
             // label1
@@ -128,7 +128,7 @@
             this.label1.Location = new System.Drawing.Point(205, 521);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 16);
-            this.label1.TabIndex = 14;
+            this.label1.TabIndex = 3;
             this.label1.Text = "/число/";
             // 
             // operationFound

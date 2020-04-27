@@ -61,7 +61,7 @@
             this.percentResults.RowHeadersVisible = false;
             this.percentResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.percentResults.Size = new System.Drawing.Size(300, 464);
-            this.percentResults.TabIndex = 15;
+            this.percentResults.TabIndex = 1;
             // 
             // Тип
             // 
@@ -108,7 +108,7 @@
             this.label2.Location = new System.Drawing.Point(117, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 25);
-            this.label2.TabIndex = 16;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Процент";
             // 
             // label1
@@ -118,7 +118,7 @@
             this.label1.Location = new System.Drawing.Point(66, 526);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 16);
-            this.label1.TabIndex = 17;
+            this.label1.TabIndex = 2;
             this.label1.Text = "Число сравнений:";
             // 
             // label3
@@ -128,7 +128,7 @@
             this.label3.Location = new System.Drawing.Point(204, 526);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 16);
-            this.label3.TabIndex = 18;
+            this.label3.TabIndex = 3;
             this.label3.Text = "/число/";
             // 
             // percentFound

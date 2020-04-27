@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
         int index2 = -1;
         int index3 = -1;
         int index4 = -1;
+        string state = "";
 
         Database myDatabase = Database.GetNewInstance();
         public GUI()
@@ -495,7 +496,8 @@ namespace WindowsFormsApp1
                     }
                     if (errormessage == "")
                     {
-                        if (myDatabase.FindMachine(Convert.ToInt32(textBox1.Text)).Found() == true)
+                        SearchQuery<Machine> query = myDatabase.FindMachine(Convert.ToInt32(textBox1.Text));
+                        if (query.Found())
                         {
                             string data = string.Empty;
                             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -511,14 +513,13 @@ namespace WindowsFormsApp1
                                     machineFound.MachineResults.Rows[NumRowsF1].Cells[3].Value = row.Cells[3].Value;
                                 }
                             }
-                            machineFound.label3.Text = Convert.ToString(myDatabase.FindMachine(Convert.ToInt32(textBox1.Text)).Counter);
+                            machineFound.label3.Text = Convert.ToString(query.Counter);
                             machineFound.ShowDialog();
                         }
                         else
                         {
-                            ErrorForm ErrorWindow = new ErrorForm();
-                            ErrorWindow.label1.Text = "Элемент не был найден";
-                            ErrorWindow.ShowDialog();
+                            machineFound.label3.Text = Convert.ToString(query.Counter);
+                            machineFound.ShowDialog();
                         }
                     }
                     else
@@ -545,7 +546,8 @@ namespace WindowsFormsApp1
                         }
                         if (errormessage == "")
                         {
-                            if (myDatabase.FindClient(Convert.ToInt32(textBox1.Text)).Found() == true)
+                        SearchQuery<Client> query = myDatabase.FindClient(Convert.ToInt32(textBox1.Text));
+                            if (query.Found())
                             {
                                 string data = string.Empty;
                                 foreach (DataGridViewRow row in dataGridView3.Rows)
@@ -561,14 +563,13 @@ namespace WindowsFormsApp1
                                         clientFound.ClientResults.Rows[NumRowsF2].Cells[3].Value = row.Cells[3].Value;
                                     }
                                 }
-                                clientFound.label1.Text = Convert.ToString(myDatabase.FindClient(Convert.ToInt32(textBox1.Text)).Counter);
+                                clientFound.label1.Text = Convert.ToString(query.Counter);
                                 clientFound.ShowDialog();
                             }
                             else
                             {
-                                ErrorForm ErrorWindow = new ErrorForm();
-                                ErrorWindow.label1.Text = "Элемент не был найден";
-                                ErrorWindow.ShowDialog();
+                                clientFound.label1.Text = Convert.ToString(query.Counter);
+                                clientFound.ShowDialog();
                             }
                         }
                         else
@@ -643,7 +644,8 @@ namespace WindowsFormsApp1
                     else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
                     if (errormessage == "")
                     {
-                        if (myDatabase.FindOperation(pole,Convert.ToInt32(pole1), Convert.ToInt32(pole2)).Found() == true)
+                        SearchQuery <Operation> query = myDatabase.FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2));
+                        if (query.Found())
                         {
                             string data1 = string.Empty;
                             string data2 = string.Empty;
@@ -663,14 +665,13 @@ namespace WindowsFormsApp1
                                     operationfound.operationResults.Rows[NumRowsF3].Cells[3].Value = row.Cells[3].Value;
                                 }
                             }
-                            operationfound.label1.Text = Convert.ToString(myDatabase.FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2)).Counter);
+                            operationfound.label1.Text = Convert.ToString(query.Counter);
                             operationfound.ShowDialog();
                         }
                         else
                         {
-                            ErrorForm ErrorWindow = new ErrorForm();
-                            ErrorWindow.label1.Text = "Элемент не был найден";
-                            ErrorWindow.ShowDialog();
+                            operationfound.label1.Text = Convert.ToString(query.Counter);
+                            operationfound.ShowDialog();
                         }
                     }
                     else
@@ -735,7 +736,8 @@ namespace WindowsFormsApp1
                     else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
                     if (errormessage == "")
                     {
-                        if (myDatabase.FindPercent(pole, pole1, pole2).Found() == true)
+                        SearchQuery<Percent> query = myDatabase.FindPercent(pole, pole1, pole2);
+                        if (query.Found())
                         {
                             string data1 = string.Empty;
                             string data2 = string.Empty;
@@ -755,14 +757,13 @@ namespace WindowsFormsApp1
                                     percentfound.percentResults.Rows[NumRowsF4].Cells[3].Value = row.Cells[3].Value;
                                 }
                             }
-                            percentfound.label3.Text = Convert.ToString(myDatabase.FindPercent(pole, pole1, pole2).Counter);
+                            percentfound.label3.Text = Convert.ToString(query.Counter);
                             percentfound.ShowDialog();
                         }
                         else
                         {
-                            ErrorForm ErrorWindow = new ErrorForm();
-                            ErrorWindow.label1.Text = "Элемент не был найден";
-                            ErrorWindow.ShowDialog();
+                            percentfound.label3.Text = Convert.ToString(query.Counter);
+                            percentfound.ShowDialog();
                         }
                     }
                     else
@@ -778,6 +779,46 @@ namespace WindowsFormsApp1
                 ErrorForm ErrorWindow = new ErrorForm();
                 ErrorWindow.label1.Text = "Строка поиска не может быть пустой";
                 ErrorWindow.ShowDialog();
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem.ToString() == "Банкомат")
+            {
+                state = "Введите номер банкомата";
+            }
+            if (comboBox1.SelectedItem.ToString() == "Клиент")
+            {
+                state = "Введите номер карточки клиента";
+            }
+            if (comboBox1.SelectedItem.ToString() == "Операция")
+            {
+                state = "Введите тип операции/номер карточки/номер банкомата/";
+            }
+            if (comboBox1.SelectedItem.ToString() == "Процент")
+            {
+                state = "Введите тип операции/банк-отправитель/банк-получатель/";
+            }
+            textBox1.ForeColor = Color.Silver;
+            textBox1.Text = state;
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if ((textBox1.Text == "Введите номер банкомата") || (textBox1.Text == "Введите номер карточки клиента") || (textBox1.Text == "Введите тип операции/номер карточки/номер банкомата/") || (textBox1.Text == "Введите тип операции/банк-отправитель/банк-получатель/"))
+            {
+                textBox1.Text = "";
+                textBox1.ForeColor = Color.Black;
+            }
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = state;
+                textBox1.ForeColor = Color.Silver;
             }
         }
     }
