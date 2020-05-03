@@ -62,7 +62,25 @@
         <e p="obj" t="ExcludeRecursive" />
         <e p="OddFunction.cs" t="Include" />
         <e p="Operation.cs" t="Include" />
+        <e p="operationFound.cs" t="Include" />
+        <e p="operationFound.Designer.cs" t="Include" />
+        <e p="operationFound.resx" t="Include" />
+        <e p="OperationsOfClient.cs" t="Include" />
+        <e p="OperationsOfClient.Designer.cs" t="Include" />
+        <e p="OperationsOfClient.resx" t="Include" />
+        <e p="OperationsOfMachine.cs" t="Include" />
+        <e p="OperationsOfMachine.Designer.cs" t="Include" />
+        <e p="OperationsOfMachine.resx" t="Include" />
         <e p="Percent.cs" t="Include" />
+        <e p="percentFound.cs" t="Include" />
+        <e p="percentFound.Designer.cs" t="Include" />
+        <e p="percentFound.resx" t="Include" />
+        <e p="PercentsOfMachine.cs" t="Include" />
+        <e p="PercentsOfMachine.Designer.cs" t="Include" />
+        <e p="PercentsOfMachine.resx" t="Include" />
+        <e p="PercentsOfOperation.cs" t="Include" />
+        <e p="PercentsOfOperation.Designer.cs" t="Include" />
+        <e p="PercentsOfOperation.resx" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

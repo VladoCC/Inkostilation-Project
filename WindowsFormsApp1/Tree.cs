@@ -239,6 +239,7 @@ namespace WinFormsApp1
         {
             if (position == null)
             {
+                query.Count();
                 return;
             }
 

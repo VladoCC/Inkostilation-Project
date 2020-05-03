@@ -16,12 +16,21 @@ namespace WindowsFormsApp1
         public int Check(T check)
         {
             _counter++;
+            if (check == null)
+            {
+                return -1;
+            }
             int cmp = check.Compare(_request);
             if (cmp  == 0)
             {
                 _result = check;
             }
             return cmp;
+        }
+
+        public void Count()
+        {
+            _counter++;
         }
 
         public int Counter => _counter;

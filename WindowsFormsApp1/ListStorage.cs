@@ -92,6 +92,7 @@ namespace WinFormsApp1
         {
             if (position == null)
             {
+                keyedQuery.Count();
                 return;
             }
             
