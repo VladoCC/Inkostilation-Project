@@ -23,21 +23,24 @@ namespace WindowsFormsApp1
         {
             PercentsData.Rows.Clear();
             index = e.RowIndex;
-            Machine keyMachine = new Machine(Convert.ToInt32(MachinesKey.Rows[index].Cells[1].Value),
-                        Convert.ToString(MachinesKey.Rows[index].Cells[2].Value), Convert.ToString(MachinesKey.Rows[index].Cells[3].Value));
-            Report<Machine, Percent> report = GUI.myDatabase.MachinePercentReport(keyMachine);
-            Percent[] arr = report.Data();
-            int size = report.DataSize();
-            for (int i = 0; i < size; i++)
+            if (!(index == -1))
             {
-                PercentsData.Rows.Add();
-                NumRows += 1;
-                PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
-                PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
-                PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
-                PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
+                Machine keyMachine = new Machine(Convert.ToInt32(MachinesKey.Rows[index].Cells[1].Value),
+                            Convert.ToString(MachinesKey.Rows[index].Cells[2].Value), Convert.ToString(MachinesKey.Rows[index].Cells[3].Value));
+                Report<Machine, Percent> report = GUI.myDatabase.MachinePercentReport(keyMachine);
+                Percent[] arr = report.Data();
+                int size = report.DataSize();
+                for (int i = 0; i < size; i++)
+                {
+                    PercentsData.Rows.Add();
+                    NumRows += 1;
+                    PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
+                    PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
+                    PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
+                }
+                NumRows = -1;
             }
-            NumRows = -1;
         }
     }
 }
