@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
         int index4 = -1;
         string state = "";
 
-        Database myDatabase = Database.GetNewInstance();
+        public static Database myDatabase = Database.GetNewInstance();
         public GUI()
         {
 
@@ -315,7 +315,7 @@ namespace WindowsFormsApp1
                     }
                     break;
                 }
-                if ((flagstring2 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 500)))
+                if ((flagstring2 == false) && ((Convert.ToInt32(DialogWindow4.textBox3.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox3.Text) > 500)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата>\n\n";
                 }
@@ -820,6 +820,62 @@ namespace WindowsFormsApp1
                 textBox1.Text = state;
                 textBox1.ForeColor = Color.Silver;
             }
+        }
+
+        private void операцииПоКлиентуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OperationsOfClient OOC = new OperationsOfClient();
+            foreach (DataGridViewRow r in dataGridView3.Rows)
+            {
+                int index = OOC.ClientsKey.Rows.Add(r.Clone() as DataGridViewRow);
+                foreach (DataGridViewCell o in r.Cells)
+                {
+                    OOC.ClientsKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
+                }
+            }
+            OOC.ShowDialog();
+        }
+
+        private void операцииБанкоматаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OperationsOfMachine OOM = new OperationsOfMachine();
+            foreach (DataGridViewRow r in dataGridView1.Rows)
+            {
+                int index = OOM.MachinesKey.Rows.Add(r.Clone() as DataGridViewRow);
+                foreach (DataGridViewCell o in r.Cells)
+                {
+                    OOM.MachinesKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
+                }
+            }
+            OOM.ShowDialog();
+        }
+
+        private void процентыОперацийToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PercentsOfOperation POO = new PercentsOfOperation();
+            foreach (DataGridViewRow r in dataGridView4.Rows)
+            {
+                int index = POO.OperationsKey.Rows.Add(r.Clone() as DataGridViewRow);
+                foreach (DataGridViewCell o in r.Cells)
+                {
+                    POO.OperationsKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
+                }
+            }
+            POO.ShowDialog();
+        }
+
+        private void процентыБанкоматаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PercentsOfMachine POM = new PercentsOfMachine();
+            foreach (DataGridViewRow r in dataGridView1.Rows)
+            {
+                int index = POM.MachinesKey.Rows.Add(r.Clone() as DataGridViewRow);
+                foreach (DataGridViewCell o in r.Cells)
+                {
+                    POM.MachinesKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
+                }
+            }
+            POM.ShowDialog();
         }
     }
 }

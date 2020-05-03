@@ -86,11 +86,35 @@
     <Compile Include="operationFound.Designer.cs">
       <DependentUpon>operationFound.cs</DependentUpon>
     </Compile>
+    <Compile Include="OperationsOfClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationsOfClient.Designer.cs">
+      <DependentUpon>OperationsOfClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationsOfMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationsOfMachine.Designer.cs">
+      <DependentUpon>OperationsOfMachine.cs</DependentUpon>
+    </Compile>
     <Compile Include="percentFound.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="percentFound.Designer.cs">
       <DependentUpon>percentFound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PercentsOfMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PercentsOfMachine.Designer.cs">
+      <DependentUpon>PercentsOfMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PercentsOfOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PercentsOfOperation.Designer.cs">
+      <DependentUpon>PercentsOfOperation.cs</DependentUpon>
     </Compile>
     <Compile Include="QuickLastSorter.cs" />
     <Compile Include="QuickStackSorter.cs" />
@@ -154,8 +178,20 @@
     <EmbeddedResource Include="operationFound.resx">
       <DependentUpon>operationFound.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OperationsOfClient.resx">
+      <DependentUpon>OperationsOfClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationsOfMachine.resx">
+      <DependentUpon>OperationsOfMachine.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="percentFound.resx">
       <DependentUpon>percentFound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PercentsOfMachine.resx">
+      <DependentUpon>PercentsOfMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PercentsOfOperation.resx">
+      <DependentUpon>PercentsOfOperation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tree1Dialog.resx">
       <DependentUpon>Tree1Dialog.cs</DependentUpon>

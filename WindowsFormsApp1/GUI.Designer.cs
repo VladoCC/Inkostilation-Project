@@ -113,19 +113,19 @@
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.открытьToolStripMenuItem.Text = "Создать";
             // 
             // импортироватьToolStripMenuItem
             // 
             this.импортироватьToolStripMenuItem.Name = "импортироватьToolStripMenuItem";
-            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.импортироватьToolStripMenuItem.Text = "Импортировать";
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
             // 
             // отчётыToolStripMenuItem
@@ -142,26 +142,30 @@
             // операцииПоКлиентуToolStripMenuItem
             // 
             this.операцииПоКлиентуToolStripMenuItem.Name = "операцииПоКлиентуToolStripMenuItem";
-            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.операцииПоКлиентуToolStripMenuItem.Text = "Операции клиента";
+            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.операцииПоКлиентуToolStripMenuItem.Text = "Операции клиентов";
+            this.операцииПоКлиентуToolStripMenuItem.Click += new System.EventHandler(this.операцииПоКлиентуToolStripMenuItem_Click);
             // 
             // операцииБанкоматаToolStripMenuItem
             // 
             this.операцииБанкоматаToolStripMenuItem.Name = "операцииБанкоматаToolStripMenuItem";
-            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.операцииБанкоматаToolStripMenuItem.Text = "Операции банкомата";
+            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.операцииБанкоматаToolStripMenuItem.Text = "Операции банкоматов";
+            this.операцииБанкоматаToolStripMenuItem.Click += new System.EventHandler(this.операцииБанкоматаToolStripMenuItem_Click);
             // 
             // процентыОперацийToolStripMenuItem
             // 
             this.процентыОперацийToolStripMenuItem.Name = "процентыОперацийToolStripMenuItem";
-            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.процентыОперацийToolStripMenuItem.Text = "Проценты операций";
+            this.процентыОперацийToolStripMenuItem.Click += new System.EventHandler(this.процентыОперацийToolStripMenuItem_Click);
             // 
             // процентыБанкоматаToolStripMenuItem
             // 
             this.процентыБанкоматаToolStripMenuItem.Name = "процентыБанкоматаToolStripMenuItem";
-            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.процентыБанкоматаToolStripMenuItem.Text = "Проценты банкомата";
+            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.процентыБанкоматаToolStripMenuItem.Text = "Проценты банкоматов";
+            this.процентыБанкоматаToolStripMenuItem.Click += new System.EventHandler(this.процентыБанкоматаToolStripMenuItem_Click);
             // 
             // dataGridView1
             // 
