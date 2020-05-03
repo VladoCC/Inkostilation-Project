@@ -23,21 +23,24 @@ namespace WindowsFormsApp1
         {
             OperationsData.Rows.Clear();
             index = e.RowIndex;
-            Machine keyMachine = new Machine(Convert.ToInt32(MachinesKey.Rows[index].Cells[1].Value),
-                        Convert.ToString(MachinesKey.Rows[index].Cells[2].Value), Convert.ToString(MachinesKey.Rows[index].Cells[3].Value));
-            Report<Machine, Operation> report = GUI.myDatabase.MachineOperationReport(keyMachine);
-            Operation[] arr = report.Data();
-            int size = report.DataSize();
-            for (int i = 0; i < size; i++)
+            if (!(index == -1))
             {
-                OperationsData.Rows.Add();
-                NumRows += 1;
-                OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
-                OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
-                OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
-                OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;
+                Machine keyMachine = new Machine(Convert.ToInt32(MachinesKey.Rows[index].Cells[1].Value),
+                        Convert.ToString(MachinesKey.Rows[index].Cells[2].Value), Convert.ToString(MachinesKey.Rows[index].Cells[3].Value));
+                Report<Machine, Operation> report = GUI.myDatabase.MachineOperationReport(keyMachine);
+                Operation[] arr = report.Data();
+                int size = report.DataSize();
+                for (int i = 0; i < size; i++)
+                {
+                    OperationsData.Rows.Add();
+                    NumRows += 1;
+                    OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
+                    OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
+                    OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;
+                }
+                NumRows = -1;
             }
-            NumRows = -1;
         }
     }
 }
