@@ -157,6 +157,9 @@
     <Compile Include="Tree2Dialog.Designer.cs">
       <DependentUpon>Tree2Dialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="WaterMarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="ClientFound.resx">
       <DependentUpon>ClientFound.cs</DependentUpon>
     </EmbeddedResource>

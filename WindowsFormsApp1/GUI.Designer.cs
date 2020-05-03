@@ -75,10 +75,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button9 = new System.Windows.Forms.Button();
+            this.waterMarkTextBox1 = new WindowsFormsApp1.WaterMarkTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -113,19 +113,19 @@
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.открытьToolStripMenuItem.Text = "Создать";
             // 
             // импортироватьToolStripMenuItem
             // 
             this.импортироватьToolStripMenuItem.Name = "импортироватьToolStripMenuItem";
-            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.импортироватьToolStripMenuItem.Text = "Импортировать";
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
             // 
             // отчётыToolStripMenuItem
@@ -539,16 +539,6 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox1.Location = new System.Drawing.Point(90, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(408, 23);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
-            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -570,16 +560,16 @@
             "Клиент",
             "Операция",
             "Процент"});
-            this.comboBox1.Location = new System.Drawing.Point(495, 41);
+            this.comboBox1.Location = new System.Drawing.Point(609, 41);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.Size = new System.Drawing.Size(128, 23);
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button9.Location = new System.Drawing.Point(633, 42);
+            this.button9.Location = new System.Drawing.Point(743, 41);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(106, 23);
             this.button9.TabIndex = 4;
@@ -587,15 +577,25 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // waterMarkTextBox1
+            // 
+            this.waterMarkTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.waterMarkTextBox1.Location = new System.Drawing.Point(86, 41);
+            this.waterMarkTextBox1.Name = "waterMarkTextBox1";
+            this.waterMarkTextBox1.Size = new System.Drawing.Size(526, 23);
+            this.waterMarkTextBox1.TabIndex = 21;
+            this.waterMarkTextBox1.WaterMarkColor = System.Drawing.Color.Gray;
+            this.waterMarkTextBox1.WaterMarkText = "";
+            // 
             // GUI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1260, 677);
+            this.Controls.Add(this.waterMarkTextBox1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -674,9 +674,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерКарточки;
         private System.Windows.Forms.DataGridViewTextBoxColumn Банк;
         private System.Windows.Forms.DataGridViewTextBoxColumn ФИО;
-        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button9;
+        private WaterMarkTextBox waterMarkTextBox1;
     }
 }

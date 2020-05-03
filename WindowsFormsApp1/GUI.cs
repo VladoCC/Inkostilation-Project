@@ -22,6 +22,9 @@ namespace WindowsFormsApp1
         int index3 = -1;
         int index4 = -1;
         string state = "";
+        bool flagChanged = false;
+        bool flagChanged1 = false;
+        bool flagChanged2 = false;
 
         public static Database myDatabase = Database.GetNewInstance();
         public GUI()
@@ -98,7 +101,7 @@ namespace WindowsFormsApp1
                         ErrorWindow.ShowDialog();
                     }
                 }
-                else 
+                else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
                     ErrorWindow.label1.Text = errormessage;
@@ -376,13 +379,13 @@ namespace WindowsFormsApp1
         {
             if (index1 != -1)
             {
-                Machine removableMachine = new Machine (Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
+                Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
                 myDatabase.RemoveMachine(removableMachine);
                 dataGridView1.Rows.RemoveAt(index1);
                 NumRows1 -= 1;
                 index1 = -1;
             }
-            else 
+            else
             {
                 ErrorForm ErrorWindow = new ErrorForm();
                 ErrorWindow.label1.Text = "Выберите запись, которую хотите удалить, клинкув на неё мышью";
@@ -477,33 +480,33 @@ namespace WindowsFormsApp1
             ClientFound clientFound = new ClientFound();
             operationFound operationfound = new operationFound();
             percentFound percentfound = new percentFound();
-            if (!(textBox1.Text == ""))
+            if (!(waterMarkTextBox1.Text == ""))
             {
                 if (Convert.ToString(comboBox1.SelectedItem) == "Банкомат")
                 {
-                    for (int i = 0; i < textBox1.Text.Length; i++)
+                    for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
                     {
-                        if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                        if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
                         {
                             errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
                             flagstring = true;
                             break;
                         }
                     }
-                    if ((flagstring == false) && ((Convert.ToInt32(textBox1.Text) < 1) || (Convert.ToInt32(textBox1.Text) > 500)))
+                    if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 500)))
                     {
                         errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
                     }
                     if (errormessage == "")
                     {
-                        SearchQuery<Machine> query = myDatabase.FindMachine(Convert.ToInt32(textBox1.Text));
+                        SearchQuery<Machine> query = myDatabase.FindMachine(Convert.ToInt32(waterMarkTextBox1.Text));
                         if (query.Found())
                         {
                             string data = string.Empty;
                             foreach (DataGridViewRow row in dataGridView1.Rows)
                             {
                                 data = Convert.ToString(row.Cells[1].Value);
-                                if (data == textBox1.Text)
+                                if (data == waterMarkTextBox1.Text)
                                 {
                                     machineFound.MachineResults.Rows.Add();
                                     NumRowsF1 += 1;
@@ -531,64 +534,64 @@ namespace WindowsFormsApp1
                 }
                 if (Convert.ToString(comboBox1.SelectedItem) == "Клиент")
                 {
-                        for (int i = 0; i < textBox1.Text.Length; i++)
+                    for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
+                    {
+                        if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
                         {
-                            if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
-                            {
-                                errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
-                                flagstring = true;
-                                break;
-                            }
+                            errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
+                            flagstring = true;
+                            break;
                         }
-                        if ((flagstring == false) && ((Convert.ToInt32(textBox1.Text) < 1) || (Convert.ToInt32(textBox1.Text) > 99999999)))
+                    }
+                    if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 99999999)))
+                    {
+                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
+                    }
+                    if (errormessage == "")
+                    {
+                        SearchQuery<Client> query = myDatabase.FindClient(Convert.ToInt32(waterMarkTextBox1.Text));
+                        if (query.Found())
                         {
-                            errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
-                        }
-                        if (errormessage == "")
-                        {
-                        SearchQuery<Client> query = myDatabase.FindClient(Convert.ToInt32(textBox1.Text));
-                            if (query.Found())
+                            string data = string.Empty;
+                            foreach (DataGridViewRow row in dataGridView3.Rows)
                             {
-                                string data = string.Empty;
-                                foreach (DataGridViewRow row in dataGridView3.Rows)
+                                data = Convert.ToString(row.Cells[1].Value);
+                                if (data == waterMarkTextBox1.Text)
                                 {
-                                    data = Convert.ToString(row.Cells[1].Value);
-                                    if (data == textBox1.Text)
-                                    {
-                                        clientFound.ClientResults.Rows.Add();
-                                        NumRowsF2 += 1;
-                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[0].Value = row.Cells[0].Value;
-                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[1].Value = row.Cells[1].Value;
-                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[2].Value = row.Cells[2].Value;
-                                        clientFound.ClientResults.Rows[NumRowsF2].Cells[3].Value = row.Cells[3].Value;
-                                    }
+                                    clientFound.ClientResults.Rows.Add();
+                                    NumRowsF2 += 1;
+                                    clientFound.ClientResults.Rows[NumRowsF2].Cells[0].Value = row.Cells[0].Value;
+                                    clientFound.ClientResults.Rows[NumRowsF2].Cells[1].Value = row.Cells[1].Value;
+                                    clientFound.ClientResults.Rows[NumRowsF2].Cells[2].Value = row.Cells[2].Value;
+                                    clientFound.ClientResults.Rows[NumRowsF2].Cells[3].Value = row.Cells[3].Value;
                                 }
-                                clientFound.label1.Text = Convert.ToString(query.Counter);
-                                clientFound.ShowDialog();
                             }
-                            else
-                            {
-                                clientFound.label1.Text = Convert.ToString(query.Counter);
-                                clientFound.ShowDialog();
-                            }
+                            clientFound.label1.Text = Convert.ToString(query.Counter);
+                            clientFound.ShowDialog();
                         }
                         else
                         {
-                            ErrorForm ErrorWindow = new ErrorForm();
-                            ErrorWindow.label1.Text = errormessage;
-                            ErrorWindow.ShowDialog();
+                            clientFound.label1.Text = Convert.ToString(query.Counter);
+                            clientFound.ShowDialog();
                         }
+                    }
+                    else
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = errormessage;
+                        ErrorWindow.ShowDialog();
+                    }
                 }
                 if (Convert.ToString(comboBox1.SelectedItem) == "Операция")
                 {
-                    if (textBox1.Text[textBox1.Text.Length-1] == '/')
+                    if (waterMarkTextBox1.Text[waterMarkTextBox1.Text.Length - 1] == '/')
                     {
-                        for (int i = 0; i < textBox1.Text.Length; i++)
+                        for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
                         {
-                            while (textBox1.Text[i] != '/')
+                            while (waterMarkTextBox1.Text[i] != '/')
                             {
-                                pole = pole + textBox1.Text[i];
-                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                pole = pole + waterMarkTextBox1.Text[i];
+                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                                 {
                                     errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
                                     break;
@@ -598,12 +601,12 @@ namespace WindowsFormsApp1
                             l = i;
                             break;
                         }
-                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        for (int i = l + 1; i < waterMarkTextBox1.Text.Length; i++)
                         {
-                            while (textBox1.Text[i] != '/')
+                            while (waterMarkTextBox1.Text[i] != '/')
                             {
-                                pole1 = pole1 + textBox1.Text[i];
-                                if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                                pole1 = pole1 + waterMarkTextBox1.Text[i];
+                                if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
                                 {
                                     errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
                                     flagstring1 = true;
@@ -618,12 +621,12 @@ namespace WindowsFormsApp1
                             l = i;
                             break;
                         }
-                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        for (int i = l + 1; i < waterMarkTextBox1.Text.Length; i++)
                         {
-                            while (textBox1.Text[i] != '/')
+                            while (waterMarkTextBox1.Text[i] != '/')
                             {
-                                pole2 = pole2 + textBox1.Text[i];
-                                if (!(textBox1.Text[i] >= '0' && textBox1.Text[i] <= '9'))
+                                pole2 = pole2 + waterMarkTextBox1.Text[i];
+                                if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
                                 {
                                     errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
                                     flagstring2 = true;
@@ -644,7 +647,7 @@ namespace WindowsFormsApp1
                     else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
                     if (errormessage == "")
                     {
-                        SearchQuery <Operation> query = myDatabase.FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2));
+                        SearchQuery<Operation> query = myDatabase.FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2));
                         if (query.Found())
                         {
                             string data1 = string.Empty;
@@ -683,14 +686,14 @@ namespace WindowsFormsApp1
                 }
                 if (Convert.ToString(comboBox1.SelectedItem) == "Процент")
                 {
-                    if (textBox1.Text[textBox1.Text.Length - 1] == '/')
+                    if (waterMarkTextBox1.Text[waterMarkTextBox1.Text.Length - 1] == '/')
                     {
-                        for (int i = 0; i < textBox1.Text.Length; i++)
+                        for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
                         {
-                            while (textBox1.Text[i] != '/')
+                            while (waterMarkTextBox1.Text[i] != '/')
                             {
-                                pole = pole + textBox1.Text[i];
-                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                pole = pole + waterMarkTextBox1.Text[i];
+                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                                 {
                                     errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
                                     break;
@@ -700,12 +703,12 @@ namespace WindowsFormsApp1
                             l = i;
                             break;
                         }
-                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        for (int i = l + 1; i < waterMarkTextBox1.Text.Length; i++)
                         {
-                            while (textBox1.Text[i] != '/')
+                            while (waterMarkTextBox1.Text[i] != '/')
                             {
-                                pole1 = pole1 + textBox1.Text[i];
-                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                pole1 = pole1 + waterMarkTextBox1.Text[i];
+                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                                 {
                                     errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n\n";
                                     break;
@@ -715,12 +718,12 @@ namespace WindowsFormsApp1
                             l = i;
                             break;
                         }
-                        for (int i = l + 1; i < textBox1.Text.Length; i++)
+                        for (int i = l + 1; i < waterMarkTextBox1.Text.Length; i++)
                         {
-                            while (textBox1.Text[i] != '/')
+                            while (waterMarkTextBox1.Text[i] != '/')
                             {
-                                pole2 = pole2 + textBox1.Text[i];
-                                if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                                pole2 = pole2 + waterMarkTextBox1.Text[i];
+                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                                 {
                                     errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
                                     break;
@@ -784,42 +787,23 @@ namespace WindowsFormsApp1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem.ToString() == "Банкомат")
-            {
-                state = "Введите номер банкомата";
-            }
-            if (comboBox1.SelectedItem.ToString() == "Клиент")
-            {
-                state = "Введите номер карточки клиента";
-            }
-            if (comboBox1.SelectedItem.ToString() == "Операция")
-            {
-                state = "Введите тип операции/номер карточки/номер банкомата/";
-            }
-            if (comboBox1.SelectedItem.ToString() == "Процент")
-            {
-                state = "Введите тип операции/банк-отправитель/банк-получатель/";
-            }
-            textBox1.ForeColor = Color.Silver;
-            textBox1.Text = state;
-        }
-
-        private void textBox1_Enter(object sender, EventArgs e)
-        {
-            if ((textBox1.Text == "Введите номер банкомата") || (textBox1.Text == "Введите номер карточки клиента") || (textBox1.Text == "Введите тип операции/номер карточки/номер банкомата/") || (textBox1.Text == "Введите тип операции/банк-отправитель/банк-получатель/"))
-            {
-                textBox1.Text = "";
-                textBox1.ForeColor = Color.Black;
-            }
-        }
-
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "")
-            {
-                textBox1.Text = state;
-                textBox1.ForeColor = Color.Silver;
-            }
+                if (comboBox1.SelectedItem.ToString() == "Банкомат")
+                {
+                    state = "Введите номер банкомата";
+                }
+                if (comboBox1.SelectedItem.ToString() == "Клиент")
+                {
+                    state = "Введите номер карточки клиента";
+                }
+                if (comboBox1.SelectedItem.ToString() == "Операция")
+                {
+                    state = "Введите тип операции/номер карточки/номер банкомата/ (Пример: а/1/1/)";
+                }
+                if (comboBox1.SelectedItem.ToString() == "Процент")
+                {
+                    state = "Введите тип операции/банк-отправитель/банк-получатель/ (Пример: а/а/а/)";
+                }
+                waterMarkTextBox1.WaterMarkText = state;
         }
 
         private void операцииПоКлиентуToolStripMenuItem_Click(object sender, EventArgs e)
@@ -877,5 +861,6 @@ namespace WindowsFormsApp1
             }
             POM.ShowDialog();
         }
+
     }
 }
