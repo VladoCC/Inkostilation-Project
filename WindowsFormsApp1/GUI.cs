@@ -22,9 +22,6 @@ namespace WindowsFormsApp1
         int index3 = -1;
         int index4 = -1;
         string state = "";
-        bool flagChanged = false;
-        bool flagChanged1 = false;
-        bool flagChanged2 = false;
 
         public static Database myDatabase = Database.GetNewInstance();
         public GUI()
@@ -59,7 +56,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(DialogWindow1.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow1.textBox1.Text) > 500)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер>\n\n";
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер> 1..500\n\n";
                 }
                 for (int i = 0; i < DialogWindow1.textBox2.Text.Length; i++)
                 {
@@ -135,7 +132,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 99999999)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                 }
                 for (int i = 0; i < DialogWindow2.textBox2.Text.Length; i++)
                 {
@@ -211,7 +208,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(DialogWindow3.textBox4.Text) < 0) || (Convert.ToInt32(DialogWindow3.textBox4.Text) > 100)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Процент>\n\n";
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Процент> 0..100\n\n";
                 }
                 for (int i = 0; i < DialogWindow3.textBox1.Text.Length; i++)
                 {
@@ -307,7 +304,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 99999999)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                 }
                 for (int i = 0; i < DialogWindow4.textBox3.Text.Length; i++)
                 {
@@ -320,7 +317,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring2 == false) && ((Convert.ToInt32(DialogWindow4.textBox3.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox3.Text) > 500)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата>\n\n";
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
                 }
                 for (int i = 0; i < DialogWindow4.textBox4.Text.Length; i++)
                 {
@@ -333,7 +330,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring3 == false) && ((Convert.ToInt32(DialogWindow4.textBox4.Text) < 0) || (Convert.ToInt32(DialogWindow4.textBox4.Text) > 10000000)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Сумма операции>\n\n";
+                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Сумма операции> 0..10000000\n\n";
                 }
                 if (errormessage == "")
                 {
@@ -495,7 +492,7 @@ namespace WindowsFormsApp1
                     }
                     if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 500)))
                     {
-                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
+                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска 1..500\n\n";
                     }
                     if (errormessage == "")
                     {
@@ -545,7 +542,7 @@ namespace WindowsFormsApp1
                     }
                     if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 99999999)))
                     {
-                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска\n\n";
+                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска 1..99999999\n\n";
                     }
                     if (errormessage == "")
                     {
@@ -616,7 +613,7 @@ namespace WindowsFormsApp1
                             }
                             if ((flagstring1 == false) && ((Convert.ToInt32(pole1) < 1) || (Convert.ToInt32(pole1) > 99999999)))
                             {
-                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки>\n\n";
+                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                             }
                             l = i;
                             break;
@@ -636,7 +633,7 @@ namespace WindowsFormsApp1
                             }
                             if ((flagstring2 == false) && ((Convert.ToInt32(pole2) < 1) || (Convert.ToInt32(pole2) > 500)))
                             {
-                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата>\n\n";
+                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
                             }
                         }
                         if ((pole == "") || (pole1 == "") || (pole2 == ""))
@@ -787,23 +784,23 @@ namespace WindowsFormsApp1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-                if (comboBox1.SelectedItem.ToString() == "Банкомат")
-                {
-                    state = "Введите номер банкомата";
-                }
-                if (comboBox1.SelectedItem.ToString() == "Клиент")
-                {
-                    state = "Введите номер карточки клиента";
-                }
-                if (comboBox1.SelectedItem.ToString() == "Операция")
-                {
-                    state = "Введите тип операции/номер карточки/номер банкомата/ (Пример: а/1/1/)";
-                }
-                if (comboBox1.SelectedItem.ToString() == "Процент")
-                {
-                    state = "Введите тип операции/банк-отправитель/банк-получатель/ (Пример: а/а/а/)";
-                }
-                waterMarkTextBox1.WaterMarkText = state;
+           if (comboBox1.SelectedItem.ToString() == "Банкомат")
+           {
+              state = "Введите номер банкомата";
+           }
+           if (comboBox1.SelectedItem.ToString() == "Клиент")
+           {
+              state = "Введите номер карточки клиента";
+           }
+           if (comboBox1.SelectedItem.ToString() == "Операция")
+           {
+              state = "Введите тип операции/номер карточки/номер банкомата/ (Пример: а/1/1/)";
+           }
+           if (comboBox1.SelectedItem.ToString() == "Процент")
+           {
+              state = "Введите тип операции/банк-отправитель/банк-получатель/ (Пример: а/а/а/)";
+           }
+           waterMarkTextBox1.WaterMarkText = state;
         }
 
         private void операцииПоКлиентуToolStripMenuItem_Click(object sender, EventArgs e)
