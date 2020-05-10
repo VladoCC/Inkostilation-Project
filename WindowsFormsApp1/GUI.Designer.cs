@@ -35,7 +35,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.импортироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -79,6 +78,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button9 = new System.Windows.Forms.Button();
             this.waterMarkTextBox1 = new WindowsFormsApp1.WaterMarkTextBox();
+            this.создатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -102,7 +102,7 @@
             // 
             this.создатьToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlLight;
             this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьToolStripMenuItem,
+            this.создатьToolStripMenuItem1,
             this.импортироватьToolStripMenuItem,
             this.сохранитьToolStripMenuItem});
             this.создатьToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 8F);
@@ -110,23 +110,19 @@
             this.создатьToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.создатьToolStripMenuItem.Text = "Файл";
             // 
-            // открытьToolStripMenuItem
-            // 
-            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.открытьToolStripMenuItem.Text = "Создать";
-            // 
             // импортироватьToolStripMenuItem
             // 
             this.импортироватьToolStripMenuItem.Name = "импортироватьToolStripMenuItem";
-            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.импортироватьToolStripMenuItem.Text = "Импортировать";
+            this.импортироватьToolStripMenuItem.Click += new System.EventHandler(this.импортироватьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
+            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // отчётыToolStripMenuItem
             // 
@@ -587,6 +583,13 @@
             this.waterMarkTextBox1.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox1.WaterMarkText = "";
             // 
+            // создатьToolStripMenuItem1
+            // 
+            this.создатьToolStripMenuItem1.Name = "создатьToolStripMenuItem1";
+            this.создатьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.создатьToolStripMenuItem1.Text = "Создать";
+            this.создатьToolStripMenuItem1.Click += new System.EventHandler(this.создатьToolStripMenuItem1_Click);
+            // 
             // GUI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -634,7 +637,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem импортироватьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -678,5 +680,6 @@
         public System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button9;
         private WaterMarkTextBox waterMarkTextBox1;
+        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem1;
     }
 }

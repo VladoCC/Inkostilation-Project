@@ -26,12 +26,12 @@ namespace WindowsFormsApp1
         public static Database myDatabase = Database.GetNewInstance();
         public GUI()
         {
-
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            bool bigflag = false;
             string errormessage = "";
             bool flagstring = false;
             HashMap1Dialog DialogWindow1 = new HashMap1Dialog();
@@ -66,6 +66,26 @@ namespace WindowsFormsApp1
                         break;
                     }
                 }
+                if (DialogWindow1.textBox2.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Адрес> (более 20 символов)\n\n";
+                }
+                if (DialogWindow1.textBox2.Text[0] >= 'А' && DialogWindow1.textBox2.Text[0] <= 'Я')
+                {
+                    bigflag = true;
+                }
+                else
+                {
+                    errormessage = errormessage + "Поле <Адрес> должно начинаться с заглавной буквы\n\n";
+                }
+                for (int i = 1; i < DialogWindow1.textBox2.Text.Length; i++)
+                {
+                    if ((DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я') && bigflag)
+                    {
+                        errormessage = errormessage + "В поле <Адрес> не может быть более одной заглавной буквы\n\n";
+                        break;
+                    }
+                }
                 for (int i = 0; i < DialogWindow1.textBox3.Text.Length; i++)
                 {
                     if (!(DialogWindow1.textBox3.Text[i] >= 'А' && DialogWindow1.textBox3.Text[i] <= 'Я') && !(DialogWindow1.textBox3.Text[i] >= 'а' && DialogWindow1.textBox3.Text[i] <= 'я'))
@@ -73,6 +93,14 @@ namespace WindowsFormsApp1
                         errormessage = errormessage + "Неверный формат данных в поле <Название>\n\n";
                         break;
                     }
+                }
+                if (DialogWindow1.textBox3.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Название> (более 20 символов)\n\n";
+                }
+                if (!(DialogWindow1.textBox3.Text[0] >= 'А' && DialogWindow1.textBox3.Text[0] <= 'Я'))
+                {
+                    errormessage = errormessage + "Поле <Название> должно начинаться с заглавной буквы\n\n";
                 }
                 if (errormessage == "")
                 {
@@ -142,6 +170,14 @@ namespace WindowsFormsApp1
                         break;
                     }
                 }
+                if (DialogWindow2.textBox2.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Обслуживающий банк> (более 20 символов)\n\n";
+                }
+                if (!(DialogWindow2.textBox2.Text[0] >= 'А' && DialogWindow2.textBox2.Text[0] <= 'Я'))
+                {
+                    errormessage = errormessage + "Поле <Обслуживающий банк> должно начинаться с заглавной буквы\n\n";
+                }
                 for (int i = 0; i < DialogWindow2.textBox3.Text.Length; i++)
                 {
                     if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я') && !(DialogWindow2.textBox3.Text[i] >= 'а' && DialogWindow2.textBox3.Text[i] <= 'я') && !(DialogWindow2.textBox3.Text[i] == '_'))
@@ -149,6 +185,14 @@ namespace WindowsFormsApp1
                         errormessage = errormessage + "Неверный формат данных в поле <ФИО>\n\n";
                         break;
                     }
+                }
+                if (DialogWindow2.textBox3.Text.Length > 40)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <ФИО> (более 40 символов)\n\n";
+                }
+                if (!(DialogWindow2.textBox3.Text[0] >= 'А' && DialogWindow2.textBox3.Text[0] <= 'Я'))
+                {
+                    errormessage = errormessage + "Поле <ФИО> должно начинаться с заглавной буквы\n\n";
                 }
                 if (errormessage == "")
                 {
@@ -185,6 +229,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            bool bigflag = false;
             string errormessage = "";
             bool flagstring = false;
             Tree1Dialog DialogWindow3 = new Tree1Dialog();
@@ -218,6 +263,26 @@ namespace WindowsFormsApp1
                         break;
                     }
                 }
+                if (DialogWindow3.textBox1.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Тип операции> (более 20 символов)\n\n";
+                }
+                if (DialogWindow3.textBox1.Text[0] >= 'А' && DialogWindow3.textBox1.Text[0] <= 'Я')
+                {
+                    bigflag = true;
+                }
+                else
+                {
+                    errormessage = errormessage + "Поле <Тип операции> должно начинаться с заглавной буквы\n\n";
+                }
+                for (int i = 1; i < DialogWindow3.textBox1.Text.Length; i++)
+                {
+                    if ((DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') && bigflag)
+                    {
+                        errormessage = errormessage + "В поле <Тип операции> не может быть более одной заглавной буквы\n\n";
+                        break;
+                    }
+                }
                 for (int i = 0; i < DialogWindow3.textBox2.Text.Length; i++)
                 {
                     if (!(DialogWindow3.textBox2.Text[i] >= 'А' && DialogWindow3.textBox2.Text[i] <= 'Я') && !(DialogWindow3.textBox2.Text[i] >= 'а' && DialogWindow3.textBox2.Text[i] <= 'я'))
@@ -226,6 +291,14 @@ namespace WindowsFormsApp1
                         break;
                     }
                 }
+                if (DialogWindow3.textBox2.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Банк-отправитель> (более 20 символов)\n\n";
+                }
+                if (!(DialogWindow3.textBox2.Text[0] >= 'А' && DialogWindow3.textBox2.Text[0] <= 'Я'))
+                {
+                    errormessage = errormessage + "Поле <Банк-отправитель> должно начинаться с заглавной буквы\n\n";
+                }
                 for (int i = 0; i < DialogWindow3.textBox3.Text.Length; i++)
                 {
                     if (!(DialogWindow3.textBox3.Text[i] >= 'А' && DialogWindow3.textBox3.Text[i] <= 'Я') && !(DialogWindow3.textBox3.Text[i] >= 'а' && DialogWindow3.textBox3.Text[i] <= 'я'))
@@ -233,6 +306,14 @@ namespace WindowsFormsApp1
                         errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
                         break;
                     }
+                }
+                if (DialogWindow3.textBox3.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Банк-получатель> (более 20 символов)\n\n";
+                }
+                if (!(DialogWindow3.textBox3.Text[0] >= 'А' && DialogWindow3.textBox3.Text[0] <= 'Я'))
+                {
+                    errormessage = errormessage + "Поле <Банк-получатель> должно начинаться с заглавной буквы\n\n";
                 }
                 if (errormessage == "")
                 {
@@ -271,6 +352,7 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
+            bool bigflag = false;
             string errormessage = "";
             bool flagstring1 = false;
             bool flagstring2 = false;
@@ -290,6 +372,26 @@ namespace WindowsFormsApp1
                     if (!(DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') && !(DialogWindow4.textBox1.Text[i] >= 'а' && DialogWindow4.textBox1.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                        break;
+                    }
+                }
+                if (DialogWindow4.textBox1.Text.Length > 20)
+                {
+                    errormessage = errormessage + "Слишком длинное поле <Тип операции> (более 20 символов)\n\n";
+                }
+                if (DialogWindow4.textBox1.Text[0] >= 'А' && DialogWindow4.textBox1.Text[0] <= 'Я')
+                {
+                    bigflag = true;
+                }
+                else
+                {
+                    errormessage = errormessage + "Поле <Тип операции> должно начинаться с заглавной буквы\n\n";
+                }
+                for (int i = 1; i < DialogWindow4.textBox1.Text.Length; i++)
+                {
+                    if ((DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') && bigflag)
+                    {
+                        errormessage = errormessage + "В поле <Тип операции> не может быть более одной заглавной буквы\n\n";
                         break;
                     }
                 }
@@ -859,5 +961,112 @@ namespace WindowsFormsApp1
             POM.ShowDialog();
         }
 
+        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFile = new SaveFileDialog();
+            saveFile.Title = "Сохранить базу данных";
+            saveFile.OverwritePrompt = true;
+            saveFile.DefaultExt = "*.txt";
+            saveFile.Filter = "Text|*.txt";
+            if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && saveFile.FileName.Length > 0)
+            {
+                myDatabase.Save(saveFile.FileName);
+            }
+        }
+
+        private void импортироватьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.Title = "Импортировать базу данных";
+            openFile.CheckFileExists = true;
+            openFile.DefaultExt = "*.txt";
+            openFile.Filter = "Text|*.txt";
+            if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && openFile.FileName.Length > 0)
+            {
+                try
+                {
+                    myDatabase = Database.GetInstance(openFile.FileName);
+                }
+                catch
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = "Некорректный формат импортируемого файла";
+                    ErrorWindow.ShowDialog();
+                }
+            }
+            dataGridView1.Rows.Clear();
+            NumRows1 = -1;
+            Machine[] machineArray = myDatabase.MachineArray();
+            for (int i = 0; i < myDatabase.MachineSize(); i++)
+            {
+                dataGridView1.Rows.Add();
+                NumRows1 += 1;
+                HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
+                dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
+                dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
+                dataGridView1.Rows[NumRows1].Cells[3].Value = machineArray[i].BankName;
+            }
+            dataGridView3.Rows.Clear();
+            NumRows2 = -1;
+            Client[] clientArray = myDatabase.ClientArray();
+            for (int i = 0; i < myDatabase.ClientSize(); i++)
+            {
+                dataGridView3.Rows.Add();
+                NumRows2 += 1;
+                HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
+                dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
+                dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
+                dataGridView3.Rows[NumRows2].Cells[3].Value = clientArray[i].Name;
+            }
+            dataGridView4.Rows.Clear();
+            NumRows4 = -1;
+            Operation[] operationArray = myDatabase.OperationArray();
+            for (int i = 0; i < myDatabase.OperationSize(); i++)
+            {
+                dataGridView4.Rows.Add();
+                NumRows4 += 1;
+                dataGridView4.Rows[NumRows4].Cells[0].Value = operationArray[i].OperationType;
+                dataGridView4.Rows[NumRows4].Cells[1].Value = operationArray[i].CardNumber;
+                dataGridView4.Rows[NumRows4].Cells[2].Value = operationArray[i].MachineNumber;
+                dataGridView4.Rows[NumRows4].Cells[3].Value = operationArray[i].Sum;
+            }
+            dataGridView2.Rows.Clear();
+            NumRows3 = -1;
+            Percent[] percentArray = myDatabase.PercentArray();
+            for (int i = 0; i < myDatabase.PercentSize(); i++)
+            {
+                dataGridView2.Rows.Add();
+                NumRows3 += 1;
+                dataGridView2.Rows[NumRows3].Cells[0].Value = percentArray[i].OperationType;
+                dataGridView2.Rows[NumRows3].Cells[1].Value = percentArray[i].SenderBank;
+                dataGridView2.Rows[NumRows3].Cells[2].Value = percentArray[i].ReceiverBank;
+                dataGridView2.Rows[NumRows3].Cells[3].Value = percentArray[i].Percent1;
+            }
+            index1 = -1;
+            index2 = -1;
+            index3 = -1;
+            index4 = -1;
+            state = "";
+        }
+
+        private void создатьToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            myDatabase = Database.GetNewInstance();
+            NumRows1 = -1;
+            NumRows2 = -1;
+            NumRows3 = -1;
+            NumRows4 = -1;
+            index1 = -1;
+            index2 = -1;
+            index3 = -1;
+            index4 = -1;
+            state = "";
+            dataGridView1.Rows.Clear();
+            dataGridView2.Rows.Clear();
+            dataGridView3.Rows.Clear();
+            dataGridView4.Rows.Clear();
+        }
     }
 }
