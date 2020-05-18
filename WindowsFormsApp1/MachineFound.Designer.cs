@@ -31,13 +31,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MachineFound));
             this.MachineResults = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.MachineResults)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,9 +63,39 @@
             this.MachineResults.Size = new System.Drawing.Size(300, 464);
             this.MachineResults.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(112, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Банкомат";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(59, 513);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(132, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Число сравнений:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(197, 513);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "/число/";
+            // 
             // Hash
             // 
-            this.Hash.HeaderText = "Хэш функция";
+            this.Hash.HeaderText = "Хеш адрес";
             this.Hash.Name = "Hash";
             this.Hash.ReadOnly = true;
             this.Hash.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -101,36 +131,6 @@
             this.НазваниеБанка.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.НазваниеБанка.Width = 90;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(112, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Банкомат";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(59, 513);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Число сравнений:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(197, 513);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "/число/";
-            // 
             // MachineFound
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -154,12 +154,12 @@
         #endregion
 
         public System.Windows.Forms.DataGridView MachineResults;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hash;
         private System.Windows.Forms.DataGridViewTextBoxColumn Номер;
         private System.Windows.Forms.DataGridViewTextBoxColumn Адрес;
         private System.Windows.Forms.DataGridViewTextBoxColumn НазваниеБанка;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.Label label3;
     }
 }

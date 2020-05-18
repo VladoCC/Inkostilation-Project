@@ -38,11 +38,11 @@
             this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
             this.MachinesKey = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PercentsData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MachinesKey)).BeginInit();
             this.SuspendLayout();
@@ -140,9 +140,19 @@
             this.MachinesKey.TabIndex = 1;
             this.MachinesKey.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.MachinesKey_CellClick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(114, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Банкомат";
+            // 
             // Hash
             // 
-            this.Hash.HeaderText = "Хэш функция";
+            this.Hash.HeaderText = "Хеш адрес";
             this.Hash.Name = "Hash";
             this.Hash.ReadOnly = true;
             this.Hash.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -178,16 +188,6 @@
             this.НазваниеБанка.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.НазваниеБанка.Width = 90;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(114, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Банкомат";
-            // 
             // PercentsOfMachine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,10 +218,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Процент;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.DataGridView MachinesKey;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hash;
         private System.Windows.Forms.DataGridViewTextBoxColumn Номер;
         private System.Windows.Forms.DataGridViewTextBoxColumn Адрес;
         private System.Windows.Forms.DataGridViewTextBoxColumn НазваниеБанка;
-        private System.Windows.Forms.Label label1;
     }
 }

@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.создатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.импортироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,10 +44,6 @@
             this.процентыОперацийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.процентыБанкоматаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,10 +54,6 @@
             this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.Hash1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НомерКарточки = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Банк = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ФИО = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -78,7 +71,14 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button9 = new System.Windows.Forms.Button();
             this.waterMarkTextBox1 = new WindowsFormsApp1.WaterMarkTextBox();
-            this.создатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Hash1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НомерКарточки = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Банк = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ФИО = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Номер = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -110,17 +110,24 @@
             this.создатьToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.создатьToolStripMenuItem.Text = "Файл";
             // 
+            // создатьToolStripMenuItem1
+            // 
+            this.создатьToolStripMenuItem1.Name = "создатьToolStripMenuItem1";
+            this.создатьToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.создатьToolStripMenuItem1.Text = "Создать";
+            this.создатьToolStripMenuItem1.Click += new System.EventHandler(this.создатьToolStripMenuItem1_Click);
+            // 
             // импортироватьToolStripMenuItem
             // 
             this.импортироватьToolStripMenuItem.Name = "импортироватьToolStripMenuItem";
-            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.импортироватьToolStripMenuItem.Text = "Импортировать";
             this.импортироватьToolStripMenuItem.Click += new System.EventHandler(this.импортироватьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
             this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
@@ -185,44 +192,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(300, 464);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // Hash
-            // 
-            this.Hash.HeaderText = "Хэш функция";
-            this.Hash.Name = "Hash";
-            this.Hash.ReadOnly = true;
-            this.Hash.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Hash.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Hash.Width = 60;
-            // 
-            // Номер
-            // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Номер.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Номер.HeaderText = "Номер";
-            this.Номер.Name = "Номер";
-            this.Номер.ReadOnly = true;
-            this.Номер.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Номер.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Номер.Width = 50;
-            // 
-            // Адрес
-            // 
-            this.Адрес.HeaderText = "Адрес";
-            this.Адрес.Name = "Адрес";
-            this.Адрес.ReadOnly = true;
-            this.Адрес.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Адрес.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Адрес.Width = 97;
-            // 
-            // НазваниеБанка
-            // 
-            this.НазваниеБанка.HeaderText = "Название банка";
-            this.НазваниеБанка.Name = "НазваниеБанка";
-            this.НазваниеБанка.ReadOnly = true;
-            this.НазваниеБанка.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НазваниеБанка.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НазваниеБанка.Width = 90;
             // 
             // label1
             // 
@@ -347,44 +316,6 @@
             this.dataGridView3.Size = new System.Drawing.Size(300, 464);
             this.dataGridView3.TabIndex = 10;
             this.dataGridView3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellClick);
-            // 
-            // Hash1
-            // 
-            this.Hash1.HeaderText = "Хэш функция";
-            this.Hash1.Name = "Hash1";
-            this.Hash1.ReadOnly = true;
-            this.Hash1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Hash1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Hash1.Width = 60;
-            // 
-            // НомерКарточки
-            // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.НомерКарточки.DefaultCellStyle = dataGridViewCellStyle3;
-            this.НомерКарточки.HeaderText = "Номер карточки";
-            this.НомерКарточки.Name = "НомерКарточки";
-            this.НомерКарточки.ReadOnly = true;
-            this.НомерКарточки.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НомерКарточки.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НомерКарточки.Width = 65;
-            // 
-            // Банк
-            // 
-            this.Банк.HeaderText = "Банк";
-            this.Банк.Name = "Банк";
-            this.Банк.ReadOnly = true;
-            this.Банк.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Банк.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Банк.Width = 80;
-            // 
-            // ФИО
-            // 
-            this.ФИО.HeaderText = "ФИО";
-            this.ФИО.Name = "ФИО";
-            this.ФИО.ReadOnly = true;
-            this.ФИО.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ФИО.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ФИО.Width = 92;
             // 
             // dataGridView4
             // 
@@ -583,12 +514,81 @@
             this.waterMarkTextBox1.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox1.WaterMarkText = "";
             // 
-            // создатьToolStripMenuItem1
+            // Hash1
             // 
-            this.создатьToolStripMenuItem1.Name = "создатьToolStripMenuItem1";
-            this.создатьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.создатьToolStripMenuItem1.Text = "Создать";
-            this.создатьToolStripMenuItem1.Click += new System.EventHandler(this.создатьToolStripMenuItem1_Click);
+            this.Hash1.HeaderText = "Хеш адрес";
+            this.Hash1.Name = "Hash1";
+            this.Hash1.ReadOnly = true;
+            this.Hash1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Hash1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Hash1.Width = 60;
+            // 
+            // НомерКарточки
+            // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.НомерКарточки.DefaultCellStyle = dataGridViewCellStyle3;
+            this.НомерКарточки.HeaderText = "Номер карточки";
+            this.НомерКарточки.Name = "НомерКарточки";
+            this.НомерКарточки.ReadOnly = true;
+            this.НомерКарточки.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НомерКарточки.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НомерКарточки.Width = 65;
+            // 
+            // Банк
+            // 
+            this.Банк.HeaderText = "Банк";
+            this.Банк.Name = "Банк";
+            this.Банк.ReadOnly = true;
+            this.Банк.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Банк.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Банк.Width = 80;
+            // 
+            // ФИО
+            // 
+            this.ФИО.HeaderText = "ФИО";
+            this.ФИО.Name = "ФИО";
+            this.ФИО.ReadOnly = true;
+            this.ФИО.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ФИО.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ФИО.Width = 92;
+            // 
+            // Hash
+            // 
+            this.Hash.HeaderText = "Хеш адрес";
+            this.Hash.Name = "Hash";
+            this.Hash.ReadOnly = true;
+            this.Hash.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Hash.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Hash.Width = 60;
+            // 
+            // Номер
+            // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Номер.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Номер.HeaderText = "Номер";
+            this.Номер.Name = "Номер";
+            this.Номер.ReadOnly = true;
+            this.Номер.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Номер.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Номер.Width = 50;
+            // 
+            // Адрес
+            // 
+            this.Адрес.HeaderText = "Адрес";
+            this.Адрес.Name = "Адрес";
+            this.Адрес.ReadOnly = true;
+            this.Адрес.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Адрес.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Адрес.Width = 97;
+            // 
+            // НазваниеБанка
+            // 
+            this.НазваниеБанка.HeaderText = "Название банка";
+            this.НазваниеБанка.Name = "НазваниеБанка";
+            this.НазваниеБанка.ReadOnly = true;
+            this.НазваниеБанка.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НазваниеБанка.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НазваниеБанка.Width = 90;
             // 
             // GUI
             // 
@@ -668,6 +668,11 @@
         private System.Windows.Forms.ToolStripMenuItem операцииБанкоматаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem процентыОперацийToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem процентыБанкоматаToolStripMenuItem;
+        private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button9;
+        private WaterMarkTextBox waterMarkTextBox1;
+        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hash;
         private System.Windows.Forms.DataGridViewTextBoxColumn Номер;
         private System.Windows.Forms.DataGridViewTextBoxColumn Адрес;
@@ -676,10 +681,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерКарточки;
         private System.Windows.Forms.DataGridViewTextBoxColumn Банк;
         private System.Windows.Forms.DataGridViewTextBoxColumn ФИО;
-        private System.Windows.Forms.Label label5;
-        public System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button9;
-        private WaterMarkTextBox waterMarkTextBox1;
-        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem1;
     }
 }
