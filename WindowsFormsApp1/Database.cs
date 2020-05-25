@@ -99,24 +99,48 @@ namespace WindowsFormsApp1
             return con;
         }
         
-        public bool RemoveClient(Client client)
+        public string RemoveClient(Client client)
         {
-            return _clients.Remove(client);
+            _clients.Remove(client);
+            string con = Consistence();
+            if (con != "База данных совместима")
+            {
+                _clients.Add(client);
+            }
+            return con;
         }
 
-        public bool RemoveMachine(Machine machine)
-        {
-            return _machines.Remove(machine);
+        public string RemoveMachine(Machine machine)
+        { 
+            _machines.Remove(machine);
+            string con = Consistence();
+            if (con != "База данных совместима")
+            {
+                _machines.Add(machine);
+            }
+            return con;
         }
 
-        public bool RemoveOperation(Operation operation)
+        public string RemoveOperation(Operation operation)
         {
-            return _operations.Remove(operation);
+            _operations.Remove(operation);
+            string con = Consistence();
+            if (con != "База данных совместима")
+            {
+                _operations.Add(operation);
+            }
+            return con;
         }
 
-        public bool RemovePercent(Percent percent)
+        public string RemovePercent(Percent percent)
         {
-            return _percents.Remove(percent);
+            _percents.Remove(percent);
+            string con = Consistence();
+            if (con != "База данных совместима")
+            {
+                _percents.Remove(percent);
+            }
+            return con;
         }
         
         public SearchQuery<Client> FindClient(Client client)

@@ -103,6 +103,7 @@
         <e p="Tree2Dialog.cs" t="Include" />
         <e p="Tree2Dialog.Designer.cs" t="Include" />
         <e p="Tree2Dialog.resx" t="Include" />
+        <e p="WaterMarkTextBox.cs" t="Include" />
         <e p="WindowsFormsApp1.csproj" t="IncludeRecursive" />
       </e>
       <e p="WindowsFormsApp1.sln" t="IncludeFlat" />
