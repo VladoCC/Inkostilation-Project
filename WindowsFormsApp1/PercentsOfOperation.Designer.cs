@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PercentsOfOperation));
             this.OperationsKey = new System.Windows.Forms.DataGridView();
-            this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НомерБанкомата = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.СуммаОперации = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PercentsData = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НомерБанкомата = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.СуммаОперации = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.OperationsKey)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PercentsData)).BeginInit();
             this.SuspendLayout();
@@ -70,44 +70,6 @@
             this.OperationsKey.TabIndex = 1;
             this.OperationsKey.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OperationsKey_CellClick);
             // 
-            // ТипОперации1
-            // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ТипОперации1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ТипОперации1.HeaderText = "Тип операции";
-            this.ТипОперации1.Name = "ТипОперации1";
-            this.ТипОперации1.ReadOnly = true;
-            this.ТипОперации1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ТипОперации1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ТипОперации1.Width = 70;
-            // 
-            // НомерКарточки1
-            // 
-            this.НомерКарточки1.HeaderText = "Номер карточки";
-            this.НомерКарточки1.Name = "НомерКарточки1";
-            this.НомерКарточки1.ReadOnly = true;
-            this.НомерКарточки1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НомерКарточки1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НомерКарточки1.Width = 85;
-            // 
-            // НомерБанкомата
-            // 
-            this.НомерБанкомата.HeaderText = "Номер банкомата";
-            this.НомерБанкомата.Name = "НомерБанкомата";
-            this.НомерБанкомата.ReadOnly = true;
-            this.НомерБанкомата.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НомерБанкомата.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НомерБанкомата.Width = 75;
-            // 
-            // СуммаОперации
-            // 
-            this.СуммаОперации.HeaderText = "Сумма операции";
-            this.СуммаОперации.Name = "СуммаОперации";
-            this.СуммаОперации.ReadOnly = true;
-            this.СуммаОперации.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.СуммаОперации.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.СуммаОперации.Width = 67;
-            // 
             // PercentsData
             // 
             this.PercentsData.AllowUserToAddRows = false;
@@ -130,11 +92,31 @@
             this.PercentsData.Size = new System.Drawing.Size(300, 464);
             this.PercentsData.TabIndex = 3;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(111, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(121, 25);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Операция";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(442, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 25);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Процент";
+            // 
             // Тип
             // 
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Тип.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Тип.HeaderText = "Тип операции";
+            this.Тип.HeaderText = "Название операции";
             this.Тип.Name = "Тип";
             this.Тип.ReadOnly = true;
             this.Тип.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -168,25 +150,43 @@
             this.Процент.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.Процент.Width = 67;
             // 
-            // label4
+            // ТипОперации1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(111, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 25);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Операция";
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ТипОперации1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.ТипОперации1.HeaderText = "Название операции";
+            this.ТипОперации1.Name = "ТипОперации1";
+            this.ТипОперации1.ReadOnly = true;
+            this.ТипОперации1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ТипОперации1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ТипОперации1.Width = 70;
             // 
-            // label2
+            // НомерКарточки1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(442, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Процент";
+            this.НомерКарточки1.HeaderText = "Номер карточки";
+            this.НомерКарточки1.Name = "НомерКарточки1";
+            this.НомерКарточки1.ReadOnly = true;
+            this.НомерКарточки1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НомерКарточки1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НомерКарточки1.Width = 85;
+            // 
+            // НомерБанкомата
+            // 
+            this.НомерБанкомата.HeaderText = "Номер банкомата";
+            this.НомерБанкомата.Name = "НомерБанкомата";
+            this.НомерБанкомата.ReadOnly = true;
+            this.НомерБанкомата.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НомерБанкомата.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НомерБанкомата.Width = 75;
+            // 
+            // СуммаОперации
+            // 
+            this.СуммаОперации.HeaderText = "Сумма операции";
+            this.СуммаОперации.Name = "СуммаОперации";
+            this.СуммаОперации.ReadOnly = true;
+            this.СуммаОперации.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.СуммаОперации.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.СуммаОперации.Width = 67;
             // 
             // PercentsOfOperation
             // 
@@ -212,16 +212,16 @@
         #endregion
 
         public System.Windows.Forms.DataGridView OperationsKey;
+        public System.Windows.Forms.DataGridView PercentsData;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridViewTextBoxColumn ТипОперации1;
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерКарточки1;
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерБанкомата;
         private System.Windows.Forms.DataGridViewTextBoxColumn СуммаОперации;
-        public System.Windows.Forms.DataGridView PercentsData;
         private System.Windows.Forms.DataGridViewTextBoxColumn Тип;
         private System.Windows.Forms.DataGridViewTextBoxColumn Отправитель;
         private System.Windows.Forms.DataGridViewTextBoxColumn Получатель;
         private System.Windows.Forms.DataGridViewTextBoxColumn Процент;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label2;
     }
 }

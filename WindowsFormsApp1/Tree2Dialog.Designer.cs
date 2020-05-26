@@ -95,11 +95,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 48);
+            this.label2.Location = new System.Drawing.Point(19, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(108, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Тип операции";
+            this.label2.Text = "Название операции";
             // 
             // textBox2
             // 

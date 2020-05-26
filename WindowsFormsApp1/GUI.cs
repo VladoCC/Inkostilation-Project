@@ -44,7 +44,6 @@ namespace WindowsFormsApp1
             }
             else
             {
-
                 for (int i = 0; i < DialogWindow1.textBox1.Text.Length; i++)
                 {
                     if (!(DialogWindow1.textBox1.Text[i] >= '0' && DialogWindow1.textBox1.Text[i] <= '9'))
@@ -70,7 +69,8 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Слишком длинное поле <Адрес> (более 20 символов)\n\n";
                 }
-                if (DialogWindow1.textBox2.Text[0] >= 'А' && DialogWindow1.textBox2.Text[0] <= 'Я')
+                if ((DialogWindow1.textBox2.Text[0] >= 'А' && DialogWindow1.textBox2.Text[0] <= 'Я')
+                    || (DialogWindow1.textBox2.Text[0] >= 'A' && DialogWindow1.textBox2.Text[0] <= 'Z'))
                 {
                     bigflag = true;
                 }
@@ -80,7 +80,8 @@ namespace WindowsFormsApp1
                 }
                 for (int i = 1; i < DialogWindow1.textBox2.Text.Length; i++)
                 {
-                    if ((DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я') && bigflag)
+                    if (((DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я') ||
+                        (DialogWindow1.textBox2.Text[i] >= 'A' && DialogWindow1.textBox2.Text[i] <= 'Z')) && bigflag)
                     {
                         errormessage = errormessage + "В поле <Адрес> не может быть более одной заглавной буквы\n\n";
                         break;
@@ -98,7 +99,8 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Слишком длинное поле <Название> (более 20 символов)\n\n";
                 }
-                if (!(DialogWindow1.textBox3.Text[0] >= 'А' && DialogWindow1.textBox3.Text[0] <= 'Я'))
+                if (!(DialogWindow1.textBox3.Text[0] >= 'А' && DialogWindow1.textBox3.Text[0] <= 'Я') &&
+                    !(DialogWindow1.textBox3.Text[0] >= 'A' && DialogWindow1.textBox3.Text[0] <= 'Z'))
                 {
                     errormessage = errormessage + "Поле <Название> должно начинаться с заглавной буквы\n\n";
                 }
@@ -174,7 +176,8 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Слишком длинное поле <Обслуживающий банк> (более 20 символов)\n\n";
                 }
-                if (!(DialogWindow2.textBox2.Text[0] >= 'А' && DialogWindow2.textBox2.Text[0] <= 'Я'))
+                if (!(DialogWindow2.textBox2.Text[0] >= 'А' && DialogWindow2.textBox2.Text[0] <= 'Я')
+                    && !(DialogWindow2.textBox2.Text[0] >= 'A' && DialogWindow2.textBox2.Text[0] <= 'Z'))
                 {
                     errormessage = errormessage + "Поле <Обслуживающий банк> должно начинаться с заглавной буквы\n\n";
                 }
@@ -190,7 +193,8 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Слишком длинное поле <ФИО> (более 40 символов)\n\n";
                 }
-                if (!(DialogWindow2.textBox3.Text[0] >= 'А' && DialogWindow2.textBox3.Text[0] <= 'Я'))
+                if (!(DialogWindow2.textBox3.Text[0] >= 'А' && DialogWindow2.textBox3.Text[0] <= 'Я')
+                    && !(DialogWindow2.textBox3.Text[0] >= 'A' && DialogWindow2.textBox3.Text[0] <= 'Z'))
                 {
                     errormessage = errormessage + "Поле <ФИО> должно начинаться с заглавной буквы\n\n";
                 }
@@ -259,27 +263,27 @@ namespace WindowsFormsApp1
                 {
                     if (!(DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') && !(DialogWindow3.textBox1.Text[i] >= 'а' && DialogWindow3.textBox1.Text[i] <= 'я'))
                     {
-                        errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                        errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
                         break;
                     }
                 }
                 if (DialogWindow3.textBox1.Text.Length > 20)
                 {
-                    errormessage = errormessage + "Слишком длинное поле <Тип операции> (более 20 символов)\n\n";
+                    errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n\n";
                 }
-                if (DialogWindow3.textBox1.Text[0] >= 'А' && DialogWindow3.textBox1.Text[0] <= 'Я')
+                if ((DialogWindow3.textBox1.Text[0] >= 'А' && DialogWindow3.textBox1.Text[0] <= 'Я') || (DialogWindow3.textBox1.Text[0] >= 'A' && DialogWindow3.textBox1.Text[0] <= 'Z'))
                 {
                     bigflag = true;
                 }
                 else
                 {
-                    errormessage = errormessage + "Поле <Тип операции> должно начинаться с заглавной буквы\n\n";
+                    errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n\n";
                 }
                 for (int i = 1; i < DialogWindow3.textBox1.Text.Length; i++)
                 {
-                    if ((DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') && bigflag)
+                    if (((DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') || (DialogWindow3.textBox1.Text[0] >= 'A' && DialogWindow3.textBox1.Text[0] <= 'Z')) && bigflag)
                     {
-                        errormessage = errormessage + "В поле <Тип операции> не может быть более одной заглавной буквы\n\n";
+                        errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n\n";
                         break;
                     }
                 }
@@ -295,7 +299,7 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Слишком длинное поле <Банк-отправитель> (более 20 символов)\n\n";
                 }
-                if (!(DialogWindow3.textBox2.Text[0] >= 'А' && DialogWindow3.textBox2.Text[0] <= 'Я'))
+                if (!(DialogWindow3.textBox2.Text[0] >= 'А' && DialogWindow3.textBox2.Text[0] <= 'Я') && !(DialogWindow3.textBox2.Text[0] >= 'A' && DialogWindow3.textBox2.Text[0] <= 'Z'))
                 {
                     errormessage = errormessage + "Поле <Банк-отправитель> должно начинаться с заглавной буквы\n\n";
                 }
@@ -311,7 +315,7 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Слишком длинное поле <Банк-получатель> (более 20 символов)\n\n";
                 }
-                if (!(DialogWindow3.textBox3.Text[0] >= 'А' && DialogWindow3.textBox3.Text[0] <= 'Я'))
+                if (!(DialogWindow3.textBox3.Text[0] >= 'А' && DialogWindow3.textBox3.Text[0] <= 'Я') && !(DialogWindow3.textBox3.Text[0] >= 'A' && DialogWindow3.textBox3.Text[0] <= 'Z'))
                 {
                     errormessage = errormessage + "Поле <Банк-получатель> должно начинаться с заглавной буквы\n\n";
                 }
@@ -371,27 +375,27 @@ namespace WindowsFormsApp1
                 {
                     if (!(DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') && !(DialogWindow4.textBox1.Text[i] >= 'а' && DialogWindow4.textBox1.Text[i] <= 'я'))
                     {
-                        errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                        errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
                         break;
                     }
                 }
                 if (DialogWindow4.textBox1.Text.Length > 20)
                 {
-                    errormessage = errormessage + "Слишком длинное поле <Тип операции> (более 20 символов)\n\n";
+                    errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n\n";
                 }
-                if (DialogWindow4.textBox1.Text[0] >= 'А' && DialogWindow4.textBox1.Text[0] <= 'Я')
+                if ((DialogWindow4.textBox1.Text[0] >= 'А' && DialogWindow4.textBox1.Text[0] <= 'Я') || (DialogWindow4.textBox1.Text[0] >= 'A' && DialogWindow4.textBox1.Text[0] <= 'Z'))
                 {
                     bigflag = true;
                 }
                 else
                 {
-                    errormessage = errormessage + "Поле <Тип операции> должно начинаться с заглавной буквы\n\n";
+                    errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n\n";
                 }
                 for (int i = 1; i < DialogWindow4.textBox1.Text.Length; i++)
                 {
-                    if ((DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') && bigflag)
+                    if (((DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') || (DialogWindow4.textBox1.Text[i] >= 'A' && DialogWindow4.textBox1.Text[i] <= 'Z')) && bigflag)
                     {
-                        errormessage = errormessage + "В поле <Тип операции> не может быть более одной заглавной буквы\n\n";
+                        errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n\n";
                         break;
                     }
                 }
@@ -479,8 +483,17 @@ namespace WindowsFormsApp1
             if (index1 != -1)
             {
                 Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
-                myDatabase.RemoveMachine(removableMachine);
-                dataGridView1.Rows.RemoveAt(index1);
+                string tempstring = myDatabase.RemoveMachine(removableMachine);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView1.Rows.RemoveAt(index1);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                }
                 NumRows1 -= 1;
                 index1 = -1;
             }
@@ -497,8 +510,17 @@ namespace WindowsFormsApp1
             if (index2 != -1)
             {
                 Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
-                myDatabase.RemoveClient(removableClient);
-                dataGridView3.Rows.RemoveAt(index2);
+                string tempstring = myDatabase.RemoveClient(removableClient);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView3.Rows.RemoveAt(index2);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                }
                 NumRows2 -= 1;
                 index2 = -1;
             }
@@ -515,8 +537,17 @@ namespace WindowsFormsApp1
             if (index3 != -1)
             {
                 Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
-                myDatabase.RemovePercent(removablePercent);
-                dataGridView2.Rows.RemoveAt(index3);
+                string tempstring = myDatabase.RemovePercent(removablePercent);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView2.Rows.RemoveAt(index3);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                }
                 NumRows3 -= 1;
                 index3 = -1;
             }
@@ -533,8 +564,17 @@ namespace WindowsFormsApp1
             if (index4 != -1)
             {
                 Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
-                myDatabase.RemoveOperation(removableOperation);
-                dataGridView4.Rows.RemoveAt(index4);
+                string tempstring = myDatabase.RemoveOperation(removableOperation);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView4.Rows.RemoveAt(index4);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                }
                 NumRows4 -= 1;
                 index4 = -1;
             }
@@ -692,7 +732,7 @@ namespace WindowsFormsApp1
                                 pole = pole + waterMarkTextBox1.Text[i];
                                 if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                                 {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                                    errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
                                     break;
                                 }
                                 i++;
@@ -794,7 +834,7 @@ namespace WindowsFormsApp1
                                 pole = pole + waterMarkTextBox1.Text[i];
                                 if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                                 {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Тип операции>\n\n";
+                                    errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
                                     break;
                                 }
                                 i++;
@@ -896,11 +936,11 @@ namespace WindowsFormsApp1
            }
            if (comboBox1.SelectedItem.ToString() == "Операция")
            {
-              state = "Введите тип операции/номер карточки/номер банкомата/ (Пример: а/1/1/)";
+              state = "Введите название операции/номер карточки/номер банкомата/ (Пример: а/1/1/)";
            }
            if (comboBox1.SelectedItem.ToString() == "Процент")
            {
-              state = "Введите тип операции/банк-отправитель/банк-получатель/ (Пример: а/а/а/)";
+              state = "Введите название операции/банк-отправитель/банк-получатель/ (Пример: а/а/а/)";
            }
            waterMarkTextBox1.WaterMarkText = state;
         }
@@ -916,6 +956,25 @@ namespace WindowsFormsApp1
                     OOC.ClientsKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
                 }
             }
+            if (OOC.ClientsKey.RowCount != 0)
+            {
+                int NumRows = -1;
+                int index1 = 0;
+                Client keyClient = new Client(Convert.ToInt32(OOC.ClientsKey.Rows[index1].Cells[1].Value), Convert.ToString(OOC.ClientsKey.Rows[index1].Cells[2].Value), Convert.ToString(OOC.ClientsKey.Rows[index1].Cells[3].Value));
+                Report<Client, Operation> report = GUI.myDatabase.ClientOperationReport(keyClient);
+                Operation[] arr = report.Data();
+                int size = report.DataSize();
+                for (int i = 0; i < size; i++)
+                {
+                    OOC.OperationsData.Rows.Add();
+                    NumRows += 1;
+                    OOC.OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    OOC.OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
+                    OOC.OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
+                    OOC.OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;
+                }
+                NumRows = -1;
+            }
             OOC.ShowDialog();
         }
 
@@ -929,6 +988,26 @@ namespace WindowsFormsApp1
                 {
                     OOM.MachinesKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
                 }
+            }
+            if (OOM.MachinesKey.RowCount != 0)
+            {
+                int NumRows = -1;
+                int index1 = 0;
+                Machine keyMachine = new Machine(Convert.ToInt32(OOM.MachinesKey.Rows[index1].Cells[1].Value),
+                            Convert.ToString(OOM.MachinesKey.Rows[index1].Cells[2].Value), Convert.ToString(OOM.MachinesKey.Rows[index1].Cells[3].Value));
+                Report<Machine, Operation> report = GUI.myDatabase.MachineOperationReport(keyMachine);
+                Operation[] arr = report.Data();
+                int size = report.DataSize();
+                for (int i = 0; i < size; i++)
+                {
+                    OOM.OperationsData.Rows.Add();
+                    NumRows += 1;
+                    OOM.OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    OOM.OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
+                    OOM.OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
+                    OOM.OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;
+                }
+                NumRows = -1;
             }
             OOM.ShowDialog();
         }
@@ -944,6 +1023,28 @@ namespace WindowsFormsApp1
                     POO.OperationsKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
                 }
             }
+            int NumRows = -1;
+            int index1 = 0;
+            if (POO.OperationsKey.RowCount != 0)
+            {
+                Operation keyOperation = new Operation(Convert.ToString(POO.OperationsKey.Rows[index1].Cells[0].Value),
+                           Convert.ToInt32(POO.OperationsKey.Rows[index1].Cells[1].Value),
+                           Convert.ToInt32(POO.OperationsKey.Rows[index1].Cells[2].Value),
+                           Convert.ToInt32(POO.OperationsKey.Rows[index1].Cells[3].Value));
+                Report<Operation, Percent> report = GUI.myDatabase.OperationPercentReport(keyOperation);
+                Percent[] arr = report.Data();
+                int size = report.DataSize();
+                for (int i = 0; i < size; i++)
+                {
+                    POO.PercentsData.Rows.Add();
+                    NumRows += 1;
+                    POO.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    POO.PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
+                    POO.PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
+                    POO.PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
+                }
+                NumRows = -1;
+            }
             POO.ShowDialog();
         }
 
@@ -958,6 +1059,26 @@ namespace WindowsFormsApp1
                     POM.MachinesKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
                 }
             }
+            int NumRows = -1;
+            int index1 = 0;
+            if (POM.MachinesKey.RowCount != 0)
+            {
+                Machine keyMachine = new Machine(Convert.ToInt32(POM.MachinesKey.Rows[index1].Cells[1].Value),
+                            Convert.ToString(POM.MachinesKey.Rows[index1].Cells[2].Value), Convert.ToString(POM.MachinesKey.Rows[index1].Cells[3].Value));
+                Report<Machine, Percent> report = GUI.myDatabase.MachinePercentReport(keyMachine);
+                Percent[] arr = report.Data();
+                int size = report.DataSize();
+                for (int i = 0; i < size; i++)
+                {
+                    POM.PercentsData.Rows.Add();
+                    NumRows += 1;
+                    POM.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    POM.PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
+                    POM.PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
+                    POM.PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
+                }
+                NumRows = -1;
+            }
             POM.ShowDialog();
         }
 
@@ -966,8 +1087,10 @@ namespace WindowsFormsApp1
             SaveFileDialog saveFile = new SaveFileDialog();
             saveFile.Title = "Сохранить базу данных";
             saveFile.OverwritePrompt = true;
-            saveFile.DefaultExt = "*.txt";
-            saveFile.Filter = "Text|*.txt";
+            saveFile.InitialDirectory = Application.StartupPath;
+            saveFile.RestoreDirectory = true;
+            saveFile.DefaultExt = "*.kostil";
+            saveFile.Filter = "kostil|*.kostil";
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && saveFile.FileName.Length > 0)
             {
                 myDatabase.Save(saveFile.FileName);
@@ -977,10 +1100,12 @@ namespace WindowsFormsApp1
         private void импортироватьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFile = new OpenFileDialog();
-            openFile.Title = "Импортировать базу данных";
+            openFile.Title = "Загрузить базу данных";
             openFile.CheckFileExists = true;
-            openFile.DefaultExt = "*.txt";
-            openFile.Filter = "Text|*.txt";
+            openFile.InitialDirectory = Application.StartupPath;
+            openFile.RestoreDirectory = true;
+            openFile.DefaultExt = "*.kostil";
+            openFile.Filter = "kostil|*.kostil";
             if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && openFile.FileName.Length > 0)
             {
                 try
@@ -990,7 +1115,7 @@ namespace WindowsFormsApp1
                 catch
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = "Некорректный формат импортируемого файла";
+                    ErrorWindow.label1.Text = "Некорректный формат загружаемого файла";
                     ErrorWindow.ShowDialog();
                 }
             }
