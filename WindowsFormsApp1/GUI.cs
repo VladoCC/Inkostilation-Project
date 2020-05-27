@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -31,88 +33,29 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool bigflag = false;
-            string errormessage = "";
-            bool flagstring = false;
+            bool stopflag = false;
             HashMap1Dialog DialogWindow1 = new HashMap1Dialog();
             DialogWindow1.ShowDialog();
-            if ((DialogWindow1.textBox1.Text == "") || (DialogWindow1.textBox2.Text == "") || (DialogWindow1.textBox3.Text == ""))
+            dataGridView1.Rows.Add();
+            NumRows1 += 1;
+            dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.textBox1.Text;
+            dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.textBox2.Text;
+            dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.textBox3.Text;
+            try
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Поля формы не могут быть пустыми";
-                ErrorWindow.ShowDialog();
+                Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
+            Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
             }
-            else
+            catch (Exception ex)
             {
-                for (int i = 0; i < DialogWindow1.textBox1.Text.Length; i++)
+                stopflag = true;
+            }
+            finally
+            {
+                if (stopflag == false)
                 {
-                    if (!(DialogWindow1.textBox1.Text[i] >= '0' && DialogWindow1.textBox1.Text[i] <= '9'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Номер>\n\n";
-                        flagstring = true;
-                        break;
-                    }
-                }
-                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow1.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow1.textBox1.Text) > 500)))
-                {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер> 1..500\n\n";
-                }
-                for (int i = 0; i < DialogWindow1.textBox2.Text.Length; i++)
-                {
-                    if (!(DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я') && !(DialogWindow1.textBox2.Text[i] >= 'а' && DialogWindow1.textBox2.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Адрес>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow1.textBox2.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Адрес> (более 20 символов)\n\n";
-                }
-                if ((DialogWindow1.textBox2.Text[0] >= 'А' && DialogWindow1.textBox2.Text[0] <= 'Я')
-                    || (DialogWindow1.textBox2.Text[0] >= 'A' && DialogWindow1.textBox2.Text[0] <= 'Z'))
-                {
-                    bigflag = true;
-                }
-                else
-                {
-                    errormessage = errormessage + "Поле <Адрес> должно начинаться с заглавной буквы\n\n";
-                }
-                for (int i = 1; i < DialogWindow1.textBox2.Text.Length; i++)
-                {
-                    if (((DialogWindow1.textBox2.Text[i] >= 'А' && DialogWindow1.textBox2.Text[i] <= 'Я') ||
-                        (DialogWindow1.textBox2.Text[i] >= 'A' && DialogWindow1.textBox2.Text[i] <= 'Z')) && bigflag)
-                    {
-                        errormessage = errormessage + "В поле <Адрес> не может быть более одной заглавной буквы\n\n";
-                        break;
-                    }
-                }
-                for (int i = 0; i < DialogWindow1.textBox3.Text.Length; i++)
-                {
-                    if (!(DialogWindow1.textBox3.Text[i] >= 'А' && DialogWindow1.textBox3.Text[i] <= 'Я') && !(DialogWindow1.textBox3.Text[i] >= 'а' && DialogWindow1.textBox3.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Название>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow1.textBox3.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Название> (более 20 символов)\n\n";
-                }
-                if (!(DialogWindow1.textBox3.Text[0] >= 'А' && DialogWindow1.textBox3.Text[0] <= 'Я') &&
-                    !(DialogWindow1.textBox3.Text[0] >= 'A' && DialogWindow1.textBox3.Text[0] <= 'Z'))
-                {
-                    errormessage = errormessage + "Поле <Название> должно начинаться с заглавной буквы\n\n";
-                }
-                if (errormessage == "")
-                {
-                    dataGridView1.Rows.Add();
-                    NumRows1 += 1;
-                    dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.textBox1.Text;
-                    dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.textBox2.Text;
-                    dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.textBox3.Text;
                     Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
-                        Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
+            Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
                     string tempstring = myDatabase.AddMachine(NewMachine);
                     if (tempstring == "База данных совместима")
                     {
@@ -130,83 +73,36 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = errormessage;
-                    ErrorWindow.ShowDialog();
+                    dataGridView1.Rows.RemoveAt(NumRows1);
+                    NumRows1 -= 1;
                 }
             }
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            string errormessage = "";
-            bool flagstring = false;
+            bool stopflag = false;
             HashMap2Dialog DialogWindow2 = new HashMap2Dialog();
             DialogWindow2.ShowDialog();
-            if ((DialogWindow2.textBox1.Text == "") || (DialogWindow2.textBox2.Text == "") || (DialogWindow2.textBox3.Text == "") || (DialogWindow2.textBox3.Text == "_"))
+            dataGridView3.Rows.Add();
+            NumRows2 += 1;
+            dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.textBox1.Text;
+            dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.textBox2.Text;
+            dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.textBox3.Text;
+            try
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Поля формы не могут быть пустыми";
-                ErrorWindow.ShowDialog();
+                Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
+                          Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
             }
-            else
+            catch (Exception ex)
             {
-                for (int i = 0; i < DialogWindow2.textBox1.Text.Length; i++)
+                stopflag = true;
+            }
+            finally
+            {
+                if (stopflag == false)
                 {
-                    if (!(DialogWindow2.textBox1.Text[i] >= '0' && DialogWindow2.textBox1.Text[i] <= '9'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
-                        flagstring = true;
-                        break;
-                    }
-                }
-                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow2.textBox1.Text) < 1) || (Convert.ToInt32(DialogWindow2.textBox1.Text) > 99999999)))
-                {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
-                }
-                for (int i = 0; i < DialogWindow2.textBox2.Text.Length; i++)
-                {
-                    if (!(DialogWindow2.textBox2.Text[i] >= 'А' && DialogWindow2.textBox2.Text[i] <= 'Я') && !(DialogWindow2.textBox2.Text[i] >= 'а' && DialogWindow2.textBox2.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Обслуживающий банк>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow2.textBox2.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Обслуживающий банк> (более 20 символов)\n\n";
-                }
-                if (!(DialogWindow2.textBox2.Text[0] >= 'А' && DialogWindow2.textBox2.Text[0] <= 'Я')
-                    && !(DialogWindow2.textBox2.Text[0] >= 'A' && DialogWindow2.textBox2.Text[0] <= 'Z'))
-                {
-                    errormessage = errormessage + "Поле <Обслуживающий банк> должно начинаться с заглавной буквы\n\n";
-                }
-                for (int i = 0; i < DialogWindow2.textBox3.Text.Length; i++)
-                {
-                    if (!(DialogWindow2.textBox3.Text[i] >= 'А' && DialogWindow2.textBox3.Text[i] <= 'Я') && !(DialogWindow2.textBox3.Text[i] >= 'а' && DialogWindow2.textBox3.Text[i] <= 'я') && !(DialogWindow2.textBox3.Text[i] == '_'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <ФИО>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow2.textBox3.Text.Length > 40)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <ФИО> (более 40 символов)\n\n";
-                }
-                if (!(DialogWindow2.textBox3.Text[0] >= 'А' && DialogWindow2.textBox3.Text[0] <= 'Я')
-                    && !(DialogWindow2.textBox3.Text[0] >= 'A' && DialogWindow2.textBox3.Text[0] <= 'Z'))
-                {
-                    errormessage = errormessage + "Поле <ФИО> должно начинаться с заглавной буквы\n\n";
-                }
-                if (errormessage == "")
-                {
-                    dataGridView3.Rows.Add();
-                    NumRows2 += 1;
-                    dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.textBox1.Text;
-                    dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.textBox2.Text;
-                    dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.textBox3.Text;
                     Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
-                        Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
+                            Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
                     string tempstring = myDatabase.AddClient(NewClient);
                     if (tempstring == "База данных совместима")
                     {
@@ -224,113 +120,42 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = errormessage;
-                    ErrorWindow.ShowDialog();
+                    dataGridView3.Rows.RemoveAt(NumRows2);
+                    NumRows2 -= 1;
                 }
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bool bigflag = false;
-            string errormessage = "";
-            bool flagstring = false;
+            bool stopflag = false;
             Tree1Dialog DialogWindow3 = new Tree1Dialog();
             DialogWindow3.ShowDialog();
-            if ((DialogWindow3.textBox1.Text == "") || (DialogWindow3.textBox2.Text == "") || (DialogWindow3.textBox3.Text == "") || (DialogWindow3.textBox4.Text == ""))
+            dataGridView2.Rows.Add();
+            NumRows3 += 1;
+            dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.textBox1.Text;
+            dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.textBox2.Text;
+            dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.textBox3.Text;
+            dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.textBox4.Text;
+            try
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Поля формы не могут быть пустыми";
-                ErrorWindow.ShowDialog();
+                Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
+                          Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
+                          Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
+                          Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
             }
-            else
+            catch (Exception ex)
             {
-                for (int i = 0; i < DialogWindow3.textBox4.Text.Length; i++)
+                stopflag = true;
+            }
+            finally
+            {
+                if (stopflag == false)
                 {
-                    if (!(DialogWindow3.textBox4.Text[i] >= '0' && DialogWindow3.textBox4.Text[i] <= '9'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Процент>\n\n";
-                        flagstring = true;
-                        break;
-                    }
-                }
-                if ((flagstring == false) && ((Convert.ToInt32(DialogWindow3.textBox4.Text) < 0) || (Convert.ToInt32(DialogWindow3.textBox4.Text) > 100)))
-                {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Процент> 0..100\n\n";
-                }
-                for (int i = 0; i < DialogWindow3.textBox1.Text.Length; i++)
-                {
-                    if (!(DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') && !(DialogWindow3.textBox1.Text[i] >= 'а' && DialogWindow3.textBox1.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow3.textBox1.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n\n";
-                }
-                if ((DialogWindow3.textBox1.Text[0] >= 'А' && DialogWindow3.textBox1.Text[0] <= 'Я') || (DialogWindow3.textBox1.Text[0] >= 'A' && DialogWindow3.textBox1.Text[0] <= 'Z'))
-                {
-                    bigflag = true;
-                }
-                else
-                {
-                    errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n\n";
-                }
-                for (int i = 1; i < DialogWindow3.textBox1.Text.Length; i++)
-                {
-                    if (((DialogWindow3.textBox1.Text[i] >= 'А' && DialogWindow3.textBox1.Text[i] <= 'Я') || (DialogWindow3.textBox1.Text[0] >= 'A' && DialogWindow3.textBox1.Text[0] <= 'Z')) && bigflag)
-                    {
-                        errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n\n";
-                        break;
-                    }
-                }
-                for (int i = 0; i < DialogWindow3.textBox2.Text.Length; i++)
-                {
-                    if (!(DialogWindow3.textBox2.Text[i] >= 'А' && DialogWindow3.textBox2.Text[i] <= 'Я') && !(DialogWindow3.textBox2.Text[i] >= 'а' && DialogWindow3.textBox2.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow3.textBox2.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Банк-отправитель> (более 20 символов)\n\n";
-                }
-                if (!(DialogWindow3.textBox2.Text[0] >= 'А' && DialogWindow3.textBox2.Text[0] <= 'Я') && !(DialogWindow3.textBox2.Text[0] >= 'A' && DialogWindow3.textBox2.Text[0] <= 'Z'))
-                {
-                    errormessage = errormessage + "Поле <Банк-отправитель> должно начинаться с заглавной буквы\n\n";
-                }
-                for (int i = 0; i < DialogWindow3.textBox3.Text.Length; i++)
-                {
-                    if (!(DialogWindow3.textBox3.Text[i] >= 'А' && DialogWindow3.textBox3.Text[i] <= 'Я') && !(DialogWindow3.textBox3.Text[i] >= 'а' && DialogWindow3.textBox3.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow3.textBox3.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Банк-получатель> (более 20 символов)\n\n";
-                }
-                if (!(DialogWindow3.textBox3.Text[0] >= 'А' && DialogWindow3.textBox3.Text[0] <= 'Я') && !(DialogWindow3.textBox3.Text[0] >= 'A' && DialogWindow3.textBox3.Text[0] <= 'Z'))
-                {
-                    errormessage = errormessage + "Поле <Банк-получатель> должно начинаться с заглавной буквы\n\n";
-                }
-                if (errormessage == "")
-                {
-                    dataGridView2.Rows.Add();
-                    NumRows3 += 1;
-                    dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.textBox1.Text;
-                    dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.textBox2.Text;
-                    dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.textBox3.Text;
-                    dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.textBox4.Text;
                     Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
-                        Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
-                        Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
-                        Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
+                       Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
+                       Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
+                       Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
                     string tempstring = myDatabase.AddPercent(NewPercent);
                     if (tempstring == "База данных совместима")
                     {
@@ -347,109 +172,42 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = errormessage;
-                    ErrorWindow.ShowDialog();
+                    dataGridView2.Rows.RemoveAt(NumRows3);
+                    NumRows3 -= 1;
                 }
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            bool bigflag = false;
-            string errormessage = "";
-            bool flagstring1 = false;
-            bool flagstring2 = false;
-            bool flagstring3 = false;
+            bool stopflag = false;
             Tree2Dialog DialogWindow4 = new Tree2Dialog();
             DialogWindow4.ShowDialog();
-            if ((DialogWindow4.textBox1.Text == "") || (DialogWindow4.textBox2.Text == "") || (DialogWindow4.textBox3.Text == "") || (DialogWindow4.textBox4.Text == ""))
+            dataGridView4.Rows.Add();
+            NumRows4 += 1;
+            dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.textBox1.Text;
+            dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.textBox2.Text;
+            dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.textBox3.Text;
+            dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.textBox4.Text;
+            try
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Поля формы не могут быть пустыми";
-                ErrorWindow.ShowDialog();
+                Operation NewOperation = new Operation(Convert.ToString(dataGridView4.Rows[NumRows4].Cells[0].Value),
+                Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
+                Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
+                Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
             }
-            else
+            catch (Exception ex)
             {
-                for (int i = 0; i < DialogWindow4.textBox1.Text.Length; i++)
+                stopflag = true;
+            }
+            finally
+            {
+                if (stopflag == false)
                 {
-                    if (!(DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') && !(DialogWindow4.textBox1.Text[i] >= 'а' && DialogWindow4.textBox1.Text[i] <= 'я'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
-                        break;
-                    }
-                }
-                if (DialogWindow4.textBox1.Text.Length > 20)
-                {
-                    errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n\n";
-                }
-                if ((DialogWindow4.textBox1.Text[0] >= 'А' && DialogWindow4.textBox1.Text[0] <= 'Я') || (DialogWindow4.textBox1.Text[0] >= 'A' && DialogWindow4.textBox1.Text[0] <= 'Z'))
-                {
-                    bigflag = true;
-                }
-                else
-                {
-                    errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n\n";
-                }
-                for (int i = 1; i < DialogWindow4.textBox1.Text.Length; i++)
-                {
-                    if (((DialogWindow4.textBox1.Text[i] >= 'А' && DialogWindow4.textBox1.Text[i] <= 'Я') || (DialogWindow4.textBox1.Text[i] >= 'A' && DialogWindow4.textBox1.Text[i] <= 'Z')) && bigflag)
-                    {
-                        errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n\n";
-                        break;
-                    }
-                }
-                for (int i = 0; i < DialogWindow4.textBox2.Text.Length; i++)
-                {
-                    if (!(DialogWindow4.textBox2.Text[i] >= '0' && DialogWindow4.textBox2.Text[i] <= '9'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
-                        flagstring1 = true;
-                    }
-                    break;
-                }
-                if ((flagstring1 == false) && ((Convert.ToInt32(DialogWindow4.textBox2.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox2.Text) > 99999999)))
-                {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
-                }
-                for (int i = 0; i < DialogWindow4.textBox3.Text.Length; i++)
-                {
-                    if (!(DialogWindow4.textBox3.Text[i] >= '0' && DialogWindow4.textBox3.Text[i] <= '9'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
-                        flagstring2 = true;
-                    }
-                    break;
-                }
-                if ((flagstring2 == false) && ((Convert.ToInt32(DialogWindow4.textBox3.Text) < 1) || (Convert.ToInt32(DialogWindow4.textBox3.Text) > 500)))
-                {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
-                }
-                for (int i = 0; i < DialogWindow4.textBox4.Text.Length; i++)
-                {
-                    if (!(DialogWindow4.textBox4.Text[i] >= '0' && DialogWindow4.textBox4.Text[i] <= '9'))
-                    {
-                        errormessage = errormessage + "Неверный формат данных в поле <Сумма операции>\n\n";
-                        flagstring3 = true;
-                    }
-                    break;
-                }
-                if ((flagstring3 == false) && ((Convert.ToInt32(DialogWindow4.textBox4.Text) < 0) || (Convert.ToInt32(DialogWindow4.textBox4.Text) > 10000000)))
-                {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Сумма операции> 0..10000000\n\n";
-                }
-                if (errormessage == "")
-                {
-                    dataGridView4.Rows.Add();
-                    NumRows4 += 1;
-                    dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.textBox1.Text;
-                    dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.textBox2.Text;
-                    dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.textBox3.Text;
-                    dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.textBox4.Text;
                     Operation NewOperation = new Operation(Convert.ToString(dataGridView4.Rows[NumRows4].Cells[0].Value),
-                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
-                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
-                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
+                    Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
+                    Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
+                    Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
                     string tempstring = myDatabase.AddOperation(NewOperation);
                     if (tempstring == "База данных совместима")
                     {
@@ -466,9 +224,8 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = errormessage;
-                    ErrorWindow.ShowDialog();
+                    dataGridView4.Rows.RemoveAt(NumRows4);
+                    NumRows4 -= 1;
                 }
             }
         }
