@@ -7,6 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Security.Permissions;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsApp1;
@@ -28,6 +29,13 @@ namespace WindowsFormsApp1
         public static Database myDatabase = Database.GetNewInstance();
         public GUI()
         {
+            Splash sp = new Splash();
+            sp.Show();
+            for (int i = 0; i < 30; i++)
+            {
+                Thread.Sleep(100);
+            }
+            sp.Close();
             InitializeComponent();
         }
 

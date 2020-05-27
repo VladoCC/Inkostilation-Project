@@ -122,6 +122,12 @@
     <Compile Include="SearchQuery.cs" />
     <Compile Include="ShellSorter.cs" />
     <Compile Include="ISorter.cs" />
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tree1Dialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +202,9 @@
     <EmbeddedResource Include="PercentsOfOperation.resx">
       <DependentUpon>PercentsOfOperation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tree1Dialog.resx">
       <DependentUpon>Tree1Dialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,6 +216,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Tree2Dialog.resx">
       <DependentUpon>Tree2Dialog.cs</DependentUpon>
@@ -223,6 +233,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

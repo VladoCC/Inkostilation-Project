@@ -197,7 +197,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.OperationsData);
             this.Controls.Add(this.ClientsKey);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OperationsOfClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

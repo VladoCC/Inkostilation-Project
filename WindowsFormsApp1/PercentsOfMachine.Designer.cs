@@ -28,10 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PercentsOfMachine));
             this.PercentsData = new System.Windows.Forms.DataGridView();
+            this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
             this.MachinesKey = new System.Windows.Forms.DataGridView();
             this.Hash = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,10 +43,6 @@
             this.Адрес = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НазваниеБанка = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.PercentsData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MachinesKey)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +68,44 @@
             this.PercentsData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.PercentsData.Size = new System.Drawing.Size(300, 464);
             this.PercentsData.TabIndex = 3;
+            // 
+            // Тип
+            // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Тип.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Тип.HeaderText = "Название операции";
+            this.Тип.Name = "Тип";
+            this.Тип.ReadOnly = true;
+            this.Тип.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Тип.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Тип.Width = 65;
+            // 
+            // Отправитель
+            // 
+            this.Отправитель.HeaderText = "Отправитель";
+            this.Отправитель.Name = "Отправитель";
+            this.Отправитель.ReadOnly = true;
+            this.Отправитель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Отправитель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Отправитель.Width = 80;
+            // 
+            // Получатель
+            // 
+            this.Получатель.HeaderText = "Получатель";
+            this.Получатель.Name = "Получатель";
+            this.Получатель.ReadOnly = true;
+            this.Получатель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Получатель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Получатель.Width = 85;
+            // 
+            // Процент
+            // 
+            this.Процент.HeaderText = "Процент";
+            this.Процент.Name = "Процент";
+            this.Процент.ReadOnly = true;
+            this.Процент.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Процент.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Процент.Width = 67;
             // 
             // label2
             // 
@@ -150,44 +188,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Банкомат";
             // 
-            // Тип
-            // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Тип.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Тип.HeaderText = "Название операции";
-            this.Тип.Name = "Тип";
-            this.Тип.ReadOnly = true;
-            this.Тип.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Тип.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Тип.Width = 65;
-            // 
-            // Отправитель
-            // 
-            this.Отправитель.HeaderText = "Отправитель";
-            this.Отправитель.Name = "Отправитель";
-            this.Отправитель.ReadOnly = true;
-            this.Отправитель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Отправитель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Отправитель.Width = 80;
-            // 
-            // Получатель
-            // 
-            this.Получатель.HeaderText = "Получатель";
-            this.Получатель.Name = "Получатель";
-            this.Получатель.ReadOnly = true;
-            this.Получатель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Получатель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Получатель.Width = 85;
-            // 
-            // Процент
-            // 
-            this.Процент.HeaderText = "Процент";
-            this.Процент.Name = "Процент";
-            this.Процент.ReadOnly = true;
-            this.Процент.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Процент.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Процент.Width = 67;
-            // 
             // PercentsOfMachine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -197,7 +197,7 @@
             this.Controls.Add(this.MachinesKey);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.PercentsData);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PercentsOfMachine";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,12 +53,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.Hash1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.НомерКарточки = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Банк = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ФИО = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.НомерБанкомата = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.СуммаОперации = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -70,14 +78,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button9 = new System.Windows.Forms.Button();
-            this.ТипОперации1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НомерКарточки1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.НомерБанкомата = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.СуммаОперации = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Получатель = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Процент = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.waterMarkTextBox1 = new WindowsFormsApp1.WaterMarkTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -294,6 +294,44 @@
             this.dataGridView2.TabIndex = 18;
             this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
+            // Тип
+            // 
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Тип.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Тип.HeaderText = "Название операции";
+            this.Тип.Name = "Тип";
+            this.Тип.ReadOnly = true;
+            this.Тип.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Тип.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Тип.Width = 65;
+            // 
+            // Отправитель
+            // 
+            this.Отправитель.HeaderText = "Отправитель";
+            this.Отправитель.Name = "Отправитель";
+            this.Отправитель.ReadOnly = true;
+            this.Отправитель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Отправитель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Отправитель.Width = 80;
+            // 
+            // Получатель
+            // 
+            this.Получатель.HeaderText = "Получатель";
+            this.Получатель.Name = "Получатель";
+            this.Получатель.ReadOnly = true;
+            this.Получатель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Получатель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Получатель.Width = 85;
+            // 
+            // Процент
+            // 
+            this.Процент.HeaderText = "Процент";
+            this.Процент.Name = "Процент";
+            this.Процент.ReadOnly = true;
+            this.Процент.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Процент.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Процент.Width = 67;
+            // 
             // dataGridView3
             // 
             this.dataGridView3.AllowUserToAddRows = false;
@@ -377,6 +415,44 @@
             this.dataGridView4.Size = new System.Drawing.Size(300, 464);
             this.dataGridView4.TabIndex = 14;
             this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
+            // 
+            // ТипОперации1
+            // 
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ТипОперации1.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ТипОперации1.HeaderText = "Название операции";
+            this.ТипОперации1.Name = "ТипОперации1";
+            this.ТипОперации1.ReadOnly = true;
+            this.ТипОперации1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ТипОперации1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ТипОперации1.Width = 70;
+            // 
+            // НомерКарточки1
+            // 
+            this.НомерКарточки1.HeaderText = "Номер карточки";
+            this.НомерКарточки1.Name = "НомерКарточки1";
+            this.НомерКарточки1.ReadOnly = true;
+            this.НомерКарточки1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НомерКарточки1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НомерКарточки1.Width = 85;
+            // 
+            // НомерБанкомата
+            // 
+            this.НомерБанкомата.HeaderText = "Номер банкомата";
+            this.НомерБанкомата.Name = "НомерБанкомата";
+            this.НомерБанкомата.ReadOnly = true;
+            this.НомерБанкомата.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.НомерБанкомата.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.НомерБанкомата.Width = 75;
+            // 
+            // СуммаОперации
+            // 
+            this.СуммаОперации.HeaderText = "Сумма операции";
+            this.СуммаОперации.Name = "СуммаОперации";
+            this.СуммаОперации.ReadOnly = true;
+            this.СуммаОперации.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.СуммаОперации.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.СуммаОперации.Width = 67;
             // 
             // button1
             // 
@@ -504,82 +580,6 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // ТипОперации1
-            // 
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ТипОперации1.DefaultCellStyle = dataGridViewCellStyle4;
-            this.ТипОперации1.HeaderText = "Название операции";
-            this.ТипОперации1.Name = "ТипОперации1";
-            this.ТипОперации1.ReadOnly = true;
-            this.ТипОперации1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ТипОперации1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ТипОперации1.Width = 70;
-            // 
-            // НомерКарточки1
-            // 
-            this.НомерКарточки1.HeaderText = "Номер карточки";
-            this.НомерКарточки1.Name = "НомерКарточки1";
-            this.НомерКарточки1.ReadOnly = true;
-            this.НомерКарточки1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НомерКарточки1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НомерКарточки1.Width = 85;
-            // 
-            // НомерБанкомата
-            // 
-            this.НомерБанкомата.HeaderText = "Номер банкомата";
-            this.НомерБанкомата.Name = "НомерБанкомата";
-            this.НомерБанкомата.ReadOnly = true;
-            this.НомерБанкомата.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.НомерБанкомата.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.НомерБанкомата.Width = 75;
-            // 
-            // СуммаОперации
-            // 
-            this.СуммаОперации.HeaderText = "Сумма операции";
-            this.СуммаОперации.Name = "СуммаОперации";
-            this.СуммаОперации.ReadOnly = true;
-            this.СуммаОперации.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.СуммаОперации.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.СуммаОперации.Width = 67;
-            // 
-            // Тип
-            // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Тип.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Тип.HeaderText = "Название операции";
-            this.Тип.Name = "Тип";
-            this.Тип.ReadOnly = true;
-            this.Тип.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Тип.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Тип.Width = 65;
-            // 
-            // Отправитель
-            // 
-            this.Отправитель.HeaderText = "Отправитель";
-            this.Отправитель.Name = "Отправитель";
-            this.Отправитель.ReadOnly = true;
-            this.Отправитель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Отправитель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Отправитель.Width = 80;
-            // 
-            // Получатель
-            // 
-            this.Получатель.HeaderText = "Получатель";
-            this.Получатель.Name = "Получатель";
-            this.Получатель.ReadOnly = true;
-            this.Получатель.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Получатель.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Получатель.Width = 85;
-            // 
-            // Процент
-            // 
-            this.Процент.HeaderText = "Процент";
-            this.Процент.Name = "Процент";
-            this.Процент.ReadOnly = true;
-            this.Процент.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Процент.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Процент.Width = 67;
-            // 
             // waterMarkTextBox1
             // 
             this.waterMarkTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -616,7 +616,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI";
