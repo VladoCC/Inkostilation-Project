@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
             bool flagstring1 = false;
             bool flagstring2 = false;
             bool flagstring3 = false;
-            if ((textBox1.Text == "") || (textBox2.Text == "") || (textBox3.Text == "") || (textBox4.Text == ""))
+            if ((waterMarkTextBox1.Text == "") || (waterMarkTextBox2.Text == "") || (waterMarkTextBox3.Text == "") || (waterMarkTextBox4.Text == ""))
             {
                 ErrorForm ErrorWindow = new ErrorForm();
                 ErrorWindow.label1.Text = "Поля формы не могут быть пустыми";
@@ -32,19 +32,19 @@ namespace WindowsFormsApp1
             }
             else
             {
-                for (int i = 0; i < textBox1.Text.Length; i++)
+                for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
                 {
-                    if (!(textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') && !(textBox1.Text[i] >= 'а' && textBox1.Text[i] <= 'я'))
+                    if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
                         break;
                     }
                 }
-                if (textBox1.Text.Length > 20)
+                if (waterMarkTextBox1.Text.Length > 20)
                 {
                     errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n\n";
                 }
-                if ((textBox1.Text[0] >= 'А' && textBox1.Text[0] <= 'Я') || (textBox1.Text[0] >= 'A' && textBox1.Text[0] <= 'Z'))
+                if ((waterMarkTextBox1.Text[0] >= 'А' && waterMarkTextBox1.Text[0] <= 'Я') || (waterMarkTextBox1.Text[0] >= 'A' && waterMarkTextBox1.Text[0] <= 'Z'))
                 {
                     bigflag = true;
                 }
@@ -52,50 +52,50 @@ namespace WindowsFormsApp1
                 {
                     errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n\n";
                 }
-                for (int i = 1; i < textBox1.Text.Length; i++)
+                for (int i = 1; i < waterMarkTextBox1.Text.Length; i++)
                 {
-                    if (((textBox1.Text[i] >= 'А' && textBox1.Text[i] <= 'Я') || (textBox1.Text[i] >= 'A' && textBox1.Text[i] <= 'Z')) && bigflag)
+                    if (((waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') || (waterMarkTextBox1.Text[i] >= 'A' && waterMarkTextBox1.Text[i] <= 'Z')) && bigflag)
                     {
                         errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n\n";
                         break;
                     }
                 }
-                for (int i = 0; i < textBox2.Text.Length; i++)
+                for (int i = 0; i < waterMarkTextBox2.Text.Length; i++)
                 {
-                    if (!(textBox2.Text[i] >= '0' && textBox2.Text[i] <= '9'))
+                    if (!(waterMarkTextBox2.Text[i] >= '0' && waterMarkTextBox2.Text[i] <= '9'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
                         flagstring1 = true;
                     }
                     break;
                 }
-                if ((flagstring1 == false) && ((Convert.ToInt32(textBox2.Text) < 1) || (Convert.ToInt32(textBox2.Text) > 99999999)))
+                if ((flagstring1 == false) && ((Convert.ToInt32(waterMarkTextBox2.Text) < 1) || (Convert.ToInt32(waterMarkTextBox2.Text) > 99999999)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                 }
-                for (int i = 0; i < textBox3.Text.Length; i++)
+                for (int i = 0; i < waterMarkTextBox3.Text.Length; i++)
                 {
-                    if (!(textBox3.Text[i] >= '0' && textBox3.Text[i] <= '9'))
+                    if (!(waterMarkTextBox3.Text[i] >= '0' && waterMarkTextBox3.Text[i] <= '9'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
                         flagstring2 = true;
                     }
                     break;
                 }
-                if ((flagstring2 == false) && ((Convert.ToInt32(textBox3.Text) < 1) || (Convert.ToInt32(textBox3.Text) > 500)))
+                if ((flagstring2 == false) && ((Convert.ToInt32(waterMarkTextBox3.Text) < 1) || (Convert.ToInt32(waterMarkTextBox3.Text) > 500)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
                 }
-                for (int i = 0; i < textBox4.Text.Length; i++)
+                for (int i = 0; i < waterMarkTextBox4.Text.Length; i++)
                 {
-                    if (!(textBox4.Text[i] >= '0' && textBox4.Text[i] <= '9'))
+                    if (!(waterMarkTextBox4.Text[i] >= '0' && waterMarkTextBox4.Text[i] <= '9'))
                     {
                         errormessage = errormessage + "Неверный формат данных в поле <Сумма операции>\n\n";
                         flagstring3 = true;
                     }
                     break;
                 }
-                if ((flagstring3 == false) && ((Convert.ToInt32(textBox4.Text) < 0) || (Convert.ToInt32(textBox4.Text) > 10000000)))
+                if ((flagstring3 == false) && ((Convert.ToInt32(waterMarkTextBox4.Text) < 0) || (Convert.ToInt32(waterMarkTextBox4.Text) > 10000000)))
                 {
                     errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Сумма операции> 0..10000000\n\n";
                 }

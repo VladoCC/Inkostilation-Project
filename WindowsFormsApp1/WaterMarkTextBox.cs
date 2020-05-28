@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace WindowsFormsApp1
 {
-    class WaterMarkTextBox : TextBox
+    public class WaterMarkTextBox : TextBox
     {
         private Font oldFont = null;
         private Boolean waterMarkTextEnabled = false;

@@ -31,7 +31,7 @@ namespace WindowsFormsApp1
         {
             Splash sp = new Splash();
             sp.Show();
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 50; i++)
             {
                 Thread.Sleep(100);
             }
@@ -46,9 +46,9 @@ namespace WindowsFormsApp1
             DialogWindow1.ShowDialog();
             dataGridView1.Rows.Add();
             NumRows1 += 1;
-            dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.textBox1.Text;
-            dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.textBox2.Text;
-            dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.textBox3.Text;
+            dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.waterMarkTextBox1.Text;
+            dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.waterMarkTextBox2.Text;
+            dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.waterMarkTextBox3.Text;
             try
             {
                 Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
@@ -93,9 +93,9 @@ namespace WindowsFormsApp1
             DialogWindow2.ShowDialog();
             dataGridView3.Rows.Add();
             NumRows2 += 1;
-            dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.textBox1.Text;
-            dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.textBox2.Text;
-            dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.textBox3.Text;
+            dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.waterMarkTextBox1.Text;
+            dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.waterMarkTextBox2.Text;
+            dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.waterMarkTextBox3.Text;
             try
             {
                 Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
@@ -141,10 +141,10 @@ namespace WindowsFormsApp1
             DialogWindow3.ShowDialog();
             dataGridView2.Rows.Add();
             NumRows3 += 1;
-            dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.textBox1.Text;
-            dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.textBox2.Text;
-            dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.textBox3.Text;
-            dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.textBox4.Text;
+            dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.waterMarkTextBox1.Text;
+            dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.waterMarkTextBox2.Text;
+            dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.waterMarkTextBox3.Text;
+            dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.waterMarkTextBox4.Text;
             try
             {
                 Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
@@ -193,10 +193,10 @@ namespace WindowsFormsApp1
             DialogWindow4.ShowDialog();
             dataGridView4.Rows.Add();
             NumRows4 += 1;
-            dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.textBox1.Text;
-            dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.textBox2.Text;
-            dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.textBox3.Text;
-            dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.textBox4.Text;
+            dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.waterMarkTextBox1.Text;
+            dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.waterMarkTextBox2.Text;
+            dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.waterMarkTextBox3.Text;
+            dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.waterMarkTextBox4.Text;
             try
             {
                 Operation NewOperation = new Operation(Convert.ToString(dataGridView4.Rows[NumRows4].Cells[0].Value),
@@ -258,15 +258,45 @@ namespace WindowsFormsApp1
                     ErrorForm ErrorWindow = new ErrorForm();
                     ErrorWindow.label1.Text = tempstring;
                     ErrorWindow.ShowDialog();
+                    return;
                 }
                 NumRows1 -= 1;
-                index1 = -1;
+                if (index1 == -1)
+                {
+
+                }
+                else
+                {
+                    index1 -= 1;
+                };
             }
             else
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Выберите запись, которую хотите удалить, клинкув на неё мышью";
-                ErrorWindow.ShowDialog();
+                if ((index1 == -1) && (dataGridView1.Rows.Count >= 1))
+                    index1 = 0;
+                else return;
+                Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
+                string tempstring = myDatabase.RemoveMachine(removableMachine);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView1.Rows.RemoveAt(index1);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                    return;
+                }
+                NumRows1 -= 1;
+                if (index1 == -1)
+                {
+                    
+                }
+                else
+                {
+                    index1 -= 1;
+                };
             }
         }
 
@@ -285,15 +315,45 @@ namespace WindowsFormsApp1
                     ErrorForm ErrorWindow = new ErrorForm();
                     ErrorWindow.label1.Text = tempstring;
                     ErrorWindow.ShowDialog();
+                    return;
                 }
                 NumRows2 -= 1;
-                index2 = -1;
+                if (index2 == -1)
+                {
+
+                }
+                else
+                {
+                    index2 -= 1;
+                };
             }
             else
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Выберите запись, которую хотите удалить, клинкув на неё мышью";
-                ErrorWindow.ShowDialog();
+                if ((index2 == -1) && (dataGridView3.Rows.Count >= 1))
+                    index2 = 0;
+                else return;
+                Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
+                string tempstring = myDatabase.RemoveClient(removableClient);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView3.Rows.RemoveAt(index2);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                    return;
+                }
+                NumRows2 -= 1;
+                if (index2 == -1)
+                {
+
+                }
+                else
+                {
+                    index2 -= 1;
+                };
             }
         }
 
@@ -312,15 +372,45 @@ namespace WindowsFormsApp1
                     ErrorForm ErrorWindow = new ErrorForm();
                     ErrorWindow.label1.Text = tempstring;
                     ErrorWindow.ShowDialog();
+                    return;
                 }
                 NumRows3 -= 1;
-                index3 = -1;
+                if (index3 == -1)
+                {
+
+                }
+                else
+                {
+                    index3 -= 1;
+                };
             }
             else
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Выберите запись, которую хотите удалить, клинкув на неё мышью";
-                ErrorWindow.ShowDialog();
+                if ((index3 == -1) && (dataGridView2.Rows.Count >= 1))
+                    index3 = 0;
+                else return;
+                Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
+                string tempstring = myDatabase.RemovePercent(removablePercent);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView2.Rows.RemoveAt(index3);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                    return;
+                }
+                NumRows3 -= 1;
+                if (index3 == -1)
+                {
+
+                }
+                else
+                {
+                    index3 -= 1;
+                };
             }
         }
 
@@ -339,15 +429,45 @@ namespace WindowsFormsApp1
                     ErrorForm ErrorWindow = new ErrorForm();
                     ErrorWindow.label1.Text = tempstring;
                     ErrorWindow.ShowDialog();
+                    return;
                 }
                 NumRows4 -= 1;
-                index4 = -1;
+                if (index4 == -1)
+                {
+
+                }
+                else
+                {
+                    index4 -= 1;
+                };
             }
             else
             {
-                ErrorForm ErrorWindow = new ErrorForm();
-                ErrorWindow.label1.Text = "Выберите запись, которую хотите удалить, клинкув на неё мышью";
-                ErrorWindow.ShowDialog();
+                if ((index4 == -1) && (dataGridView4.Rows.Count >= 1))
+                    index4 = 0;
+                else return;
+                Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
+                string tempstring = myDatabase.RemoveOperation(removableOperation);
+                if (tempstring == "База данных совместима")
+                {
+                    dataGridView4.Rows.RemoveAt(index4);
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
+                    return;
+                }
+                NumRows4 -= 1;
+                if (index4 == -1)
+                {
+
+                }
+                else
+                {
+                    index4 -= 1;
+                };
             }
         }
 
