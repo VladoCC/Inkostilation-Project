@@ -197,7 +197,7 @@
             this.Controls.Add(this.MachinesKey);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.PercentsData);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PercentsOfMachine";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

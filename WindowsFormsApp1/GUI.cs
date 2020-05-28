@@ -26,6 +26,8 @@ namespace WindowsFormsApp1
         int index4 = -1;
         string state = "";
 
+        public static bool stopflag = false;
+
         public static Database myDatabase = Database.GetNewInstance();
         public GUI()
         {
@@ -41,200 +43,144 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool stopflag = false;
             HashMap1Dialog DialogWindow1 = new HashMap1Dialog();
             DialogWindow1.ShowDialog();
-            dataGridView1.Rows.Add();
-            NumRows1 += 1;
-            dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.waterMarkTextBox1.Text;
-            dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.waterMarkTextBox2.Text;
-            dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.waterMarkTextBox3.Text;
-            try
+            if (!stopflag)
             {
+                dataGridView1.Rows.Add();
+                NumRows1 += 1;
+                dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.waterMarkTextBox1.Text;
+                dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.waterMarkTextBox2.Text;
+                dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.waterMarkTextBox3.Text;
                 Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
-            Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
-            }
-            catch (Exception ex)
-            {
-                stopflag = true;
-            }
-            finally
-            {
-                if (stopflag == false)
+                Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
+                string tempstring = myDatabase.AddMachine(NewMachine);
+                if (tempstring == "База данных совместима")
                 {
-                    Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
-            Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
-                    string tempstring = myDatabase.AddMachine(NewMachine);
-                    if (tempstring == "База данных совместима")
-                    {
-                        HashFunction<int> myHashFunction1 = myDatabase.MachinesFunction();
-                        dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction1.Hash(NewMachine.GetKey());
-                    }
-                    else
-                    {
-                        dataGridView1.Rows.RemoveAt(NumRows1);
-                        NumRows1 -= 1;
-                        ErrorForm ErrorWindow = new ErrorForm();
-                        ErrorWindow.label1.Text = tempstring;
-                        ErrorWindow.ShowDialog();
-                    }
+                    HashFunction<int> myHashFunction1 = myDatabase.MachinesFunction();
+                    dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction1.Hash(NewMachine.GetKey());
                 }
                 else
                 {
                     dataGridView1.Rows.RemoveAt(NumRows1);
                     NumRows1 -= 1;
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
                 }
+            }
+            else 
+            {
+                stopflag = false;
+                return;
             }
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            bool stopflag = false;
             HashMap2Dialog DialogWindow2 = new HashMap2Dialog();
             DialogWindow2.ShowDialog();
-            dataGridView3.Rows.Add();
-            NumRows2 += 1;
-            dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.waterMarkTextBox1.Text;
-            dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.waterMarkTextBox2.Text;
-            dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.waterMarkTextBox3.Text;
-            try
+            if (!stopflag)
             {
+                dataGridView3.Rows.Add();
+                NumRows2 += 1;
+                dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.waterMarkTextBox1.Text;
+                dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.waterMarkTextBox2.Text;
+                dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.waterMarkTextBox3.Text;
                 Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
-                          Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
-            }
-            catch (Exception ex)
-            {
-                stopflag = true;
-            }
-            finally
-            {
-                if (stopflag == false)
+                              Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
+                string tempstring = myDatabase.AddClient(NewClient);
+                if (tempstring == "База данных совместима")
                 {
-                    Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
-                            Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
-                    string tempstring = myDatabase.AddClient(NewClient);
-                    if (tempstring == "База данных совместима")
-                    {
-                        HashFunction<int> myHashFunction2 = myDatabase.ClientsFunction();
-                        dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction2.Hash(NewClient.GetKey());
-                    }
-                    else
-                    {
-                        dataGridView3.Rows.RemoveAt(NumRows2);
-                        NumRows2 -= 1;
-                        ErrorForm ErrorWindow = new ErrorForm();
-                        ErrorWindow.label1.Text = tempstring;
-                        ErrorWindow.ShowDialog();
-                    }
+                    HashFunction<int> myHashFunction2 = myDatabase.ClientsFunction();
+                    dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction2.Hash(NewClient.GetKey());
                 }
                 else
                 {
                     dataGridView3.Rows.RemoveAt(NumRows2);
                     NumRows2 -= 1;
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
                 }
+            }
+            else
+            {
+                stopflag = false;
+                return;
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bool stopflag = false;
             Tree1Dialog DialogWindow3 = new Tree1Dialog();
             DialogWindow3.ShowDialog();
-            dataGridView2.Rows.Add();
-            NumRows3 += 1;
-            dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.waterMarkTextBox1.Text;
-            dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.waterMarkTextBox2.Text;
-            dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.waterMarkTextBox3.Text;
-            dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.waterMarkTextBox4.Text;
-            try
-            {
-                Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
-                          Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
-                          Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
-                          Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
-            }
-            catch (Exception ex)
-            {
-                stopflag = true;
-            }
-            finally
-            {
-                if (stopflag == false)
+            if (!stopflag)
                 {
-                    Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
-                       Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
-                       Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
-                       Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
-                    string tempstring = myDatabase.AddPercent(NewPercent);
-                    if (tempstring == "База данных совместима")
-                    {
+                    dataGridView2.Rows.Add();
+                NumRows3 += 1;
+                dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.waterMarkTextBox1.Text;
+                dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.waterMarkTextBox2.Text;
+                dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.waterMarkTextBox3.Text;
+                dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.waterMarkTextBox4.Text;
+                Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
+                           Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
+                           Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
+                           Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
+                string tempstring = myDatabase.AddPercent(NewPercent);
+                if (tempstring == "База данных совместима")
+                {
 
-                    }
-                    else
-                    {
-                        dataGridView2.Rows.RemoveAt(NumRows3);
-                        NumRows3 -= 1;
-                        ErrorForm ErrorWindow = new ErrorForm();
-                        ErrorWindow.label1.Text = tempstring;
-                        ErrorWindow.ShowDialog();
-                    }
                 }
                 else
                 {
                     dataGridView2.Rows.RemoveAt(NumRows3);
                     NumRows3 -= 1;
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
                 }
+            }
+            else
+            {
+                stopflag = false;
+                return;
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            bool stopflag = false;
             Tree2Dialog DialogWindow4 = new Tree2Dialog();
             DialogWindow4.ShowDialog();
-            dataGridView4.Rows.Add();
-            NumRows4 += 1;
-            dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.waterMarkTextBox1.Text;
-            dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.waterMarkTextBox2.Text;
-            dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.waterMarkTextBox3.Text;
-            dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.waterMarkTextBox4.Text;
-            try
+            if (!stopflag)
             {
+                dataGridView4.Rows.Add();
+                NumRows4 += 1;
+                dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.waterMarkTextBox1.Text;
+                dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.waterMarkTextBox2.Text;
+                dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.waterMarkTextBox3.Text;
+                dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.waterMarkTextBox4.Text;
                 Operation NewOperation = new Operation(Convert.ToString(dataGridView4.Rows[NumRows4].Cells[0].Value),
-                Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
-                Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
-                Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
-            }
-            catch (Exception ex)
-            {
-                stopflag = true;
-            }
-            finally
-            {
-                if (stopflag == false)
+                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
+                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
+                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
+                string tempstring = myDatabase.AddOperation(NewOperation);
+                if (tempstring == "База данных совместима")
                 {
-                    Operation NewOperation = new Operation(Convert.ToString(dataGridView4.Rows[NumRows4].Cells[0].Value),
-                    Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
-                    Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
-                    Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
-                    string tempstring = myDatabase.AddOperation(NewOperation);
-                    if (tempstring == "База данных совместима")
-                    {
 
-                    }
-                    else
-                    {
-                        dataGridView4.Rows.RemoveAt(NumRows4);
-                        NumRows4 -= 1;
-                        ErrorForm ErrorWindow = new ErrorForm();
-                        ErrorWindow.label1.Text = tempstring;
-                        ErrorWindow.ShowDialog();
-                    }
                 }
                 else
                 {
                     dataGridView4.Rows.RemoveAt(NumRows4);
                     NumRows4 -= 1;
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.ShowDialog();
                 }
+            }
+            else
+            {
+                stopflag = false;
+                return;
             }
         }
 

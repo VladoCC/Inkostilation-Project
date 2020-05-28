@@ -586,7 +586,7 @@
             this.waterMarkTextBox1.Location = new System.Drawing.Point(86, 41);
             this.waterMarkTextBox1.Name = "waterMarkTextBox1";
             this.waterMarkTextBox1.Size = new System.Drawing.Size(526, 23);
-            this.waterMarkTextBox1.TabIndex = 21;
+            this.waterMarkTextBox1.TabIndex = 2;
             this.waterMarkTextBox1.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox1.WaterMarkText = "";
             // 
@@ -616,7 +616,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI";

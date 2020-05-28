@@ -197,7 +197,7 @@
             this.Controls.Add(this.OperationsData);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.MachinesKey);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OperationsOfMachine";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -39,6 +39,7 @@
             this.waterMarkTextBox2 = new WindowsFormsApp1.WaterMarkTextBox();
             this.waterMarkTextBox3 = new WindowsFormsApp1.WaterMarkTextBox();
             this.waterMarkTextBox4 = new WindowsFormsApp1.WaterMarkTextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label4
@@ -52,11 +53,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(76, 168);
+            this.button1.Location = new System.Drawing.Point(25, 166);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 27);
             this.button1.TabIndex = 9;
-            this.button1.Text = "OK";
+            this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -103,7 +104,7 @@
             this.waterMarkTextBox1.Location = new System.Drawing.Point(148, 49);
             this.waterMarkTextBox1.Name = "waterMarkTextBox1";
             this.waterMarkTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.waterMarkTextBox1.TabIndex = 10;
+            this.waterMarkTextBox1.TabIndex = 2;
             this.waterMarkTextBox1.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox1.WaterMarkText = "Название";
             // 
@@ -113,7 +114,7 @@
             this.waterMarkTextBox2.Location = new System.Drawing.Point(148, 75);
             this.waterMarkTextBox2.Name = "waterMarkTextBox2";
             this.waterMarkTextBox2.Size = new System.Drawing.Size(100, 20);
-            this.waterMarkTextBox2.TabIndex = 11;
+            this.waterMarkTextBox2.TabIndex = 4;
             this.waterMarkTextBox2.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox2.WaterMarkText = "НазваниеБанка";
             // 
@@ -123,7 +124,7 @@
             this.waterMarkTextBox3.Location = new System.Drawing.Point(148, 101);
             this.waterMarkTextBox3.Name = "waterMarkTextBox3";
             this.waterMarkTextBox3.Size = new System.Drawing.Size(100, 20);
-            this.waterMarkTextBox3.TabIndex = 12;
+            this.waterMarkTextBox3.TabIndex = 6;
             this.waterMarkTextBox3.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox3.WaterMarkText = "НазваниеБанка";
             // 
@@ -133,15 +134,27 @@
             this.waterMarkTextBox4.Location = new System.Drawing.Point(148, 127);
             this.waterMarkTextBox4.Name = "waterMarkTextBox4";
             this.waterMarkTextBox4.Size = new System.Drawing.Size(100, 20);
-            this.waterMarkTextBox4.TabIndex = 13;
+            this.waterMarkTextBox4.TabIndex = 8;
             this.waterMarkTextBox4.WaterMarkColor = System.Drawing.Color.Gray;
             this.waterMarkTextBox4.WaterMarkText = "Число [0..100]";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(141, 166);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 27);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Отменить";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Tree1Dialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(260, 207);
+            this.ControlBox = false;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.waterMarkTextBox4);
             this.Controls.Add(this.waterMarkTextBox3);
             this.Controls.Add(this.waterMarkTextBox2);
@@ -152,7 +165,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Tree1Dialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -173,5 +186,6 @@
         public WaterMarkTextBox waterMarkTextBox2;
         public WaterMarkTextBox waterMarkTextBox3;
         public WaterMarkTextBox waterMarkTextBox4;
+        private System.Windows.Forms.Button button2;
     }
 }
