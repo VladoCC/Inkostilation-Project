@@ -92,9 +92,15 @@
         <e p="QuickLastSorter.cs" t="Include" />
         <e p="QuickStackSorter.cs" t="Include" />
         <e p="Report.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="screen.jpg" t="Include" />
+        </e>
         <e p="SearchQuery.cs" t="Include" />
         <e p="ShellSorter.cs" t="Include" />
         <e p="SizeContainer.cs" t="Include" />
+        <e p="Splash.cs" t="Include" />
+        <e p="Splash.Designer.cs" t="Include" />
+        <e p="Splash.resx" t="Include" />
         <e p="Storage.cs" t="Include" />
         <e p="Tree.cs" t="Include" />
         <e p="Tree1Dialog.cs" t="Include" />

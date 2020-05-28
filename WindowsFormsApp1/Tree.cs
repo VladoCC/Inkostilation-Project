@@ -150,16 +150,20 @@ namespace WinFormsApp1
                     {
                         Position<T> max = Max(position.LeftChild);
                         position.Element = max.Element;
+                        if (max.Parent.RightChild == max)
+                        {
+                            max.Parent.RightChild = max.LeftChild;
+                        }
+                        else if (max.Parent.CenterChild == max)
+                        { 
+                            max.Parent.CenterChild = max.LeftChild;
+                        }
+                        else
+                        {
+                            max.Parent.LeftChild = max.LeftChild;
+                        }
                         if (max.LeftChild != null)
                         {
-                            if (max.Parent.RightChild == max)
-                            {
-                                max.Parent.RightChild = max.LeftChild;
-                            }
-                            else
-                            {
-                                max.Parent.CenterChild = max.LeftChild;
-                            }
                             max.LeftChild.Parent = max.Parent;
                         }
                     }
@@ -184,6 +188,7 @@ namespace WinFormsApp1
                         else if (position == _root)
                         {
                             _root = position.RightChild;
+                            position.RightChild.Parent = null;
                         }
                     }
                     else 
