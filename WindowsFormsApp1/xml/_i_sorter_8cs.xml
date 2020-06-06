@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_i_sorter_8cs" kind="file" language="C#">
+    <compoundname>ISorter.cs</compoundname>
+    <innerclass refid="interface_windows_forms_app1_1_1_i_sorter" prot="public">WindowsFormsApp1::ISorter</innerclass>
+    <innernamespace refid="namespace_windows_forms_app1">WindowsFormsApp1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_win_forms_app1" kindref="compound">WinFormsApp1</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_forms_app1" kindref="compound">WindowsFormsApp1</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="interface_windows_forms_app1_1_1_i_sorter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_windows_forms_app1_1_1_i_sorter" kindref="compound">ISorter</ref>&lt;T&gt;<sp/>where<sp/>T:<sp/><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39" kindref="member">Sort</ref>(T[]<sp/>array);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ISorter.cs"/>
+  </compounddef>
+</doxygen>

@@ -7,10 +7,20 @@ using WindowsFormsApp1;
 
 namespace WinFormsApp1
 {
+    /// <summary>
+    /// Коллекция вида бинарное дерево.
+    /// </summary>
+    /// <typeparam name="T"> Тип данных, хранимых в бинарном дереве. </typeparam>
     [Serializable]
     public class Tree<T> : ICollection<T> where T : IElement
     {
+        /// <summary>
+        /// Корень дерева.
+        /// </summary>
         private Position<T> _root;
+        /// <summary>
+        /// Размер дерева.
+        /// </summary>
         private int _size = 0;
 
         public T[] ToArray()
@@ -62,6 +72,11 @@ namespace WinFormsApp1
             _size++;
         }
 
+        /// <summary>
+        /// Внутренний рекурсивный метод, для добавления элемента.
+        /// </summary>
+        /// <param name="parent"> Родительская ячейка. </param>
+        /// <param name="element"> Добавляемый элемент. </param>
         private void Add(Position<T> parent, T element)
         {
             int cmp = parent.Element.Compare(element);
@@ -123,6 +138,12 @@ namespace WinFormsApp1
             }
         }
 
+        /// <summary>
+        /// Внутренний рекурсивный метод, для удаления элемента.
+        /// </summary>
+        /// <param name="position"> Ячейка для проверки. </param>
+        /// <param name="element"> Удаляемый элемент. </param>
+        /// <returns></returns>
         private bool Remove(Position<T> position, T element)
         {
             int cmp = position.Element.Compare(element);
@@ -219,6 +240,11 @@ namespace WinFormsApp1
             }
         }
 
+        /// <summary>
+        /// Ищет максимальный элемент дерева, начинающегося с указанной позиции.
+        /// </summary>
+        /// <param name="parent"> Корневой элемент дерева. в котором ведется поиск. </param>
+        /// <returns> Максимальный элемент в дереве. </returns>
         private Position<T> Max(Position<T> parent)
         {
             if (parent.RightChild != null)
@@ -234,12 +260,17 @@ namespace WinFormsApp1
                 return parent;
             }
         }
-
+        
         public void Find(SearchQuery<T> query)
         {
             Find(_root, query);
         }
 
+        /// <summary>
+        /// Внутренний рекурсивный метод, для поиска элемента.
+        /// </summary>
+        /// <param name="position"> Ячейка для проверки. </param>
+        /// <param name="query"> Поисковый запрос. </param>
         private void Find(Position<T> position, SearchQuery<T> query)
         {
             if (position == null)
@@ -265,22 +296,45 @@ namespace WinFormsApp1
             Find(position.CenterChild, query);
         }
 
+        /// <summary>
+        /// Вершина дерева, реализующий методы работы с поддервом.
+        /// </summary>
+        /// <typeparam name="T"> Тип данных, хранимых в дереве. </typeparam>
         [Serializable]
         class Position<T> where T : IElement
         {
+            /// <summary>
+            /// Конструктор, создающий вершину дерева.
+            /// </summary>
+            /// <param name="element"> Элемент, хранимый в вершине дерева. </param>
             public Position(T element)
             {
                 Element = element;
             }
 
+            /// <summary>
+            /// Публичный геттер и сеттер для элемента, хранимого в вершине.
+            /// </summary>
             public T Element { get; set; }
 
+            /// <summary>
+            /// Публичный геттер и сеттер для левой ветви поддерева.
+            /// </summary>
             public Position<T> LeftChild { get; set; }
 
+            /// <summary>
+            /// Публичный геттер и сеттер для правой ветви поддерева.
+            /// </summary>
             public Position<T> RightChild { get; set; }
 
+            /// <summary>
+            /// Публичный геттер и сеттер для центральной ветви поддерева.
+            /// </summary>
             public Position<T> CenterChild { get; set; }
 
+            /// <summary>
+            /// Публичный геттер и сеттер для родителя этой вершины.
+            /// </summary>
             public Position<T> Parent { get; set; }
         }
     }

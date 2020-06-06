@@ -1,0 +1,715 @@
+.TH "WindowsFormsApp1.Database" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Database \- Класс-оболочка базы данных, предоставляющий доступ ко всем меодам, необходимым для работы со структурами данных\&. Реализует шаблон проектирования Singleton\&. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBSave\fP (string filePath)"
+.br
+.RI "Сохраняет базу данных на жесткий диск\&. "
+.ti -1c
+.RI "string \fBAddClient\fP (\fBClient\fP client)"
+.br
+.RI "Добавляет клиента в базу данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBAddMachine\fP (\fBMachine\fP machine)"
+.br
+.RI "Добавляет банкомат в базу данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBAddOperation\fP (\fBOperation\fP operation)"
+.br
+.RI "Добавляет операцию в базу данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBAddPercent\fP (\fBPercent\fP percent)"
+.br
+.RI "Добавляет процент в базу данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBRemoveClient\fP (\fBClient\fP client)"
+.br
+.RI "Удаляет клиента из базы данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBRemoveMachine\fP (\fBMachine\fP machine)"
+.br
+.RI "Удаляет банкомат из базы данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBRemoveOperation\fP (\fBOperation\fP operation)"
+.br
+.RI "Удаляет операцию из базы данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "string \fBRemovePercent\fP (\fBPercent\fP percent)"
+.br
+.RI "Удаляет процент из базы данных, если это не нарушает целостность базы данных\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBClient\fP > \fBFindClient\fP (\fBClient\fP client)"
+.br
+.RI "Производит поиск в базе данных клиента, соответствующего входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBMachine\fP > \fBFindMachine\fP (\fBMachine\fP machine)"
+.br
+.RI "Производит поиск в базе данных банкомата, соответствующего входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBOperation\fP > \fBFindOperation\fP (\fBOperation\fP operation)"
+.br
+.RI "Производит поиск в базе данных операции, соответствующей входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBPercent\fP > \fBFindPercent\fP (\fBPercent\fP percent)"
+.br
+.RI "Производит поиск в базе данных процента, соответствующего входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBClient\fP > \fBFindClient\fP (int cardNumber)"
+.br
+.RI "Производит поиск в базе данных банкомата, соответствующего входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBMachine\fP > \fBFindMachine\fP (int machineNumber)"
+.br
+.RI "Производит поиск в базе данных банкомата, соответствующего входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBOperation\fP > \fBFindOperation\fP (string operationName, int cardNumber, int machineNumber)"
+.br
+.RI "Производит поиск в базе данных операции, соответствующей входным данным\&. "
+.ti -1c
+.RI "\fBSearchQuery\fP< \fBPercent\fP > \fBFindPercent\fP (string operationName, string senderBank, string receiverBank)"
+.br
+.RI "Производит поиск в базе данных процента, соответствующего входным данным\&. "
+.ti -1c
+.RI "int \fBClientSize\fP ()"
+.br
+.RI "Возвращает количество клиентов\&. "
+.ti -1c
+.RI "int \fBMachineSize\fP ()"
+.br
+.RI "Возвращает количество банкоматов\&. "
+.ti -1c
+.RI "int \fBOperationSize\fP ()"
+.br
+.RI "Возвращает количество операций\&. "
+.ti -1c
+.RI "int \fBPercentSize\fP ()"
+.br
+.RI "Возвращает количество процентов\&. "
+.ti -1c
+.RI "\fBClient\fP[] \fBClientArray\fP ()"
+.br
+.RI "Возвращает массив клиентов, доступных в базе данных\&. "
+.ti -1c
+.RI "\fBMachine\fP[] \fBMachineArray\fP ()"
+.br
+.RI "Возвращает массив банкоматов, доступных в базе данных\&. "
+.ti -1c
+.RI "\fBOperation\fP[] \fBOperationArray\fP ()"
+.br
+.RI "Возвращает массив операций, доступных в базе данных\&. "
+.ti -1c
+.RI "\fBPercent\fP[] \fBPercentArray\fP ()"
+.br
+.RI "Возвращает массив процентов, доступных в базе данных\&. "
+.ti -1c
+.RI "\fBHashFunction\fP< int > \fBClientsFunction\fP ()"
+.br
+.RI "Возвращает хэш-функцию, используемую для таблицы клиентов данной базы данных\&. "
+.ti -1c
+.RI "\fBHashFunction\fP< int > \fBMachinesFunction\fP ()"
+.br
+.RI "Возвращает хэш-функцию, используемую для таблицы машин данной базы данных\&. "
+.ti -1c
+.RI "string \fBConsistence\fP ()"
+.br
+.RI "Производит проверку базы данных на целостность\&. "
+.ti -1c
+.RI "\fBReport\fP< \fBClient\fP, \fBOperation\fP > \fBClientOperationReport\fP (\fBClient\fP client)"
+.br
+.RI "Создает отчет об операциях, проведенных клиентом\&. "
+.ti -1c
+.RI "\fBReport\fP< \fBMachine\fP, \fBOperation\fP > \fBMachineOperationReport\fP (\fBMachine\fP machine)"
+.br
+.RI "Создает отчет об операциях, проведенных этим банкоматом\&. "
+.ti -1c
+.RI "\fBReport\fP< \fBOperation\fP, \fBPercent\fP > \fBOperationPercentReport\fP (\fBOperation\fP operation)"
+.br
+.RI "Создает отчет о процентах по указанному типу операций\&. "
+.ti -1c
+.RI "\fBReport\fP< \fBMachine\fP, \fBPercent\fP > \fBMachinePercentReport\fP (\fBMachine\fP machine)"
+.br
+.RI "Создает отчет о процентах по операциям, проведенныи этим банкоматом\&. "
+.in -1c
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "static \fBDatabase\fP \fBGetInstance\fP (string filePath=null)"
+.br
+.RI "Функция, предоставляющая доступ к синглтону\&. При указании пути к файлу, загружает базу данных из него\&. Иначе при необходимости создает пустую базу данных и возвращает ее\&. "
+.ti -1c
+.RI "static \fBDatabase\fP \fBGetNewInstance\fP ()"
+.br
+.RI "Заменяет рабочую базу данных на новую\&. "
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBDatabase\fP ()"
+.br
+.RI "Приватный конструктор, используемый для создания пустой базы данных\&. Инициализирует все структуры данных пустыми\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBHashMap\fP< int, \fBClient\fP > \fB_clients\fP"
+.br
+.RI "Хэш-таблица клиентов, находящихся в базе данных\&. Принцип разрешения коллизий: открытая адресация (метод двойного хэширования)\&. "
+.ti -1c
+.RI "\fBHashMap\fP< int, \fBMachine\fP > \fB_machines\fP"
+.br
+.RI "Хэш-таблица банкоматов, находящихся в базе данных\&. Принцип разрешения коллизий: метод цепочек\&. Хэш функция: остаток от деления\&. "
+.ti -1c
+.RI "\fBTree\fP< \fBOperation\fP > \fB_operations\fP"
+.br
+.RI "Бинарное дерево операций, находящихся в базе данных\&. "
+.ti -1c
+.RI "\fBTree\fP< \fBPercent\fP > \fB_percents\fP"
+.br
+.RI "Бинарное дерево процентов, находящихся в базе данных\&. "
+.in -1c
+.SS "Закрытые статические данные"
+
+.in +1c
+.ti -1c
+.RI "static \fBDatabase\fP \fB_instance\fP"
+.br
+.RI "Singleton сущность базы данных, с которой на данный момент работает программа\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Класс-оболочка базы данных, предоставляющий доступ ко всем меодам, необходимым для работы со структурами данных\&. Реализует шаблон проектирования Singleton\&. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации\&. 
+
+
+.SH "Конструктор(ы)"
+.PP 
+.SS "WindowsFormsApp1\&.Database\&.Database ()\fC [private]\fP"
+
+.PP
+Приватный конструктор, используемый для создания пустой базы данных\&. Инициализирует все структуры данных пустыми\&. 
+.SH "Методы"
+.PP 
+.SS "string WindowsFormsApp1\&.Database\&.AddClient (\fBClient\fP client)"
+
+.PP
+Добавляет клиента в базу данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIclient\fP Клиент для добавления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном добавлении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.AddMachine (\fBMachine\fP machine)"
+
+.PP
+Добавляет банкомат в базу данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachine\fP Банкомат для добавления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном добавлении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.AddOperation (\fBOperation\fP operation)"
+
+.PP
+Добавляет операцию в базу данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperation\fP Операция для добавления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном добавлении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.AddPercent (\fBPercent\fP percent)"
+
+.PP
+Добавляет процент в базу данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIpercent\fP Процент для добавления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном добавлении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "\fBClient\fP [] WindowsFormsApp1\&.Database\&.ClientArray ()"
+
+.PP
+Возвращает массив клиентов, доступных в базе данных\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив клиентов\&. 
+.RE
+.PP
+
+.SS "\fBReport\fP<\fBClient\fP, \fBOperation\fP> WindowsFormsApp1\&.Database\&.ClientOperationReport (\fBClient\fP client)"
+
+.PP
+Создает отчет об операциях, проведенных клиентом\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIclient\fP Клиент, операции которого попадут в отчет\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отчет об операциях этого клиента, содержащий их количество и конкретные операции\&. 
+.RE
+.PP
+
+.SS "\fBHashFunction\fP<int> WindowsFormsApp1\&.Database\&.ClientsFunction ()"
+
+.PP
+Возвращает хэш-функцию, используемую для таблицы клиентов данной базы данных\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Хэш-функция клиентов\&. 
+.RE
+.PP
+
+.SS "int WindowsFormsApp1\&.Database\&.ClientSize ()"
+
+.PP
+Возвращает количество клиентов\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Количество клиентов\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.Consistence ()"
+
+.PP
+Производит проверку базы данных на целостность\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение о причине нарушения целостности или отсутствия таковых\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBClient\fP> WindowsFormsApp1\&.Database\&.FindClient (\fBClient\fP client)"
+
+.PP
+Производит поиск в базе данных клиента, соответствующего входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIclient\fP Клиент, соответствия которому необходимо найти\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBClient\fP> WindowsFormsApp1\&.Database\&.FindClient (int cardNumber)"
+
+.PP
+Производит поиск в базе данных банкомата, соответствующего входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIcardNumber\fP Номер карты искомого клиента\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBMachine\fP> WindowsFormsApp1\&.Database\&.FindMachine (int machineNumber)"
+
+.PP
+Производит поиск в базе данных банкомата, соответствующего входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachineNumber\fP Номер банкомата, соответствия которому необходимо найти\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBMachine\fP> WindowsFormsApp1\&.Database\&.FindMachine (\fBMachine\fP machine)"
+
+.PP
+Производит поиск в базе данных банкомата, соответствующего входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachine\fP Банкомат, соответствия которому необходимо найти\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBOperation\fP> WindowsFormsApp1\&.Database\&.FindOperation (\fBOperation\fP operation)"
+
+.PP
+Производит поиск в базе данных операции, соответствующей входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperation\fP Операция, соответствия которой необходимо найти\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBOperation\fP> WindowsFormsApp1\&.Database\&.FindOperation (string operationName, int cardNumber, int machineNumber)"
+
+.PP
+Производит поиск в базе данных операции, соответствующей входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperationName\fP Название операции\&. 
+.br
+\fIcardNumber\fP Номер карты, с которой произведена операция\&. 
+.br
+\fImachineNumber\fP Номер банкомата, на котором произведена операция\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBPercent\fP> WindowsFormsApp1\&.Database\&.FindPercent (\fBPercent\fP percent)"
+
+.PP
+Производит поиск в базе данных процента, соответствующего входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIpercent\fP Процент, соответствия которому необходимо найти\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "\fBSearchQuery\fP<\fBPercent\fP> WindowsFormsApp1\&.Database\&.FindPercent (string operationName, string senderBank, string receiverBank)"
+
+.PP
+Производит поиск в базе данных процента, соответствующего входным данным\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperationName\fP Название операции\&. 
+.br
+\fIsenderBank\fP Название банка отправителя\&. 
+.br
+\fIreceiverBank\fP Название банка получателя\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено\&. 
+.RE
+.PP
+
+.SS "static \fBDatabase\fP WindowsFormsApp1\&.Database\&.GetInstance (string filePath = \fCnull\fP)\fC [static]\fP"
+
+.PP
+Функция, предоставляющая доступ к синглтону\&. При указании пути к файлу, загружает базу данных из него\&. Иначе при необходимости создает пустую базу данных и возвращает ее\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIfilePath\fP Путь к файлу базы данны\&. Файл должен иметь расширение '\&.kostil'\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+База данных, с которой на данный момент работает программа\&. 
+.RE
+.PP
+
+.SS "static \fBDatabase\fP WindowsFormsApp1\&.Database\&.GetNewInstance ()\fC [static]\fP"
+
+.PP
+Заменяет рабочую базу данных на новую\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Пустая база данных\&. 
+.RE
+.PP
+
+.SS "\fBMachine\fP [] WindowsFormsApp1\&.Database\&.MachineArray ()"
+
+.PP
+Возвращает массив банкоматов, доступных в базе данных\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив банкоматов\&. 
+.RE
+.PP
+
+.SS "\fBReport\fP<\fBMachine\fP, \fBOperation\fP> WindowsFormsApp1\&.Database\&.MachineOperationReport (\fBMachine\fP machine)"
+
+.PP
+Создает отчет об операциях, проведенных этим банкоматом\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachine\fP Банкомат, операции которого попадут в отчет\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отчет об операциях этого банкомата, содержащий их количество и конкретные операции\&. 
+.RE
+.PP
+
+.SS "\fBReport\fP<\fBMachine\fP, \fBPercent\fP> WindowsFormsApp1\&.Database\&.MachinePercentReport (\fBMachine\fP machine)"
+
+.PP
+Создает отчет о процентах по операциям, проведенныи этим банкоматом\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachine\fP Банкомат, проценты по операциям которого попадут в отчет\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отчет о процентах по операциям этого банкомата, содержащий их количество и конкретные операции\&. 
+.RE
+.PP
+
+.SS "\fBHashFunction\fP<int> WindowsFormsApp1\&.Database\&.MachinesFunction ()"
+
+.PP
+Возвращает хэш-функцию, используемую для таблицы машин данной базы данных\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Хэш-функция машин\&. 
+.RE
+.PP
+
+.SS "int WindowsFormsApp1\&.Database\&.MachineSize ()"
+
+.PP
+Возвращает количество банкоматов\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Количество банкоматов\&. 
+.RE
+.PP
+
+.SS "\fBOperation\fP [] WindowsFormsApp1\&.Database\&.OperationArray ()"
+
+.PP
+Возвращает массив операций, доступных в базе данных\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив операций\&. 
+.RE
+.PP
+
+.SS "\fBReport\fP<\fBOperation\fP, \fBPercent\fP> WindowsFormsApp1\&.Database\&.OperationPercentReport (\fBOperation\fP operation)"
+
+.PP
+Создает отчет о процентах по указанному типу операций\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperation\fP Операция, проценты по которой попадут в отчет\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отчет о процентах этой операции, содержащий их количество и конкретные операции\&. 
+.RE
+.PP
+
+.SS "int WindowsFormsApp1\&.Database\&.OperationSize ()"
+
+.PP
+Возвращает количество операций\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Количество операций\&. 
+.RE
+.PP
+
+.SS "\fBPercent\fP [] WindowsFormsApp1\&.Database\&.PercentArray ()"
+
+.PP
+Возвращает массив процентов, доступных в базе данных\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив процентов\&. 
+.RE
+.PP
+
+.SS "int WindowsFormsApp1\&.Database\&.PercentSize ()"
+
+.PP
+Возвращает количество процентов\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Количество процентов\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.RemoveClient (\fBClient\fP client)"
+
+.PP
+Удаляет клиента из базы данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIclient\fP Клиент для удаления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном удалении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.RemoveMachine (\fBMachine\fP machine)"
+
+.PP
+Удаляет банкомат из базы данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachine\fP Банкомат для удаления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном удалении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.RemoveOperation (\fBOperation\fP operation)"
+
+.PP
+Удаляет операцию из базы данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperation\fP Операция для удаления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном удалении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "string WindowsFormsApp1\&.Database\&.RemovePercent (\fBPercent\fP percent)"
+
+.PP
+Удаляет процент из базы данных, если это не нарушает целостность базы данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIpercent\fP Процент для удаления\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Сообщение об успешном удалении или о проблеме целостности\&. 
+.RE
+.PP
+
+.SS "void WindowsFormsApp1\&.Database\&.Save (string filePath)"
+
+.PP
+Сохраняет базу данных на жесткий диск\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIfilePath\fP Путь к файлу, в который будет производится сохранение\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "\fBHashMap\fP<int, \fBClient\fP> WindowsFormsApp1\&.Database\&._clients\fC [private]\fP"
+
+.PP
+Хэш-таблица клиентов, находящихся в базе данных\&. Принцип разрешения коллизий: открытая адресация (метод двойного хэширования)\&. 
+.SS "\fBDatabase\fP WindowsFormsApp1\&.Database\&._instance\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Singleton сущность базы данных, с которой на данный момент работает программа\&. 
+.SS "\fBHashMap\fP<int, \fBMachine\fP> WindowsFormsApp1\&.Database\&._machines\fC [private]\fP"
+
+.PP
+Хэш-таблица банкоматов, находящихся в базе данных\&. Принцип разрешения коллизий: метод цепочек\&. Хэш функция: остаток от деления\&. 
+.SS "\fBTree\fP<\fBOperation\fP> WindowsFormsApp1\&.Database\&._operations\fC [private]\fP"
+
+.PP
+Бинарное дерево операций, находящихся в базе данных\&. 
+.SS "\fBTree\fP<\fBPercent\fP> WindowsFormsApp1\&.Database\&._percents\fC [private]\fP"
+
+.PP
+Бинарное дерево процентов, находящихся в базе данных\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

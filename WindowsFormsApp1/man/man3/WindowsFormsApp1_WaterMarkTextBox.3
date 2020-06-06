@@ -1,0 +1,69 @@
+.TH "WindowsFormsApp1.WaterMarkTextBox" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.WaterMarkTextBox
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:TextBox\&.
+.SS "Защищенные члены"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnCreateControl\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnPaint\fP (PaintEventArgs args)"
+.br
+.in -1c
+.SS "Свойства"
+
+.in +1c
+.ti -1c
+.RI "Color \fBWaterMarkColor\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBWaterMarkText\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBJoinEvents\fP (Boolean join)"
+.br
+.ti -1c
+.RI "void \fBWaterMark_Toggel\fP (object sender, EventArgs args)"
+.br
+.ti -1c
+.RI "void \fBEnableWaterMark\fP ()"
+.br
+.ti -1c
+.RI "void \fBDisbaleWaterMark\fP ()"
+.br
+.ti -1c
+.RI "void \fBWaterMark_FontChanged\fP (object sender, EventArgs args)"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "Font \fBoldFont\fP = null"
+.br
+.ti -1c
+.RI "Boolean \fBwaterMarkTextEnabled\fP = false"
+.br
+.ti -1c
+.RI "Color \fB_waterMarkColor\fP = Color\&.Gray"
+.br
+.ti -1c
+.RI "string \fB_waterMarkText\fP = 'Water Mark'"
+.br
+.in -1c
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_error_form" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::ErrorForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_error_form_1a0fe2b1eac9ba57e9ed8b45b7bbea00f7" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.ErrorForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.Designer.cs" line="8" column="48" bodyfile="ErrorForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_error_form_1af4f786e66174544869722231fec54372" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button WindowsFormsApp1.ErrorForm.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.Designer.cs" line="77" column="42" bodyfile="ErrorForm.Designer.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.ErrorForm.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.Designer.cs" line="76" column="40" bodyfile="ErrorForm.Designer.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_error_form_1ade77fd35df74f42bb7a3cfa86079ae81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.ErrorForm.ErrorForm</definition>
+        <argsstring>()</argsstring>
+        <name>ErrorForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.cs" line="15" column="16" bodyfile="ErrorForm.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_error_form_1a6b9e9fb4787eabe9ccd749238cf51017" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.ErrorForm.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.cs" line="20" column="22" bodyfile="ErrorForm.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.ErrorForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.Designer.cs" line="29" column="22" bodyfile="ErrorForm.Designer.cs" bodystart="29" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_error_form_1a418becfada2b7e0bc09efa8037c4fb28" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.ErrorForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ErrorForm.Designer.cs" line="14" column="33" bodyfile="ErrorForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.ErrorForm</label>
+        <link refid="class_windows_forms_app1_1_1_error_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.ErrorForm</label>
+        <link refid="class_windows_forms_app1_1_1_error_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>label1</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ErrorForm.cs" line="13" column="19" bodyfile="ErrorForm.cs" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_error_form_1af4f786e66174544869722231fec54372" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>button1</name></member>
+      <member refid="class_windows_forms_app1_1_1_error_form_1a6b9e9fb4787eabe9ccd749238cf51017" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>button1_Click</name></member>
+      <member refid="class_windows_forms_app1_1_1_error_form_1a0fe2b1eac9ba57e9ed8b45b7bbea00f7" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1_error_form_1a418becfada2b7e0bc09efa8037c4fb28" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1_error_form_1ade77fd35df74f42bb7a3cfa86079ae81" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>ErrorForm</name></member>
+      <member refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::ErrorForm</scope><name>label1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

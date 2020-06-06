@@ -1,0 +1,192 @@
+.TH "WinFormsApp1.ListStorage< K, V >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.ListStorage< K, V >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.Storage< K, V >\fP\&.
+.SS "Классы"
+
+.in +1c
+.ti -1c
+.RI "class \fBPosition\fP"
+.br
+.RI "Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в \fBListStorage\fP\&. "
+.in -1c
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBListStorage\fP ()"
+.br
+.RI "Инициализирует массив объектов \fBPosition\fP размером в 10 элементов\&. Также вызывает конструктор базового класса \fBStorage\fP с тем же размером\&. "
+.ti -1c
+.RI "override int \fBGetSize\fP ()"
+.br
+.RI "Геттер, возвращающий размер хранилища в числовом представлении\&. "
+.ti -1c
+.RI "override void \fBAdd\fP (int index, V element)"
+.br
+.RI "Добавляет элемент в хранилище\&. "
+.ti -1c
+.RI "override bool \fBRemove\fP (int index, V element)"
+.br
+.RI "Удаляет элемент из хранилища\&. "
+.ti -1c
+.RI "override V[] \fBToArray\fP ()"
+.br
+.RI "Возвращает элементы хранилища в виде массива\&. "
+.ti -1c
+.RI "override void \fBFind\fP (int index, \fBKeyedSearchQuery\fP< K, V > keyedQuery)"
+.br
+.RI "Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. "
+.ti -1c
+.RI "\fBSizeContainer\fP \fBSizeContainer\fP ()"
+.br
+.RI "Публичный геттер для контейнера, содержащего размер хранилища\&. "
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBFind\fP (\fBPosition\fP< V > position, \fBKeyedSearchQuery\fP< K, V > keyedQuery)"
+.br
+.RI "Внутренний рекурсивный метод поиска\&. Проходит по списку \fBPosition\fP, находящихся после этой\&. Останавливается при обнаружении нужного элемента или по окончании списка\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBPosition\fP< V >[] \fBarray\fP"
+.br
+.RI "Массив списков, представляющий структуру хранения данных\&. "
+.ti -1c
+.RI "\fBSizeContainer\fP \fB_size\fP"
+.br
+.RI "Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу\&. "
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBListStorage\fP ()"
+
+.PP
+Инициализирует массив объектов \fBPosition\fP размером в 10 элементов\&. Также вызывает конструктор базового класса \fBStorage\fP с тем же размером\&. 
+.SH "Методы"
+.PP 
+.SS "override void \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.Add (int index, V element)\fC [virtual]\fP"
+
+.PP
+Добавляет элемент в хранилище\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIindex\fP Индекс в хранилище, опеделенный хэш функцией таблицы\&. 
+.br
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.Storage< K, V >\fP\&.
+.SS "override void \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.Find (int index, \fBKeyedSearchQuery\fP< K, V > keyedQuery)\fC [virtual]\fP"
+
+.PP
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIindex\fP Индекс, по которому в хранилище должен располагаться данный объект, если он в нем присутствует\&. Определяется хэш-функцией\&. 
+.br
+\fIkeyedQuery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.Storage< K, V >\fP\&.
+.SS "void \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.Find (\fBPosition\fP< V > position, \fBKeyedSearchQuery\fP< K, V > keyedQuery)\fC [private]\fP"
+
+.PP
+Внутренний рекурсивный метод поиска\&. Проходит по списку \fBPosition\fP, находящихся после этой\&. Останавливается при обнаружении нужного элемента или по окончании списка\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIposition\fP Позиция, в которой ведется поиск\&. 
+.br
+\fIkeyedQuery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.SS "override int \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.GetSize ()\fC [virtual]\fP"
+
+.PP
+Геттер, возвращающий размер хранилища в числовом представлении\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Числовое представление размера хранилища\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.Storage< K, V >\fP\&.
+.SS "override bool \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.Remove (int index, V element)\fC [virtual]\fP"
+
+.PP
+Удаляет элемент из хранилища\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIindex\fP Индекс в хранилище, опеделенный хэш функцией таблицы\&. 
+.br
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true если элемент успешно удален и false в остальных случаях\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.Storage< K, V >\fP\&.
+.SS "\fBSizeContainer\fP \fBWinFormsApp1\&.Storage\fP< K, V >\&.\fBSizeContainer\fP ()\fC [inherited]\fP"
+
+.PP
+Публичный геттер для контейнера, содержащего размер хранилища\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "override V [] \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.ToArray ()\fC [virtual]\fP"
+
+.PP
+Возвращает элементы хранилища в виде массива\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив, состоящий из элементов хранилища\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.Storage< K, V >\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "\fBSizeContainer\fP \fBWinFormsApp1\&.Storage\fP< K, V >\&._size\fC [private]\fP, \fC [inherited]\fP"
+
+.PP
+Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу\&. 
+.SS "\fBPosition\fP<V> [] \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.array\fC [private]\fP"
+
+.PP
+Массив списков, представляющий структуру хранения данных\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_win_forms_app1_1_1_double_hash_storage" kind="class" language="C#" prot="public">
+    <compoundname>WinFormsApp1::DoubleHashStorage</compoundname>
+    <basecompoundref refid="class_win_forms_app1_1_1_storage" prot="public" virt="non-virtual">WinFormsApp1::Storage&lt; K, V &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>V</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_double_hash_storage_1a7a88cc699e41e22525a2ff3a2a225f95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+        <definition>HashFunction&lt;K&gt; WinFormsApp1.DoubleHashStorage&lt; K, V &gt;._mainFunction</definition>
+        <argsstring></argsstring>
+        <name>_mainFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="13" column="30" bodyfile="DoubleHashStorage.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_double_hash_storage_1a852631709e9c6cffde58070ad2d6ebe8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+        <definition>HashFunction&lt;K&gt; WinFormsApp1.DoubleHashStorage&lt; K, V &gt;._outsideFunction</definition>
+        <argsstring></argsstring>
+        <name>_outsideFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="14" column="30" bodyfile="DoubleHashStorage.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_double_hash_storage_1a0b30f1258342d867b5dcbef992c5d569" prot="private" static="no" mutable="no">
+        <type>V[]</type>
+        <definition>V [] WinFormsApp1.DoubleHashStorage&lt; K, V &gt;._array</definition>
+        <argsstring></argsstring>
+        <name>_array</name>
+        <initializer>= new V[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="15" column="19" bodyfile="DoubleHashStorage.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_double_hash_storage_1ac605832f6b0b14f1443e8dcc80ba677f" prot="private" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] WinFormsApp1.DoubleHashStorage&lt; K, V &gt;._deleted</definition>
+        <argsstring></argsstring>
+        <name>_deleted</name>
+        <initializer>= new bool[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="16" column="22" bodyfile="DoubleHashStorage.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_double_hash_storage_1a78ccd4cb28e362967256906146f2d17e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WinFormsApp1.DoubleHashStorage&lt; K, V &gt;._size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="17" column="21" bodyfile="DoubleHashStorage.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1ac14d1ebc6e1a6e9b7edc0c443c2c4a1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.DoubleHashStorage</definition>
+        <argsstring>(HashFunction&lt; K &gt; mainFunction, HashFunction&lt; K &gt; outsideFunction)</argsstring>
+        <name>DoubleHashStorage</name>
+        <param>
+          <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+          <declname>mainFunction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+          <declname>outsideFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="19" column="16" bodyfile="DoubleHashStorage.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1a2ebaecfe8643b8276263a1369b328cee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override int</type>
+        <definition>override int WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1a5614e10c3a36e84225c3bcd32c396658">GetSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="30" column="29" bodyfile="DoubleHashStorage.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1a680decb93c556470b7e6534a3eded0de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.Add</definition>
+        <argsstring>(int index, V element)</argsstring>
+        <name>Add</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1a29fca16c9a12f8e52b651d7afdd8d0cf">Add</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>V</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="35" column="30" bodyfile="DoubleHashStorage.cs" bodystart="35" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1ae532033d86f1075c43205972f9c14819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.Remove</definition>
+        <argsstring>(int index, V element)</argsstring>
+        <name>Remove</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1ac5d5fa7c7167de11fe0bef04245b58a7">Remove</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>V</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="79" column="30" bodyfile="DoubleHashStorage.cs" bodystart="79" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1aa03ea4870bcf39fe3a6654f63829ee7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override V[]</type>
+        <definition>override V [] WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.ToArray</definition>
+        <argsstring>()</argsstring>
+        <name>ToArray</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1adda132fdf1fe5dbe6bf1ae9d53db70ad">ToArray</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="99" column="27" bodyfile="DoubleHashStorage.cs" bodystart="99" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1a50c2128c83f08591f6f1b394da2f8a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.Find</definition>
+        <argsstring>(int index, KeyedSearchQuery&lt; K, V &gt; keyedQuery)</argsstring>
+        <name>Find</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1a1602a0977d7a7c6f32382e0be1650920">Find</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_keyed_search_query" kindref="compound">KeyedSearchQuery</ref>&lt; K, V &gt;</type>
+          <declname>keyedQuery</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="120" column="30" bodyfile="DoubleHashStorage.cs" bodystart="120" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_size_container" kindref="compound">SizeContainer</ref></type>
+        <definition>SizeContainer WinFormsApp1.Storage&lt; K, V &gt;.SizeContainer</definition>
+        <argsstring>()</argsstring>
+        <name>SizeContainer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Storage.cs" line="20" column="30" bodyfile="Storage.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_double_hash_storage_1a74540265b8baf7cdc62a49bc37e04102" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.DoubleHashStorage&lt; K, V &gt;.Inflate</definition>
+        <argsstring>()</argsstring>
+        <name>Inflate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleHashStorage.cs" line="61" column="22" bodyfile="DoubleHashStorage.cs" bodystart="61" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Storage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_storage"/>
+      </node>
+      <node id="1">
+        <label>WinFormsApp1.DoubleHashStorage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_double_hash_storage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Storage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_storage"/>
+      </node>
+      <node id="1">
+        <label>WinFormsApp1.DoubleHashStorage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_double_hash_storage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DoubleHashStorage.cs" line="11" column="11" bodyfile="DoubleHashStorage.cs" bodystart="12" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a0b30f1258342d867b5dcbef992c5d569" prot="private" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>_array</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1ac605832f6b0b14f1443e8dcc80ba677f" prot="private" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>_deleted</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a7a88cc699e41e22525a2ff3a2a225f95" prot="private" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>_mainFunction</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a852631709e9c6cffde58070ad2d6ebe8" prot="private" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>_outsideFunction</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a78ccd4cb28e362967256906146f2d17e" prot="private" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>_size</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a680decb93c556470b7e6534a3eded0de" prot="public" virt="virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>Add</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1ac14d1ebc6e1a6e9b7edc0c443c2c4a1b" prot="public" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>DoubleHashStorage</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a50c2128c83f08591f6f1b394da2f8a56" prot="public" virt="virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>Find</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a2ebaecfe8643b8276263a1369b328cee" prot="public" virt="virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>GetSize</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1a74540265b8baf7cdc62a49bc37e04102" prot="private" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>Inflate</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1ae532033d86f1075c43205972f9c14819" prot="public" virt="virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>Remove</name></member>
+      <member refid="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" prot="public" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>SizeContainer</name></member>
+      <member refid="class_win_forms_app1_1_1_storage_1a03d089fae26c2ab0b97b89bc4bfdb44a" prot="public" virt="non-virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>Storage</name></member>
+      <member refid="class_win_forms_app1_1_1_double_hash_storage_1aa03ea4870bcf39fe3a6654f63829ee7e" prot="public" virt="virtual"><scope>WinFormsApp1::DoubleHashStorage</scope><name>ToArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

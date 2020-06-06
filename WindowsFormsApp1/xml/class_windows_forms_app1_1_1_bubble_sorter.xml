@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_bubble_sorter" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::BubbleSorter</compoundname>
+    <basecompoundref refid="interface_windows_forms_app1_1_1_i_sorter" prot="public" virt="non-virtual">WindowsFormsApp1::ISorter&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_bubble_sorter_1a8be5827131880cc2227f39b7d0fcc045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.BubbleSorter&lt; T &gt;.Sort</definition>
+        <argsstring>(T[] array)</argsstring>
+        <name>Sort</name>
+        <reimplements refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39">Sort</reimplements>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Метод, совершающий сортировку. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Сортируемый массив. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BubbleSorter.cs" line="12" column="21" bodyfile="BubbleSorter.cs" bodystart="12" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком. Наследуется от <ref refid="interface_windows_forms_app1_1_1_i_sorter" kindref="compound">ISorter</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип сортируемых данных, наследуемая от IElement. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WindowsFormsApp1.BubbleSorter&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_bubble_sorter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISorter&lt; T &gt;</label>
+        <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.BubbleSorter&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_bubble_sorter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISorter&lt; T &gt;</label>
+        <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
+      </node>
+    </collaborationgraph>
+    <location file="BubbleSorter.cs" line="10" column="11" bodyfile="BubbleSorter.cs" bodystart="11" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_bubble_sorter_1a8be5827131880cc2227f39b7d0fcc045" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::BubbleSorter</scope><name>Sort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {russian}{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Namespace Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1 Namespace Reference}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1 Namespace Reference}{8}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bubble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sorter$<$ T $>$ Class Template Reference}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{9}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Member Function Documentation}{10}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Sort()}{10}{subsubsection.5.1.2.1}%
+\contentsline {section}{\numberline {5.2}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Client Class Reference}{10}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{11}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Client\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Found Class Reference}{11}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Member Function Documentation}{11}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}Dispose()}{11}{subsubsection.5.3.1.1}%
+\contentsline {section}{\numberline {5.4}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database Class Reference}{12}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Double\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hash\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Storage$<$ K, V $>$ Class Template Reference}{13}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Form Class Reference}{13}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Member Function Documentation}{13}{subsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.1}Dispose()}{13}{subsubsection.5.6.1.1}%
+\contentsline {section}{\numberline {5.7}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI Class Reference}{14}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Member Function Documentation}{14}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}Dispose()}{14}{subsubsection.5.7.1.1}%
+\contentsline {section}{\numberline {5.8}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hash\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Function$<$ T $>$ Class Template Reference}{15}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hash\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Map$<$ K, V $>$ Class Template Reference}{15}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hash\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Map1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{16}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Member Function Documentation}{16}{subsection.5.10.1}%
+\contentsline {subsubsection}{\numberline {5.10.1.1}Dispose()}{16}{subsubsection.5.10.1.1}%
+\contentsline {section}{\numberline {5.11}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hash\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Map2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{16}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Member Function Documentation}{17}{subsection.5.11.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.1}Dispose()}{17}{subsubsection.5.11.1.1}%
+\contentsline {section}{\numberline {5.12}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Collection$<$ T $>$ Interface Template Reference}{17}{section.5.12}%
+\contentsline {section}{\numberline {5.13}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element Interface Reference}{18}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{18}{subsection.5.13.1}%
+\contentsline {subsection}{\numberline {5.13.2}Member Function Documentation}{18}{subsection.5.13.2}%
+\contentsline {subsubsection}{\numberline {5.13.2.1}Compare()}{18}{subsubsection.5.13.2.1}%
+\contentsline {section}{\numberline {5.14}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element$<$ K $>$ Interface Template Reference}{19}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Detailed Description}{19}{subsection.5.14.1}%
+\contentsline {subsection}{\numberline {5.14.2}Member Function Documentation}{19}{subsection.5.14.2}%
+\contentsline {subsubsection}{\numberline {5.14.2.1}GetKey()}{19}{subsubsection.5.14.2.1}%
+\contentsline {section}{\numberline {5.15}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sorter$<$ T $>$ Interface Template Reference}{20}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{20}{subsection.5.15.1}%
+\contentsline {subsection}{\numberline {5.15.2}Member Function Documentation}{20}{subsection.5.15.2}%
+\contentsline {subsubsection}{\numberline {5.15.2.1}Sort()}{20}{subsubsection.5.15.2.1}%
+\contentsline {section}{\numberline {5.16}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Search\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Query$<$ K, V $>$ Class Template Reference}{21}{section.5.16}%
+\contentsline {section}{\numberline {5.17}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Storage$<$ K, V $>$ Class Template Reference}{21}{section.5.17}%
+\contentsline {section}{\numberline {5.18}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Machine Class Reference}{22}{section.5.18}%
+\contentsline {section}{\numberline {5.19}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Found Class Reference}{22}{section.5.19}%
+\contentsline {subsection}{\numberline {5.19.1}Member Function Documentation}{23}{subsection.5.19.1}%
+\contentsline {subsubsection}{\numberline {5.19.1.1}Dispose()}{23}{subsubsection.5.19.1.1}%
+\contentsline {section}{\numberline {5.20}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mod\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Function Class Reference}{23}{section.5.20}%
+\contentsline {section}{\numberline {5.21}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RB$<$ T $>$.Node$<$ T $>$ Class Template Reference}{24}{section.5.21}%
+\contentsline {subsection}{\numberline {5.21.1}Detailed Description}{24}{subsection.5.21.1}%
+\contentsline {section}{\numberline {5.22}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Odd\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Function Class Reference}{24}{section.5.22}%
+\contentsline {section}{\numberline {5.23}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operation Class Reference}{25}{section.5.23}%
+\contentsline {subsection}{\numberline {5.23.1}Member Function Documentation}{25}{subsection.5.23.1}%
+\contentsline {subsubsection}{\numberline {5.23.1.1}Compare()}{25}{subsubsection.5.23.1.1}%
+\contentsline {section}{\numberline {5.24}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}operation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Found Class Reference}{26}{section.5.24}%
+\contentsline {subsection}{\numberline {5.24.1}Member Function Documentation}{26}{subsection.5.24.1}%
+\contentsline {subsubsection}{\numberline {5.24.1.1}Dispose()}{26}{subsubsection.5.24.1.1}%
+\contentsline {section}{\numberline {5.25}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Client Class Reference}{26}{section.5.25}%
+\contentsline {subsection}{\numberline {5.25.1}Member Function Documentation}{27}{subsection.5.25.1}%
+\contentsline {subsubsection}{\numberline {5.25.1.1}Dispose()}{27}{subsubsection.5.25.1.1}%
+\contentsline {section}{\numberline {5.26}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Machine Class Reference}{27}{section.5.26}%
+\contentsline {subsection}{\numberline {5.26.1}Member Function Documentation}{28}{subsection.5.26.1}%
+\contentsline {subsubsection}{\numberline {5.26.1.1}Dispose()}{28}{subsubsection.5.26.1.1}%
+\contentsline {section}{\numberline {5.27}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Percent Class Reference}{28}{section.5.27}%
+\contentsline {subsection}{\numberline {5.27.1}Member Function Documentation}{29}{subsection.5.27.1}%
+\contentsline {subsubsection}{\numberline {5.27.1.1}Compare()}{29}{subsubsection.5.27.1.1}%
+\contentsline {section}{\numberline {5.28}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}percent\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Found Class Reference}{29}{section.5.28}%
+\contentsline {subsection}{\numberline {5.28.1}Member Function Documentation}{30}{subsection.5.28.1}%
+\contentsline {subsubsection}{\numberline {5.28.1.1}Dispose()}{30}{subsubsection.5.28.1.1}%
+\contentsline {section}{\numberline {5.29}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Percents\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Machine Class Reference}{30}{section.5.29}%
+\contentsline {subsection}{\numberline {5.29.1}Member Function Documentation}{31}{subsection.5.29.1}%
+\contentsline {subsubsection}{\numberline {5.29.1.1}Dispose()}{31}{subsubsection.5.29.1.1}%
+\contentsline {section}{\numberline {5.30}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Percents\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operation Class Reference}{31}{section.5.30}%
+\contentsline {subsection}{\numberline {5.30.1}Member Function Documentation}{31}{subsection.5.30.1}%
+\contentsline {subsubsection}{\numberline {5.30.1.1}Dispose()}{31}{subsubsection.5.30.1.1}%
+\contentsline {section}{\numberline {5.31}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Quick\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Last\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sorter$<$ T $>$ Class Template Reference}{32}{section.5.31}%
+\contentsline {subsection}{\numberline {5.31.1}Member Function Documentation}{32}{subsection.5.31.1}%
+\contentsline {subsubsection}{\numberline {5.31.1.1}Sort()}{32}{subsubsection.5.31.1.1}%
+\contentsline {section}{\numberline {5.32}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Quick\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stack\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sorter$<$ T $>$ Class Template Reference}{33}{section.5.32}%
+\contentsline {subsection}{\numberline {5.32.1}Member Function Documentation}{33}{subsection.5.32.1}%
+\contentsline {subsubsection}{\numberline {5.32.1.1}Sort()}{33}{subsubsection.5.32.1.1}%
+\contentsline {section}{\numberline {5.33}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RB$<$ T $>$ Class Template Reference}{33}{section.5.33}%
+\contentsline {subsection}{\numberline {5.33.1}Constructor \& Destructor Documentation}{34}{subsection.5.33.1}%
+\contentsline {subsubsection}{\numberline {5.33.1.1}RB()}{34}{subsubsection.5.33.1.1}%
+\contentsline {subsection}{\numberline {5.33.2}Member Function Documentation}{34}{subsection.5.33.2}%
+\contentsline {subsubsection}{\numberline {5.33.2.1}Delete()}{34}{subsubsection.5.33.2.1}%
+\contentsline {subsubsection}{\numberline {5.33.2.2}DisplayTree()}{35}{subsubsection.5.33.2.2}%
+\contentsline {subsubsection}{\numberline {5.33.2.3}Insert()}{35}{subsubsection.5.33.2.3}%
+\contentsline {section}{\numberline {5.34}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Report$<$ K, V $>$ Class Template Reference}{35}{section.5.34}%
+\contentsline {section}{\numberline {5.35}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Search\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Query$<$ T $>$ Class Template Reference}{35}{section.5.35}%
+\contentsline {section}{\numberline {5.36}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shell\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sorter$<$ T $>$ Class Template Reference}{36}{section.5.36}%
+\contentsline {subsection}{\numberline {5.36.1}Member Function Documentation}{36}{subsection.5.36.1}%
+\contentsline {subsubsection}{\numberline {5.36.1.1}Sort()}{36}{subsubsection.5.36.1.1}%
+\contentsline {section}{\numberline {5.37}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Size\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Container Class Reference}{37}{section.5.37}%
+\contentsline {section}{\numberline {5.38}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Splash Class Reference}{37}{section.5.38}%
+\contentsline {subsection}{\numberline {5.38.1}Member Function Documentation}{37}{subsection.5.38.1}%
+\contentsline {subsubsection}{\numberline {5.38.1.1}Dispose()}{37}{subsubsection.5.38.1.1}%
+\contentsline {section}{\numberline {5.39}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Storage$<$ K, V $>$ Class Template Reference}{38}{section.5.39}%
+\contentsline {section}{\numberline {5.40}Win\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tree$<$ T $>$ Class Template Reference}{38}{section.5.40}%
+\contentsline {section}{\numberline {5.41}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tree1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{39}{section.5.41}%
+\contentsline {subsection}{\numberline {5.41.1}Member Function Documentation}{39}{subsection.5.41.1}%
+\contentsline {subsubsection}{\numberline {5.41.1.1}Dispose()}{39}{subsubsection.5.41.1.1}%
+\contentsline {section}{\numberline {5.42}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tree2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog Class Reference}{40}{section.5.42}%
+\contentsline {subsection}{\numberline {5.42.1}Member Function Documentation}{40}{subsection.5.42.1}%
+\contentsline {subsubsection}{\numberline {5.42.1.1}Dispose()}{40}{subsubsection.5.42.1.1}%
+\contentsline {section}{\numberline {5.43}Windows\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Forms\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Water\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mark\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Box Class Reference}{41}{section.5.43}%

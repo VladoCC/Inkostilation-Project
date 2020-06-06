@@ -1,0 +1,155 @@
+\hypertarget{class_win_forms_app1_1_1_hash_map}{}\doxysection{Шаблон класса Win\+Forms\+App1.\+Hash\+Map$<$ K, V $>$}
+\label{class_win_forms_app1_1_1_hash_map}\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+Граф наследования\+:Win\+Forms\+App1.\+Hash\+Map$<$ K, V $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_win_forms_app1_1_1_hash_map}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_map_ac556b9e005681115a30448e6eb9e38f9}{Hash\+Map}} (\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ function, \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Storage}}$<$ K, V $>$ storage)
+\begin{DoxyCompactList}\small\item\em Конструктор, инициализирующий пустую хэш-\/таблицу. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_acc7434ebbd0f67126acb431db6e782b5}\label{class_win_forms_app1_1_1_hash_map_acc7434ebbd0f67126acb431db6e782b5}} 
+V\mbox{[}$\,$\mbox{]} {\bfseries To\+Array} ()
+\item 
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_aa34645fa8a9424de782abd0e773da06c}\label{class_win_forms_app1_1_1_hash_map_aa34645fa8a9424de782abd0e773da06c}} 
+int {\bfseries Size} ()
+\item 
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_af13b5aa5de3b82158022c7780097fa60}\label{class_win_forms_app1_1_1_hash_map_af13b5aa5de3b82158022c7780097fa60}} 
+void {\bfseries Add} (V element)
+\item 
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_a08bb30f9c9f0671ed596028515172dc2}\label{class_win_forms_app1_1_1_hash_map_a08bb30f9c9f0671ed596028515172dc2}} 
+bool {\bfseries Remove} (V element)
+\item 
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_a30d35336efdf9ce0b8f893791f8d2890}\label{class_win_forms_app1_1_1_hash_map_a30d35336efdf9ce0b8f893791f8d2890}} 
+void {\bfseries Find} (\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ V $>$ query)
+\item 
+void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_acfe812e354329ba1fe836ace806a693e}{Add}} (T element)
+\begin{DoxyCompactList}\small\item\em Добавляет элемент в коллекцию. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_a1a6bac3afeca9f8245c0f591786cf039}{Remove}} (T element)
+\begin{DoxyCompactList}\small\item\em Удаляет элемент из коллекии. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_a0109e40b289f373915b845570105799c}{Find}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ T $>$ query)
+\begin{DoxyCompactList}\small\item\em Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map_a7b5cf67bdca4e7a5bba4d988323b54f9}{Function}} =$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map_a778e0021501f24d421be94839413ef4f}{\+\_\+function}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для хэш-\/функии. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map_a778e0021501f24d421be94839413ef4f}{\+\_\+function}}
+\begin{DoxyCompactList}\small\item\em Хэш-\/функция, используемая в данной таблице. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Storage}}$<$ K, V $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map_ab81a7fa321099000b39a8890372b7d0d}{\+\_\+storage}}
+\begin{DoxyCompactList}\small\item\em Хранилище, используемое в данной таблице для хранения данных. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_ac556b9e005681115a30448e6eb9e38f9}\label{class_win_forms_app1_1_1_hash_map_ac556b9e005681115a30448e6eb9e38f9}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!HashMap@{HashMap}}
+\index{HashMap@{HashMap}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{HashMap()}{HashMap()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Win\+Forms\+App1.\+Hash\+Map}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Hash\+Map}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$}]{function,  }\item[{\mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Storage}}$<$ K, V $>$}]{storage }\end{DoxyParamCaption})}
+
+
+
+Конструктор, инициализирующий пустую хэш-\/таблицу. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em function} & Используемая хэш-\/функция. \\
+\hline
+{\em storage} & Внутренее хранилище. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_acfe812e354329ba1fe836ace806a693e}\label{interface_win_forms_app1_1_1_i_collection_acfe812e354329ba1fe836ace806a693e}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!Add@{Add}}
+\index{Add@{Add}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Add (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+
+
+Добавляет элемент в коллекцию. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Добавляемый элемент. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_a0109e40b289f373915b845570105799c}\label{interface_win_forms_app1_1_1_i_collection_a0109e40b289f373915b845570105799c}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!Find@{Find}}
+\index{Find@{Find}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Find()}{Find()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Find (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ T $>$}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+
+
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em query} & Поисковый запрос, содержащий искомый объект. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_a1a6bac3afeca9f8245c0f591786cf039}\label{interface_win_forms_app1_1_1_i_collection_a1a6bac3afeca9f8245c0f591786cf039}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Remove (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+
+
+Удаляет элемент из коллекии. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Удаляемый элемент. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Возвращает true, если элемент найден и удален, иначе false. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_a778e0021501f24d421be94839413ef4f}\label{class_win_forms_app1_1_1_hash_map_a778e0021501f24d421be94839413ef4f}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!\_function@{\_function}}
+\index{\_function@{\_function}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_function}{\_function}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$K$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Win\+Forms\+App1.\+Hash\+Map}}$<$ K, V $>$.\+\_\+function\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Хэш-\/функция, используемая в данной таблице. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_ab81a7fa321099000b39a8890372b7d0d}\label{class_win_forms_app1_1_1_hash_map_ab81a7fa321099000b39a8890372b7d0d}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!\_storage@{\_storage}}
+\index{\_storage@{\_storage}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_storage}{\_storage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Storage}}$<$K, V$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Win\+Forms\+App1.\+Hash\+Map}}$<$ K, V $>$.\+\_\+storage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Хранилище, используемое в данной таблице для хранения данных. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_map_a7b5cf67bdca4e7a5bba4d988323b54f9}\label{class_win_forms_app1_1_1_hash_map_a7b5cf67bdca4e7a5bba4d988323b54f9}} 
+\index{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}!Function@{Function}}
+\index{Function@{Function}!WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Function}{Function}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$K$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Win\+Forms\+App1.\+Hash\+Map}}$<$ K, V $>$.Function =$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map_a778e0021501f24d421be94839413ef4f}{\+\_\+function}}}
+
+
+
+Публичный геттер для хэш-\/функии. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Hash\+Map.\+cs\end{DoxyCompactItemize}

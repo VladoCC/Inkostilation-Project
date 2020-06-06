@@ -1,0 +1,181 @@
+.TH "WinFormsApp1.Storage< K, V >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.Storage< K, V > \- Внутренняя структура хэш-таблицы\&. хранящая все данные и реализующая стратегии разрешения коллизий\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Производные классы:\fBWinFormsApp1\&.DoubleHashStorage< K, V >\fP и \fBWinFormsApp1\&.ListStorage< K, V >\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBStorage\fP (int size)"
+.br
+.RI "Основной конструктор, инициализирующий обязательные элементы хранилища\&. "
+.ti -1c
+.RI "\fBSizeContainer\fP \fBSizeContainer\fP ()"
+.br
+.RI "Публичный геттер для контейнера, содержащего размер хранилища\&. "
+.ti -1c
+.RI "abstract int \fBGetSize\fP ()"
+.br
+.RI "Геттер, возвращающий размер хранилища в числовом представлении\&. "
+.ti -1c
+.RI "abstract void \fBAdd\fP (int index, V element)"
+.br
+.RI "Добавляет элемент в хранилище\&. "
+.ti -1c
+.RI "abstract bool \fBRemove\fP (int index, V element)"
+.br
+.RI "Удаляет элемент из хранилища\&. "
+.ti -1c
+.RI "abstract V[] \fBToArray\fP ()"
+.br
+.RI "Возвращает элементы хранилища в виде массива\&. "
+.ti -1c
+.RI "abstract void \fBFind\fP (int index, \fBKeyedSearchQuery\fP< K, V > keyedQuery)"
+.br
+.RI "Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBSizeContainer\fP \fB_size\fP"
+.br
+.RI "Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Внутренняя структура хэш-таблицы\&. хранящая все данные и реализующая стратегии разрешения коллизий\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIK\fP Тип ключая хранилища\&. 
+.br
+\fIV\fP Тип данного (значения) хранилища\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIV\fP : \fI\fBIKeyedElement\fP<K>\fP
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWinFormsApp1\&.Storage\fP< K, V >\&.\fBStorage\fP (int size)"
+
+.PP
+Основной конструктор, инициализирующий обязательные элементы хранилища\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIsize\fP Изначальный размер внутренней структуры\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "abstract void \fBWinFormsApp1\&.Storage\fP< K, V >\&.Add (int index, V element)\fC [pure virtual]\fP"
+
+.PP
+Добавляет элемент в хранилище\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIindex\fP Индекс в хранилище, опеделенный хэш функцией таблицы\&. 
+.br
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.DoubleHashStorage< K, V >\fP и \fBWinFormsApp1\&.ListStorage< K, V >\fP\&.
+.SS "abstract void \fBWinFormsApp1\&.Storage\fP< K, V >\&.Find (int index, \fBKeyedSearchQuery\fP< K, V > keyedQuery)\fC [pure virtual]\fP"
+
+.PP
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIindex\fP Индекс, по которому в хранилище должен располагаться данный объект, если он в нем присутствует\&. Определяется хэш-функцией\&. 
+.br
+\fIkeyedQuery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.DoubleHashStorage< K, V >\fP и \fBWinFormsApp1\&.ListStorage< K, V >\fP\&.
+.SS "abstract int \fBWinFormsApp1\&.Storage\fP< K, V >\&.GetSize ()\fC [pure virtual]\fP"
+
+.PP
+Геттер, возвращающий размер хранилища в числовом представлении\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Числовое представление размера хранилища\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.DoubleHashStorage< K, V >\fP и \fBWinFormsApp1\&.ListStorage< K, V >\fP\&.
+.SS "abstract bool \fBWinFormsApp1\&.Storage\fP< K, V >\&.Remove (int index, V element)\fC [pure virtual]\fP"
+
+.PP
+Удаляет элемент из хранилища\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIindex\fP Индекс в хранилище, опеделенный хэш функцией таблицы\&. 
+.br
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true если элемент успешно удален и false в остальных случаях\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.DoubleHashStorage< K, V >\fP и \fBWinFormsApp1\&.ListStorage< K, V >\fP\&.
+.SS "\fBSizeContainer\fP \fBWinFormsApp1\&.Storage\fP< K, V >\&.\fBSizeContainer\fP ()"
+
+.PP
+Публичный геттер для контейнера, содержащего размер хранилища\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "abstract V [] \fBWinFormsApp1\&.Storage\fP< K, V >\&.ToArray ()\fC [pure virtual]\fP"
+
+.PP
+Возвращает элементы хранилища в виде массива\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив, состоящий из элементов хранилища\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.DoubleHashStorage< K, V >\fP и \fBWinFormsApp1\&.ListStorage< K, V >\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "\fBSizeContainer\fP \fBWinFormsApp1\&.Storage\fP< K, V >\&._size\fC [private]\fP"
+
+.PP
+Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

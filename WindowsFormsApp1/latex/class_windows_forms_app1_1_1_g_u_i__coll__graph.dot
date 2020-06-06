@@ -1,0 +1,43 @@
+digraph "WindowsFormsApp1.GUI"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="WindowsFormsApp1.GUI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Form",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" myDatabase" ];
+  Node3 [label="WindowsFormsApp1.Database",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_windows_forms_app1_1_1_database.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _percents" ];
+  Node4 [label="WinFormsApp1.Tree\<\l WindowsFormsApp1.Percent \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_tree.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< WindowsFormsApp1\l::Percent \>" ];
+  Node5 [label="WinFormsApp1.Tree\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_tree.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="ICollection\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_win_forms_app1_1_1_i_collection.html",tooltip=" "];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _instance" ];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _machines" ];
+  Node7 [label="WinFormsApp1.HashMap\l\< int, WindowsFormsApp1.Machine \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_map.html",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< int, WindowsFormsApp1\l::Machine \>" ];
+  Node8 [label="WinFormsApp1.HashMap\l\< K, V \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_map.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="ICollection\< V \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_win_forms_app1_1_1_i_collection.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< V \>" ];
+  Node10 [label="WinFormsApp1.ICollection\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_win_forms_app1_1_1_i_collection.html",tooltip=" "];
+  Node11 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _function\nFunction" ];
+  Node11 [label="WinFormsApp1.HashFunction\< K \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_function.html",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< K \>" ];
+  Node12 [label="WinFormsApp1.HashFunction\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_function.html",tooltip=" "];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _size" ];
+  Node13 [label="WindowsFormsApp1.SizeContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_windows_forms_app1_1_1_size_container.html",tooltip=" "];
+  Node14 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _operations" ];
+  Node14 [label="WinFormsApp1.Tree\<\l WindowsFormsApp1.Operation \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_tree.html",tooltip=" "];
+  Node5 -> Node14 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< WindowsFormsApp1\l::Operation \>" ];
+  Node15 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _clients" ];
+  Node15 [label="WinFormsApp1.HashMap\l\< int, WindowsFormsApp1.Client \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_map.html",tooltip=" "];
+  Node8 -> Node15 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< int, WindowsFormsApp1\l::Client \>" ];
+  Node16 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" waterMarkTextBox1" ];
+  Node16 [label="WindowsFormsApp1",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node17 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Банк\nотчётыToolStrip\lMenuItem\nbutton4\ndataGridView2\nТипОперации1\nHash1\nbutton5\ndataGridView3\nlabel1\nНомер\n..." ];
+  Node17 [label="System",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

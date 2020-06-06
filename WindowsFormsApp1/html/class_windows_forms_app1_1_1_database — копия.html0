@@ -1,0 +1,1087 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Inkostilation Project: Класс WindowsFormsApp1.Database</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Inkostilation Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_windows_forms_app1.html">WindowsFormsApp1</a></li><li class="navelem"><a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="class_windows_forms_app1_1_1_database-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс WindowsFormsApp1.Database</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс-оболочка базы данных, предоставляющий доступ ко всем меодам, необходимым для работы со структурами данных. Реализует шаблон проектирования Singleton. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации.  
+ <a href="class_windows_forms_app1_1_1_database.html#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a7fbfcac98864ecc48c83b651a59a69c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a7fbfcac98864ecc48c83b651a59a69c1">Save</a> (string filePath)</td></tr>
+<tr class="memdesc:a7fbfcac98864ecc48c83b651a59a69c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохраняет базу данных на жесткий диск.  <a href="class_windows_forms_app1_1_1_database.html#a7fbfcac98864ecc48c83b651a59a69c1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7fbfcac98864ecc48c83b651a59a69c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed3bffd7e44c11f25f76286521bd7f4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#aeed3bffd7e44c11f25f76286521bd7f4">AddClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
+<tr class="memdesc:aeed3bffd7e44c11f25f76286521bd7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет клиента в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#aeed3bffd7e44c11f25f76286521bd7f4">Подробнее...</a><br /></td></tr>
+<tr class="separator:aeed3bffd7e44c11f25f76286521bd7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f0de5ce0cad4edc36064fe57ec8988"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a48f0de5ce0cad4edc36064fe57ec8988">AddMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:a48f0de5ce0cad4edc36064fe57ec8988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет банкомат в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a48f0de5ce0cad4edc36064fe57ec8988">Подробнее...</a><br /></td></tr>
+<tr class="separator:a48f0de5ce0cad4edc36064fe57ec8988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab451a666862c8ec775b8963249a118ec"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ab451a666862c8ec775b8963249a118ec">AddOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
+<tr class="memdesc:ab451a666862c8ec775b8963249a118ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет операцию в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ab451a666862c8ec775b8963249a118ec">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab451a666862c8ec775b8963249a118ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b28d70a75c0082e69838ba188bfaebc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a3b28d70a75c0082e69838ba188bfaebc">AddPercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
+<tr class="memdesc:a3b28d70a75c0082e69838ba188bfaebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет процент в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a3b28d70a75c0082e69838ba188bfaebc">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3b28d70a75c0082e69838ba188bfaebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9cb19136ed2ec74a70eea79062d26c6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6">RemoveClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
+<tr class="memdesc:ae9cb19136ed2ec74a70eea79062d26c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет клиента из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae9cb19136ed2ec74a70eea79062d26c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac85ee56a750ee249cc4dea9555fb0c59"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59">RemoveMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:ac85ee56a750ee249cc4dea9555fb0c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет банкомат из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac85ee56a750ee249cc4dea9555fb0c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e979440befdf7735ef7893a83adb59"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59">RemoveOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
+<tr class="memdesc:a36e979440befdf7735ef7893a83adb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет операцию из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59">Подробнее...</a><br /></td></tr>
+<tr class="separator:a36e979440befdf7735ef7893a83adb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1f0d7128f58f52410c44ca7d3be61b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b">RemovePercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
+<tr class="memdesc:a4b1f0d7128f58f52410c44ca7d3be61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет процент из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4b1f0d7128f58f52410c44ca7d3be61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834c678a454207f313282c1d6102634c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c">FindClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
+<tr class="memdesc:a834c678a454207f313282c1d6102634c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных клиента, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a834c678a454207f313282c1d6102634c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c5d00f063b5258d3f114b5317ed03d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a01c5d00f063b5258d3f114b5317ed03d">FindMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:a01c5d00f063b5258d3f114b5317ed03d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных банкомата, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a01c5d00f063b5258d3f114b5317ed03d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a01c5d00f063b5258d3f114b5317ed03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562a325c28d8027ee82822b6c7423ce9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a562a325c28d8027ee82822b6c7423ce9">FindOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
+<tr class="memdesc:a562a325c28d8027ee82822b6c7423ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных операции, соответствующей входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a562a325c28d8027ee82822b6c7423ce9">Подробнее...</a><br /></td></tr>
+<tr class="separator:a562a325c28d8027ee82822b6c7423ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc2a176aaf39cc2be15da31e14244ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a7fc2a176aaf39cc2be15da31e14244ef">FindPercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
+<tr class="memdesc:a7fc2a176aaf39cc2be15da31e14244ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных процента, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a7fc2a176aaf39cc2be15da31e14244ef">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7fc2a176aaf39cc2be15da31e14244ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc283698a1c2dd0688f32bbab9f3c6ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#afc283698a1c2dd0688f32bbab9f3c6ed">FindClient</a> (int cardNumber)</td></tr>
+<tr class="memdesc:afc283698a1c2dd0688f32bbab9f3c6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных банкомата, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#afc283698a1c2dd0688f32bbab9f3c6ed">Подробнее...</a><br /></td></tr>
+<tr class="separator:afc283698a1c2dd0688f32bbab9f3c6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9e855a13da3824b4ad57add0c86204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#aae9e855a13da3824b4ad57add0c86204">FindMachine</a> (int machineNumber)</td></tr>
+<tr class="memdesc:aae9e855a13da3824b4ad57add0c86204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных банкомата, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#aae9e855a13da3824b4ad57add0c86204">Подробнее...</a><br /></td></tr>
+<tr class="separator:aae9e855a13da3824b4ad57add0c86204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b8331e8ed86b4964a9539d000dd937"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a13b8331e8ed86b4964a9539d000dd937">FindOperation</a> (string operationName, int cardNumber, int machineNumber)</td></tr>
+<tr class="memdesc:a13b8331e8ed86b4964a9539d000dd937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных операции, соответствующей входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a13b8331e8ed86b4964a9539d000dd937">Подробнее...</a><br /></td></tr>
+<tr class="separator:a13b8331e8ed86b4964a9539d000dd937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526fc972a32bbb9033916a770be56343"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a526fc972a32bbb9033916a770be56343">FindPercent</a> (string operationName, string senderBank, string receiverBank)</td></tr>
+<tr class="memdesc:a526fc972a32bbb9033916a770be56343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных процента, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a526fc972a32bbb9033916a770be56343">Подробнее...</a><br /></td></tr>
+<tr class="separator:a526fc972a32bbb9033916a770be56343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb07a7f367fe3ce7348d0d5f70a82536"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#afb07a7f367fe3ce7348d0d5f70a82536">ClientSize</a> ()</td></tr>
+<tr class="memdesc:afb07a7f367fe3ce7348d0d5f70a82536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество клиентов.  <a href="class_windows_forms_app1_1_1_database.html#afb07a7f367fe3ce7348d0d5f70a82536">Подробнее...</a><br /></td></tr>
+<tr class="separator:afb07a7f367fe3ce7348d0d5f70a82536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9603449f45edce04e4413859a989df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a9e9603449f45edce04e4413859a989df">MachineSize</a> ()</td></tr>
+<tr class="memdesc:a9e9603449f45edce04e4413859a989df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество банкоматов.  <a href="class_windows_forms_app1_1_1_database.html#a9e9603449f45edce04e4413859a989df">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9e9603449f45edce04e4413859a989df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71bfaac112b0cf14dbfa6ed6828645bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a71bfaac112b0cf14dbfa6ed6828645bf">OperationSize</a> ()</td></tr>
+<tr class="memdesc:a71bfaac112b0cf14dbfa6ed6828645bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество операций.  <a href="class_windows_forms_app1_1_1_database.html#a71bfaac112b0cf14dbfa6ed6828645bf">Подробнее...</a><br /></td></tr>
+<tr class="separator:a71bfaac112b0cf14dbfa6ed6828645bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4193279732068c21e5f17702c90348fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a4193279732068c21e5f17702c90348fb">PercentSize</a> ()</td></tr>
+<tr class="memdesc:a4193279732068c21e5f17702c90348fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество процентов.  <a href="class_windows_forms_app1_1_1_database.html#a4193279732068c21e5f17702c90348fb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4193279732068c21e5f17702c90348fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f8af3b2b2bcb40a44b3947802f5c84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84">ClientArray</a> ()</td></tr>
+<tr class="memdesc:ac2f8af3b2b2bcb40a44b3947802f5c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает массив клиентов, доступных в базе данных.  <a href="class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac2f8af3b2b2bcb40a44b3947802f5c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7928c21bf0b7f061a696082f4291b79e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e">MachineArray</a> ()</td></tr>
+<tr class="memdesc:a7928c21bf0b7f061a696082f4291b79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает массив банкоматов, доступных в базе данных.  <a href="class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7928c21bf0b7f061a696082f4291b79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcac299370aba10305fc5e0d46b68644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644">OperationArray</a> ()</td></tr>
+<tr class="memdesc:adcac299370aba10305fc5e0d46b68644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает массив операций, доступных в базе данных.  <a href="class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644">Подробнее...</a><br /></td></tr>
+<tr class="separator:adcac299370aba10305fc5e0d46b68644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c72a00968440e4461c41fd6493b2a43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a6c72a00968440e4461c41fd6493b2a43">PercentArray</a> ()</td></tr>
+<tr class="memdesc:a6c72a00968440e4461c41fd6493b2a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает массив процентов, доступных в базе данных.  <a href="class_windows_forms_app1_1_1_database.html#a6c72a00968440e4461c41fd6493b2a43">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6c72a00968440e4461c41fd6493b2a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1cdc9d9ca1b9f807e8736e07f0ed5b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_win_forms_app1_1_1_hash_function.html">HashFunction</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#aa1cdc9d9ca1b9f807e8736e07f0ed5b4">ClientsFunction</a> ()</td></tr>
+<tr class="memdesc:aa1cdc9d9ca1b9f807e8736e07f0ed5b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает хэш-функцию, используемую для таблицы клиентов данной базы данных.  <a href="class_windows_forms_app1_1_1_database.html#aa1cdc9d9ca1b9f807e8736e07f0ed5b4">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa1cdc9d9ca1b9f807e8736e07f0ed5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44eec367d91e28e33b015684be8a902f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_win_forms_app1_1_1_hash_function.html">HashFunction</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f">MachinesFunction</a> ()</td></tr>
+<tr class="memdesc:a44eec367d91e28e33b015684be8a902f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает хэш-функцию, используемую для таблицы машин данной базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a44eec367d91e28e33b015684be8a902f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc31094c97083f4fbe458f2553649441"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441">Consistence</a> ()</td></tr>
+<tr class="memdesc:acc31094c97083f4fbe458f2553649441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит проверку базы данных на целостность.  <a href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441">Подробнее...</a><br /></td></tr>
+<tr class="separator:acc31094c97083f4fbe458f2553649441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ae2839b71c9e11139a657f738d7a9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>, <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a91ae2839b71c9e11139a657f738d7a9c">ClientOperationReport</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
+<tr class="memdesc:a91ae2839b71c9e11139a657f738d7a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет об операциях, проведенных клиентом.  <a href="class_windows_forms_app1_1_1_database.html#a91ae2839b71c9e11139a657f738d7a9c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a91ae2839b71c9e11139a657f738d7a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d46d8ef64a260564d2d03dd3adb818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>, <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a67d46d8ef64a260564d2d03dd3adb818">MachineOperationReport</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:a67d46d8ef64a260564d2d03dd3adb818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет об операциях, проведенных этим банкоматом.  <a href="class_windows_forms_app1_1_1_database.html#a67d46d8ef64a260564d2d03dd3adb818">Подробнее...</a><br /></td></tr>
+<tr class="separator:a67d46d8ef64a260564d2d03dd3adb818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f822a5afd43da1ca00e1c8c9c768680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>, <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680">OperationPercentReport</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
+<tr class="memdesc:a2f822a5afd43da1ca00e1c8c9c768680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет о процентах по указанному типу операций.  <a href="class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2f822a5afd43da1ca00e1c8c9c768680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499d3d51434f82bb7220766baa2f05bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>, <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd">MachinePercentReport</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:a499d3d51434f82bb7220766baa2f05bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет о процентах по операциям, проведенныи этим банкоматом.  <a href="class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a499d3d51434f82bb7220766baa2f05bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a6b3cb170c1455dfd9eb5bfa73891d006"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a6b3cb170c1455dfd9eb5bfa73891d006">GetInstance</a> (string filePath=null)</td></tr>
+<tr class="memdesc:a6b3cb170c1455dfd9eb5bfa73891d006"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее.  <a href="class_windows_forms_app1_1_1_database.html#a6b3cb170c1455dfd9eb5bfa73891d006">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6b3cb170c1455dfd9eb5bfa73891d006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556ccfa19d4624001f2f8f0043510e0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a556ccfa19d4624001f2f8f0043510e0a">GetNewInstance</a> ()</td></tr>
+<tr class="memdesc:a556ccfa19d4624001f2f8f0043510e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Заменяет рабочую базу данных на новую.  <a href="class_windows_forms_app1_1_1_database.html#a556ccfa19d4624001f2f8f0043510e0a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a556ccfa19d4624001f2f8f0043510e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс-оболочка базы данных, предоставляющий доступ ко всем меодам, необходимым для работы со структурами данных. Реализует шаблон проектирования Singleton. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="aeed3bffd7e44c11f25f76286521bd7f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeed3bffd7e44c11f25f76286521bd7f4">&#9670;&nbsp;</a></span>AddClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.AddClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&#160;</td>
+          <td class="paramname"><em>client</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Добавляет клиента в базу данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client</td><td>Клиент для добавления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном добавлении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="a48f0de5ce0cad4edc36064fe57ec8988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f0de5ce0cad4edc36064fe57ec8988">&#9670;&nbsp;</a></span>AddMachine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.AddMachine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
+          <td class="paramname"><em>machine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Добавляет банкомат в базу данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">machine</td><td>Банкомат для добавления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном добавлении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="ab451a666862c8ec775b8963249a118ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab451a666862c8ec775b8963249a118ec">&#9670;&nbsp;</a></span>AddOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.AddOperation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&#160;</td>
+          <td class="paramname"><em>operation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Добавляет операцию в базу данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operation</td><td>Операция для добавления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном добавлении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="a3b28d70a75c0082e69838ba188bfaebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b28d70a75c0082e69838ba188bfaebc">&#9670;&nbsp;</a></span>AddPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.AddPercent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Добавляет процент в базу данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">percent</td><td>Процент для добавления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном добавлении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="ac2f8af3b2b2bcb40a44b3947802f5c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f8af3b2b2bcb40a44b3947802f5c84">&#9670;&nbsp;</a></span>ClientArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> [] WindowsFormsApp1.Database.ClientArray </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает массив клиентов, доступных в базе данных. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Массив клиентов. </dd></dl>
+
+</div>
+</div>
+<a id="a91ae2839b71c9e11139a657f738d7a9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ae2839b71c9e11139a657f738d7a9c">&#9670;&nbsp;</a></span>ClientOperationReport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>, <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&gt; WindowsFormsApp1.Database.ClientOperationReport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&#160;</td>
+          <td class="paramname"><em>client</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создает отчет об операциях, проведенных клиентом. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client</td><td>Клиент, операции которого попадут в отчет. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Отчет об операциях этого клиента, содержащий их количество и конкретные операции. </dd></dl>
+
+</div>
+</div>
+<a id="aa1cdc9d9ca1b9f807e8736e07f0ed5b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1cdc9d9ca1b9f807e8736e07f0ed5b4">&#9670;&nbsp;</a></span>ClientsFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_win_forms_app1_1_1_hash_function.html">HashFunction</a>&lt;int&gt; WindowsFormsApp1.Database.ClientsFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает хэш-функцию, используемую для таблицы клиентов данной базы данных. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Хэш-функция клиентов. </dd></dl>
+
+</div>
+</div>
+<a id="afb07a7f367fe3ce7348d0d5f70a82536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb07a7f367fe3ce7348d0d5f70a82536">&#9670;&nbsp;</a></span>ClientSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int WindowsFormsApp1.Database.ClientSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает количество клиентов. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество клиентов. </dd></dl>
+
+</div>
+</div>
+<a id="acc31094c97083f4fbe458f2553649441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc31094c97083f4fbe458f2553649441">&#9670;&nbsp;</a></span>Consistence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.Consistence </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит проверку базы данных на целостность. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение о причине нарушения целостности или отсутствия таковых. </dd></dl>
+
+</div>
+</div>
+<a id="a834c678a454207f313282c1d6102634c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834c678a454207f313282c1d6102634c">&#9670;&nbsp;</a></span>FindClient() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&gt; WindowsFormsApp1.Database.FindClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&#160;</td>
+          <td class="paramname"><em>client</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных клиента, соответствующего входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client</td><td>Клиент, соответствия которому необходимо найти. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="afc283698a1c2dd0688f32bbab9f3c6ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc283698a1c2dd0688f32bbab9f3c6ed">&#9670;&nbsp;</a></span>FindClient() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&gt; WindowsFormsApp1.Database.FindClient </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cardNumber</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных банкомата, соответствующего входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardNumber</td><td>Номер карты искомого клиента. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="aae9e855a13da3824b4ad57add0c86204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9e855a13da3824b4ad57add0c86204">&#9670;&nbsp;</a></span>FindMachine() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&gt; WindowsFormsApp1.Database.FindMachine </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>machineNumber</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных банкомата, соответствующего входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">machineNumber</td><td>Номер банкомата, соответствия которому необходимо найти. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="a01c5d00f063b5258d3f114b5317ed03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c5d00f063b5258d3f114b5317ed03d">&#9670;&nbsp;</a></span>FindMachine() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&gt; WindowsFormsApp1.Database.FindMachine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
+          <td class="paramname"><em>machine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных банкомата, соответствующего входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">machine</td><td>Банкомат, соответствия которому необходимо найти. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="a562a325c28d8027ee82822b6c7423ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562a325c28d8027ee82822b6c7423ce9">&#9670;&nbsp;</a></span>FindOperation() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&gt; WindowsFormsApp1.Database.FindOperation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&#160;</td>
+          <td class="paramname"><em>operation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных операции, соответствующей входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operation</td><td>Операция, соответствия которой необходимо найти. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="a13b8331e8ed86b4964a9539d000dd937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b8331e8ed86b4964a9539d000dd937">&#9670;&nbsp;</a></span>FindOperation() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&gt; WindowsFormsApp1.Database.FindOperation </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>operationName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cardNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>machineNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных операции, соответствующей входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operationName</td><td>Название операции. </td></tr>
+    <tr><td class="paramname">cardNumber</td><td>Номер карты, с которой произведена операция. </td></tr>
+    <tr><td class="paramname">machineNumber</td><td>Номер банкомата, на котором произведена операция. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="a7fc2a176aaf39cc2be15da31e14244ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc2a176aaf39cc2be15da31e14244ef">&#9670;&nbsp;</a></span>FindPercent() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&gt; WindowsFormsApp1.Database.FindPercent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных процента, соответствующего входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">percent</td><td>Процент, соответствия которому необходимо найти. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="a526fc972a32bbb9033916a770be56343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526fc972a32bbb9033916a770be56343">&#9670;&nbsp;</a></span>FindPercent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&gt; WindowsFormsApp1.Database.FindPercent </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>operationName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>senderBank</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>receiverBank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Производит поиск в базе данных процента, соответствующего входным данным. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operationName</td><td>Название операции. </td></tr>
+    <tr><td class="paramname">senderBank</td><td>Название банка отправителя. </td></tr>
+    <tr><td class="paramname">receiverBank</td><td>Название банка получателя. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </dd></dl>
+
+</div>
+</div>
+<a id="a6b3cb170c1455dfd9eb5bfa73891d006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b3cb170c1455dfd9eb5bfa73891d006">&#9670;&nbsp;</a></span>GetInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a> WindowsFormsApp1.Database.GetInstance </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filePath</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>Путь к файлу базы данны. Файл должен иметь расширение ".kostil". </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>База данных, с которой на данный момент работает программа. </dd></dl>
+
+</div>
+</div>
+<a id="a556ccfa19d4624001f2f8f0043510e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556ccfa19d4624001f2f8f0043510e0a">&#9670;&nbsp;</a></span>GetNewInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a> WindowsFormsApp1.Database.GetNewInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Заменяет рабочую базу данных на новую. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Пустая база данных. </dd></dl>
+
+</div>
+</div>
+<a id="a7928c21bf0b7f061a696082f4291b79e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7928c21bf0b7f061a696082f4291b79e">&#9670;&nbsp;</a></span>MachineArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> [] WindowsFormsApp1.Database.MachineArray </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает массив банкоматов, доступных в базе данных. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Массив банкоматов. </dd></dl>
+
+</div>
+</div>
+<a id="a67d46d8ef64a260564d2d03dd3adb818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d46d8ef64a260564d2d03dd3adb818">&#9670;&nbsp;</a></span>MachineOperationReport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>, <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&gt; WindowsFormsApp1.Database.MachineOperationReport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
+          <td class="paramname"><em>machine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создает отчет об операциях, проведенных этим банкоматом. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">machine</td><td>Банкомат, операции которого попадут в отчет. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Отчет об операциях этого банкомата, содержащий их количество и конкретные операции. </dd></dl>
+
+</div>
+</div>
+<a id="a499d3d51434f82bb7220766baa2f05bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a499d3d51434f82bb7220766baa2f05bd">&#9670;&nbsp;</a></span>MachinePercentReport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>, <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&gt; WindowsFormsApp1.Database.MachinePercentReport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
+          <td class="paramname"><em>machine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создает отчет о процентах по операциям, проведенныи этим банкоматом. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">machine</td><td>Банкомат, проценты по операциям которого попадут в отчет. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Отчет о процентах по операциям этого банкомата, содержащий их количество и конкретные операции. </dd></dl>
+
+</div>
+</div>
+<a id="a44eec367d91e28e33b015684be8a902f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44eec367d91e28e33b015684be8a902f">&#9670;&nbsp;</a></span>MachinesFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_win_forms_app1_1_1_hash_function.html">HashFunction</a>&lt;int&gt; WindowsFormsApp1.Database.MachinesFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает хэш-функцию, используемую для таблицы машин данной базы данных. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Хэш-функция машин. </dd></dl>
+
+</div>
+</div>
+<a id="a9e9603449f45edce04e4413859a989df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9603449f45edce04e4413859a989df">&#9670;&nbsp;</a></span>MachineSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int WindowsFormsApp1.Database.MachineSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает количество банкоматов. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество банкоматов. </dd></dl>
+
+</div>
+</div>
+<a id="adcac299370aba10305fc5e0d46b68644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcac299370aba10305fc5e0d46b68644">&#9670;&nbsp;</a></span>OperationArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> [] WindowsFormsApp1.Database.OperationArray </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает массив операций, доступных в базе данных. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Массив операций. </dd></dl>
+
+</div>
+</div>
+<a id="a2f822a5afd43da1ca00e1c8c9c768680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f822a5afd43da1ca00e1c8c9c768680">&#9670;&nbsp;</a></span>OperationPercentReport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt;<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>, <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&gt; WindowsFormsApp1.Database.OperationPercentReport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&#160;</td>
+          <td class="paramname"><em>operation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создает отчет о процентах по указанному типу операций. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operation</td><td>Операция, проценты по которой попадут в отчет. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Отчет о процентах этой операции, содержащий их количество и конкретные операции. </dd></dl>
+
+</div>
+</div>
+<a id="a71bfaac112b0cf14dbfa6ed6828645bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71bfaac112b0cf14dbfa6ed6828645bf">&#9670;&nbsp;</a></span>OperationSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int WindowsFormsApp1.Database.OperationSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает количество операций. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество операций. </dd></dl>
+
+</div>
+</div>
+<a id="a6c72a00968440e4461c41fd6493b2a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c72a00968440e4461c41fd6493b2a43">&#9670;&nbsp;</a></span>PercentArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> [] WindowsFormsApp1.Database.PercentArray </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает массив процентов, доступных в базе данных. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Массив процентов. </dd></dl>
+
+</div>
+</div>
+<a id="a4193279732068c21e5f17702c90348fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4193279732068c21e5f17702c90348fb">&#9670;&nbsp;</a></span>PercentSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int WindowsFormsApp1.Database.PercentSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает количество процентов. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество процентов. </dd></dl>
+
+</div>
+</div>
+<a id="ae9cb19136ed2ec74a70eea79062d26c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9cb19136ed2ec74a70eea79062d26c6">&#9670;&nbsp;</a></span>RemoveClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.RemoveClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&#160;</td>
+          <td class="paramname"><em>client</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удаляет клиента из базы данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client</td><td>Клиент для удаления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном удалении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="ac85ee56a750ee249cc4dea9555fb0c59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85ee56a750ee249cc4dea9555fb0c59">&#9670;&nbsp;</a></span>RemoveMachine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.RemoveMachine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
+          <td class="paramname"><em>machine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удаляет банкомат из базы данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">machine</td><td>Банкомат для удаления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном удалении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="a36e979440befdf7735ef7893a83adb59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e979440befdf7735ef7893a83adb59">&#9670;&nbsp;</a></span>RemoveOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.RemoveOperation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&#160;</td>
+          <td class="paramname"><em>operation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удаляет операцию из базы данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operation</td><td>Операция для удаления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном удалении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="a4b1f0d7128f58f52410c44ca7d3be61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b1f0d7128f58f52410c44ca7d3be61b">&#9670;&nbsp;</a></span>RemovePercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string WindowsFormsApp1.Database.RemovePercent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удаляет процент из базы данных, если это не нарушает целостность базы данных. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">percent</td><td>Процент для удаления. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сообщение об успешном удалении или о проблеме целостности. </dd></dl>
+
+</div>
+</div>
+<a id="a7fbfcac98864ecc48c83b651a59a69c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fbfcac98864ecc48c83b651a59a69c1">&#9670;&nbsp;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowsFormsApp1.Database.Save </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Сохраняет базу данных на жесткий диск. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>Путь к файлу, в который будет производится сохранение. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li><a class="el" href="_database_8cs.html">Database.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>

@@ -1,0 +1,738 @@
+\hypertarget{class_windows_forms_app1_1_1_database}{}\doxysection{Класс Windows\+Forms\+App1.\+Database}
+\label{class_windows_forms_app1_1_1_database}\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+
+
+Класс-\/оболочка базы данных, предоставляющий доступ ко всем меодам, необходимым для работы со структурами данных. Реализует шаблон проектирования Singleton. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации.  
+
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1}{Save}} (string file\+Path)
+\begin{DoxyCompactList}\small\item\em Сохраняет базу данных на жесткий диск. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4}{Add\+Client}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} client)
+\begin{DoxyCompactList}\small\item\em Добавляет клиента в базу данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988}{Add\+Machine}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} machine)
+\begin{DoxyCompactList}\small\item\em Добавляет банкомат в базу данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec}{Add\+Operation}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} operation)
+\begin{DoxyCompactList}\small\item\em Добавляет операцию в базу данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc}{Add\+Percent}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} percent)
+\begin{DoxyCompactList}\small\item\em Добавляет процент в базу данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6}{Remove\+Client}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} client)
+\begin{DoxyCompactList}\small\item\em Удаляет клиента из базы данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59}{Remove\+Machine}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} machine)
+\begin{DoxyCompactList}\small\item\em Удаляет банкомат из базы данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59}{Remove\+Operation}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} operation)
+\begin{DoxyCompactList}\small\item\em Удаляет операцию из базы данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b}{Remove\+Percent}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} percent)
+\begin{DoxyCompactList}\small\item\em Удаляет процент из базы данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a834c678a454207f313282c1d6102634c}{Find\+Client}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} client)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных клиента, соответствующего входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a01c5d00f063b5258d3f114b5317ed03d}{Find\+Machine}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} machine)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных банкомата, соответствующего входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a562a325c28d8027ee82822b6c7423ce9}{Find\+Operation}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} operation)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных операции, соответствующей входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a7fc2a176aaf39cc2be15da31e14244ef}{Find\+Percent}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} percent)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных процента, соответствующего входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_afc283698a1c2dd0688f32bbab9f3c6ed}{Find\+Client}} (int card\+Number)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных банкомата, соответствующего входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_aae9e855a13da3824b4ad57add0c86204}{Find\+Machine}} (int machine\+Number)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных банкомата, соответствующего входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a13b8331e8ed86b4964a9539d000dd937}{Find\+Operation}} (string operation\+Name, int card\+Number, int machine\+Number)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных операции, соответствующей входным данным. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a526fc972a32bbb9033916a770be56343}{Find\+Percent}} (string operation\+Name, string sender\+Bank, string receiver\+Bank)
+\begin{DoxyCompactList}\small\item\em Производит поиск в базе данных процента, соответствующего входным данным. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_database_afb07a7f367fe3ce7348d0d5f70a82536}{Client\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает количество клиентов. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a9e9603449f45edce04e4413859a989df}{Machine\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает количество банкоматов. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a71bfaac112b0cf14dbfa6ed6828645bf}{Operation\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает количество операций. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a4193279732068c21e5f17702c90348fb}{Percent\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает количество процентов. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_ac2f8af3b2b2bcb40a44b3947802f5c84}{Client\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает массив клиентов, доступных в базе данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a7928c21bf0b7f061a696082f4291b79e}{Machine\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает массив банкоматов, доступных в базе данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_adcac299370aba10305fc5e0d46b68644}{Operation\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает массив операций, доступных в базе данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a6c72a00968440e4461c41fd6493b2a43}{Percent\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает массив процентов, доступных в базе данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ int $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_aa1cdc9d9ca1b9f807e8736e07f0ed5b4}{Clients\+Function}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает хэш-\/функцию, используемую для таблицы клиентов данной базы данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ int $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a44eec367d91e28e33b015684be8a902f}{Machines\+Function}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает хэш-\/функцию, используемую для таблицы машин данной базы данных. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441}{Consistence}} ()
+\begin{DoxyCompactList}\small\item\em Производит проверку базы данных на целостность. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a91ae2839b71c9e11139a657f738d7a9c}{Client\+Operation\+Report}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} client)
+\begin{DoxyCompactList}\small\item\em Создает отчет об операциях, проведенных клиентом. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a67d46d8ef64a260564d2d03dd3adb818}{Machine\+Operation\+Report}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} machine)
+\begin{DoxyCompactList}\small\item\em Создает отчет об операциях, проведенных этим банкоматом. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a2f822a5afd43da1ca00e1c8c9c768680}{Operation\+Percent\+Report}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} operation)
+\begin{DoxyCompactList}\small\item\em Создает отчет о процентах по указанному типу операций. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd}{Machine\+Percent\+Report}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} machine)
+\begin{DoxyCompactList}\small\item\em Создает отчет о процентах по операциям, проведенныи этим банкоматом. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006}{Get\+Instance}} (string file\+Path=null)
+\begin{DoxyCompactList}\small\item\em Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a}{Get\+New\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Заменяет рабочую базу данных на новую. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_database_aa0ba20238d7bce2cfa6aa2d725a070fc}{Database}} ()
+\begin{DoxyCompactList}\small\item\em Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры данных пустыми. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Hash\+Map}}$<$ int, \mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_af052b73daa348c75b34ad7971a882b92}{\+\_\+clients}}
+\begin{DoxyCompactList}\small\item\em Хэш-\/таблица клиентов, находящихся в базе данных. Принцип разрешения коллизий\+: открытая адресация (метод двойного хэширования). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Hash\+Map}}$<$ int, \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_aa777aebe708018d8792cbd6975486e8d}{\+\_\+machines}}
+\begin{DoxyCompactList}\small\item\em Хэш-\/таблица банкоматов, находящихся в базе данных. Принцип разрешения коллизий\+: метод цепочек. Хэш функция\+: остаток от деления. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_tree}{Tree}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_ad0e30b110197fd32c24579f711e9dfe0}{\+\_\+operations}}
+\begin{DoxyCompactList}\small\item\em Бинарное дерево операций, находящихся в базе данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_tree}{Tree}}$<$ \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a1a737fdb7991f0ecaf399d95d4cc33e4}{\+\_\+percents}}
+\begin{DoxyCompactList}\small\item\em Бинарное дерево процентов, находящихся в базе данных. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые статические данные}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a1d8dc98e9c8edc755cd01090d6a5c494}{\+\_\+instance}}
+\begin{DoxyCompactList}\small\item\em Singleton сущность базы данных, с которой на данный момент работает программа. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс-\/оболочка базы данных, предоставляющий доступ ко всем меодам, необходимым для работы со структурами данных. Реализует шаблон проектирования Singleton. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации. 
+
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_aa0ba20238d7bce2cfa6aa2d725a070fc}\label{class_windows_forms_app1_1_1_database_aa0ba20238d7bce2cfa6aa2d725a070fc}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!Database@{Database}}
+\index{Database@{Database}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{Database()}{Database()}}
+{\footnotesize\ttfamily Windows\+Forms\+App1.\+Database.\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры данных пустыми. 
+
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4}\label{class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!AddClient@{AddClient}}
+\index{AddClient@{AddClient}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{AddClient()}{AddClient()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Add\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}}]{client }\end{DoxyParamCaption})}
+
+
+
+Добавляет клиента в базу данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em client} & Клиент для добавления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном добавлении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988}\label{class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!AddMachine@{AddMachine}}
+\index{AddMachine@{AddMachine}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{AddMachine()}{AddMachine()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Add\+Machine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}}]{machine }\end{DoxyParamCaption})}
+
+
+
+Добавляет банкомат в базу данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machine} & Банкомат для добавления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном добавлении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec}\label{class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!AddOperation@{AddOperation}}
+\index{AddOperation@{AddOperation}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{AddOperation()}{AddOperation()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Add\+Operation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}}]{operation }\end{DoxyParamCaption})}
+
+
+
+Добавляет операцию в базу данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation} & Операция для добавления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном добавлении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc}\label{class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!AddPercent@{AddPercent}}
+\index{AddPercent@{AddPercent}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{AddPercent()}{AddPercent()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Add\+Percent (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}}]{percent }\end{DoxyParamCaption})}
+
+
+
+Добавляет процент в базу данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em percent} & Процент для добавления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном добавлении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_ac2f8af3b2b2bcb40a44b3947802f5c84}\label{class_windows_forms_app1_1_1_database_ac2f8af3b2b2bcb40a44b3947802f5c84}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!ClientArray@{ClientArray}}
+\index{ClientArray@{ClientArray}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{ClientArray()}{ClientArray()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} \mbox{[}$\,$\mbox{]} Windows\+Forms\+App1.\+Database.\+Client\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает массив клиентов, доступных в базе данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив клиентов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a91ae2839b71c9e11139a657f738d7a9c}\label{class_windows_forms_app1_1_1_database_a91ae2839b71c9e11139a657f738d7a9c}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!ClientOperationReport@{ClientOperationReport}}
+\index{ClientOperationReport@{ClientOperationReport}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{ClientOperationReport()}{ClientOperationReport()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}$>$ Windows\+Forms\+App1.\+Database.\+Client\+Operation\+Report (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}}]{client }\end{DoxyParamCaption})}
+
+
+
+Создает отчет об операциях, проведенных клиентом. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em client} & Клиент, операции которого попадут в отчет. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отчет об операциях этого клиента, содержащий их количество и конкретные операции. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_aa1cdc9d9ca1b9f807e8736e07f0ed5b4}\label{class_windows_forms_app1_1_1_database_aa1cdc9d9ca1b9f807e8736e07f0ed5b4}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!ClientsFunction@{ClientsFunction}}
+\index{ClientsFunction@{ClientsFunction}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{ClientsFunction()}{ClientsFunction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$int$>$ Windows\+Forms\+App1.\+Database.\+Clients\+Function (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает хэш-\/функцию, используемую для таблицы клиентов данной базы данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Хэш-\/функция клиентов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_afb07a7f367fe3ce7348d0d5f70a82536}\label{class_windows_forms_app1_1_1_database_afb07a7f367fe3ce7348d0d5f70a82536}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!ClientSize@{ClientSize}}
+\index{ClientSize@{ClientSize}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{ClientSize()}{ClientSize()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Database.\+Client\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает количество клиентов. 
+
+\begin{DoxyReturn}{Возвращает}
+Количество клиентов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441}\label{class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!Consistence@{Consistence}}
+\index{Consistence@{Consistence}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{Consistence()}{Consistence()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Consistence (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Производит проверку базы данных на целостность. 
+
+\begin{DoxyReturn}{Возвращает}
+Сообщение о причине нарушения целостности или отсутствия таковых. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a834c678a454207f313282c1d6102634c}\label{class_windows_forms_app1_1_1_database_a834c678a454207f313282c1d6102634c}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindClient@{FindClient}}
+\index{FindClient@{FindClient}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindClient()}{FindClient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}}]{client }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных клиента, соответствующего входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em client} & Клиент, соответствия которому необходимо найти. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_afc283698a1c2dd0688f32bbab9f3c6ed}\label{class_windows_forms_app1_1_1_database_afc283698a1c2dd0688f32bbab9f3c6ed}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindClient@{FindClient}}
+\index{FindClient@{FindClient}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindClient()}{FindClient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Client (\begin{DoxyParamCaption}\item[{int}]{card\+Number }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных банкомата, соответствующего входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em card\+Number} & Номер карты искомого клиента. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_aae9e855a13da3824b4ad57add0c86204}\label{class_windows_forms_app1_1_1_database_aae9e855a13da3824b4ad57add0c86204}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindMachine@{FindMachine}}
+\index{FindMachine@{FindMachine}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindMachine()}{FindMachine()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Machine (\begin{DoxyParamCaption}\item[{int}]{machine\+Number }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных банкомата, соответствующего входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machine\+Number} & Номер банкомата, соответствия которому необходимо найти. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a01c5d00f063b5258d3f114b5317ed03d}\label{class_windows_forms_app1_1_1_database_a01c5d00f063b5258d3f114b5317ed03d}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindMachine@{FindMachine}}
+\index{FindMachine@{FindMachine}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindMachine()}{FindMachine()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Machine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}}]{machine }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных банкомата, соответствующего входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machine} & Банкомат, соответствия которому необходимо найти. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a562a325c28d8027ee82822b6c7423ce9}\label{class_windows_forms_app1_1_1_database_a562a325c28d8027ee82822b6c7423ce9}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindOperation@{FindOperation}}
+\index{FindOperation@{FindOperation}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindOperation()}{FindOperation()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Operation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}}]{operation }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных операции, соответствующей входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation} & Операция, соответствия которой необходимо найти. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a13b8331e8ed86b4964a9539d000dd937}\label{class_windows_forms_app1_1_1_database_a13b8331e8ed86b4964a9539d000dd937}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindOperation@{FindOperation}}
+\index{FindOperation@{FindOperation}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindOperation()}{FindOperation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Operation (\begin{DoxyParamCaption}\item[{string}]{operation\+Name,  }\item[{int}]{card\+Number,  }\item[{int}]{machine\+Number }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных операции, соответствующей входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation\+Name} & Название операции. \\
+\hline
+{\em card\+Number} & Номер карты, с которой произведена операция. \\
+\hline
+{\em machine\+Number} & Номер банкомата, на котором произведена операция. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a7fc2a176aaf39cc2be15da31e14244ef}\label{class_windows_forms_app1_1_1_database_a7fc2a176aaf39cc2be15da31e14244ef}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindPercent@{FindPercent}}
+\index{FindPercent@{FindPercent}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindPercent()}{FindPercent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Percent (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}}]{percent }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных процента, соответствующего входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em percent} & Процент, соответствия которому необходимо найти. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a526fc972a32bbb9033916a770be56343}\label{class_windows_forms_app1_1_1_database_a526fc972a32bbb9033916a770be56343}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!FindPercent@{FindPercent}}
+\index{FindPercent@{FindPercent}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{FindPercent()}{FindPercent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}$>$ Windows\+Forms\+App1.\+Database.\+Find\+Percent (\begin{DoxyParamCaption}\item[{string}]{operation\+Name,  }\item[{string}]{sender\+Bank,  }\item[{string}]{receiver\+Bank }\end{DoxyParamCaption})}
+
+
+
+Производит поиск в базе данных процента, соответствующего входным данным. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation\+Name} & Название операции. \\
+\hline
+{\em sender\+Bank} & Название банка отправителя. \\
+\hline
+{\em receiver\+Bank} & Название банка получателя. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006}\label{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!GetInstance@{GetInstance}}
+\index{GetInstance@{GetInstance}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{GetInstance()}{GetInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} Windows\+Forms\+App1.\+Database.\+Get\+Instance (\begin{DoxyParamCaption}\item[{string}]{file\+Path = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em file\+Path} & Путь к файлу базы данны. Файл должен иметь расширение \char`\"{}.\+kostil\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+База данных, с которой на данный момент работает программа. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a}\label{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!GetNewInstance@{GetNewInstance}}
+\index{GetNewInstance@{GetNewInstance}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{GetNewInstance()}{GetNewInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} Windows\+Forms\+App1.\+Database.\+Get\+New\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Заменяет рабочую базу данных на новую. 
+
+\begin{DoxyReturn}{Возвращает}
+Пустая база данных. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a7928c21bf0b7f061a696082f4291b79e}\label{class_windows_forms_app1_1_1_database_a7928c21bf0b7f061a696082f4291b79e}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!MachineArray@{MachineArray}}
+\index{MachineArray@{MachineArray}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{MachineArray()}{MachineArray()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}} \mbox{[}$\,$\mbox{]} Windows\+Forms\+App1.\+Database.\+Machine\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает массив банкоматов, доступных в базе данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив банкоматов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a67d46d8ef64a260564d2d03dd3adb818}\label{class_windows_forms_app1_1_1_database_a67d46d8ef64a260564d2d03dd3adb818}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!MachineOperationReport@{MachineOperationReport}}
+\index{MachineOperationReport@{MachineOperationReport}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{MachineOperationReport()}{MachineOperationReport()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}$>$ Windows\+Forms\+App1.\+Database.\+Machine\+Operation\+Report (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}}]{machine }\end{DoxyParamCaption})}
+
+
+
+Создает отчет об операциях, проведенных этим банкоматом. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machine} & Банкомат, операции которого попадут в отчет. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отчет об операциях этого банкомата, содержащий их количество и конкретные операции. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd}\label{class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!MachinePercentReport@{MachinePercentReport}}
+\index{MachinePercentReport@{MachinePercentReport}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{MachinePercentReport()}{MachinePercentReport()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}$>$ Windows\+Forms\+App1.\+Database.\+Machine\+Percent\+Report (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}}]{machine }\end{DoxyParamCaption})}
+
+
+
+Создает отчет о процентах по операциям, проведенныи этим банкоматом. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machine} & Банкомат, проценты по операциям которого попадут в отчет. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отчет о процентах по операциям этого банкомата, содержащий их количество и конкретные операции. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a44eec367d91e28e33b015684be8a902f}\label{class_windows_forms_app1_1_1_database_a44eec367d91e28e33b015684be8a902f}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!MachinesFunction@{MachinesFunction}}
+\index{MachinesFunction@{MachinesFunction}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{MachinesFunction()}{MachinesFunction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$int$>$ Windows\+Forms\+App1.\+Database.\+Machines\+Function (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает хэш-\/функцию, используемую для таблицы машин данной базы данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Хэш-\/функция машин. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a9e9603449f45edce04e4413859a989df}\label{class_windows_forms_app1_1_1_database_a9e9603449f45edce04e4413859a989df}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!MachineSize@{MachineSize}}
+\index{MachineSize@{MachineSize}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{MachineSize()}{MachineSize()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Database.\+Machine\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает количество банкоматов. 
+
+\begin{DoxyReturn}{Возвращает}
+Количество банкоматов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_adcac299370aba10305fc5e0d46b68644}\label{class_windows_forms_app1_1_1_database_adcac299370aba10305fc5e0d46b68644}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!OperationArray@{OperationArray}}
+\index{OperationArray@{OperationArray}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{OperationArray()}{OperationArray()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}} \mbox{[}$\,$\mbox{]} Windows\+Forms\+App1.\+Database.\+Operation\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает массив операций, доступных в базе данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив операций. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a2f822a5afd43da1ca00e1c8c9c768680}\label{class_windows_forms_app1_1_1_database_a2f822a5afd43da1ca00e1c8c9c768680}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!OperationPercentReport@{OperationPercentReport}}
+\index{OperationPercentReport@{OperationPercentReport}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{OperationPercentReport()}{OperationPercentReport()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}, \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}$>$ Windows\+Forms\+App1.\+Database.\+Operation\+Percent\+Report (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}}]{operation }\end{DoxyParamCaption})}
+
+
+
+Создает отчет о процентах по указанному типу операций. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation} & Операция, проценты по которой попадут в отчет. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отчет о процентах этой операции, содержащий их количество и конкретные операции. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a71bfaac112b0cf14dbfa6ed6828645bf}\label{class_windows_forms_app1_1_1_database_a71bfaac112b0cf14dbfa6ed6828645bf}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!OperationSize@{OperationSize}}
+\index{OperationSize@{OperationSize}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{OperationSize()}{OperationSize()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Database.\+Operation\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает количество операций. 
+
+\begin{DoxyReturn}{Возвращает}
+Количество операций. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a6c72a00968440e4461c41fd6493b2a43}\label{class_windows_forms_app1_1_1_database_a6c72a00968440e4461c41fd6493b2a43}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!PercentArray@{PercentArray}}
+\index{PercentArray@{PercentArray}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{PercentArray()}{PercentArray()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}} \mbox{[}$\,$\mbox{]} Windows\+Forms\+App1.\+Database.\+Percent\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает массив процентов, доступных в базе данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив процентов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a4193279732068c21e5f17702c90348fb}\label{class_windows_forms_app1_1_1_database_a4193279732068c21e5f17702c90348fb}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!PercentSize@{PercentSize}}
+\index{PercentSize@{PercentSize}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{PercentSize()}{PercentSize()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Database.\+Percent\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает количество процентов. 
+
+\begin{DoxyReturn}{Возвращает}
+Количество процентов. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6}\label{class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!RemoveClient@{RemoveClient}}
+\index{RemoveClient@{RemoveClient}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{RemoveClient()}{RemoveClient()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Remove\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}}]{client }\end{DoxyParamCaption})}
+
+
+
+Удаляет клиента из базы данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em client} & Клиент для удаления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном удалении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59}\label{class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!RemoveMachine@{RemoveMachine}}
+\index{RemoveMachine@{RemoveMachine}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{RemoveMachine()}{RemoveMachine()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Remove\+Machine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}}]{machine }\end{DoxyParamCaption})}
+
+
+
+Удаляет банкомат из базы данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machine} & Банкомат для удаления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном удалении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59}\label{class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!RemoveOperation@{RemoveOperation}}
+\index{RemoveOperation@{RemoveOperation}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{RemoveOperation()}{RemoveOperation()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Remove\+Operation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}}]{operation }\end{DoxyParamCaption})}
+
+
+
+Удаляет операцию из базы данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation} & Операция для удаления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном удалении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b}\label{class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!RemovePercent@{RemovePercent}}
+\index{RemovePercent@{RemovePercent}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{RemovePercent()}{RemovePercent()}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Database.\+Remove\+Percent (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}}]{percent }\end{DoxyParamCaption})}
+
+
+
+Удаляет процент из базы данных, если это не нарушает целостность базы данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em percent} & Процент для удаления. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Сообщение об успешном удалении или о проблеме целостности. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1}\label{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!Save@{Save}}
+\index{Save@{Save}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily void Windows\+Forms\+App1.\+Database.\+Save (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
+
+
+
+Сохраняет базу данных на жесткий диск. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em file\+Path} & Путь к файлу, в который будет производится сохранение. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_af052b73daa348c75b34ad7971a882b92}\label{class_windows_forms_app1_1_1_database_af052b73daa348c75b34ad7971a882b92}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!\_clients@{\_clients}}
+\index{\_clients@{\_clients}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{\_clients}{\_clients}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Hash\+Map}}$<$int, \mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}}$>$ Windows\+Forms\+App1.\+Database.\+\_\+clients\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Хэш-\/таблица клиентов, находящихся в базе данных. Принцип разрешения коллизий\+: открытая адресация (метод двойного хэширования). 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a1d8dc98e9c8edc755cd01090d6a5c494}\label{class_windows_forms_app1_1_1_database_a1d8dc98e9c8edc755cd01090d6a5c494}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!\_instance@{\_instance}}
+\index{\_instance@{\_instance}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{\_instance}{\_instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} Windows\+Forms\+App1.\+Database.\+\_\+instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Singleton сущность базы данных, с которой на данный момент работает программа. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_aa777aebe708018d8792cbd6975486e8d}\label{class_windows_forms_app1_1_1_database_aa777aebe708018d8792cbd6975486e8d}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!\_machines@{\_machines}}
+\index{\_machines@{\_machines}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{\_machines}{\_machines}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_map}{Hash\+Map}}$<$int, \mbox{\hyperlink{class_windows_forms_app1_1_1_machine}{Machine}}$>$ Windows\+Forms\+App1.\+Database.\+\_\+machines\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Хэш-\/таблица банкоматов, находящихся в базе данных. Принцип разрешения коллизий\+: метод цепочек. Хэш функция\+: остаток от деления. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_ad0e30b110197fd32c24579f711e9dfe0}\label{class_windows_forms_app1_1_1_database_ad0e30b110197fd32c24579f711e9dfe0}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!\_operations@{\_operations}}
+\index{\_operations@{\_operations}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{\_operations}{\_operations}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_tree}{Tree}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_operation}{Operation}}$>$ Windows\+Forms\+App1.\+Database.\+\_\+operations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Бинарное дерево операций, находящихся в базе данных. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a1a737fdb7991f0ecaf399d95d4cc33e4}\label{class_windows_forms_app1_1_1_database_a1a737fdb7991f0ecaf399d95d4cc33e4}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!\_percents@{\_percents}}
+\index{\_percents@{\_percents}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{\_percents}{\_percents}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_tree}{Tree}}$<$\mbox{\hyperlink{class_windows_forms_app1_1_1_percent}{Percent}}$>$ Windows\+Forms\+App1.\+Database.\+\_\+percents\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Бинарное дерево процентов, находящихся в базе данных. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Database.\+cs\end{DoxyCompactItemize}

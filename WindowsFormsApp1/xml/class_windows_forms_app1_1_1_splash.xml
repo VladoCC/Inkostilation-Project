@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_splash" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::Splash</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_splash_1a253f3fd8fd8bdf02895f6fd406d830db" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.Splash.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Splash.Designer.cs" line="8" column="48" bodyfile="Splash.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_splash_1ab771279b971a66d4855a7aa5cd159568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Splash.Splash</definition>
+        <argsstring>()</argsstring>
+        <name>Splash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Splash.cs" line="15" column="16" bodyfile="Splash.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_splash_1a4aa682d790152ef58fe018007abe7770" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.Splash.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Splash.Designer.cs" line="14" column="33" bodyfile="Splash.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_splash_1a2721220bc99b8e47415532681ff6f7e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Splash.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Splash.Designer.cs" line="29" column="22" bodyfile="Splash.Designer.cs" bodystart="29" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Splash</label>
+        <link refid="class_windows_forms_app1_1_1_splash"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Splash</label>
+        <link refid="class_windows_forms_app1_1_1_splash"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Splash.cs" line="13" column="19" bodyfile="Splash.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_splash_1a253f3fd8fd8bdf02895f6fd406d830db" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Splash</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1_splash_1a4aa682d790152ef58fe018007abe7770" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::Splash</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1_splash_1a2721220bc99b8e47415532681ff6f7e1" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Splash</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1_splash_1ab771279b971a66d4855a7aa5cd159568" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Splash</scope><name>Splash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

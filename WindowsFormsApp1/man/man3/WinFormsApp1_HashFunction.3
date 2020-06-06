@@ -1,0 +1,80 @@
+.TH "WinFormsApp1.HashFunction< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.HashFunction< T > \- Хэш-функция, предоставляющая индекс, соответствующий поступившему на вход данному\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetSize\fP (\fBSizeContainer\fP size)"
+.br
+.RI "Публичный сеттер, позволяющий заменить размер хранилища на новый\&. "
+.ti -1c
+.RI "abstract int \fBHash\fP (T key)"
+.br
+.RI "Преобразует хэшируемое данное в индекс\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBSizeContainer\fP \fB_size\fP"
+.br
+.RI "Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Хэш-функция, предоставляющая индекс, соответствующий поступившему на вход данному\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип данных для хэширования\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "abstract int \fBWinFormsApp1\&.HashFunction\fP< T >\&.Hash (T key)\fC [pure virtual]\fP"
+
+.PP
+Преобразует хэшируемое данное в индекс\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIkey\fP Данное для хэширования\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Индекс, полученные хэшированием данных\&. 
+.RE
+.PP
+
+.SS "void \fBWinFormsApp1\&.HashFunction\fP< T >\&.SetSize (\fBSizeContainer\fP size)"
+
+.PP
+Публичный сеттер, позволяющий заменить размер хранилища на новый\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIsize\fP Новый контейнер, содержащий размер\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "\fBSizeContainer\fP \fBWinFormsApp1\&.HashFunction\fP< T >\&._size\fC [private]\fP"
+
+.PP
+Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

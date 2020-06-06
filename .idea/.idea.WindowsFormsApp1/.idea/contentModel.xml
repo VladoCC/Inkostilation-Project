@@ -94,6 +94,7 @@
         <e p="Report.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="screen.jpg" t="Include" />
+          <e p="screen1.jpg" t="Include" />
         </e>
         <e p="SearchQuery.cs" t="Include" />
         <e p="ShellSorter.cs" t="Include" />

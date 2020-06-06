@@ -1,0 +1,87 @@
+\hypertarget{class_windows_forms_app1_1_1_odd_function}{}\doxysection{Класс Windows\+Forms\+App1.\+Odd\+Function}
+\label{class_windows_forms_app1_1_1_odd_function}\index{WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}}
+
+
+Функция, генерируяшая нечетные хэши, в пределах размера хранилища.  
+
+
+Граф наследования\+:Windows\+Forms\+App1.\+Odd\+Function\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_windows_forms_app1_1_1_odd_function}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_odd_function_ac0c6b0683ca830880f61e2d67e8aa280}\label{class_windows_forms_app1_1_1_odd_function_ac0c6b0683ca830880f61e2d67e8aa280}} 
+override int {\bfseries Hash} (int key)
+\item 
+void \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function_ac9316beab45fcdfdad4f722eb582c09b}{Set\+Size}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} size)
+\begin{DoxyCompactList}\small\item\em Публичный сеттер, позволяющий заменить размер хранилища на новый. \end{DoxyCompactList}\item 
+abstract int \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function_a78a43fc1610e678bff472562d00f727f}{Hash}} (T key)
+\begin{DoxyCompactList}\small\item\em Преобразует хэшируемое данное в индекс. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function_a78212a560d5b5dbbee1efb90d47368c1}{\+\_\+size}}
+\begin{DoxyCompactList}\small\item\em Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Функция, генерируяшая нечетные хэши, в пределах размера хранилища. 
+
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_function_a78a43fc1610e678bff472562d00f727f}\label{class_win_forms_app1_1_1_hash_function_a78a43fc1610e678bff472562d00f727f}} 
+\index{WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}!Hash@{Hash}}
+\index{Hash@{Hash}!WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}}
+\doxysubsubsection{\texorpdfstring{Hash()}{Hash()}}
+{\footnotesize\ttfamily abstract int \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Win\+Forms\+App1.\+Hash\+Function}}$<$ T $>$.Hash (\begin{DoxyParamCaption}\item[{T}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}, {\ttfamily [inherited]}}
+
+
+
+Преобразует хэшируемое данное в индекс. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em key} & Данное для хэширования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Индекс, полученные хэшированием данных. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_function_ac9316beab45fcdfdad4f722eb582c09b}\label{class_win_forms_app1_1_1_hash_function_ac9316beab45fcdfdad4f722eb582c09b}} 
+\index{WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}!SetSize@{SetSize}}
+\index{SetSize@{SetSize}!WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}}
+\doxysubsubsection{\texorpdfstring{SetSize()}{SetSize()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Win\+Forms\+App1.\+Hash\+Function}}$<$ T $>$.Set\+Size (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}}}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+
+
+Публичный сеттер, позволяющий заменить размер хранилища на новый. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em size} & Новый контейнер, содержащий размер. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_hash_function_a78212a560d5b5dbbee1efb90d47368c1}\label{class_win_forms_app1_1_1_hash_function_a78212a560d5b5dbbee1efb90d47368c1}} 
+\index{WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}!\_size@{\_size}}
+\index{\_size@{\_size}!WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}}
+\doxysubsubsection{\texorpdfstring{\_size}{\_size}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Win\+Forms\+App1.\+Hash\+Function}}$<$ T $>$.\+\_\+size\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [inherited]}}
+
+
+
+Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Odd\+Function.\+cs\end{DoxyCompactItemize}

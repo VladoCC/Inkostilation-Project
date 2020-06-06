@@ -1,0 +1,247 @@
+\hypertarget{class_win_forms_app1_1_1_double_hash_storage}{}\doxysection{Шаблон класса Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$}
+\label{class_win_forms_app1_1_1_double_hash_storage}\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+Граф наследования\+:Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_win_forms_app1_1_1_double_hash_storage}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_ac14d1ebc6e1a6e9b7edc0c443c2c4a1b}{Double\+Hash\+Storage}} (\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ main\+Function, \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ outside\+Function)
+\begin{DoxyCompactList}\small\item\em Конструктор, получающий на вход хуш-\/функции, предоставляющий им информацию о размере, а также заполняет массив \+\_\+deleted. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a2ebaecfe8643b8276263a1369b328cee}{Get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Геттер, возвращающий размер хранилища в числовом представлении. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a680decb93c556470b7e6534a3eded0de}{Add}} (int index, V element)
+\begin{DoxyCompactList}\small\item\em Добавляет элемент в хранилище. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_ae532033d86f1075c43205972f9c14819}{Remove}} (int index, V element)
+\begin{DoxyCompactList}\small\item\em Удаляет элемент из хранилища. \end{DoxyCompactList}\item 
+override V\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_aa03ea4870bcf39fe3a6654f63829ee7e}{To\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает элементы хранилища в виде массива. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a50c2128c83f08591f6f1b394da2f8a56}{Find}} (int index, \mbox{\hyperlink{class_windows_forms_app1_1_1_keyed_search_query}{Keyed\+Search\+Query}}$<$ K, V $>$ keyed\+Query)
+\begin{DoxyCompactList}\small\item\em Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_storage_ac346a3e5851c25dd37b462458285f536}{Size\+Container}} ()
+\begin{DoxyCompactList}\small\item\em Публичный геттер для контейнера, содержащего размер хранилища. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a74540265b8baf7cdc62a49bc37e04102}{Inflate}} ()
+\begin{DoxyCompactList}\small\item\em Функция, позволяющая увеличить размер хранилища в два раза. Также обновляет положение всех элементов, в соответствии с новыми значениями хэш-\/функций. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a7a88cc699e41e22525a2ff3a2a225f95}{\+\_\+main\+Function}}
+\begin{DoxyCompactList}\small\item\em Основная хэш-\/функция данного хранилища. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a852631709e9c6cffde58070ad2d6ebe8}{\+\_\+outside\+Function}}
+\begin{DoxyCompactList}\small\item\em Внешняя функция, предоставленная хэш-\/таблицей. \end{DoxyCompactList}\item 
+V\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a0b30f1258342d867b5dcbef992c5d569}{\+\_\+array}} = new V\mbox{[}16\mbox{]}
+\begin{DoxyCompactList}\small\item\em Массив элементов, содержащихся в этом хранилище. \end{DoxyCompactList}\item 
+bool\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_ac605832f6b0b14f1443e8dcc80ba677f}{\+\_\+deleted}} = new bool\mbox{[}16\mbox{]}
+\begin{DoxyCompactList}\small\item\em Массив указателей на то, был ли удален элемент из данной ячейки. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a78ccd4cb28e362967256906146f2d17e}{\+\_\+size}} = 0
+\begin{DoxyCompactList}\small\item\em Количество элементов, содержащихся в хранилище. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_ac14d1ebc6e1a6e9b7edc0c443c2c4a1b}\label{class_win_forms_app1_1_1_double_hash_storage_ac14d1ebc6e1a6e9b7edc0c443c2c4a1b}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!DoubleHashStorage@{DoubleHashStorage}}
+\index{DoubleHashStorage@{DoubleHashStorage}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{DoubleHashStorage()}{DoubleHashStorage()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Double\+Hash\+Storage}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$}]{main\+Function,  }\item[{\mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$ K $>$}]{outside\+Function }\end{DoxyParamCaption})}
+
+
+
+Конструктор, получающий на вход хуш-\/функции, предоставляющий им информацию о размере, а также заполняет массив \+\_\+deleted. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em main\+Function} & Основная хэш-\/функция. \\
+\hline
+{\em outside\+Function} & Внешняя функция, предоставленная хэш-\/таблицей. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a680decb93c556470b7e6534a3eded0de}\label{class_win_forms_app1_1_1_double_hash_storage_a680decb93c556470b7e6534a3eded0de}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!Add@{Add}}
+\index{Add@{Add}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily override void \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.Add (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{V}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Добавляет элемент в хранилище. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em index} & Индекс в хранилище, опеделенный хэш функцией таблицы. \\
+\hline
+{\em element} & Добавляемый элемент. \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a29fca16c9a12f8e52b651d7afdd8d0cf}{Win\+Forms\+App1.\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a50c2128c83f08591f6f1b394da2f8a56}\label{class_win_forms_app1_1_1_double_hash_storage_a50c2128c83f08591f6f1b394da2f8a56}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!Find@{Find}}
+\index{Find@{Find}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Find()}{Find()}}
+{\footnotesize\ttfamily override void \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.Find (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_keyed_search_query}{Keyed\+Search\+Query}}$<$ K, V $>$}]{keyed\+Query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em index} & Индекс, по которому в хранилище должен располагаться данный объект, если он в нем присутствует. Определяется хэш-\/функцией. \\
+\hline
+{\em keyed\+Query} & Поисковый запрос, содержащий искомый объект. \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a1602a0977d7a7c6f32382e0be1650920}{Win\+Forms\+App1.\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a2ebaecfe8643b8276263a1369b328cee}\label{class_win_forms_app1_1_1_double_hash_storage_a2ebaecfe8643b8276263a1369b328cee}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!GetSize@{GetSize}}
+\index{GetSize@{GetSize}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{GetSize()}{GetSize()}}
+{\footnotesize\ttfamily override int \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.Get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Геттер, возвращающий размер хранилища в числовом представлении. 
+
+\begin{DoxyReturn}{Возвращает}
+Числовое представление размера хранилища. 
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a5614e10c3a36e84225c3bcd32c396658}{Win\+Forms\+App1.\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a74540265b8baf7cdc62a49bc37e04102}\label{class_win_forms_app1_1_1_double_hash_storage_a74540265b8baf7cdc62a49bc37e04102}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!Inflate@{Inflate}}
+\index{Inflate@{Inflate}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Inflate()}{Inflate()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.Inflate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Функция, позволяющая увеличить размер хранилища в два раза. Также обновляет положение всех элементов, в соответствии с новыми значениями хэш-\/функций. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_ae532033d86f1075c43205972f9c14819}\label{class_win_forms_app1_1_1_double_hash_storage_ae532033d86f1075c43205972f9c14819}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily override bool \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.Remove (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{V}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Удаляет элемент из хранилища. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em index} & Индекс в хранилище, опеделенный хэш функцией таблицы. \\
+\hline
+{\em element} & Удаляемый элемент. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Возвращает true если элемент успешно удален и false в остальных случаях. 
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{class_win_forms_app1_1_1_storage_ac5d5fa7c7167de11fe0bef04245b58a7}{Win\+Forms\+App1.\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_ac346a3e5851c25dd37b462458285f536}\label{class_win_forms_app1_1_1_storage_ac346a3e5851c25dd37b462458285f536}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!SizeContainer@{SizeContainer}}
+\index{SizeContainer@{SizeContainer}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{SizeContainer()}{SizeContainer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inherited]}}
+
+
+
+Публичный геттер для контейнера, содержащего размер хранилища. 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_aa03ea4870bcf39fe3a6654f63829ee7e}\label{class_win_forms_app1_1_1_double_hash_storage_aa03ea4870bcf39fe3a6654f63829ee7e}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!ToArray@{ToArray}}
+\index{ToArray@{ToArray}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{ToArray()}{ToArray()}}
+{\footnotesize\ttfamily override V \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.To\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Возвращает элементы хранилища в виде массива. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив, состоящий из элементов хранилища. 
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{class_win_forms_app1_1_1_storage_adda132fdf1fe5dbe6bf1ae9d53db70ad}{Win\+Forms\+App1.\+Storage$<$ K, V $>$}}.
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a0b30f1258342d867b5dcbef992c5d569}\label{class_win_forms_app1_1_1_double_hash_storage_a0b30f1258342d867b5dcbef992c5d569}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!\_array@{\_array}}
+\index{\_array@{\_array}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_array}{\_array}}
+{\footnotesize\ttfamily V \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.\+\_\+array = new V\mbox{[}16\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Массив элементов, содержащихся в этом хранилище. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_ac605832f6b0b14f1443e8dcc80ba677f}\label{class_win_forms_app1_1_1_double_hash_storage_ac605832f6b0b14f1443e8dcc80ba677f}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!\_deleted@{\_deleted}}
+\index{\_deleted@{\_deleted}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_deleted}{\_deleted}}
+{\footnotesize\ttfamily bool \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.\+\_\+deleted = new bool\mbox{[}16\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Массив указателей на то, был ли удален элемент из данной ячейки. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a7a88cc699e41e22525a2ff3a2a225f95}\label{class_win_forms_app1_1_1_double_hash_storage_a7a88cc699e41e22525a2ff3a2a225f95}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!\_mainFunction@{\_mainFunction}}
+\index{\_mainFunction@{\_mainFunction}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_mainFunction}{\_mainFunction}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$K$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.\+\_\+main\+Function\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Основная хэш-\/функция данного хранилища. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a852631709e9c6cffde58070ad2d6ebe8}\label{class_win_forms_app1_1_1_double_hash_storage_a852631709e9c6cffde58070ad2d6ebe8}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!\_outsideFunction@{\_outsideFunction}}
+\index{\_outsideFunction@{\_outsideFunction}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_outsideFunction}{\_outsideFunction}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_hash_function}{Hash\+Function}}$<$K$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.\+\_\+outside\+Function\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Внешняя функция, предоставленная хэш-\/таблицей. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_double_hash_storage_a78ccd4cb28e362967256906146f2d17e}\label{class_win_forms_app1_1_1_double_hash_storage_a78ccd4cb28e362967256906146f2d17e}} 
+\index{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}!\_size@{\_size}}
+\index{\_size@{\_size}!WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_size}{\_size}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage}{Win\+Forms\+App1.\+Double\+Hash\+Storage}}$<$ K, V $>$.\+\_\+size = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Количество элементов, содержащихся в хранилище. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Double\+Hash\+Storage.\+cs\end{DoxyCompactItemize}

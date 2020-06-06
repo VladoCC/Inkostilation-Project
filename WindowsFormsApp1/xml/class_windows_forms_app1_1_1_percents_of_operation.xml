@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_percents_of_operation" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::PercentsOfOperation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a2b4a728983ada9a45b32b42de5455236" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.PercentsOfOperation.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.cs" line="15" column="13" bodyfile="PercentsOfOperation.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a8d0feff54e14ed35792e03b1f8729fcb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.PercentsOfOperation.NumRows</definition>
+        <argsstring></argsstring>
+        <name>NumRows</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.cs" line="16" column="13" bodyfile="PercentsOfOperation.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a2c19febebc5f4c6ae7ec50b2409dc573" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.PercentsOfOperation.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="8" column="48" bodyfile="PercentsOfOperation.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a9b468e5588d5b1f13fdf42511c1b4d18" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.PercentsOfOperation.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="216" column="41" bodyfile="PercentsOfOperation.Designer.cs" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a9501e24e7a3910570e88743250784807" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.PercentsOfOperation.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="217" column="41" bodyfile="PercentsOfOperation.Designer.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a673693a511783c6694fb2201eae570fa" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.ТипОперации1</definition>
+        <argsstring></argsstring>
+        <name>ТипОперации1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="218" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a3adf0dd47a96fa5fecc8cc316f5dbfe9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.НомерКарточки1</definition>
+        <argsstring></argsstring>
+        <name>НомерКарточки1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="219" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1aee3f5a63b2a2ef97fa5b73ec53b3d601" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.НомерБанкомата</definition>
+        <argsstring></argsstring>
+        <name>НомерБанкомата</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="220" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1aa6cf50518cd182d14b49af48b8c08e1d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.СуммаОперации</definition>
+        <argsstring></argsstring>
+        <name>СуммаОперации</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="221" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a8929a5fee7bdb057060616813ed32647" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.Тип</definition>
+        <argsstring></argsstring>
+        <name>Тип</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="222" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a607171f5450abd22a6cf6d4ae19e93fd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.Отправитель</definition>
+        <argsstring></argsstring>
+        <name>Отправитель</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="223" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a508e37123d9c15ca6f9ca7967a284b6d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.Получатель</definition>
+        <argsstring></argsstring>
+        <name>Получатель</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="224" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1adcbabc250bac34bd0745b3faf7c17e45" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.PercentsOfOperation.Процент</definition>
+        <argsstring></argsstring>
+        <name>Процент</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="225" column="61" bodyfile="PercentsOfOperation.Designer.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1a37e8c43027c149187fb8133e548078c5" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView WindowsFormsApp1.PercentsOfOperation.OperationsKey</definition>
+        <argsstring></argsstring>
+        <name>OperationsKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="214" column="47" bodyfile="PercentsOfOperation.Designer.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_operation_1ad39d1964f1455c294f6bc7d6c91343be" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView WindowsFormsApp1.PercentsOfOperation.PercentsData</definition>
+        <argsstring></argsstring>
+        <name>PercentsData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="215" column="47" bodyfile="PercentsOfOperation.Designer.cs" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percents_of_operation_1a350df9d99bbd9645b7c26ad73807898e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.PercentsOfOperation.PercentsOfOperation</definition>
+        <argsstring>()</argsstring>
+        <name>PercentsOfOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.cs" line="17" column="16" bodyfile="PercentsOfOperation.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</definition>
+        <argsstring>(object sender, DataGridViewCellEventArgs e)</argsstring>
+        <name>OperationsKey_CellClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataGridViewCellEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.cs" line="22" column="22" bodyfile="PercentsOfOperation.cs" bodystart="22" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percents_of_operation_1a7ff45e1bffa8a1d996b0063ee02d9b05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.PercentsOfOperation.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="29" column="22" bodyfile="PercentsOfOperation.Designer.cs" bodystart="29" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percents_of_operation_1a73f6e6671ef7796615c8ed772edd8434" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.PercentsOfOperation.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PercentsOfOperation.Designer.cs" line="14" column="33" bodyfile="PercentsOfOperation.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.PercentsOfOperation</label>
+        <link refid="class_windows_forms_app1_1_1_percents_of_operation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.PercentsOfOperation</label>
+        <link refid="class_windows_forms_app1_1_1_percents_of_operation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>PercentsData</edgelabel>
+          <edgelabel>OperationsKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="PercentsOfOperation.cs" line="13" column="19" bodyfile="PercentsOfOperation.cs" bodystart="14" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a2c19febebc5f4c6ae7ec50b2409dc573" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a73f6e6671ef7796615c8ed772edd8434" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a2b4a728983ada9a45b32b42de5455236" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>index</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a7ff45e1bffa8a1d996b0063ee02d9b05" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a9501e24e7a3910570e88743250784807" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>label2</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a9b468e5588d5b1f13fdf42511c1b4d18" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>label4</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a8d0feff54e14ed35792e03b1f8729fcb" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>NumRows</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a37e8c43027c149187fb8133e548078c5" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>OperationsKey</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>OperationsKey_CellClick</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1ad39d1964f1455c294f6bc7d6c91343be" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>PercentsData</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a350df9d99bbd9645b7c26ad73807898e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>PercentsOfOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1aee3f5a63b2a2ef97fa5b73ec53b3d601" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>НомерБанкомата</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a3adf0dd47a96fa5fecc8cc316f5dbfe9" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>НомерКарточки1</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a607171f5450abd22a6cf6d4ae19e93fd" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>Отправитель</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a508e37123d9c15ca6f9ca7967a284b6d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>Получатель</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1adcbabc250bac34bd0745b3faf7c17e45" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>Процент</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1aa6cf50518cd182d14b49af48b8c08e1d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>СуммаОперации</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a8929a5fee7bdb057060616813ed32647" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>Тип</name></member>
+      <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a673693a511783c6694fb2201eae570fa" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::PercentsOfOperation</scope><name>ТипОперации1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

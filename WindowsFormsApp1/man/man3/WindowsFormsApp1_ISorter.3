@@ -1,0 +1,54 @@
+.TH "WindowsFormsApp1.ISorter< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.ISorter< T > \- Интерфейс, описывающий сортировщик элементов типа Т\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Производные классы:\fBWindowsFormsApp1\&.BubbleSorter< T >\fP, \fBWindowsFormsApp1\&.QuickLastSorter< T >\fP, \fBWindowsFormsApp1\&.QuickStackSorter< T >\fP и \fBWindowsFormsApp1\&.ShellSorter< T >\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBSort\fP (T[] array)"
+.br
+.RI "Метод, совершающий сортировку\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Интерфейс, описывающий сортировщик элементов типа Т\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип сортируемых данных, наследуемая от IElement\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIT\fP : \fIIElement\fP
+.SH "Методы"
+.PP 
+.SS "void \fBWindowsFormsApp1\&.ISorter\fP< T >\&.Sort (T[] array)"
+
+.PP
+Метод, совершающий сортировку\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIarray\fP Сортируемый массив\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.QuickStackSorter< T >\fP, \fBWindowsFormsApp1\&.BubbleSorter< T >\fP, \fBWindowsFormsApp1\&.QuickLastSorter< T >\fP и \fBWindowsFormsApp1\&.ShellSorter< T >\fP\&.
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

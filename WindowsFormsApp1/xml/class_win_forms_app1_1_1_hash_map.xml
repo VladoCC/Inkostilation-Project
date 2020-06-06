@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_win_forms_app1_1_1_hash_map" kind="class" language="C#" prot="public">
+    <compoundname>WinFormsApp1::HashMap</compoundname>
+    <basecompoundref refid="interface_win_forms_app1_1_1_i_collection" prot="public" virt="non-virtual">WinFormsApp1.ICollection&lt; V &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>V</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_hash_map_1a778e0021501f24d421be94839413ef4f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+        <definition>HashFunction&lt;K&gt; WinFormsApp1.HashMap&lt; K, V &gt;._function</definition>
+        <argsstring></argsstring>
+        <name>_function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="14" column="30" bodyfile="HashMap.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_hash_map_1ab81a7fa321099000b39a8890372b7d0d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_storage" kindref="compound">Storage</ref>&lt; K, V &gt;</type>
+        <definition>Storage&lt;K, V&gt; WinFormsApp1.HashMap&lt; K, V &gt;._storage</definition>
+        <argsstring></argsstring>
+        <name>_storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="15" column="25" bodyfile="HashMap.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_hash_map_1a7b5cf67bdca4e7a5bba4d988323b54f9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+        <definition>HashFunction&lt;K&gt; WinFormsApp1.HashMap&lt; K, V &gt;.Function</definition>
+        <argsstring></argsstring>
+        <name>Function</name>
+        <initializer>=&gt; _function</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="53" column="29" bodyfile="HashMap.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_hash_map_1ac556b9e005681115a30448e6eb9e38f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WinFormsApp1.HashMap&lt; K, V &gt;.HashMap</definition>
+        <argsstring>(HashFunction&lt; K &gt; function, Storage&lt; K, V &gt; storage)</argsstring>
+        <name>HashMap</name>
+        <param>
+          <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; K &gt;</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type><ref refid="class_win_forms_app1_1_1_storage" kindref="compound">Storage</ref>&lt; K, V &gt;</type>
+          <declname>storage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="17" column="16" bodyfile="HashMap.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_hash_map_1acc7434ebbd0f67126acb431db6e782b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>V[]</type>
+        <definition>V [] WinFormsApp1.HashMap&lt; K, V &gt;.ToArray</definition>
+        <argsstring>()</argsstring>
+        <name>ToArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="24" column="18" bodyfile="HashMap.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_hash_map_1aa34645fa8a9424de782abd0e773da06c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WinFormsApp1.HashMap&lt; K, V &gt;.Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="29" column="20" bodyfile="HashMap.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_hash_map_1af13b5aa5de3b82158022c7780097fa60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.HashMap&lt; K, V &gt;.Add</definition>
+        <argsstring>(V element)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>V</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="34" column="21" bodyfile="HashMap.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_hash_map_1a08bb30f9c9f0671ed596028515172dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WinFormsApp1.HashMap&lt; K, V &gt;.Remove</definition>
+        <argsstring>(V element)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>V</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="40" column="21" bodyfile="HashMap.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_hash_map_1a30d35336efdf9ce0b8f893791f8d2890" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.HashMap&lt; K, V &gt;.Find</definition>
+        <argsstring>(SearchQuery&lt; V &gt; query)</argsstring>
+        <name>Find</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; V &gt;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HashMap.cs" line="46" column="21" bodyfile="HashMap.cs" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.ICollection&lt; T &gt;.Add</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ICollection.cs" line="16" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WinFormsApp1.ICollection&lt; T &gt;.Remove</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ICollection.cs" line="18" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.ICollection&lt; T &gt;.Find</definition>
+        <argsstring>(SearchQuery&lt; T &gt; query)</argsstring>
+        <name>Find</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; T &gt;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ICollection.cs" line="20" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WinFormsApp1.HashMap&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICollection&lt; V &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WinFormsApp1.HashMap&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Function</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.HashFunction&lt; K &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_function"/>
+      </node>
+      <node id="2">
+        <label>ICollection&lt; V &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+      </node>
+    </collaborationgraph>
+    <location file="HashMap.cs" line="11" column="11" bodyfile="HashMap.cs" bodystart="12" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_win_forms_app1_1_1_hash_map_1a778e0021501f24d421be94839413ef4f" prot="private" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>_function</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1ab81a7fa321099000b39a8890372b7d0d" prot="private" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>_storage</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1af13b5aa5de3b82158022c7780097fa60" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>Add</name></member>
+      <member refid="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" prot="public" virt="non-virtual" ambiguityscope="ICollection&lt; V &gt;."><scope>WinFormsApp1::HashMap</scope><name>Add</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1a30d35336efdf9ce0b8f893791f8d2890" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>Find</name></member>
+      <member refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" prot="public" virt="non-virtual" ambiguityscope="ICollection&lt; V &gt;."><scope>WinFormsApp1::HashMap</scope><name>Find</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1a7b5cf67bdca4e7a5bba4d988323b54f9" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>Function</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1ac556b9e005681115a30448e6eb9e38f9" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>HashMap</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1a08bb30f9c9f0671ed596028515172dc2" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>Remove</name></member>
+      <member refid="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" prot="public" virt="non-virtual" ambiguityscope="ICollection&lt; V &gt;."><scope>WinFormsApp1::HashMap</scope><name>Remove</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1aa34645fa8a9424de782abd0e773da06c" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>Size</name></member>
+      <member refid="class_win_forms_app1_1_1_hash_map_1acc7434ebbd0f67126acb431db6e782b5" prot="public" virt="non-virtual"><scope>WinFormsApp1::HashMap</scope><name>ToArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

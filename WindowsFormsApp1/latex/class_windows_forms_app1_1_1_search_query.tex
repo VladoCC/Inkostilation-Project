@@ -1,0 +1,171 @@
+\hypertarget{class_windows_forms_app1_1_1_search_query}{}\doxysection{Шаблон класса Windows\+Forms\+App1.\+Search\+Query$<$ T $>$}
+\label{class_windows_forms_app1_1_1_search_query}\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+
+
+Поисковый запрос, предостаавляющий возможности сравнения проверяемого элемента с искомым, который считает количество проверок.  
+
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a06ed0ca82be46f4acd64fab64d0a057e}{Search\+Query}} (T request)
+\begin{DoxyCompactList}\small\item\em Конструктор, позволяющий создать поисковый запрос. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a0825c5d7798cb583fdb6621dbf5818f2}{Check}} (T check)
+\begin{DoxyCompactList}\small\item\em Проверка элемента на соответствие искомому. При совпадении сохраняет проверяемое данной в качестве результирующего. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a78a82ea1257ecad1b6af48cf3bf787f0}{Count}} ()
+\begin{DoxyCompactList}\small\item\em Позволяет увелиить значение счетчика без проведения сравнений. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_abfb89356449ca1d3a2d9b984a05bdad6}{Found}} ()
+\begin{DoxyCompactList}\small\item\em Сообщает найден ли элемент, соответствующий искомому. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a0f4f392303bc7b3b0a3e99673578107b}{Counter}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a1a973d0e9bdcc27be388c89e73baab33}{\+\_\+counter}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для количества проверок. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a5b8f1809660b184007fd565ca2f3f042}{Result}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a527674c85c1bee11ec73358e8b757579}{\+\_\+result}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для результирующего данного. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a73399b645227c7748e9508fdc8090055}{\+\_\+request}}
+\begin{DoxyCompactList}\small\item\em Искомое данное. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a1a973d0e9bdcc27be388c89e73baab33}{\+\_\+counter}} = 0
+\begin{DoxyCompactList}\small\item\em Счетчик количества проверок. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a527674c85c1bee11ec73358e8b757579}{\+\_\+result}}
+\begin{DoxyCompactList}\small\item\em Результирующее данное, соответсвующее искомому. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Поисковый запрос, предостаавляющий возможности сравнения проверяемого элемента с искомым, который считает количество проверок. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em T} & Тип данных для поиска. \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Согласование типов]\begin{description}
+\item[{\em T} : {\em I\+Element}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a06ed0ca82be46f4acd64fab64d0a057e}\label{class_windows_forms_app1_1_1_search_query_a06ed0ca82be46f4acd64fab64d0a057e}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!SearchQuery@{SearchQuery}}
+\index{SearchQuery@{SearchQuery}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SearchQuery()}{SearchQuery()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}} (\begin{DoxyParamCaption}\item[{T}]{request }\end{DoxyParamCaption})}
+
+
+
+Конструктор, позволяющий создать поисковый запрос. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em request} & Искомое данное. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a0825c5d7798cb583fdb6621dbf5818f2}\label{class_windows_forms_app1_1_1_search_query_a0825c5d7798cb583fdb6621dbf5818f2}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!Check@{Check}}
+\index{Check@{Check}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Check()}{Check()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.Check (\begin{DoxyParamCaption}\item[{T}]{check }\end{DoxyParamCaption})}
+
+
+
+Проверка элемента на соответствие искомому. При совпадении сохраняет проверяемое данной в качестве результирующего. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em check} & Проверяемое данное. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отрицательное число, если этот элемент меньше, чем поступающий на вход. Ноль, если элементы равны. Положительное число, если этот элемент больше, чем поступающий на вход. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a78a82ea1257ecad1b6af48cf3bf787f0}\label{class_windows_forms_app1_1_1_search_query_a78a82ea1257ecad1b6af48cf3bf787f0}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!Count@{Count}}
+\index{Count@{Count}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Count()}{Count()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Позволяет увелиить значение счетчика без проведения сравнений. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_abfb89356449ca1d3a2d9b984a05bdad6}\label{class_windows_forms_app1_1_1_search_query_abfb89356449ca1d3a2d9b984a05bdad6}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!Found@{Found}}
+\index{Found@{Found}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Found()}{Found()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.Found (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Сообщает найден ли элемент, соответствующий искомому. 
+
+\begin{DoxyReturn}{Возвращает}
+True, если элемент найден, false в ином случае. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a1a973d0e9bdcc27be388c89e73baab33}\label{class_windows_forms_app1_1_1_search_query_a1a973d0e9bdcc27be388c89e73baab33}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!\_counter@{\_counter}}
+\index{\_counter@{\_counter}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\_counter}{\_counter}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.\+\_\+counter = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Счетчик количества проверок. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a73399b645227c7748e9508fdc8090055}\label{class_windows_forms_app1_1_1_search_query_a73399b645227c7748e9508fdc8090055}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!\_request@{\_request}}
+\index{\_request@{\_request}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\_request}{\_request}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.\+\_\+request\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Искомое данное. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a527674c85c1bee11ec73358e8b757579}\label{class_windows_forms_app1_1_1_search_query_a527674c85c1bee11ec73358e8b757579}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!\_result@{\_result}}
+\index{\_result@{\_result}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\_result}{\_result}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.\+\_\+result\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Результирующее данное, соответсвующее искомому. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a0f4f392303bc7b3b0a3e99673578107b}\label{class_windows_forms_app1_1_1_search_query_a0f4f392303bc7b3b0a3e99673578107b}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!Counter@{Counter}}
+\index{Counter@{Counter}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Counter}{Counter}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.Counter =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a1a973d0e9bdcc27be388c89e73baab33}{\+\_\+counter}}}
+
+
+
+Публичный геттер для количества проверок. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_search_query_a5b8f1809660b184007fd565ca2f3f042}\label{class_windows_forms_app1_1_1_search_query_a5b8f1809660b184007fd565ca2f3f042}} 
+\index{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}!Result@{Result}}
+\index{Result@{Result}!WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Result}{Result}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Windows\+Forms\+App1.\+Search\+Query}}$<$ T $>$.Result =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_search_query_a527674c85c1bee11ec73358e8b757579}{\+\_\+result}}}
+
+
+
+Публичный геттер для результирующего данного. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Search\+Query.\+cs\end{DoxyCompactItemize}

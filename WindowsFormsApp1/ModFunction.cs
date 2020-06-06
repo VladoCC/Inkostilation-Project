@@ -3,6 +3,9 @@ using WinFormsApp1;
 
 namespace WindowsFormsApp1
 {
+    /// <summary>
+    /// Функция, определяющая хэш делением.
+    /// </summary>
     [Serializable]
     public class ModFunction: HashFunction<int>
     {

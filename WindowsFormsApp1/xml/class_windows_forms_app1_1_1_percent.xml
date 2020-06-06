@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_percent" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::Percent</compoundname>
+    <basecompoundref refid="interface_win_forms_app1_1_1_i_element" prot="public" virt="non-virtual">WinFormsApp1.IElement</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a79015c5fdbfc35a1dc94480a5e1dd3d7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Percent._operationType</definition>
+        <argsstring></argsstring>
+        <name>_operationType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="9" column="24" bodyfile="Percent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Percent._senderBank</definition>
+        <argsstring></argsstring>
+        <name>_senderBank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="10" column="24" bodyfile="Percent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Percent._receiverBank</definition>
+        <argsstring></argsstring>
+        <name>_receiverBank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="11" column="24" bodyfile="Percent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Percent._percent</definition>
+        <argsstring></argsstring>
+        <name>_percent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="12" column="21" bodyfile="Percent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a22c45e83a4dc710a8858661c2c06913b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Percent.OperationType</definition>
+        <argsstring></argsstring>
+        <name>OperationType</name>
+        <initializer>=&gt; _operationType</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="37" column="23" bodyfile="Percent.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Percent.SenderBank</definition>
+        <argsstring></argsstring>
+        <name>SenderBank</name>
+        <initializer>=&gt; _senderBank</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="39" column="23" bodyfile="Percent.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Percent.ReceiverBank</definition>
+        <argsstring></argsstring>
+        <name>ReceiverBank</name>
+        <initializer>=&gt; _receiverBank</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="41" column="23" bodyfile="Percent.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Percent.Percent1</definition>
+        <argsstring></argsstring>
+        <name>Percent1</name>
+        <initializer>=&gt; _percent</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="43" column="20" bodyfile="Percent.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1a708446baeef537c0b3995328ff8f04fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Percent.Percent</definition>
+        <argsstring>(string operationType, string senderBank, string receiverBank, int percent)</argsstring>
+        <name>Percent</name>
+        <param>
+          <type>string</type>
+          <declname>operationType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>senderBank</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>receiverBank</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="14" column="16" bodyfile="Percent.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Percent.Compare</definition>
+        <argsstring>(IElement elem)</argsstring>
+        <name>Compare</name>
+        <reimplements refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646">Compare</reimplements>
+        <param>
+          <type><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+<para>Метод, производящий сравнение двух элементов, наследуемых от IElement. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Элемент, с которым производится сравнение. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отрицательное число, если этот элемент меньше, чем поступающий на вход. Ноль, если элементы равны. Положительное число, если этот элемент больше, чем поступающий на вход. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="22" column="20" bodyfile="Percent.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string WindowsFormsApp1.Percent.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Percent.cs" line="30" column="32" bodyfile="Percent.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Percent</label>
+        <link refid="class_windows_forms_app1_1_1_percent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Percent</label>
+        <link refid="class_windows_forms_app1_1_1_percent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
+    </collaborationgraph>
+    <location file="Percent.cs" line="7" column="11" bodyfile="Percent.cs" bodystart="8" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_percent_1a79015c5fdbfc35a1dc94480a5e1dd3d7" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_operationType</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_percent</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_receiverBank</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_senderBank</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Compare</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a22c45e83a4dc710a8858661c2c06913b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>OperationType</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a708446baeef537c0b3995328ff8f04fe" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Percent</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Percent1</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>ReceiverBank</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>SenderBank</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

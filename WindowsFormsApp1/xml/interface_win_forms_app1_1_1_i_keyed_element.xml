@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="interface_win_forms_app1_1_1_i_keyed_element" kind="interface" language="C#" prot="public">
+    <compoundname>WinFormsApp1::IKeyedElement</compoundname>
+    <basecompoundref refid="interface_win_forms_app1_1_1_i_element" prot="public" virt="non-virtual">WinFormsApp1.IElement</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_win_forms_app1_1_1_i_keyed_element_1af9c5523614856af4184fa3f48d40b942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>K</type>
+        <definition>K WinFormsApp1.IKeyedElement&lt; K &gt;.GetKey</definition>
+        <argsstring>()</argsstring>
+        <name>GetKey</name>
+        <briefdescription>
+<para>Метод, возвращающий ключ данного элемента. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Ключ типа К. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IKeyedElement.cs" line="19" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int WinFormsApp1.IElement.Compare</definition>
+        <argsstring>(IElement elem)</argsstring>
+        <name>Compare</name>
+        <reimplementedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05">Compare</reimplementedby>
+        <reimplementedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07">Compare</reimplementedby>
+        <param>
+          <type><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+<para>Метод, производящий сравнение двух элементов, наследуемых от <ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Элемент, с которым производится сравнение. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отрицательное число, если этот элемент меньше, чем поступающий на вход. Ноль, если элементы равны. Положительное число, если этот элемент больше, чем поступающий на вход. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IElement.cs" line="21" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Интерфейс, описывающий элемент, обладающий ключом, используемым для генерации хэш-функции. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>K</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип ключа.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
+      <node id="1">
+        <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
+      <node id="1">
+        <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IKeyedElement.cs" line="13" column="22" bodyfile="IKeyedElement.cs" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" prot="public" virt="non-virtual"><scope>WinFormsApp1::IKeyedElement</scope><name>Compare</name></member>
+      <member refid="interface_win_forms_app1_1_1_i_keyed_element_1af9c5523614856af4184fa3f48d40b942" prot="public" virt="non-virtual"><scope>WinFormsApp1::IKeyedElement</scope><name>GetKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

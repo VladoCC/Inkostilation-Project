@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
                 {
                     OperationsData.Rows.Add();
                     NumRows += 1;
-                    OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
                     OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
                     OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
                     OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;

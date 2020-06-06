@@ -1,0 +1,83 @@
+\hypertarget{class_windows_forms_app1_1_1_quick_last_sorter}{}\doxysection{Шаблон класса Windows\+Forms\+App1.\+Quick\+Last\+Sorter$<$ T $>$}
+\label{class_windows_forms_app1_1_1_quick_last_sorter}\index{WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}}
+
+
+Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком. Наследуется от \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}.  
+
+
+Граф наследования\+:Windows\+Forms\+App1.\+Quick\+Last\+Sorter$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_windows_forms_app1_1_1_quick_last_sorter}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_windows_forms_app1_1_1_quick_last_sorter_a972ab7ec8dfac60561b317b8b7ae5222}{Sort}} (T\mbox{[}$\,$\mbox{]} array)
+\begin{DoxyCompactList}\small\item\em Метод, совершающий сортировку. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_windows_forms_app1_1_1_quick_last_sorter_af50013429eeb2239f02635fa77be2301}{Inner}} (T\mbox{[}$\,$\mbox{]} mas, int first, int last)
+\begin{DoxyCompactList}\small\item\em Внутренняя рекурсивная функция, меняющая два элемента местам, располагая их в порядке возрастания, а затем вызывает саму себя, для двух подмассивов. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком. Наследуется от \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em T} & Тип сортируемых данных, наследуемый от I\+Element. \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Согласование типов]\begin{description}
+\item[{\em T} : {\em I\+Element}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_quick_last_sorter_af50013429eeb2239f02635fa77be2301}\label{class_windows_forms_app1_1_1_quick_last_sorter_af50013429eeb2239f02635fa77be2301}} 
+\index{WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}!Inner@{Inner}}
+\index{Inner@{Inner}!WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Inner()}{Inner()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_windows_forms_app1_1_1_quick_last_sorter}{Windows\+Forms\+App1.\+Quick\+Last\+Sorter}}$<$ T $>$.Inner (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{mas,  }\item[{int}]{first,  }\item[{int}]{last }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Внутренняя рекурсивная функция, меняющая два элемента местам, располагая их в порядке возрастания, а затем вызывает саму себя, для двух подмассивов. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em mas} & Сортируемый массив. \\
+\hline
+{\em first} & Левая граница сортируемой части. \\
+\hline
+{\em last} & Правая граница сортируемой части. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_quick_last_sorter_a972ab7ec8dfac60561b317b8b7ae5222}\label{class_windows_forms_app1_1_1_quick_last_sorter_a972ab7ec8dfac60561b317b8b7ae5222}} 
+\index{WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}!Sort@{Sort}}
+\index{Sort@{Sort}!WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Sort()}{Sort()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_windows_forms_app1_1_1_quick_last_sorter}{Windows\+Forms\+App1.\+Quick\+Last\+Sorter}}$<$ T $>$.Sort (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{array }\end{DoxyParamCaption})}
+
+
+
+Метод, совершающий сортировку. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em array} & Сортируемый массив. \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter_a4f91437b489659b252ef608cb2451b39}{Windows\+Forms\+App1.\+I\+Sorter$<$ T $>$}}.
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Quick\+Last\+Sorter.\+cs\end{DoxyCompactItemize}

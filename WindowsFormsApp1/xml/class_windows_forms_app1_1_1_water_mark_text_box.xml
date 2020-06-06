@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_water_mark_text_box" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::WaterMarkTextBox</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TextBox</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_water_mark_text_box_1a91e794862fe7ea088d93548da3ae6953" prot="private" static="no" mutable="no">
+        <type>Font</type>
+        <definition>Font WindowsFormsApp1.WaterMarkTextBox.oldFont</definition>
+        <argsstring></argsstring>
+        <name>oldFont</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="12" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_water_mark_text_box_1a5e9f54fe4dd6a020c1af005acd7b994c" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean WindowsFormsApp1.WaterMarkTextBox.waterMarkTextEnabled</definition>
+        <argsstring></argsstring>
+        <name>waterMarkTextEnabled</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="13" column="25" bodyfile="WaterMarkTextBox.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_water_mark_text_box_1a337b59e197b2fc892338b37af76f8660" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color WindowsFormsApp1.WaterMarkTextBox._waterMarkColor</definition>
+        <argsstring></argsstring>
+        <name>_waterMarkColor</name>
+        <initializer>= Color.Gray</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="16" column="23" bodyfile="WaterMarkTextBox.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_water_mark_text_box_1a51aac970c17380206303227608fe051e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.WaterMarkTextBox._waterMarkText</definition>
+        <argsstring></argsstring>
+        <name>_waterMarkText</name>
+        <initializer>= &quot;Water Mark&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="26" column="24" bodyfile="WaterMarkTextBox.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_windows_forms_app1_1_1_water_mark_text_box_1ab5ed7ecd57a807d59e03ea3695728749" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color WindowsFormsApp1.WaterMarkTextBox.WaterMarkColor</definition>
+        <argsstring></argsstring>
+        <name>WaterMarkColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="17" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.WaterMarkTextBox.WaterMarkText</definition>
+        <argsstring></argsstring>
+        <name>WaterMarkText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="27" column="23" bodyfile="WaterMarkTextBox.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a2db24a625bce0599e266992d5a208ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.WaterMarkTextBox.WaterMarkTextBox</definition>
+        <argsstring>()</argsstring>
+        <name>WaterMarkTextBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="35" column="16" bodyfile="WaterMarkTextBox.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a6304cad050befdcc13e801336265e6b3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.WaterMarkTextBox.OnCreateControl</definition>
+        <argsstring>()</argsstring>
+        <name>OnCreateControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="40" column="33" bodyfile="WaterMarkTextBox.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.WaterMarkTextBox.OnPaint</definition>
+        <argsstring>(PaintEventArgs args)</argsstring>
+        <name>OnPaint</name>
+        <param>
+          <type>PaintEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="47" column="33" bodyfile="WaterMarkTextBox.cs" bodystart="47" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a9787cbb5991a13f053dafecbb4fe4235" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.WaterMarkTextBox.JoinEvents</definition>
+        <argsstring>(Boolean join)</argsstring>
+        <name>JoinEvents</name>
+        <param>
+          <type>Boolean</type>
+          <declname>join</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="60" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.WaterMarkTextBox.WaterMark_Toggel</definition>
+        <argsstring>(object sender, EventArgs args)</argsstring>
+        <name>WaterMark_Toggel</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="70" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a3bb75496436cb053ebf2b654510f1d2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.WaterMarkTextBox.EnableWaterMark</definition>
+        <argsstring>()</argsstring>
+        <name>EnableWaterMark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="78" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="78" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a4f047d7338e93a361fb5b33f1359fde5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.WaterMarkTextBox.DisbaleWaterMark</definition>
+        <argsstring>()</argsstring>
+        <name>DisbaleWaterMark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="91" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="91" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.WaterMarkTextBox.WaterMark_FontChanged</definition>
+        <argsstring>(object sender, EventArgs args)</argsstring>
+        <name>WaterMark_FontChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WaterMarkTextBox.cs" line="102" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="102" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TextBox</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.WaterMarkTextBox</label>
+        <link refid="class_windows_forms_app1_1_1_water_mark_text_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TextBox</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.WaterMarkTextBox</label>
+        <link refid="class_windows_forms_app1_1_1_water_mark_text_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="WaterMarkTextBox.cs" line="10" column="11" bodyfile="WaterMarkTextBox.cs" bodystart="11" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a337b59e197b2fc892338b37af76f8660" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>_waterMarkColor</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a51aac970c17380206303227608fe051e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>_waterMarkText</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a4f047d7338e93a361fb5b33f1359fde5" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>DisbaleWaterMark</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a3bb75496436cb053ebf2b654510f1d2f" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>EnableWaterMark</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a9787cbb5991a13f053dafecbb4fe4235" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>JoinEvents</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a91e794862fe7ea088d93548da3ae6953" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>oldFont</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a6304cad050befdcc13e801336265e6b3" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>OnCreateControl</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>OnPaint</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>WaterMark_FontChanged</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>WaterMark_Toggel</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1ab5ed7ecd57a807d59e03ea3695728749" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>WaterMarkColor</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>WaterMarkText</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a2db24a625bce0599e266992d5a208ee3" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>WaterMarkTextBox</name></member>
+      <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a5e9f54fe4dd6a020c1af005acd7b994c" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::WaterMarkTextBox</scope><name>waterMarkTextEnabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

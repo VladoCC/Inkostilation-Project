@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_operations_of_client" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::OperationsOfClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a97c70733776b9796086508fe15e573a8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.OperationsOfClient.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.cs" line="15" column="13" bodyfile="OperationsOfClient.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a526cfd89edea0eee4db2e69934d3d392" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.OperationsOfClient.NumRows</definition>
+        <argsstring></argsstring>
+        <name>NumRows</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.cs" line="16" column="13" bodyfile="OperationsOfClient.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a820003b98ef212b9b91f80718d46e820" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.OperationsOfClient.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="8" column="48" bodyfile="OperationsOfClient.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a40666e77c56e6242508c018982d8aab3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.OperationsOfClient.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="216" column="41" bodyfile="OperationsOfClient.Designer.cs" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a0ba206a52d1df5e8312e4d099e6b2d5e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.OperationsOfClient.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="217" column="41" bodyfile="OperationsOfClient.Designer.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a3bc193d8b0d01e922ce5fabc71b21526" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.Hash1</definition>
+        <argsstring></argsstring>
+        <name>Hash1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="218" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a36beb6b74b8cd6927b308f4b69156923" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.НомерКарточки</definition>
+        <argsstring></argsstring>
+        <name>НомерКарточки</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="219" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1ae45da01e66f480fe1b280d16d6e0cb7d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.Банк</definition>
+        <argsstring></argsstring>
+        <name>Банк</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="220" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a610680d5efe3f1a50bfef589c32bb738" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.ФИО</definition>
+        <argsstring></argsstring>
+        <name>ФИО</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="221" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a60032fb2fd6b4721f6d8b4bc12f04d44" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.ТипОперации1</definition>
+        <argsstring></argsstring>
+        <name>ТипОперации1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="222" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a5871ef7408bf745241f98d78367a9472" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.НомерКарточки1</definition>
+        <argsstring></argsstring>
+        <name>НомерКарточки1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="223" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a90b576a9d3d8d4a94b4fe4ebe0b477ee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.НомерБанкомата</definition>
+        <argsstring></argsstring>
+        <name>НомерБанкомата</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="224" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a00a3fcf0edac4b11a1cad055d1fd3db4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.OperationsOfClient.СуммаОперации</definition>
+        <argsstring></argsstring>
+        <name>СуммаОперации</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="225" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView WindowsFormsApp1.OperationsOfClient.ClientsKey</definition>
+        <argsstring></argsstring>
+        <name>ClientsKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="214" column="47" bodyfile="OperationsOfClient.Designer.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView WindowsFormsApp1.OperationsOfClient.OperationsData</definition>
+        <argsstring></argsstring>
+        <name>OperationsData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="215" column="47" bodyfile="OperationsOfClient.Designer.cs" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_operations_of_client_1a0d75f5253948372c670b75429aaccb37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.OperationsOfClient.OperationsOfClient</definition>
+        <argsstring>()</argsstring>
+        <name>OperationsOfClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.cs" line="17" column="16" bodyfile="OperationsOfClient.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</definition>
+        <argsstring>(object sender, DataGridViewCellEventArgs e)</argsstring>
+        <name>ClientsKey_CellClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataGridViewCellEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.cs" line="22" column="22" bodyfile="OperationsOfClient.cs" bodystart="22" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.OperationsOfClient.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="29" column="22" bodyfile="OperationsOfClient.Designer.cs" bodystart="29" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_operations_of_client_1a630326be8750f42272ccb8c89c4cca54" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.OperationsOfClient.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OperationsOfClient.Designer.cs" line="14" column="33" bodyfile="OperationsOfClient.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WindowsFormsApp1.OperationsOfClient</label>
+        <link refid="class_windows_forms_app1_1_1_operations_of_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.OperationsOfClient</label>
+        <link refid="class_windows_forms_app1_1_1_operations_of_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ClientsKey</edgelabel>
+          <edgelabel>OperationsData</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="OperationsOfClient.cs" line="13" column="19" bodyfile="OperationsOfClient.cs" bodystart="14" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>ClientsKey</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>ClientsKey_CellClick</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a820003b98ef212b9b91f80718d46e820" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a630326be8750f42272ccb8c89c4cca54" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a3bc193d8b0d01e922ce5fabc71b21526" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>Hash1</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a97c70733776b9796086508fe15e573a8" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>index</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a40666e77c56e6242508c018982d8aab3" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>label3</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a0ba206a52d1df5e8312e4d099e6b2d5e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>label4</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a526cfd89edea0eee4db2e69934d3d392" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>NumRows</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>OperationsData</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a0d75f5253948372c670b75429aaccb37" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>OperationsOfClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1ae45da01e66f480fe1b280d16d6e0cb7d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>Банк</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a90b576a9d3d8d4a94b4fe4ebe0b477ee" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>НомерБанкомата</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a36beb6b74b8cd6927b308f4b69156923" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>НомерКарточки</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a5871ef7408bf745241f98d78367a9472" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>НомерКарточки1</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a00a3fcf0edac4b11a1cad055d1fd3db4" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>СуммаОперации</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a60032fb2fd6b4721f6d8b4bc12f04d44" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>ТипОперации1</name></member>
+      <member refid="class_windows_forms_app1_1_1_operations_of_client_1a610680d5efe3f1a50bfef589c32bb738" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::OperationsOfClient</scope><name>ФИО</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

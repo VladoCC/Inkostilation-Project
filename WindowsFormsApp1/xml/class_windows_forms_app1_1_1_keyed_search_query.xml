@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_keyed_search_query" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::KeyedSearchQuery</compoundname>
+    <basecompoundref refid="class_windows_forms_app1_1_1_search_query" prot="public" virt="non-virtual">WindowsFormsApp1.SearchQuery&lt; V &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>V</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_keyed_search_query_1a14354a8e4a5e66d5af9a91437b711edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.KeyedSearchQuery&lt; K, V &gt;.KeyedSearchQuery</definition>
+        <argsstring>(V request)</argsstring>
+        <name>KeyedSearchQuery</name>
+        <param>
+          <type>V</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KeyedSearchQuery.cs" line="7" column="16" bodyfile="KeyedSearchQuery.cs" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_keyed_search_query_1ab01bc2d2accdd0ac5018745ba00e2f01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>K</type>
+        <definition>K WindowsFormsApp1.KeyedSearchQuery&lt; K, V &gt;.SearchKey</definition>
+        <argsstring>()</argsstring>
+        <name>SearchKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KeyedSearchQuery.cs" line="11" column="18" bodyfile="KeyedSearchQuery.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_search_query_1a0825c5d7798cb583fdb6621dbf5818f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.SearchQuery&lt; T &gt;.Check</definition>
+        <argsstring>(T check)</argsstring>
+        <name>Check</name>
+        <param>
+          <type>T</type>
+          <declname>check</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SearchQuery.cs" line="16" column="20" bodyfile="SearchQuery.cs" bodystart="16" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_search_query_1a78a82ea1257ecad1b6af48cf3bf787f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.SearchQuery&lt; T &gt;.Count</definition>
+        <argsstring>()</argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SearchQuery.cs" line="31" column="21" bodyfile="SearchQuery.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_search_query_1abfb89356449ca1d3a2d9b984a05bdad6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WindowsFormsApp1.SearchQuery&lt; T &gt;.Found</definition>
+        <argsstring>()</argsstring>
+        <name>Found</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SearchQuery.cs" line="40" column="21" bodyfile="SearchQuery.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_search_query_1a73399b645227c7748e9508fdc8090055" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T WindowsFormsApp1.SearchQuery&lt; T &gt;._request</definition>
+        <argsstring></argsstring>
+        <name>_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SearchQuery.cs" line="7" column="21" bodyfile="SearchQuery.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_search_query_1a0f4f392303bc7b3b0a3e99673578107b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.SearchQuery&lt; T &gt;.Counter</definition>
+        <argsstring></argsstring>
+        <name>Counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SearchQuery.cs" line="36" column="20" bodyfile="SearchQuery.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_search_query_1a5b8f1809660b184007fd565ca2f3f042" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T WindowsFormsApp1.SearchQuery&lt; T &gt;.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SearchQuery.cs" line="38" column="18" bodyfile="SearchQuery.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>SearchQuery&lt; V &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_search_query"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.KeyedSearchQuery&lt; K, V &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_keyed_search_query"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>SearchQuery&lt; V &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_search_query"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.KeyedSearchQuery&lt; K, V &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_keyed_search_query"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="KeyedSearchQuery.cs" line="5" column="11" bodyfile="KeyedSearchQuery.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_search_query_1a73399b645227c7748e9508fdc8090055" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>_request</name></member>
+      <member refid="class_windows_forms_app1_1_1_search_query_1a0825c5d7798cb583fdb6621dbf5818f2" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>Check</name></member>
+      <member refid="class_windows_forms_app1_1_1_search_query_1a78a82ea1257ecad1b6af48cf3bf787f0" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>Count</name></member>
+      <member refid="class_windows_forms_app1_1_1_search_query_1a0f4f392303bc7b3b0a3e99673578107b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>Counter</name></member>
+      <member refid="class_windows_forms_app1_1_1_search_query_1abfb89356449ca1d3a2d9b984a05bdad6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>Found</name></member>
+      <member refid="class_windows_forms_app1_1_1_keyed_search_query_1a14354a8e4a5e66d5af9a91437b711edc" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>KeyedSearchQuery</name></member>
+      <member refid="class_windows_forms_app1_1_1_search_query_1a5b8f1809660b184007fd565ca2f3f042" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>Result</name></member>
+      <member refid="class_windows_forms_app1_1_1_keyed_search_query_1ab01bc2d2accdd0ac5018745ba00e2f01" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>SearchKey</name></member>
+      <member refid="class_windows_forms_app1_1_1_search_query_1a06ed0ca82be46f4acd64fab64d0a057e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::KeyedSearchQuery</scope><name>SearchQuery</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

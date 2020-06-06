@@ -1,0 +1,166 @@
+.TH "WinFormsApp1.ListStorage< K, V >.Position< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.ListStorage< K, V >.Position< T > \- Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в \fBListStorage\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBPosition\fP (T element)"
+.br
+.RI "Публичный конструктор, позволяющий создать новую позицию\&. "
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.RI "Возвращает длину списка, начинающегося с этой позиции\&. Работает рекурсивно\&. "
+.ti -1c
+.RI "void \fBAdd\fP (T element)"
+.br
+.RI "Добавляет элемент в список\&. "
+.ti -1c
+.RI "bool \fBRemove\fP (T element)"
+.br
+.RI "Удаляет элемент из списка\&. "
+.ti -1c
+.RI "int \fBFillArray\fP (T[] \fBarray\fP, int pos)"
+.br
+.RI "Заполняет массив, начиная с указанной позиции, элементами данного списка\&. "
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "T \fBElement\fP => \fB_element\fP"
+.br
+.RI "Публичный геттер для элемента, находящегося в позиции\&. "
+.ti -1c
+.RI "\fBPosition\fP< T > \fBNext\fP => \fB_next\fP"
+.br
+.RI "Публичный геттер для следующей позиции\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBPosition\fP< T > \fB_next\fP"
+.br
+.RI "Следующий элемент списка\&. "
+.ti -1c
+.RI "T \fB_element\fP"
+.br
+.RI "Данное, содержащееся в этой позиции\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в \fBListStorage\fP\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип данных, хранимых в списке\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIT\fP : \fI\fBIElement\fP\fP
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.\fBPosition\fP (T element)"
+
+.PP
+Публичный конструктор, позволяющий создать новую позицию\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Элемент, содержащийся в этой позиции\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "void \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.Add (T element)"
+
+.PP
+Добавляет элемент в список\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.SS "int \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.FillArray (T[] array, int pos)"
+
+.PP
+Заполняет массив, начиная с указанной позиции, элементами данного списка\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIarray\fP Массив для заполнения\&. 
+.br
+\fIpos\fP Позиция для начала заполнения\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Позицию, на которой было завершено заполнение\&. 
+.RE
+.PP
+
+.SS "bool \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.Remove (T element)"
+
+.PP
+Удаляет элемент из списка\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true, если элемент найден и удален, иначе false\&. 
+.RE
+.PP
+
+.SS "int \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.Size ()"
+
+.PP
+Возвращает длину списка, начинающегося с этой позиции\&. Работает рекурсивно\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Длина списка, начинающегося с этой позиции\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "T \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&._element\fC [private]\fP"
+
+.PP
+Данное, содержащееся в этой позиции\&. 
+.SS "\fBPosition\fP<T> \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&._next\fC [private]\fP"
+
+.PP
+Следующий элемент списка\&. 
+.SS "T \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.Element => \fB_element\fP"
+
+.PP
+Публичный геттер для элемента, находящегося в позиции\&. 
+.SS "\fBPosition\fP<T> \fBWinFormsApp1\&.ListStorage\fP< K, V >\&.\fBPosition\fP< T >\&.Next => \fB_next\fP"
+
+.PP
+Публичный геттер для следующей позиции\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

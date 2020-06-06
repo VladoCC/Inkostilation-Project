@@ -3,6 +3,9 @@ using WinFormsApp1;
 
 namespace WindowsFormsApp1
 {
+    /// <summary>
+    /// Функция, генерируяшая нечетные хэши, в пределах размера хранилища.
+    /// </summary>
     [Serializable]
     public class OddFunction: HashFunction<int>
     {

@@ -1,0 +1,187 @@
+\hypertarget{class_windows_forms_app1_1_1_operation}{}\doxysection{Класс Windows\+Forms\+App1.\+Operation}
+\label{class_windows_forms_app1_1_1_operation}\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+
+
+Класс, описывающий банковскую операцию.  
+
+
+Граф наследования\+:Windows\+Forms\+App1.\+Operation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_windows_forms_app1_1_1_operation}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a9622e097525d4fbbf966b3c435704d75}{Operation}} (string operation\+Name, int card\+Number, int machine\+Number, int sum)
+\begin{DoxyCompactList}\small\item\em Основной конструктор для создания банковской операции. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_aa078cb58ef50f5209bf89e149336ef07}{Compare}} (\mbox{\hyperlink{interface_win_forms_app1_1_1_i_element}{I\+Element}} elem)
+\begin{DoxyCompactList}\small\item\em Метод, производящий сравнение двух элементов, наследуемых от I\+Element. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a69ee1f530ea5b63e5d144a13f999dacd}\label{class_windows_forms_app1_1_1_operation_a69ee1f530ea5b63e5d144a13f999dacd}} 
+override string {\bfseries To\+String} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a2dc68fdc88cff6a812d61c7c8775378a}{Operation\+Name}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_ace84ac87e8b52111589df0fee5701048}{\+\_\+operation\+Name}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для названия операции. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a9802bbf5633a41a018817d9fe5cee5f2}{Card\+Number}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_aece9ac5f6dac04aa58ed4b85bdf6b4dd}{\+\_\+card\+Number}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для номера карты. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a062ca9774498607bde95dead4d089df2}{Machine\+Number}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a5ffd8d3ea77b721a566ebd06b3d0bf0e}{\+\_\+machine\+Number}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для номера банкомата. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a300c7a42d897ea5b55dc6dde1ff4ea01}{Sum}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a82b816146128d56ae58663b384e910d1}{\+\_\+sum}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для суммы операции. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_ace84ac87e8b52111589df0fee5701048}{\+\_\+operation\+Name}}
+\begin{DoxyCompactList}\small\item\em Название операции. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_aece9ac5f6dac04aa58ed4b85bdf6b4dd}{\+\_\+card\+Number}}
+\begin{DoxyCompactList}\small\item\em Номер карты клиента. Целое число от 1 до 99999999 включительно. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a5ffd8d3ea77b721a566ebd06b3d0bf0e}{\+\_\+machine\+Number}}
+\begin{DoxyCompactList}\small\item\em Номер банкомата. Целое число от 1 до 500 включительно. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a82b816146128d56ae58663b384e910d1}{\+\_\+sum}}
+\begin{DoxyCompactList}\small\item\em Сумма операции. Целое число от 0 до 10000000 включительно. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс, описывающий банковскую операцию. 
+
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a9622e097525d4fbbf966b3c435704d75}\label{class_windows_forms_app1_1_1_operation_a9622e097525d4fbbf966b3c435704d75}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!Operation@{Operation}}
+\index{Operation@{Operation}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{Operation()}{Operation()}}
+{\footnotesize\ttfamily Windows\+Forms\+App1.\+Operation.\+Operation (\begin{DoxyParamCaption}\item[{string}]{operation\+Name,  }\item[{int}]{card\+Number,  }\item[{int}]{machine\+Number,  }\item[{int}]{sum }\end{DoxyParamCaption})}
+
+
+
+Основной конструктор для создания банковской операции. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation\+Name} & \\
+\hline
+{\em card\+Number} & \\
+\hline
+{\em machine\+Number} & \\
+\hline
+{\em sum} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_aa078cb58ef50f5209bf89e149336ef07}\label{class_windows_forms_app1_1_1_operation_aa078cb58ef50f5209bf89e149336ef07}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!Compare@{Compare}}
+\index{Compare@{Compare}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{Compare()}{Compare()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+Compare (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_win_forms_app1_1_1_i_element}{I\+Element}}}]{elem }\end{DoxyParamCaption})}
+
+
+
+Метод, производящий сравнение двух элементов, наследуемых от I\+Element. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em elem} & Элемент, с которым производится сравнение. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отрицательное число, если этот элемент меньше, чем поступающий на вход. Ноль, если элементы равны. Положительное число, если этот элемент больше, чем поступающий на вход. 
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{interface_win_forms_app1_1_1_i_element_a2b9820357d065c06d16b3a9c84def646}{Win\+Forms\+App1.\+I\+Element}}.
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_aece9ac5f6dac04aa58ed4b85bdf6b4dd}\label{class_windows_forms_app1_1_1_operation_aece9ac5f6dac04aa58ed4b85bdf6b4dd}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!\_cardNumber@{\_cardNumber}}
+\index{\_cardNumber@{\_cardNumber}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{\_cardNumber}{\_cardNumber}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+\_\+card\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Номер карты клиента. Целое число от 1 до 99999999 включительно. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a5ffd8d3ea77b721a566ebd06b3d0bf0e}\label{class_windows_forms_app1_1_1_operation_a5ffd8d3ea77b721a566ebd06b3d0bf0e}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!\_machineNumber@{\_machineNumber}}
+\index{\_machineNumber@{\_machineNumber}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{\_machineNumber}{\_machineNumber}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+\_\+machine\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Номер банкомата. Целое число от 1 до 500 включительно. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_ace84ac87e8b52111589df0fee5701048}\label{class_windows_forms_app1_1_1_operation_ace84ac87e8b52111589df0fee5701048}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!\_operationName@{\_operationName}}
+\index{\_operationName@{\_operationName}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{\_operationName}{\_operationName}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Operation.\+\_\+operation\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Название операции. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные). 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a82b816146128d56ae58663b384e910d1}\label{class_windows_forms_app1_1_1_operation_a82b816146128d56ae58663b384e910d1}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!\_sum@{\_sum}}
+\index{\_sum@{\_sum}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{\_sum}{\_sum}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+\_\+sum\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Сумма операции. Целое число от 0 до 10000000 включительно. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a9802bbf5633a41a018817d9fe5cee5f2}\label{class_windows_forms_app1_1_1_operation_a9802bbf5633a41a018817d9fe5cee5f2}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!CardNumber@{CardNumber}}
+\index{CardNumber@{CardNumber}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{CardNumber}{CardNumber}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+Card\+Number =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_aece9ac5f6dac04aa58ed4b85bdf6b4dd}{\+\_\+card\+Number}}}
+
+
+
+Публичный геттер для номера карты. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a062ca9774498607bde95dead4d089df2}\label{class_windows_forms_app1_1_1_operation_a062ca9774498607bde95dead4d089df2}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!MachineNumber@{MachineNumber}}
+\index{MachineNumber@{MachineNumber}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{MachineNumber}{MachineNumber}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+Machine\+Number =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a5ffd8d3ea77b721a566ebd06b3d0bf0e}{\+\_\+machine\+Number}}}
+
+
+
+Публичный геттер для номера банкомата. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a2dc68fdc88cff6a812d61c7c8775378a}\label{class_windows_forms_app1_1_1_operation_a2dc68fdc88cff6a812d61c7c8775378a}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!OperationName@{OperationName}}
+\index{OperationName@{OperationName}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{OperationName}{OperationName}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Operation.\+Operation\+Name =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_ace84ac87e8b52111589df0fee5701048}{\+\_\+operation\+Name}}}
+
+
+
+Публичный геттер для названия операции. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_operation_a300c7a42d897ea5b55dc6dde1ff4ea01}\label{class_windows_forms_app1_1_1_operation_a300c7a42d897ea5b55dc6dde1ff4ea01}} 
+\index{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!Sum@{Sum}}
+\index{Sum@{Sum}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}}
+\doxysubsubsection{\texorpdfstring{Sum}{Sum}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Operation.\+Sum =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_operation_a82b816146128d56ae58663b384e910d1}{\+\_\+sum}}}
+
+
+
+Публичный геттер для суммы операции. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Operation.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,74 @@
+.TH "WinFormsApp1.IKeyedElement< K >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.IKeyedElement< K > \- Интерфейс, описывающий элемент, обладающий ключом, используемым для генерации хэш-функции\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.IElement\fP\&.
+.PP
+Производные классы:\fBWindowsFormsApp1\&.Client\fP и \fBWindowsFormsApp1\&.Machine\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "K \fBGetKey\fP ()"
+.br
+.RI "Метод, возвращающий ключ данного элемента\&. "
+.ti -1c
+.RI "int \fBCompare\fP (\fBIElement\fP elem)"
+.br
+.RI "Метод, производящий сравнение двух элементов, наследуемых от \fBIElement\fP\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Интерфейс, описывающий элемент, обладающий ключом, используемым для генерации хэш-функции\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIK\fP Тип ключа\&.
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "int WinFormsApp1\&.IElement\&.Compare (\fBIElement\fP elem)\fC [inherited]\fP"
+
+.PP
+Метод, производящий сравнение двух элементов, наследуемых от \fBIElement\fP\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelem\fP Элемент, с которым производится сравнение\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отрицательное число, если этот элемент меньше, чем поступающий на вход\&. Ноль, если элементы равны\&. Положительное число, если этот элемент больше, чем поступающий на вход\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.Percent\fP, \fBWindowsFormsApp1\&.Client\fP, \fBWindowsFormsApp1\&.Machine\fP и \fBWindowsFormsApp1\&.Operation\fP\&.
+.SS "K \fBWinFormsApp1\&.IKeyedElement\fP< K >\&.GetKey ()"
+
+.PP
+Метод, возвращающий ключ данного элемента\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Ключ типа К\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.Client\fP и \fBWindowsFormsApp1\&.Machine\fP\&.
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

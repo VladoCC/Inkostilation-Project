@@ -2,6 +2,11 @@
 
 namespace WindowsFormsApp1
 {
+    /// <summary>
+    /// Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком.
+    /// Наследуется от ISorter.
+    /// </summary>
+    /// <typeparam name="T"> Тип сортируемых данных, наследуемый от IElement. </typeparam>
     public class BubbleSorter<T>: ISorter<T> where T: IElement
     {
         public void Sort(T[] array)

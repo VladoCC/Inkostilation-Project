@@ -1,0 +1,48 @@
+.TH "WinFormsApp1.IElement" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.IElement \- Интерфейс, описывающий данное, хранящееся в базе\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Производные классы:\fBWindowsFormsApp1\&.Operation\fP, \fBWindowsFormsApp1\&.Percent\fP и \fBWinFormsApp1\&.IKeyedElement< K >\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "int \fBCompare\fP (\fBIElement\fP elem)"
+.br
+.RI "Метод, производящий сравнение двух элементов, наследуемых от \fBIElement\fP\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Интерфейс, описывающий данное, хранящееся в базе\&. 
+
+
+.SH "Методы"
+.PP 
+.SS "int WinFormsApp1\&.IElement\&.Compare (\fBIElement\fP elem)"
+
+.PP
+Метод, производящий сравнение двух элементов, наследуемых от \fBIElement\fP\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelem\fP Элемент, с которым производится сравнение\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отрицательное число, если этот элемент меньше, чем поступающий на вход\&. Ноль, если элементы равны\&. Положительное число, если этот элемент больше, чем поступающий на вход\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.Percent\fP, \fBWindowsFormsApp1\&.Client\fP, \fBWindowsFormsApp1\&.Machine\fP и \fBWindowsFormsApp1\&.Operation\fP\&.
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

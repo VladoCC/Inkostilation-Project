@@ -1,0 +1,790 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_windows_forms_app1_1_1_bubble_sorter" kind="class"><name>WindowsFormsApp1::BubbleSorter</name>
+    <member refid="class_windows_forms_app1_1_1_bubble_sorter_1a8be5827131880cc2227f39b7d0fcc045" kind="function"><name>Sort</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_client" kind="class"><name>WindowsFormsApp1::Client</name>
+    <member refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" kind="variable"><name>_cardNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" kind="variable"><name>_bankName</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a853e985f58fcc253952c948829335f4e" kind="variable"><name>_name</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" kind="variable"><name>CardNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" kind="variable"><name>BankName</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" kind="variable"><name>Name</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" kind="function"><name>Client</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a123281db04c626d34b64f94128a6b372" kind="function"><name>GetKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_1a7708d33da398c607a8296a24c8d7a54e" kind="function"><name>Compare</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_client_found" kind="class"><name>WindowsFormsApp1::ClientFound</name>
+    <member refid="class_windows_forms_app1_1_1_client_found_1a0d3f013bfd668e4e6e273fb61f47a615" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1a19865226271e50ab5522b8bbab1d8d18" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1aff54e96c495bec47877b33acdfe8eff2" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1a8d9d54619c0771a93120a6e8a825b8aa" kind="variable"><name>Hash1</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1aa7bb418154a825749807ba74d03640c1" kind="variable"><name>НомерКарточки</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1aa5be70ace77093e1f827f81f3ac09f06" kind="variable"><name>Банк</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1a5565fa5bc213a34433c291d9c113df2c" kind="variable"><name>ФИО</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1ad14abc8eccd4e93b9c0d302aabc2e039" kind="variable"><name>ClientResults</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1afbf193bc145f24a1417823ad2a86bfac" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1aae787b167c6f47f7f0d49f6977be4487" kind="function"><name>ClientFound</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1afc0bb5c86a6b06535ca73672bb997ce1" kind="function"><name>Dispose</name></member>
+    <member refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" kind="function"><name>InitializeComponent</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_report_1_1_container" kind="class"><name>WindowsFormsApp1::Report::Container</name>
+    <member refid="class_windows_forms_app1_1_1_report_1_1_container_1ab7d0fc46da5085b40cbbc97ffa4e9268" kind="variable"><name>_element</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a6269c0342e08b92d94252636a44ec91d" kind="variable"><name>_next</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a1d5f6f3c9e9e58285fc17e5f8d890b97" kind="function"><name>Container</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a2a3b9599dd9c38565a01f9511ecb439b" kind="function"><name>Add</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a2a5ca1df6a5d4d4c35e52e55fd85021c" kind="function"><name>Size</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1_1_container_1ae9cfed22f542b097fc74e5e6aabff9d1" kind="function"><name>Fill</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_database" kind="class"><name>WindowsFormsApp1::Database</name>
+    <member refid="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" kind="variable"><name>_instance</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" kind="variable"><name>_clients</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" kind="variable"><name>_machines</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" kind="variable"><name>_operations</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" kind="variable"><name>_percents</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" kind="function"><name>GetInstance</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" kind="function"><name>GetNewInstance</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" kind="function"><name>Database</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a7fbfcac98864ecc48c83b651a59a69c1" kind="function"><name>Save</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" kind="function"><name>AddClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" kind="function"><name>AddMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" kind="function"><name>AddOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" kind="function"><name>AddPercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" kind="function"><name>RemoveClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" kind="function"><name>RemoveMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" kind="function"><name>RemoveOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" kind="function"><name>RemovePercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" kind="function"><name>FindClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" kind="function"><name>FindMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" kind="function"><name>FindOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" kind="function"><name>FindPercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" kind="function"><name>FindClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" kind="function"><name>FindMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a387a5f52b4039bfe0be1f4123b4097c6" kind="function"><name>FindOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a08872140b383b4c09e3cb46264a4dea7" kind="function"><name>FindPercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" kind="function"><name>ClientSize</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" kind="function"><name>MachineSize</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" kind="function"><name>OperationSize</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" kind="function"><name>PercentSize</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" kind="function"><name>ClientArray</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" kind="function"><name>MachineArray</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" kind="function"><name>OperationArray</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" kind="function"><name>PercentArray</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" kind="function"><name>ClientsFunction</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" kind="function"><name>MachinesFunction</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" kind="function"><name>Consistence</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" kind="function"><name>ClientOperationReport</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" kind="function"><name>MachineOperationReport</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" kind="function"><name>OperationPercentReport</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" kind="function"><name>MachinePercentReport</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_double_hash_storage" kind="class"><name>WinFormsApp1::DoubleHashStorage</name>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a7a88cc699e41e22525a2ff3a2a225f95" kind="variable"><name>_mainFunction</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a852631709e9c6cffde58070ad2d6ebe8" kind="variable"><name>_outsideFunction</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a0b30f1258342d867b5dcbef992c5d569" kind="variable"><name>_array</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1ac605832f6b0b14f1443e8dcc80ba677f" kind="variable"><name>_deleted</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a78ccd4cb28e362967256906146f2d17e" kind="variable"><name>_size</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1ac14d1ebc6e1a6e9b7edc0c443c2c4a1b" kind="function"><name>DoubleHashStorage</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a2ebaecfe8643b8276263a1369b328cee" kind="function"><name>GetSize</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a680decb93c556470b7e6534a3eded0de" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1ae532033d86f1075c43205972f9c14819" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1aa03ea4870bcf39fe3a6654f63829ee7e" kind="function"><name>ToArray</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a50c2128c83f08591f6f1b394da2f8a56" kind="function"><name>Find</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" kind="function"><name>SizeContainer</name></member>
+    <member refid="class_win_forms_app1_1_1_double_hash_storage_1a74540265b8baf7cdc62a49bc37e04102" kind="function"><name>Inflate</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_error_form" kind="class"><name>WindowsFormsApp1::ErrorForm</name>
+    <member refid="class_windows_forms_app1_1_1_error_form_1a0fe2b1eac9ba57e9ed8b45b7bbea00f7" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_error_form_1af4f786e66174544869722231fec54372" kind="variable"><name>button1</name></member>
+    <member refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_error_form_1ade77fd35df74f42bb7a3cfa86079ae81" kind="function"><name>ErrorForm</name></member>
+    <member refid="class_windows_forms_app1_1_1_error_form_1a6b9e9fb4787eabe9ccd749238cf51017" kind="function"><name>button1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_error_form_1a418becfada2b7e0bc09efa8037c4fb28" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_g_u_i" kind="class"><name>WindowsFormsApp1::GUI</name>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a7e579f8f91b5cf123ef58cd9d3c2e598" kind="variable"><name>NumRows1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" kind="variable"><name>NumRows2</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" kind="variable"><name>NumRows3</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ae695f30d30c455d22cc85e7a77a35bd1" kind="variable"><name>NumRows4</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" kind="variable"><name>index1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a7f632137d28e63cfb45c41cf7d0f5d6a" kind="variable"><name>index2</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a58bc565a12c11b9180d728a259f6c033" kind="variable"><name>index3</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a2acf5f8ef452b676bade93a4ac9cc127" kind="variable"><name>index4</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ae115c4916eef1e2facd4482ce623db89" kind="variable"><name>state</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a951d2facb7be07cceb95f39c041f0e89" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a1e8ba039e1e5df7c0ebcc395c9d5801b" kind="variable"><name>menuStrip1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a5d553a476b8753bfb8b1dbad6442ec66" kind="variable"><name>создатьToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a85902318921ea1b245a6c9823007f90b" kind="variable"><name>импортироватьToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aedf047b96a2bd6ff19a9815a106a3647" kind="variable"><name>сохранитьToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" kind="variable"><name>dataGridView1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aa118ae2cdb69b90c3f3fd39c7c0055e9" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6addaf07e9d1c1a0de850447880ea8b5" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab604067cdc3a67ab2c4e60fe025f512c" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a4d99f6fc31eb95b59018fd9b2d751b51" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" kind="variable"><name>dataGridView2</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" kind="variable"><name>dataGridView3</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" kind="variable"><name>dataGridView4</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1acdec8c5c8fa63ac15ef474e1c035c2e2" kind="variable"><name>button1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ad563d02bba8981fa437d65f1948e5fa8" kind="variable"><name>button2</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ae01e5872f0b33481d2524cad1a86fd1a" kind="variable"><name>button3</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a5ad6ae8983036103a72795778958978b" kind="variable"><name>button4</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a9b79e18fee610962ff12cfacceb54f27" kind="variable"><name>button5</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a7de7a506ecbb57099c7b700107883072" kind="variable"><name>button6</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a757a84c45766ff405fd4f42c57097754" kind="variable"><name>button7</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a331c63e753e7ada8646e7d0b8872734f" kind="variable"><name>button8</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a2b4ecd4736f3db5d3a3aba79af4e91ee" kind="variable"><name>отчётыToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1af58a30d943d790965e54b83bdb1e89b6" kind="variable"><name>операцииПоКлиентуToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a2f420dc7698d87f3c3f8770d0df198e7" kind="variable"><name>операцииБанкоматаToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a79f79e7e45e45879ff0bea51433a7c0a" kind="variable"><name>процентыОперацийToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a07a6a4c51992ad3b27ee013e1eb683dd" kind="variable"><name>процентыБанкоматаToolStripMenuItem</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab521296d0f3bcce285bfa215228b62ac" kind="variable"><name>label5</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a90052cb9c06941ddbb17b97eaccbc9bb" kind="variable"><name>button9</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ad587a702f6b3bfc0ba72fa748dd85b68" kind="variable"><name>waterMarkTextBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1acc64284a17204bb61bbaca6fe6c64abd" kind="variable"><name>создатьToolStripMenuItem1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aedf5736a3b5fa4d6e268c8798cf7dab7" kind="variable"><name>Hash</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a65b3c0d47dd8502ec00c321599cd0fc3" kind="variable"><name>Номер</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a49908b4487b2eed5a8c8fdab05cd4a64" kind="variable"><name>Адрес</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a13dce01e2111414dad329cbf9f563459" kind="variable"><name>НазваниеБанка</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ad4159a88f38c5c4bb3d57fbdda78cfe0" kind="variable"><name>Hash1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a90d6af933fed449575801dd01cefc6ef" kind="variable"><name>НомерКарточки</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a4494ac7cf96d0ea8946f9404ad03f923" kind="variable"><name>Банк</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab73e809a93be45e253ff25832d1eb33b" kind="variable"><name>ФИО</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a510cd26c7d75c71eddb40589a3ffaf60" kind="variable"><name>Тип</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aac562641e59a8cd813dbf10b5934fd50" kind="variable"><name>Отправитель</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ad12af47c7851cf0692b010895a1ef0af" kind="variable"><name>Получатель</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a10905687ffdce824e04dda48e9821be4" kind="variable"><name>Процент</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a61a83bd1ac0c58eb780f821a0e2f2cae" kind="variable"><name>ТипОперации1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a75d327e2715cd0763747145ba64d8780" kind="variable"><name>НомерКарточки1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6fb4a542d7792a9482a327df5c2022ad" kind="variable"><name>НомерБанкомата</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a9b3957e7ffb24e42e10ce074358fd414" kind="variable"><name>СуммаОперации</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" kind="variable"><name>stopflag</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" kind="variable"><name>myDatabase</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" kind="variable"><name>comboBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a9bf23ccfc1e735fc03f759fa724599cf" kind="function"><name>GUI</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" kind="function"><name>button1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" kind="function"><name>button3_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" kind="function"><name>button2_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" kind="function"><name>button4_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ae37d60f2a898cb35d5b65e1448f8a4fc" kind="function"><name>dataGridView1_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" kind="function"><name>button5_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" kind="function"><name>button6_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" kind="function"><name>button7_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" kind="function"><name>button8_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab6e50d6755161ec3050c7f996ba3407a" kind="function"><name>dataGridView3_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab25be3dacea45e0aa68ccb629f89177f" kind="function"><name>dataGridView2_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a8c436b48973ce4cf2c48547a65a5776f" kind="function"><name>dataGridView4_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" kind="function"><name>button9_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" kind="function"><name>comboBox1_SelectedIndexChanged</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" kind="function"><name>операцииПоКлиентуToolStripMenuItem_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" kind="function"><name>операцииБанкоматаToolStripMenuItem_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" kind="function"><name>процентыОперацийToolStripMenuItem_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" kind="function"><name>процентыБанкоматаToolStripMenuItem_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" kind="function"><name>сохранитьToolStripMenuItem_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" kind="function"><name>импортироватьToolStripMenuItem_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" kind="function"><name>создатьToolStripMenuItem1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6c98024fbc574eeaa4cf8fe7f5a20e38" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_hash_function" kind="class"><name>WinFormsApp1::HashFunction</name>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a78212a560d5b5dbbee1efb90d47368c1" kind="variable"><name>_size</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1ac9316beab45fcdfdad4f722eb582c09b" kind="function"><name>SetSize</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a8996ddf18e41dee6186deb0df2873dd0" kind="function"><name>GetStorageSize</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_hash_map" kind="class"><name>WinFormsApp1::HashMap</name>
+    <member refid="class_win_forms_app1_1_1_hash_map_1a778e0021501f24d421be94839413ef4f" kind="variable"><name>_function</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1ab81a7fa321099000b39a8890372b7d0d" kind="variable"><name>_storage</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1a7b5cf67bdca4e7a5bba4d988323b54f9" kind="variable"><name>Function</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1ac556b9e005681115a30448e6eb9e38f9" kind="function"><name>HashMap</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1acc7434ebbd0f67126acb431db6e782b5" kind="function"><name>ToArray</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1aa34645fa8a9424de782abd0e773da06c" kind="function"><name>Size</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1af13b5aa5de3b82158022c7780097fa60" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1a08bb30f9c9f0671ed596028515172dc2" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_map_1a30d35336efdf9ce0b8f893791f8d2890" kind="function"><name>Find</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" kind="function"><name>Add</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" kind="function"><name>Remove</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" kind="function"><name>Find</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_hash_map1_dialog" kind="class"><name>WindowsFormsApp1::HashMap1Dialog</name>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a16ee128bd5b4547f43b5c57729b174a1" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a7c9465f429880805f7700a8b15429d68" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a26bcc3357e7ded36eddbaa9448954993" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a49da03cdeecafad16856d9e83a7dd4b2" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1af938433ba7f9922fa9cae85c682ee3ca" kind="variable"><name>button1</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a300f586cd711a3d53407ae533aedb23c" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a1884155d6afdc2babdac2aa577aa4261" kind="variable"><name>button2</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a3532ce9b4b03a8dd16da2831107b7a74" kind="variable"><name>waterMarkTextBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1aac80928a30bbcda9615cfb7e36f7207b" kind="variable"><name>waterMarkTextBox2</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a1e7b07527b7cdc7244f9cd3844889e4c" kind="variable"><name>waterMarkTextBox3</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1ae1f33b10d8fdb2e056211467967dc9da" kind="function"><name>HashMap1Dialog</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a7ea8932da3c151420f20080cc04e18d8" kind="function"><name>button1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1ac313e9c04c6127233ac77fed8077f39d" kind="function"><name>button2_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a4317d6476b8720e24a0bfc979e36b19f" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map1_dialog_1abbfac0ddeccd0a7b5a6889645f307162" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_hash_map2_dialog" kind="class"><name>WindowsFormsApp1::HashMap2Dialog</name>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a5c5389aae98da3cb7ac9a9bfe936d31c" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a109e42b84d2d2db1d2a0b0946f75a87f" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af56f59ed9568c15b4493f6a79c2fefcf" kind="variable"><name>button1</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a5315e65a33a36722a5d2a52b5d59cd94" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a28deef16849e02fe84f0360d53928e27" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a3b5c5afa0c257d5dadebfb1a1d48cb51" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a7f5bfef762436ae674f131b83a148b2c" kind="variable"><name>button2</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1abebce85a8cc850b3c4af83971f4acf1c" kind="variable"><name>waterMarkTextBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a3960455511f2b8e919fc22d0054dd43f" kind="variable"><name>waterMarkTextBox2</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a6ecb3a37304fa36c923f76bcee17d5df" kind="variable"><name>waterMarkTextBox3</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a71cf4e7becd4e3752951db27fa458803" kind="function"><name>HashMap2Dialog</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" kind="function"><name>button1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a0f8f1fa818ae09e3751cead4a9c3fdc8" kind="function"><name>button2_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a0559640fd53b85fc2e8c81fcb9c58937" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="interface_win_forms_app1_1_1_i_collection" kind="interface"><name>WinFormsApp1::ICollection</name>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1ae9cbe7b265b6349d0b076c153c8cf0cc" kind="function"><name>ToArray</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1ac04aa2b01403200686917bbc5c927be6" kind="function"><name>Size</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" kind="function"><name>Add</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" kind="function"><name>Remove</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" kind="function"><name>Find</name></member>
+  </compound>
+  <compound refid="interface_win_forms_app1_1_1_i_element" kind="interface"><name>WinFormsApp1::IElement</name>
+    <member refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" kind="function"><name>Compare</name></member>
+  </compound>
+  <compound refid="interface_win_forms_app1_1_1_i_keyed_element" kind="interface"><name>WinFormsApp1::IKeyedElement</name>
+    <member refid="interface_win_forms_app1_1_1_i_keyed_element_1af9c5523614856af4184fa3f48d40b942" kind="function"><name>GetKey</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" kind="function"><name>Compare</name></member>
+  </compound>
+  <compound refid="interface_windows_forms_app1_1_1_i_sorter" kind="interface"><name>WindowsFormsApp1::ISorter</name>
+    <member refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39" kind="function"><name>Sort</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_keyed_search_query" kind="class"><name>WindowsFormsApp1::KeyedSearchQuery</name>
+    <member refid="class_windows_forms_app1_1_1_keyed_search_query_1a14354a8e4a5e66d5af9a91437b711edc" kind="function"><name>KeyedSearchQuery</name></member>
+    <member refid="class_windows_forms_app1_1_1_keyed_search_query_1ab01bc2d2accdd0ac5018745ba00e2f01" kind="function"><name>SearchKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a0825c5d7798cb583fdb6621dbf5818f2" kind="function"><name>Check</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a78a82ea1257ecad1b6af48cf3bf787f0" kind="function"><name>Count</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1abfb89356449ca1d3a2d9b984a05bdad6" kind="function"><name>Found</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a73399b645227c7748e9508fdc8090055" kind="variable"><name>_request</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a0f4f392303bc7b3b0a3e99673578107b" kind="variable"><name>Counter</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a5b8f1809660b184007fd565ca2f3f042" kind="variable"><name>Result</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_list_storage" kind="class"><name>WinFormsApp1::ListStorage</name>
+    <member refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" kind="variable"><name>array</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1acba783dabd167ca9ad1e2417b60bfd6a" kind="function"><name>ListStorage</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1abb05184af3ecec4b6c80c0a443c14c85" kind="function"><name>GetSize</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" kind="function"><name>ToArray</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" kind="function"><name>Find</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" kind="function"><name>SizeContainer</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" kind="function"><name>Find</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_machine" kind="class"><name>WindowsFormsApp1::Machine</name>
+    <member refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" kind="variable"><name>_machineNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" kind="variable"><name>_address</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" kind="variable"><name>_bankName</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" kind="variable"><name>MachineNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" kind="variable"><name>Address</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" kind="variable"><name>BankName</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" kind="function"><name>Machine</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1a1cce5f01e7e7e4eace9cbc0347f4032a" kind="function"><name>GetKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" kind="function"><name>Compare</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_machine_found" kind="class"><name>WindowsFormsApp1::MachineFound</name>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a04aaab09ad7f4b867c73762e46c6abd0" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a9f9a06a847460f19b6839c53ff2ca746" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a60af30e6001755ec85a809d7e9976192" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a61518d48a6339c78efcfe3490f1e23a4" kind="variable"><name>Hash</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a11924b56f9753f62bbe647c615d881bf" kind="variable"><name>Номер</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1ac65b82915dfe01b1fced3cb2735d1390" kind="variable"><name>Адрес</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1aafea89101bbf789c7d05b8cc5b3079ff" kind="variable"><name>НазваниеБанка</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1ab04f451288713d8f5bd3d7244b192f97" kind="variable"><name>MachineResults</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a5104e53df959d45b95ef51a547d86421" kind="function"><name>MachineFound</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1af43c9b07be52993c4edc8510ea376b8d" kind="function"><name>Dispose</name></member>
+    <member refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" kind="function"><name>InitializeComponent</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_mod_function" kind="class"><name>WindowsFormsApp1::ModFunction</name>
+    <member refid="class_windows_forms_app1_1_1_mod_function_1a4659b0e640902b794f78233d096633f3" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1ac9316beab45fcdfdad4f722eb582c09b" kind="function"><name>SetSize</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a8996ddf18e41dee6186deb0df2873dd0" kind="function"><name>GetStorageSize</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_r_b_1_1_node" kind="class"><name>WindowsFormsApp1::RB::Node</name>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" kind="variable"><name>colour</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1afc40e44c75af107ab8a7afe8f01c819b" kind="variable"><name>left</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a5377e8621d2e7767f08c357db44a8e5f" kind="variable"><name>right</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a3d746bc72305b02a3f9be2fadf0b43bf" kind="variable"><name>parent</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a52c44ef4c774456951af52e28fdec596" kind="variable"><name>data</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a51d2c9f282a943fc1beb9cfd6a3bf650" kind="function"><name>Node</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a597719bb91a473e6c4fb47185ac14fd5" kind="function"><name>Node</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a33897e4f2acc0c2e89403441a03d57ca" kind="function"><name>Node</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_odd_function" kind="class"><name>WindowsFormsApp1::OddFunction</name>
+    <member refid="class_windows_forms_app1_1_1_odd_function_1ac0c6b0683ca830880f61e2d67e8aa280" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1ac9316beab45fcdfdad4f722eb582c09b" kind="function"><name>SetSize</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a8996ddf18e41dee6186deb0df2873dd0" kind="function"><name>GetStorageSize</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_operation" kind="class"><name>WindowsFormsApp1::Operation</name>
+    <member refid="class_windows_forms_app1_1_1_operation_1a2aaf93b4b108ee297336e75ac786bb1b" kind="variable"><name>_operationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" kind="variable"><name>_cardNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" kind="variable"><name>_machineNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" kind="variable"><name>_sum</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1aa0eec00f58547011db6d51a83efebc64" kind="variable"><name>OperationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" kind="variable"><name>CardNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" kind="variable"><name>MachineNumber</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" kind="variable"><name>Sum</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a9fbcb141ef55c446b3eb3fa0d864aa80" kind="function"><name>Operation</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" kind="function"><name>Compare</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1operation_found" kind="class"><name>WindowsFormsApp1::operationFound</name>
+    <member refid="class_windows_forms_app1_1_1operation_found_1a8681cfa04ddac8a854bffe11b675b4aa" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1ab5d9eeb6f5a316f821d8713b87b6aae7" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1a581789610340c6baf973c6064f0c8152" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1ace8f628c1d499478d0fe71f80eae90d1" kind="variable"><name>ТипОперации1</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1afd6631c80905e99b44699eb903929949" kind="variable"><name>НомерКарточки1</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1a2a3e44fe2e63738df8d09fec7a2d53bf" kind="variable"><name>НомерБанкомата</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1aa8adcccdbae9cb3ee1fb0fb17703cf12" kind="variable"><name>СуммаОперации</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1adf52a3bd2d35defc9edf2a7020c08a0d" kind="variable"><name>operationResults</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1a2c1e6038ae51327834a52800c627de51" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1a75867cf6464b9d2521096a6a06627939" kind="function"><name>operationFound</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1ae4b53ee61c5527402e256b308912824d" kind="function"><name>Dispose</name></member>
+    <member refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" kind="function"><name>InitializeComponent</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_operations_of_client" kind="class"><name>WindowsFormsApp1::OperationsOfClient</name>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a97c70733776b9796086508fe15e573a8" kind="variable"><name>index</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a526cfd89edea0eee4db2e69934d3d392" kind="variable"><name>NumRows</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a820003b98ef212b9b91f80718d46e820" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a40666e77c56e6242508c018982d8aab3" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a0ba206a52d1df5e8312e4d099e6b2d5e" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a3bc193d8b0d01e922ce5fabc71b21526" kind="variable"><name>Hash1</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a36beb6b74b8cd6927b308f4b69156923" kind="variable"><name>НомерКарточки</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1ae45da01e66f480fe1b280d16d6e0cb7d" kind="variable"><name>Банк</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a610680d5efe3f1a50bfef589c32bb738" kind="variable"><name>ФИО</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a60032fb2fd6b4721f6d8b4bc12f04d44" kind="variable"><name>ТипОперации1</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a5871ef7408bf745241f98d78367a9472" kind="variable"><name>НомерКарточки1</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a90b576a9d3d8d4a94b4fe4ebe0b477ee" kind="variable"><name>НомерБанкомата</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a00a3fcf0edac4b11a1cad055d1fd3db4" kind="variable"><name>СуммаОперации</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" kind="variable"><name>ClientsKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" kind="variable"><name>OperationsData</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a0d75f5253948372c670b75429aaccb37" kind="function"><name>OperationsOfClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" kind="function"><name>ClientsKey_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_client_1a630326be8750f42272ccb8c89c4cca54" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_operations_of_machine" kind="class"><name>WindowsFormsApp1::OperationsOfMachine</name>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a17582d5098a313dade5983551d58fa63" kind="variable"><name>index</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1ac9e7a8ac7d07baacd05b56827e41a0ef" kind="variable"><name>NumRows</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1aa7a2362a45a96d55f88e4b9d5f0c6fd3" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a9c6bc8e5f9d7a5611d2480fca497601d" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a9e6bb72132423bf57e7b63d34e797e27" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a3a17a0604544bad84b46476c93650dbc" kind="variable"><name>Hash</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a10385585df8255e165739876aefda372" kind="variable"><name>Номер</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a98f324848d760a1093e86dbd663bad79" kind="variable"><name>Адрес</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1ab2ba6e4451b53612123b7cbe4385639c" kind="variable"><name>НазваниеБанка</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1aed1413329bddb00b48d9ad47c6677db4" kind="variable"><name>ТипОперации1</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a2bde7aee649ec1d1654a0e281239c180" kind="variable"><name>НомерКарточки1</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a771d72de161776e264c96bf9eac69171" kind="variable"><name>НомерБанкомата</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1af247a1299631c3e5a5a64685bfffdf87" kind="variable"><name>СуммаОперации</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a75f2e1f9aba85a81e887a5a0fbc205f3" kind="variable"><name>MachinesKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a81e76d53e1907cdc099388299ab20432" kind="variable"><name>OperationsData</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a84b5c43ef7360ffcfcee72e5136992ed" kind="function"><name>OperationsOfMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" kind="function"><name>MachinesKey_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1aee4fca09d637d72df8bbba5f7e47ca2d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a52439ac3ee7f85757f1b44748b5b15d9" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_percent" kind="class"><name>WindowsFormsApp1::Percent</name>
+    <member refid="class_windows_forms_app1_1_1_percent_1a79015c5fdbfc35a1dc94480a5e1dd3d7" kind="variable"><name>_operationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" kind="variable"><name>_senderBank</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" kind="variable"><name>_receiverBank</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" kind="variable"><name>_percent</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a22c45e83a4dc710a8858661c2c06913b" kind="variable"><name>OperationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" kind="variable"><name>SenderBank</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" kind="variable"><name>ReceiverBank</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" kind="variable"><name>Percent1</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a708446baeef537c0b3995328ff8f04fe" kind="function"><name>Percent</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" kind="function"><name>Compare</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1percent_found" kind="class"><name>WindowsFormsApp1::percentFound</name>
+    <member refid="class_windows_forms_app1_1_1percent_found_1ad2bf9ba290f4d69eed3daa3120b498bc" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a0d7b0be563936deb3d4804007ffc225e" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1adf299bd5b6d3698726196a2fb3935919" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a118b52648e937e5f758cb739a0c91dd0" kind="variable"><name>Тип</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a59d2f51ac14a4a607f76533f314a52fc" kind="variable"><name>Отправитель</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a31d52ca3c8b945d490ea8a117b5c31e5" kind="variable"><name>Получатель</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a7385c9a32942e2fd51621220d888a20b" kind="variable"><name>Процент</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a7e6a5d70d86388a5e1a0eb2af2bdd155" kind="variable"><name>percentResults</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a3c7f3676887f253c66bf86286b76b0f4" kind="function"><name>percentFound</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1acf486a467d0d3c79c741020736685099" kind="function"><name>Dispose</name></member>
+    <member refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" kind="function"><name>InitializeComponent</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_percents_of_machine" kind="class"><name>WindowsFormsApp1::PercentsOfMachine</name>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1afd170491066bc7c7b512c63efcc50381" kind="variable"><name>index</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a3f5b7b7be7cc8aeaad22840e43a6bfcb" kind="variable"><name>NumRows</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a41e7c4c828b974792600677936dd473b" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1ace1a1a337773c779a3ae465e360a65b1" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a01205922879ea19cdcf4c76a450ad541" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a32d14f156645db4d80ed188aea5de7d0" kind="variable"><name>Hash</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a83c46e63c847bc47c8757e290087c5f7" kind="variable"><name>Номер</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1afdc8deb964d92d13b9ce8cd50efec239" kind="variable"><name>Адрес</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a96b1b3e6c20a187ec85ebb53459e913c" kind="variable"><name>НазваниеБанка</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a93fc44ab7eedb0d04bfbcb63e3f25145" kind="variable"><name>Тип</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a4cbe626811264f0284ac979d01fafaea" kind="variable"><name>Отправитель</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a2c20b048899ba9c05f2f0fd8c25f852a" kind="variable"><name>Получатель</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1acca6f1a4a0a566a9e00b754661b4dcfc" kind="variable"><name>Процент</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a4a366d307a55c0214e149bfe0e0cfafd" kind="variable"><name>PercentsData</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a598559650583f650f5068268e0ff304b" kind="variable"><name>MachinesKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1af6945c694550b08258a5fbdd477aac9e" kind="function"><name>PercentsOfMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" kind="function"><name>MachinesKey_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_machine_1a5aed06777cc45de473f4bc0e50145270" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_percents_of_operation" kind="class"><name>WindowsFormsApp1::PercentsOfOperation</name>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a2b4a728983ada9a45b32b42de5455236" kind="variable"><name>index</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a8d0feff54e14ed35792e03b1f8729fcb" kind="variable"><name>NumRows</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a2c19febebc5f4c6ae7ec50b2409dc573" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a9b468e5588d5b1f13fdf42511c1b4d18" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a9501e24e7a3910570e88743250784807" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a673693a511783c6694fb2201eae570fa" kind="variable"><name>ТипОперации1</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a3adf0dd47a96fa5fecc8cc316f5dbfe9" kind="variable"><name>НомерКарточки1</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1aee3f5a63b2a2ef97fa5b73ec53b3d601" kind="variable"><name>НомерБанкомата</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1aa6cf50518cd182d14b49af48b8c08e1d" kind="variable"><name>СуммаОперации</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a8929a5fee7bdb057060616813ed32647" kind="variable"><name>Тип</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a607171f5450abd22a6cf6d4ae19e93fd" kind="variable"><name>Отправитель</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a508e37123d9c15ca6f9ca7967a284b6d" kind="variable"><name>Получатель</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1adcbabc250bac34bd0745b3faf7c17e45" kind="variable"><name>Процент</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a37e8c43027c149187fb8133e548078c5" kind="variable"><name>OperationsKey</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1ad39d1964f1455c294f6bc7d6c91343be" kind="variable"><name>PercentsData</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a350df9d99bbd9645b7c26ad73807898e" kind="function"><name>PercentsOfOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" kind="function"><name>OperationsKey_CellClick</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a7ff45e1bffa8a1d996b0063ee02d9b05" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_percents_of_operation_1a73f6e6671ef7796615c8ed772edd8434" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_list_storage_1_1_position" kind="class"><name>WinFormsApp1::ListStorage::Position</name>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a2e80e2cea529702ce182ff5ccb23ef51" kind="variable"><name>_next</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1ac119b42e89512b7cd246a6d6b4a7e984" kind="variable"><name>_element</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a18614fac450cf1a620729dd81fde386a" kind="variable"><name>Element</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" kind="variable"><name>Next</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1af5c0de3fe9e823ba3770b22e8805748f" kind="function"><name>Position</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a207ab3db62f47097016f3996a0b150bc" kind="function"><name>Size</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" kind="function"><name>FillArray</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_tree_1_1_position" kind="class"><name>WinFormsApp1::Tree::Position</name>
+    <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a16741625bd9ac75b9ce2509b59ba1dec" kind="property"><name>Element</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a1963fb1df6e1f45c61b3f3e4251fc356" kind="property"><name>LeftChild</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1_1_position_1ab7b8ffa38b7a623d5ba5b4cd8a34f48a" kind="property"><name>RightChild</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a1a5a5f5221df1b163517e9a519d56909" kind="property"><name>CenterChild</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1_1_position_1ab3ec8c98be54effcc576e8c200f80a19" kind="property"><name>Parent</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1_1_position_1af7e0bfd513fdff40f491cf36d79c35bb" kind="function"><name>Position</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_program" kind="class"><name>WindowsFormsApp1::Program</name>
+    <member refid="class_windows_forms_app1_1_1_program_1aa0d7542c58f0c92d098418ed079a6275" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_quick_last_sorter" kind="class"><name>WindowsFormsApp1::QuickLastSorter</name>
+    <member refid="class_windows_forms_app1_1_1_quick_last_sorter_1a972ab7ec8dfac60561b317b8b7ae5222" kind="function"><name>Sort</name></member>
+    <member refid="class_windows_forms_app1_1_1_quick_last_sorter_1af50013429eeb2239f02635fa77be2301" kind="function"><name>Inner</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_quick_stack_sorter" kind="class"><name>WindowsFormsApp1::QuickStackSorter</name>
+    <member refid="class_windows_forms_app1_1_1_quick_stack_sorter_1a8ba7cc6890161189be3d36f7992916cd" kind="function"><name>Sort</name></member>
+    <member refid="class_windows_forms_app1_1_1_quick_stack_sorter_1a7d36a85e993a33c1bfcb97aa07d50e27" kind="function"><name>Partition</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_r_b" kind="class"><name>WindowsFormsApp1::RB</name>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a7cf98aef503a7611cb134be6f25d1f6e" kind="variable"><name>root</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1abf46e01db189f62eb12bc609ef97290c" kind="function"><name>RB</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1aa9077e552f2591f0754c960b3b5b0182" kind="function"><name>DisplayTree</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a2a1dab0780e8e9e2188ee30fcd1b3d66" kind="function"><name>Insert</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1ab0794607a97fa529210e02e750f3c910" kind="function"><name>Delete</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a857a33e5cb92d7fba81396bceb5c140a" kind="function"><name>ToArray</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a0839bc2665352000a5ca16e35258bda8" kind="function"><name>Size</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a5e8b3e4d1fbee32f8dfe70ebd2abded7" kind="function"><name>Add</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1aa412d115a02e656da0db902d7a72ba9c" kind="function"><name>Remove</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1ad3e3342b8cd813b205c3e49f5eed9b45" kind="function"><name>Find</name></member>
+    <member refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" kind="function"><name>Find</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1aa4cf57ca695ce187baf7b6d349d7a7fc" kind="function"><name>LeftRotate</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a814c224d0e989fe6f25523894c49ace6" kind="function"><name>RightRotate</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1af509d36408ad32419fc5d007d3926e9a" kind="function"><name>FindNode</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a88f3e7b9525e7a07eaa1905e2c154fa5" kind="function"><name>InOrderDisplay</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1aeedb97d6601d1a7b657f9b99918f6cf9" kind="function"><name>InsertFixUp</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1ae59b436b04405ec16645d6763cdf0205" kind="function"><name>DeleteFixUp</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1aeb13f7b9c271532e9d1574315b03ab37" kind="function"><name>Minimum</name></member>
+    <member refid="class_windows_forms_app1_1_1_r_b_1a783021f93f498f78ec5dc544f6d2ba3e" kind="function"><name>TreeSuccessor</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_report" kind="class"><name>WindowsFormsApp1::Report</name>
+    <member refid="class_windows_forms_app1_1_1_report_1a071fef74ac73b782214aa780446b1c32" kind="variable"><name>_key</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1a7c8af4973b540a1648353366435a9b79" kind="variable"><name>_root</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1af6e1b3847914014ac7027e5711f38d25" kind="variable"><name>_sorter</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1a471573bbf49d1cfc6b6a824a90a8c6ba" kind="variable"><name>Key</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1a372b1c74c24075a379bab6ee31527f05" kind="function"><name>Report</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" kind="function"><name>Add</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" kind="function"><name>Data</name></member>
+    <member refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" kind="function"><name>DataSize</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_search_query" kind="class"><name>WindowsFormsApp1::SearchQuery</name>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a73399b645227c7748e9508fdc8090055" kind="variable"><name>_request</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a1a973d0e9bdcc27be388c89e73baab33" kind="variable"><name>_counter</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a527674c85c1bee11ec73358e8b757579" kind="variable"><name>_result</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a0f4f392303bc7b3b0a3e99673578107b" kind="variable"><name>Counter</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a5b8f1809660b184007fd565ca2f3f042" kind="variable"><name>Result</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a06ed0ca82be46f4acd64fab64d0a057e" kind="function"><name>SearchQuery</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a0825c5d7798cb583fdb6621dbf5818f2" kind="function"><name>Check</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a78a82ea1257ecad1b6af48cf3bf787f0" kind="function"><name>Count</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1abfb89356449ca1d3a2d9b984a05bdad6" kind="function"><name>Found</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_shell_sorter" kind="class"><name>WindowsFormsApp1::ShellSorter</name>
+    <member refid="class_windows_forms_app1_1_1_shell_sorter_1a951828c6d3e1402e5a6ee40fc9488be8" kind="function"><name>Sort</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_size_container" kind="class"><name>WindowsFormsApp1::SizeContainer</name>
+    <member refid="class_windows_forms_app1_1_1_size_container_1a8f01e21c0931a4ded48a4dc83605065a" kind="variable"><name>_size</name></member>
+    <member refid="class_windows_forms_app1_1_1_size_container_1a2c79eb8e58438245e86fe2a36d65a2f8" kind="property"><name>Size</name></member>
+    <member refid="class_windows_forms_app1_1_1_size_container_1af779919faf6df48d3490a5282a167122" kind="function"><name>SizeContainer</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_splash" kind="class"><name>WindowsFormsApp1::Splash</name>
+    <member refid="class_windows_forms_app1_1_1_splash_1a253f3fd8fd8bdf02895f6fd406d830db" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_splash_1ab771279b971a66d4855a7aa5cd159568" kind="function"><name>Splash</name></member>
+    <member refid="class_windows_forms_app1_1_1_splash_1a4aa682d790152ef58fe018007abe7770" kind="function"><name>Dispose</name></member>
+    <member refid="class_windows_forms_app1_1_1_splash_1a2721220bc99b8e47415532681ff6f7e1" kind="function"><name>InitializeComponent</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_storage" kind="class"><name>WinFormsApp1::Storage</name>
+    <member refid="class_win_forms_app1_1_1_storage_1a5208a1b4cb3b07891d79ceb99ef1b157" kind="variable"><name>_size</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1a03d089fae26c2ab0b97b89bc4bfdb44a" kind="function"><name>Storage</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" kind="function"><name>SizeContainer</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1a5614e10c3a36e84225c3bcd32c396658" kind="function"><name>GetSize</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1a29fca16c9a12f8e52b651d7afdd8d0cf" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1ac5d5fa7c7167de11fe0bef04245b58a7" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1adda132fdf1fe5dbe6bf1ae9d53db70ad" kind="function"><name>ToArray</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1a1602a0977d7a7c6f32382e0be1650920" kind="function"><name>Find</name></member>
+  </compound>
+  <compound refid="class_win_forms_app1_1_1_tree" kind="class"><name>WinFormsApp1::Tree</name>
+    <member refid="class_win_forms_app1_1_1_tree_1a9b97cb68c2d607c5c1c53e343f5cdaae" kind="variable"><name>_root</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1ab9fae0eeb72f48b4b268c8b0587ade15" kind="variable"><name>_size</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a528dda81e94674bee88db39dd37fb8c7" kind="function"><name>ToArray</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a2b69f021df2e9998e344a0a4c064bba3" kind="function"><name>Size</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a40dc610c61cb7dd40912819d775ac126" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a76585e0c000743abea2a03f81c4fb9d9" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a2cd2d0f5b409399bbbb6d4ea0431a8a2" kind="function"><name>Find</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1aa3b55a17c7aa37dbca89a9b755e04809" kind="function"><name>FillArray</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1adfca5f9416ab33dc6c8513402f472706" kind="function"><name>Add</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a7842768f05308519d642fc9ec2910a47" kind="function"><name>Remove</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a48a887e7757857d37703a1b78c0e92aa" kind="function"><name>Max</name></member>
+    <member refid="class_win_forms_app1_1_1_tree_1a3548a9280ce1514e3bd5460b87314ce8" kind="function"><name>Find</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_tree1_dialog" kind="class"><name>WindowsFormsApp1::Tree1Dialog</name>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a1b6ede3e47d1f39c0816d0f41e53244d" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1acdad0e0d10cc13f77750fa2248f8115a" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a9dc98ac46a449fd13642c41bec8132f4" kind="variable"><name>button1</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a065d40b73f4a41679964817bca92289c" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a7db435a27906e144a1ec73bbf2e686ef" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a76dc74c664a4fb56075938d74b067402" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a52a5f747bfb21489b7d11587a604efe5" kind="variable"><name>label5</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a008383f31c83094533c99938120e45c1" kind="variable"><name>button2</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a9705f17a4294d08a8b7e8bd813ffc9e2" kind="variable"><name>waterMarkTextBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a4c54b1166375247ef5178abe38714b17" kind="variable"><name>waterMarkTextBox2</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a1fa0c0538c18d11f1e2cabfd210810ce" kind="variable"><name>waterMarkTextBox3</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a6c239d0e8ac7358a471f24ec569da836" kind="variable"><name>waterMarkTextBox4</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1a2de4d1ff02c8cd4838903b6e994d3147" kind="function"><name>Tree1Dialog</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1aa9fef6f6ec2b6ee77f456208d94a7a4b" kind="function"><name>button1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1ab4b0d396a9a8d0ba968c701cac24fc23" kind="function"><name>button2_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1ad668e2edb7c80e90fe14829ba608a07a" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree1_dialog_1ace5233f27b375e431fa8d7c32d5c8f54" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_tree2_dialog" kind="class"><name>WindowsFormsApp1::Tree2Dialog</name>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1ab311fdc99e57b2556b8f3c0c77a48256" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a0553efe86855de8ded8cb9a5469ef772" kind="variable"><name>label5</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a1eb9ae31c25f0e357efb9be954d53785" kind="variable"><name>label4</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a65d989646f4a2e0201fc9552f450541d" kind="variable"><name>button1</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a0b92325254bbcb421beb5b708ad901d9" kind="variable"><name>label3</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a4de3fab1acc8408e02ffbb13642e2bea" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a5e2d25c24dae2f5a6ce25009d3495dbc" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1ac1a6ac5764746bb866bc9b76e7032493" kind="variable"><name>button2</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1ae6112a837f514860da522259feb1148d" kind="variable"><name>waterMarkTextBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a2c0915e09b1e8477a753aa1ae2ac232e" kind="variable"><name>waterMarkTextBox2</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a8523bcd74e91e2229d91cdc9f363f21a" kind="variable"><name>waterMarkTextBox3</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1aa82a594f99294bfbde74a3fffe1d33d7" kind="variable"><name>waterMarkTextBox4</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a30b5ffd17e7e894a740f7f1246434498" kind="function"><name>Tree2Dialog</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a06fb09b55bd27a6a658667416ebc1b86" kind="function"><name>button1_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a2c2fc0f280acda3245983865e8a8cca8" kind="function"><name>button2_Click</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a45cafea573d360f6962b2d1a044f6fa6" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a8169363a15dc7d5a4957648d9bb0fbe8" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_app1_1_1_water_mark_text_box" kind="class"><name>WindowsFormsApp1::WaterMarkTextBox</name>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a91e794862fe7ea088d93548da3ae6953" kind="variable"><name>oldFont</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a5e9f54fe4dd6a020c1af005acd7b994c" kind="variable"><name>waterMarkTextEnabled</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a337b59e197b2fc892338b37af76f8660" kind="variable"><name>_waterMarkColor</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a51aac970c17380206303227608fe051e" kind="variable"><name>_waterMarkText</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1ab5ed7ecd57a807d59e03ea3695728749" kind="property"><name>WaterMarkColor</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" kind="property"><name>WaterMarkText</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a2db24a625bce0599e266992d5a208ee3" kind="function"><name>WaterMarkTextBox</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a6304cad050befdcc13e801336265e6b3" kind="function"><name>OnCreateControl</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" kind="function"><name>OnPaint</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a9787cbb5991a13f053dafecbb4fe4235" kind="function"><name>JoinEvents</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" kind="function"><name>WaterMark_Toggel</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a3bb75496436cb053ebf2b654510f1d2f" kind="function"><name>EnableWaterMark</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a4f047d7338e93a361fb5b33f1359fde5" kind="function"><name>DisbaleWaterMark</name></member>
+    <member refid="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" kind="function"><name>WaterMark_FontChanged</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_object_model" kind="namespace"><name>System::Collections::ObjectModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq_1_1_expressions" kind="namespace"><name>System::Linq::Expressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization" kind="namespace"><name>System::Runtime::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_permissions" kind="namespace"><name>System::Security::Permissions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="namespace_windows_forms_app1" kind="namespace"><name>WindowsFormsApp1</name>
+  </compound>
+  <compound refid="namespace_win_forms_app1" kind="namespace"><name>WinFormsApp1</name>
+  </compound>
+  <compound refid="_bubble_sorter_8cs" kind="file"><name>BubbleSorter.cs</name>
+  </compound>
+  <compound refid="_client_8cs" kind="file"><name>Client.cs</name>
+  </compound>
+  <compound refid="_client_found_8cs" kind="file"><name>ClientFound.cs</name>
+  </compound>
+  <compound refid="_client_found_8_designer_8cs" kind="file"><name>ClientFound.Designer.cs</name>
+  </compound>
+  <compound refid="_database_8cs" kind="file"><name>Database.cs</name>
+  </compound>
+  <compound refid="_double_hash_storage_8cs" kind="file"><name>DoubleHashStorage.cs</name>
+  </compound>
+  <compound refid="_error_form_8cs" kind="file"><name>ErrorForm.cs</name>
+  </compound>
+  <compound refid="_error_form_8_designer_8cs" kind="file"><name>ErrorForm.Designer.cs</name>
+  </compound>
+  <compound refid="_g_u_i_8cs" kind="file"><name>GUI.cs</name>
+  </compound>
+  <compound refid="_g_u_i_8_designer_8cs" kind="file"><name>GUI.Designer.cs</name>
+  </compound>
+  <compound refid="_hash_function_8cs" kind="file"><name>HashFunction.cs</name>
+  </compound>
+  <compound refid="_hash_map_8cs" kind="file"><name>HashMap.cs</name>
+  </compound>
+  <compound refid="_hash_map1_dialog_8cs" kind="file"><name>HashMap1Dialog.cs</name>
+  </compound>
+  <compound refid="_hash_map1_dialog_8_designer_8cs" kind="file"><name>HashMap1Dialog.Designer.cs</name>
+  </compound>
+  <compound refid="_hash_map2_dialog_8cs" kind="file"><name>HashMap2Dialog.cs</name>
+  </compound>
+  <compound refid="_hash_map2_dialog_8_designer_8cs" kind="file"><name>HashMap2Dialog.Designer.cs</name>
+  </compound>
+  <compound refid="_i_collection_8cs" kind="file"><name>ICollection.cs</name>
+  </compound>
+  <compound refid="_i_element_8cs" kind="file"><name>IElement.cs</name>
+  </compound>
+  <compound refid="_i_keyed_element_8cs" kind="file"><name>IKeyedElement.cs</name>
+  </compound>
+  <compound refid="_i_sorter_8cs" kind="file"><name>ISorter.cs</name>
+  </compound>
+  <compound refid="_keyed_search_query_8cs" kind="file"><name>KeyedSearchQuery.cs</name>
+  </compound>
+  <compound refid="_list_storage_8cs" kind="file"><name>ListStorage.cs</name>
+  </compound>
+  <compound refid="_machine_8cs" kind="file"><name>Machine.cs</name>
+  </compound>
+  <compound refid="_machine_found_8cs" kind="file"><name>MachineFound.cs</name>
+  </compound>
+  <compound refid="_machine_found_8_designer_8cs" kind="file"><name>MachineFound.Designer.cs</name>
+  </compound>
+  <compound refid="_mod_function_8cs" kind="file"><name>ModFunction.cs</name>
+  </compound>
+  <compound refid="_odd_function_8cs" kind="file"><name>OddFunction.cs</name>
+  </compound>
+  <compound refid="_operation_8cs" kind="file"><name>Operation.cs</name>
+  </compound>
+  <compound refid="operation_found_8cs" kind="file"><name>operationFound.cs</name>
+  </compound>
+  <compound refid="operation_found_8_designer_8cs" kind="file"><name>operationFound.Designer.cs</name>
+  </compound>
+  <compound refid="_operations_of_client_8cs" kind="file"><name>OperationsOfClient.cs</name>
+  </compound>
+  <compound refid="_operations_of_client_8_designer_8cs" kind="file"><name>OperationsOfClient.Designer.cs</name>
+  </compound>
+  <compound refid="_operations_of_machine_8cs" kind="file"><name>OperationsOfMachine.cs</name>
+  </compound>
+  <compound refid="_operations_of_machine_8_designer_8cs" kind="file"><name>OperationsOfMachine.Designer.cs</name>
+  </compound>
+  <compound refid="_percent_8cs" kind="file"><name>Percent.cs</name>
+  </compound>
+  <compound refid="percent_found_8cs" kind="file"><name>percentFound.cs</name>
+  </compound>
+  <compound refid="percent_found_8_designer_8cs" kind="file"><name>percentFound.Designer.cs</name>
+  </compound>
+  <compound refid="_percents_of_machine_8cs" kind="file"><name>PercentsOfMachine.cs</name>
+  </compound>
+  <compound refid="_percents_of_machine_8_designer_8cs" kind="file"><name>PercentsOfMachine.Designer.cs</name>
+  </compound>
+  <compound refid="_percents_of_operation_8cs" kind="file"><name>PercentsOfOperation.cs</name>
+  </compound>
+  <compound refid="_percents_of_operation_8_designer_8cs" kind="file"><name>PercentsOfOperation.Designer.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_quick_last_sorter_8cs" kind="file"><name>QuickLastSorter.cs</name>
+  </compound>
+  <compound refid="_quick_stack_sorter_8cs" kind="file"><name>QuickStackSorter.cs</name>
+  </compound>
+  <compound refid="_r_b_8cs" kind="file"><name>RB.cs</name>
+    <member refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kind="enum"><name>Color</name></member>
+  </compound>
+  <compound refid="_report_8cs" kind="file"><name>Report.cs</name>
+  </compound>
+  <compound refid="_search_query_8cs" kind="file"><name>SearchQuery.cs</name>
+  </compound>
+  <compound refid="_shell_sorter_8cs" kind="file"><name>ShellSorter.cs</name>
+  </compound>
+  <compound refid="_size_container_8cs" kind="file"><name>SizeContainer.cs</name>
+  </compound>
+  <compound refid="_splash_8cs" kind="file"><name>Splash.cs</name>
+  </compound>
+  <compound refid="_splash_8_designer_8cs" kind="file"><name>Splash.Designer.cs</name>
+  </compound>
+  <compound refid="_storage_8cs" kind="file"><name>Storage.cs</name>
+  </compound>
+  <compound refid="test_8txt" kind="file"><name>test.txt</name>
+    <member refid="test_8txt_1af82f29baaae5bdb6c5f42b6ddbcc45f1" kind="variable"><name>GWindowsFormsApp1</name></member>
+    <member refid="test_8txt_1a46452f295a0c1048505d7ee9f876aa5b" kind="variable"><name>Version</name></member>
+    <member refid="test_8txt_1a135a9a362b1ec6a2f60b0521694c03cb" kind="variable"><name>Culture</name></member>
+  </compound>
+  <compound refid="_tree_8cs" kind="file"><name>Tree.cs</name>
+  </compound>
+  <compound refid="_tree1_dialog_8cs" kind="file"><name>Tree1Dialog.cs</name>
+  </compound>
+  <compound refid="_tree1_dialog_8_designer_8cs" kind="file"><name>Tree1Dialog.Designer.cs</name>
+  </compound>
+  <compound refid="_tree2_dialog_8cs" kind="file"><name>Tree2Dialog.cs</name>
+  </compound>
+  <compound refid="_tree2_dialog_8_designer_8cs" kind="file"><name>Tree2Dialog.Designer.cs</name>
+  </compound>
+  <compound refid="_water_mark_text_box_8cs" kind="file"><name>WaterMarkTextBox.cs</name>
+  </compound>
+</doxygenindex>

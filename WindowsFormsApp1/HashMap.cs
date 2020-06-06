@@ -10,10 +10,20 @@ namespace WinFormsApp1
     [Serializable]
     public class HashMap<K, V> : ICollection<V> where V : IKeyedElement<K>
     {
-
+        /// <summary>
+        /// Хэш-функция, используемая в данной таблице.
+        /// </summary>
         private HashFunction<K> _function;
+        /// <summary>
+        /// Хранилище, используемое в данной таблице для хранения данных.
+        /// </summary>
         private Storage<K, V> _storage;
 
+        /// <summary>
+        /// Конструктор, инициализирующий пустую хэш-таблицу.
+        /// </summary>
+        /// <param name="function"> Используемая хэш-функция. </param>
+        /// <param name="storage"> Внутренее хранилище. </param>
         public HashMap(HashFunction<K> function, Storage<K, V> storage)
         {
             _function = function;
@@ -50,6 +60,9 @@ namespace WinFormsApp1
             _storage.Find(index, keyedQuery);
         }
 
+        /// <summary>
+        /// Публичный геттер для хэш-функии.
+        /// </summary>
         public HashFunction<K> Function => _function;
     }
 }

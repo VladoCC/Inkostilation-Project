@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_database" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::Database</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_database" kindref="compound">Database</ref></type>
+        <definition>Database WindowsFormsApp1.Database._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="12" column="33" bodyfile="Database.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_hash_map" kindref="compound">HashMap</ref>&lt; int, <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>HashMap&lt;int, Client&gt; WindowsFormsApp1.Database._clients</definition>
+        <argsstring></argsstring>
+        <name>_clients</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="14" column="25" bodyfile="Database.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_hash_map" kindref="compound">HashMap</ref>&lt; int, <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
+        <definition>HashMap&lt;int, Machine&gt; WindowsFormsApp1.Database._machines</definition>
+        <argsstring></argsstring>
+        <name>_machines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="15" column="25" bodyfile="Database.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_tree" kindref="compound">Tree</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
+        <definition>Tree&lt;Operation&gt; WindowsFormsApp1.Database._operations</definition>
+        <argsstring></argsstring>
+        <name>_operations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="16" column="22" bodyfile="Database.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_win_forms_app1_1_1_tree" kindref="compound">Tree</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
+        <definition>Tree&lt;Percent&gt; WindowsFormsApp1.Database._percents</definition>
+        <argsstring></argsstring>
+        <name>_percents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="17" column="22" bodyfile="Database.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_database" kindref="compound">Database</ref></type>
+        <definition>static Database WindowsFormsApp1.Database.GetInstance</definition>
+        <argsstring>(string filePath=null)</argsstring>
+        <name>GetInstance</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="19" column="32" bodyfile="Database.cs" bodystart="19" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_database" kindref="compound">Database</ref></type>
+        <definition>static Database WindowsFormsApp1.Database.GetNewInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetNewInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="35" column="32" bodyfile="Database.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Database.Database</definition>
+        <argsstring>()</argsstring>
+        <name>Database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="41" column="17" bodyfile="Database.cs" bodystart="41" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a7fbfcac98864ecc48c83b651a59a69c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Database.Save</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="50" column="21" bodyfile="Database.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.AddClient</definition>
+        <argsstring>(Client client)</argsstring>
+        <name>AddClient</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref></type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="58" column="23" bodyfile="Database.cs" bodystart="58" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.AddMachine</definition>
+        <argsstring>(Machine machine)</argsstring>
+        <name>AddMachine</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>machine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="69" column="23" bodyfile="Database.cs" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.AddOperation</definition>
+        <argsstring>(Operation operation)</argsstring>
+        <name>AddOperation</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref></type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="80" column="23" bodyfile="Database.cs" bodystart="80" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.AddPercent</definition>
+        <argsstring>(Percent percent)</argsstring>
+        <name>AddPercent</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref></type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="91" column="23" bodyfile="Database.cs" bodystart="91" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.RemoveClient</definition>
+        <argsstring>(Client client)</argsstring>
+        <name>RemoveClient</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref></type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="102" column="23" bodyfile="Database.cs" bodystart="102" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.RemoveMachine</definition>
+        <argsstring>(Machine machine)</argsstring>
+        <name>RemoveMachine</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>machine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="113" column="23" bodyfile="Database.cs" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.RemoveOperation</definition>
+        <argsstring>(Operation operation)</argsstring>
+        <name>RemoveOperation</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref></type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="124" column="23" bodyfile="Database.cs" bodystart="124" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.RemovePercent</definition>
+        <argsstring>(Percent percent)</argsstring>
+        <name>RemovePercent</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref></type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="135" column="23" bodyfile="Database.cs" bodystart="135" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>SearchQuery&lt;Client&gt; WindowsFormsApp1.Database.FindClient</definition>
+        <argsstring>(Client client)</argsstring>
+        <name>FindClient</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref></type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="146" column="28" bodyfile="Database.cs" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
+        <definition>SearchQuery&lt;Machine&gt; WindowsFormsApp1.Database.FindMachine</definition>
+        <argsstring>(Machine machine)</argsstring>
+        <name>FindMachine</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>machine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="153" column="28" bodyfile="Database.cs" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
+        <definition>SearchQuery&lt;Operation&gt; WindowsFormsApp1.Database.FindOperation</definition>
+        <argsstring>(Operation operation)</argsstring>
+        <name>FindOperation</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref></type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="160" column="28" bodyfile="Database.cs" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
+        <definition>SearchQuery&lt;Percent&gt; WindowsFormsApp1.Database.FindPercent</definition>
+        <argsstring>(Percent percent)</argsstring>
+        <name>FindPercent</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref></type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="167" column="28" bodyfile="Database.cs" bodystart="167" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>SearchQuery&lt;Client&gt; WindowsFormsApp1.Database.FindClient</definition>
+        <argsstring>(int cardNumber)</argsstring>
+        <name>FindClient</name>
+        <param>
+          <type>int</type>
+          <declname>cardNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="174" column="28" bodyfile="Database.cs" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
+        <definition>SearchQuery&lt;Machine&gt; WindowsFormsApp1.Database.FindMachine</definition>
+        <argsstring>(int machineNumber)</argsstring>
+        <name>FindMachine</name>
+        <param>
+          <type>int</type>
+          <declname>machineNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="179" column="28" bodyfile="Database.cs" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a387a5f52b4039bfe0be1f4123b4097c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
+        <definition>SearchQuery&lt;Operation&gt; WindowsFormsApp1.Database.FindOperation</definition>
+        <argsstring>(string operationType, int cardNumber, int machineNumber)</argsstring>
+        <name>FindOperation</name>
+        <param>
+          <type>string</type>
+          <declname>operationType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cardNumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>machineNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="184" column="28" bodyfile="Database.cs" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a08872140b383b4c09e3cb46264a4dea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
+        <definition>SearchQuery&lt;Percent&gt; WindowsFormsApp1.Database.FindPercent</definition>
+        <argsstring>(string operationType, string senderBank, string receiverBank)</argsstring>
+        <name>FindPercent</name>
+        <param>
+          <type>string</type>
+          <declname>operationType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>senderBank</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>receiverBank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="189" column="28" bodyfile="Database.cs" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Database.ClientSize</definition>
+        <argsstring>()</argsstring>
+        <name>ClientSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="194" column="20" bodyfile="Database.cs" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Database.MachineSize</definition>
+        <argsstring>()</argsstring>
+        <name>MachineSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="199" column="20" bodyfile="Database.cs" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Database.OperationSize</definition>
+        <argsstring>()</argsstring>
+        <name>OperationSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="204" column="20" bodyfile="Database.cs" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Database.PercentSize</definition>
+        <argsstring>()</argsstring>
+        <name>PercentSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="209" column="20" bodyfile="Database.cs" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref>[]</type>
+        <definition>Client [] WindowsFormsApp1.Database.ClientArray</definition>
+        <argsstring>()</argsstring>
+        <name>ClientArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="214" column="23" bodyfile="Database.cs" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref>[]</type>
+        <definition>Machine [] WindowsFormsApp1.Database.MachineArray</definition>
+        <argsstring>()</argsstring>
+        <name>MachineArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="219" column="24" bodyfile="Database.cs" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref>[]</type>
+        <definition>Operation [] WindowsFormsApp1.Database.OperationArray</definition>
+        <argsstring>()</argsstring>
+        <name>OperationArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="224" column="26" bodyfile="Database.cs" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref>[]</type>
+        <definition>Percent [] WindowsFormsApp1.Database.PercentArray</definition>
+        <argsstring>()</argsstring>
+        <name>PercentArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="229" column="24" bodyfile="Database.cs" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; int &gt;</type>
+        <definition>HashFunction&lt;int&gt; WindowsFormsApp1.Database.ClientsFunction</definition>
+        <argsstring>()</argsstring>
+        <name>ClientsFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="234" column="29" bodyfile="Database.cs" bodystart="234" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; int &gt;</type>
+        <definition>HashFunction&lt;int&gt; WindowsFormsApp1.Database.MachinesFunction</definition>
+        <argsstring>()</argsstring>
+        <name>MachinesFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="239" column="29" bodyfile="Database.cs" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Database.Consistence</definition>
+        <argsstring>()</argsstring>
+        <name>Consistence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="244" column="23" bodyfile="Database.cs" bodystart="244" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref>, <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
+        <definition>Report&lt;Client, Operation&gt; WindowsFormsApp1.Database.ClientOperationReport</definition>
+        <argsstring>(Client client)</argsstring>
+        <name>ClientOperationReport</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref></type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="343" column="23" bodyfile="Database.cs" bodystart="343" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref>, <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
+        <definition>Report&lt;Machine, Operation&gt; WindowsFormsApp1.Database.MachineOperationReport</definition>
+        <argsstring>(Machine machine)</argsstring>
+        <name>MachineOperationReport</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>machine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="359" column="23" bodyfile="Database.cs" bodystart="359" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref>, <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
+        <definition>Report&lt;Operation, Percent&gt; WindowsFormsApp1.Database.OperationPercentReport</definition>
+        <argsstring>(Operation operation)</argsstring>
+        <name>OperationPercentReport</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref></type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="375" column="23" bodyfile="Database.cs" bodystart="375" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref>, <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
+        <definition>Report&lt;Machine, Percent&gt; WindowsFormsApp1.Database.MachinePercentReport</definition>
+        <argsstring>(Machine machine)</argsstring>
+        <name>MachinePercentReport</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>machine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Database.cs" line="391" column="23" bodyfile="Database.cs" bodystart="391" bodyend="411"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Database.cs" line="10" column="11" bodyfile="Database.cs" bodystart="11" bodyend="412"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_clients</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_instance</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_machines</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_operations</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_percents</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddPercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientArray</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientOperationReport</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientsFunction</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientSize</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Consistence</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Database</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a387a5f52b4039bfe0be1f4123b4097c6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindPercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a08872140b383b4c09e3cb46264a4dea7" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindPercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>GetInstance</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>GetNewInstance</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>MachineArray</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>MachineOperationReport</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>MachinePercentReport</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>MachinesFunction</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>MachineSize</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>OperationArray</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>OperationPercentReport</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>OperationSize</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>PercentArray</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>PercentSize</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemovePercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a7fbfcac98864ecc48c83b651a59a69c1" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

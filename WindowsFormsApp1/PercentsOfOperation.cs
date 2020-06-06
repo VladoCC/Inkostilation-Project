@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
                 {
                     PercentsData.Rows.Add();
                     NumRows += 1;
-                    PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
                     PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
                     PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
                     PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;

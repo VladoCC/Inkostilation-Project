@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_quick_stack_sorter" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::QuickStackSorter</compoundname>
+    <basecompoundref refid="interface_windows_forms_app1_1_1_i_sorter" prot="public" virt="non-virtual">WindowsFormsApp1::ISorter&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_quick_stack_sorter_1a8ba7cc6890161189be3d36f7992916cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.QuickStackSorter&lt; T &gt;.Sort</definition>
+        <argsstring>(T[] array)</argsstring>
+        <name>Sort</name>
+        <reimplements refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39">Sort</reimplements>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Метод, совершающий сортировку. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Сортируемый массив. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuickStackSorter.cs" line="9" column="21" bodyfile="QuickStackSorter.cs" bodystart="9" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_quick_stack_sorter_1a7d36a85e993a33c1bfcb97aa07d50e27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.QuickStackSorter&lt; T &gt;.Partition</definition>
+        <argsstring>(T[] a, int l, int r)</argsstring>
+        <name>Partition</name>
+        <param>
+          <type>T[]</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuickStackSorter.cs" line="34" column="13" bodyfile="QuickStackSorter.cs" bodystart="34" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WindowsFormsApp1.QuickStackSorter&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_quick_stack_sorter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISorter&lt; T &gt;</label>
+        <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.QuickStackSorter&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_quick_stack_sorter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISorter&lt; T &gt;</label>
+        <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
+      </node>
+    </collaborationgraph>
+    <location file="QuickStackSorter.cs" line="7" column="11" bodyfile="QuickStackSorter.cs" bodystart="8" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_quick_stack_sorter_1a7d36a85e993a33c1bfcb97aa07d50e27" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::QuickStackSorter</scope><name>Partition</name></member>
+      <member refid="class_windows_forms_app1_1_1_quick_stack_sorter_1a8ba7cc6890161189be3d36f7992916cd" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::QuickStackSorter</scope><name>Sort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

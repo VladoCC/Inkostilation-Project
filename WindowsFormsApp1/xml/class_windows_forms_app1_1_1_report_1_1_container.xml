@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_report_1_1_container" kind="class" language="C#" prot="private">
+    <compoundname>WindowsFormsApp1::Report::Container</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_report_1_1_container_1ab7d0fc46da5085b40cbbc97ffa4e9268" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;._element</definition>
+        <argsstring></argsstring>
+        <name>_element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Report.cs" line="55" column="23" bodyfile="Report.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_report_1_1_container_1a6269c0342e08b92d94252636a44ec91d" prot="private" static="no" mutable="no">
+        <type>Container&lt; T &gt;</type>
+        <definition>Container&lt;T&gt; WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;._next</definition>
+        <argsstring></argsstring>
+        <name>_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Report.cs" line="56" column="31" bodyfile="Report.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1a1d5f6f3c9e9e58285fc17e5f8d890b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;.Container</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Container</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Report.cs" line="58" column="20" bodyfile="Report.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1a2a3b9599dd9c38565a01f9511ecb439b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;.Add</definition>
+        <argsstring>(Container&lt; T &gt; container)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>Container&lt; T &gt;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Report.cs" line="63" column="25" bodyfile="Report.cs" bodystart="63" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1a2a5ca1df6a5d4d4c35e52e55fd85021c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;.Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Report.cs" line="75" column="24" bodyfile="Report.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1ae9cfed22f542b097fc74e5e6aabff9d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;.Fill</definition>
+        <argsstring>(T[] arr, int pos)</argsstring>
+        <name>Fill</name>
+        <param>
+          <type>T[]</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Report.cs" line="85" column="25" bodyfile="Report.cs" bodystart="85" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Report.cs" line="53" column="9" bodyfile="Report.cs" bodystart="54" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_report_1_1_container_1ab7d0fc46da5085b40cbbc97ffa4e9268" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>_element</name></member>
+      <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a6269c0342e08b92d94252636a44ec91d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>_next</name></member>
+      <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a2a3b9599dd9c38565a01f9511ecb439b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>Add</name></member>
+      <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a1d5f6f3c9e9e58285fc17e5f8d890b97" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>Container</name></member>
+      <member refid="class_windows_forms_app1_1_1_report_1_1_container_1ae9cfed22f542b097fc74e5e6aabff9d1" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>Fill</name></member>
+      <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a2a5ca1df6a5d4d4c35e52e55fd85021c" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+\hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position}{}\doxysection{Шаблон класса Win\+Forms\+App1.\+List\+Storage$<$ K, V $>$.Position$<$ T $>$}
+\label{class_win_forms_app1_1_1_list_storage_1_1_position}\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+
+
+Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{List\+Storage}}.  
+
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_af5c0de3fe9e823ba3770b22e8805748f}{Position}} (T element)
+\begin{DoxyCompactList}\small\item\em Публичный конструктор, позволяющий создать новую позицию. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a207ab3db62f47097016f3996a0b150bc}{Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает длину списка, начинающегося с этой позиции. Работает рекурсивно. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a0988d1c851ff7aed9ff9642f0c75755d}{Add}} (T element)
+\begin{DoxyCompactList}\small\item\em Добавляет элемент в список. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_abc14090ce44164275d6544c90a58b3ee}{Remove}} (T element)
+\begin{DoxyCompactList}\small\item\em Удаляет элемент из списка. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a81ae247d1950cfc4154b3c51f618f45e}{Fill\+Array}} (T\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_abf2205bd46e9a4c39ce54528e5778288}{array}}, int pos)
+\begin{DoxyCompactList}\small\item\em Заполняет массив, начиная с указанной позиции, элементами данного списка. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a18614fac450cf1a620729dd81fde386a}{Element}} =$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_ac119b42e89512b7cd246a6d6b4a7e984}{\+\_\+element}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для элемента, находящегося в позиции. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a401edadc94769944f81c56554891cdfb}{Next}} =$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a2e80e2cea529702ce182ff5ccb23ef51}{\+\_\+next}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для следующей позиции. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a2e80e2cea529702ce182ff5ccb23ef51}{\+\_\+next}}
+\begin{DoxyCompactList}\small\item\em Следующий элемент списка. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_ac119b42e89512b7cd246a6d6b4a7e984}{\+\_\+element}}
+\begin{DoxyCompactList}\small\item\em Данное, содержащееся в этой позиции. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{List\+Storage}}. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em T} & Тип данных, хранимых в списке. \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Согласование типов]\begin{description}
+\item[{\em T} : {\em \mbox{\hyperlink{interface_win_forms_app1_1_1_i_element}{I\+Element}}}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_af5c0de3fe9e823ba3770b22e8805748f}\label{class_win_forms_app1_1_1_list_storage_1_1_position_af5c0de3fe9e823ba3770b22e8805748f}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!Position@{Position}}
+\index{Position@{Position}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Position()}{Position()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}} (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})}
+
+
+
+Публичный конструктор, позволяющий создать новую позицию. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Элемент, содержащийся в этой позиции. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_a0988d1c851ff7aed9ff9642f0c75755d}\label{class_win_forms_app1_1_1_list_storage_1_1_position_a0988d1c851ff7aed9ff9642f0c75755d}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!Add@{Add}}
+\index{Add@{Add}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.Add (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})}
+
+
+
+Добавляет элемент в список. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Добавляемый элемент. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_a81ae247d1950cfc4154b3c51f618f45e}\label{class_win_forms_app1_1_1_list_storage_1_1_position_a81ae247d1950cfc4154b3c51f618f45e}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!FillArray@{FillArray}}
+\index{FillArray@{FillArray}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{FillArray()}{FillArray()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.Fill\+Array (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{array,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Заполняет массив, начиная с указанной позиции, элементами данного списка. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em array} & Массив для заполнения. \\
+\hline
+{\em pos} & Позиция для начала заполнения. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Позицию, на которой было завершено заполнение. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_abc14090ce44164275d6544c90a58b3ee}\label{class_win_forms_app1_1_1_list_storage_1_1_position_abc14090ce44164275d6544c90a58b3ee}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.Remove (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})}
+
+
+
+Удаляет элемент из списка. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Удаляемый элемент. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Возвращает true, если элемент найден и удален, иначе false. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_a207ab3db62f47097016f3996a0b150bc}\label{class_win_forms_app1_1_1_list_storage_1_1_position_a207ab3db62f47097016f3996a0b150bc}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!Size@{Size}}
+\index{Size@{Size}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Size()}{Size()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает длину списка, начинающегося с этой позиции. Работает рекурсивно. 
+
+\begin{DoxyReturn}{Возвращает}
+Длина списка, начинающегося с этой позиции. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_ac119b42e89512b7cd246a6d6b4a7e984}\label{class_win_forms_app1_1_1_list_storage_1_1_position_ac119b42e89512b7cd246a6d6b4a7e984}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!\_element@{\_element}}
+\index{\_element@{\_element}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\_element}{\_element}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.\+\_\+element\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Данное, содержащееся в этой позиции. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_a2e80e2cea529702ce182ff5ccb23ef51}\label{class_win_forms_app1_1_1_list_storage_1_1_position_a2e80e2cea529702ce182ff5ccb23ef51}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!\_next@{\_next}}
+\index{\_next@{\_next}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\_next}{\_next}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$T$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.\+\_\+next\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Следующий элемент списка. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_a18614fac450cf1a620729dd81fde386a}\label{class_win_forms_app1_1_1_list_storage_1_1_position_a18614fac450cf1a620729dd81fde386a}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!Element@{Element}}
+\index{Element@{Element}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Element}{Element}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.Element =$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_ac119b42e89512b7cd246a6d6b4a7e984}{\+\_\+element}}}
+
+
+
+Публичный геттер для элемента, находящегося в позиции. 
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_list_storage_1_1_position_a401edadc94769944f81c56554891cdfb}\label{class_win_forms_app1_1_1_list_storage_1_1_position_a401edadc94769944f81c56554891cdfb}} 
+\index{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}!Next@{Next}}
+\index{Next@{Next}!WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$@{WinFormsApp1.ListStorage$<$ K, V $>$.Position$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Next}{Next}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$T$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage}{Win\+Forms\+App1.\+List\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position}{Position}}$<$ T $>$.Next =$>$ \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_1_1_position_a2e80e2cea529702ce182ff5ccb23ef51}{\+\_\+next}}}
+
+
+
+Публичный геттер для следующей позиции. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+List\+Storage.\+cs\end{DoxyCompactItemize}

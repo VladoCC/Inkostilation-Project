@@ -1,0 +1,101 @@
+\indexentry{WindowsFormsApp1@{WindowsFormsApp1}|hyperpage}{7}
+\indexentry{WinFormsApp1@{WinFormsApp1}|hyperpage}{8}
+\indexentry{WindowsFormsApp1.BubbleSorter$<$ T $>$@{WindowsFormsApp1.BubbleSorter$<$ T $>$}|hyperpage}{9}
+\indexentry{WindowsFormsApp1.BubbleSorter$<$ T $>$@{WindowsFormsApp1.BubbleSorter$<$ T $>$}!Sort@{Sort}|hyperpage}{10}
+\indexentry{Sort@{Sort}!WindowsFormsApp1.BubbleSorter$<$ T $>$@{WindowsFormsApp1.BubbleSorter$<$ T $>$}|hyperpage}{10}
+\indexentry{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}|hyperpage}{10}
+\indexentry{WindowsFormsApp1.ClientFound@{WindowsFormsApp1.ClientFound}|hyperpage}{11}
+\indexentry{WindowsFormsApp1.ClientFound@{WindowsFormsApp1.ClientFound}!Dispose@{Dispose}|hyperpage}{11}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.ClientFound@{WindowsFormsApp1.ClientFound}|hyperpage}{11}
+\indexentry{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}|hyperpage}{12}
+\indexentry{WinFormsApp1.DoubleHashStorage$<$ K, V $>$@{WinFormsApp1.DoubleHashStorage$<$ K, V $>$}|hyperpage}{13}
+\indexentry{WindowsFormsApp1.ErrorForm@{WindowsFormsApp1.ErrorForm}|hyperpage}{13}
+\indexentry{WindowsFormsApp1.ErrorForm@{WindowsFormsApp1.ErrorForm}!Dispose@{Dispose}|hyperpage}{13}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.ErrorForm@{WindowsFormsApp1.ErrorForm}|hyperpage}{13}
+\indexentry{WindowsFormsApp1.GUI@{WindowsFormsApp1.GUI}|hyperpage}{14}
+\indexentry{WindowsFormsApp1.GUI@{WindowsFormsApp1.GUI}!Dispose@{Dispose}|hyperpage}{14}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.GUI@{WindowsFormsApp1.GUI}|hyperpage}{14}
+\indexentry{WinFormsApp1.HashFunction$<$ T $>$@{WinFormsApp1.HashFunction$<$ T $>$}|hyperpage}{15}
+\indexentry{WinFormsApp1.HashMap$<$ K, V $>$@{WinFormsApp1.HashMap$<$ K, V $>$}|hyperpage}{15}
+\indexentry{WindowsFormsApp1.HashMap1Dialog@{WindowsFormsApp1.HashMap1Dialog}|hyperpage}{16}
+\indexentry{WindowsFormsApp1.HashMap1Dialog@{WindowsFormsApp1.HashMap1Dialog}!Dispose@{Dispose}|hyperpage}{16}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.HashMap1Dialog@{WindowsFormsApp1.HashMap1Dialog}|hyperpage}{16}
+\indexentry{WindowsFormsApp1.HashMap2Dialog@{WindowsFormsApp1.HashMap2Dialog}|hyperpage}{16}
+\indexentry{WindowsFormsApp1.HashMap2Dialog@{WindowsFormsApp1.HashMap2Dialog}!Dispose@{Dispose}|hyperpage}{17}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.HashMap2Dialog@{WindowsFormsApp1.HashMap2Dialog}|hyperpage}{17}
+\indexentry{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}|hyperpage}{17}
+\indexentry{WinFormsApp1.IElement@{WinFormsApp1.IElement}|hyperpage}{18}
+\indexentry{WinFormsApp1.IElement@{WinFormsApp1.IElement}!Compare@{Compare}|hyperpage}{18}
+\indexentry{Compare@{Compare}!WinFormsApp1.IElement@{WinFormsApp1.IElement}|hyperpage}{18}
+\indexentry{WinFormsApp1.IKeyedElement$<$ K $>$@{WinFormsApp1.IKeyedElement$<$ K $>$}|hyperpage}{19}
+\indexentry{WinFormsApp1.IKeyedElement$<$ K $>$@{WinFormsApp1.IKeyedElement$<$ K $>$}!GetKey@{GetKey}|hyperpage}{19}
+\indexentry{GetKey@{GetKey}!WinFormsApp1.IKeyedElement$<$ K $>$@{WinFormsApp1.IKeyedElement$<$ K $>$}|hyperpage}{19}
+\indexentry{WindowsFormsApp1.ISorter$<$ T $>$@{WindowsFormsApp1.ISorter$<$ T $>$}|hyperpage}{20}
+\indexentry{WindowsFormsApp1.ISorter$<$ T $>$@{WindowsFormsApp1.ISorter$<$ T $>$}!Sort@{Sort}|hyperpage}{20}
+\indexentry{Sort@{Sort}!WindowsFormsApp1.ISorter$<$ T $>$@{WindowsFormsApp1.ISorter$<$ T $>$}|hyperpage}{20}
+\indexentry{WindowsFormsApp1.KeyedSearchQuery$<$ K, V $>$@{WindowsFormsApp1.KeyedSearchQuery$<$ K, V $>$}|hyperpage}{21}
+\indexentry{WinFormsApp1.ListStorage$<$ K, V $>$@{WinFormsApp1.ListStorage$<$ K, V $>$}|hyperpage}{21}
+\indexentry{WindowsFormsApp1.Machine@{WindowsFormsApp1.Machine}|hyperpage}{22}
+\indexentry{WindowsFormsApp1.MachineFound@{WindowsFormsApp1.MachineFound}|hyperpage}{22}
+\indexentry{WindowsFormsApp1.MachineFound@{WindowsFormsApp1.MachineFound}!Dispose@{Dispose}|hyperpage}{23}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.MachineFound@{WindowsFormsApp1.MachineFound}|hyperpage}{23}
+\indexentry{WindowsFormsApp1.ModFunction@{WindowsFormsApp1.ModFunction}|hyperpage}{23}
+\indexentry{WindowsFormsApp1.RB$<$ T $>$.Node$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$.Node$<$ T $>$}|hyperpage}{24}
+\indexentry{WindowsFormsApp1.OddFunction@{WindowsFormsApp1.OddFunction}|hyperpage}{24}
+\indexentry{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}|hyperpage}{25}
+\indexentry{WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}!Compare@{Compare}|hyperpage}{25}
+\indexentry{Compare@{Compare}!WindowsFormsApp1.Operation@{WindowsFormsApp1.Operation}|hyperpage}{25}
+\indexentry{WindowsFormsApp1.operationFound@{WindowsFormsApp1.operationFound}|hyperpage}{26}
+\indexentry{WindowsFormsApp1.operationFound@{WindowsFormsApp1.operationFound}!Dispose@{Dispose}|hyperpage}{26}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.operationFound@{WindowsFormsApp1.operationFound}|hyperpage}{26}
+\indexentry{WindowsFormsApp1.OperationsOfClient@{WindowsFormsApp1.OperationsOfClient}|hyperpage}{26}
+\indexentry{WindowsFormsApp1.OperationsOfClient@{WindowsFormsApp1.OperationsOfClient}!Dispose@{Dispose}|hyperpage}{27}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.OperationsOfClient@{WindowsFormsApp1.OperationsOfClient}|hyperpage}{27}
+\indexentry{WindowsFormsApp1.OperationsOfMachine@{WindowsFormsApp1.OperationsOfMachine}|hyperpage}{27}
+\indexentry{WindowsFormsApp1.OperationsOfMachine@{WindowsFormsApp1.OperationsOfMachine}!Dispose@{Dispose}|hyperpage}{28}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.OperationsOfMachine@{WindowsFormsApp1.OperationsOfMachine}|hyperpage}{28}
+\indexentry{WindowsFormsApp1.Percent@{WindowsFormsApp1.Percent}|hyperpage}{28}
+\indexentry{WindowsFormsApp1.Percent@{WindowsFormsApp1.Percent}!Compare@{Compare}|hyperpage}{29}
+\indexentry{Compare@{Compare}!WindowsFormsApp1.Percent@{WindowsFormsApp1.Percent}|hyperpage}{29}
+\indexentry{WindowsFormsApp1.percentFound@{WindowsFormsApp1.percentFound}|hyperpage}{29}
+\indexentry{WindowsFormsApp1.percentFound@{WindowsFormsApp1.percentFound}!Dispose@{Dispose}|hyperpage}{30}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.percentFound@{WindowsFormsApp1.percentFound}|hyperpage}{30}
+\indexentry{WindowsFormsApp1.PercentsOfMachine@{WindowsFormsApp1.PercentsOfMachine}|hyperpage}{30}
+\indexentry{WindowsFormsApp1.PercentsOfMachine@{WindowsFormsApp1.PercentsOfMachine}!Dispose@{Dispose}|hyperpage}{31}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.PercentsOfMachine@{WindowsFormsApp1.PercentsOfMachine}|hyperpage}{31}
+\indexentry{WindowsFormsApp1.PercentsOfOperation@{WindowsFormsApp1.PercentsOfOperation}|hyperpage}{31}
+\indexentry{WindowsFormsApp1.PercentsOfOperation@{WindowsFormsApp1.PercentsOfOperation}!Dispose@{Dispose}|hyperpage}{31}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.PercentsOfOperation@{WindowsFormsApp1.PercentsOfOperation}|hyperpage}{31}
+\indexentry{WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}|hyperpage}{32}
+\indexentry{WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}!Sort@{Sort}|hyperpage}{32}
+\indexentry{Sort@{Sort}!WindowsFormsApp1.QuickLastSorter$<$ T $>$@{WindowsFormsApp1.QuickLastSorter$<$ T $>$}|hyperpage}{32}
+\indexentry{WindowsFormsApp1.QuickStackSorter$<$ T $>$@{WindowsFormsApp1.QuickStackSorter$<$ T $>$}|hyperpage}{33}
+\indexentry{WindowsFormsApp1.QuickStackSorter$<$ T $>$@{WindowsFormsApp1.QuickStackSorter$<$ T $>$}!Sort@{Sort}|hyperpage}{33}
+\indexentry{Sort@{Sort}!WindowsFormsApp1.QuickStackSorter$<$ T $>$@{WindowsFormsApp1.QuickStackSorter$<$ T $>$}|hyperpage}{33}
+\indexentry{WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}|hyperpage}{33}
+\indexentry{WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}!RB@{RB}|hyperpage}{34}
+\indexentry{RB@{RB}!WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}|hyperpage}{34}
+\indexentry{WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}!Delete@{Delete}|hyperpage}{34}
+\indexentry{Delete@{Delete}!WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}|hyperpage}{34}
+\indexentry{WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}!DisplayTree@{DisplayTree}|hyperpage}{34}
+\indexentry{DisplayTree@{DisplayTree}!WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}|hyperpage}{34}
+\indexentry{WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}!Insert@{Insert}|hyperpage}{35}
+\indexentry{Insert@{Insert}!WindowsFormsApp1.RB$<$ T $>$@{WindowsFormsApp1.RB$<$ T $>$}|hyperpage}{35}
+\indexentry{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}|hyperpage}{35}
+\indexentry{WindowsFormsApp1.SearchQuery$<$ T $>$@{WindowsFormsApp1.SearchQuery$<$ T $>$}|hyperpage}{35}
+\indexentry{WindowsFormsApp1.ShellSorter$<$ T $>$@{WindowsFormsApp1.ShellSorter$<$ T $>$}|hyperpage}{36}
+\indexentry{WindowsFormsApp1.ShellSorter$<$ T $>$@{WindowsFormsApp1.ShellSorter$<$ T $>$}!Sort@{Sort}|hyperpage}{36}
+\indexentry{Sort@{Sort}!WindowsFormsApp1.ShellSorter$<$ T $>$@{WindowsFormsApp1.ShellSorter$<$ T $>$}|hyperpage}{36}
+\indexentry{WindowsFormsApp1.SizeContainer@{WindowsFormsApp1.SizeContainer}|hyperpage}{37}
+\indexentry{WindowsFormsApp1.Splash@{WindowsFormsApp1.Splash}|hyperpage}{37}
+\indexentry{WindowsFormsApp1.Splash@{WindowsFormsApp1.Splash}!Dispose@{Dispose}|hyperpage}{37}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.Splash@{WindowsFormsApp1.Splash}|hyperpage}{37}
+\indexentry{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}|hyperpage}{38}
+\indexentry{WinFormsApp1.Tree$<$ T $>$@{WinFormsApp1.Tree$<$ T $>$}|hyperpage}{38}
+\indexentry{WindowsFormsApp1.Tree1Dialog@{WindowsFormsApp1.Tree1Dialog}|hyperpage}{39}
+\indexentry{WindowsFormsApp1.Tree1Dialog@{WindowsFormsApp1.Tree1Dialog}!Dispose@{Dispose}|hyperpage}{39}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.Tree1Dialog@{WindowsFormsApp1.Tree1Dialog}|hyperpage}{39}
+\indexentry{WindowsFormsApp1.Tree2Dialog@{WindowsFormsApp1.Tree2Dialog}|hyperpage}{40}
+\indexentry{WindowsFormsApp1.Tree2Dialog@{WindowsFormsApp1.Tree2Dialog}!Dispose@{Dispose}|hyperpage}{40}
+\indexentry{Dispose@{Dispose}!WindowsFormsApp1.Tree2Dialog@{WindowsFormsApp1.Tree2Dialog}|hyperpage}{40}
+\indexentry{WindowsFormsApp1.WaterMarkTextBox@{WindowsFormsApp1.WaterMarkTextBox}|hyperpage}{41}

@@ -1,0 +1,239 @@
+.TH "WinFormsApp1.Tree< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.Tree< T > \- Коллекция вида бинарное дерево\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "Классы"
+
+.in +1c
+.ti -1c
+.RI "class \fBPosition\fP"
+.br
+.RI "Вершина дерева, реализующий методы работы с поддервом\&. "
+.in -1c
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "T[] \fBToArray\fP ()"
+.br
+.RI "Преобразует коллекцию в массив элементов\&. "
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.RI "Возвращает размер коллекции\&. "
+.ti -1c
+.RI "void \fBAdd\fP (T element)"
+.br
+.RI "Добавляет элемент в коллекцию\&. "
+.ti -1c
+.RI "bool \fBRemove\fP (T element)"
+.br
+.RI "Удаляет элемент из коллекии\&. "
+.ti -1c
+.RI "void \fBFind\fP (\fBSearchQuery\fP< T > query)"
+.br
+.RI "Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. "
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "int \fBFillArray\fP (T[] arr, int index, \fBPosition\fP< T > pos)"
+.br
+.ti -1c
+.RI "void \fBAdd\fP (\fBPosition\fP< T > parent, T element)"
+.br
+.RI "Внутренний рекурсивный метод, для добавления элемента\&. "
+.ti -1c
+.RI "bool \fBRemove\fP (\fBPosition\fP< T > position, T element)"
+.br
+.RI "Внутренний рекурсивный метод, для удаления элемента\&. "
+.ti -1c
+.RI "\fBPosition\fP< T > \fBMax\fP (\fBPosition\fP< T > parent)"
+.br
+.RI "Ищет максимальный элемент дерева, начинающегося с указанной позиции\&. "
+.ti -1c
+.RI "void \fBFind\fP (\fBPosition\fP< T > position, \fBSearchQuery\fP< T > query)"
+.br
+.RI "Внутренний рекурсивный метод, для поиска элемента\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBPosition\fP< T > \fB_root\fP"
+.br
+.RI "Корень дерева\&. "
+.ti -1c
+.RI "int \fB_size\fP = 0"
+.br
+.RI "Размер дерева\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Коллекция вида бинарное дерево\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип данных, хранимых в бинарном дереве\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIT\fP : \fI\fBIElement\fP\fP
+.SH "Методы"
+.PP 
+.SS "void \fBWinFormsApp1\&.Tree\fP< T >\&.Add (\fBPosition\fP< T > parent, T element)\fC [private]\fP"
+
+.PP
+Внутренний рекурсивный метод, для добавления элемента\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIparent\fP Родительская ячейка\&. 
+.br
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.SS "void \fBWinFormsApp1\&.Tree\fP< T >\&.Add (T element)"
+
+.PP
+Добавляет элемент в коллекцию\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "void \fBWinFormsApp1\&.Tree\fP< T >\&.Find (\fBPosition\fP< T > position, \fBSearchQuery\fP< T > query)\fC [private]\fP"
+
+.PP
+Внутренний рекурсивный метод, для поиска элемента\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIposition\fP Ячейка для проверки\&. 
+.br
+\fIquery\fP Поисковый запрос\&. 
+.RE
+.PP
+
+.SS "void \fBWinFormsApp1\&.Tree\fP< T >\&.Find (\fBSearchQuery\fP< T > query)"
+
+.PP
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIquery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "\fBPosition\fP<T> \fBWinFormsApp1\&.Tree\fP< T >\&.Max (\fBPosition\fP< T > parent)\fC [private]\fP"
+
+.PP
+Ищет максимальный элемент дерева, начинающегося с указанной позиции\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIparent\fP Корневой элемент дерева\&. в котором ведется поиск\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Максимальный элемент в дереве\&. 
+.RE
+.PP
+
+.SS "bool \fBWinFormsApp1\&.Tree\fP< T >\&.Remove (\fBPosition\fP< T > position, T element)\fC [private]\fP"
+
+.PP
+Внутренний рекурсивный метод, для удаления элемента\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIposition\fP Ячейка для проверки\&. 
+.br
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+.RE
+.PP
+
+.SS "bool \fBWinFormsApp1\&.Tree\fP< T >\&.Remove (T element)"
+
+.PP
+Удаляет элемент из коллекии\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true, если элемент найден и удален, иначе false\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "int \fBWinFormsApp1\&.Tree\fP< T >\&.Size ()"
+
+.PP
+Возвращает размер коллекции\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Размер коллекции\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "T [] \fBWinFormsApp1\&.Tree\fP< T >\&.ToArray ()"
+
+.PP
+Преобразует коллекцию в массив элементов\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив элементов\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "\fBPosition\fP<T> \fBWinFormsApp1\&.Tree\fP< T >\&._root\fC [private]\fP"
+
+.PP
+Корень дерева\&. 
+.SS "int \fBWinFormsApp1\&.Tree\fP< T >\&._size = 0\fC [private]\fP"
+
+.PP
+Размер дерева\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

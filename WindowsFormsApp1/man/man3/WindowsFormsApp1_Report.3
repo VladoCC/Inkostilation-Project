@@ -1,0 +1,153 @@
+.TH "WindowsFormsApp1.Report< K, V >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Report< K, V > \- Отчет о данных, соответствующих запросу\&. Ищет все данные, соответсвующие запросу и сортирует их используя \fBISorter\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Классы"
+
+.in +1c
+.ti -1c
+.RI "class \fBContainer\fP"
+.br
+.RI "Котейнер, являющийся первым элементом списка и предоставляющий методы работы со списком\&. "
+.in -1c
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBReport\fP (K key, \fBISorter\fP< V > sorter)"
+.br
+.RI "Конструктор, позволяющий инициализировать запрос на создание отчета\&. "
+.ti -1c
+.RI "void \fBAdd\fP (V element)"
+.br
+.RI "Добавляет элемент в отчет\&. "
+.ti -1c
+.RI "V[] \fBData\fP ()"
+.br
+.RI "Предоставляет данные, хранящиеся в отчете в виде массива\&. "
+.ti -1c
+.RI "int \fBDataSize\fP ()"
+.br
+.RI "Возвращает количество элементов в отчете\&. "
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "K \fBKey\fP => \fB_key\fP"
+.br
+.RI "Публичный геттер для предоставленного в запросе данного\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "K \fB_key\fP"
+.br
+.RI "Данное, предоставленное в качестве запроса\&. "
+.ti -1c
+.RI "\fBContainer\fP< V > \fB_root\fP"
+.br
+.RI "Первый элемент списка результирующих данных\&. "
+.ti -1c
+.RI "\fBISorter\fP< V > \fB_sorter\fP"
+.br
+.RI "Объект-сортировщик, применяемый над данными\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Отчет о данных, соответствующих запросу\&. Ищет все данные, соответсвующие запросу и сортирует их используя \fBISorter\fP\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIK\fP Тип данного запроса\&. 
+.br
+\fIV\fP Тип данных для поиска\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIK\fP : \fIIElement\fP
+.TP
+\fIV\fP : \fIIElement\fP
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBReport\fP (K key, \fBISorter\fP< V > sorter)"
+
+.PP
+Конструктор, позволяющий инициализировать запрос на создание отчета\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIkey\fP Данное-запрос, в соответствии с которым создается отчет\&. 
+.br
+\fIsorter\fP Сортировщик результирующих данных\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "void \fBWindowsFormsApp1\&.Report\fP< K, V >\&.Add (V element)"
+
+.PP
+Добавляет элемент в отчет\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.SS "V [] \fBWindowsFormsApp1\&.Report\fP< K, V >\&.Data ()"
+
+.PP
+Предоставляет данные, хранящиеся в отчете в виде массива\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив данных, хранящихся в отчете\&. 
+.RE
+.PP
+
+.SS "int \fBWindowsFormsApp1\&.Report\fP< K, V >\&.DataSize ()"
+
+.PP
+Возвращает количество элементов в отчете\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Количество элементов в отчете\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "K \fBWindowsFormsApp1\&.Report\fP< K, V >\&._key\fC [private]\fP"
+
+.PP
+Данное, предоставленное в качестве запроса\&. 
+.SS "\fBContainer\fP<V> \fBWindowsFormsApp1\&.Report\fP< K, V >\&._root\fC [private]\fP"
+
+.PP
+Первый элемент списка результирующих данных\&. 
+.SS "\fBISorter\fP<V> \fBWindowsFormsApp1\&.Report\fP< K, V >\&._sorter\fC [private]\fP"
+
+.PP
+Объект-сортировщик, применяемый над данными\&. 
+.SS "K \fBWindowsFormsApp1\&.Report\fP< K, V >\&.Key => \fB_key\fP"
+
+.PP
+Публичный геттер для предоставленного в запросе данного\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

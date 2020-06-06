@@ -1,0 +1,144 @@
+.TH "WindowsFormsApp1.Machine" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Machine \- Класс, описывающий банкомат\&. Обладает ключом типа int\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.IKeyedElement< K >\fP и \fBWinFormsApp1\&.IKeyedElement< int >\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBMachine\fP (int machineNumber, string address, string bankName)"
+.br
+.RI "Основной конструктор для создания банкомата\&. "
+.ti -1c
+.RI "int \fBGetKey\fP ()"
+.br
+.RI "Метод, возвращающий ключ данного элемента\&. "
+.ti -1c
+.RI "int \fBCompare\fP (\fBIElement\fP elem)"
+.br
+.RI "Метод, производящий сравнение двух элементов, наследуемых от IElement\&. "
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "int \fBMachineNumber\fP => \fB_machineNumber\fP"
+.br
+.RI "Публичный геттер для номера банкомата\&. "
+.ti -1c
+.RI "string \fBAddress\fP => \fB_address\fP"
+.br
+.RI "Публичный геттер для адреса банкомата\&. "
+.ti -1c
+.RI "string \fBBankName\fP => \fB_bankName\fP"
+.br
+.RI "Публичный геттер для названия обслуживающего банка\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "int \fB_machineNumber\fP"
+.br
+.RI "Номер банкомата\&. Целое число от 1 до 500 включительно\&. "
+.ti -1c
+.RI "string \fB_address\fP"
+.br
+.RI "Адрес банкомата\&. Строка букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные)\&. "
+.ti -1c
+.RI "string \fB_bankName\fP"
+.br
+.RI "Название обслуживающего банка\&. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Класс, описывающий банкомат\&. Обладает ключом типа int\&. 
+
+<int>
+.SH "Конструктор(ы)"
+.PP 
+.SS "WindowsFormsApp1\&.Machine\&.Machine (int machineNumber, string address, string bankName)"
+
+.PP
+Основной конструктор для создания банкомата\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImachineNumber\fP Номер банкомата\&. 
+.br
+\fIaddress\fP Адрес банкомата\&. 
+.br
+\fIbankName\fP Название обслуживающего банка\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "int WindowsFormsApp1\&.Machine\&.Compare (\fBIElement\fP elem)"
+
+.PP
+Метод, производящий сравнение двух элементов, наследуемых от IElement\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelem\fP Элемент, с которым производится сравнение\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отрицательное число, если этот элемент меньше, чем поступающий на вход\&. Ноль, если элементы равны\&. Положительное число, если этот элемент больше, чем поступающий на вход\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.IElement\fP\&.
+.SS "int WindowsFormsApp1\&.Machine\&.GetKey ()"
+
+.PP
+Метод, возвращающий ключ данного элемента\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Ключ типа К\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.IKeyedElement< K >\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "string WindowsFormsApp1\&.Machine\&._address\fC [private]\fP"
+
+.PP
+Адрес банкомата\&. Строка букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные)\&. 
+.SS "string WindowsFormsApp1\&.Machine\&._bankName\fC [private]\fP"
+
+.PP
+Название обслуживающего банка\&. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы\&. 
+.SS "int WindowsFormsApp1\&.Machine\&._machineNumber\fC [private]\fP"
+
+.PP
+Номер банкомата\&. Целое число от 1 до 500 включительно\&. 
+.SS "string WindowsFormsApp1\&.Machine\&.Address => \fB_address\fP"
+
+.PP
+Публичный геттер для адреса банкомата\&. 
+.SS "string WindowsFormsApp1\&.Machine\&.BankName => \fB_bankName\fP"
+
+.PP
+Публичный геттер для названия обслуживающего банка\&. 
+.SS "int WindowsFormsApp1\&.Machine\&.MachineNumber => \fB_machineNumber\fP"
+
+.PP
+Публичный геттер для номера банкомата\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

@@ -1,0 +1,165 @@
+\hypertarget{class_windows_forms_app1_1_1_report}{}\doxysection{Шаблон класса Windows\+Forms\+App1.\+Report$<$ K, V $>$}
+\label{class_windows_forms_app1_1_1_report}\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+
+
+Отчет о данных, соответствующих запросу. Ищет все данные, соответсвующие запросу и сортирует их используя \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}.  
+
+
+\doxysubsection*{Классы}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_windows_forms_app1_1_1_report_1_1_container}{Container}}
+\begin{DoxyCompactList}\small\item\em Котейнер, являющийся первым элементом списка и предоставляющий методы работы со списком. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_report_a372b1c74c24075a379bab6ee31527f05}{Report}} (K key, \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}$<$ V $>$ sorter)
+\begin{DoxyCompactList}\small\item\em Конструктор, позволяющий инициализировать запрос на создание отчета. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_windows_forms_app1_1_1_report_ac9be55006f2698fd0945906f9ec370ff}{Add}} (V element)
+\begin{DoxyCompactList}\small\item\em Добавляет элемент в отчет. \end{DoxyCompactList}\item 
+V\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_windows_forms_app1_1_1_report_addfc7ca789f2b0726af477c965f42ac1}{Data}} ()
+\begin{DoxyCompactList}\small\item\em Предоставляет данные, хранящиеся в отчете в виде массива. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_report_a9d80497c91dbbc3f4f927b0971a8c2af}{Data\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает количество элементов в отчете. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+K \mbox{\hyperlink{class_windows_forms_app1_1_1_report_a471573bbf49d1cfc6b6a824a90a8c6ba}{Key}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_report_a071fef74ac73b782214aa780446b1c32}{\+\_\+key}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для предоставленного в запросе данного. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+K \mbox{\hyperlink{class_windows_forms_app1_1_1_report_a071fef74ac73b782214aa780446b1c32}{\+\_\+key}}
+\begin{DoxyCompactList}\small\item\em Данное, предоставленное в качестве запроса. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_report_1_1_container}{Container}}$<$ V $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_report_a7c8af4973b540a1648353366435a9b79}{\+\_\+root}}
+\begin{DoxyCompactList}\small\item\em Первый элемент списка результирующих данных. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}$<$ V $>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_report_af6e1b3847914014ac7027e5711f38d25}{\+\_\+sorter}}
+\begin{DoxyCompactList}\small\item\em Объект-\/сортировщик, применяемый над данными. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Отчет о данных, соответствующих запросу. Ищет все данные, соответсвующие запросу и сортирует их используя \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em K} & Тип данного запроса. \\
+\hline
+{\em V} & Тип данных для поиска. \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Согласование типов]\begin{description}
+\item[{\em K} : {\em I\+Element}]\item[{\em V} : {\em I\+Element}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_a372b1c74c24075a379bab6ee31527f05}\label{class_windows_forms_app1_1_1_report_a372b1c74c24075a379bab6ee31527f05}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!Report@{Report}}
+\index{Report@{Report}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Report()}{Report()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.\mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Report}} (\begin{DoxyParamCaption}\item[{K}]{key,  }\item[{\mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}$<$ V $>$}]{sorter }\end{DoxyParamCaption})}
+
+
+
+Конструктор, позволяющий инициализировать запрос на создание отчета. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em key} & Данное-\/запрос, в соответствии с которым создается отчет. \\
+\hline
+{\em sorter} & Сортировщик результирующих данных. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_ac9be55006f2698fd0945906f9ec370ff}\label{class_windows_forms_app1_1_1_report_ac9be55006f2698fd0945906f9ec370ff}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!Add@{Add}}
+\index{Add@{Add}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.Add (\begin{DoxyParamCaption}\item[{V}]{element }\end{DoxyParamCaption})}
+
+
+
+Добавляет элемент в отчет. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Добавляемый элемент. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_addfc7ca789f2b0726af477c965f42ac1}\label{class_windows_forms_app1_1_1_report_addfc7ca789f2b0726af477c965f42ac1}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!Data@{Data}}
+\index{Data@{Data}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Data()}{Data()}}
+{\footnotesize\ttfamily V \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Предоставляет данные, хранящиеся в отчете в виде массива. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив данных, хранящихся в отчете. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_a9d80497c91dbbc3f4f927b0971a8c2af}\label{class_windows_forms_app1_1_1_report_a9d80497c91dbbc3f4f927b0971a8c2af}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!DataSize@{DataSize}}
+\index{DataSize@{DataSize}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{DataSize()}{DataSize()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.Data\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает количество элементов в отчете. 
+
+\begin{DoxyReturn}{Возвращает}
+Количество элементов в отчете. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_a071fef74ac73b782214aa780446b1c32}\label{class_windows_forms_app1_1_1_report_a071fef74ac73b782214aa780446b1c32}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!\_key@{\_key}}
+\index{\_key@{\_key}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_key}{\_key}}
+{\footnotesize\ttfamily K \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.\+\_\+key\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Данное, предоставленное в качестве запроса. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_a7c8af4973b540a1648353366435a9b79}\label{class_windows_forms_app1_1_1_report_a7c8af4973b540a1648353366435a9b79}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!\_root@{\_root}}
+\index{\_root@{\_root}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_root}{\_root}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_report_1_1_container}{Container}}$<$V$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.\+\_\+root\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Первый элемент списка результирующих данных. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_af6e1b3847914014ac7027e5711f38d25}\label{class_windows_forms_app1_1_1_report_af6e1b3847914014ac7027e5711f38d25}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!\_sorter@{\_sorter}}
+\index{\_sorter@{\_sorter}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_sorter}{\_sorter}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_windows_forms_app1_1_1_i_sorter}{I\+Sorter}}$<$V$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.\+\_\+sorter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Объект-\/сортировщик, применяемый над данными. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_report_a471573bbf49d1cfc6b6a824a90a8c6ba}\label{class_windows_forms_app1_1_1_report_a471573bbf49d1cfc6b6a824a90a8c6ba}} 
+\index{WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}!Key@{Key}}
+\index{Key@{Key}!WindowsFormsApp1.Report$<$ K, V $>$@{WindowsFormsApp1.Report$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Key}{Key}}
+{\footnotesize\ttfamily K \mbox{\hyperlink{class_windows_forms_app1_1_1_report}{Windows\+Forms\+App1.\+Report}}$<$ K, V $>$.Key =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_report_a071fef74ac73b782214aa780446b1c32}{\+\_\+key}}}
+
+
+
+Публичный геттер для предоставленного в запросе данного. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Report.\+cs\end{DoxyCompactItemize}

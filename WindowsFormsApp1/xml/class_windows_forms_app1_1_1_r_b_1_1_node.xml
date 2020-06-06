@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_r_b_1_1_node" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::RB::Node</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.colour</definition>
+        <argsstring></argsstring>
+        <name>colour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="23" column="26" bodyfile="RB.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1afc40e44c75af107ab8a7afe8f01c819b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref>&lt; T &gt;</type>
+        <definition>Node&lt;T&gt; WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="24" column="25" bodyfile="RB.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a5377e8621d2e7767f08c357db44a8e5f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref>&lt; T &gt;</type>
+        <definition>Node&lt;T&gt; WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="25" column="25" bodyfile="RB.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a3d746bc72305b02a3f9be2fadf0b43bf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref>&lt; T &gt;</type>
+        <definition>Node&lt;T&gt; WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="26" column="25" bodyfile="RB.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a52c44ef4c774456951af52e28fdec596" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="27" column="22" bodyfile="RB.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a51d2c9f282a943fc1beb9cfd6a3bf650" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.Node</definition>
+        <argsstring>(T data)</argsstring>
+        <name>Node</name>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="29" column="20" bodyfile="RB.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a597719bb91a473e6c4fb47185ac14fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.Node</definition>
+        <argsstring>(Color colour)</argsstring>
+        <name>Node</name>
+        <param>
+          <type>Color</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="30" column="20" bodyfile="RB.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a33897e4f2acc0c2e89403441a03d57ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.Node</definition>
+        <argsstring>(T data, Color colour)</argsstring>
+        <name>Node</name>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RB.cs" line="31" column="20" bodyfile="RB.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Object of type <ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref> contains 4 properties Colour Left Right Parent Data </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="RB.cs" line="21" column="15" bodyfile="RB.cs" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>colour</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a52c44ef4c774456951af52e28fdec596" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>data</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1afc40e44c75af107ab8a7afe8f01c819b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>left</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a51d2c9f282a943fc1beb9cfd6a3bf650" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>Node</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a597719bb91a473e6c4fb47185ac14fd5" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>Node</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a33897e4f2acc0c2e89403441a03d57ca" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>Node</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a3d746bc72305b02a3f9be2fadf0b43bf" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>parent</name></member>
+      <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a5377e8621d2e7767f08c357db44a8e5f" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>right</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

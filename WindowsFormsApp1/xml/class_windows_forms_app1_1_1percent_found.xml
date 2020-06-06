@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1percent_found" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::percentFound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1ad2bf9ba290f4d69eed3daa3120b498bc" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.percentFound.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="8" column="48" bodyfile="percentFound.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a0d7b0be563936deb3d4804007ffc225e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.percentFound.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="157" column="41" bodyfile="percentFound.Designer.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1adf299bd5b6d3698726196a2fb3935919" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.percentFound.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="158" column="41" bodyfile="percentFound.Designer.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a118b52648e937e5f758cb739a0c91dd0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.percentFound.Тип</definition>
+        <argsstring></argsstring>
+        <name>Тип</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="160" column="61" bodyfile="percentFound.Designer.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a59d2f51ac14a4a607f76533f314a52fc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.percentFound.Отправитель</definition>
+        <argsstring></argsstring>
+        <name>Отправитель</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="161" column="61" bodyfile="percentFound.Designer.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a31d52ca3c8b945d490ea8a117b5c31e5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.percentFound.Получатель</definition>
+        <argsstring></argsstring>
+        <name>Получатель</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="162" column="61" bodyfile="percentFound.Designer.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a7385c9a32942e2fd51621220d888a20b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.percentFound.Процент</definition>
+        <argsstring></argsstring>
+        <name>Процент</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="163" column="61" bodyfile="percentFound.Designer.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a7e6a5d70d86388a5e1a0eb2af2bdd155" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView WindowsFormsApp1.percentFound.percentResults</definition>
+        <argsstring></argsstring>
+        <name>percentResults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="156" column="47" bodyfile="percentFound.Designer.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.percentFound.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="159" column="40" bodyfile="percentFound.Designer.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1percent_found_1a3c7f3676887f253c66bf86286b76b0f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.percentFound.percentFound</definition>
+        <argsstring>()</argsstring>
+        <name>percentFound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.cs" line="15" column="16" bodyfile="percentFound.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1percent_found_1acf486a467d0d3c79c741020736685099" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.percentFound.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="14" column="33" bodyfile="percentFound.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.percentFound.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="percentFound.Designer.cs" line="29" column="22" bodyfile="percentFound.Designer.cs" bodystart="29" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.percentFound</label>
+        <link refid="class_windows_forms_app1_1_1percent_found"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.percentFound</label>
+        <link refid="class_windows_forms_app1_1_1percent_found"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>label3</edgelabel>
+          <edgelabel>percentResults</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="percentFound.cs" line="13" column="19" bodyfile="percentFound.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1percent_found_1ad2bf9ba290f4d69eed3daa3120b498bc" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1acf486a467d0d3c79c741020736685099" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1adf299bd5b6d3698726196a2fb3935919" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>label1</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a0d7b0be563936deb3d4804007ffc225e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>label2</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>label3</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a3c7f3676887f253c66bf86286b76b0f4" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>percentFound</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a7e6a5d70d86388a5e1a0eb2af2bdd155" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>percentResults</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a59d2f51ac14a4a607f76533f314a52fc" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>Отправитель</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a31d52ca3c8b945d490ea8a117b5c31e5" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>Получатель</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a7385c9a32942e2fd51621220d888a20b" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>Процент</name></member>
+      <member refid="class_windows_forms_app1_1_1percent_found_1a118b52648e937e5f758cb739a0c91dd0" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::percentFound</scope><name>Тип</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

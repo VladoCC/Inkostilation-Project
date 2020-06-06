@@ -1,0 +1,148 @@
+.TH "WindowsFormsApp1.Operation" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Operation \- Класс, описывающий банковскую операцию\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.IElement\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBOperation\fP (string operationName, int cardNumber, int machineNumber, int sum)"
+.br
+.RI "Основной конструктор для создания банковской операции\&. "
+.ti -1c
+.RI "int \fBCompare\fP (\fBIElement\fP elem)"
+.br
+.RI "Метод, производящий сравнение двух элементов, наследуемых от IElement\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "string \fBOperationName\fP => \fB_operationName\fP"
+.br
+.RI "Публичный геттер для названия операции\&. "
+.ti -1c
+.RI "int \fBCardNumber\fP => \fB_cardNumber\fP"
+.br
+.RI "Публичный геттер для номера карты\&. "
+.ti -1c
+.RI "int \fBMachineNumber\fP => \fB_machineNumber\fP"
+.br
+.RI "Публичный геттер для номера банкомата\&. "
+.ti -1c
+.RI "int \fBSum\fP => \fB_sum\fP"
+.br
+.RI "Публичный геттер для суммы операции\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "string \fB_operationName\fP"
+.br
+.RI "Название операции\&. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные)\&. "
+.ti -1c
+.RI "int \fB_cardNumber\fP"
+.br
+.RI "Номер карты клиента\&. Целое число от 1 до 99999999 включительно\&. "
+.ti -1c
+.RI "int \fB_machineNumber\fP"
+.br
+.RI "Номер банкомата\&. Целое число от 1 до 500 включительно\&. "
+.ti -1c
+.RI "int \fB_sum\fP"
+.br
+.RI "Сумма операции\&. Целое число от 0 до 10000000 включительно\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Класс, описывающий банковскую операцию\&. 
+
+
+.SH "Конструктор(ы)"
+.PP 
+.SS "WindowsFormsApp1\&.Operation\&.Operation (string operationName, int cardNumber, int machineNumber, int sum)"
+
+.PP
+Основной конструктор для создания банковской операции\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperationName\fP 
+.br
+\fIcardNumber\fP 
+.br
+\fImachineNumber\fP 
+.br
+\fIsum\fP 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "int WindowsFormsApp1\&.Operation\&.Compare (\fBIElement\fP elem)"
+
+.PP
+Метод, производящий сравнение двух элементов, наследуемых от IElement\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelem\fP Элемент, с которым производится сравнение\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отрицательное число, если этот элемент меньше, чем поступающий на вход\&. Ноль, если элементы равны\&. Положительное число, если этот элемент больше, чем поступающий на вход\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.IElement\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "int WindowsFormsApp1\&.Operation\&._cardNumber\fC [private]\fP"
+
+.PP
+Номер карты клиента\&. Целое число от 1 до 99999999 включительно\&. 
+.SS "int WindowsFormsApp1\&.Operation\&._machineNumber\fC [private]\fP"
+
+.PP
+Номер банкомата\&. Целое число от 1 до 500 включительно\&. 
+.SS "string WindowsFormsApp1\&.Operation\&._operationName\fC [private]\fP"
+
+.PP
+Название операции\&. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные)\&. 
+.SS "int WindowsFormsApp1\&.Operation\&._sum\fC [private]\fP"
+
+.PP
+Сумма операции\&. Целое число от 0 до 10000000 включительно\&. 
+.SS "int WindowsFormsApp1\&.Operation\&.CardNumber => \fB_cardNumber\fP"
+
+.PP
+Публичный геттер для номера карты\&. 
+.SS "int WindowsFormsApp1\&.Operation\&.MachineNumber => \fB_machineNumber\fP"
+
+.PP
+Публичный геттер для номера банкомата\&. 
+.SS "string WindowsFormsApp1\&.Operation\&.OperationName => \fB_operationName\fP"
+
+.PP
+Публичный геттер для названия операции\&. 
+.SS "int WindowsFormsApp1\&.Operation\&.Sum => \fB_sum\fP"
+
+.PP
+Публичный геттер для суммы операции\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

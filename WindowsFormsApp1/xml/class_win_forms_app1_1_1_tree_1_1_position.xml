@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_win_forms_app1_1_1_tree_1_1_position" kind="class" language="C#" prot="private">
+    <compoundname>WinFormsApp1::Tree::Position</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1a16741625bd9ac75b9ce2509b59ba1dec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="276" column="22" bodyfile="Tree.cs" bodystart="276" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1a1963fb1df6e1f45c61b3f3e4251fc356" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Position&lt; T &gt;</type>
+        <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.LeftChild</definition>
+        <argsstring></argsstring>
+        <name>LeftChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="278" column="29" bodyfile="Tree.cs" bodystart="278" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1ab7b8ffa38b7a623d5ba5b4cd8a34f48a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Position&lt; T &gt;</type>
+        <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.RightChild</definition>
+        <argsstring></argsstring>
+        <name>RightChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="280" column="29" bodyfile="Tree.cs" bodystart="280" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1a1a5a5f5221df1b163517e9a519d56909" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Position&lt; T &gt;</type>
+        <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.CenterChild</definition>
+        <argsstring></argsstring>
+        <name>CenterChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="282" column="29" bodyfile="Tree.cs" bodystart="282" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1ab3ec8c98be54effcc576e8c200f80a19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Position&lt; T &gt;</type>
+        <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="284" column="29" bodyfile="Tree.cs" bodystart="284" bodyend="284"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1_1_position_1af7e0bfd513fdff40f491cf36d79c35bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.Position</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Position</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="271" column="20" bodyfile="Tree.cs" bodystart="271" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tree.cs" line="269" column="9" bodyfile="Tree.cs" bodystart="270" bodyend="285"/>
+    <listofallmembers>
+      <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a1a5a5f5221df1b163517e9a519d56909" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>CenterChild</name></member>
+      <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a16741625bd9ac75b9ce2509b59ba1dec" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>Element</name></member>
+      <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a1963fb1df6e1f45c61b3f3e4251fc356" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>LeftChild</name></member>
+      <member refid="class_win_forms_app1_1_1_tree_1_1_position_1ab3ec8c98be54effcc576e8c200f80a19" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>Parent</name></member>
+      <member refid="class_win_forms_app1_1_1_tree_1_1_position_1af7e0bfd513fdff40f491cf36d79c35bb" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>Position</name></member>
+      <member refid="class_win_forms_app1_1_1_tree_1_1_position_1ab7b8ffa38b7a623d5ba5b4cd8a34f48a" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>RightChild</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

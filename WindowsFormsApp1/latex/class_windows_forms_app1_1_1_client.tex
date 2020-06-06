@@ -1,0 +1,177 @@
+\hypertarget{class_windows_forms_app1_1_1_client}{}\doxysection{Класс Windows\+Forms\+App1.\+Client}
+\label{class_windows_forms_app1_1_1_client}\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+
+
+Класс, описывающий клиента банковской системы. Обладает ключом типа int.  
+
+
+Граф наследования\+:Windows\+Forms\+App1.\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_windows_forms_app1_1_1_client}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_client_a553bdd58e3942e532787a6c10c0292ab}{Client}} (int card\+Number, string bank\+Name, string name)
+\begin{DoxyCompactList}\small\item\em Основной конструктор для создания клиента. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a123281db04c626d34b64f94128a6b372}{Get\+Key}} ()
+\begin{DoxyCompactList}\small\item\em Метод, возвращающий ключ данного элемента. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a7708d33da398c607a8296a24c8d7a54e}{Compare}} (\mbox{\hyperlink{interface_win_forms_app1_1_1_i_element}{I\+Element}} elem)
+\begin{DoxyCompactList}\small\item\em Метод, производящий сравнение двух элементов, наследуемых от I\+Element. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a95db991b40b5e652fd2b727c813331bc}{Card\+Number}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client_ae2707b3f719cdd468c28603c817ef3d4}{\+\_\+card\+Number}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для номера карты. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_client_aa7ef74feea3a6ed54d3f411c87343973}{Bank\+Name}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a4ff363e0e76d460165e056dd1331a5d6}{\+\_\+bank\+Name}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для названия обслуживающего банка. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a05bb4e48163240869b0e2170aa748dd2}{Name}} =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a853e985f58fcc253952c948829335f4e}{\+\_\+name}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер для имени клиента. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_windows_forms_app1_1_1_client_ae2707b3f719cdd468c28603c817ef3d4}{\+\_\+card\+Number}}
+\begin{DoxyCompactList}\small\item\em Номер карты клиента. Целое число от 1 до 99999999 включительно. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a4ff363e0e76d460165e056dd1331a5d6}{\+\_\+bank\+Name}}
+\begin{DoxyCompactList}\small\item\em Название обслуживающего банка. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a853e985f58fcc253952c948829335f4e}{\+\_\+name}}
+\begin{DoxyCompactList}\small\item\em Имя клиента. Строка букв русского алфавита, в которой могут присутствовать разделительные символы, длиной не более 40 символов, начинающаяся с заглавной буквы. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс, описывающий клиента банковской системы. Обладает ключом типа int. 
+
+$<$int$>$
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a553bdd58e3942e532787a6c10c0292ab}\label{class_windows_forms_app1_1_1_client_a553bdd58e3942e532787a6c10c0292ab}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!Client@{Client}}
+\index{Client@{Client}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{Client()}{Client()}}
+{\footnotesize\ttfamily Windows\+Forms\+App1.\+Client.\+Client (\begin{DoxyParamCaption}\item[{int}]{card\+Number,  }\item[{string}]{bank\+Name,  }\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Основной конструктор для создания клиента. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em card\+Number} & Номер карты клиента. \\
+\hline
+{\em bank\+Name} & Название обслуживающего банка. \\
+\hline
+{\em name} & Имя клиента. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a7708d33da398c607a8296a24c8d7a54e}\label{class_windows_forms_app1_1_1_client_a7708d33da398c607a8296a24c8d7a54e}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!Compare@{Compare}}
+\index{Compare@{Compare}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{Compare()}{Compare()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Client.\+Compare (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_win_forms_app1_1_1_i_element}{I\+Element}}}]{elem }\end{DoxyParamCaption})}
+
+
+
+Метод, производящий сравнение двух элементов, наследуемых от I\+Element. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em elem} & Элемент, с которым производится сравнение. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отрицательное число, если этот элемент меньше, чем поступающий на вход. Ноль, если элементы равны. Положительное число, если этот элемент больше, чем поступающий на вход. 
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{interface_win_forms_app1_1_1_i_element_a2b9820357d065c06d16b3a9c84def646}{Win\+Forms\+App1.\+I\+Element}}.
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a123281db04c626d34b64f94128a6b372}\label{class_windows_forms_app1_1_1_client_a123281db04c626d34b64f94128a6b372}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!GetKey@{GetKey}}
+\index{GetKey@{GetKey}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{GetKey()}{GetKey()}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Client.\+Get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод, возвращающий ключ данного элемента. 
+
+\begin{DoxyReturn}{Возвращает}
+Ключ типа К. 
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{interface_win_forms_app1_1_1_i_keyed_element_af9c5523614856af4184fa3f48d40b942}{Win\+Forms\+App1.\+I\+Keyed\+Element$<$ K $>$}}.
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a4ff363e0e76d460165e056dd1331a5d6}\label{class_windows_forms_app1_1_1_client_a4ff363e0e76d460165e056dd1331a5d6}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!\_bankName@{\_bankName}}
+\index{\_bankName@{\_bankName}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{\_bankName}{\_bankName}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Client.\+\_\+bank\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Название обслуживающего банка. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_ae2707b3f719cdd468c28603c817ef3d4}\label{class_windows_forms_app1_1_1_client_ae2707b3f719cdd468c28603c817ef3d4}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!\_cardNumber@{\_cardNumber}}
+\index{\_cardNumber@{\_cardNumber}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{\_cardNumber}{\_cardNumber}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Client.\+\_\+card\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Номер карты клиента. Целое число от 1 до 99999999 включительно. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a853e985f58fcc253952c948829335f4e}\label{class_windows_forms_app1_1_1_client_a853e985f58fcc253952c948829335f4e}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!\_name@{\_name}}
+\index{\_name@{\_name}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{\_name}{\_name}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Client.\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Имя клиента. Строка букв русского алфавита, в которой могут присутствовать разделительные символы, длиной не более 40 символов, начинающаяся с заглавной буквы. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_aa7ef74feea3a6ed54d3f411c87343973}\label{class_windows_forms_app1_1_1_client_aa7ef74feea3a6ed54d3f411c87343973}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!BankName@{BankName}}
+\index{BankName@{BankName}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{BankName}{BankName}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Client.\+Bank\+Name =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a4ff363e0e76d460165e056dd1331a5d6}{\+\_\+bank\+Name}}}
+
+
+
+Публичный геттер для названия обслуживающего банка. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a95db991b40b5e652fd2b727c813331bc}\label{class_windows_forms_app1_1_1_client_a95db991b40b5e652fd2b727c813331bc}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!CardNumber@{CardNumber}}
+\index{CardNumber@{CardNumber}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{CardNumber}{CardNumber}}
+{\footnotesize\ttfamily int Windows\+Forms\+App1.\+Client.\+Card\+Number =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client_ae2707b3f719cdd468c28603c817ef3d4}{\+\_\+card\+Number}}}
+
+
+
+Публичный геттер для номера карты. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_client_a05bb4e48163240869b0e2170aa748dd2}\label{class_windows_forms_app1_1_1_client_a05bb4e48163240869b0e2170aa748dd2}} 
+\index{WindowsFormsApp1.Client@{WindowsFormsApp1.Client}!Name@{Name}}
+\index{Name@{Name}!WindowsFormsApp1.Client@{WindowsFormsApp1.Client}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Client.\+Name =$>$ \mbox{\hyperlink{class_windows_forms_app1_1_1_client_a853e985f58fcc253952c948829335f4e}{\+\_\+name}}}
+
+
+
+Публичный геттер для имени клиента. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Client.\+cs\end{DoxyCompactItemize}

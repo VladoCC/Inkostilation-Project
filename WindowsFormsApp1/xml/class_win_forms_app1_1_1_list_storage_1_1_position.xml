@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_win_forms_app1_1_1_list_storage_1_1_position" kind="class" language="C#" prot="private">
+    <compoundname>WinFormsApp1::ListStorage::Position</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a2e80e2cea529702ce182ff5ccb23ef51" prot="private" static="no" mutable="no">
+        <type>Position&lt; T &gt;</type>
+        <definition>Position&lt;T&gt; WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;._next</definition>
+        <argsstring></argsstring>
+        <name>_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="110" column="30" bodyfile="ListStorage.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1ac119b42e89512b7cd246a6d6b4a7e984" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;._element</definition>
+        <argsstring></argsstring>
+        <name>_element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="111" column="23" bodyfile="ListStorage.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a18614fac450cf1a620729dd81fde386a" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <initializer>=&gt; _element</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="113" column="22" bodyfile="ListStorage.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" prot="public" static="no" mutable="no">
+        <type>Position&lt; T &gt;</type>
+        <definition>Position&lt;T&gt; WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Next</definition>
+        <argsstring></argsstring>
+        <name>Next</name>
+        <initializer>=&gt; _next</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="115" column="29" bodyfile="ListStorage.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1af5c0de3fe9e823ba3770b22e8805748f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Position</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Position</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="117" column="20" bodyfile="ListStorage.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a207ab3db62f47097016f3996a0b150bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="122" column="24" bodyfile="ListStorage.cs" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Add</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="131" column="25" bodyfile="ListStorage.cs" bodystart="131" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Remove</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="143" column="25" bodyfile="ListStorage.cs" bodystart="143" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.FillArray</definition>
+        <argsstring>(T[] array, int pos)</argsstring>
+        <name>FillArray</name>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="161" column="24" bodyfile="ListStorage.cs" bodystart="161" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ListStorage.cs" line="108" column="16" bodyfile="ListStorage.cs" bodystart="109" bodyend="170"/>
+    <listofallmembers>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1ac119b42e89512b7cd246a6d6b4a7e984" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>_element</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a2e80e2cea529702ce182ff5ccb23ef51" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>_next</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>Add</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a18614fac450cf1a620729dd81fde386a" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>Element</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>FillArray</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>Next</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1af5c0de3fe9e823ba3770b22e8805748f" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>Position</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>Remove</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a207ab3db62f47097016f3996a0b150bc" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

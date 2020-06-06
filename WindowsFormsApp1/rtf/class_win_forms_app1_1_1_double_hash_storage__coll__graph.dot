@@ -1,0 +1,16 @@
+digraph "WinFormsApp1.DoubleHashStorage&lt; K, V &gt;"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="WinFormsApp1.DoubleHashStorage\l\< K, V \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Storage\< K, V \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_storage.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _size" ,fontname="Helvetica"];
+  Node3 [label="WindowsFormsApp1.SizeContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_windows_forms_app1_1_1_size_container.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _outsideFunction\n_mainFunction" ,fontname="Helvetica"];
+  Node4 [label="WinFormsApp1.HashFunction\< K \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_function.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< K \>" ,fontname="Helvetica"];
+  Node5 [label="WinFormsApp1.HashFunction\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_win_forms_app1_1_1_hash_function.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _size" ,fontname="Helvetica"];
+}

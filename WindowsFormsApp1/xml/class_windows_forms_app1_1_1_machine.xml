@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_machine" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::Machine</compoundname>
+    <basecompoundref refid="interface_win_forms_app1_1_1_i_keyed_element" prot="public" virt="non-virtual">WinFormsApp1.IKeyedElement&lt; int &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Machine._machineNumber</definition>
+        <argsstring></argsstring>
+        <name>_machineNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="9" column="21" bodyfile="Machine.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Machine._address</definition>
+        <argsstring></argsstring>
+        <name>_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="10" column="24" bodyfile="Machine.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Machine._bankName</definition>
+        <argsstring></argsstring>
+        <name>_bankName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="11" column="24" bodyfile="Machine.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Machine.MachineNumber</definition>
+        <argsstring></argsstring>
+        <name>MachineNumber</name>
+        <initializer>=&gt; _machineNumber</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="31" column="20" bodyfile="Machine.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Machine.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <initializer>=&gt; _address</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="33" column="23" bodyfile="Machine.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Machine.BankName</definition>
+        <argsstring></argsstring>
+        <name>BankName</name>
+        <initializer>=&gt; _bankName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="35" column="23" bodyfile="Machine.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Machine.Machine</definition>
+        <argsstring>(int machineNumber, string address, string bankName)</argsstring>
+        <name>Machine</name>
+        <param>
+          <type>int</type>
+          <declname>machineNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="13" column="16" bodyfile="Machine.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_1a1cce5f01e7e7e4eace9cbc0347f4032a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Machine.GetKey</definition>
+        <argsstring>()</argsstring>
+        <name>GetKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="20" column="20" bodyfile="Machine.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Machine.Compare</definition>
+        <argsstring>(IElement elem)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Machine.cs" line="25" column="20" bodyfile="Machine.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IKeyedElement&lt; int &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Machine</label>
+        <link refid="class_windows_forms_app1_1_1_machine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IKeyedElement&lt; int &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Machine</label>
+        <link refid="class_windows_forms_app1_1_1_machine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Machine.cs" line="7" column="11" bodyfile="Machine.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>_address</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>_bankName</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>_machineNumber</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>Address</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>BankName</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>Compare</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1a1cce5f01e7e7e4eace9cbc0347f4032a" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>GetKey</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>Machine</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>MachineNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

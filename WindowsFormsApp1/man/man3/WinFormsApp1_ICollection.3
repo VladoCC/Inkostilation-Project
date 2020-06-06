@@ -1,0 +1,127 @@
+.TH "WinFormsApp1.ICollection< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.ICollection< T > \- Интерфейс, описывающий методы коллекции данных\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Производные классы:\fBWindowsFormsApp1\&.RB< T >\fP и \fBWinFormsApp1\&.Tree< T >\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "T[] \fBToArray\fP ()"
+.br
+.RI "Преобразует коллекцию в массив элементов\&. "
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.RI "Возвращает размер коллекции\&. "
+.ti -1c
+.RI "void \fBAdd\fP (T element)"
+.br
+.RI "Добавляет элемент в коллекцию\&. "
+.ti -1c
+.RI "bool \fBRemove\fP (T element)"
+.br
+.RI "Удаляет элемент из коллекии\&. "
+.ti -1c
+.RI "void \fBFind\fP (\fBSearchQuery\fP< T > query)"
+.br
+.RI "Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Интерфейс, описывающий методы коллекции данных\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип хранимых данных\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIT\fP : \fI\fBIElement\fP\fP
+.SH "Методы"
+.PP 
+.SS "void \fBWinFormsApp1\&.ICollection\fP< T >\&.Add (T element)"
+
+.PP
+Добавляет элемент в коллекцию\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.RB< T >\fP и \fBWinFormsApp1\&.Tree< T >\fP\&.
+.SS "void \fBWinFormsApp1\&.ICollection\fP< T >\&.Find (\fBSearchQuery\fP< T > query)"
+
+.PP
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIquery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.Tree< T >\fP\&.
+.SS "bool \fBWinFormsApp1\&.ICollection\fP< T >\&.Remove (T element)"
+
+.PP
+Удаляет элемент из коллекии\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true, если элемент найден и удален, иначе false\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.RB< T >\fP и \fBWinFormsApp1\&.Tree< T >\fP\&.
+.SS "int \fBWinFormsApp1\&.ICollection\fP< T >\&.Size ()"
+
+.PP
+Возвращает размер коллекции\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Размер коллекции\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.RB< T >\fP и \fBWinFormsApp1\&.Tree< T >\fP\&.
+.SS "T [] \fBWinFormsApp1\&.ICollection\fP< T >\&.ToArray ()"
+
+.PP
+Преобразует коллекцию в массив элементов\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив элементов\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWindowsFormsApp1\&.RB< T >\fP и \fBWinFormsApp1\&.Tree< T >\fP\&.
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

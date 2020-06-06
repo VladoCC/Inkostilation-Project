@@ -1,0 +1,138 @@
+.TH "WinFormsApp1.HashMap< K, V >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WinFormsApp1.HashMap< K, V >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.ICollection< V >\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBHashMap\fP (\fBHashFunction\fP< K > function, \fBStorage\fP< K, V > storage)"
+.br
+.RI "Конструктор, инициализирующий пустую хэш-таблицу\&. "
+.ti -1c
+.RI "V[] \fBToArray\fP ()"
+.br
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.ti -1c
+.RI "void \fBAdd\fP (V element)"
+.br
+.ti -1c
+.RI "bool \fBRemove\fP (V element)"
+.br
+.ti -1c
+.RI "void \fBFind\fP (\fBSearchQuery\fP< V > query)"
+.br
+.ti -1c
+.RI "void \fBAdd\fP (T element)"
+.br
+.RI "Добавляет элемент в коллекцию\&. "
+.ti -1c
+.RI "bool \fBRemove\fP (T element)"
+.br
+.RI "Удаляет элемент из коллекии\&. "
+.ti -1c
+.RI "void \fBFind\fP (\fBSearchQuery\fP< T > query)"
+.br
+.RI "Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. "
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "\fBHashFunction\fP< K > \fBFunction\fP => \fB_function\fP"
+.br
+.RI "Публичный геттер для хэш-функии\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBHashFunction\fP< K > \fB_function\fP"
+.br
+.RI "Хэш-функция, используемая в данной таблице\&. "
+.ti -1c
+.RI "\fBStorage\fP< K, V > \fB_storage\fP"
+.br
+.RI "Хранилище, используемое в данной таблице для хранения данных\&. "
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWinFormsApp1\&.HashMap\fP< K, V >\&.\fBHashMap\fP (\fBHashFunction\fP< K > function, \fBStorage\fP< K, V > storage)"
+
+.PP
+Конструктор, инициализирующий пустую хэш-таблицу\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIfunction\fP Используемая хэш-функция\&. 
+.br
+\fIstorage\fP Внутренее хранилище\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "void \fBWinFormsApp1\&.ICollection\fP< T >\&.Add (T element)\fC [inherited]\fP"
+
+.PP
+Добавляет элемент в коллекцию\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.SS "void \fBWinFormsApp1\&.ICollection\fP< T >\&.Find (\fBSearchQuery\fP< T > query)\fC [inherited]\fP"
+
+.PP
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIquery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.SS "bool \fBWinFormsApp1\&.ICollection\fP< T >\&.Remove (T element)\fC [inherited]\fP"
+
+.PP
+Удаляет элемент из коллекии\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true, если элемент найден и удален, иначе false\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "\fBHashFunction\fP<K> \fBWinFormsApp1\&.HashMap\fP< K, V >\&._function\fC [private]\fP"
+
+.PP
+Хэш-функция, используемая в данной таблице\&. 
+.SS "\fBStorage\fP<K, V> \fBWinFormsApp1\&.HashMap\fP< K, V >\&._storage\fC [private]\fP"
+
+.PP
+Хранилище, используемое в данной таблице для хранения данных\&. 
+.SS "\fBHashFunction\fP<K> \fBWinFormsApp1\&.HashMap\fP< K, V >\&.Function => \fB_function\fP"
+
+.PP
+Публичный геттер для хэш-функии\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_client" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::Client</compoundname>
+    <basecompoundref refid="interface_win_forms_app1_1_1_i_keyed_element" prot="public" virt="non-virtual">WinFormsApp1.IKeyedElement&lt; int &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Client._cardNumber</definition>
+        <argsstring></argsstring>
+        <name>_cardNumber</name>
+        <briefdescription>
+<para>Номер карты клиента. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="15" column="21" bodyfile="Client.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Client._bankName</definition>
+        <argsstring></argsstring>
+        <name>_bankName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="16" column="24" bodyfile="Client.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a853e985f58fcc253952c948829335f4e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Client._name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="17" column="24" bodyfile="Client.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Client.CardNumber</definition>
+        <argsstring></argsstring>
+        <name>CardNumber</name>
+        <initializer>=&gt; _cardNumber</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="37" column="20" bodyfile="Client.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Client.BankName</definition>
+        <argsstring></argsstring>
+        <name>BankName</name>
+        <initializer>=&gt; _bankName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="39" column="23" bodyfile="Client.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WindowsFormsApp1.Client.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>=&gt; _name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="41" column="23" bodyfile="Client.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Client.Client</definition>
+        <argsstring>(int cardNumber, string bankName, string name)</argsstring>
+        <name>Client</name>
+        <param>
+          <type>int</type>
+          <declname>cardNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="19" column="16" bodyfile="Client.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_client_1a123281db04c626d34b64f94128a6b372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Client.GetKey</definition>
+        <argsstring>()</argsstring>
+        <name>GetKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="26" column="20" bodyfile="Client.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_client_1a7708d33da398c607a8296a24c8d7a54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WindowsFormsApp1.Client.Compare</definition>
+        <argsstring>(IElement elem)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client.cs" line="31" column="20" bodyfile="Client.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Класс, описывающий клиента банковской системы. Наследуется от <ref refid="interface_win_forms_app1_1_1_i_keyed_element" kindref="compound">IKeyedElement&lt;int&gt;</ref>. Обладает ключом типа int. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IKeyedElement&lt; int &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Client</label>
+        <link refid="class_windows_forms_app1_1_1_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IKeyedElement&lt; int &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Client</label>
+        <link refid="class_windows_forms_app1_1_1_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Client.cs" line="10" column="11" bodyfile="Client.cs" bodystart="11" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>_bankName</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>_cardNumber</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1a853e985f58fcc253952c948829335f4e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>_name</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>BankName</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>CardNumber</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>Client</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1a7708d33da398c607a8296a24c8d7a54e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>Compare</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1a123281db04c626d34b64f94128a6b372" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>GetKey</name></member>
+      <member refid="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

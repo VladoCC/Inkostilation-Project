@@ -1,0 +1,269 @@
+.TH "WindowsFormsApp1.RB< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.RB< T >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "Классы"
+
+.in +1c
+.ti -1c
+.RI "class \fBNode\fP"
+.br
+.RI "Object of type \fBNode\fP contains 4 properties Colour Left Right Parent Data "
+.in -1c
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBRB\fP ()"
+.br
+.RI "New instance of a Red-Black tree object "
+.ti -1c
+.RI "void \fBDisplayTree\fP ()"
+.br
+.RI "Display Tree "
+.ti -1c
+.RI "void \fBInsert\fP (T item)"
+.br
+.RI "Insert a new object into the \fBRB\fP Tree "
+.ti -1c
+.RI "bool \fBDelete\fP (T key)"
+.br
+.RI "Deletes a specified value from the tree "
+.ti -1c
+.RI "T[] \fBToArray\fP ()"
+.br
+.RI "Преобразует коллекцию в массив элементов\&. "
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.RI "Возвращает размер коллекции\&. "
+.ti -1c
+.RI "void \fBAdd\fP (T element)"
+.br
+.RI "Добавляет элемент в коллекцию\&. "
+.ti -1c
+.RI "bool \fBRemove\fP (T element)"
+.br
+.RI "Удаляет элемент из коллекии\&. "
+.ti -1c
+.RI "string \fBFind\fP (T element)"
+.br
+.ti -1c
+.RI "void \fBFind\fP (\fBSearchQuery\fP< T > query)"
+.br
+.RI "Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. "
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBLeftRotate\fP (\fBNode\fP< T > X)"
+.br
+.RI "Left Rotate "
+.ti -1c
+.RI "void \fBRightRotate\fP (\fBNode\fP< T > Y)"
+.br
+.RI "Rotate Right "
+.ti -1c
+.RI "\fBNode\fP< T > \fBFindNode\fP (T key)"
+.br
+.RI "Find item in the tree "
+.ti -1c
+.RI "void \fBInOrderDisplay\fP (\fBNode\fP< T > current)"
+.br
+.ti -1c
+.RI "void \fBInsertFixUp\fP (\fBNode\fP< T > item)"
+.br
+.ti -1c
+.RI "bool \fBDeleteFixUp\fP (\fBNode\fP< T > X)"
+.br
+.RI "Checks the tree for any violations after deletion and performs a fix "
+.ti -1c
+.RI "\fBNode\fP< T > \fBMinimum\fP (\fBNode\fP< T > X)"
+.br
+.ti -1c
+.RI "\fBNode\fP< T > \fBTreeSuccessor\fP (\fBNode\fP< T > X)"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBNode\fP< T > \fBroot\fP"
+.br
+.RI "Root node of the tree (both reference & pointer) "
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWindowsFormsApp1\&.RB\fP< T >\&.\fBRB\fP ()"
+
+.PP
+New instance of a Red-Black tree object 
+.SH "Методы"
+.PP 
+.SS "void \fBWindowsFormsApp1\&.RB\fP< T >\&.Add (T element)"
+
+.PP
+Добавляет элемент в коллекцию\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Добавляемый элемент\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "bool \fBWindowsFormsApp1\&.RB\fP< T >\&.Delete (T key)"
+
+.PP
+Deletes a specified value from the tree 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIitem\fP 
+.RE
+.PP
+
+.SS "bool \fBWindowsFormsApp1\&.RB\fP< T >\&.DeleteFixUp (\fBNode\fP< T > X)\fC [private]\fP"
+
+.PP
+Checks the tree for any violations after deletion and performs a fix 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIX\fP 
+.RE
+.PP
+
+.SS "void \fBWindowsFormsApp1\&.RB\fP< T >\&.DisplayTree ()"
+
+.PP
+Display Tree 
+.SS "void \fBWinFormsApp1\&.ICollection\fP< T >\&.Find (\fBSearchQuery\fP< T > query)\fC [inherited]\fP"
+
+.PP
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIquery\fP Поисковый запрос, содержащий искомый объект\&. 
+.RE
+.PP
+
+.PP
+Замещается в \fBWinFormsApp1\&.Tree< T >\fP\&.
+.SS "\fBNode\fP<T> \fBWindowsFormsApp1\&.RB\fP< T >\&.FindNode (T key)\fC [private]\fP"
+
+.PP
+Find item in the tree 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIkey\fP 
+.RE
+.PP
+
+.SS "void \fBWindowsFormsApp1\&.RB\fP< T >\&.Insert (T item)"
+
+.PP
+Insert a new object into the \fBRB\fP Tree 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIitem\fP 
+.RE
+.PP
+
+.SS "void \fBWindowsFormsApp1\&.RB\fP< T >\&.LeftRotate (\fBNode\fP< T > X)\fC [private]\fP"
+
+.PP
+Left Rotate 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIX\fP 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+void
+.RE
+.PP
+
+.SS "bool \fBWindowsFormsApp1\&.RB\fP< T >\&.Remove (T element)"
+
+.PP
+Удаляет элемент из коллекии\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Удаляемый элемент\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает true, если элемент найден и удален, иначе false\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "void \fBWindowsFormsApp1\&.RB\fP< T >\&.RightRotate (\fBNode\fP< T > Y)\fC [private]\fP"
+
+.PP
+Rotate Right 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIY\fP 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+void
+.RE
+.PP
+
+.SS "int \fBWindowsFormsApp1\&.RB\fP< T >\&.Size ()"
+
+.PP
+Возвращает размер коллекции\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Размер коллекции\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SS "T [] \fBWindowsFormsApp1\&.RB\fP< T >\&.ToArray ()"
+
+.PP
+Преобразует коллекцию в массив элементов\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Массив элементов\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.ICollection< T >\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "\fBNode\fP<T> \fBWindowsFormsApp1\&.RB\fP< T >\&.root\fC [private]\fP"
+
+.PP
+Root node of the tree (both reference & pointer) 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

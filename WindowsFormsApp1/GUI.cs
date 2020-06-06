@@ -799,7 +799,7 @@ namespace WindowsFormsApp1
                 {
                     OOC.OperationsData.Rows.Add();
                     NumRows += 1;
-                    OOC.OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    OOC.OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
                     OOC.OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
                     OOC.OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
                     OOC.OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;
@@ -833,7 +833,7 @@ namespace WindowsFormsApp1
                 {
                     OOM.OperationsData.Rows.Add();
                     NumRows += 1;
-                    OOM.OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    OOM.OperationsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
                     OOM.OperationsData.Rows[NumRows].Cells[1].Value = arr[i].CardNumber;
                     OOM.OperationsData.Rows[NumRows].Cells[2].Value = arr[i].MachineNumber;
                     OOM.OperationsData.Rows[NumRows].Cells[3].Value = arr[i].Sum;
@@ -869,7 +869,7 @@ namespace WindowsFormsApp1
                 {
                     POO.PercentsData.Rows.Add();
                     NumRows += 1;
-                    POO.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    POO.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
                     POO.PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
                     POO.PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
                     POO.PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
@@ -903,7 +903,7 @@ namespace WindowsFormsApp1
                 {
                     POM.PercentsData.Rows.Add();
                     NumRows += 1;
-                    POM.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationType;
+                    POM.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
                     POM.PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
                     POM.PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
                     POM.PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
@@ -983,7 +983,7 @@ namespace WindowsFormsApp1
             {
                 dataGridView4.Rows.Add();
                 NumRows4 += 1;
-                dataGridView4.Rows[NumRows4].Cells[0].Value = operationArray[i].OperationType;
+                dataGridView4.Rows[NumRows4].Cells[0].Value = operationArray[i].OperationName;
                 dataGridView4.Rows[NumRows4].Cells[1].Value = operationArray[i].CardNumber;
                 dataGridView4.Rows[NumRows4].Cells[2].Value = operationArray[i].MachineNumber;
                 dataGridView4.Rows[NumRows4].Cells[3].Value = operationArray[i].Sum;
@@ -995,7 +995,7 @@ namespace WindowsFormsApp1
             {
                 dataGridView2.Rows.Add();
                 NumRows3 += 1;
-                dataGridView2.Rows[NumRows3].Cells[0].Value = percentArray[i].OperationType;
+                dataGridView2.Rows[NumRows3].Cells[0].Value = percentArray[i].OperationName;
                 dataGridView2.Rows[NumRows3].Cells[1].Value = percentArray[i].SenderBank;
                 dataGridView2.Rows[NumRows3].Cells[2].Value = percentArray[i].ReceiverBank;
                 dataGridView2.Rows[NumRows3].Cells[3].Value = percentArray[i].Percent1;

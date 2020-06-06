@@ -1,0 +1,148 @@
+.TH "WindowsFormsApp1.Percent" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Percent \- Класс, описывающий процент по операции\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Базовые классы:\fBWinFormsApp1\&.IElement\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBPercent\fP (string operationName, string senderBank, string receiverBank, int percent)"
+.br
+.RI "Основной конструктор для создания процента по операции\&. "
+.ti -1c
+.RI "int \fBCompare\fP (\fBIElement\fP elem)"
+.br
+.RI "Метод, производящий сравнение двух элементов, наследуемых от IElement\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "string \fBOperationName\fP => \fB_operationName\fP"
+.br
+.RI "Публичный геттер для названия операции\&. "
+.ti -1c
+.RI "string \fBSenderBank\fP => \fB_senderBank\fP"
+.br
+.RI "Публичный геттер для названия банка отправителя\&. "
+.ti -1c
+.RI "string \fBReceiverBank\fP => \fB_receiverBank\fP"
+.br
+.RI "Публичный геттер для названия банка получателя\&. "
+.ti -1c
+.RI "int \fBPercent1\fP => \fB_percent\fP"
+.br
+.RI "Публичный геттер для процента по операции\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "string \fB_operationName\fP"
+.br
+.RI "Название операции\&. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные)\&. "
+.ti -1c
+.RI "string \fB_senderBank\fP"
+.br
+.RI "Название банка отправителя\&. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы\&. "
+.ti -1c
+.RI "string \fB_receiverBank\fP"
+.br
+.RI "Название банка получателя\&. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы\&. "
+.ti -1c
+.RI "int \fB_percent\fP"
+.br
+.RI "Процент по операции\&. Целое число от 0 до 100 включительно\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Класс, описывающий процент по операции\&. 
+
+
+.SH "Конструктор(ы)"
+.PP 
+.SS "WindowsFormsApp1\&.Percent\&.Percent (string operationName, string senderBank, string receiverBank, int percent)"
+
+.PP
+Основной конструктор для создания процента по операции\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperationName\fP 
+.br
+\fIsenderBank\fP 
+.br
+\fIreceiverBank\fP 
+.br
+\fIpercent\fP 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "int WindowsFormsApp1\&.Percent\&.Compare (\fBIElement\fP elem)"
+
+.PP
+Метод, производящий сравнение двух элементов, наследуемых от IElement\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelem\fP Элемент, с которым производится сравнение\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отрицательное число, если этот элемент меньше, чем поступающий на вход\&. Ноль, если элементы равны\&. Положительное число, если этот элемент больше, чем поступающий на вход\&. 
+.RE
+.PP
+
+.PP
+Замещает \fBWinFormsApp1\&.IElement\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "string WindowsFormsApp1\&.Percent\&._operationName\fC [private]\fP"
+
+.PP
+Название операции\&. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные)\&. 
+.SS "int WindowsFormsApp1\&.Percent\&._percent\fC [private]\fP"
+
+.PP
+Процент по операции\&. Целое число от 0 до 100 включительно\&. 
+.SS "string WindowsFormsApp1\&.Percent\&._receiverBank\fC [private]\fP"
+
+.PP
+Название банка получателя\&. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы\&. 
+.SS "string WindowsFormsApp1\&.Percent\&._senderBank\fC [private]\fP"
+
+.PP
+Название банка отправителя\&. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы\&. 
+.SS "string WindowsFormsApp1\&.Percent\&.OperationName => \fB_operationName\fP"
+
+.PP
+Публичный геттер для названия операции\&. 
+.SS "int WindowsFormsApp1\&.Percent\&.Percent1 => \fB_percent\fP"
+
+.PP
+Публичный геттер для процента по операции\&. 
+.SS "string WindowsFormsApp1\&.Percent\&.ReceiverBank => \fB_receiverBank\fP"
+
+.PP
+Публичный геттер для названия банка получателя\&. 
+.SS "string WindowsFormsApp1\&.Percent\&.SenderBank => \fB_senderBank\fP"
+
+.PP
+Публичный геттер для названия банка отправителя\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

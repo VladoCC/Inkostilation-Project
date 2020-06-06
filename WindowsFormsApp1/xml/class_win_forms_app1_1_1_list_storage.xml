@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_win_forms_app1_1_1_list_storage" kind="class" language="C#" prot="public">
+    <compoundname>WinFormsApp1::ListStorage</compoundname>
+    <basecompoundref refid="class_win_forms_app1_1_1_storage" prot="public" virt="non-virtual">WinFormsApp1::Storage&lt; K, V &gt;</basecompoundref>
+    <innerclass refid="class_win_forms_app1_1_1_list_storage_1_1_position" prot="private">WinFormsApp1::ListStorage::Position</innerclass>
+    <templateparamlist>
+      <param>
+        <type>K</type>
+      </param>
+      <param>
+        <type>V</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" prot="private" static="no" mutable="no">
+        <type>Position&lt; V &gt;[]</type>
+        <definition>Position&lt;V&gt; [] WinFormsApp1.ListStorage&lt; K, V &gt;.array</definition>
+        <argsstring></argsstring>
+        <name>array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="15" column="26" bodyfile="ListStorage.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1acba783dabd167ca9ad1e2417b60bfd6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WinFormsApp1.ListStorage&lt; K, V &gt;.ListStorage</definition>
+        <argsstring>()</argsstring>
+        <name>ListStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="17" column="16" bodyfile="ListStorage.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1abb05184af3ecec4b6c80c0a443c14c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override int</type>
+        <definition>override int WinFormsApp1.ListStorage&lt; K, V &gt;.GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1a5614e10c3a36e84225c3bcd32c396658">GetSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="22" column="29" bodyfile="ListStorage.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void WinFormsApp1.ListStorage&lt; K, V &gt;.Add</definition>
+        <argsstring>(int index, V element)</argsstring>
+        <name>Add</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1a29fca16c9a12f8e52b651d7afdd8d0cf">Add</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>V</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="35" column="30" bodyfile="ListStorage.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool WinFormsApp1.ListStorage&lt; K, V &gt;.Remove</definition>
+        <argsstring>(int index, V element)</argsstring>
+        <name>Remove</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1ac5d5fa7c7167de11fe0bef04245b58a7">Remove</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>V</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="47" column="30" bodyfile="ListStorage.cs" bodystart="47" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override V[]</type>
+        <definition>override V [] WinFormsApp1.ListStorage&lt; K, V &gt;.ToArray</definition>
+        <argsstring>()</argsstring>
+        <name>ToArray</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1adda132fdf1fe5dbe6bf1ae9d53db70ad">ToArray</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="65" column="27" bodyfile="ListStorage.cs" bodystart="65" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void WinFormsApp1.ListStorage&lt; K, V &gt;.Find</definition>
+        <argsstring>(int index, KeyedSearchQuery&lt; K, V &gt; keyedQuery)</argsstring>
+        <name>Find</name>
+        <reimplements refid="class_win_forms_app1_1_1_storage_1a1602a0977d7a7c6f32382e0be1650920">Find</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_keyed_search_query" kindref="compound">KeyedSearchQuery</ref>&lt; K, V &gt;</type>
+          <declname>keyedQuery</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="85" column="30" bodyfile="ListStorage.cs" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_size_container" kindref="compound">SizeContainer</ref></type>
+        <definition>SizeContainer WinFormsApp1.Storage&lt; K, V &gt;.SizeContainer</definition>
+        <argsstring>()</argsstring>
+        <name>SizeContainer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Storage.cs" line="20" column="30" bodyfile="Storage.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinFormsApp1.ListStorage&lt; K, V &gt;.Find</definition>
+        <argsstring>(Position&lt; V &gt; position, KeyedSearchQuery&lt; K, V &gt; keyedQuery)</argsstring>
+        <name>Find</name>
+        <param>
+          <type>Position&lt; V &gt;</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_keyed_search_query" kindref="compound">KeyedSearchQuery</ref>&lt; K, V &gt;</type>
+          <declname>keyedQuery</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ListStorage.cs" line="91" column="22" bodyfile="ListStorage.cs" bodystart="91" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Storage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_storage"/>
+      </node>
+      <node id="1">
+        <label>WinFormsApp1.ListStorage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_list_storage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Storage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_storage"/>
+      </node>
+      <node id="1">
+        <label>WinFormsApp1.ListStorage&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_list_storage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ListStorage.cs" line="13" column="11" bodyfile="ListStorage.cs" bodystart="14" bodyend="171"/>
+    <listofallmembers>
+      <member refid="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" prot="public" virt="virtual"><scope>WinFormsApp1::ListStorage</scope><name>Add</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage</scope><name>array</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" prot="public" virt="virtual"><scope>WinFormsApp1::ListStorage</scope><name>Find</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage</scope><name>Find</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1abb05184af3ecec4b6c80c0a443c14c85" prot="public" virt="virtual"><scope>WinFormsApp1::ListStorage</scope><name>GetSize</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1acba783dabd167ca9ad1e2417b60bfd6a" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage</scope><name>ListStorage</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" prot="public" virt="virtual"><scope>WinFormsApp1::ListStorage</scope><name>Remove</name></member>
+      <member refid="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage</scope><name>SizeContainer</name></member>
+      <member refid="class_win_forms_app1_1_1_storage_1a03d089fae26c2ab0b97b89bc4bfdb44a" prot="public" virt="non-virtual"><scope>WinFormsApp1::ListStorage</scope><name>Storage</name></member>
+      <member refid="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" prot="public" virt="virtual"><scope>WinFormsApp1::ListStorage</scope><name>ToArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

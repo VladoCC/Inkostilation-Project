@@ -2,6 +2,11 @@
 
 namespace WindowsFormsApp1
 {
+    /// <summary>
+    /// Реализация сортировки для элементов типа Т. Использует алгоритм сортировки Шелла с расстоянием Шелла.
+    /// Наследуется от ISorter.
+    /// </summary>
+    /// <typeparam name="T"> Тип сортируемых данных, наследуемый от IElement. </typeparam>
     public class ShellSorter<T>: ISorter<T> where T: IElement
     {
         public void Sort(T[] array)

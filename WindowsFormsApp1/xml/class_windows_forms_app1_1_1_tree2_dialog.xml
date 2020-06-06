@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_tree2_dialog" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::Tree2Dialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1ab311fdc99e57b2556b8f3c0c77a48256" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.Tree2Dialog.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="8" column="48" bodyfile="Tree2Dialog.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a0553efe86855de8ded8cb9a5469ef772" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.Tree2Dialog.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="180" column="41" bodyfile="Tree2Dialog.Designer.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a1eb9ae31c25f0e357efb9be954d53785" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.Tree2Dialog.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="181" column="41" bodyfile="Tree2Dialog.Designer.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a65d989646f4a2e0201fc9552f450541d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button WindowsFormsApp1.Tree2Dialog.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="182" column="42" bodyfile="Tree2Dialog.Designer.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a0b92325254bbcb421beb5b708ad901d9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.Tree2Dialog.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="183" column="41" bodyfile="Tree2Dialog.Designer.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a4de3fab1acc8408e02ffbb13642e2bea" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.Tree2Dialog.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="184" column="41" bodyfile="Tree2Dialog.Designer.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a5e2d25c24dae2f5a6ce25009d3495dbc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.Tree2Dialog.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="185" column="41" bodyfile="Tree2Dialog.Designer.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1ac1a6ac5764746bb866bc9b76e7032493" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button WindowsFormsApp1.Tree2Dialog.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="190" column="42" bodyfile="Tree2Dialog.Designer.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1ae6112a837f514860da522259feb1148d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_water_mark_text_box" kindref="compound">WaterMarkTextBox</ref></type>
+        <definition>WaterMarkTextBox WindowsFormsApp1.Tree2Dialog.waterMarkTextBox1</definition>
+        <argsstring></argsstring>
+        <name>waterMarkTextBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="186" column="33" bodyfile="Tree2Dialog.Designer.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a2c0915e09b1e8477a753aa1ae2ac232e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_water_mark_text_box" kindref="compound">WaterMarkTextBox</ref></type>
+        <definition>WaterMarkTextBox WindowsFormsApp1.Tree2Dialog.waterMarkTextBox2</definition>
+        <argsstring></argsstring>
+        <name>waterMarkTextBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="187" column="33" bodyfile="Tree2Dialog.Designer.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1a8523bcd74e91e2229d91cdc9f363f21a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_water_mark_text_box" kindref="compound">WaterMarkTextBox</ref></type>
+        <definition>WaterMarkTextBox WindowsFormsApp1.Tree2Dialog.waterMarkTextBox3</definition>
+        <argsstring></argsstring>
+        <name>waterMarkTextBox3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="188" column="33" bodyfile="Tree2Dialog.Designer.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_tree2_dialog_1aa82a594f99294bfbde74a3fffe1d33d7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_app1_1_1_water_mark_text_box" kindref="compound">WaterMarkTextBox</ref></type>
+        <definition>WaterMarkTextBox WindowsFormsApp1.Tree2Dialog.waterMarkTextBox4</definition>
+        <argsstring></argsstring>
+        <name>waterMarkTextBox4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="189" column="33" bodyfile="Tree2Dialog.Designer.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_tree2_dialog_1a30b5ffd17e7e894a740f7f1246434498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.Tree2Dialog.Tree2Dialog</definition>
+        <argsstring>()</argsstring>
+        <name>Tree2Dialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.cs" line="15" column="16" bodyfile="Tree2Dialog.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_tree2_dialog_1a06fb09b55bd27a6a658667416ebc1b86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Tree2Dialog.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.cs" line="20" column="22" bodyfile="Tree2Dialog.cs" bodystart="20" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_tree2_dialog_1a2c2fc0f280acda3245983865e8a8cca8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Tree2Dialog.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.cs" line="115" column="22" bodyfile="Tree2Dialog.cs" bodystart="115" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_tree2_dialog_1a45cafea573d360f6962b2d1a044f6fa6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.Tree2Dialog.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="29" column="22" bodyfile="Tree2Dialog.Designer.cs" bodystart="29" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_tree2_dialog_1a8169363a15dc7d5a4957648d9bb0fbe8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.Tree2Dialog.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree2Dialog.Designer.cs" line="14" column="33" bodyfile="Tree2Dialog.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Tree2Dialog</label>
+        <link refid="class_windows_forms_app1_1_1_tree2_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Tree2Dialog</label>
+        <link refid="class_windows_forms_app1_1_1_tree2_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>waterMarkTextBox1</edgelabel>
+          <edgelabel>waterMarkTextBox2</edgelabel>
+          <edgelabel>waterMarkTextBox3</edgelabel>
+          <edgelabel>waterMarkTextBox4</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="4">
+        <label>TextBox</label>
+      </node>
+      <node id="3">
+        <label>WindowsFormsApp1.WaterMarkTextBox</label>
+        <link refid="class_windows_forms_app1_1_1_water_mark_text_box"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tree2Dialog.cs" line="13" column="19" bodyfile="Tree2Dialog.cs" bodystart="14" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a65d989646f4a2e0201fc9552f450541d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>button1</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a06fb09b55bd27a6a658667416ebc1b86" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>button1_Click</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1ac1a6ac5764746bb866bc9b76e7032493" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>button2</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a2c2fc0f280acda3245983865e8a8cca8" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>button2_Click</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1ab311fdc99e57b2556b8f3c0c77a48256" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a8169363a15dc7d5a4957648d9bb0fbe8" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a45cafea573d360f6962b2d1a044f6fa6" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a5e2d25c24dae2f5a6ce25009d3495dbc" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>label1</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a4de3fab1acc8408e02ffbb13642e2bea" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>label2</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a0b92325254bbcb421beb5b708ad901d9" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>label3</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a1eb9ae31c25f0e357efb9be954d53785" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>label4</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a0553efe86855de8ded8cb9a5469ef772" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>label5</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a30b5ffd17e7e894a740f7f1246434498" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>Tree2Dialog</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1ae6112a837f514860da522259feb1148d" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>waterMarkTextBox1</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a2c0915e09b1e8477a753aa1ae2ac232e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>waterMarkTextBox2</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1a8523bcd74e91e2229d91cdc9f363f21a" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>waterMarkTextBox3</name></member>
+      <member refid="class_windows_forms_app1_1_1_tree2_dialog_1aa82a594f99294bfbde74a3fffe1d33d7" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Tree2Dialog</scope><name>waterMarkTextBox4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

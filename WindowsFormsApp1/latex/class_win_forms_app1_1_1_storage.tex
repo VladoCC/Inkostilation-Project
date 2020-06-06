@@ -1,0 +1,203 @@
+\hypertarget{class_win_forms_app1_1_1_storage}{}\doxysection{Шаблон класса Win\+Forms\+App1.\+Storage$<$ K, V $>$}
+\label{class_win_forms_app1_1_1_storage}\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+
+
+Внутренняя структура хэш-\/таблицы. хранящая все данные и реализующая стратегии разрешения коллизий.  
+
+
+Граф наследования\+:Win\+Forms\+App1.\+Storage$<$ K, V $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_win_forms_app1_1_1_storage}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_win_forms_app1_1_1_storage_a03d089fae26c2ab0b97b89bc4bfdb44a}{Storage}} (int size)
+\begin{DoxyCompactList}\small\item\em Основной конструктор, инициализирующий обязательные элементы хранилища. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_storage_ac346a3e5851c25dd37b462458285f536}{Size\+Container}} ()
+\begin{DoxyCompactList}\small\item\em Публичный геттер для контейнера, содержащего размер хранилища. \end{DoxyCompactList}\item 
+abstract int \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a5614e10c3a36e84225c3bcd32c396658}{Get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Геттер, возвращающий размер хранилища в числовом представлении. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a29fca16c9a12f8e52b651d7afdd8d0cf}{Add}} (int index, V element)
+\begin{DoxyCompactList}\small\item\em Добавляет элемент в хранилище. \end{DoxyCompactList}\item 
+abstract bool \mbox{\hyperlink{class_win_forms_app1_1_1_storage_ac5d5fa7c7167de11fe0bef04245b58a7}{Remove}} (int index, V element)
+\begin{DoxyCompactList}\small\item\em Удаляет элемент из хранилища. \end{DoxyCompactList}\item 
+abstract V\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_storage_adda132fdf1fe5dbe6bf1ae9d53db70ad}{To\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает элементы хранилища в виде массива. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a1602a0977d7a7c6f32382e0be1650920}{Find}} (int index, \mbox{\hyperlink{class_windows_forms_app1_1_1_keyed_search_query}{Keyed\+Search\+Query}}$<$ K, V $>$ keyed\+Query)
+\begin{DoxyCompactList}\small\item\em Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_storage_a5208a1b4cb3b07891d79ceb99ef1b157}{\+\_\+size}}
+\begin{DoxyCompactList}\small\item\em Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Внутренняя структура хэш-\/таблицы. хранящая все данные и реализующая стратегии разрешения коллизий. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em K} & Тип ключая хранилища. \\
+\hline
+{\em V} & Тип данного (значения) хранилища. \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Согласование типов]\begin{description}
+\item[{\em V} : {\em \mbox{\hyperlink{interface_win_forms_app1_1_1_i_keyed_element}{I\+Keyed\+Element}}$<$K$>$}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_a03d089fae26c2ab0b97b89bc4bfdb44a}\label{class_win_forms_app1_1_1_storage_a03d089fae26c2ab0b97b89bc4bfdb44a}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!Storage@{Storage}}
+\index{Storage@{Storage}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Storage()}{Storage()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Storage}} (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Основной конструктор, инициализирующий обязательные элементы хранилища. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em size} & Изначальный размер внутренней структуры. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_a29fca16c9a12f8e52b651d7afdd8d0cf}\label{class_win_forms_app1_1_1_storage_a29fca16c9a12f8e52b651d7afdd8d0cf}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!Add@{Add}}
+\index{Add@{Add}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily abstract void \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.Add (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{V}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Добавляет элемент в хранилище. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em index} & Индекс в хранилище, опеделенный хэш функцией таблицы. \\
+\hline
+{\em element} & Добавляемый элемент. \\
+\hline
+\end{DoxyParams}
+
+
+Замещается в \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a680decb93c556470b7e6534a3eded0de}{Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_ae979f90e68a17f6817a6125d2b59f85f}{Win\+Forms\+App1.\+List\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_a1602a0977d7a7c6f32382e0be1650920}\label{class_win_forms_app1_1_1_storage_a1602a0977d7a7c6f32382e0be1650920}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!Find@{Find}}
+\index{Find@{Find}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Find()}{Find()}}
+{\footnotesize\ttfamily abstract void \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.Find (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_keyed_search_query}{Keyed\+Search\+Query}}$<$ K, V $>$}]{keyed\+Query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em index} & Индекс, по которому в хранилище должен располагаться данный объект, если он в нем присутствует. Определяется хэш-\/функцией. \\
+\hline
+{\em keyed\+Query} & Поисковый запрос, содержащий искомый объект. \\
+\hline
+\end{DoxyParams}
+
+
+Замещается в \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a50c2128c83f08591f6f1b394da2f8a56}{Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_a095a3ed5ee3cf8c063a146a7f33b962f}{Win\+Forms\+App1.\+List\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_a5614e10c3a36e84225c3bcd32c396658}\label{class_win_forms_app1_1_1_storage_a5614e10c3a36e84225c3bcd32c396658}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!GetSize@{GetSize}}
+\index{GetSize@{GetSize}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{GetSize()}{GetSize()}}
+{\footnotesize\ttfamily abstract int \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.Get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Геттер, возвращающий размер хранилища в числовом представлении. 
+
+\begin{DoxyReturn}{Возвращает}
+Числовое представление размера хранилища. 
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_a2ebaecfe8643b8276263a1369b328cee}{Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_abb05184af3ecec4b6c80c0a443c14c85}{Win\+Forms\+App1.\+List\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_ac5d5fa7c7167de11fe0bef04245b58a7}\label{class_win_forms_app1_1_1_storage_ac5d5fa7c7167de11fe0bef04245b58a7}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily abstract bool \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.Remove (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{V}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Удаляет элемент из хранилища. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em index} & Индекс в хранилище, опеделенный хэш функцией таблицы. \\
+\hline
+{\em element} & Удаляемый элемент. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Возвращает true если элемент успешно удален и false в остальных случаях. 
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_ae532033d86f1075c43205972f9c14819}{Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_aed89173bc2c6cd16708ed19d5610a786}{Win\+Forms\+App1.\+List\+Storage$<$ K, V $>$}}.
+
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_ac346a3e5851c25dd37b462458285f536}\label{class_win_forms_app1_1_1_storage_ac346a3e5851c25dd37b462458285f536}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!SizeContainer@{SizeContainer}}
+\index{SizeContainer@{SizeContainer}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{SizeContainer()}{SizeContainer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.\mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Публичный геттер для контейнера, содержащего размер хранилища. 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_adda132fdf1fe5dbe6bf1ae9d53db70ad}\label{class_win_forms_app1_1_1_storage_adda132fdf1fe5dbe6bf1ae9d53db70ad}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!ToArray@{ToArray}}
+\index{ToArray@{ToArray}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{ToArray()}{ToArray()}}
+{\footnotesize\ttfamily abstract V \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.To\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Возвращает элементы хранилища в виде массива. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив, состоящий из элементов хранилища. 
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_win_forms_app1_1_1_double_hash_storage_aa03ea4870bcf39fe3a6654f63829ee7e}{Win\+Forms\+App1.\+Double\+Hash\+Storage$<$ K, V $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_list_storage_ae6715c9d4ea0d993643df004e800d832}{Win\+Forms\+App1.\+List\+Storage$<$ K, V $>$}}.
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_win_forms_app1_1_1_storage_a5208a1b4cb3b07891d79ceb99ef1b157}\label{class_win_forms_app1_1_1_storage_a5208a1b4cb3b07891d79ceb99ef1b157}} 
+\index{WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}!\_size@{\_size}}
+\index{\_size@{\_size}!WinFormsApp1.Storage$<$ K, V $>$@{WinFormsApp1.Storage$<$ K, V $>$}}
+\doxysubsubsection{\texorpdfstring{\_size}{\_size}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_size_container}{Size\+Container}} \mbox{\hyperlink{class_win_forms_app1_1_1_storage}{Win\+Forms\+App1.\+Storage}}$<$ K, V $>$.\+\_\+size\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Структура для хранения количества элементов внутреннего хранилища и динамического обращения к нему объектов, не имеющих доступ к самому хранилищу. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Storage.\+cs\end{DoxyCompactItemize}

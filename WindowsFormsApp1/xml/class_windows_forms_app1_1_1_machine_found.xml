@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_windows_forms_app1_1_1_machine_found" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApp1::MachineFound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a04aaab09ad7f4b867c73762e46c6abd0" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApp1.MachineFound.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="8" column="48" bodyfile="MachineFound.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a9f9a06a847460f19b6839c53ff2ca746" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.MachineFound.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="157" column="41" bodyfile="MachineFound.Designer.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a60af30e6001755ec85a809d7e9976192" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.MachineFound.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="158" column="41" bodyfile="MachineFound.Designer.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a61518d48a6339c78efcfe3490f1e23a4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.MachineFound.Hash</definition>
+        <argsstring></argsstring>
+        <name>Hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="160" column="61" bodyfile="MachineFound.Designer.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a11924b56f9753f62bbe647c615d881bf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.MachineFound.Номер</definition>
+        <argsstring></argsstring>
+        <name>Номер</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="161" column="61" bodyfile="MachineFound.Designer.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1ac65b82915dfe01b1fced3cb2735d1390" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.MachineFound.Адрес</definition>
+        <argsstring></argsstring>
+        <name>Адрес</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="162" column="61" bodyfile="MachineFound.Designer.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1aafea89101bbf789c7d05b8cc5b3079ff" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn WindowsFormsApp1.MachineFound.НазваниеБанка</definition>
+        <argsstring></argsstring>
+        <name>НазваниеБанка</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="163" column="61" bodyfile="MachineFound.Designer.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1ab04f451288713d8f5bd3d7244b192f97" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView WindowsFormsApp1.MachineFound.MachineResults</definition>
+        <argsstring></argsstring>
+        <name>MachineResults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="156" column="47" bodyfile="MachineFound.Designer.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApp1.MachineFound.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="159" column="40" bodyfile="MachineFound.Designer.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_found_1a5104e53df959d45b95ef51a547d86421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApp1.MachineFound.MachineFound</definition>
+        <argsstring>()</argsstring>
+        <name>MachineFound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.cs" line="15" column="16" bodyfile="MachineFound.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_found_1af43c9b07be52993c4edc8510ea376b8d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApp1.MachineFound.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="14" column="33" bodyfile="MachineFound.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApp1.MachineFound.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MachineFound.Designer.cs" line="29" column="22" bodyfile="MachineFound.Designer.cs" bodystart="29" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.MachineFound</label>
+        <link refid="class_windows_forms_app1_1_1_machine_found"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.MachineFound</label>
+        <link refid="class_windows_forms_app1_1_1_machine_found"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>label3</edgelabel>
+          <edgelabel>MachineResults</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="MachineFound.cs" line="13" column="19" bodyfile="MachineFound.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a04aaab09ad7f4b867c73762e46c6abd0" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>components</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1af43c9b07be52993c4edc8510ea376b8d" prot="protected" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a61518d48a6339c78efcfe3490f1e23a4" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>Hash</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a9f9a06a847460f19b6839c53ff2ca746" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>label1</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a60af30e6001755ec85a809d7e9976192" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>label2</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>label3</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a5104e53df959d45b95ef51a547d86421" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>MachineFound</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1ab04f451288713d8f5bd3d7244b192f97" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>MachineResults</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1ac65b82915dfe01b1fced3cb2735d1390" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>Адрес</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1aafea89101bbf789c7d05b8cc5b3079ff" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>НазваниеБанка</name></member>
+      <member refid="class_windows_forms_app1_1_1_machine_found_1a11924b56f9753f62bbe647c615d881bf" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::MachineFound</scope><name>Номер</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,121 @@
+.TH "WindowsFormsApp1.Report< K, V >.Container< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Report< K, V >.Container< T > \- Котейнер, являющийся первым элементом списка и предоставляющий методы работы со списком\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBContainer\fP (T element)"
+.br
+.RI "Конструктор для контейнера, хранящего определенный элемент\&. "
+.ti -1c
+.RI "void \fBAdd\fP (\fBContainer\fP< T > container)"
+.br
+.RI "Добавляет контейнер в конец списка\&. "
+.ti -1c
+.RI "int \fBSize\fP ()"
+.br
+.RI "Возвращает количество элементов в списке\&. "
+.ti -1c
+.RI "void \fBFill\fP (T[] arr, int pos)"
+.br
+.RI "Заполняет массив, начиная с указанной позиции, элементами данного списка\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "T \fB_element\fP"
+.br
+.RI "Данное, хранящееся в контейнере\&. "
+.ti -1c
+.RI "\fBContainer\fP< T > \fB_next\fP"
+.br
+.RI "Следующий элемент списка\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Котейнер, являющийся первым элементом списка и предоставляющий методы работы со списком\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип данных, хранящихся в списке\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIT\fP : \fIIElement\fP
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBContainer\fP< T >\&.\fBContainer\fP (T element)"
+
+.PP
+Конструктор для контейнера, хранящего определенный элемент\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIelement\fP Элемент, хранящийся в контейнере\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "void \fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBContainer\fP< T >\&.Add (\fBContainer\fP< T > container)"
+
+.PP
+Добавляет контейнер в конец списка\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIcontainer\fP Добавляемый контейнер\&. 
+.RE
+.PP
+
+.SS "void \fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBContainer\fP< T >\&.Fill (T[] arr, int pos)"
+
+.PP
+Заполняет массив, начиная с указанной позиции, элементами данного списка\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIarr\fP Массив для заполнения\&. 
+.br
+\fIpos\fP Позиция для начала заполнения\&. 
+.RE
+.PP
+
+.SS "int \fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBContainer\fP< T >\&.Size ()"
+
+.PP
+Возвращает количество элементов в списке\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+Количество элементов в списке\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "T \fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBContainer\fP< T >\&._element\fC [private]\fP"
+
+.PP
+Данное, хранящееся в контейнере\&. 
+.SS "\fBContainer\fP<T> \fBWindowsFormsApp1\&.Report\fP< K, V >\&.\fBContainer\fP< T >\&._next\fC [private]\fP"
+
+.PP
+Следующий элемент списка\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

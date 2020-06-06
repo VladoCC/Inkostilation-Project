@@ -1,0 +1,149 @@
+.TH "WindowsFormsApp1.SearchQuery< T >" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.SearchQuery< T > \- Поисковый запрос, предостаавляющий возможности сравнения проверяемого элемента с искомым, который считает количество проверок\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBSearchQuery\fP (T request)"
+.br
+.RI "Конструктор, позволяющий создать поисковый запрос\&. "
+.ti -1c
+.RI "int \fBCheck\fP (T check)"
+.br
+.RI "Проверка элемента на соответствие искомому\&. При совпадении сохраняет проверяемое данной в качестве результирующего\&. "
+.ti -1c
+.RI "void \fBCount\fP ()"
+.br
+.RI "Позволяет увелиить значение счетчика без проведения сравнений\&. "
+.ti -1c
+.RI "bool \fBFound\fP ()"
+.br
+.RI "Сообщает найден ли элемент, соответствующий искомому\&. "
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "int \fBCounter\fP => \fB_counter\fP"
+.br
+.RI "Публичный геттер для количества проверок\&. "
+.ti -1c
+.RI "T \fBResult\fP => \fB_result\fP"
+.br
+.RI "Публичный геттер для результирующего данного\&. "
+.in -1c
+.SS "Защищенные данные"
+
+.in +1c
+.ti -1c
+.RI "T \fB_request\fP"
+.br
+.RI "Искомое данное\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "int \fB_counter\fP = 0"
+.br
+.RI "Счетчик количества проверок\&. "
+.ti -1c
+.RI "T \fB_result\fP"
+.br
+.RI "Результирующее данное, соответсвующее искомому\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Поисковый запрос, предостаавляющий возможности сравнения проверяемого элемента с искомым, который считает количество проверок\&. 
+
+
+.PP
+\fBПараметры шаблона\fP
+.RS 4
+\fIT\fP Тип данных для поиска\&. 
+.RE
+.PP
+
+.PP
+\fBСогласование типов\fP
+.TP
+\fIT\fP : \fIIElement\fP
+.SH "Конструктор(ы)"
+.PP 
+.SS "\fBWindowsFormsApp1\&.SearchQuery\fP< T >\&.\fBSearchQuery\fP (T request)"
+
+.PP
+Конструктор, позволяющий создать поисковый запрос\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIrequest\fP Искомое данное\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "int \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&.Check (T check)"
+
+.PP
+Проверка элемента на соответствие искомому\&. При совпадении сохраняет проверяемое данной в качестве результирующего\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIcheck\fP Проверяемое данное\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Отрицательное число, если этот элемент меньше, чем поступающий на вход\&. Ноль, если элементы равны\&. Положительное число, если этот элемент больше, чем поступающий на вход\&. 
+.RE
+.PP
+
+.SS "void \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&.Count ()"
+
+.PP
+Позволяет увелиить значение счетчика без проведения сравнений\&. 
+.SS "bool \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&.Found ()"
+
+.PP
+Сообщает найден ли элемент, соответствующий искомому\&. 
+.PP
+\fBВозвращает\fP
+.RS 4
+True, если элемент найден, false в ином случае\&. 
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "int \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&._counter = 0\fC [private]\fP"
+
+.PP
+Счетчик количества проверок\&. 
+.SS "T \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&._request\fC [protected]\fP"
+
+.PP
+Искомое данное\&. 
+.SS "T \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&._result\fC [private]\fP"
+
+.PP
+Результирующее данное, соответсвующее искомому\&. 
+.SS "int \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&.Counter => \fB_counter\fP"
+
+.PP
+Публичный геттер для количества проверок\&. 
+.SS "T \fBWindowsFormsApp1\&.SearchQuery\fP< T >\&.Result => \fB_result\fP"
+
+.PP
+Публичный геттер для результирующего данного\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

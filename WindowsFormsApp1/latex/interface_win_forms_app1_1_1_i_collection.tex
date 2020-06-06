@@ -1,0 +1,142 @@
+\hypertarget{interface_win_forms_app1_1_1_i_collection}{}\doxysection{Шаблон интерфейса Win\+Forms\+App1.\+I\+Collection$<$ T $>$}
+\label{interface_win_forms_app1_1_1_i_collection}\index{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}}
+
+
+Интерфейс, описывающий методы коллекции данных.  
+
+
+Граф наследования\+:Win\+Forms\+App1.\+I\+Collection$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_win_forms_app1_1_1_i_collection}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+T\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_ae9cbe7b265b6349d0b076c153c8cf0cc}{To\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Преобразует коллекцию в массив элементов. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_ac04aa2b01403200686917bbc5c927be6}{Size}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает размер коллекции. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_acfe812e354329ba1fe836ace806a693e}{Add}} (T element)
+\begin{DoxyCompactList}\small\item\em Добавляет элемент в коллекцию. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_a1a6bac3afeca9f8245c0f591786cf039}{Remove}} (T element)
+\begin{DoxyCompactList}\small\item\em Удаляет элемент из коллекии. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection_a0109e40b289f373915b845570105799c}{Find}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ T $>$ query)
+\begin{DoxyCompactList}\small\item\em Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Интерфейс, описывающий методы коллекции данных. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em T} & Тип хранимых данных. \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Согласование типов]\begin{description}
+\item[{\em T} : {\em \mbox{\hyperlink{interface_win_forms_app1_1_1_i_element}{I\+Element}}}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_acfe812e354329ba1fe836ace806a693e}\label{interface_win_forms_app1_1_1_i_collection_acfe812e354329ba1fe836ace806a693e}} 
+\index{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}!Add@{Add}}
+\index{Add@{Add}!WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Add (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})}
+
+
+
+Добавляет элемент в коллекцию. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Добавляемый элемент. \\
+\hline
+\end{DoxyParams}
+
+
+Замещается в \mbox{\hyperlink{class_windows_forms_app1_1_1_r_b_a5e8b3e4d1fbee32f8dfe70ebd2abded7}{Windows\+Forms\+App1.\+R\+B$<$ T $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_tree_a40dc610c61cb7dd40912819d775ac126}{Win\+Forms\+App1.\+Tree$<$ T $>$}}.
+
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_a0109e40b289f373915b845570105799c}\label{interface_win_forms_app1_1_1_i_collection_a0109e40b289f373915b845570105799c}} 
+\index{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}!Find@{Find}}
+\index{Find@{Find}!WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Find()}{Find()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Find (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_search_query}{Search\+Query}}$<$ T $>$}]{query }\end{DoxyParamCaption})}
+
+
+
+Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em query} & Поисковый запрос, содержащий искомый объект. \\
+\hline
+\end{DoxyParams}
+
+
+Замещается в \mbox{\hyperlink{class_win_forms_app1_1_1_tree_a2cd2d0f5b409399bbbb6d4ea0431a8a2}{Win\+Forms\+App1.\+Tree$<$ T $>$}}.
+
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_a1a6bac3afeca9f8245c0f591786cf039}\label{interface_win_forms_app1_1_1_i_collection_a1a6bac3afeca9f8245c0f591786cf039}} 
+\index{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Remove (\begin{DoxyParamCaption}\item[{T}]{element }\end{DoxyParamCaption})}
+
+
+
+Удаляет элемент из коллекии. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element} & Удаляемый элемент. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Возвращает true, если элемент найден и удален, иначе false. 
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_windows_forms_app1_1_1_r_b_aa412d115a02e656da0db902d7a72ba9c}{Windows\+Forms\+App1.\+R\+B$<$ T $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_tree_a76585e0c000743abea2a03f81c4fb9d9}{Win\+Forms\+App1.\+Tree$<$ T $>$}}.
+
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_ac04aa2b01403200686917bbc5c927be6}\label{interface_win_forms_app1_1_1_i_collection_ac04aa2b01403200686917bbc5c927be6}} 
+\index{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}!Size@{Size}}
+\index{Size@{Size}!WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Size()}{Size()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает размер коллекции. 
+
+\begin{DoxyReturn}{Возвращает}
+Размер коллекции. 
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_windows_forms_app1_1_1_r_b_a0839bc2665352000a5ca16e35258bda8}{Windows\+Forms\+App1.\+R\+B$<$ T $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_tree_a2b69f021df2e9998e344a0a4c064bba3}{Win\+Forms\+App1.\+Tree$<$ T $>$}}.
+
+\mbox{\Hypertarget{interface_win_forms_app1_1_1_i_collection_ae9cbe7b265b6349d0b076c153c8cf0cc}\label{interface_win_forms_app1_1_1_i_collection_ae9cbe7b265b6349d0b076c153c8cf0cc}} 
+\index{WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}!ToArray@{ToArray}}
+\index{ToArray@{ToArray}!WinFormsApp1.ICollection$<$ T $>$@{WinFormsApp1.ICollection$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ToArray()}{ToArray()}}
+{\footnotesize\ttfamily T \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interface_win_forms_app1_1_1_i_collection}{Win\+Forms\+App1.\+I\+Collection}}$<$ T $>$.To\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Преобразует коллекцию в массив элементов. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив элементов. 
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_windows_forms_app1_1_1_r_b_a857a33e5cb92d7fba81396bceb5c140a}{Windows\+Forms\+App1.\+R\+B$<$ T $>$}} и \mbox{\hyperlink{class_win_forms_app1_1_1_tree_a528dda81e94674bee88db39dd37fb8c7}{Win\+Forms\+App1.\+Tree$<$ T $>$}}.
+
+
+
+Объявления и описания членов интерфейса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+I\+Collection.\+cs\end{DoxyCompactItemize}

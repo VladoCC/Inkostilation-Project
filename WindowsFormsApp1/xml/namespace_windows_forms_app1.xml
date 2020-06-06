@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_windows_forms_app1" kind="namespace" language="C#">
+    <compoundname>WindowsFormsApp1</compoundname>
+    <innerclass refid="class_windows_forms_app1_1_1_bubble_sorter" prot="public">WindowsFormsApp1::BubbleSorter</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_client" prot="public">WindowsFormsApp1::Client</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_client_found" prot="public">WindowsFormsApp1::ClientFound</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_database" prot="public">WindowsFormsApp1::Database</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_error_form" prot="public">WindowsFormsApp1::ErrorForm</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_g_u_i" prot="public">WindowsFormsApp1::GUI</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_hash_map1_dialog" prot="public">WindowsFormsApp1::HashMap1Dialog</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_hash_map2_dialog" prot="public">WindowsFormsApp1::HashMap2Dialog</innerclass>
+    <innerclass refid="interface_windows_forms_app1_1_1_i_sorter" prot="public">WindowsFormsApp1::ISorter</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_keyed_search_query" prot="public">WindowsFormsApp1::KeyedSearchQuery</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_machine" prot="public">WindowsFormsApp1::Machine</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_machine_found" prot="public">WindowsFormsApp1::MachineFound</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_mod_function" prot="public">WindowsFormsApp1::ModFunction</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_odd_function" prot="public">WindowsFormsApp1::OddFunction</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_operation" prot="public">WindowsFormsApp1::Operation</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1operation_found" prot="public">WindowsFormsApp1::operationFound</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_operations_of_client" prot="public">WindowsFormsApp1::OperationsOfClient</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_operations_of_machine" prot="public">WindowsFormsApp1::OperationsOfMachine</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_percent" prot="public">WindowsFormsApp1::Percent</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1percent_found" prot="public">WindowsFormsApp1::percentFound</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_percents_of_machine" prot="public">WindowsFormsApp1::PercentsOfMachine</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_percents_of_operation" prot="public">WindowsFormsApp1::PercentsOfOperation</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_program" prot="public">WindowsFormsApp1::Program</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_quick_last_sorter" prot="public">WindowsFormsApp1::QuickLastSorter</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_quick_stack_sorter" prot="public">WindowsFormsApp1::QuickStackSorter</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_r_b" prot="public">WindowsFormsApp1::RB</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_report" prot="public">WindowsFormsApp1::Report</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_search_query" prot="public">WindowsFormsApp1::SearchQuery</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_shell_sorter" prot="public">WindowsFormsApp1::ShellSorter</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_size_container" prot="public">WindowsFormsApp1::SizeContainer</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_splash" prot="public">WindowsFormsApp1::Splash</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_tree1_dialog" prot="public">WindowsFormsApp1::Tree1Dialog</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_tree2_dialog" prot="public">WindowsFormsApp1::Tree2Dialog</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_water_mark_text_box" prot="public">WindowsFormsApp1::WaterMarkTextBox</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BubbleSorter.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>
