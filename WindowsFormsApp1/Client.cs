@@ -3,7 +3,6 @@ using WinFormsApp1;
 
 namespace WindowsFormsApp1
 {
-    ///\extends IKeyedElement<int>
     /// <summary>
     /// Класс, описывающий клиента банковской системы. Обладает ключом типа int.
     /// </summary>

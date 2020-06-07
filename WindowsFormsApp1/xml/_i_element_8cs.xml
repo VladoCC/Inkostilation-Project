@@ -19,7 +19,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12" refid="interface_win_forms_app1_1_1_i_element" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" kindref="member">Compare</ref>(<ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref><sp/>elem);</highlight></codeline>
+<codeline lineno="21" refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" kindref="member">Compare</ref>(<ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref><sp/>elem);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">}</highlight></codeline>
     </programlisting>

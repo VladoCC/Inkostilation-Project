@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="8" column="48" bodyfile="HashMap2Dialog.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a0559640fd53b85fc2e8c81fcb9c58937" compoundref="_hash_map2_dialog_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.HashMap2Dialog.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a109e42b84d2d2db1d2a0b0946f75a87f" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="156" column="41" bodyfile="HashMap2Dialog.Designer.cs" bodystart="156" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1af56f59ed9568c15b4493f6a79c2fefcf" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -44,6 +46,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="157" column="42" bodyfile="HashMap2Dialog.Designer.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a5315e65a33a36722a5d2a52b5d59cd94" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -57,6 +60,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="158" column="41" bodyfile="HashMap2Dialog.Designer.cs" bodystart="158" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a28deef16849e02fe84f0360d53928e27" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -70,6 +74,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="159" column="41" bodyfile="HashMap2Dialog.Designer.cs" bodystart="159" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a3b5c5afa0c257d5dadebfb1a1d48cb51" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -83,6 +88,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="160" column="41" bodyfile="HashMap2Dialog.Designer.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a7f5bfef762436ae674f131b83a148b2c" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -96,6 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="164" column="42" bodyfile="HashMap2Dialog.Designer.cs" bodystart="164" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -111,6 +118,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="161" column="33" bodyfile="HashMap2Dialog.Designer.cs" bodystart="161" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" compoundref="_hash_map2_dialog_8cs" startline="20" endline="90">WindowsFormsApp1.HashMap2Dialog.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a3960455511f2b8e919fc22d0054dd43f" prot="public" static="no" mutable="no">
         <type><ref refid="class_windows_forms_app1_1_1_water_mark_text_box" kindref="compound">WaterMarkTextBox</ref></type>
@@ -124,6 +134,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="162" column="33" bodyfile="HashMap2Dialog.Designer.cs" bodystart="162" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" compoundref="_hash_map2_dialog_8cs" startline="20" endline="90">WindowsFormsApp1.HashMap2Dialog.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a6ecb3a37304fa36c923f76bcee17d5df" prot="public" static="no" mutable="no">
         <type><ref refid="class_windows_forms_app1_1_1_water_mark_text_box" kindref="compound">WaterMarkTextBox</ref></type>
@@ -137,6 +150,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="163" column="33" bodyfile="HashMap2Dialog.Designer.cs" bodystart="163" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" compoundref="_hash_map2_dialog_8cs" startline="20" endline="90">WindowsFormsApp1.HashMap2Dialog.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -152,6 +168,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.cs" line="15" column="16" bodyfile="HashMap2Dialog.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -175,6 +192,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.cs" line="20" column="22" bodyfile="HashMap2Dialog.cs" bodystart="20" bodyend="90"/>
+        <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1abebce85a8cc850b3c4af83971f4acf1c" compoundref="_hash_map2_dialog_8_designer_8cs" startline="161">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox1</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a3960455511f2b8e919fc22d0054dd43f" compoundref="_hash_map2_dialog_8_designer_8cs" startline="162">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox2</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a6ecb3a37304fa36c923f76bcee17d5df" compoundref="_hash_map2_dialog_8_designer_8cs" startline="163">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox3</references>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_hash_map2_dialog_1a0f8f1fa818ae09e3751cead4a9c3fdc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -196,6 +218,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.cs" line="92" column="22" bodyfile="HashMap2Dialog.cs" bodystart="92" bodyend="96"/>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" compoundref="_g_u_i_8cs" startline="29">WindowsFormsApp1.GUI.stopflag</references>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -210,6 +234,20 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="29" column="22" bodyfile="HashMap2Dialog.Designer.cs" bodystart="29" bodyend="153"/>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af56f59ed9568c15b4493f6a79c2fefcf" compoundref="_hash_map2_dialog_8_designer_8cs" startline="157">WindowsFormsApp1.HashMap2Dialog.button1</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" compoundref="_hash_map2_dialog_8cs" startline="20" endline="90">WindowsFormsApp1.HashMap2Dialog.button1_Click</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a7f5bfef762436ae674f131b83a148b2c" compoundref="_hash_map2_dialog_8_designer_8cs" startline="164">WindowsFormsApp1.HashMap2Dialog.button2</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a0f8f1fa818ae09e3751cead4a9c3fdc8" compoundref="_hash_map2_dialog_8cs" startline="92" endline="96">WindowsFormsApp1.HashMap2Dialog.button2_Click</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a3b5c5afa0c257d5dadebfb1a1d48cb51" compoundref="_hash_map2_dialog_8_designer_8cs" startline="160">WindowsFormsApp1.HashMap2Dialog.label1</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a28deef16849e02fe84f0360d53928e27" compoundref="_hash_map2_dialog_8_designer_8cs" startline="159">WindowsFormsApp1.HashMap2Dialog.label2</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a5315e65a33a36722a5d2a52b5d59cd94" compoundref="_hash_map2_dialog_8_designer_8cs" startline="158">WindowsFormsApp1.HashMap2Dialog.label3</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a109e42b84d2d2db1d2a0b0946f75a87f" compoundref="_hash_map2_dialog_8_designer_8cs" startline="156">WindowsFormsApp1.HashMap2Dialog.label4</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1ab5ed7ecd57a807d59e03ea3695728749" compoundref="_water_mark_text_box_8cs" startline="18" endline="24">WindowsFormsApp1.WaterMarkTextBox.WaterMarkColor</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" compoundref="_water_mark_text_box_8cs" startline="28" endline="31">WindowsFormsApp1.WaterMarkTextBox.WaterMarkText</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1abebce85a8cc850b3c4af83971f4acf1c" compoundref="_hash_map2_dialog_8_designer_8cs" startline="161">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox1</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a3960455511f2b8e919fc22d0054dd43f" compoundref="_hash_map2_dialog_8_designer_8cs" startline="162">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox2</references>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a6ecb3a37304fa36c923f76bcee17d5df" compoundref="_hash_map2_dialog_8_designer_8cs" startline="163">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox3</references>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a71cf4e7becd4e3752951db27fa458803" compoundref="_hash_map2_dialog_8cs" startline="15" endline="18">WindowsFormsApp1.HashMap2Dialog.HashMap2Dialog</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -240,6 +278,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="HashMap2Dialog.Designer.cs" line="14" column="33" bodyfile="HashMap2Dialog.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a5c5389aae98da3cb7ac9a9bfe936d31c" compoundref="_hash_map2_dialog_8_designer_8cs" startline="8">WindowsFormsApp1.HashMap2Dialog.components</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -264,9 +303,18 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>waterMarkTextBox1</edgelabel>
-          <edgelabel>waterMarkTextBox2</edgelabel>
-          <edgelabel>waterMarkTextBox3</edgelabel>
+          <edgelabel>+waterMarkTextBox2</edgelabel>
+          <edgelabel>+waterMarkTextBox3</edgelabel>
+          <edgelabel>+waterMarkTextBox1</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-label1</edgelabel>
+          <edgelabel>-label2</edgelabel>
+          <edgelabel>-label3</edgelabel>
+          <edgelabel>-button1</edgelabel>
+          <edgelabel>-button2</edgelabel>
+          <edgelabel>-label4</edgelabel>
+          <edgelabel>-components</edgelabel>
         </childnode>
       </node>
       <node id="2">
@@ -274,6 +322,9 @@
       </node>
       <node id="4">
         <label>TextBox</label>
+      </node>
+      <node id="5">
+        <label>System</label>
       </node>
       <node id="3">
         <label>WindowsFormsApp1.WaterMarkTextBox</label>

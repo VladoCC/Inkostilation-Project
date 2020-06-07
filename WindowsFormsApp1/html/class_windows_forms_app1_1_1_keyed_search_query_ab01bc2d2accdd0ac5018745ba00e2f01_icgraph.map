@@ -1,0 +1,5 @@
+<map id="WindowsFormsApp1.KeyedSearchQuery.SearchKey" name="WindowsFormsApp1.KeyedSearchQuery.SearchKey">
+<area shape="rect" id="node1" title="Возвращает ключ искомого элемента." alt="" coords="313,46,537,87"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_hash_map.html#a30d35336efdf9ce0b8f893791f8d2890" title=" " alt="" coords="47,5,223,61"/>
+<area shape="rect" id="node3" href="$class_win_forms_app1_1_1_double_hash_storage.html#a50c2128c83f08591f6f1b394da2f8a56" title="Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения к..." alt="" coords="5,85,265,112"/>
+</map>

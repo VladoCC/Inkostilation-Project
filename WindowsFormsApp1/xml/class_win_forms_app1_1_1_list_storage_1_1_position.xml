@@ -9,17 +9,22 @@
     </templateparamlist>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a2e80e2cea529702ce182ff5ccb23ef51" prot="private" static="no" mutable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_list_storage_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;._next</definition>
         <argsstring></argsstring>
         <name>_next</name>
         <briefdescription>
+<para>Следующий элемент списка. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="110" column="30" bodyfile="ListStorage.cs" bodystart="110" bodyend="-1"/>
+        <location file="ListStorage.cs" line="132" column="30" bodyfile="ListStorage.cs" bodystart="132" bodyend="-1"/>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a207ab3db62f47097016f3996a0b150bc" compoundref="_list_storage_8cs" startline="161" endline="168">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::Size</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" compoundref="_list_storage_8cs" startline="174" endline="184">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::Add</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" compoundref="_list_storage_8cs" startline="192" endline="208">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::Remove</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" compoundref="_list_storage_8cs" startline="216" endline="224">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::FillArray</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1ac119b42e89512b7cd246a6d6b4a7e984" prot="private" static="no" mutable="no">
         <type>T</type>
@@ -27,12 +32,15 @@
         <argsstring></argsstring>
         <name>_element</name>
         <briefdescription>
+<para>Данное, содержащееся в этой позиции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="111" column="23" bodyfile="ListStorage.cs" bodystart="111" bodyend="-1"/>
+        <location file="ListStorage.cs" line="136" column="23" bodyfile="ListStorage.cs" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1af5c0de3fe9e823ba3770b22e8805748f" compoundref="_list_storage_8cs" startline="152" endline="155">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::Position</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" compoundref="_list_storage_8cs" startline="216" endline="224">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::FillArray</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -41,28 +49,32 @@
         <definition>T WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Element</definition>
         <argsstring></argsstring>
         <name>Element</name>
-        <initializer>=&gt; _element</initializer>
+        <initializer>=&gt; <ref refid="class_win_forms_app1_1_1_list_storage_1_1_position_1ac119b42e89512b7cd246a6d6b4a7e984" kindref="member">_element</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для элемента, находящегося в позиции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="113" column="22" bodyfile="ListStorage.cs" bodystart="113" bodyend="-1"/>
+        <location file="ListStorage.cs" line="141" column="22" bodyfile="ListStorage.cs" bodystart="141" bodyend="-1"/>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" compoundref="_list_storage_8cs" startline="104" endline="118">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" prot="public" static="no" mutable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_list_storage_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Next</definition>
         <argsstring></argsstring>
         <name>Next</name>
-        <initializer>=&gt; _next</initializer>
+        <initializer>=&gt; <ref refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a2e80e2cea529702ce182ff5ccb23ef51" kindref="member">_next</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для следующей позиции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="115" column="29" bodyfile="ListStorage.cs" bodystart="115" bodyend="-1"/>
+        <location file="ListStorage.cs" line="146" column="29" bodyfile="ListStorage.cs" bodystart="146" bodyend="-1"/>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" compoundref="_list_storage_8cs" startline="104" endline="118">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -76,12 +88,23 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Публичный конструктор, позволяющий создать новую позицию. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Элемент, содержащийся в этой позиции. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="117" column="20" bodyfile="ListStorage.cs" bodystart="117" bodyend="120"/>
+        <location file="ListStorage.cs" line="152" column="20" bodyfile="ListStorage.cs" bodystart="152" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a207ab3db62f47097016f3996a0b150bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -89,12 +112,16 @@
         <argsstring>()</argsstring>
         <name>Size</name>
         <briefdescription>
+<para>Возвращает длину списка, начинающегося с этой позиции. Работает рекурсивно. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Длина списка, начинающегося с этой позиции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="122" column="24" bodyfile="ListStorage.cs" bodystart="122" bodyend="129"/>
+        <location file="ListStorage.cs" line="161" column="24" bodyfile="ListStorage.cs" bodystart="161" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -106,12 +133,24 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Добавляет элемент в список. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Добавляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="131" column="25" bodyfile="ListStorage.cs" bodystart="131" bodyend="141"/>
+        <location file="ListStorage.cs" line="174" column="25" bodyfile="ListStorage.cs" bodystart="174" bodyend="184"/>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" compoundref="_list_storage_8cs" startline="42" endline="52">WinFormsApp1.ListStorage&lt; K, V &gt;.Add</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -123,12 +162,26 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Удаляет элемент из списка. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Удаляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает true, если элемент найден и удален, иначе false. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="143" column="25" bodyfile="ListStorage.cs" bodystart="143" bodyend="159"/>
+        <location file="ListStorage.cs" line="192" column="25" bodyfile="ListStorage.cs" bodystart="192" bodyend="208"/>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" compoundref="_list_storage_8cs" startline="54" endline="70">WinFormsApp1.ListStorage&lt; K, V &gt;.Remove</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -144,19 +197,70 @@
           <declname>pos</declname>
         </param>
         <briefdescription>
+<para>Заполняет массив, начиная с указанной позиции, элементами данного списка. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив для заполнения. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Позиция для начала заполнения. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Позицию, на которой было завершено заполнение. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="161" column="24" bodyfile="ListStorage.cs" bodystart="161" bodyend="169"/>
+        <location file="ListStorage.cs" line="216" column="24" bodyfile="ListStorage.cs" bodystart="216" bodyend="224"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в <ref refid="class_win_forms_app1_1_1_list_storage" kindref="compound">ListStorage</ref>. </para>
     </briefdescription>
     <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип данных, хранимых в списке. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
     </detaileddescription>
-    <location file="ListStorage.cs" line="108" column="16" bodyfile="ListStorage.cs" bodystart="109" bodyend="170"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;</label>
+        <link refid="class_win_forms_app1_1_1_list_storage_1_1_position"/>
+      </node>
+      <node id="2">
+        <label>WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_list_storage_1_1_position"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; V &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;</label>
+        <link refid="class_win_forms_app1_1_1_list_storage_1_1_position"/>
+      </node>
+    </collaborationgraph>
+    <location file="ListStorage.cs" line="127" column="16" bodyfile="ListStorage.cs" bodystart="128" bodyend="225"/>
     <listofallmembers>
       <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1ac119b42e89512b7cd246a6d6b4a7e984" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>_element</name></member>
       <member refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a2e80e2cea529702ce182ff5ccb23ef51" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage::Position</scope><name>_next</name></member>

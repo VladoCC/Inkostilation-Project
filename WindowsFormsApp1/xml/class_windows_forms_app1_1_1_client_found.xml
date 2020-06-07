@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="8" column="48" bodyfile="ClientFound.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1afc0bb5c86a6b06535ca73672bb997ce1" compoundref="_client_found_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.ClientFound.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1a19865226271e50ab5522b8bbab1d8d18" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="157" column="41" bodyfile="ClientFound.Designer.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1aff54e96c495bec47877b33acdfe8eff2" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -44,6 +46,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="158" column="41" bodyfile="ClientFound.Designer.cs" bodystart="158" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1a8d9d54619c0771a93120a6e8a825b8aa" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -57,6 +60,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="160" column="61" bodyfile="ClientFound.Designer.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1aa7bb418154a825749807ba74d03640c1" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -70,6 +74,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="161" column="61" bodyfile="ClientFound.Designer.cs" bodystart="161" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1aa5be70ace77093e1f827f81f3ac09f06" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -83,6 +88,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="162" column="61" bodyfile="ClientFound.Designer.cs" bodystart="162" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1a5565fa5bc213a34433c291d9c113df2c" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -96,6 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="163" column="61" bodyfile="ClientFound.Designer.cs" bodystart="163" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -111,6 +118,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="156" column="47" bodyfile="ClientFound.Designer.cs" bodystart="156" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1afbf193bc145f24a1417823ad2a86bfac" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -124,6 +133,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="159" column="40" bodyfile="ClientFound.Designer.cs" bodystart="159" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -139,6 +150,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.cs" line="15" column="16" bodyfile="ClientFound.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -169,6 +181,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="14" column="33" bodyfile="ClientFound.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_client_found_1a0d3f013bfd668e4e6e273fb61f47a615" compoundref="_client_found_8_designer_8cs" startline="8">WindowsFormsApp1.ClientFound.components</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -185,6 +198,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="29" column="22" bodyfile="ClientFound.Designer.cs" bodystart="29" bodyend="152"/>
+        <references refid="class_windows_forms_app1_1_1_client_found_1ad14abc8eccd4e93b9c0d302aabc2e039" compoundref="_client_found_8_designer_8cs" startline="156">WindowsFormsApp1.ClientFound.ClientResults</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1a8d9d54619c0771a93120a6e8a825b8aa" compoundref="_client_found_8_designer_8cs" startline="160">WindowsFormsApp1.ClientFound.Hash1</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1afbf193bc145f24a1417823ad2a86bfac" compoundref="_client_found_8_designer_8cs" startline="159">WindowsFormsApp1.ClientFound.label1</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1aff54e96c495bec47877b33acdfe8eff2" compoundref="_client_found_8_designer_8cs" startline="158">WindowsFormsApp1.ClientFound.label2</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1a19865226271e50ab5522b8bbab1d8d18" compoundref="_client_found_8_designer_8cs" startline="157">WindowsFormsApp1.ClientFound.label3</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1aa5be70ace77093e1f827f81f3ac09f06" compoundref="_client_found_8_designer_8cs" startline="162">WindowsFormsApp1.ClientFound.Банк</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1aa7bb418154a825749807ba74d03640c1" compoundref="_client_found_8_designer_8cs" startline="161">WindowsFormsApp1.ClientFound.НомерКарточки</references>
+        <references refid="class_windows_forms_app1_1_1_client_found_1a5565fa5bc213a34433c291d9c113df2c" compoundref="_client_found_8_designer_8cs" startline="163">WindowsFormsApp1.ClientFound.ФИО</references>
+        <referencedby refid="class_windows_forms_app1_1_1_client_found_1aae787b167c6f47f7f0d49f6977be4487" compoundref="_client_found_8cs" startline="15" endline="18">WindowsFormsApp1.ClientFound.ClientFound</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -215,8 +237,15 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>label1</edgelabel>
-          <edgelabel>ClientResults</edgelabel>
+          <edgelabel>-label2</edgelabel>
+          <edgelabel>-label3</edgelabel>
+          <edgelabel>-Hash1</edgelabel>
+          <edgelabel>+ClientResults</edgelabel>
+          <edgelabel>-components</edgelabel>
+          <edgelabel>-ФИО</edgelabel>
+          <edgelabel>-Банк</edgelabel>
+          <edgelabel>-НомерКарточки</edgelabel>
+          <edgelabel>+label1</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

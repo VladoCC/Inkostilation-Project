@@ -14,25 +14,32 @@
         <argsstring></argsstring>
         <name>_element</name>
         <briefdescription>
+<para>Данное, хранящееся в контейнере. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Report.cs" line="55" column="23" bodyfile="Report.cs" bodystart="55" bodyend="-1"/>
+        <location file="Report.cs" line="97" column="23" bodyfile="Report.cs" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1_1_container_1a1d5f6f3c9e9e58285fc17e5f8d890b97" compoundref="_report_8cs" startline="107" endline="110">WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; V &gt;::Container</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1_1_container_1ae9cfed22f542b097fc74e5e6aabff9d1" compoundref="_report_8cs" startline="147" endline="154">WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; V &gt;::Fill</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_report_1_1_container_1a6269c0342e08b92d94252636a44ec91d" prot="private" static="no" mutable="no">
-        <type>Container&lt; T &gt;</type>
+        <type><ref refid="class_windows_forms_app1_1_1_report_1_1_container" kindref="compound">Container</ref>&lt; T &gt;</type>
         <definition>Container&lt;T&gt; WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;._next</definition>
         <argsstring></argsstring>
         <name>_next</name>
         <briefdescription>
+<para>Следующий элемент списка. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Report.cs" line="56" column="31" bodyfile="Report.cs" bodystart="56" bodyend="-1"/>
+        <location file="Report.cs" line="101" column="31" bodyfile="Report.cs" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1_1_container_1a2a3b9599dd9c38565a01f9511ecb439b" compoundref="_report_8cs" startline="116" endline="126">WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; V &gt;::Add</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1_1_container_1a2a5ca1df6a5d4d4c35e52e55fd85021c" compoundref="_report_8cs" startline="132" endline="140">WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; V &gt;::Size</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1_1_container_1ae9cfed22f542b097fc74e5e6aabff9d1" compoundref="_report_8cs" startline="147" endline="154">WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; V &gt;::Fill</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -46,12 +53,23 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Конструктор для контейнера, хранящего определенный элемент. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Элемент, хранящийся в контейнере. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Report.cs" line="58" column="20" bodyfile="Report.cs" bodystart="58" bodyend="61"/>
+        <location file="Report.cs" line="107" column="20" bodyfile="Report.cs" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1a2a3b9599dd9c38565a01f9511ecb439b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -59,16 +77,28 @@
         <argsstring>(Container&lt; T &gt; container)</argsstring>
         <name>Add</name>
         <param>
-          <type>Container&lt; T &gt;</type>
+          <type><ref refid="class_windows_forms_app1_1_1_report_1_1_container" kindref="compound">Container</ref>&lt; T &gt;</type>
           <declname>container</declname>
         </param>
         <briefdescription>
+<para>Добавляет контейнер в конец списка. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>container</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Добавляемый контейнер. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Report.cs" line="63" column="25" bodyfile="Report.cs" bodystart="63" bodyend="73"/>
+        <location file="Report.cs" line="116" column="25" bodyfile="Report.cs" bodystart="116" bodyend="126"/>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1a2a5ca1df6a5d4d4c35e52e55fd85021c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -76,12 +106,18 @@
         <argsstring>()</argsstring>
         <name>Size</name>
         <briefdescription>
+<para>Возвращает количество элементов в списке. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Количество элементов в списке. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Report.cs" line="75" column="24" bodyfile="Report.cs" bodystart="75" bodyend="83"/>
+        <location file="Report.cs" line="132" column="24" bodyfile="Report.cs" bodystart="132" bodyend="140"/>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_report_1_1_container_1ae9cfed22f542b097fc74e5e6aabff9d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -97,19 +133,69 @@
           <declname>pos</declname>
         </param>
         <briefdescription>
+<para>Заполняет массив, начиная с указанной позиции, элементами данного списка. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив для заполнения. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Позиция для начала заполнения. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Report.cs" line="85" column="25" bodyfile="Report.cs" bodystart="85" bodyend="92"/>
+        <location file="Report.cs" line="147" column="25" bodyfile="Report.cs" bodystart="147" bodyend="154"/>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Котейнер, являющийся первым элементом списка и предоставляющий методы работы со списком. </para>
     </briefdescription>
     <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип данных, хранящихся в списке. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
     </detaileddescription>
-    <location file="Report.cs" line="53" column="9" bodyfile="Report.cs" bodystart="54" bodyend="93"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_report_1_1_container"/>
+      </node>
+      <node id="2">
+        <label>WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; V &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_report_1_1_container"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; V &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Report&lt; K, V &gt;.Container&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_report_1_1_container"/>
+      </node>
+    </collaborationgraph>
+    <location file="Report.cs" line="92" column="9" bodyfile="Report.cs" bodystart="93" bodyend="155"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_report_1_1_container_1ab7d0fc46da5085b40cbbc97ffa4e9268" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>_element</name></member>
       <member refid="class_windows_forms_app1_1_1_report_1_1_container_1a6269c0342e08b92d94252636a44ec91d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Report::Container</scope><name>_next</name></member>

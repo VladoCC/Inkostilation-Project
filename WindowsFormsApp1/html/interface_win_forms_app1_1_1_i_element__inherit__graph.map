@@ -1,0 +1,9 @@
+<map id="WinFormsApp1.IElement" name="WinFormsApp1.IElement">
+<area shape="rect" id="node1" title="Интерфейс, описывающий данное, хранящееся в базе." alt="" coords="245,5,411,83"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_operation.html" title="Класс, описывающий банковскую операцию." alt="" coords="5,132,208,341"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_percent.html" title="Класс, описывающий процент по операции." alt="" coords="233,132,423,341"/>
+<area shape="rect" id="node4" href="$interface_win_forms_app1_1_1_i_keyed_element.html" title="Интерфейс, описывающий элемент, обладающий ключом, используемым для генерации хэш&#45;функции." alt="" coords="448,198,685,275"/>
+<area shape="rect" id="node5" href="$interface_win_forms_app1_1_1_i_keyed_element.html" title=" " alt="" coords="465,404,669,496"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_client.html" title="Класс, описывающий клиента банковской системы. Обладает ключом типа int." alt="" coords="372,545,551,725"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_machine.html" title="Класс, описывающий банкомат. Обладает ключом типа int." alt="" coords="575,545,769,725"/>
+</map>

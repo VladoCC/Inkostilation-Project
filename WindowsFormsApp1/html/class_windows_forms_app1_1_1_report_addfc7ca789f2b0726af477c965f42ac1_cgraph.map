@@ -1,0 +1,6 @@
+<map id="WindowsFormsApp1.Report.Data" name="WindowsFormsApp1.Report.Data">
+<area shape="rect" id="node1" title="Предоставляет данные, хранящиеся в отчете в виде массива." alt="" coords="5,78,220,105"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_report_1_1_container.html#ae9cfed22f542b097fc74e5e6aabff9d1" title="Заполняет массив, начиная с указанной позиции, элементами данного списка." alt="" coords="280,5,468,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_report_1_1_container.html#a2a5ca1df6a5d4d4c35e52e55fd85021c" title="Возвращает количество элементов в списке." alt="" coords="280,71,468,112"/>
+<area shape="rect" id="node4" href="$interface_windows_forms_app1_1_1_i_sorter.html#a4f91437b489659b252ef608cb2451b39" title="Метод, совершающий сортировку." alt="" coords="268,137,480,163"/>
+</map>

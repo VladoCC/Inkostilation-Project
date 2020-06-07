@@ -1,0 +1,5 @@
+<map id="WindowsFormsApp1.Database.MachineOperationReport" name="WindowsFormsApp1.Database.MachineOperationReport">
+<area shape="rect" id="node1" title="Создает отчет об операциях, проведенных этим банкоматом." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_report.html#ac9be55006f2698fd0945906f9ec370ff" title="Добавляет элемент в отчет." alt="" coords="259,13,469,39"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_report_1_1_container.html#a2a3b9599dd9c38565a01f9511ecb439b" title="Добавляет контейнер в конец списка." alt="" coords="517,5,705,47"/>
+</map>

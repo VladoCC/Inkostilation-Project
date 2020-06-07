@@ -1,0 +1,6 @@
+<map id="WinFormsApp1.DoubleHashStorage.GetSize" name="WinFormsApp1.DoubleHashStorage.GetSize">
+<area shape="rect" id="node1" title="Геттер, возвращающий размер хранилища в числовом представлении." alt="" coords="877,5,1112,47"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_double_hash_storage.html#aa03ea4870bcf39fe3a6654f63829ee7e" title="Возвращает элементы хранилища в виде массива." alt="" coords="595,5,829,47"/>
+<area shape="rect" id="node3" href="$class_win_forms_app1_1_1_double_hash_storage.html#a74540265b8baf7cdc62a49bc37e04102" title="Функция, позволяющая увеличить размер хранилища в два раза. Также обновляет положение всех элементов,..." alt="" coords="312,5,547,47"/>
+<area shape="rect" id="node4" href="$class_win_forms_app1_1_1_double_hash_storage.html#a680decb93c556470b7e6534a3eded0de" title="Добавляет элемент в хранилище." alt="" coords="5,13,264,39"/>
+</map>

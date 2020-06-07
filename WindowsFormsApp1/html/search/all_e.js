@@ -1,12 +1,11 @@
 var searchData=
 [
-  ['oddfunction_119',['OddFunction',['../class_windows_forms_app1_1_1_odd_function.html',1,'WindowsFormsApp1']]],
-  ['operation_120',['Operation',['../class_windows_forms_app1_1_1_operation.html',1,'WindowsFormsApp1.Operation'],['../class_windows_forms_app1_1_1_operation.html#a9622e097525d4fbbf966b3c435704d75',1,'WindowsFormsApp1.Operation.Operation()']]],
-  ['operationarray_121',['OperationArray',['../class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644',1,'WindowsFormsApp1::Database']]],
-  ['operationfound_122',['operationFound',['../class_windows_forms_app1_1_1operation_found.html',1,'WindowsFormsApp1']]],
-  ['operationname_123',['OperationName',['../class_windows_forms_app1_1_1_operation.html#a2dc68fdc88cff6a812d61c7c8775378a',1,'WindowsFormsApp1.Operation.OperationName()'],['../class_windows_forms_app1_1_1_percent.html#a0aada03c9753ac8ca93a841bd8c796ce',1,'WindowsFormsApp1.Percent.OperationName()']]],
-  ['operationpercentreport_124',['OperationPercentReport',['../class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680',1,'WindowsFormsApp1::Database']]],
-  ['operationsize_125',['OperationSize',['../class_windows_forms_app1_1_1_database.html#a71bfaac112b0cf14dbfa6ed6828645bf',1,'WindowsFormsApp1::Database']]],
-  ['operationsofclient_126',['OperationsOfClient',['../class_windows_forms_app1_1_1_operations_of_client.html',1,'WindowsFormsApp1']]],
-  ['operationsofmachine_127',['OperationsOfMachine',['../class_windows_forms_app1_1_1_operations_of_machine.html',1,'WindowsFormsApp1']]]
+  ['name_202',['Name',['../class_windows_forms_app1_1_1_client.html#a05bb4e48163240869b0e2170aa748dd2',1,'WindowsFormsApp1::Client']]],
+  ['next_203',['Next',['../class_win_forms_app1_1_1_list_storage_1_1_position.html#a401edadc94769944f81c56554891cdfb',1,'WinFormsApp1::ListStorage::Position']]],
+  ['node_204',['Node',['../class_windows_forms_app1_1_1_r_b_1_1_node.html',1,'WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;'],['../class_windows_forms_app1_1_1_r_b_1_1_node.html#a51d2c9f282a943fc1beb9cfd6a3bf650',1,'WindowsFormsApp1.RB.Node.Node(T data)'],['../class_windows_forms_app1_1_1_r_b_1_1_node.html#a597719bb91a473e6c4fb47185ac14fd5',1,'WindowsFormsApp1.RB.Node.Node(Color colour)'],['../class_windows_forms_app1_1_1_r_b_1_1_node.html#a33897e4f2acc0c2e89403441a03d57ca',1,'WindowsFormsApp1.RB.Node.Node(T data, Color colour)']]],
+  ['numrows_205',['NumRows',['../class_windows_forms_app1_1_1_operations_of_client.html#a526cfd89edea0eee4db2e69934d3d392',1,'WindowsFormsApp1.OperationsOfClient.NumRows()'],['../class_windows_forms_app1_1_1_operations_of_machine.html#ac9e7a8ac7d07baacd05b56827e41a0ef',1,'WindowsFormsApp1.OperationsOfMachine.NumRows()'],['../class_windows_forms_app1_1_1_percents_of_machine.html#a3f5b7b7be7cc8aeaad22840e43a6bfcb',1,'WindowsFormsApp1.PercentsOfMachine.NumRows()'],['../class_windows_forms_app1_1_1_percents_of_operation.html#a8d0feff54e14ed35792e03b1f8729fcb',1,'WindowsFormsApp1.PercentsOfOperation.NumRows()']]],
+  ['numrows1_206',['NumRows1',['../class_windows_forms_app1_1_1_g_u_i.html#a7e579f8f91b5cf123ef58cd9d3c2e598',1,'WindowsFormsApp1::GUI']]],
+  ['numrows2_207',['NumRows2',['../class_windows_forms_app1_1_1_g_u_i.html#a6442295d7fbdc8cdc28c34de29001f4d',1,'WindowsFormsApp1::GUI']]],
+  ['numrows3_208',['NumRows3',['../class_windows_forms_app1_1_1_g_u_i.html#ae1cdb54f20b3327c3894e77f3f9a4278',1,'WindowsFormsApp1::GUI']]],
+  ['numrows4_209',['NumRows4',['../class_windows_forms_app1_1_1_g_u_i.html#ae695f30d30c455d22cc85e7a77a35bd1',1,'WindowsFormsApp1::GUI']]]
 ];

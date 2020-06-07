@@ -1,0 +1,5 @@
+<map id="WindowsFormsApp1.GUI.button4_Click" name="WindowsFormsApp1.GUI.button4_Click">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#ab451a666862c8ec775b8963249a118ec" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="268,5,473,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="521,5,727,47"/>
+</map>

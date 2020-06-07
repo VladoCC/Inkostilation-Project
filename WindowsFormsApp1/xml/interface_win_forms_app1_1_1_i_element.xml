@@ -11,8 +11,8 @@
         <definition>int WinFormsApp1.IElement.Compare</definition>
         <argsstring>(IElement elem)</argsstring>
         <name>Compare</name>
-        <reimplementedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05">Compare</reimplementedby>
         <reimplementedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07">Compare</reimplementedby>
+        <reimplementedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05">Compare</reimplementedby>
         <param>
           <type><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></type>
           <declname>elem</declname>
@@ -55,6 +55,12 @@
         <label>WinFormsApp1.IElement</label>
         <link refid="interface_win_forms_app1_1_1_i_element"/>
       </node>
+      <node id="6">
+        <label>WindowsFormsApp1.Client</label>
+        <link refid="class_windows_forms_app1_1_1_client"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>WindowsFormsApp1.Operation</label>
         <link refid="class_windows_forms_app1_1_1_operation"/>
@@ -67,7 +73,26 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="7">
+        <label>WindowsFormsApp1.Machine</label>
+        <link refid="class_windows_forms_app1_1_1_machine"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WinFormsApp1.IKeyedElement&lt; int &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
+        </childnode>
+      </node>
     </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WinFormsApp1.IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
+    </collaborationgraph>
     <location file="IElement.cs" line="12" column="22" bodyfile="IElement.cs" bodystart="13" bodyend="22"/>
     <listofallmembers>
       <member refid="interface_win_forms_app1_1_1_i_element_1a2b9820357d065c06d16b3a9c84def646" prot="public" virt="non-virtual"><scope>WinFormsApp1::IElement</scope><name>Compare</name></member>

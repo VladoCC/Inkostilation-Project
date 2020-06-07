@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Splash.Designer.cs" line="8" column="48" bodyfile="Splash.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_splash_1a4aa682d790152ef58fe018007abe7770" compoundref="_splash_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.Splash.Dispose</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -33,6 +34,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Splash.cs" line="15" column="16" bodyfile="Splash.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1_splash_1a2721220bc99b8e47415532681ff6f7e1" compoundref="_splash_8_designer_8cs" startline="29" endline="47">WindowsFormsApp1.Splash.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -63,6 +65,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Splash.Designer.cs" line="14" column="33" bodyfile="Splash.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_splash_1a253f3fd8fd8bdf02895f6fd406d830db" compoundref="_splash_8_designer_8cs" startline="8">WindowsFormsApp1.Splash.components</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -79,6 +82,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Splash.Designer.cs" line="29" column="22" bodyfile="Splash.Designer.cs" bodystart="29" bodyend="47"/>
+        <referencedby refid="class_windows_forms_app1_1_1_splash_1ab771279b971a66d4855a7aa5cd159568" compoundref="_splash_8cs" startline="15" endline="18">WindowsFormsApp1.Splash.Splash</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -105,6 +109,12 @@
         <link refid="class_windows_forms_app1_1_1_splash"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-components</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System</label>
       </node>
     </collaborationgraph>
     <location file="Splash.cs" line="13" column="19" bodyfile="Splash.cs" bodystart="14" bodyend="19"/>

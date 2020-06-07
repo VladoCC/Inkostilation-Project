@@ -17,6 +17,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.cs" line="15" column="13" bodyfile="PercentsOfMachine.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a3f5b7b7be7cc8aeaad22840e43a6bfcb" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.cs" line="16" column="13" bodyfile="PercentsOfMachine.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a41e7c4c828b974792600677936dd473b" prot="private" static="no" mutable="no">
         <type>System.ComponentModel.IContainer</type>
@@ -46,6 +48,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="8" column="48" bodyfile="PercentsOfMachine.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a5aed06777cc45de473f4bc0e50145270" compoundref="_percents_of_machine_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.PercentsOfMachine.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1ace1a1a337773c779a3ae465e360a65b1" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -59,6 +62,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="215" column="41" bodyfile="PercentsOfMachine.Designer.cs" bodystart="215" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a01205922879ea19cdcf4c76a450ad541" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -72,6 +76,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="217" column="41" bodyfile="PercentsOfMachine.Designer.cs" bodystart="217" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a32d14f156645db4d80ed188aea5de7d0" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -85,6 +90,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="218" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a83c46e63c847bc47c8757e290087c5f7" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -98,6 +104,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="219" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="219" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1afdc8deb964d92d13b9ce8cd50efec239" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -111,6 +118,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="220" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="220" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a96b1b3e6c20a187ec85ebb53459e913c" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -124,6 +132,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="221" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="221" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a93fc44ab7eedb0d04bfbcb63e3f25145" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -137,6 +146,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="222" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="222" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a4cbe626811264f0284ac979d01fafaea" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -150,6 +160,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="223" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="223" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a2c20b048899ba9c05f2f0fd8c25f852a" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -163,6 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="224" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="224" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1acca6f1a4a0a566a9e00b754661b4dcfc" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -176,6 +188,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="225" column="61" bodyfile="PercentsOfMachine.Designer.cs" bodystart="225" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -191,6 +204,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="214" column="47" bodyfile="PercentsOfMachine.Designer.cs" bodystart="214" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percents_of_machine_1a598559650583f650f5068268e0ff304b" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridView</type>
@@ -204,6 +219,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="216" column="47" bodyfile="PercentsOfMachine.Designer.cs" bodystart="216" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -219,6 +236,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.cs" line="17" column="16" bodyfile="PercentsOfMachine.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -242,6 +260,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.cs" line="22" column="22" bodyfile="PercentsOfMachine.cs" bodystart="22" bodyend="44"/>
+        <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
+        <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1afd170491066bc7c7b512c63efcc50381" compoundref="_percents_of_machine_8cs" startline="15">WindowsFormsApp1.PercentsOfMachine.index</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a598559650583f650f5068268e0ff304b" compoundref="_percents_of_machine_8_designer_8cs" startline="216">WindowsFormsApp1.PercentsOfMachine.MachinesKey</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a3f5b7b7be7cc8aeaad22840e43a6bfcb" compoundref="_percents_of_machine_8cs" startline="16">WindowsFormsApp1.PercentsOfMachine.NumRows</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a4a366d307a55c0214e149bfe0e0cfafd" compoundref="_percents_of_machine_8_designer_8cs" startline="214">WindowsFormsApp1.PercentsOfMachine.PercentsData</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" compoundref="_percent_8cs" startline="74">WindowsFormsApp1.Percent.SenderBank</references>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" compoundref="_percents_of_machine_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.PercentsOfMachine.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_percents_of_machine_1a8c278862abffdb3c34243d1240c7c05e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -256,6 +287,20 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="29" column="22" bodyfile="PercentsOfMachine.Designer.cs" bodystart="29" bodyend="210"/>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a32d14f156645db4d80ed188aea5de7d0" compoundref="_percents_of_machine_8_designer_8cs" startline="218">WindowsFormsApp1.PercentsOfMachine.Hash</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a01205922879ea19cdcf4c76a450ad541" compoundref="_percents_of_machine_8_designer_8cs" startline="217">WindowsFormsApp1.PercentsOfMachine.label1</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1ace1a1a337773c779a3ae465e360a65b1" compoundref="_percents_of_machine_8_designer_8cs" startline="215">WindowsFormsApp1.PercentsOfMachine.label2</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a598559650583f650f5068268e0ff304b" compoundref="_percents_of_machine_8_designer_8cs" startline="216">WindowsFormsApp1.PercentsOfMachine.MachinesKey</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a4a366d307a55c0214e149bfe0e0cfafd" compoundref="_percents_of_machine_8_designer_8cs" startline="214">WindowsFormsApp1.PercentsOfMachine.PercentsData</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1afdc8deb964d92d13b9ce8cd50efec239" compoundref="_percents_of_machine_8_designer_8cs" startline="220">WindowsFormsApp1.PercentsOfMachine.Адрес</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a96b1b3e6c20a187ec85ebb53459e913c" compoundref="_percents_of_machine_8_designer_8cs" startline="221">WindowsFormsApp1.PercentsOfMachine.НазваниеБанка</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a83c46e63c847bc47c8757e290087c5f7" compoundref="_percents_of_machine_8_designer_8cs" startline="219">WindowsFormsApp1.PercentsOfMachine.Номер</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a4cbe626811264f0284ac979d01fafaea" compoundref="_percents_of_machine_8_designer_8cs" startline="223">WindowsFormsApp1.PercentsOfMachine.Отправитель</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a2c20b048899ba9c05f2f0fd8c25f852a" compoundref="_percents_of_machine_8_designer_8cs" startline="224">WindowsFormsApp1.PercentsOfMachine.Получатель</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1acca6f1a4a0a566a9e00b754661b4dcfc" compoundref="_percents_of_machine_8_designer_8cs" startline="225">WindowsFormsApp1.PercentsOfMachine.Процент</references>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a93fc44ab7eedb0d04bfbcb63e3f25145" compoundref="_percents_of_machine_8_designer_8cs" startline="222">WindowsFormsApp1.PercentsOfMachine.Тип</references>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1af6945c694550b08258a5fbdd477aac9e" compoundref="_percents_of_machine_8cs" startline="17" endline="20">WindowsFormsApp1.PercentsOfMachine.PercentsOfMachine</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -286,6 +331,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="PercentsOfMachine.Designer.cs" line="14" column="33" bodyfile="PercentsOfMachine.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a41e7c4c828b974792600677936dd473b" compoundref="_percents_of_machine_8_designer_8cs" startline="8">WindowsFormsApp1.PercentsOfMachine.components</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -316,8 +362,17 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>PercentsData</edgelabel>
-          <edgelabel>MachinesKey</edgelabel>
+          <edgelabel>+PercentsData</edgelabel>
+          <edgelabel>-Процент</edgelabel>
+          <edgelabel>-label1</edgelabel>
+          <edgelabel>-Адрес</edgelabel>
+          <edgelabel>-label2</edgelabel>
+          <edgelabel>+MachinesKey</edgelabel>
+          <edgelabel>-Номер</edgelabel>
+          <edgelabel>-Hash</edgelabel>
+          <edgelabel>-НазваниеБанка</edgelabel>
+          <edgelabel>-Получатель</edgelabel>
+          <edgelabel>...</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

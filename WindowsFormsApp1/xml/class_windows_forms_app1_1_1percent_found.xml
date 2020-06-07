@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="8" column="48" bodyfile="percentFound.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1acf486a467d0d3c79c741020736685099" compoundref="percent_found_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.percentFound.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a0d7b0be563936deb3d4804007ffc225e" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="157" column="41" bodyfile="percentFound.Designer.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1adf299bd5b6d3698726196a2fb3935919" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -44,6 +46,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="158" column="41" bodyfile="percentFound.Designer.cs" bodystart="158" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a118b52648e937e5f758cb739a0c91dd0" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -57,6 +60,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="160" column="61" bodyfile="percentFound.Designer.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a59d2f51ac14a4a607f76533f314a52fc" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -70,6 +74,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="161" column="61" bodyfile="percentFound.Designer.cs" bodystart="161" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a31d52ca3c8b945d490ea8a117b5c31e5" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -83,6 +88,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="162" column="61" bodyfile="percentFound.Designer.cs" bodystart="162" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a7385c9a32942e2fd51621220d888a20b" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -96,6 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="163" column="61" bodyfile="percentFound.Designer.cs" bodystart="163" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -111,6 +118,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="156" column="47" bodyfile="percentFound.Designer.cs" bodystart="156" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -124,6 +133,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="159" column="40" bodyfile="percentFound.Designer.cs" bodystart="159" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -139,6 +150,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.cs" line="15" column="16" bodyfile="percentFound.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -169,6 +181,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="14" column="33" bodyfile="percentFound.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1percent_found_1ad2bf9ba290f4d69eed3daa3120b498bc" compoundref="percent_found_8_designer_8cs" startline="8">WindowsFormsApp1.percentFound.components</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -185,6 +198,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="29" column="22" bodyfile="percentFound.Designer.cs" bodystart="29" bodyend="152"/>
+        <references refid="class_windows_forms_app1_1_1percent_found_1adf299bd5b6d3698726196a2fb3935919" compoundref="percent_found_8_designer_8cs" startline="158">WindowsFormsApp1.percentFound.label1</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a0d7b0be563936deb3d4804007ffc225e" compoundref="percent_found_8_designer_8cs" startline="157">WindowsFormsApp1.percentFound.label2</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" compoundref="percent_found_8_designer_8cs" startline="159">WindowsFormsApp1.percentFound.label3</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a7e6a5d70d86388a5e1a0eb2af2bdd155" compoundref="percent_found_8_designer_8cs" startline="156">WindowsFormsApp1.percentFound.percentResults</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a59d2f51ac14a4a607f76533f314a52fc" compoundref="percent_found_8_designer_8cs" startline="161">WindowsFormsApp1.percentFound.Отправитель</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a31d52ca3c8b945d490ea8a117b5c31e5" compoundref="percent_found_8_designer_8cs" startline="162">WindowsFormsApp1.percentFound.Получатель</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a7385c9a32942e2fd51621220d888a20b" compoundref="percent_found_8_designer_8cs" startline="163">WindowsFormsApp1.percentFound.Процент</references>
+        <references refid="class_windows_forms_app1_1_1percent_found_1a118b52648e937e5f758cb739a0c91dd0" compoundref="percent_found_8_designer_8cs" startline="160">WindowsFormsApp1.percentFound.Тип</references>
+        <referencedby refid="class_windows_forms_app1_1_1percent_found_1a3c7f3676887f253c66bf86286b76b0f4" compoundref="percent_found_8cs" startline="15" endline="18">WindowsFormsApp1.percentFound.percentFound</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -215,8 +237,15 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>label3</edgelabel>
-          <edgelabel>percentResults</edgelabel>
+          <edgelabel>-Процент</edgelabel>
+          <edgelabel>+label3</edgelabel>
+          <edgelabel>-label1</edgelabel>
+          <edgelabel>-label2</edgelabel>
+          <edgelabel>+percentResults</edgelabel>
+          <edgelabel>-Получатель</edgelabel>
+          <edgelabel>-Отправитель</edgelabel>
+          <edgelabel>-Тип</edgelabel>
+          <edgelabel>-components</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

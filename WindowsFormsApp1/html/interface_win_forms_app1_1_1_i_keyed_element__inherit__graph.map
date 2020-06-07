@@ -1,0 +1,7 @@
+<map id="WinFormsApp1.IKeyedElement&lt; K &gt;" name="WinFormsApp1.IKeyedElement&lt; K &gt;">
+<area shape="rect" id="node1" title="Интерфейс, описывающий элемент, обладающий ключом, используемым для генерации хэш&#45;функции." alt="" coords="81,132,319,209"/>
+<area shape="rect" id="node3" href="$interface_win_forms_app1_1_1_i_keyed_element.html" title=" " alt="" coords="98,272,302,364"/>
+<area shape="rect" id="node2" href="$interface_win_forms_app1_1_1_i_element.html" title="Интерфейс, описывающий данное, хранящееся в базе." alt="" coords="153,5,247,83"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_client.html" title="Класс, описывающий клиента банковской системы. Обладает ключом типа int." alt="" coords="5,413,184,593"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_machine.html" title="Класс, описывающий банкомат. Обладает ключом типа int." alt="" coords="208,413,403,593"/>
+</map>

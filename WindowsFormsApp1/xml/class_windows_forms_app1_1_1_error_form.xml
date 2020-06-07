@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.Designer.cs" line="8" column="48" bodyfile="ErrorForm.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_error_form_1a418becfada2b7e0bc09efa8037c4fb28" compoundref="_error_form_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.ErrorForm.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_error_form_1af4f786e66174544869722231fec54372" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.Designer.cs" line="77" column="42" bodyfile="ErrorForm.Designer.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" compoundref="_error_form_8_designer_8cs" startline="29" endline="72">WindowsFormsApp1.ErrorForm.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -46,6 +48,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.Designer.cs" line="76" column="40" bodyfile="ErrorForm.Designer.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" compoundref="_error_form_8_designer_8cs" startline="29" endline="72">WindowsFormsApp1.ErrorForm.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a7ea8932da3c151420f20080cc04e18d8" compoundref="_hash_map1_dialog_8cs" startline="21" endline="105">WindowsFormsApp1.HashMap1Dialog.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" compoundref="_hash_map2_dialog_8cs" startline="20" endline="90">WindowsFormsApp1.HashMap2Dialog.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_tree1_dialog_1aa9fef6f6ec2b6ee77f456208d94a7a4b" compoundref="_tree1_dialog_8cs" startline="21" endline="118">WindowsFormsApp1.Tree1Dialog.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_tree2_dialog_1a06fb09b55bd27a6a658667416ebc1b86" compoundref="_tree2_dialog_8cs" startline="20" endline="113">WindowsFormsApp1.Tree2Dialog.button1_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -61,6 +78,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.cs" line="15" column="16" bodyfile="ErrorForm.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" compoundref="_error_form_8_designer_8cs" startline="29" endline="72">WindowsFormsApp1.ErrorForm.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -84,6 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.cs" line="20" column="22" bodyfile="ErrorForm.cs" bodystart="20" bodyend="23"/>
+        <referencedby refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" compoundref="_error_form_8_designer_8cs" startline="29" endline="72">WindowsFormsApp1.ErrorForm.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -98,6 +117,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.Designer.cs" line="29" column="22" bodyfile="ErrorForm.Designer.cs" bodystart="29" bodyend="72"/>
+        <references refid="class_windows_forms_app1_1_1_error_form_1af4f786e66174544869722231fec54372" compoundref="_error_form_8_designer_8cs" startline="77">WindowsFormsApp1.ErrorForm.button1</references>
+        <references refid="class_windows_forms_app1_1_1_error_form_1a6b9e9fb4787eabe9ccd749238cf51017" compoundref="_error_form_8cs" startline="20" endline="23">WindowsFormsApp1.ErrorForm.button1_Click</references>
+        <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
+        <referencedby refid="class_windows_forms_app1_1_1_error_form_1ade77fd35df74f42bb7a3cfa86079ae81" compoundref="_error_form_8cs" startline="15" endline="18">WindowsFormsApp1.ErrorForm.ErrorForm</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -128,6 +151,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ErrorForm.Designer.cs" line="14" column="33" bodyfile="ErrorForm.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_error_form_1a0fe2b1eac9ba57e9ed8b45b7bbea00f7" compoundref="_error_form_8_designer_8cs" startline="8">WindowsFormsApp1.ErrorForm.components</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -158,7 +182,9 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>label1</edgelabel>
+          <edgelabel>-button1</edgelabel>
+          <edgelabel>-components</edgelabel>
+          <edgelabel>+label1</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

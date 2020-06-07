@@ -1,0 +1,5 @@
+<map id="WindowsFormsApp1.RB.DeleteFixUp" name="WindowsFormsApp1.RB.DeleteFixUp">
+<area shape="rect" id="node1" title="Checks the tree for any violations after deletion and performs a fix" alt="" coords="521,5,727,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_r_b.html#ab0794607a97fa529210e02e750f3c910" title="Deletes a specified value from the tree" alt="" coords="268,13,473,39"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_r_b.html#aa412d115a02e656da0db902d7a72ba9c" title="Удаляет элемент из коллекии." alt="" coords="5,13,220,39"/>
+</map>

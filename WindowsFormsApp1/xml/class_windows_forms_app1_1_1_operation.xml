@@ -4,18 +4,22 @@
     <compoundname>WindowsFormsApp1::Operation</compoundname>
     <basecompoundref refid="interface_win_forms_app1_1_1_i_element" prot="public" virt="non-virtual">WinFormsApp1.IElement</basecompoundref>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a2aaf93b4b108ee297336e75ac786bb1b" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" prot="private" static="no" mutable="no">
         <type>string</type>
-        <definition>string WindowsFormsApp1.Operation._operationType</definition>
+        <definition>string WindowsFormsApp1.Operation._operationName</definition>
         <argsstring></argsstring>
-        <name>_operationType</name>
+        <name>_operationName</name>
         <briefdescription>
+<para>Название операции. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="9" column="24" bodyfile="Operation.cs" bodystart="9" bodyend="-1"/>
+        <location file="Operation.cs" line="17" column="24" bodyfile="Operation.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" compoundref="_operation_8cs" startline="41" endline="47">WindowsFormsApp1.Operation.Operation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" compoundref="_operation_8cs" startline="49" endline="55">WindowsFormsApp1.Operation.Compare</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" compoundref="_operation_8cs" startline="57" endline="62">WindowsFormsApp1.Operation.ToString</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -23,12 +27,16 @@
         <argsstring></argsstring>
         <name>_cardNumber</name>
         <briefdescription>
+<para>Номер карты клиента. Целое число от 1 до 99999999 включительно. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="10" column="21" bodyfile="Operation.cs" bodystart="10" bodyend="-1"/>
+        <location file="Operation.cs" line="22" column="21" bodyfile="Operation.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" compoundref="_operation_8cs" startline="41" endline="47">WindowsFormsApp1.Operation.Operation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" compoundref="_operation_8cs" startline="49" endline="55">WindowsFormsApp1.Operation.Compare</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" compoundref="_operation_8cs" startline="57" endline="62">WindowsFormsApp1.Operation.ToString</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -36,12 +44,16 @@
         <argsstring></argsstring>
         <name>_machineNumber</name>
         <briefdescription>
+<para>Номер банкомата. Целое число от 1 до 500 включительно. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="11" column="21" bodyfile="Operation.cs" bodystart="11" bodyend="-1"/>
+        <location file="Operation.cs" line="27" column="21" bodyfile="Operation.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" compoundref="_operation_8cs" startline="41" endline="47">WindowsFormsApp1.Operation.Operation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" compoundref="_operation_8cs" startline="49" endline="55">WindowsFormsApp1.Operation.Compare</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" compoundref="_operation_8cs" startline="57" endline="62">WindowsFormsApp1.Operation.ToString</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -49,81 +61,116 @@
         <argsstring></argsstring>
         <name>_sum</name>
         <briefdescription>
+<para>Сумма операции. Целое число от 0 до 10000000 включительно. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="12" column="21" bodyfile="Operation.cs" bodystart="12" bodyend="-1"/>
+        <location file="Operation.cs" line="32" column="21" bodyfile="Operation.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" compoundref="_operation_8cs" startline="41" endline="47">WindowsFormsApp1.Operation.Operation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" compoundref="_operation_8cs" startline="57" endline="62">WindowsFormsApp1.Operation.ToString</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1aa0eec00f58547011db6d51a83efebc64" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" prot="public" static="no" mutable="no">
         <type>string</type>
-        <definition>string WindowsFormsApp1.Operation.OperationType</definition>
+        <definition>string WindowsFormsApp1.Operation.OperationName</definition>
         <argsstring></argsstring>
-        <name>OperationType</name>
-        <initializer>=&gt; _operationType</initializer>
+        <name>OperationName</name>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" kindref="member">_operationName</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для названия операции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="37" column="23" bodyfile="Operation.cs" bodystart="37" bodyend="-1"/>
+        <location file="Operation.cs" line="67" column="23" bodyfile="Operation.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="570" endline="584">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int WindowsFormsApp1.Operation.CardNumber</definition>
         <argsstring></argsstring>
         <name>CardNumber</name>
-        <initializer>=&gt; _cardNumber</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" kindref="member">_cardNumber</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для номера карты. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="39" column="20" bodyfile="Operation.cs" bodystart="39" bodyend="-1"/>
+        <location file="Operation.cs" line="72" column="20" bodyfile="Operation.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int WindowsFormsApp1.Operation.MachineNumber</definition>
         <argsstring></argsstring>
         <name>MachineNumber</name>
-        <initializer>=&gt; _machineNumber</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" kindref="member">_machineNumber</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для номера банкомата. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="41" column="20" bodyfile="Operation.cs" bodystart="41" bodyend="-1"/>
+        <location file="Operation.cs" line="77" column="20" bodyfile="Operation.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int WindowsFormsApp1.Operation.Sum</definition>
         <argsstring></argsstring>
         <name>Sum</name>
-        <initializer>=&gt; _sum</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" kindref="member">_sum</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для суммы операции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="43" column="20" bodyfile="Operation.cs" bodystart="43" bodyend="-1"/>
+        <location file="Operation.cs" line="82" column="20" bodyfile="Operation.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_operation_1a9fbcb141ef55c446b3eb3fa0d864aa80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>WindowsFormsApp1.Operation.Operation</definition>
-        <argsstring>(string operationType, int cardNumber, int machineNumber, int sum)</argsstring>
+        <argsstring>(string operationName, int cardNumber, int machineNumber, int sum)</argsstring>
         <name>Operation</name>
         <param>
           <type>string</type>
-          <declname>operationType</declname>
+          <declname>operationName</declname>
         </param>
         <param>
           <type>int</type>
@@ -138,12 +185,48 @@
           <declname>sum</declname>
         </param>
         <briefdescription>
+<para>Основной конструктор для создания банковской операции. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operationName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cardNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>machineNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sum</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="14" column="16" bodyfile="Operation.cs" bodystart="14" bodyend="20"/>
+        <location file="Operation.cs" line="41" column="16" bodyfile="Operation.cs" bodystart="41" bodyend="47"/>
+        <references refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" compoundref="_operation_8cs" startline="22">WindowsFormsApp1.Operation._cardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" compoundref="_operation_8cs" startline="27">WindowsFormsApp1.Operation._machineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" compoundref="_operation_8cs" startline="17">WindowsFormsApp1.Operation._operationName</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" compoundref="_operation_8cs" startline="32">WindowsFormsApp1.Operation._sum</references>
+        <referencedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" compoundref="_operation_8cs" startline="49" endline="55">WindowsFormsApp1.Operation.Compare</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -174,7 +257,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="22" column="20" bodyfile="Operation.cs" bodystart="22" bodyend="28"/>
+        <location file="Operation.cs" line="49" column="20" bodyfile="Operation.cs" bodystart="49" bodyend="55"/>
+        <references refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" compoundref="_operation_8cs" startline="22">WindowsFormsApp1.Operation._cardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" compoundref="_operation_8cs" startline="27">WindowsFormsApp1.Operation._machineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" compoundref="_operation_8cs" startline="17">WindowsFormsApp1.Operation._operationName</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" compoundref="_operation_8cs" startline="41" endline="47">WindowsFormsApp1.Operation.Operation</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -187,10 +274,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Operation.cs" line="30" column="32" bodyfile="Operation.cs" bodystart="30" bodyend="35"/>
+        <location file="Operation.cs" line="57" column="32" bodyfile="Operation.cs" bodystart="57" bodyend="62"/>
+        <references refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" compoundref="_operation_8cs" startline="22">WindowsFormsApp1.Operation._cardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" compoundref="_operation_8cs" startline="27">WindowsFormsApp1.Operation._machineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" compoundref="_operation_8cs" startline="17">WindowsFormsApp1.Operation._operationName</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" compoundref="_operation_8cs" startline="32">WindowsFormsApp1.Operation._sum</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Класс, описывающий банковскую операцию. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -218,17 +310,17 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Operation.cs" line="7" column="11" bodyfile="Operation.cs" bodystart="8" bodyend="44"/>
+    <location file="Operation.cs" line="10" column="11" bodyfile="Operation.cs" bodystart="11" bodyend="83"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>_cardNumber</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>_machineNumber</name></member>
-      <member refid="class_windows_forms_app1_1_1_operation_1a2aaf93b4b108ee297336e75ac786bb1b" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>_operationType</name></member>
+      <member refid="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>_operationName</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>_sum</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>CardNumber</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>Compare</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>MachineNumber</name></member>
-      <member refid="class_windows_forms_app1_1_1_operation_1a9fbcb141ef55c446b3eb3fa0d864aa80" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>Operation</name></member>
-      <member refid="class_windows_forms_app1_1_1_operation_1aa0eec00f58547011db6d51a83efebc64" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>OperationType</name></member>
+      <member refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>Operation</name></member>
+      <member refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>OperationName</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>Sum</name></member>
       <member refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Operation</scope><name>ToString</name></member>
     </listofallmembers>

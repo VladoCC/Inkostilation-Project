@@ -1,0 +1,4 @@
+<map id="WinFormsApp1.ListStorage.Find" name="WinFormsApp1.ListStorage.Find">
+<area shape="rect" id="node1" title="Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения к..." alt="" coords="264,5,475,32"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_list_storage.html#af407bc9bbf92a5c2f1854da1d28ee04a" title="Внутренний рекурсивный метод поиска. Проходит по списку Position, находящихся после этой...." alt="" coords="5,5,216,32"/>
+</map>

@@ -1,11 +1,14 @@
 var searchData=
 [
-  ['rb_298',['RB',['../class_windows_forms_app1_1_1_r_b.html#abf46e01db189f62eb12bc609ef97290c',1,'WindowsFormsApp1::RB']]],
-  ['remove_299',['Remove',['../class_win_forms_app1_1_1_double_hash_storage.html#ae532033d86f1075c43205972f9c14819',1,'WinFormsApp1.DoubleHashStorage.Remove()'],['../interface_win_forms_app1_1_1_i_collection.html#a1a6bac3afeca9f8245c0f591786cf039',1,'WinFormsApp1.ICollection.Remove()'],['../class_win_forms_app1_1_1_list_storage.html#aed89173bc2c6cd16708ed19d5610a786',1,'WinFormsApp1.ListStorage.Remove()'],['../class_win_forms_app1_1_1_list_storage_1_1_position.html#abc14090ce44164275d6544c90a58b3ee',1,'WinFormsApp1.ListStorage.Position.Remove()'],['../class_windows_forms_app1_1_1_r_b.html#aa412d115a02e656da0db902d7a72ba9c',1,'WindowsFormsApp1.RB.Remove()'],['../class_win_forms_app1_1_1_storage.html#ac5d5fa7c7167de11fe0bef04245b58a7',1,'WinFormsApp1.Storage.Remove()'],['../class_win_forms_app1_1_1_tree.html#a76585e0c000743abea2a03f81c4fb9d9',1,'WinFormsApp1.Tree.Remove(T element)'],['../class_win_forms_app1_1_1_tree.html#a7842768f05308519d642fc9ec2910a47',1,'WinFormsApp1.Tree.Remove(Position&lt; T &gt; position, T element)']]],
-  ['removeclient_300',['RemoveClient',['../class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6',1,'WindowsFormsApp1::Database']]],
-  ['removemachine_301',['RemoveMachine',['../class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59',1,'WindowsFormsApp1::Database']]],
-  ['removeoperation_302',['RemoveOperation',['../class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59',1,'WindowsFormsApp1::Database']]],
-  ['removepercent_303',['RemovePercent',['../class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b',1,'WindowsFormsApp1::Database']]],
-  ['report_304',['Report',['../class_windows_forms_app1_1_1_report.html#a372b1c74c24075a379bab6ee31527f05',1,'WindowsFormsApp1::Report']]],
-  ['rightrotate_305',['RightRotate',['../class_windows_forms_app1_1_1_r_b.html#a814c224d0e989fe6f25523894c49ace6',1,'WindowsFormsApp1::RB']]]
+  ['machine_543',['Machine',['../class_windows_forms_app1_1_1_machine.html#a2181d9ef9b8e773229ff8669db0dea13',1,'WindowsFormsApp1::Machine']]],
+  ['machinearray_544',['MachineArray',['../class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e',1,'WindowsFormsApp1::Database']]],
+  ['machinefound_545',['MachineFound',['../class_windows_forms_app1_1_1_machine_found.html#a5104e53df959d45b95ef51a547d86421',1,'WindowsFormsApp1::MachineFound']]],
+  ['machineoperationreport_546',['MachineOperationReport',['../class_windows_forms_app1_1_1_database.html#a67d46d8ef64a260564d2d03dd3adb818',1,'WindowsFormsApp1::Database']]],
+  ['machinepercentreport_547',['MachinePercentReport',['../class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd',1,'WindowsFormsApp1::Database']]],
+  ['machinesfunction_548',['MachinesFunction',['../class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f',1,'WindowsFormsApp1::Database']]],
+  ['machinesize_549',['MachineSize',['../class_windows_forms_app1_1_1_database.html#a9e9603449f45edce04e4413859a989df',1,'WindowsFormsApp1::Database']]],
+  ['machineskey_5fcellclick_550',['MachinesKey_CellClick',['../class_windows_forms_app1_1_1_operations_of_machine.html#ab9cfcda505ba8a65bba6040446e7db7b',1,'WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick()'],['../class_windows_forms_app1_1_1_percents_of_machine.html#aba639ea7d071f1ec826e7bcd8e230ef5',1,'WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick()']]],
+  ['main_551',['Main',['../class_windows_forms_app1_1_1_program.html#aa0d7542c58f0c92d098418ed079a6275',1,'WindowsFormsApp1::Program']]],
+  ['max_552',['Max',['../class_win_forms_app1_1_1_tree.html#a48a887e7757857d37703a1b78c0e92aa',1,'WinFormsApp1::Tree']]],
+  ['minimum_553',['Minimum',['../class_windows_forms_app1_1_1_r_b.html#aeb13f7b9c271532e9d1574315b03ab37',1,'WindowsFormsApp1::RB']]]
 ];

@@ -1,0 +1,7 @@
+<map id="WinFormsApp1.HashFunction&lt; T &gt;" name="WinFormsApp1.HashFunction&lt; T &gt;">
+<area shape="rect" id="node1" title="Хэш&#45;функция, предоставляющая индекс, соответствующий поступившему на вход данному." alt="" coords="303,5,529,112"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_hash_function.html" title=" " alt="" coords="141,175,337,296"/>
+<area shape="rect" id="node5" href="$class_win_forms_app1_1_1_hash_function.html" title=" " alt="" coords="361,182,591,289"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_mod_function.html" title="Функция, определяющая хэш делением." alt="" coords="5,345,227,423"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_odd_function.html" title="Функция, генерируяшая нечетные хэши, в пределах размера хранилища." alt="" coords="251,345,471,423"/>
+</map>

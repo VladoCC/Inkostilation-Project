@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="8" column="48" bodyfile="MachineFound.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1af43c9b07be52993c4edc8510ea376b8d" compoundref="_machine_found_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.MachineFound.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a9f9a06a847460f19b6839c53ff2ca746" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="157" column="41" bodyfile="MachineFound.Designer.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a60af30e6001755ec85a809d7e9976192" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -44,6 +46,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="158" column="41" bodyfile="MachineFound.Designer.cs" bodystart="158" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a61518d48a6339c78efcfe3490f1e23a4" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -57,6 +60,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="160" column="61" bodyfile="MachineFound.Designer.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1a11924b56f9753f62bbe647c615d881bf" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -70,6 +74,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="161" column="61" bodyfile="MachineFound.Designer.cs" bodystart="161" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1ac65b82915dfe01b1fced3cb2735d1390" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -83,6 +88,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="162" column="61" bodyfile="MachineFound.Designer.cs" bodystart="162" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1aafea89101bbf789c7d05b8cc5b3079ff" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -96,6 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="163" column="61" bodyfile="MachineFound.Designer.cs" bodystart="163" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -111,6 +118,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="156" column="47" bodyfile="MachineFound.Designer.cs" bodystart="156" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -124,6 +133,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="159" column="40" bodyfile="MachineFound.Designer.cs" bodystart="159" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -139,6 +150,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.cs" line="15" column="16" bodyfile="MachineFound.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -169,6 +181,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="14" column="33" bodyfile="MachineFound.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1a04aaab09ad7f4b867c73762e46c6abd0" compoundref="_machine_found_8_designer_8cs" startline="8">WindowsFormsApp1.MachineFound.components</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -185,6 +198,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="29" column="22" bodyfile="MachineFound.Designer.cs" bodystart="29" bodyend="152"/>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1a61518d48a6339c78efcfe3490f1e23a4" compoundref="_machine_found_8_designer_8cs" startline="160">WindowsFormsApp1.MachineFound.Hash</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1a9f9a06a847460f19b6839c53ff2ca746" compoundref="_machine_found_8_designer_8cs" startline="157">WindowsFormsApp1.MachineFound.label1</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1a60af30e6001755ec85a809d7e9976192" compoundref="_machine_found_8_designer_8cs" startline="158">WindowsFormsApp1.MachineFound.label2</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" compoundref="_machine_found_8_designer_8cs" startline="159">WindowsFormsApp1.MachineFound.label3</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1ab04f451288713d8f5bd3d7244b192f97" compoundref="_machine_found_8_designer_8cs" startline="156">WindowsFormsApp1.MachineFound.MachineResults</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1ac65b82915dfe01b1fced3cb2735d1390" compoundref="_machine_found_8_designer_8cs" startline="162">WindowsFormsApp1.MachineFound.Адрес</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1aafea89101bbf789c7d05b8cc5b3079ff" compoundref="_machine_found_8_designer_8cs" startline="163">WindowsFormsApp1.MachineFound.НазваниеБанка</references>
+        <references refid="class_windows_forms_app1_1_1_machine_found_1a11924b56f9753f62bbe647c615d881bf" compoundref="_machine_found_8_designer_8cs" startline="161">WindowsFormsApp1.MachineFound.Номер</references>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a5104e53df959d45b95ef51a547d86421" compoundref="_machine_found_8cs" startline="15" endline="18">WindowsFormsApp1.MachineFound.MachineFound</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -212,8 +234,15 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>label3</edgelabel>
-          <edgelabel>MachineResults</edgelabel>
+          <edgelabel>+label3</edgelabel>
+          <edgelabel>-label1</edgelabel>
+          <edgelabel>-Адрес</edgelabel>
+          <edgelabel>-label2</edgelabel>
+          <edgelabel>-Номер</edgelabel>
+          <edgelabel>-Hash</edgelabel>
+          <edgelabel>-НазваниеБанка</edgelabel>
+          <edgelabel>-components</edgelabel>
+          <edgelabel>+MachineResults</edgelabel>
         </childnode>
       </node>
       <node id="3">

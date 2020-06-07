@@ -1,0 +1,5 @@
+<map id="WinFormsApp1.Storage&lt; K, V &gt;" name="WinFormsApp1.Storage&lt; K, V &gt;">
+<area shape="rect" id="node1" title="Внутренняя структура хэш&#45;таблицы. хранящая все данные и реализующая стратегии разрешения коллизий." alt="" coords="127,5,288,185"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_double_hash_storage.html" title=" " alt="" coords="5,233,196,472"/>
+<area shape="rect" id="node3" href="$class_win_forms_app1_1_1_list_storage.html" title=" " alt="" coords="221,263,407,443"/>
+</map>

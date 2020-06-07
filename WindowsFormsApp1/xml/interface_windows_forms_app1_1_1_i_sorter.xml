@@ -19,8 +19,8 @@
         <name>Sort</name>
         <reimplementedby refid="class_windows_forms_app1_1_1_shell_sorter_1a951828c6d3e1402e5a6ee40fc9488be8">Sort</reimplementedby>
         <reimplementedby refid="class_windows_forms_app1_1_1_quick_last_sorter_1a972ab7ec8dfac60561b317b8b7ae5222">Sort</reimplementedby>
-        <reimplementedby refid="class_windows_forms_app1_1_1_quick_stack_sorter_1a8ba7cc6890161189be3d36f7992916cd">Sort</reimplementedby>
         <reimplementedby refid="class_windows_forms_app1_1_1_bubble_sorter_1a8be5827131880cc2227f39b7d0fcc045">Sort</reimplementedby>
+        <reimplementedby refid="class_windows_forms_app1_1_1_quick_stack_sorter_1a8ba7cc6890161189be3d36f7992916cd">Sort</reimplementedby>
         <param>
           <type>T[]</type>
           <declname>array</declname>
@@ -43,6 +43,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ISorter.cs" line="15" column="14"/>
+        <referencedby refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -89,7 +90,20 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="6">
+        <label>WindowsFormsApp1.ISorter&lt; V &gt;</label>
+        <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; V &gt;</edgelabel>
+        </childnode>
+      </node>
     </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.ISorter&lt; T &gt;</label>
+        <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
+      </node>
+    </collaborationgraph>
     <location file="ISorter.cs" line="9" column="22" bodyfile="ISorter.cs" bodystart="10" bodyend="16"/>
     <listofallmembers>
       <member refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::ISorter</scope><name>Sort</name></member>

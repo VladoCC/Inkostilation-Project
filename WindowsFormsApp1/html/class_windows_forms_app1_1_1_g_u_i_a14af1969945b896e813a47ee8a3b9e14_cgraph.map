@@ -1,0 +1,5 @@
+<map id="WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click" name="WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a556ccfa19d4624001f2f8f0043510e0a" title="Заменяет рабочую базу данных на новую." alt="" coords="272,5,477,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="525,5,731,47"/>
+</map>

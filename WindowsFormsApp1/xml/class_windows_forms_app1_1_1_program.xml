@@ -22,6 +22,12 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.Program</label>
+        <link refid="class_windows_forms_app1_1_1_program"/>
+      </node>
+    </collaborationgraph>
     <location file="Program.cs" line="10" column="12" bodyfile="Program.cs" bodystart="11" bodyend="22"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_program_1aa0d7542c58f0c92d098418ed079a6275" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Program</scope><name>Main</name></member>

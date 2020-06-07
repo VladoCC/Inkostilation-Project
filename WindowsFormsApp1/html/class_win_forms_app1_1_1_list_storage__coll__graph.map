@@ -1,0 +1,7 @@
+<map id="WinFormsApp1.ListStorage&lt; K, V &gt;" name="WinFormsApp1.ListStorage&lt; K, V &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="161,520,343,700"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_storage.html" title="Внутренняя структура хэш&#45;таблицы. хранящая все данные и реализующая стратегии разрешения коллизий." alt="" coords="71,277,193,443"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_size_container.html" title="Структура, предоставляет информацию о размере хранилища данных, для объектов, не имеющих доступа к са..." alt="" coords="5,57,232,149"/>
+<area shape="rect" id="node4" href="$class_win_forms_app1_1_1_list_storage_1_1_position.html" title=" " alt="" coords="243,263,426,457"/>
+<area shape="rect" id="node5" href="$class_win_forms_app1_1_1_list_storage_1_1_position.html" title="Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в L..." alt="" coords="257,5,439,200"/>
+</map>

@@ -60,8 +60,8 @@
     <member refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" kind="function"><name>FindPercent</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" kind="function"><name>FindClient</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" kind="function"><name>FindMachine</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1a387a5f52b4039bfe0be1f4123b4097c6" kind="function"><name>FindOperation</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1a08872140b383b4c09e3cb46264a4dea7" kind="function"><name>FindPercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a13b8331e8ed86b4964a9539d000dd937" kind="function"><name>FindOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a526fc972a32bbb9033916a770be56343" kind="function"><name>FindPercent</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" kind="function"><name>ClientSize</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" kind="function"><name>MachineSize</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" kind="function"><name>OperationSize</name></member>
@@ -140,7 +140,6 @@
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a07a6a4c51992ad3b27ee013e1eb683dd" kind="variable"><name>процентыБанкоматаToolStripMenuItem</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1ab521296d0f3bcce285bfa215228b62ac" kind="variable"><name>label5</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a90052cb9c06941ddbb17b97eaccbc9bb" kind="variable"><name>button9</name></member>
-    <member refid="class_windows_forms_app1_1_1_g_u_i_1ad587a702f6b3bfc0ba72fa748dd85b68" kind="variable"><name>waterMarkTextBox1</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1acc64284a17204bb61bbaca6fe6c64abd" kind="variable"><name>создатьToolStripMenuItem1</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1aedf5736a3b5fa4d6e268c8798cf7dab7" kind="variable"><name>Hash</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a65b3c0d47dd8502ec00c321599cd0fc3" kind="variable"><name>Номер</name></member>
@@ -158,9 +157,10 @@
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a75d327e2715cd0763747145ba64d8780" kind="variable"><name>НомерКарточки1</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a6fb4a542d7792a9482a327df5c2022ad" kind="variable"><name>НомерБанкомата</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a9b3957e7ffb24e42e10ce074358fd414" kind="variable"><name>СуммаОперации</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a492a3f20021de7a3283de81e09d53ea8" kind="variable"><name>waterMarkTextBox1</name></member>
+    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" kind="variable"><name>comboBox1</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" kind="variable"><name>stopflag</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" kind="variable"><name>myDatabase</name></member>
-    <member refid="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" kind="variable"><name>comboBox1</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a9bf23ccfc1e735fc03f759fa724599cf" kind="function"><name>GUI</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" kind="function"><name>button1_Click</name></member>
     <member refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" kind="function"><name>button3_Click</name></member>
@@ -264,11 +264,14 @@
     <member refid="class_windows_forms_app1_1_1_search_query_1a78a82ea1257ecad1b6af48cf3bf787f0" kind="function"><name>Count</name></member>
     <member refid="class_windows_forms_app1_1_1_search_query_1abfb89356449ca1d3a2d9b984a05bdad6" kind="function"><name>Found</name></member>
     <member refid="class_windows_forms_app1_1_1_search_query_1a73399b645227c7748e9508fdc8090055" kind="variable"><name>_request</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a1a973d0e9bdcc27be388c89e73baab33" kind="variable"><name>_counter</name></member>
+    <member refid="class_windows_forms_app1_1_1_search_query_1a527674c85c1bee11ec73358e8b757579" kind="variable"><name>_result</name></member>
     <member refid="class_windows_forms_app1_1_1_search_query_1a0f4f392303bc7b3b0a3e99673578107b" kind="variable"><name>Counter</name></member>
     <member refid="class_windows_forms_app1_1_1_search_query_1a5b8f1809660b184007fd565ca2f3f042" kind="variable"><name>Result</name></member>
   </compound>
   <compound refid="class_win_forms_app1_1_1_list_storage" kind="class"><name>WinFormsApp1::ListStorage</name>
     <member refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" kind="variable"><name>array</name></member>
+    <member refid="class_win_forms_app1_1_1_storage_1a5208a1b4cb3b07891d79ceb99ef1b157" kind="variable"><name>_size</name></member>
     <member refid="class_win_forms_app1_1_1_list_storage_1acba783dabd167ca9ad1e2417b60bfd6a" kind="function"><name>ListStorage</name></member>
     <member refid="class_win_forms_app1_1_1_list_storage_1abb05184af3ecec4b6c80c0a443c14c85" kind="function"><name>GetSize</name></member>
     <member refid="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" kind="function"><name>Add</name></member>
@@ -307,6 +310,7 @@
     <member refid="class_windows_forms_app1_1_1_mod_function_1a4659b0e640902b794f78233d096633f3" kind="function"><name>Hash</name></member>
     <member refid="class_win_forms_app1_1_1_hash_function_1ac9316beab45fcdfdad4f722eb582c09b" kind="function"><name>SetSize</name></member>
     <member refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a78212a560d5b5dbbee1efb90d47368c1" kind="variable"><name>_size</name></member>
     <member refid="class_win_forms_app1_1_1_hash_function_1a8996ddf18e41dee6186deb0df2873dd0" kind="function"><name>GetStorageSize</name></member>
   </compound>
   <compound refid="class_windows_forms_app1_1_1_r_b_1_1_node" kind="class"><name>WindowsFormsApp1::RB::Node</name>
@@ -323,18 +327,19 @@
     <member refid="class_windows_forms_app1_1_1_odd_function_1ac0c6b0683ca830880f61e2d67e8aa280" kind="function"><name>Hash</name></member>
     <member refid="class_win_forms_app1_1_1_hash_function_1ac9316beab45fcdfdad4f722eb582c09b" kind="function"><name>SetSize</name></member>
     <member refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f" kind="function"><name>Hash</name></member>
+    <member refid="class_win_forms_app1_1_1_hash_function_1a78212a560d5b5dbbee1efb90d47368c1" kind="variable"><name>_size</name></member>
     <member refid="class_win_forms_app1_1_1_hash_function_1a8996ddf18e41dee6186deb0df2873dd0" kind="function"><name>GetStorageSize</name></member>
   </compound>
   <compound refid="class_windows_forms_app1_1_1_operation" kind="class"><name>WindowsFormsApp1::Operation</name>
-    <member refid="class_windows_forms_app1_1_1_operation_1a2aaf93b4b108ee297336e75ac786bb1b" kind="variable"><name>_operationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1ace84ac87e8b52111589df0fee5701048" kind="variable"><name>_operationName</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1aece9ac5f6dac04aa58ed4b85bdf6b4dd" kind="variable"><name>_cardNumber</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1a5ffd8d3ea77b721a566ebd06b3d0bf0e" kind="variable"><name>_machineNumber</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1a82b816146128d56ae58663b384e910d1" kind="variable"><name>_sum</name></member>
-    <member refid="class_windows_forms_app1_1_1_operation_1aa0eec00f58547011db6d51a83efebc64" kind="variable"><name>OperationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" kind="variable"><name>OperationName</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" kind="variable"><name>CardNumber</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" kind="variable"><name>MachineNumber</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" kind="variable"><name>Sum</name></member>
-    <member refid="class_windows_forms_app1_1_1_operation_1a9fbcb141ef55c446b3eb3fa0d864aa80" kind="function"><name>Operation</name></member>
+    <member refid="class_windows_forms_app1_1_1_operation_1a9622e097525d4fbbf966b3c435704d75" kind="function"><name>Operation</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07" kind="function"><name>Compare</name></member>
     <member refid="class_windows_forms_app1_1_1_operation_1a69ee1f530ea5b63e5d144a13f999dacd" kind="function"><name>ToString</name></member>
   </compound>
@@ -395,15 +400,15 @@
     <member refid="class_windows_forms_app1_1_1_operations_of_machine_1a52439ac3ee7f85757f1b44748b5b15d9" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="class_windows_forms_app1_1_1_percent" kind="class"><name>WindowsFormsApp1::Percent</name>
-    <member refid="class_windows_forms_app1_1_1_percent_1a79015c5fdbfc35a1dc94480a5e1dd3d7" kind="variable"><name>_operationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" kind="variable"><name>_operationName</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" kind="variable"><name>_senderBank</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" kind="variable"><name>_receiverBank</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" kind="variable"><name>_percent</name></member>
-    <member refid="class_windows_forms_app1_1_1_percent_1a22c45e83a4dc710a8858661c2c06913b" kind="variable"><name>OperationType</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" kind="variable"><name>OperationName</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" kind="variable"><name>SenderBank</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" kind="variable"><name>ReceiverBank</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" kind="variable"><name>Percent1</name></member>
-    <member refid="class_windows_forms_app1_1_1_percent_1a708446baeef537c0b3995328ff8f04fe" kind="function"><name>Percent</name></member>
+    <member refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" kind="function"><name>Percent</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" kind="function"><name>Compare</name></member>
     <member refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" kind="function"><name>ToString</name></member>
   </compound>

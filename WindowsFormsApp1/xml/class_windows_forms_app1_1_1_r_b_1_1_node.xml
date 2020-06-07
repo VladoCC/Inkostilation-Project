@@ -9,7 +9,7 @@
     </templateparamlist>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" prot="public" static="no" mutable="no">
-        <type>Color</type>
+        <type><ref refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
         <definition>Color WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.colour</definition>
         <argsstring></argsstring>
         <name>colour</name>
@@ -20,6 +20,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="23" column="26" bodyfile="RB.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a597719bb91a473e6c4fb47185ac14fd5" compoundref="_r_b_8cs" startline="30" endline="30">WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.Node</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a2a1dab0780e8e9e2188ee30fcd1b3d66" compoundref="_r_b_8cs" startline="174" endline="214">WindowsFormsApp1.RB&lt; T &gt;.Insert</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1aeedb97d6601d1a7b657f9b99918f6cf9" compoundref="_r_b_8cs" startline="224" endline="284">WindowsFormsApp1.RB&lt; T &gt;.InsertFixUp</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ab0794607a97fa529210e02e750f3c910" compoundref="_r_b_8cs" startline="289" endline="343">WindowsFormsApp1.RB&lt; T &gt;.Delete</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ae59b436b04405ec16645d6763cdf0205" compoundref="_r_b_8cs" startline="348" endline="417">WindowsFormsApp1.RB&lt; T &gt;.DeleteFixUp</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1afc40e44c75af107ab8a7afe8f01c819b" prot="public" static="no" mutable="no">
         <type><ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref>&lt; T &gt;</type>
@@ -33,6 +38,16 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="24" column="25" bodyfile="RB.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1aa4cf57ca695ce187baf7b6d349d7a7fc" compoundref="_r_b_8cs" startline="46" endline="76">WindowsFormsApp1.RB&lt; T &gt;.LeftRotate</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a814c224d0e989fe6f25523894c49ace6" compoundref="_r_b_8cs" startline="82" endline="113">WindowsFormsApp1.RB&lt; T &gt;.RightRotate</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1af509d36408ad32419fc5d007d3926e9a" compoundref="_r_b_8cs" startline="133" endline="169">WindowsFormsApp1.RB&lt; T &gt;.FindNode</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a2a1dab0780e8e9e2188ee30fcd1b3d66" compoundref="_r_b_8cs" startline="174" endline="214">WindowsFormsApp1.RB&lt; T &gt;.Insert</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a88f3e7b9525e7a07eaa1905e2c154fa5" compoundref="_r_b_8cs" startline="215" endline="223">WindowsFormsApp1.RB&lt; T &gt;.InOrderDisplay</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ab0794607a97fa529210e02e750f3c910" compoundref="_r_b_8cs" startline="289" endline="343">WindowsFormsApp1.RB&lt; T &gt;.Delete</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ae59b436b04405ec16645d6763cdf0205" compoundref="_r_b_8cs" startline="348" endline="417">WindowsFormsApp1.RB&lt; T &gt;.DeleteFixUp</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1aeb13f7b9c271532e9d1574315b03ab37" compoundref="_r_b_8cs" startline="418" endline="429">WindowsFormsApp1.RB&lt; T &gt;.Minimum</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a783021f93f498f78ec5dc544f6d2ba3e" compoundref="_r_b_8cs" startline="430" endline="446">WindowsFormsApp1.RB&lt; T &gt;.TreeSuccessor</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ad3e3342b8cd813b205c3e49f5eed9b45" compoundref="_r_b_8cs" startline="468" endline="507">WindowsFormsApp1.RB&lt; T &gt;.Find</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a5377e8621d2e7767f08c357db44a8e5f" prot="public" static="no" mutable="no">
         <type><ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref>&lt; T &gt;</type>
@@ -46,6 +61,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="25" column="25" bodyfile="RB.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1aa4cf57ca695ce187baf7b6d349d7a7fc" compoundref="_r_b_8cs" startline="46" endline="76">WindowsFormsApp1.RB&lt; T &gt;.LeftRotate</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a814c224d0e989fe6f25523894c49ace6" compoundref="_r_b_8cs" startline="82" endline="113">WindowsFormsApp1.RB&lt; T &gt;.RightRotate</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1af509d36408ad32419fc5d007d3926e9a" compoundref="_r_b_8cs" startline="133" endline="169">WindowsFormsApp1.RB&lt; T &gt;.FindNode</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a2a1dab0780e8e9e2188ee30fcd1b3d66" compoundref="_r_b_8cs" startline="174" endline="214">WindowsFormsApp1.RB&lt; T &gt;.Insert</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a88f3e7b9525e7a07eaa1905e2c154fa5" compoundref="_r_b_8cs" startline="215" endline="223">WindowsFormsApp1.RB&lt; T &gt;.InOrderDisplay</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ab0794607a97fa529210e02e750f3c910" compoundref="_r_b_8cs" startline="289" endline="343">WindowsFormsApp1.RB&lt; T &gt;.Delete</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ae59b436b04405ec16645d6763cdf0205" compoundref="_r_b_8cs" startline="348" endline="417">WindowsFormsApp1.RB&lt; T &gt;.DeleteFixUp</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a783021f93f498f78ec5dc544f6d2ba3e" compoundref="_r_b_8cs" startline="430" endline="446">WindowsFormsApp1.RB&lt; T &gt;.TreeSuccessor</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ad3e3342b8cd813b205c3e49f5eed9b45" compoundref="_r_b_8cs" startline="468" endline="507">WindowsFormsApp1.RB&lt; T &gt;.Find</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a3d746bc72305b02a3f9be2fadf0b43bf" prot="public" static="no" mutable="no">
         <type><ref refid="class_windows_forms_app1_1_1_r_b_1_1_node" kindref="compound">Node</ref>&lt; T &gt;</type>
@@ -59,6 +83,13 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="26" column="25" bodyfile="RB.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1aa4cf57ca695ce187baf7b6d349d7a7fc" compoundref="_r_b_8cs" startline="46" endline="76">WindowsFormsApp1.RB&lt; T &gt;.LeftRotate</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a814c224d0e989fe6f25523894c49ace6" compoundref="_r_b_8cs" startline="82" endline="113">WindowsFormsApp1.RB&lt; T &gt;.RightRotate</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a2a1dab0780e8e9e2188ee30fcd1b3d66" compoundref="_r_b_8cs" startline="174" endline="214">WindowsFormsApp1.RB&lt; T &gt;.Insert</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1aeedb97d6601d1a7b657f9b99918f6cf9" compoundref="_r_b_8cs" startline="224" endline="284">WindowsFormsApp1.RB&lt; T &gt;.InsertFixUp</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ab0794607a97fa529210e02e750f3c910" compoundref="_r_b_8cs" startline="289" endline="343">WindowsFormsApp1.RB&lt; T &gt;.Delete</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ae59b436b04405ec16645d6763cdf0205" compoundref="_r_b_8cs" startline="348" endline="417">WindowsFormsApp1.RB&lt; T &gt;.DeleteFixUp</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a783021f93f498f78ec5dc544f6d2ba3e" compoundref="_r_b_8cs" startline="430" endline="446">WindowsFormsApp1.RB&lt; T &gt;.TreeSuccessor</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a52c44ef4c774456951af52e28fdec596" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -72,6 +103,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="27" column="22" bodyfile="RB.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a51d2c9f282a943fc1beb9cfd6a3bf650" compoundref="_r_b_8cs" startline="29" endline="29">WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.Node</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1af509d36408ad32419fc5d007d3926e9a" compoundref="_r_b_8cs" startline="133" endline="169">WindowsFormsApp1.RB&lt; T &gt;.FindNode</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1a2a1dab0780e8e9e2188ee30fcd1b3d66" compoundref="_r_b_8cs" startline="174" endline="214">WindowsFormsApp1.RB&lt; T &gt;.Insert</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ab0794607a97fa529210e02e750f3c910" compoundref="_r_b_8cs" startline="289" endline="343">WindowsFormsApp1.RB&lt; T &gt;.Delete</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_r_b_1ad3e3342b8cd813b205c3e49f5eed9b45" compoundref="_r_b_8cs" startline="468" endline="507">WindowsFormsApp1.RB&lt; T &gt;.Find</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -91,6 +127,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="29" column="20" bodyfile="RB.cs" bodystart="29" bodyend="29"/>
+        <references refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a52c44ef4c774456951af52e28fdec596" compoundref="_r_b_8cs" startline="27">WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.data</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a597719bb91a473e6c4fb47185ac14fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -98,7 +135,7 @@
         <argsstring>(Color colour)</argsstring>
         <name>Node</name>
         <param>
-          <type>Color</type>
+          <type><ref refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
           <declname>colour</declname>
         </param>
         <briefdescription>
@@ -108,6 +145,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="30" column="20" bodyfile="RB.cs" bodystart="30" bodyend="30"/>
+        <references refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" compoundref="_r_b_8cs" startline="23">WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.colour</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_r_b_1_1_node_1a33897e4f2acc0c2e89403441a03d57ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -119,7 +157,7 @@
           <declname>data</declname>
         </param>
         <param>
-          <type>Color</type>
+          <type><ref refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
           <declname>colour</declname>
         </param>
         <briefdescription>
@@ -129,6 +167,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="RB.cs" line="31" column="20" bodyfile="RB.cs" bodystart="31" bodyend="31"/>
+        <references refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" compoundref="_r_b_8cs" startline="23">WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.colour</references>
+        <references refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a52c44ef4c774456951af52e28fdec596" compoundref="_r_b_8cs" startline="27">WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;.data</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -136,6 +176,12 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>WindowsFormsApp1.RB&lt; T &gt;.Node&lt; T &gt;</label>
+        <link refid="class_windows_forms_app1_1_1_r_b_1_1_node"/>
+      </node>
+    </collaborationgraph>
     <location file="RB.cs" line="21" column="15" bodyfile="RB.cs" bodystart="22" bodyend="32"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_r_b_1_1_node_1a20cf7dc7b6bf349bc6617369446bccc2" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::RB::Node</scope><name>colour</name></member>

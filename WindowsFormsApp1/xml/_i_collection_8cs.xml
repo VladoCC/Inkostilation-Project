@@ -18,19 +18,19 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_win_forms_app1" kindref="compound">WinFormsApp1</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10" refid="interface_win_forms_app1_1_1_i_collection" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_win_forms_app1_1_1_i_collection" kindref="compound">ICollection</ref>&lt;T&gt;<sp/>where<sp/>T<sp/>:<sp/><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T[]<sp/>ToArray();</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Size();</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Add(T<sp/>element);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Remove(T<sp/>element);</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Find(<ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery&lt;T&gt;</ref><sp/>query);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14" refid="interface_win_forms_app1_1_1_i_collection" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_win_forms_app1_1_1_i_collection" kindref="compound">ICollection</ref>&lt;T&gt;<sp/>where<sp/>T<sp/>:<sp/><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="interface_win_forms_app1_1_1_i_collection_1ae9cbe7b265b6349d0b076c153c8cf0cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T[]<sp/><ref refid="interface_win_forms_app1_1_1_i_collection_1ae9cbe7b265b6349d0b076c153c8cf0cc" kindref="member">ToArray</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="interface_win_forms_app1_1_1_i_collection_1ac04aa2b01403200686917bbc5c927be6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_win_forms_app1_1_1_i_collection_1ac04aa2b01403200686917bbc5c927be6" kindref="member">Size</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32" refid="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" kindref="member">Add</ref>(T<sp/>element);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" kindref="member">Remove</ref>(T<sp/>element);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" kindref="member">Find</ref>(<ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery&lt;T&gt;</ref><sp/>query);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="ICollection.cs"/>
   </compounddef>

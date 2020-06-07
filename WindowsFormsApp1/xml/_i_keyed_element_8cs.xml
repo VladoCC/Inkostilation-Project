@@ -19,7 +19,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13" refid="interface_win_forms_app1_1_1_i_keyed_element" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_win_forms_app1_1_1_i_keyed_element" kindref="compound">IKeyedElement</ref>&lt;K&gt;<sp/>:<sp/><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>K<sp/><ref refid="interface_win_forms_app1_1_1_i_keyed_element_1af9c5523614856af4184fa3f48d40b942" kindref="member">GetKey</ref>();</highlight></codeline>
+<codeline lineno="19" refid="interface_win_forms_app1_1_1_i_keyed_element_1af9c5523614856af4184fa3f48d40b942" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>K<sp/><ref refid="interface_win_forms_app1_1_1_i_keyed_element_1af9c5523614856af4184fa3f48d40b942" kindref="member">GetKey</ref>();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}</highlight></codeline>
     </programlisting>

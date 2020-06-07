@@ -1,0 +1,6 @@
+<map id="WinFormsApp1.ListStorage.Find" name="WinFormsApp1.ListStorage.Find">
+<area shape="rect" id="node1" title="Внутренний рекурсивный метод поиска. Проходит по списку Position, находящихся после этой...." alt="" coords="5,78,216,105"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_search_query.html#a0825c5d7798cb583fdb6621dbf5818f2" title="Проверка элемента на соответствие искомому. При совпадении сохраняет проверяемое данной в качестве ре..." alt="" coords="264,5,487,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_search_query.html#a78a82ea1257ecad1b6af48cf3bf787f0" title="Позволяет увелиить значение счетчика без проведения сравнений." alt="" coords="264,71,487,112"/>
+<area shape="rect" id="node4" href="$class_win_forms_app1_1_1_list_storage.html#a095a3ed5ee3cf8c063a146a7f33b962f" title="Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения к..." alt="" coords="270,137,481,163"/>
+</map>

@@ -36,12 +36,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ShellSorter.cs" line="7" column="21" bodyfile="ShellSorter.cs" bodystart="7" bodyend="24"/>
+        <location file="ShellSorter.cs" line="12" column="21" bodyfile="ShellSorter.cs" bodystart="12" bodyend="29"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Реализация сортировки для элементов типа Т. Использует алгоритм сортировки Шелла с расстоянием Шелла. Наследуется от <ref refid="interface_windows_forms_app1_1_1_i_sorter" kindref="compound">ISorter</ref>. </para>
     </briefdescription>
     <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип сортируемых данных, наследуемый от IElement. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -67,7 +78,7 @@
         <link refid="interface_windows_forms_app1_1_1_i_sorter"/>
       </node>
     </collaborationgraph>
-    <location file="ShellSorter.cs" line="5" column="11" bodyfile="ShellSorter.cs" bodystart="6" bodyend="25"/>
+    <location file="ShellSorter.cs" line="10" column="11" bodyfile="ShellSorter.cs" bodystart="11" bodyend="30"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_shell_sorter_1a951828c6d3e1402e5a6ee40fc9488be8" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::ShellSorter</scope><name>Sort</name></member>
     </listofallmembers>

@@ -1,0 +1,7 @@
+<map id="WindowsFormsApp1.RB.Add" name="WindowsFormsApp1.RB.Add">
+<area shape="rect" id="node1" title="Добавляет элемент в коллекцию." alt="" coords="5,46,196,73"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_r_b.html#a2a1dab0780e8e9e2188ee30fcd1b3d66" title="Insert a new object into the RB Tree" alt="" coords="244,46,444,73"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_r_b.html#aeedb97d6601d1a7b657f9b99918f6cf9" title=" " alt="" coords="492,39,692,80"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_r_b.html#aa4cf57ca695ce187baf7b6d349d7a7fc" title="Left Rotate" alt="" coords="745,5,934,47"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_r_b.html#a814c224d0e989fe6f25523894c49ace6" title="Rotate Right" alt="" coords="740,71,939,112"/>
+</map>

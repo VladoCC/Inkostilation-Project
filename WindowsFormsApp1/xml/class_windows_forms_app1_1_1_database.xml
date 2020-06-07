@@ -9,12 +9,15 @@
         <argsstring></argsstring>
         <name>_instance</name>
         <briefdescription>
+<para>Singleton сущность базы данных, с которой на данный момент работает программа. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="12" column="33" bodyfile="Database.cs" bodystart="12" bodyend="-1"/>
+        <location file="Database.cs" line="22" column="33" bodyfile="Database.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" compoundref="_database_8cs" startline="51" endline="65">WindowsFormsApp1.Database.GetInstance</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" compoundref="_database_8cs" startline="71" endline="75">WindowsFormsApp1.Database.GetNewInstance</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -24,12 +27,21 @@
         <argsstring></argsstring>
         <name>_clients</name>
         <briefdescription>
+<para>Хэш-таблица клиентов, находящихся в базе данных. Принцип разрешения коллизий: открытая адресация (метод двойного хэширования). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="14" column="25" bodyfile="Database.cs" bodystart="14" bodyend="-1"/>
+        <location file="Database.cs" line="28" column="25" bodyfile="Database.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" compoundref="_database_8cs" startline="236" endline="241">WindowsFormsApp1.Database.FindClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" compoundref="_database_8cs" startline="334" endline="337">WindowsFormsApp1.Database.ClientSize</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" compoundref="_database_8cs" startline="370" endline="373">WindowsFormsApp1.Database.ClientArray</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="406" endline="409">WindowsFormsApp1.Database.ClientsFunction</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" prot="private" static="no" mutable="no">
         <type><ref refid="class_win_forms_app1_1_1_hash_map" kindref="compound">HashMap</ref>&lt; int, <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
@@ -37,12 +49,21 @@
         <argsstring></argsstring>
         <name>_machines</name>
         <briefdescription>
+<para>Хэш-таблица банкоматов, находящихся в базе данных. Принцип разрешения коллизий: метод цепочек. Хэш функция: остаток от деления. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="15" column="25" bodyfile="Database.cs" bodystart="15" bodyend="-1"/>
+        <location file="Database.cs" line="34" column="25" bodyfile="Database.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" compoundref="_database_8cs" startline="249" endline="254">WindowsFormsApp1.Database.FindMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" compoundref="_database_8cs" startline="343" endline="346">WindowsFormsApp1.Database.MachineSize</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" compoundref="_database_8cs" startline="379" endline="382">WindowsFormsApp1.Database.MachineArray</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="415" endline="418">WindowsFormsApp1.Database.MachinesFunction</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" prot="private" static="no" mutable="no">
         <type><ref refid="class_win_forms_app1_1_1_tree" kindref="compound">Tree</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
@@ -50,12 +71,23 @@
         <argsstring></argsstring>
         <name>_operations</name>
         <briefdescription>
+<para>Бинарное дерево операций, находящихся в базе данных. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="16" column="22" bodyfile="Database.cs" bodystart="16" bodyend="-1"/>
+        <location file="Database.cs" line="38" column="22" bodyfile="Database.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" compoundref="_database_8cs" startline="262" endline="267">WindowsFormsApp1.Database.FindOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" compoundref="_database_8cs" startline="352" endline="355">WindowsFormsApp1.Database.OperationSize</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" compoundref="_database_8cs" startline="388" endline="391">WindowsFormsApp1.Database.OperationArray</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" prot="private" static="no" mutable="no">
         <type><ref refid="class_win_forms_app1_1_1_tree" kindref="compound">Tree</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
@@ -63,12 +95,22 @@
         <argsstring></argsstring>
         <name>_percents</name>
         <briefdescription>
+<para>Бинарное дерево процентов, находящихся в базе данных. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="17" column="22" bodyfile="Database.cs" bodystart="17" bodyend="-1"/>
+        <location file="Database.cs" line="42" column="22" bodyfile="Database.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" compoundref="_database_8cs" startline="275" endline="280">WindowsFormsApp1.Database.FindPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" compoundref="_database_8cs" startline="361" endline="364">WindowsFormsApp1.Database.PercentSize</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" compoundref="_database_8cs" startline="397" endline="400">WindowsFormsApp1.Database.PercentArray</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="570" endline="584">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -83,12 +125,28 @@
           <defval>null</defval>
         </param>
         <briefdescription>
+<para>Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь к файлу базы данны. Файл должен иметь расширение &quot;.kostil&quot;. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>База данных, с которой на данный момент работает программа. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="19" column="32" bodyfile="Database.cs" bodystart="19" bodyend="33"/>
+        <location file="Database.cs" line="51" column="32" bodyfile="Database.cs" bodystart="51" bodyend="65"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" compoundref="_database_8cs" startline="22">WindowsFormsApp1.Database._instance</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_database" kindref="compound">Database</ref></type>
@@ -96,12 +154,19 @@
         <argsstring>()</argsstring>
         <name>GetNewInstance</name>
         <briefdescription>
+<para>Заменяет рабочую базу данных на новую. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Пустая база данных. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="35" column="32" bodyfile="Database.cs" bodystart="35" bodyend="39"/>
+        <location file="Database.cs" line="71" column="32" bodyfile="Database.cs" bodystart="71" bodyend="75"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" compoundref="_database_8cs" startline="22">WindowsFormsApp1.Database._instance</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -111,12 +176,19 @@
         <argsstring>()</argsstring>
         <name>Database</name>
         <briefdescription>
+<para>Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры данных пустыми. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="41" column="17" bodyfile="Database.cs" bodystart="41" bodyend="48"/>
+        <location file="Database.cs" line="81" column="17" bodyfile="Database.cs" bodystart="81" bodyend="88"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" compoundref="_database_8cs" startline="51" endline="65">WindowsFormsApp1.Database.GetInstance</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" compoundref="_database_8cs" startline="71" endline="75">WindowsFormsApp1.Database.GetNewInstance</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -130,12 +202,24 @@
           <declname>filePath</declname>
         </param>
         <briefdescription>
+<para>Сохраняет базу данных на жесткий диск. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь к файлу, в который будет производится сохранение. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="50" column="21" bodyfile="Database.cs" bodystart="50" bodyend="56"/>
+        <location file="Database.cs" line="94" column="21" bodyfile="Database.cs" bodystart="94" bodyend="100"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="916" endline="929">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -147,12 +231,28 @@
           <declname>client</declname>
         </param>
         <briefdescription>
+<para>Добавляет клиента в базу данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Клиент для добавления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном добавлении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="58" column="23" bodyfile="Database.cs" bodystart="58" bodyend="67"/>
+        <location file="Database.cs" line="107" column="23" bodyfile="Database.cs" bodystart="107" bodyend="116"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -164,12 +264,28 @@
           <declname>machine</declname>
         </param>
         <briefdescription>
+<para>Добавляет банкомат в базу данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банкомат для добавления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном добавлении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="69" column="23" bodyfile="Database.cs" bodystart="69" bodyend="78"/>
+        <location file="Database.cs" line="123" column="23" bodyfile="Database.cs" bodystart="123" bodyend="132"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -181,12 +297,28 @@
           <declname>operation</declname>
         </param>
         <briefdescription>
+<para>Добавляет операцию в базу данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Операция для добавления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном добавлении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="80" column="23" bodyfile="Database.cs" bodystart="80" bodyend="89"/>
+        <location file="Database.cs" line="139" column="23" bodyfile="Database.cs" bodystart="139" bodyend="148"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -198,12 +330,28 @@
           <declname>percent</declname>
         </param>
         <briefdescription>
+<para>Добавляет процент в базу данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>percent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Процент для добавления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном добавлении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="91" column="23" bodyfile="Database.cs" bodystart="91" bodyend="100"/>
+        <location file="Database.cs" line="155" column="23" bodyfile="Database.cs" bodystart="155" bodyend="164"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -215,12 +363,28 @@
           <declname>client</declname>
         </param>
         <briefdescription>
+<para>Удаляет клиента из базы данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Клиент для удаления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном удалении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="102" column="23" bodyfile="Database.cs" bodystart="102" bodyend="111"/>
+        <location file="Database.cs" line="171" column="23" bodyfile="Database.cs" bodystart="171" bodyend="180"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -232,12 +396,28 @@
           <declname>machine</declname>
         </param>
         <briefdescription>
+<para>Удаляет банкомат из базы данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банкомат для удаления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном удалении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="113" column="23" bodyfile="Database.cs" bodystart="113" bodyend="122"/>
+        <location file="Database.cs" line="187" column="23" bodyfile="Database.cs" bodystart="187" bodyend="196"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -249,12 +429,28 @@
           <declname>operation</declname>
         </param>
         <briefdescription>
+<para>Удаляет операцию из базы данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Операция для удаления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном удалении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="124" column="23" bodyfile="Database.cs" bodystart="124" bodyend="133"/>
+        <location file="Database.cs" line="203" column="23" bodyfile="Database.cs" bodystart="203" bodyend="212"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -266,12 +462,28 @@
           <declname>percent</declname>
         </param>
         <briefdescription>
+<para>Удаляет процент из базы данных, если это не нарушает целостность базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>percent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Процент для удаления. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Сообщение об успешном удалении или о проблеме целостности. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="135" column="23" bodyfile="Database.cs" bodystart="135" bodyend="144"/>
+        <location file="Database.cs" line="219" column="23" bodyfile="Database.cs" bodystart="219" bodyend="228"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref> &gt;</type>
@@ -283,12 +495,28 @@
           <declname>client</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных клиента, соответствующего входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Клиент, соответствия которому необходимо найти. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="146" column="28" bodyfile="Database.cs" bodystart="146" bodyend="151"/>
+        <location file="Database.cs" line="236" column="28" bodyfile="Database.cs" bodystart="236" bodyend="241"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" compoundref="_database_8cs" startline="288" endline="291">WindowsFormsApp1.Database.FindClient</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
@@ -300,12 +528,28 @@
           <declname>machine</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных банкомата, соответствующего входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банкомат, соответствия которому необходимо найти. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="153" column="28" bodyfile="Database.cs" bodystart="153" bodyend="158"/>
+        <location file="Database.cs" line="249" column="28" bodyfile="Database.cs" bodystart="249" bodyend="254"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" compoundref="_database_8cs" startline="299" endline="302">WindowsFormsApp1.Database.FindMachine</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
@@ -317,12 +561,28 @@
           <declname>operation</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных операции, соответствующей входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Операция, соответствия которой необходимо найти. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="160" column="28" bodyfile="Database.cs" bodystart="160" bodyend="165"/>
+        <location file="Database.cs" line="262" column="28" bodyfile="Database.cs" bodystart="262" bodyend="267"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a13b8331e8ed86b4964a9539d000dd937" compoundref="_database_8cs" startline="312" endline="315">WindowsFormsApp1.Database.FindOperation</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
@@ -334,12 +594,28 @@
           <declname>percent</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных процента, соответствующего входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>percent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Процент, соответствия которому необходимо найти. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="167" column="28" bodyfile="Database.cs" bodystart="167" bodyend="172"/>
+        <location file="Database.cs" line="275" column="28" bodyfile="Database.cs" bodystart="275" bodyend="280"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a526fc972a32bbb9033916a770be56343" compoundref="_database_8cs" startline="325" endline="328">WindowsFormsApp1.Database.FindPercent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref> &gt;</type>
@@ -351,12 +627,26 @@
           <declname>cardNumber</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных банкомата, соответствующего входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cardNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер карты искомого клиента. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="174" column="28" bodyfile="Database.cs" bodystart="174" bodyend="177"/>
+        <location file="Database.cs" line="288" column="28" bodyfile="Database.cs" bodystart="288" bodyend="291"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" compoundref="_database_8cs" startline="236" endline="241">WindowsFormsApp1.Database.FindClient</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
@@ -368,21 +658,35 @@
           <declname>machineNumber</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных банкомата, соответствующего входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machineNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер банкомата, соответствия которому необходимо найти. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="179" column="28" bodyfile="Database.cs" bodystart="179" bodyend="182"/>
+        <location file="Database.cs" line="299" column="28" bodyfile="Database.cs" bodystart="299" bodyend="302"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" compoundref="_database_8cs" startline="249" endline="254">WindowsFormsApp1.Database.FindMachine</references>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a387a5f52b4039bfe0be1f4123b4097c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a13b8331e8ed86b4964a9539d000dd937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
         <definition>SearchQuery&lt;Operation&gt; WindowsFormsApp1.Database.FindOperation</definition>
-        <argsstring>(string operationType, int cardNumber, int machineNumber)</argsstring>
+        <argsstring>(string operationName, int cardNumber, int machineNumber)</argsstring>
         <name>FindOperation</name>
         <param>
           <type>string</type>
-          <declname>operationType</declname>
+          <declname>operationName</declname>
         </param>
         <param>
           <type>int</type>
@@ -393,21 +697,51 @@
           <declname>machineNumber</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных операции, соответствующей входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operationName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название операции. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cardNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер карты, с которой произведена операция. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>machineNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер банкомата, на котором произведена операция. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="184" column="28" bodyfile="Database.cs" bodystart="184" bodyend="187"/>
+        <location file="Database.cs" line="312" column="28" bodyfile="Database.cs" bodystart="312" bodyend="315"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" compoundref="_database_8cs" startline="262" endline="267">WindowsFormsApp1.Database.FindOperation</references>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a08872140b383b4c09e3cb46264a4dea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a526fc972a32bbb9033916a770be56343" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_search_query" kindref="compound">SearchQuery</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
         <definition>SearchQuery&lt;Percent&gt; WindowsFormsApp1.Database.FindPercent</definition>
-        <argsstring>(string operationType, string senderBank, string receiverBank)</argsstring>
+        <argsstring>(string operationName, string senderBank, string receiverBank)</argsstring>
         <name>FindPercent</name>
         <param>
           <type>string</type>
-          <declname>operationType</declname>
+          <declname>operationName</declname>
         </param>
         <param>
           <type>string</type>
@@ -418,12 +752,42 @@
           <declname>receiverBank</declname>
         </param>
         <briefdescription>
+<para>Производит поиск в базе данных процента, соответствующего входным данным. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operationName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название операции. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>senderBank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название банка отправителя. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>receiverBank</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название банка получателя. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат запроса поиска, содержащий информацию о количестве сравнений и совпадение, если таковое найдено. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="189" column="28" bodyfile="Database.cs" bodystart="189" bodyend="192"/>
+        <location file="Database.cs" line="325" column="28" bodyfile="Database.cs" bodystart="325" bodyend="328"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" compoundref="_database_8cs" startline="275" endline="280">WindowsFormsApp1.Database.FindPercent</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -431,12 +795,18 @@
         <argsstring>()</argsstring>
         <name>ClientSize</name>
         <briefdescription>
+<para>Возвращает количество клиентов. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Количество клиентов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="194" column="20" bodyfile="Database.cs" bodystart="194" bodyend="197"/>
+        <location file="Database.cs" line="334" column="20" bodyfile="Database.cs" bodystart="334" bodyend="337"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -444,12 +814,18 @@
         <argsstring>()</argsstring>
         <name>MachineSize</name>
         <briefdescription>
+<para>Возвращает количество банкоматов. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Количество банкоматов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="199" column="20" bodyfile="Database.cs" bodystart="199" bodyend="202"/>
+        <location file="Database.cs" line="343" column="20" bodyfile="Database.cs" bodystart="343" bodyend="346"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -457,12 +833,18 @@
         <argsstring>()</argsstring>
         <name>OperationSize</name>
         <briefdescription>
+<para>Возвращает количество операций. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Количество операций. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="204" column="20" bodyfile="Database.cs" bodystart="204" bodyend="207"/>
+        <location file="Database.cs" line="352" column="20" bodyfile="Database.cs" bodystart="352" bodyend="355"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -470,12 +852,18 @@
         <argsstring>()</argsstring>
         <name>PercentSize</name>
         <briefdescription>
+<para>Возвращает количество процентов. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Количество процентов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="209" column="20" bodyfile="Database.cs" bodystart="209" bodyend="212"/>
+        <location file="Database.cs" line="361" column="20" bodyfile="Database.cs" bodystart="361" bodyend="364"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref>[]</type>
@@ -483,12 +871,18 @@
         <argsstring>()</argsstring>
         <name>ClientArray</name>
         <briefdescription>
+<para>Возвращает массив клиентов, доступных в базе данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Массив клиентов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="214" column="23" bodyfile="Database.cs" bodystart="214" bodyend="217"/>
+        <location file="Database.cs" line="370" column="23" bodyfile="Database.cs" bodystart="370" bodyend="373"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref>[]</type>
@@ -496,12 +890,18 @@
         <argsstring>()</argsstring>
         <name>MachineArray</name>
         <briefdescription>
+<para>Возвращает массив банкоматов, доступных в базе данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Массив банкоматов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="219" column="24" bodyfile="Database.cs" bodystart="219" bodyend="222"/>
+        <location file="Database.cs" line="379" column="24" bodyfile="Database.cs" bodystart="379" bodyend="382"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref>[]</type>
@@ -509,12 +909,18 @@
         <argsstring>()</argsstring>
         <name>OperationArray</name>
         <briefdescription>
+<para>Возвращает массив операций, доступных в базе данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Массив операций. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="224" column="26" bodyfile="Database.cs" bodystart="224" bodyend="227"/>
+        <location file="Database.cs" line="388" column="26" bodyfile="Database.cs" bodystart="388" bodyend="391"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref>[]</type>
@@ -522,12 +928,18 @@
         <argsstring>()</argsstring>
         <name>PercentArray</name>
         <briefdescription>
+<para>Возвращает массив процентов, доступных в базе данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Массив процентов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="229" column="24" bodyfile="Database.cs" bodystart="229" bodyend="232"/>
+        <location file="Database.cs" line="397" column="24" bodyfile="Database.cs" bodystart="397" bodyend="400"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; int &gt;</type>
@@ -535,12 +947,19 @@
         <argsstring>()</argsstring>
         <name>ClientsFunction</name>
         <briefdescription>
+<para>Возвращает хэш-функцию, используемую для таблицы клиентов данной базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Хэш-функция клиентов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="234" column="29" bodyfile="Database.cs" bodystart="234" bodyend="237"/>
+        <location file="Database.cs" line="406" column="29" bodyfile="Database.cs" bodystart="406" bodyend="409"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_win_forms_app1_1_1_hash_function" kindref="compound">HashFunction</ref>&lt; int &gt;</type>
@@ -548,12 +967,19 @@
         <argsstring>()</argsstring>
         <name>MachinesFunction</name>
         <briefdescription>
+<para>Возвращает хэш-функцию, используемую для таблицы машин данной базы данных. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Хэш-функция машин. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="239" column="29" bodyfile="Database.cs" bodystart="239" bodyend="242"/>
+        <location file="Database.cs" line="415" column="29" bodyfile="Database.cs" bodystart="415" bodyend="418"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -561,12 +987,34 @@
         <argsstring>()</argsstring>
         <name>Consistence</name>
         <briefdescription>
+<para>Производит проверку базы данных на целостность. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Сообщение о причине нарушения целостности или отсутствия таковых. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="244" column="23" bodyfile="Database.cs" bodystart="244" bodyend="341"/>
+        <location file="Database.cs" line="424" column="23" bodyfile="Database.cs" bodystart="424" bodyend="521"/>
+        <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" compoundref="_client_8cs" startline="57">WindowsFormsApp1.Client.CardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref>, <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
@@ -578,12 +1026,31 @@
           <declname>client</declname>
         </param>
         <briefdescription>
+<para>Создает отчет об операциях, проведенных клиентом. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Клиент, операции которого попадут в отчет. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отчет об операциях этого клиента, содержащий их количество и конкретные операции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="343" column="23" bodyfile="Database.cs" bodystart="343" bodyend="357"/>
+        <location file="Database.cs" line="528" column="23" bodyfile="Database.cs" bodystart="528" bodyend="542"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" compoundref="_client_8cs" startline="57">WindowsFormsApp1.Client.CardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref>, <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
@@ -595,12 +1062,31 @@
           <declname>machine</declname>
         </param>
         <briefdescription>
+<para>Создает отчет об операциях, проведенных этим банкоматом. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банкомат, операции которого попадут в отчет. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отчет об операциях этого банкомата, содержащий их количество и конкретные операции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="359" column="23" bodyfile="Database.cs" bodystart="359" bodyend="373"/>
+        <location file="Database.cs" line="549" column="23" bodyfile="Database.cs" bodystart="549" bodyend="563"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref>, <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
@@ -612,12 +1098,31 @@
           <declname>operation</declname>
         </param>
         <briefdescription>
+<para>Создает отчет о процентах по указанному типу операций. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Операция, проценты по которой попадут в отчет. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отчет о процентах этой операции, содержащий их количество и конкретные операции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="375" column="23" bodyfile="Database.cs" bodystart="375" bodyend="389"/>
+        <location file="Database.cs" line="570" column="23" bodyfile="Database.cs" bodystart="570" bodyend="584"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref>, <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
@@ -629,19 +1134,142 @@
           <declname>machine</declname>
         </param>
         <briefdescription>
+<para>Создает отчет о процентах по операциям, проведенныи этим банкоматом. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банкомат, проценты по операциям которого попадут в отчет. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отчет о процентах по операциям этого банкомата, содержащий их количество и конкретные операции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="391" column="23" bodyfile="Database.cs" bodystart="391" bodyend="411"/>
+        <location file="Database.cs" line="592" column="23" bodyfile="Database.cs" bodystart="592" bodyend="612"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
+        <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" compoundref="_machine_8cs" startline="67">WindowsFormsApp1.Machine.BankName</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Класс-оболочка базы данных, предоставляющий доступ ко всем методам, необходимым для работы со структурами данных. Реализует шаблон проектирования Singleton. Предоставляет возможности для сохранения и загрузки базы данных на жесткий диск, при помощи сериализации. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Database.cs" line="10" column="11" bodyfile="Database.cs" bodystart="11" bodyend="412"/>
+    <collaborationgraph>
+      <node id="8">
+        <label>WinFormsApp1.ICollection&lt; T &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+      </node>
+      <node id="1">
+        <label>WindowsFormsApp1.Database</label>
+        <link refid="class_windows_forms_app1_1_1_database"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-_percents</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>-_instance</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-_machines</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>-_operations</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-_clients</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; WindowsFormsApp1::Operation &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WinFormsApp1.HashMap&lt; int, WindowsFormsApp1.Machine &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; int, WindowsFormsApp1::Machine &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICollection&lt; T &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+      </node>
+      <node id="6">
+        <label>WinFormsApp1.HashMap&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+Function</edgelabel>
+          <edgelabel>-_function</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>WinFormsApp1.HashFunction&lt; T &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_function"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.Tree&lt; T &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>WinFormsApp1.HashFunction&lt; K &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_function"/>
+        <childnode refid="10" relation="template-instance">
+          <edgelabel>&lt; K &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>WinFormsApp1.HashMap&lt; int, WindowsFormsApp1.Client &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; int, WindowsFormsApp1::Client &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ICollection&lt; V &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Percent &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; WindowsFormsApp1::Percent &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>WindowsFormsApp1.SizeContainer</label>
+        <link refid="class_windows_forms_app1_1_1_size_container"/>
+      </node>
+    </collaborationgraph>
+    <location file="Database.cs" line="17" column="11" bodyfile="Database.cs" bodystart="18" bodyend="613"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_clients</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_instance</name></member>
@@ -663,9 +1291,9 @@
       <member refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindMachine</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1aae9e855a13da3824b4ad57add0c86204" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindMachine</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindOperation</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1a387a5f52b4039bfe0be1f4123b4097c6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a13b8331e8ed86b4964a9539d000dd937" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindOperation</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindPercent</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1a08872140b383b4c09e3cb46264a4dea7" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindPercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a526fc972a32bbb9033916a770be56343" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindPercent</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>GetInstance</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>GetNewInstance</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>MachineArray</name></member>

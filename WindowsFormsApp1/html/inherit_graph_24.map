@@ -1,0 +1,5 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$class_win_forms_app1_1_1_storage.html" title="Внутренняя структура хэш&#45;таблицы. хранящая все данные и реализующая стратегии разрешения коллизий." alt="" coords="5,39,167,80"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_double_hash_storage.html" title=" " alt="" coords="215,5,445,47"/>
+<area shape="rect" id="node3" href="$class_win_forms_app1_1_1_list_storage.html" title=" " alt="" coords="239,71,421,112"/>
+</map>

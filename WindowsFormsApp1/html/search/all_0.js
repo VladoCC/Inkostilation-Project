@@ -29,5 +29,7 @@ var searchData=
   ['_5fsize_26',['_size',['../class_win_forms_app1_1_1_double_hash_storage.html#a78ccd4cb28e362967256906146f2d17e',1,'WinFormsApp1.DoubleHashStorage._size()'],['../class_win_forms_app1_1_1_hash_function.html#a78212a560d5b5dbbee1efb90d47368c1',1,'WinFormsApp1.HashFunction._size()'],['../class_windows_forms_app1_1_1_size_container.html#a8f01e21c0931a4ded48a4dc83605065a',1,'WindowsFormsApp1.SizeContainer._size()'],['../class_win_forms_app1_1_1_storage.html#a5208a1b4cb3b07891d79ceb99ef1b157',1,'WinFormsApp1.Storage._size()'],['../class_win_forms_app1_1_1_tree.html#ab9fae0eeb72f48b4b268c8b0587ade15',1,'WinFormsApp1.Tree._size()']]],
   ['_5fsorter_27',['_sorter',['../class_windows_forms_app1_1_1_report.html#af6e1b3847914014ac7027e5711f38d25',1,'WindowsFormsApp1::Report']]],
   ['_5fstorage_28',['_storage',['../class_win_forms_app1_1_1_hash_map.html#ab81a7fa321099000b39a8890372b7d0d',1,'WinFormsApp1::HashMap']]],
-  ['_5fsum_29',['_sum',['../class_windows_forms_app1_1_1_operation.html#a82b816146128d56ae58663b384e910d1',1,'WindowsFormsApp1::Operation']]]
+  ['_5fsum_29',['_sum',['../class_windows_forms_app1_1_1_operation.html#a82b816146128d56ae58663b384e910d1',1,'WindowsFormsApp1::Operation']]],
+  ['_5fwatermarkcolor_30',['_waterMarkColor',['../class_windows_forms_app1_1_1_water_mark_text_box.html#a337b59e197b2fc892338b37af76f8660',1,'WindowsFormsApp1::WaterMarkTextBox']]],
+  ['_5fwatermarktext_31',['_waterMarkText',['../class_windows_forms_app1_1_1_water_mark_text_box.html#a51aac970c17380206303227608fe051e',1,'WindowsFormsApp1::WaterMarkTextBox']]]
 ];

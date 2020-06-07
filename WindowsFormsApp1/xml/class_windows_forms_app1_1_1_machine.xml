@@ -10,12 +10,16 @@
         <argsstring></argsstring>
         <name>_machineNumber</name>
         <briefdescription>
+<para>Номер банкомата. Целое число от 1 до 500 включительно. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="9" column="21" bodyfile="Machine.cs" bodystart="9" bodyend="-1"/>
+        <location file="Machine.cs" line="16" column="21" bodyfile="Machine.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" compoundref="_machine_8cs" startline="36" endline="41">WindowsFormsApp1.Machine.Machine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_1a1cce5f01e7e7e4eace9cbc0347f4032a" compoundref="_machine_8cs" startline="43" endline="46">WindowsFormsApp1.Machine.GetKey</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" compoundref="_machine_8cs" startline="48" endline="52">WindowsFormsApp1.Machine.Compare</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -23,12 +27,14 @@
         <argsstring></argsstring>
         <name>_address</name>
         <briefdescription>
+<para>Адрес банкомата. Строка букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="10" column="24" bodyfile="Machine.cs" bodystart="10" bodyend="-1"/>
+        <location file="Machine.cs" line="22" column="24" bodyfile="Machine.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" compoundref="_machine_8cs" startline="36" endline="41">WindowsFormsApp1.Machine.Machine</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -36,12 +42,14 @@
         <argsstring></argsstring>
         <name>_bankName</name>
         <briefdescription>
+<para>Название обслуживающего банка. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="11" column="24" bodyfile="Machine.cs" bodystart="11" bodyend="-1"/>
+        <location file="Machine.cs" line="28" column="24" bodyfile="Machine.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" compoundref="_machine_8cs" startline="36" endline="41">WindowsFormsApp1.Machine.Machine</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -50,42 +58,52 @@
         <definition>int WindowsFormsApp1.Machine.MachineNumber</definition>
         <argsstring></argsstring>
         <name>MachineNumber</name>
-        <initializer>=&gt; _machineNumber</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" kindref="member">_machineNumber</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для номера банкомата. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="31" column="20" bodyfile="Machine.cs" bodystart="31" bodyend="-1"/>
+        <location file="Machine.cs" line="57" column="20" bodyfile="Machine.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" prot="public" static="no" mutable="no">
         <type>string</type>
         <definition>string WindowsFormsApp1.Machine.Address</definition>
         <argsstring></argsstring>
         <name>Address</name>
-        <initializer>=&gt; _address</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" kindref="member">_address</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для адреса банкомата. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="33" column="23" bodyfile="Machine.cs" bodystart="33" bodyend="-1"/>
+        <location file="Machine.cs" line="62" column="23" bodyfile="Machine.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" prot="public" static="no" mutable="no">
         <type>string</type>
         <definition>string WindowsFormsApp1.Machine.BankName</definition>
         <argsstring></argsstring>
         <name>BankName</name>
-        <initializer>=&gt; _bankName</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" kindref="member">_bankName</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для названия обслуживающего банка. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="35" column="23" bodyfile="Machine.cs" bodystart="35" bodyend="-1"/>
+        <location file="Machine.cs" line="67" column="23" bodyfile="Machine.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -107,12 +125,43 @@
           <declname>bankName</declname>
         </param>
         <briefdescription>
+<para>Основной конструктор для создания банкомата. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>machineNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер банкомата. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Адрес банкомата. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bankName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название обслуживающего банка. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="13" column="16" bodyfile="Machine.cs" bodystart="13" bodyend="18"/>
+        <location file="Machine.cs" line="36" column="16" bodyfile="Machine.cs" bodystart="36" bodyend="41"/>
+        <references refid="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" compoundref="_machine_8cs" startline="22">WindowsFormsApp1.Machine._address</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" compoundref="_machine_8cs" startline="28">WindowsFormsApp1.Machine._bankName</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" compoundref="_machine_8cs" startline="16">WindowsFormsApp1.Machine._machineNumber</references>
+        <referencedby refid="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" compoundref="_machine_8cs" startline="48" endline="52">WindowsFormsApp1.Machine.Compare</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_1a1cce5f01e7e7e4eace9cbc0347f4032a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -125,7 +174,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="20" column="20" bodyfile="Machine.cs" bodystart="20" bodyend="23"/>
+        <location file="Machine.cs" line="43" column="20" bodyfile="Machine.cs" bodystart="43" bodyend="46"/>
+        <references refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" compoundref="_machine_8cs" startline="16">WindowsFormsApp1.Machine._machineNumber</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -142,17 +193,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Machine.cs" line="25" column="20" bodyfile="Machine.cs" bodystart="25" bodyend="29"/>
+        <location file="Machine.cs" line="48" column="20" bodyfile="Machine.cs" bodystart="48" bodyend="52"/>
+        <references refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" compoundref="_machine_8cs" startline="16">WindowsFormsApp1.Machine._machineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a2181d9ef9b8e773229ff8669db0dea13" compoundref="_machine_8cs" startline="36" endline="41">WindowsFormsApp1.Machine.Machine</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Класс, описывающий банкомат. Обладает ключом типа int. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="4">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
       <node id="2">
         <label>IKeyedElement&lt; int &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="1">
         <label>WindowsFormsApp1.Machine</label>
@@ -162,9 +229,22 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="4">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
       <node id="2">
         <label>IKeyedElement&lt; int &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="1">
         <label>WindowsFormsApp1.Machine</label>
@@ -173,7 +253,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Machine.cs" line="7" column="11" bodyfile="Machine.cs" bodystart="8" bodyend="36"/>
+    <location file="Machine.cs" line="10" column="11" bodyfile="Machine.cs" bodystart="11" bodyend="68"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_machine_1a28cb649c4e6c64536702796112e40587" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>_address</name></member>
       <member refid="class_windows_forms_app1_1_1_machine_1a0cfa5564e20b870f00983ef8e0d6c94e" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Machine</scope><name>_bankName</name></member>

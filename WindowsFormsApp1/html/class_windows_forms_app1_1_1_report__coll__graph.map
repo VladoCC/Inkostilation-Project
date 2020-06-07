@@ -1,0 +1,7 @@
+<map id="WindowsFormsApp1.Report&lt; K, V &gt;" name="WindowsFormsApp1.Report&lt; K, V &gt;">
+<area shape="rect" id="node1" title="Отчет о данных, соответствующих запросу. Ищет все данные, соответсвующие запросу и сортирует их испол..." alt="" coords="137,432,321,583"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_report_1_1_container.html" title=" " alt="" coords="5,219,189,369"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_report_1_1_container.html" title="Котейнер, являющийся первым элементом списка и предоставляющий методы работы со списком." alt="" coords="5,5,189,156"/>
+<area shape="rect" id="node4" href="$interface_windows_forms_app1_1_1_i_sorter.html" title=" " alt="" coords="214,255,431,333"/>
+<area shape="rect" id="node5" href="$interface_windows_forms_app1_1_1_i_sorter.html" title="Интерфейс, описывающий сортировщик элементов типа Т." alt="" coords="215,42,430,119"/>
+</map>

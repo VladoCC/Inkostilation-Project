@@ -1,0 +1,7 @@
+<map id="WinFormsApp1.DoubleHashStorage.Find" name="WinFormsApp1.DoubleHashStorage.Find">
+<area shape="rect" id="node1" title="Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения к..." alt="" coords="5,107,265,134"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_search_query.html#a0825c5d7798cb583fdb6621dbf5818f2" title="Проверка элемента на соответствие искомому. При совпадении сохраняет проверяемое данной в качестве ре..." alt="" coords="317,5,540,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_search_query.html#a78a82ea1257ecad1b6af48cf3bf787f0" title="Позволяет увелиить значение счетчика без проведения сравнений." alt="" coords="317,71,540,112"/>
+<area shape="rect" id="node4" href="$class_win_forms_app1_1_1_hash_function.html#a78a43fc1610e678bff472562d00f727f" title="Преобразует хэшируемое данное в индекс." alt="" coords="313,137,544,163"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_keyed_search_query.html#ab01bc2d2accdd0ac5018745ba00e2f01" title="Возвращает ключ искомого элемента." alt="" coords="317,188,541,229"/>
+</map>

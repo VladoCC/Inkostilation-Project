@@ -1,0 +1,16 @@
+<map id="WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click" name="WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click">
+<area shape="rect" id="node1" title=" " alt="" coords="5,352,267,393"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84" title="Возвращает массив клиентов, доступных в базе данных." alt="" coords="327,5,533,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#aa1cdc9d9ca1b9f807e8736e07f0ed5b4" title="Возвращает хэш&#45;функцию, используемую для таблицы клиентов данной базы данных." alt="" coords="327,71,533,112"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#afb07a7f367fe3ce7348d0d5f70a82536" title="Возвращает количество клиентов." alt="" coords="327,136,533,177"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_database.html#a6b3cb170c1455dfd9eb5bfa73891d006" title="Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него..." alt="" coords="327,201,533,243"/>
+<area shape="rect" id="node7" href="$class_win_forms_app1_1_1_hash_function.html#a78a43fc1610e678bff472562d00f727f" title="Преобразует хэшируемое данное в индекс." alt="" coords="315,267,545,294"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e" title="Возвращает массив банкоматов, доступных в базе данных." alt="" coords="327,319,533,360"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f" title="Возвращает хэш&#45;функцию, используемую для таблицы машин данной базы данных." alt="" coords="327,384,533,425"/>
+<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_database.html#a9e9603449f45edce04e4413859a989df" title="Возвращает количество банкоматов." alt="" coords="327,449,533,491"/>
+<area shape="rect" id="node11" href="$class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644" title="Возвращает массив операций, доступных в базе данных." alt="" coords="327,515,533,556"/>
+<area shape="rect" id="node12" href="$class_windows_forms_app1_1_1_database.html#a71bfaac112b0cf14dbfa6ed6828645bf" title="Возвращает количество операций." alt="" coords="327,580,533,621"/>
+<area shape="rect" id="node13" href="$class_windows_forms_app1_1_1_database.html#a6c72a00968440e4461c41fd6493b2a43" title="Возвращает массив процентов, доступных в базе данных." alt="" coords="327,645,533,687"/>
+<area shape="rect" id="node14" href="$class_windows_forms_app1_1_1_database.html#a4193279732068c21e5f17702c90348fb" title="Возвращает количество процентов." alt="" coords="327,711,533,752"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="593,201,799,243"/>
+</map>

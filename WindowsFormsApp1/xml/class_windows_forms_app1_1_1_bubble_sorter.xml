@@ -48,7 +48,7 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Тип сортируемых данных, наследуемая от IElement. </para>
+<para>Тип сортируемых данных, наследуемый от IElement. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

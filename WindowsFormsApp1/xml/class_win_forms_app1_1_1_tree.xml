@@ -11,17 +11,22 @@
     </templateparamlist>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_win_forms_app1_1_1_tree_1a9b97cb68c2d607c5c1c53e343f5cdaae" prot="private" static="no" mutable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;._root</definition>
         <argsstring></argsstring>
         <name>_root</name>
         <briefdescription>
+<para>Корень дерева. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="13" column="26" bodyfile="Tree.cs" bodystart="13" bodyend="-1"/>
+        <location file="Tree.cs" line="20" column="26" bodyfile="Tree.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a528dda81e94674bee88db39dd37fb8c7" compoundref="_tree_8cs" startline="26" endline="36">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::ToArray</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a40dc610c61cb7dd40912819d775ac126" compoundref="_tree_8cs" startline="61" endline="73">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Add</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a76585e0c000743abea2a03f81c4fb9d9" compoundref="_tree_8cs" startline="124" endline="139">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Remove</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a2cd2d0f5b409399bbbb6d4ea0431a8a2" compoundref="_tree_8cs" startline="264" endline="267">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Find</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_win_forms_app1_1_1_tree_1ab9fae0eeb72f48b4b268c8b0587ade15" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -30,12 +35,17 @@
         <name>_size</name>
         <initializer>= 0</initializer>
         <briefdescription>
+<para>Размер дерева. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="14" column="21" bodyfile="Tree.cs" bodystart="14" bodyend="-1"/>
+        <location file="Tree.cs" line="24" column="21" bodyfile="Tree.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a528dda81e94674bee88db39dd37fb8c7" compoundref="_tree_8cs" startline="26" endline="36">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::ToArray</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a2b69f021df2e9998e344a0a4c064bba3" compoundref="_tree_8cs" startline="56" endline="59">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Size</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a40dc610c61cb7dd40912819d775ac126" compoundref="_tree_8cs" startline="61" endline="73">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Add</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a76585e0c000743abea2a03f81c4fb9d9" compoundref="_tree_8cs" startline="124" endline="139">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Remove</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -46,12 +56,16 @@
         <name>ToArray</name>
         <reimplements refid="interface_win_forms_app1_1_1_i_collection_1ae9cbe7b265b6349d0b076c153c8cf0cc">ToArray</reimplements>
         <briefdescription>
+<para>Преобразует коллекцию в массив элементов. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Массив элементов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="16" column="18" bodyfile="Tree.cs" bodystart="16" bodyend="26"/>
+        <location file="Tree.cs" line="26" column="18" bodyfile="Tree.cs" bodystart="26" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a2b69f021df2e9998e344a0a4c064bba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -60,12 +74,17 @@
         <name>Size</name>
         <reimplements refid="interface_win_forms_app1_1_1_i_collection_1ac04aa2b01403200686917bbc5c927be6">Size</reimplements>
         <briefdescription>
+<para>Возвращает размер коллекции. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Размер коллекции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="46" column="20" bodyfile="Tree.cs" bodystart="46" bodyend="49"/>
+        <location file="Tree.cs" line="56" column="20" bodyfile="Tree.cs" bodystart="56" bodyend="59"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a528dda81e94674bee88db39dd37fb8c7" compoundref="_tree_8cs" startline="26" endline="36">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::ToArray</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a40dc610c61cb7dd40912819d775ac126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -78,12 +97,24 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Добавляет элемент в коллекцию. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Добавляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="51" column="21" bodyfile="Tree.cs" bodystart="51" bodyend="63"/>
+        <location file="Tree.cs" line="61" column="21" bodyfile="Tree.cs" bodystart="61" bodyend="73"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a40dc610c61cb7dd40912819d775ac126" compoundref="_tree_8cs" startline="61" endline="73">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Add</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a76585e0c000743abea2a03f81c4fb9d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -96,12 +127,26 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Удаляет элемент из коллекии. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Удаляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает true, если элемент найден и удален, иначе false. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="109" column="21" bodyfile="Tree.cs" bodystart="109" bodyend="124"/>
+        <location file="Tree.cs" line="124" column="21" bodyfile="Tree.cs" bodystart="124" bodyend="139"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a76585e0c000743abea2a03f81c4fb9d9" compoundref="_tree_8cs" startline="124" endline="139">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Remove</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a2cd2d0f5b409399bbbb6d4ea0431a8a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -114,12 +159,24 @@
           <declname>query</declname>
         </param>
         <briefdescription>
+<para>Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Поисковый запрос, содержащий искомый объект. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="238" column="21" bodyfile="Tree.cs" bodystart="238" bodyend="241"/>
+        <location file="Tree.cs" line="264" column="21" bodyfile="Tree.cs" bodystart="264" bodyend="267"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a2cd2d0f5b409399bbbb6d4ea0431a8a2" compoundref="_tree_8cs" startline="264" endline="267">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Find</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -137,7 +194,7 @@
           <declname>index</declname>
         </param>
         <param>
-          <type>Position&lt; T &gt;</type>
+          <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
           <declname>pos</declname>
         </param>
         <briefdescription>
@@ -146,7 +203,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="28" column="21" bodyfile="Tree.cs" bodystart="28" bodyend="44"/>
+        <location file="Tree.cs" line="38" column="21" bodyfile="Tree.cs" bodystart="38" bodyend="54"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1aa3b55a17c7aa37dbca89a9b755e04809" compoundref="_tree_8cs" startline="38" endline="54">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::FillArray</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a528dda81e94674bee88db39dd37fb8c7" compoundref="_tree_8cs" startline="26" endline="36">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::ToArray</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1adfca5f9416ab33dc6c8513402f472706" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -154,7 +213,7 @@
         <argsstring>(Position&lt; T &gt; parent, T element)</argsstring>
         <name>Add</name>
         <param>
-          <type>Position&lt; T &gt;</type>
+          <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
           <declname>parent</declname>
         </param>
         <param>
@@ -162,12 +221,31 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Внутренний рекурсивный метод, для добавления элемента. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Родительская ячейка. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Добавляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="65" column="22" bodyfile="Tree.cs" bodystart="65" bodyend="107"/>
+        <location file="Tree.cs" line="80" column="22" bodyfile="Tree.cs" bodystart="80" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a7842768f05308519d642fc9ec2910a47" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -175,7 +253,7 @@
         <argsstring>(Position&lt; T &gt; position, T element)</argsstring>
         <name>Remove</name>
         <param>
-          <type>Position&lt; T &gt;</type>
+          <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
           <declname>position</declname>
         </param>
         <param>
@@ -183,29 +261,65 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Внутренний рекурсивный метод, для удаления элемента. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ячейка для проверки. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Удаляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="126" column="22" bodyfile="Tree.cs" bodystart="126" bodyend="220"/>
+        <location file="Tree.cs" line="147" column="22" bodyfile="Tree.cs" bodystart="147" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a48a887e7757857d37703a1b78c0e92aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Max</definition>
         <argsstring>(Position&lt; T &gt; parent)</argsstring>
         <name>Max</name>
         <param>
-          <type>Position&lt; T &gt;</type>
+          <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
           <declname>parent</declname>
         </param>
         <briefdescription>
+<para>Ищет максимальный элемент дерева, начинающегося с указанной позиции. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Корневой элемент дерева. в котором ведется поиск. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Максимальный элемент в дереве. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="222" column="26" bodyfile="Tree.cs" bodystart="222" bodyend="236"/>
+        <location file="Tree.cs" line="248" column="26" bodyfile="Tree.cs" bodystart="248" bodyend="262"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a48a887e7757857d37703a1b78c0e92aa" compoundref="_tree_8cs" startline="248" endline="262">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Max</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1a7842768f05308519d642fc9ec2910a47" compoundref="_tree_8cs" startline="147" endline="241">WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;::Remove</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_tree_1a3548a9280ce1514e3bd5460b87314ce8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -213,7 +327,7 @@
         <argsstring>(Position&lt; T &gt; position, SearchQuery&lt; T &gt; query)</argsstring>
         <name>Find</name>
         <param>
-          <type>Position&lt; T &gt;</type>
+          <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
           <declname>position</declname>
         </param>
         <param>
@@ -221,19 +335,56 @@
           <declname>query</declname>
         </param>
         <briefdescription>
+<para>Внутренний рекурсивный метод, для поиска элемента. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ячейка для проверки. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Поисковый запрос. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="243" column="22" bodyfile="Tree.cs" bodystart="243" bodyend="266"/>
+        <location file="Tree.cs" line="274" column="22" bodyfile="Tree.cs" bodystart="274" bodyend="297"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Коллекция вида бинарное дерево. </para>
     </briefdescription>
     <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип данных, хранимых в бинарном дереве. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="4">
+        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; WindowsFormsApp1::Operation &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="2">
         <label>ICollection&lt; T &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_collection"/>
@@ -242,6 +393,13 @@
         <label>WinFormsApp1.Tree&lt; T &gt;</label>
         <link refid="class_win_forms_app1_1_1_tree"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Percent &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; WindowsFormsApp1::Percent &gt;</edgelabel>
         </childnode>
       </node>
     </inheritancegraph>
@@ -257,7 +415,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Tree.cs" line="11" column="11" bodyfile="Tree.cs" bodystart="12" bodyend="286"/>
+    <location file="Tree.cs" line="15" column="11" bodyfile="Tree.cs" bodystart="16" bodyend="340"/>
     <listofallmembers>
       <member refid="class_win_forms_app1_1_1_tree_1a9b97cb68c2d607c5c1c53e343f5cdaae" prot="private" virt="non-virtual"><scope>WinFormsApp1::Tree</scope><name>_root</name></member>
       <member refid="class_win_forms_app1_1_1_tree_1ab9fae0eeb72f48b4b268c8b0587ade15" prot="private" virt="non-virtual"><scope>WinFormsApp1::Tree</scope><name>_size</name></member>

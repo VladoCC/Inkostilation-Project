@@ -1,0 +1,8 @@
+<map id="WindowsFormsApp1.ISorter&lt; T &gt;" name="WindowsFormsApp1.ISorter&lt; T &gt;">
+<area shape="rect" id="node1" title="Интерфейс, описывающий сортировщик элементов типа Т." alt="" coords="456,5,671,83"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_bubble_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком...." alt="" coords="5,153,196,245"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_quick_last_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком...." alt="" coords="220,145,429,252"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_quick_stack_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм быстрой сортировки...." alt="" coords="454,145,673,252"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_shell_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм сортировки Шелла с расстоянием Шелла...." alt="" coords="697,160,942,237"/>
+<area shape="rect" id="node6" href="$interface_windows_forms_app1_1_1_i_sorter.html" title=" " alt="" coords="967,160,1184,237"/>
+</map>

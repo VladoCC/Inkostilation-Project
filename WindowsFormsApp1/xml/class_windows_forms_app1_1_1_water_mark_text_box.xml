@@ -17,6 +17,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="12" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a3bb75496436cb053ebf2b654510f1d2f" compoundref="_water_mark_text_box_8cs" startline="78" endline="89">WindowsFormsApp1.WaterMarkTextBox.EnableWaterMark</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a4f047d7338e93a361fb5b33f1359fde5" compoundref="_water_mark_text_box_8cs" startline="91" endline="100">WindowsFormsApp1.WaterMarkTextBox.DisbaleWaterMark</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" compoundref="_water_mark_text_box_8cs" startline="102" endline="110">WindowsFormsApp1.WaterMarkTextBox.WaterMark_FontChanged</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_water_mark_text_box_1a5e9f54fe4dd6a020c1af005acd7b994c" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -31,9 +34,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="13" column="25" bodyfile="WaterMarkTextBox.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" compoundref="_water_mark_text_box_8cs" startline="47" endline="58">WindowsFormsApp1.WaterMarkTextBox.OnPaint</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" compoundref="_water_mark_text_box_8cs" startline="102" endline="110">WindowsFormsApp1.WaterMarkTextBox.WaterMark_FontChanged</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_water_mark_text_box_1a337b59e197b2fc892338b37af76f8660" prot="private" static="no" mutable="no">
-        <type>Color</type>
+        <type><ref refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
         <definition>Color WindowsFormsApp1.WaterMarkTextBox._waterMarkColor</definition>
         <argsstring></argsstring>
         <name>_waterMarkColor</name>
@@ -63,7 +68,7 @@
       </sectiondef>
       <sectiondef kind="property">
       <memberdef kind="property" id="class_windows_forms_app1_1_1_water_mark_text_box_1ab5ed7ecd57a807d59e03ea3695728749" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Color</type>
+        <type><ref refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kindref="member">Color</ref></type>
         <definition>Color WindowsFormsApp1.WaterMarkTextBox.WaterMarkColor</definition>
         <argsstring></argsstring>
         <name>WaterMarkColor</name>
@@ -74,6 +79,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="17" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="18" bodyend="24"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a4317d6476b8720e24a0bfc979e36b19f" compoundref="_hash_map1_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap1Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_tree1_dialog_1ad668e2edb7c80e90fe14829ba608a07a" compoundref="_tree1_dialog_8_designer_8cs" startline="29" endline="176">WindowsFormsApp1.Tree1Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_tree2_dialog_1a45cafea573d360f6962b2d1a044f6fa6" compoundref="_tree2_dialog_8_designer_8cs" startline="29" endline="176">WindowsFormsApp1.Tree2Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" compoundref="_water_mark_text_box_8cs" startline="47" endline="58">WindowsFormsApp1.WaterMarkTextBox.OnPaint</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -87,6 +98,13 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="27" column="23" bodyfile="WaterMarkTextBox.cs" bodystart="28" bodyend="31"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="758" endline="777">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a4317d6476b8720e24a0bfc979e36b19f" compoundref="_hash_map1_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap1Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1ae230bc27b2f998ca9584928d24866335" compoundref="_hash_map2_dialog_8_designer_8cs" startline="29" endline="153">WindowsFormsApp1.HashMap2Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_tree1_dialog_1ad668e2edb7c80e90fe14829ba608a07a" compoundref="_tree1_dialog_8_designer_8cs" startline="29" endline="176">WindowsFormsApp1.Tree1Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_tree2_dialog_1a45cafea573d360f6962b2d1a044f6fa6" compoundref="_tree2_dialog_8_designer_8cs" startline="29" endline="176">WindowsFormsApp1.Tree2Dialog.InitializeComponent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" compoundref="_water_mark_text_box_8cs" startline="47" endline="58">WindowsFormsApp1.WaterMarkTextBox.OnPaint</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -102,6 +120,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="35" column="16" bodyfile="WaterMarkTextBox.cs" bodystart="35" bodyend="38"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a9787cbb5991a13f053dafecbb4fe4235" compoundref="_water_mark_text_box_8cs" startline="60" endline="68">WindowsFormsApp1.WaterMarkTextBox.JoinEvents</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -117,6 +136,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="40" column="33" bodyfile="WaterMarkTextBox.cs" bodystart="40" bodyend="44"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" compoundref="_water_mark_text_box_8cs" startline="70" endline="76">WindowsFormsApp1.WaterMarkTextBox.WaterMark_Toggel</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1ad21b803f4761ba5e96a21866d0fc0e4a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override void</type>
@@ -134,6 +154,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="47" column="33" bodyfile="WaterMarkTextBox.cs" bodystart="47" bodyend="58"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1ab5ed7ecd57a807d59e03ea3695728749" compoundref="_water_mark_text_box_8cs" startline="18" endline="24">WindowsFormsApp1.WaterMarkTextBox.WaterMarkColor</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" compoundref="_water_mark_text_box_8cs" startline="28" endline="31">WindowsFormsApp1.WaterMarkTextBox.WaterMarkText</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a5e9f54fe4dd6a020c1af005acd7b994c" compoundref="_water_mark_text_box_8cs" startline="13">WindowsFormsApp1.WaterMarkTextBox.waterMarkTextEnabled</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -153,6 +176,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="60" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="60" bodyend="68"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" compoundref="_water_mark_text_box_8cs" startline="102" endline="110">WindowsFormsApp1.WaterMarkTextBox.WaterMark_FontChanged</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" compoundref="_water_mark_text_box_8cs" startline="70" endline="76">WindowsFormsApp1.WaterMarkTextBox.WaterMark_Toggel</references>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a2db24a625bce0599e266992d5a208ee3" compoundref="_water_mark_text_box_8cs" startline="35" endline="38">WindowsFormsApp1.WaterMarkTextBox.WaterMarkTextBox</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -174,6 +200,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="70" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="70" bodyend="76"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a4f047d7338e93a361fb5b33f1359fde5" compoundref="_water_mark_text_box_8cs" startline="91" endline="100">WindowsFormsApp1.WaterMarkTextBox.DisbaleWaterMark</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a3bb75496436cb053ebf2b654510f1d2f" compoundref="_water_mark_text_box_8cs" startline="78" endline="89">WindowsFormsApp1.WaterMarkTextBox.EnableWaterMark</references>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a9787cbb5991a13f053dafecbb4fe4235" compoundref="_water_mark_text_box_8cs" startline="60" endline="68">WindowsFormsApp1.WaterMarkTextBox.JoinEvents</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a6304cad050befdcc13e801336265e6b3" compoundref="_water_mark_text_box_8cs" startline="40" endline="44">WindowsFormsApp1.WaterMarkTextBox.OnCreateControl</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a3bb75496436cb053ebf2b654510f1d2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -187,6 +217,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="78" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="78" bodyend="89"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a91e794862fe7ea088d93548da3ae6953" compoundref="_water_mark_text_box_8cs" startline="12">WindowsFormsApp1.WaterMarkTextBox.oldFont</references>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" compoundref="_water_mark_text_box_8cs" startline="70" endline="76">WindowsFormsApp1.WaterMarkTextBox.WaterMark_Toggel</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a4f047d7338e93a361fb5b33f1359fde5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -200,6 +232,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="91" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="91" bodyend="100"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a91e794862fe7ea088d93548da3ae6953" compoundref="_water_mark_text_box_8cs" startline="12">WindowsFormsApp1.WaterMarkTextBox.oldFont</references>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1aaac2daefcfde4376842b3f56123cda23" compoundref="_water_mark_text_box_8cs" startline="70" endline="76">WindowsFormsApp1.WaterMarkTextBox.WaterMark_Toggel</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_water_mark_text_box_1a7cfc9dc37dc12308ba40a7100a8fd8a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -221,6 +255,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="WaterMarkTextBox.cs" line="102" column="22" bodyfile="WaterMarkTextBox.cs" bodystart="102" bodyend="110"/>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a91e794862fe7ea088d93548da3ae6953" compoundref="_water_mark_text_box_8cs" startline="12">WindowsFormsApp1.WaterMarkTextBox.oldFont</references>
+        <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1a5e9f54fe4dd6a020c1af005acd7b994c" compoundref="_water_mark_text_box_8cs" startline="13">WindowsFormsApp1.WaterMarkTextBox.waterMarkTextEnabled</references>
+        <referencedby refid="class_windows_forms_app1_1_1_water_mark_text_box_1a9787cbb5991a13f053dafecbb4fe4235" compoundref="_water_mark_text_box_8cs" startline="60" endline="68">WindowsFormsApp1.WaterMarkTextBox.JoinEvents</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>

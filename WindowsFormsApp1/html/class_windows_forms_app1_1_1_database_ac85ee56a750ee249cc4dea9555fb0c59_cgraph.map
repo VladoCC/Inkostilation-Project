@@ -1,0 +1,4 @@
+<map id="WindowsFormsApp1.Database.RemoveMachine" name="WindowsFormsApp1.Database.RemoveMachine">
+<area shape="rect" id="node1" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+</map>

@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="8" column="48" bodyfile="operationFound.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1ae4b53ee61c5527402e256b308912824d" compoundref="operation_found_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.operationFound.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1ab5d9eeb6f5a316f821d8713b87b6aae7" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="157" column="41" bodyfile="operationFound.Designer.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1a581789610340c6baf973c6064f0c8152" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -44,6 +46,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="158" column="41" bodyfile="operationFound.Designer.cs" bodystart="158" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1ace8f628c1d499478d0fe71f80eae90d1" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -57,6 +60,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="160" column="61" bodyfile="operationFound.Designer.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1afd6631c80905e99b44699eb903929949" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -70,6 +74,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="161" column="61" bodyfile="operationFound.Designer.cs" bodystart="161" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1a2a3e44fe2e63738df8d09fec7a2d53bf" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -83,6 +88,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="162" column="61" bodyfile="operationFound.Designer.cs" bodystart="162" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1aa8adcccdbae9cb3ee1fb0fb17703cf12" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -96,6 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="163" column="61" bodyfile="operationFound.Designer.cs" bodystart="163" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -111,6 +118,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="156" column="47" bodyfile="operationFound.Designer.cs" bodystart="156" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1a2c1e6038ae51327834a52800c627de51" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -124,6 +133,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="159" column="40" bodyfile="operationFound.Designer.cs" bodystart="159" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -139,6 +150,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.cs" line="15" column="16" bodyfile="operationFound.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -169,6 +181,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="14" column="33" bodyfile="operationFound.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1operation_found_1a8681cfa04ddac8a854bffe11b675b4aa" compoundref="operation_found_8_designer_8cs" startline="8">WindowsFormsApp1.operationFound.components</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -185,6 +198,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="29" column="22" bodyfile="operationFound.Designer.cs" bodystart="29" bodyend="152"/>
+        <references refid="class_windows_forms_app1_1_1operation_found_1a2c1e6038ae51327834a52800c627de51" compoundref="operation_found_8_designer_8cs" startline="159">WindowsFormsApp1.operationFound.label1</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1a581789610340c6baf973c6064f0c8152" compoundref="operation_found_8_designer_8cs" startline="158">WindowsFormsApp1.operationFound.label2</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1ab5d9eeb6f5a316f821d8713b87b6aae7" compoundref="operation_found_8_designer_8cs" startline="157">WindowsFormsApp1.operationFound.label4</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1adf52a3bd2d35defc9edf2a7020c08a0d" compoundref="operation_found_8_designer_8cs" startline="156">WindowsFormsApp1.operationFound.operationResults</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1a2a3e44fe2e63738df8d09fec7a2d53bf" compoundref="operation_found_8_designer_8cs" startline="162">WindowsFormsApp1.operationFound.НомерБанкомата</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1afd6631c80905e99b44699eb903929949" compoundref="operation_found_8_designer_8cs" startline="161">WindowsFormsApp1.operationFound.НомерКарточки1</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1aa8adcccdbae9cb3ee1fb0fb17703cf12" compoundref="operation_found_8_designer_8cs" startline="163">WindowsFormsApp1.operationFound.СуммаОперации</references>
+        <references refid="class_windows_forms_app1_1_1operation_found_1ace8f628c1d499478d0fe71f80eae90d1" compoundref="operation_found_8_designer_8cs" startline="160">WindowsFormsApp1.operationFound.ТипОперации1</references>
+        <referencedby refid="class_windows_forms_app1_1_1operation_found_1a75867cf6464b9d2521096a6a06627939" compoundref="operation_found_8cs" startline="15" endline="18">WindowsFormsApp1.operationFound.operationFound</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -212,8 +234,15 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>label1</edgelabel>
-          <edgelabel>operationResults</edgelabel>
+          <edgelabel>-label2</edgelabel>
+          <edgelabel>-label4</edgelabel>
+          <edgelabel>-СуммаОперации</edgelabel>
+          <edgelabel>-НомерБанкомата</edgelabel>
+          <edgelabel>-components</edgelabel>
+          <edgelabel>-ТипОперации1</edgelabel>
+          <edgelabel>-НомерКарточки1</edgelabel>
+          <edgelabel>+label1</edgelabel>
+          <edgelabel>+operationResults</edgelabel>
         </childnode>
       </node>
       <node id="3">

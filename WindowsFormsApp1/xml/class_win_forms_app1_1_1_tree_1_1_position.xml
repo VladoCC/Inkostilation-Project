@@ -14,64 +14,70 @@
         <argsstring></argsstring>
         <name>Element</name>
         <briefdescription>
+<para>Публичный геттер и сеттер для элемента, хранимого в вершине. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="276" column="22" bodyfile="Tree.cs" bodystart="276" bodyend="276"/>
+        <location file="Tree.cs" line="318" column="22" bodyfile="Tree.cs" bodystart="318" bodyend="318"/>
+        <referencedby refid="class_win_forms_app1_1_1_tree_1_1_position_1af7e0bfd513fdff40f491cf36d79c35bb" compoundref="_tree_8cs" startline="310" endline="313">WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.Position</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1a1963fb1df6e1f45c61b3f3e4251fc356" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.LeftChild</definition>
         <argsstring></argsstring>
         <name>LeftChild</name>
         <briefdescription>
+<para>Публичный геттер и сеттер для левой ветви поддерева. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="278" column="29" bodyfile="Tree.cs" bodystart="278" bodyend="278"/>
+        <location file="Tree.cs" line="323" column="29" bodyfile="Tree.cs" bodystart="323" bodyend="323"/>
       </memberdef>
       <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1ab7b8ffa38b7a623d5ba5b4cd8a34f48a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.RightChild</definition>
         <argsstring></argsstring>
         <name>RightChild</name>
         <briefdescription>
+<para>Публичный геттер и сеттер для правой ветви поддерева. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="280" column="29" bodyfile="Tree.cs" bodystart="280" bodyend="280"/>
+        <location file="Tree.cs" line="328" column="29" bodyfile="Tree.cs" bodystart="328" bodyend="328"/>
       </memberdef>
       <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1a1a5a5f5221df1b163517e9a519d56909" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.CenterChild</definition>
         <argsstring></argsstring>
         <name>CenterChild</name>
         <briefdescription>
+<para>Публичный геттер и сеттер для центральной ветви поддерева. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="282" column="29" bodyfile="Tree.cs" bodystart="282" bodyend="282"/>
+        <location file="Tree.cs" line="333" column="29" bodyfile="Tree.cs" bodystart="333" bodyend="333"/>
       </memberdef>
       <memberdef kind="property" id="class_win_forms_app1_1_1_tree_1_1_position_1ab3ec8c98be54effcc576e8c200f80a19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Position&lt; T &gt;</type>
+        <type><ref refid="class_win_forms_app1_1_1_tree_1_1_position" kindref="compound">Position</ref>&lt; T &gt;</type>
         <definition>Position&lt;T&gt; WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.Parent</definition>
         <argsstring></argsstring>
         <name>Parent</name>
         <briefdescription>
+<para>Публичный геттер и сеттер для родителя этой вершины. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="284" column="29" bodyfile="Tree.cs" bodystart="284" bodyend="284"/>
+        <location file="Tree.cs" line="338" column="29" bodyfile="Tree.cs" bodystart="338" bodyend="338"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -85,19 +91,48 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Конструктор, создающий вершину дерева. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Элемент, хранимый в вершине дерева. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="271" column="20" bodyfile="Tree.cs" bodystart="271" bodyend="274"/>
+        <location file="Tree.cs" line="310" column="20" bodyfile="Tree.cs" bodystart="310" bodyend="313"/>
+        <references refid="class_win_forms_app1_1_1_tree_1_1_position_1a16741625bd9ac75b9ce2509b59ba1dec" compoundref="_tree_8cs" startline="318" endline="318">WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;.Element</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Вершина дерева, реализующий методы работы с поддервом. </para>
     </briefdescription>
     <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип данных, хранимых в дереве. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
     </detaileddescription>
-    <location file="Tree.cs" line="269" column="9" bodyfile="Tree.cs" bodystart="270" bodyend="285"/>
+    <collaborationgraph>
+      <node id="1">
+        <label>WinFormsApp1.Tree&lt; T &gt;.Position&lt; T &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree_1_1_position"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tree.cs" line="304" column="9" bodyfile="Tree.cs" bodystart="305" bodyend="339"/>
     <listofallmembers>
       <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a1a5a5f5221df1b163517e9a519d56909" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>CenterChild</name></member>
       <member refid="class_win_forms_app1_1_1_tree_1_1_position_1a16741625bd9ac75b9ce2509b59ba1dec" prot="public" virt="non-virtual"><scope>WinFormsApp1::Tree::Position</scope><name>Element</name></member>

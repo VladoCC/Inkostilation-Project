@@ -31,8 +31,8 @@
         <definition>int WinFormsApp1.IElement.Compare</definition>
         <argsstring>(IElement elem)</argsstring>
         <name>Compare</name>
-        <reimplementedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05">Compare</reimplementedby>
         <reimplementedby refid="class_windows_forms_app1_1_1_operation_1aa078cb58ef50f5209bf89e149336ef07">Compare</reimplementedby>
+        <reimplementedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05">Compare</reimplementedby>
         <param>
           <type><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></type>
           <declname>elem</declname>
@@ -79,10 +79,29 @@
         <label>IElement</label>
         <link refid="interface_win_forms_app1_1_1_i_element"/>
       </node>
+      <node id="4">
+        <label>WindowsFormsApp1.Client</label>
+        <link refid="class_windows_forms_app1_1_1_client"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WindowsFormsApp1.Machine</label>
+        <link refid="class_windows_forms_app1_1_1_machine"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.IKeyedElement&lt; int &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
         </childnode>
       </node>
     </inheritancegraph>

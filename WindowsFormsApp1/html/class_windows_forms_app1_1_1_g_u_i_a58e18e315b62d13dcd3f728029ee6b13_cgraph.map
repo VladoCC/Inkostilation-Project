@@ -1,0 +1,8 @@
+<map id="WindowsFormsApp1.GUI.button3_Click" name="WindowsFormsApp1.GUI.button3_Click">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,220,145"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#aeed3bffd7e44c11f25f76286521bd7f4" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="281,5,486,47"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#aa1cdc9d9ca1b9f807e8736e07f0ed5b4" title="Возвращает хэш&#45;функцию, используемую для таблицы клиентов данной базы данных." alt="" coords="281,71,486,112"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_client.html#a123281db04c626d34b64f94128a6b372" title=" " alt="" coords="292,136,475,177"/>
+<area shape="rect" id="node6" href="$class_win_forms_app1_1_1_hash_function.html#a78a43fc1610e678bff472562d00f727f" title="Преобразует хэшируемое данное в индекс." alt="" coords="268,202,499,229"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="547,5,752,47"/>
+</map>

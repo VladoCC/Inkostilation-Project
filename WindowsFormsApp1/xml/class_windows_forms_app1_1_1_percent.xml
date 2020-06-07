@@ -4,18 +4,22 @@
     <compoundname>WindowsFormsApp1::Percent</compoundname>
     <basecompoundref refid="interface_win_forms_app1_1_1_i_element" prot="public" virt="non-virtual">WinFormsApp1.IElement</basecompoundref>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a79015c5fdbfc35a1dc94480a5e1dd3d7" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" prot="private" static="no" mutable="no">
         <type>string</type>
-        <definition>string WindowsFormsApp1.Percent._operationType</definition>
+        <definition>string WindowsFormsApp1.Percent._operationName</definition>
         <argsstring></argsstring>
-        <name>_operationType</name>
+        <name>_operationName</name>
         <briefdescription>
+<para>Название операции. Cтрока букв русского алфавита без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы (остальные строчные). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="9" column="24" bodyfile="Percent.cs" bodystart="9" bodyend="-1"/>
+        <location file="Percent.cs" line="17" column="24" bodyfile="Percent.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" compoundref="_percent_8cs" startline="43" endline="49">WindowsFormsApp1.Percent.Percent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" compoundref="_percent_8cs" startline="51" endline="57">WindowsFormsApp1.Percent.Compare</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" compoundref="_percent_8cs" startline="59" endline="64">WindowsFormsApp1.Percent.ToString</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -23,12 +27,16 @@
         <argsstring></argsstring>
         <name>_senderBank</name>
         <briefdescription>
+<para>Название банка отправителя. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="10" column="24" bodyfile="Percent.cs" bodystart="10" bodyend="-1"/>
+        <location file="Percent.cs" line="23" column="24" bodyfile="Percent.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" compoundref="_percent_8cs" startline="43" endline="49">WindowsFormsApp1.Percent.Percent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" compoundref="_percent_8cs" startline="51" endline="57">WindowsFormsApp1.Percent.Compare</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" compoundref="_percent_8cs" startline="59" endline="64">WindowsFormsApp1.Percent.ToString</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -36,12 +44,16 @@
         <argsstring></argsstring>
         <name>_receiverBank</name>
         <briefdescription>
+<para>Название банка получателя. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="11" column="24" bodyfile="Percent.cs" bodystart="11" bodyend="-1"/>
+        <location file="Percent.cs" line="29" column="24" bodyfile="Percent.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" compoundref="_percent_8cs" startline="43" endline="49">WindowsFormsApp1.Percent.Percent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" compoundref="_percent_8cs" startline="51" endline="57">WindowsFormsApp1.Percent.Compare</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" compoundref="_percent_8cs" startline="59" endline="64">WindowsFormsApp1.Percent.ToString</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -49,81 +61,112 @@
         <argsstring></argsstring>
         <name>_percent</name>
         <briefdescription>
+<para>Процент по операции. Целое число от 0 до 100 включительно. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="12" column="21" bodyfile="Percent.cs" bodystart="12" bodyend="-1"/>
+        <location file="Percent.cs" line="34" column="21" bodyfile="Percent.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" compoundref="_percent_8cs" startline="43" endline="49">WindowsFormsApp1.Percent.Percent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" compoundref="_percent_8cs" startline="59" endline="64">WindowsFormsApp1.Percent.ToString</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a22c45e83a4dc710a8858661c2c06913b" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" prot="public" static="no" mutable="no">
         <type>string</type>
-        <definition>string WindowsFormsApp1.Percent.OperationType</definition>
+        <definition>string WindowsFormsApp1.Percent.OperationName</definition>
         <argsstring></argsstring>
-        <name>OperationType</name>
-        <initializer>=&gt; _operationType</initializer>
+        <name>OperationName</name>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" kindref="member">_operationName</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для названия операции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="37" column="23" bodyfile="Percent.cs" bodystart="37" bodyend="-1"/>
+        <location file="Percent.cs" line="69" column="23" bodyfile="Percent.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="570" endline="584">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" prot="public" static="no" mutable="no">
         <type>string</type>
         <definition>string WindowsFormsApp1.Percent.SenderBank</definition>
         <argsstring></argsstring>
         <name>SenderBank</name>
-        <initializer>=&gt; _senderBank</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" kindref="member">_senderBank</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для названия банка отправителя. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="39" column="23" bodyfile="Percent.cs" bodystart="39" bodyend="-1"/>
+        <location file="Percent.cs" line="74" column="23" bodyfile="Percent.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" prot="public" static="no" mutable="no">
         <type>string</type>
         <definition>string WindowsFormsApp1.Percent.ReceiverBank</definition>
         <argsstring></argsstring>
         <name>ReceiverBank</name>
-        <initializer>=&gt; _receiverBank</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" kindref="member">_receiverBank</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для названия банка получателя. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="41" column="23" bodyfile="Percent.cs" bodystart="41" bodyend="-1"/>
+        <location file="Percent.cs" line="79" column="23" bodyfile="Percent.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int WindowsFormsApp1.Percent.Percent1</definition>
         <argsstring></argsstring>
         <name>Percent1</name>
-        <initializer>=&gt; _percent</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" kindref="member">_percent</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для процента по операции. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="43" column="20" bodyfile="Percent.cs" bodystart="43" bodyend="-1"/>
+        <location file="Percent.cs" line="84" column="20" bodyfile="Percent.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1a708446baeef537c0b3995328ff8f04fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>WindowsFormsApp1.Percent.Percent</definition>
-        <argsstring>(string operationType, string senderBank, string receiverBank, int percent)</argsstring>
+        <argsstring>(string operationName, string senderBank, string receiverBank, int percent)</argsstring>
         <name>Percent</name>
         <param>
           <type>string</type>
-          <declname>operationType</declname>
+          <declname>operationName</declname>
         </param>
         <param>
           <type>string</type>
@@ -138,12 +181,48 @@
           <declname>percent</declname>
         </param>
         <briefdescription>
+<para>Основной конструктор для создания процента по операции. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operationName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>senderBank</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>receiverBank</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>percent</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="14" column="16" bodyfile="Percent.cs" bodystart="14" bodyend="20"/>
+        <location file="Percent.cs" line="43" column="16" bodyfile="Percent.cs" bodystart="43" bodyend="49"/>
+        <references refid="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" compoundref="_percent_8cs" startline="17">WindowsFormsApp1.Percent._operationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" compoundref="_percent_8cs" startline="34">WindowsFormsApp1.Percent._percent</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" compoundref="_percent_8cs" startline="29">WindowsFormsApp1.Percent._receiverBank</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" compoundref="_percent_8cs" startline="23">WindowsFormsApp1.Percent._senderBank</references>
+        <referencedby refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" compoundref="_percent_8cs" startline="51" endline="57">WindowsFormsApp1.Percent.Compare</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -174,7 +253,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="22" column="20" bodyfile="Percent.cs" bodystart="22" bodyend="28"/>
+        <location file="Percent.cs" line="51" column="20" bodyfile="Percent.cs" bodystart="51" bodyend="57"/>
+        <references refid="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" compoundref="_percent_8cs" startline="17">WindowsFormsApp1.Percent._operationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" compoundref="_percent_8cs" startline="29">WindowsFormsApp1.Percent._receiverBank</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" compoundref="_percent_8cs" startline="23">WindowsFormsApp1.Percent._senderBank</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" compoundref="_percent_8cs" startline="43" endline="49">WindowsFormsApp1.Percent.Percent</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_percent_1a22e97e7a2822f51008fbc59173a99972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -187,10 +270,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Percent.cs" line="30" column="32" bodyfile="Percent.cs" bodystart="30" bodyend="35"/>
+        <location file="Percent.cs" line="59" column="32" bodyfile="Percent.cs" bodystart="59" bodyend="64"/>
+        <references refid="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" compoundref="_percent_8cs" startline="17">WindowsFormsApp1.Percent._operationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" compoundref="_percent_8cs" startline="34">WindowsFormsApp1.Percent._percent</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" compoundref="_percent_8cs" startline="29">WindowsFormsApp1.Percent._receiverBank</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" compoundref="_percent_8cs" startline="23">WindowsFormsApp1.Percent._senderBank</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Класс, описывающий процент по операции. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -218,15 +306,15 @@
         <link refid="interface_win_forms_app1_1_1_i_element"/>
       </node>
     </collaborationgraph>
-    <location file="Percent.cs" line="7" column="11" bodyfile="Percent.cs" bodystart="8" bodyend="44"/>
+    <location file="Percent.cs" line="10" column="11" bodyfile="Percent.cs" bodystart="11" bodyend="85"/>
     <listofallmembers>
-      <member refid="class_windows_forms_app1_1_1_percent_1a79015c5fdbfc35a1dc94480a5e1dd3d7" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_operationType</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a498427942ba46e02dbea5c5f855fdbf6" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_operationName</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1ab14e26ef66cb2aff502b3ed9c49cd3d8" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_percent</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1adff1feb5e26960aafbecdd230bb747be" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_receiverBank</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1a5c3fbc9ad5fe77c26e3806df381f9535" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>_senderBank</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1a4ec8b32c3ddfbd83f07ea0a6c5e49f05" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Compare</name></member>
-      <member refid="class_windows_forms_app1_1_1_percent_1a22c45e83a4dc710a8858661c2c06913b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>OperationType</name></member>
-      <member refid="class_windows_forms_app1_1_1_percent_1a708446baeef537c0b3995328ff8f04fe" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Percent</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>OperationName</name></member>
+      <member refid="class_windows_forms_app1_1_1_percent_1ae8d6520e0f1d4efb10bca79d7c362ae8" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Percent</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>Percent1</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>ReceiverBank</name></member>
       <member refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Percent</scope><name>SenderBank</name></member>

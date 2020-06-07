@@ -18,12 +18,16 @@
         <reimplementedby refid="class_win_forms_app1_1_1_tree_1a528dda81e94674bee88db39dd37fb8c7">ToArray</reimplementedby>
         <reimplementedby refid="class_windows_forms_app1_1_1_r_b_1a857a33e5cb92d7fba81396bceb5c140a">ToArray</reimplementedby>
         <briefdescription>
+<para>Преобразует коллекцию в массив элементов. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Массив элементов. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ICollection.cs" line="12" column="11"/>
+        <location file="ICollection.cs" line="20" column="11"/>
       </memberdef>
       <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1ac04aa2b01403200686917bbc5c927be6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -33,12 +37,16 @@
         <reimplementedby refid="class_win_forms_app1_1_1_tree_1a2b69f021df2e9998e344a0a4c064bba3">Size</reimplementedby>
         <reimplementedby refid="class_windows_forms_app1_1_1_r_b_1a0839bc2665352000a5ca16e35258bda8">Size</reimplementedby>
         <briefdescription>
+<para>Возвращает размер коллекции. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Размер коллекции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ICollection.cs" line="14" column="13"/>
+        <location file="ICollection.cs" line="26" column="13"/>
       </memberdef>
       <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -52,12 +60,23 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Добавляет элемент в коллекцию. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Добавляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ICollection.cs" line="16" column="14"/>
+        <location file="ICollection.cs" line="32" column="14"/>
       </memberdef>
       <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1a1a6bac3afeca9f8245c0f591786cf039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -71,12 +90,25 @@
           <declname>element</declname>
         </param>
         <briefdescription>
+<para>Удаляет элемент из коллекии. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Удаляемый элемент. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает true, если элемент найден и удален, иначе false. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ICollection.cs" line="18" column="14"/>
+        <location file="ICollection.cs" line="40" column="14"/>
       </memberdef>
       <memberdef kind="function" id="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -89,27 +121,69 @@
           <declname>query</declname>
         </param>
         <briefdescription>
+<para>Поиск указанного в запросе элемента, по указанному индексу хранилища, учитывая стратегии разрешения коллизий. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Поисковый запрос, содержащий искомый объект. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ICollection.cs" line="20" column="14"/>
+        <location file="ICollection.cs" line="47" column="14"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Интерфейс, описывающий методы коллекции данных. </para>
     </briefdescription>
     <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип хранимых данных. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
         <label>WinFormsApp1.ICollection&lt; T &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_collection"/>
       </node>
+      <node id="5">
+        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; WindowsFormsApp1::Operation &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="2">
         <label>WindowsFormsApp1::RB&lt; T &gt;</label>
         <link refid="class_windows_forms_app1_1_1_r_b"/>
         <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>WinFormsApp1.HashMap&lt; int, WindowsFormsApp1.Machine &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; int, WindowsFormsApp1::Machine &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>WinFormsApp1.HashMap&lt; K, V &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="6" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -118,8 +192,35 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="6">
+        <label>WinFormsApp1.ICollection&lt; V &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>WinFormsApp1.HashMap&lt; int, WindowsFormsApp1.Client &gt;</label>
+        <link refid="class_win_forms_app1_1_1_hash_map"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; int, WindowsFormsApp1::Client &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Percent &gt;</label>
+        <link refid="class_win_forms_app1_1_1_tree"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; WindowsFormsApp1::Percent &gt;</edgelabel>
+        </childnode>
+      </node>
     </inheritancegraph>
-    <location file="ICollection.cs" line="10" column="22" bodyfile="ICollection.cs" bodystart="11" bodyend="21"/>
+    <collaborationgraph>
+      <node id="1">
+        <label>WinFormsApp1.ICollection&lt; T &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_collection"/>
+      </node>
+    </collaborationgraph>
+    <location file="ICollection.cs" line="14" column="22" bodyfile="ICollection.cs" bodystart="15" bodyend="48"/>
     <listofallmembers>
       <member refid="interface_win_forms_app1_1_1_i_collection_1acfe812e354329ba1fe836ace806a693e" prot="public" virt="non-virtual"><scope>WinFormsApp1::ICollection</scope><name>Add</name></member>
       <member refid="interface_win_forms_app1_1_1_i_collection_1a0109e40b289f373915b845570105799c" prot="public" virt="non-virtual"><scope>WinFormsApp1::ICollection</scope><name>Find</name></member>

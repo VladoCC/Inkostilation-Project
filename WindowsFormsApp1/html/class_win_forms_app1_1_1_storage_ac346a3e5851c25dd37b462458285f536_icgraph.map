@@ -1,0 +1,5 @@
+<map id="WinFormsApp1.Storage.SizeContainer" name="WinFormsApp1.Storage.SizeContainer">
+<area shape="rect" id="node1" title="Публичный геттер для контейнера, содержащего размер хранилища." alt="" coords="264,46,455,87"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_hash_map.html#ac556b9e005681115a30448e6eb9e38f9" title="Конструктор, инициализирующий пустую хэш&#45;таблицу." alt="" coords="23,5,199,61"/>
+<area shape="rect" id="node3" href="$class_win_forms_app1_1_1_storage.html#a03d089fae26c2ab0b97b89bc4bfdb44a" title="Основной конструктор, инициализирующий обязательные элементы хранилища." alt="" coords="5,85,216,112"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="WindowsFormsApp1.Database.Database" name="WindowsFormsApp1.Database.Database">
+<area shape="rect" id="node1" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="1077,39,1283,80"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a6b3cb170c1455dfd9eb5bfa73891d006" title="Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него..." alt="" coords="824,5,1029,47"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_database.html#a556ccfa19d4624001f2f8f0043510e0a" title="Заменяет рабочую базу данных на новую." alt="" coords="824,71,1029,112"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_g_u_i.html#ab6e0a85e2545b6661809ef0730159ae9" title=" " alt="" coords="515,5,776,47"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,39,467,80"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_g_u_i.html#a9bf23ccfc1e735fc03f759fa724599cf" title=" " alt="" coords="5,46,200,73"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_g_u_i.html#a14af1969945b896e813a47ee8a3b9e14" title=" " alt="" coords="536,71,755,112"/>
+</map>

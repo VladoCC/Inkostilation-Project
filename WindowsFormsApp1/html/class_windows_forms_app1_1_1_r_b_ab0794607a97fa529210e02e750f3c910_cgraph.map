@@ -1,0 +1,9 @@
+<map id="WindowsFormsApp1.RB.Delete" name="WindowsFormsApp1.RB.Delete">
+<area shape="rect" id="node1" title="Deletes a specified value from the tree" alt="" coords="5,107,211,134"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_r_b.html#ae59b436b04405ec16645d6763cdf0205" title="Checks the tree for any violations after deletion and performs a fix" alt="" coords="267,41,473,83"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_r_b.html#af509d36408ad32419fc5d007d3926e9a" title="Find item in the tree" alt="" coords="259,107,481,134"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_r_b.html#a783021f93f498f78ec5dc544f6d2ba3e" title=" " alt="" coords="273,159,467,200"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_r_b.html#aa4cf57ca695ce187baf7b6d349d7a7fc" title="Left Rotate" alt="" coords="545,5,735,47"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_r_b.html#a814c224d0e989fe6f25523894c49ace6" title="Rotate Right" alt="" coords="541,71,739,112"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_r_b.html#aeb13f7b9c271532e9d1574315b03ab37" title=" " alt="" coords="529,166,751,193"/>
+</map>

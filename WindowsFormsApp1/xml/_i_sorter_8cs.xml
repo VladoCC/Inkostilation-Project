@@ -15,7 +15,7 @@
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9" refid="interface_windows_forms_app1_1_1_i_sorter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_windows_forms_app1_1_1_i_sorter" kindref="compound">ISorter</ref>&lt;T&gt;<sp/>where<sp/>T:<sp/><ref refid="interface_win_forms_app1_1_1_i_element" kindref="compound">IElement</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39" kindref="member">Sort</ref>(T[]<sp/>array);</highlight></codeline>
+<codeline lineno="15" refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_windows_forms_app1_1_1_i_sorter_1a4f91437b489659b252ef608cb2451b39" kindref="member">Sort</ref>(T[]<sp/>array);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>

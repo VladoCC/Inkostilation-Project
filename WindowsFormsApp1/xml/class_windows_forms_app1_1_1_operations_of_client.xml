@@ -17,6 +17,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.cs" line="15" column="13" bodyfile="OperationsOfClient.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a526cfd89edea0eee4db2e69934d3d392" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -31,6 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.cs" line="16" column="13" bodyfile="OperationsOfClient.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a820003b98ef212b9b91f80718d46e820" prot="private" static="no" mutable="no">
         <type>System.ComponentModel.IContainer</type>
@@ -46,6 +48,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="8" column="48" bodyfile="OperationsOfClient.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1a630326be8750f42272ccb8c89c4cca54" compoundref="_operations_of_client_8_designer_8cs" startline="14" endline="21">WindowsFormsApp1.OperationsOfClient.Dispose</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a40666e77c56e6242508c018982d8aab3" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -59,6 +62,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="216" column="41" bodyfile="OperationsOfClient.Designer.cs" bodystart="216" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a0ba206a52d1df5e8312e4d099e6b2d5e" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -72,6 +76,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="217" column="41" bodyfile="OperationsOfClient.Designer.cs" bodystart="217" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a3bc193d8b0d01e922ce5fabc71b21526" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -85,6 +90,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="218" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="218" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a36beb6b74b8cd6927b308f4b69156923" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -98,6 +104,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="219" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="219" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1ae45da01e66f480fe1b280d16d6e0cb7d" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -111,6 +118,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="220" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="220" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a610680d5efe3f1a50bfef589c32bb738" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -124,6 +132,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="221" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="221" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a60032fb2fd6b4721f6d8b4bc12f04d44" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -137,6 +146,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="222" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="222" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a5871ef7408bf745241f98d78367a9472" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -150,6 +160,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="223" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="223" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a90b576a9d3d8d4a94b4fe4ebe0b477ee" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -163,6 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="224" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="224" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a00a3fcf0edac4b11a1cad055d1fd3db4" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
@@ -176,6 +188,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="225" column="61" bodyfile="OperationsOfClient.Designer.cs" bodystart="225" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -191,6 +204,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="214" column="47" bodyfile="OperationsOfClient.Designer.cs" bodystart="214" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.DataGridView</type>
@@ -204,6 +219,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="215" column="47" bodyfile="OperationsOfClient.Designer.cs" bodystart="215" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -219,6 +236,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.cs" line="17" column="16" bodyfile="OperationsOfClient.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -242,6 +260,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.cs" line="22" column="22" bodyfile="OperationsOfClient.cs" bodystart="22" bodyend="43"/>
+        <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" compoundref="_operations_of_client_8_designer_8cs" startline="214">WindowsFormsApp1.OperationsOfClient.ClientsKey</references>
+        <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
+        <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a97c70733776b9796086508fe15e573a8" compoundref="_operations_of_client_8cs" startline="15">WindowsFormsApp1.OperationsOfClient.index</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a526cfd89edea0eee4db2e69934d3d392" compoundref="_operations_of_client_8cs" startline="16">WindowsFormsApp1.OperationsOfClient.NumRows</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" compoundref="_operations_of_client_8_designer_8cs" startline="215">WindowsFormsApp1.OperationsOfClient.OperationsData</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" compoundref="_operation_8cs" startline="82">WindowsFormsApp1.Operation.Sum</references>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" compoundref="_operations_of_client_8_designer_8cs" startline="29" endline="210">WindowsFormsApp1.OperationsOfClient.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_operations_of_client_1aaccf4067c4f220acf762139c6ae6185a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -256,6 +287,20 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="29" column="22" bodyfile="OperationsOfClient.Designer.cs" bodystart="29" bodyend="210"/>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" compoundref="_operations_of_client_8_designer_8cs" startline="214">WindowsFormsApp1.OperationsOfClient.ClientsKey</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a3bc193d8b0d01e922ce5fabc71b21526" compoundref="_operations_of_client_8_designer_8cs" startline="218">WindowsFormsApp1.OperationsOfClient.Hash1</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a40666e77c56e6242508c018982d8aab3" compoundref="_operations_of_client_8_designer_8cs" startline="216">WindowsFormsApp1.OperationsOfClient.label3</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a0ba206a52d1df5e8312e4d099e6b2d5e" compoundref="_operations_of_client_8_designer_8cs" startline="217">WindowsFormsApp1.OperationsOfClient.label4</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" compoundref="_operations_of_client_8_designer_8cs" startline="215">WindowsFormsApp1.OperationsOfClient.OperationsData</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1ae45da01e66f480fe1b280d16d6e0cb7d" compoundref="_operations_of_client_8_designer_8cs" startline="220">WindowsFormsApp1.OperationsOfClient.Банк</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a90b576a9d3d8d4a94b4fe4ebe0b477ee" compoundref="_operations_of_client_8_designer_8cs" startline="224">WindowsFormsApp1.OperationsOfClient.НомерБанкомата</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a36beb6b74b8cd6927b308f4b69156923" compoundref="_operations_of_client_8_designer_8cs" startline="219">WindowsFormsApp1.OperationsOfClient.НомерКарточки</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a5871ef7408bf745241f98d78367a9472" compoundref="_operations_of_client_8_designer_8cs" startline="223">WindowsFormsApp1.OperationsOfClient.НомерКарточки1</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a00a3fcf0edac4b11a1cad055d1fd3db4" compoundref="_operations_of_client_8_designer_8cs" startline="225">WindowsFormsApp1.OperationsOfClient.СуммаОперации</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a60032fb2fd6b4721f6d8b4bc12f04d44" compoundref="_operations_of_client_8_designer_8cs" startline="222">WindowsFormsApp1.OperationsOfClient.ТипОперации1</references>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a610680d5efe3f1a50bfef589c32bb738" compoundref="_operations_of_client_8_designer_8cs" startline="221">WindowsFormsApp1.OperationsOfClient.ФИО</references>
+        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1a0d75f5253948372c670b75429aaccb37" compoundref="_operations_of_client_8cs" startline="17" endline="20">WindowsFormsApp1.OperationsOfClient.OperationsOfClient</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -286,6 +331,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="OperationsOfClient.Designer.cs" line="14" column="33" bodyfile="OperationsOfClient.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_windows_forms_app1_1_1_operations_of_client_1a820003b98ef212b9b91f80718d46e820" compoundref="_operations_of_client_8_designer_8cs" startline="8">WindowsFormsApp1.OperationsOfClient.components</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -310,8 +356,17 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>ClientsKey</edgelabel>
-          <edgelabel>OperationsData</edgelabel>
+          <edgelabel>-label3</edgelabel>
+          <edgelabel>-label4</edgelabel>
+          <edgelabel>+ClientsKey</edgelabel>
+          <edgelabel>-Hash1</edgelabel>
+          <edgelabel>-СуммаОперации</edgelabel>
+          <edgelabel>-НомерБанкомата</edgelabel>
+          <edgelabel>+OperationsData</edgelabel>
+          <edgelabel>-components</edgelabel>
+          <edgelabel>-ТипОперации1</edgelabel>
+          <edgelabel>-ФИО</edgelabel>
+          <edgelabel>...</edgelabel>
         </childnode>
       </node>
       <node id="2">

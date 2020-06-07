@@ -1,0 +1,4 @@
+<map id="WindowsFormsApp1.Database.FindClient" name="WindowsFormsApp1.Database.FindClient">
+<area shape="rect" id="node1" title="Производит поиск в базе данных банкомата, соответствующего входным данным." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c" title="Производит поиск в базе данных клиента, соответствующего входным данным." alt="" coords="259,5,464,47"/>
+</map>

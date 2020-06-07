@@ -8,6 +8,13 @@ WindowsFormsApp1.WaterMarkTextBox
 .PP
 .PP
 Базовые классы:TextBox\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBWaterMarkTextBox\fP ()"
+.br
+.in -1c
 .SS "Защищенные члены"
 
 .in +1c
@@ -22,7 +29,7 @@ WindowsFormsApp1.WaterMarkTextBox
 
 .in +1c
 .ti -1c
-.RI "Color \fBWaterMarkColor\fP\fC [get, set]\fP"
+.RI "\fBColor\fP \fBWaterMarkColor\fP\fC [get, set]\fP"
 .br
 .ti -1c
 .RI "string \fBWaterMarkText\fP\fC [get, set]\fP"
@@ -57,12 +64,48 @@ WindowsFormsApp1.WaterMarkTextBox
 .RI "Boolean \fBwaterMarkTextEnabled\fP = false"
 .br
 .ti -1c
-.RI "Color \fB_waterMarkColor\fP = Color\&.Gray"
+.RI "\fBColor\fP \fB_waterMarkColor\fP = Color\&.Gray"
 .br
 .ti -1c
 .RI "string \fB_waterMarkText\fP = 'Water Mark'"
 .br
 .in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "WindowsFormsApp1\&.WaterMarkTextBox\&.WaterMarkTextBox ()"
+
+.SH "Методы"
+.PP 
+.SS "void WindowsFormsApp1\&.WaterMarkTextBox\&.DisbaleWaterMark ()\fC [private]\fP"
+
+.SS "void WindowsFormsApp1\&.WaterMarkTextBox\&.EnableWaterMark ()\fC [private]\fP"
+
+.SS "void WindowsFormsApp1\&.WaterMarkTextBox\&.JoinEvents (Boolean join)\fC [private]\fP"
+
+.SS "override void WindowsFormsApp1\&.WaterMarkTextBox\&.OnCreateControl ()\fC [protected]\fP"
+
+.SS "override void WindowsFormsApp1\&.WaterMarkTextBox\&.OnPaint (PaintEventArgs args)\fC [protected]\fP"
+
+.SS "void WindowsFormsApp1\&.WaterMarkTextBox\&.WaterMark_FontChanged (object sender, EventArgs args)\fC [private]\fP"
+
+.SS "void WindowsFormsApp1\&.WaterMarkTextBox\&.WaterMark_Toggel (object sender, EventArgs args)\fC [private]\fP"
+
+.SH "Данные класса"
+.PP 
+.SS "\fBColor\fP WindowsFormsApp1\&.WaterMarkTextBox\&._waterMarkColor = Color\&.Gray\fC [private]\fP"
+
+.SS "string WindowsFormsApp1\&.WaterMarkTextBox\&._waterMarkText = 'Water Mark'\fC [private]\fP"
+
+.SS "Font WindowsFormsApp1\&.WaterMarkTextBox\&.oldFont = null\fC [private]\fP"
+
+.SS "Boolean WindowsFormsApp1\&.WaterMarkTextBox\&.waterMarkTextEnabled = false\fC [private]\fP"
+
+.SH "Полный список свойств"
+.PP 
+.SS "\fBColor\fP WindowsFormsApp1\&.WaterMarkTextBox\&.WaterMarkColor\fC [get]\fP, \fC [set]\fP"
+
+.SS "string WindowsFormsApp1\&.WaterMarkTextBox\&.WaterMarkText\fC [get]\fP, \fC [set]\fP"
+
 
 .SH "Автор"
 .PP 

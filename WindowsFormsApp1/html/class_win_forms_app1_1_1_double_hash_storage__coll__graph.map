@@ -1,0 +1,7 @@
+<map id="WinFormsApp1.DoubleHashStorage&lt; K, V &gt;" name="WinFormsApp1.DoubleHashStorage&lt; K, V &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,664,236,873"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_storage.html" title="Внутренняя структура хэш&#45;таблицы. хранящая все данные и реализующая стратегии разрешения коллизий." alt="" coords="38,291,161,456"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_size_container.html" title="Структура, предоставляет информацию о размере хранилища данных, для объектов, не имеющих доступа к са..." alt="" coords="41,5,267,97"/>
+<area shape="rect" id="node5" href="$class_win_forms_app1_1_1_hash_function.html" title="Хэш&#45;функция, предоставляющая индекс, соответствующий поступившему на вход данному." alt="" coords="137,160,363,267"/>
+<area shape="rect" id="node4" href="$class_win_forms_app1_1_1_hash_function.html" title=" " alt="" coords="137,480,366,587"/>
+</map>

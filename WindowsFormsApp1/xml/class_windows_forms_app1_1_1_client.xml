@@ -10,13 +10,16 @@
         <argsstring></argsstring>
         <name>_cardNumber</name>
         <briefdescription>
-<para>Номер карты клиента. </para>
+<para>Номер карты клиента. Целое число от 1 до 99999999 включительно. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="15" column="21" bodyfile="Client.cs" bodystart="15" bodyend="-1"/>
+        <location file="Client.cs" line="16" column="21" bodyfile="Client.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" compoundref="_client_8cs" startline="36" endline="41">WindowsFormsApp1.Client.Client</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_client_1a123281db04c626d34b64f94128a6b372" compoundref="_client_8cs" startline="43" endline="46">WindowsFormsApp1.Client.GetKey</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_client_1a7708d33da398c607a8296a24c8d7a54e" compoundref="_client_8cs" startline="48" endline="52">WindowsFormsApp1.Client.Compare</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -24,12 +27,14 @@
         <argsstring></argsstring>
         <name>_bankName</name>
         <briefdescription>
+<para>Название обслуживающего банка. Строка букв русского алфавита, без пробелов и других дополнительных символов, длиной не более 20 символов, начинающаяся с заглавной буквы. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="16" column="24" bodyfile="Client.cs" bodystart="16" bodyend="-1"/>
+        <location file="Client.cs" line="22" column="24" bodyfile="Client.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" compoundref="_client_8cs" startline="36" endline="41">WindowsFormsApp1.Client.Client</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a853e985f58fcc253952c948829335f4e" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -37,12 +42,14 @@
         <argsstring></argsstring>
         <name>_name</name>
         <briefdescription>
+<para>Имя клиента. Строка букв русского алфавита, в которой могут присутствовать разделительные символы, длиной не более 40 символов, начинающаяся с заглавной буквы. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="17" column="24" bodyfile="Client.cs" bodystart="17" bodyend="-1"/>
+        <location file="Client.cs" line="28" column="24" bodyfile="Client.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" compoundref="_client_8cs" startline="36" endline="41">WindowsFormsApp1.Client.Client</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -51,42 +58,50 @@
         <definition>int WindowsFormsApp1.Client.CardNumber</definition>
         <argsstring></argsstring>
         <name>CardNumber</name>
-        <initializer>=&gt; _cardNumber</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" kindref="member">_cardNumber</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для номера карты. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="37" column="20" bodyfile="Client.cs" bodystart="37" bodyend="-1"/>
+        <location file="Client.cs" line="57" column="20" bodyfile="Client.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" prot="public" static="no" mutable="no">
         <type>string</type>
         <definition>string WindowsFormsApp1.Client.BankName</definition>
         <argsstring></argsstring>
         <name>BankName</name>
-        <initializer>=&gt; _bankName</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" kindref="member">_bankName</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для названия обслуживающего банка. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="39" column="23" bodyfile="Client.cs" bodystart="39" bodyend="-1"/>
+        <location file="Client.cs" line="62" column="23" bodyfile="Client.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" prot="public" static="no" mutable="no">
         <type>string</type>
         <definition>string WindowsFormsApp1.Client.Name</definition>
         <argsstring></argsstring>
         <name>Name</name>
-        <initializer>=&gt; _name</initializer>
+        <initializer>=&gt; <ref refid="class_windows_forms_app1_1_1_client_1a853e985f58fcc253952c948829335f4e" kindref="member">_name</ref></initializer>
         <briefdescription>
+<para>Публичный геттер для имени клиента. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="41" column="23" bodyfile="Client.cs" bodystart="41" bodyend="-1"/>
+        <location file="Client.cs" line="67" column="23" bodyfile="Client.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -108,12 +123,43 @@
           <declname>name</declname>
         </param>
         <briefdescription>
+<para>Основной конструктор для создания клиента. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cardNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер карты клиента. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bankName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название обслуживающего банка. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя клиента. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="19" column="16" bodyfile="Client.cs" bodystart="19" bodyend="24"/>
+        <location file="Client.cs" line="36" column="16" bodyfile="Client.cs" bodystart="36" bodyend="41"/>
+        <references refid="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" compoundref="_client_8cs" startline="22">WindowsFormsApp1.Client._bankName</references>
+        <references refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" compoundref="_client_8cs" startline="16">WindowsFormsApp1.Client._cardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a853e985f58fcc253952c948829335f4e" compoundref="_client_8cs" startline="28">WindowsFormsApp1.Client._name</references>
+        <referencedby refid="class_windows_forms_app1_1_1_client_1a7708d33da398c607a8296a24c8d7a54e" compoundref="_client_8cs" startline="48" endline="52">WindowsFormsApp1.Client.Compare</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_client_1a123281db04c626d34b64f94128a6b372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -126,7 +172,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="26" column="20" bodyfile="Client.cs" bodystart="26" bodyend="29"/>
+        <location file="Client.cs" line="43" column="20" bodyfile="Client.cs" bodystart="43" bodyend="46"/>
+        <references refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" compoundref="_client_8cs" startline="16">WindowsFormsApp1.Client._cardNumber</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_client_1a7708d33da398c607a8296a24c8d7a54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -143,30 +191,52 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Client.cs" line="31" column="20" bodyfile="Client.cs" bodystart="31" bodyend="35"/>
+        <location file="Client.cs" line="48" column="20" bodyfile="Client.cs" bodystart="48" bodyend="52"/>
+        <references refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" compoundref="_client_8cs" startline="16">WindowsFormsApp1.Client._cardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a553bdd58e3942e532787a6c10c0292ab" compoundref="_client_8cs" startline="36" endline="41">WindowsFormsApp1.Client.Client</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Класс, описывающий клиента банковской системы. Наследуется от <ref refid="interface_win_forms_app1_1_1_i_keyed_element" kindref="compound">IKeyedElement&lt;int&gt;</ref>. Обладает ключом типа int. </para>
+<para>Класс, описывающий клиента банковской системы. Обладает ключом типа int. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="4">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
       <node id="2">
         <label>IKeyedElement&lt; int &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
+        </childnode>
       </node>
       <node id="1">
         <label>WindowsFormsApp1.Client</label>
         <link refid="class_windows_forms_app1_1_1_client"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="4">
+        <label>IElement</label>
+        <link refid="interface_win_forms_app1_1_1_i_element"/>
+      </node>
       <node id="2">
         <label>IKeyedElement&lt; int &gt;</label>
         <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
+        </childnode>
       </node>
       <node id="1">
         <label>WindowsFormsApp1.Client</label>
@@ -174,8 +244,14 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="3">
+        <label>WinFormsApp1.IKeyedElement&lt; K &gt;</label>
+        <link refid="interface_win_forms_app1_1_1_i_keyed_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
     </collaborationgraph>
-    <location file="Client.cs" line="10" column="11" bodyfile="Client.cs" bodystart="11" bodyend="42"/>
+    <location file="Client.cs" line="10" column="11" bodyfile="Client.cs" bodystart="11" bodyend="68"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>_bankName</name></member>
       <member refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Client</scope><name>_cardNumber</name></member>

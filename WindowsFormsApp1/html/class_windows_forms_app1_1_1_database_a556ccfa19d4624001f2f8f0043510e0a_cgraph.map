@@ -1,0 +1,4 @@
+<map id="WindowsFormsApp1.Database.GetNewInstance" name="WindowsFormsApp1.Database.GetNewInstance">
+<area shape="rect" id="node1" title="Заменяет рабочую базу данных на новую." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="259,5,464,47"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="WindowsFormsApp1.Report.Add" name="WindowsFormsApp1.Report.Add">
+<area shape="rect" id="node1" title="Добавляет элемент в отчет." alt="" coords="1129,242,1340,269"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a91ae2839b71c9e11139a657f738d7a9c" title="Создает отчет об операциях, проведенных клиентом." alt="" coords="876,201,1081,243"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_database.html#a67d46d8ef64a260564d2d03dd3adb818" title="Создает отчет об операциях, проведенных этим банкоматом." alt="" coords="876,71,1081,112"/>
+<area shape="rect" id="node14" href="$class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd" title="Создает отчет о процентах по операциям, проведенныи этим банкоматом." alt="" coords="876,413,1081,455"/>
+<area shape="rect" id="node19" href="$class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680" title="Создает отчет о процентах по указанному типу операций." alt="" coords="876,267,1081,308"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_operations_of_client.html#af5d4d69eca61e12a41436149050684db" title=" " alt="" coords="577,136,787,177"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_g_u_i.html#aa5ca5f4ac7e00b77fc318a727e3f129d" title=" " alt="" coords="536,201,828,243"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_operations_of_client.html#aaccf4067c4f220acf762139c6ae6185a" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="274,136,483,177"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_operations_of_client.html#a0d75f5253948372c670b75429aaccb37" title=" " alt="" coords="9,136,218,177"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="269,233,488,275"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_g_u_i.html#a9bf23ccfc1e735fc03f759fa724599cf" title=" " alt="" coords="16,241,211,267"/>
+<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_operations_of_machine.html#ab9cfcda505ba8a65bba6040446e7db7b" title=" " alt="" coords="569,5,795,47"/>
+<area shape="rect" id="node13" href="$class_windows_forms_app1_1_1_g_u_i.html#a53aaa0961eb8ce63a5c9fd144424af13" title=" " alt="" coords="536,71,828,112"/>
+<area shape="rect" id="node11" href="$class_windows_forms_app1_1_1_operations_of_machine.html#aee4fca09d637d72df8bbba5f7e47ca2d" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="274,5,483,47"/>
+<area shape="rect" id="node12" href="$class_windows_forms_app1_1_1_operations_of_machine.html#a84b5c43ef7360ffcfcee72e5136992ed" title=" " alt="" coords="7,5,220,47"/>
+<area shape="rect" id="node15" href="$class_windows_forms_app1_1_1_percents_of_machine.html#aba639ea7d071f1ec826e7bcd8e230ef5" title=" " alt="" coords="569,479,795,520"/>
+<area shape="rect" id="node18" href="$class_windows_forms_app1_1_1_g_u_i.html#a108d446699b3d61c667c37d90f80923b" title=" " alt="" coords="536,413,828,455"/>
+<area shape="rect" id="node16" href="$class_windows_forms_app1_1_1_percents_of_machine.html#a8c278862abffdb3c34243d1240c7c05e" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="278,479,479,520"/>
+<area shape="rect" id="node17" href="$class_windows_forms_app1_1_1_percents_of_machine.html#af6945c694550b08258a5fbdd477aac9e" title=" " alt="" coords="12,479,215,520"/>
+<area shape="rect" id="node20" href="$class_windows_forms_app1_1_1_percents_of_operation.html#a4b2de494f71111c0df79ea7fd87f42c6" title=" " alt="" coords="583,333,781,389"/>
+<area shape="rect" id="node23" href="$class_windows_forms_app1_1_1_g_u_i.html#ad88b26c6780127f4e899d5bbfd2511ec" title=" " alt="" coords="539,267,825,308"/>
+<area shape="rect" id="node21" href="$class_windows_forms_app1_1_1_percents_of_operation.html#a7ff45e1bffa8a1d996b0063ee02d9b05" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="275,340,483,381"/>
+<area shape="rect" id="node22" href="$class_windows_forms_app1_1_1_percents_of_operation.html#a350df9d99bbd9645b7c26ad73807898e" title=" " alt="" coords="5,340,221,381"/>
+</map>

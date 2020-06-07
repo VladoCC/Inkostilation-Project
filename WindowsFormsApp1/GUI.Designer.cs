@@ -28,11 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 =
+                new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(GUI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.создатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,18 +85,17 @@
             this.button9 = new System.Windows.Forms.Button();
             this.waterMarkTextBox1 = new WindowsFormsApp1.WaterMarkTextBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView4)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.создатьToolStripMenuItem,
-            this.отчётыToolStripMenuItem});
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[]
+                {this.создатьToolStripMenuItem, this.отчётыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1260, 24);
@@ -101,74 +105,77 @@
             // создатьToolStripMenuItem
             // 
             this.создатьToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.создатьToolStripMenuItem1,
-            this.импортироватьToolStripMenuItem,
-            this.сохранитьToolStripMenuItem});
+            this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[]
+                {this.создатьToolStripMenuItem1, this.импортироватьToolStripMenuItem, this.сохранитьToolStripMenuItem});
             this.создатьToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
-            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.создатьToolStripMenuItem.Text = "Файл";
             // 
             // создатьToolStripMenuItem1
             // 
             this.создатьToolStripMenuItem1.Name = "создатьToolStripMenuItem1";
-            this.создатьToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
+            this.создатьToolStripMenuItem1.Size = new System.Drawing.Size(132, 22);
             this.создатьToolStripMenuItem1.Text = "Новый";
             this.создатьToolStripMenuItem1.Click += new System.EventHandler(this.создатьToolStripMenuItem1_Click);
             // 
             // импортироватьToolStripMenuItem
             // 
             this.импортироватьToolStripMenuItem.Name = "импортироватьToolStripMenuItem";
-            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.импортироватьToolStripMenuItem.Text = "Загрузить";
-            this.импортироватьToolStripMenuItem.Click += new System.EventHandler(this.импортироватьToolStripMenuItem_Click);
+            this.импортироватьToolStripMenuItem.Click +=
+                new System.EventHandler(this.импортироватьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
             this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // отчётыToolStripMenuItem
             // 
-            this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.операцииПоКлиентуToolStripMenuItem,
-            this.операцииБанкоматаToolStripMenuItem,
-            this.процентыОперацийToolStripMenuItem,
-            this.процентыБанкоматаToolStripMenuItem});
+            this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[]
+            {
+                this.операцииПоКлиентуToolStripMenuItem, this.операцииБанкоматаToolStripMenuItem,
+                this.процентыОперацийToolStripMenuItem, this.процентыБанкоматаToolStripMenuItem
+            });
             this.отчётыToolStripMenuItem.Name = "отчётыToolStripMenuItem";
-            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.отчётыToolStripMenuItem.Text = "Отчёты";
             // 
             // операцииПоКлиентуToolStripMenuItem
             // 
             this.операцииПоКлиентуToolStripMenuItem.Name = "операцииПоКлиентуToolStripMenuItem";
-            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.операцииПоКлиентуToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.операцииПоКлиентуToolStripMenuItem.Text = "Операции клиентов";
-            this.операцииПоКлиентуToolStripMenuItem.Click += new System.EventHandler(this.операцииПоКлиентуToolStripMenuItem_Click);
+            this.операцииПоКлиентуToolStripMenuItem.Click +=
+                new System.EventHandler(this.операцииПоКлиентуToolStripMenuItem_Click);
             // 
             // операцииБанкоматаToolStripMenuItem
             // 
             this.операцииБанкоматаToolStripMenuItem.Name = "операцииБанкоматаToolStripMenuItem";
-            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.операцииБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.операцииБанкоматаToolStripMenuItem.Text = "Операции банкоматов";
-            this.операцииБанкоматаToolStripMenuItem.Click += new System.EventHandler(this.операцииБанкоматаToolStripMenuItem_Click);
+            this.операцииБанкоматаToolStripMenuItem.Click +=
+                new System.EventHandler(this.операцииБанкоматаToolStripMenuItem_Click);
             // 
             // процентыОперацийToolStripMenuItem
             // 
             this.процентыОперацийToolStripMenuItem.Name = "процентыОперацийToolStripMenuItem";
-            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.процентыОперацийToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.процентыОперацийToolStripMenuItem.Text = "Проценты операций";
-            this.процентыОперацийToolStripMenuItem.Click += new System.EventHandler(this.процентыОперацийToolStripMenuItem_Click);
+            this.процентыОперацийToolStripMenuItem.Click +=
+                new System.EventHandler(this.процентыОперацийToolStripMenuItem_Click);
             // 
             // процентыБанкоматаToolStripMenuItem
             // 
             this.процентыБанкоматаToolStripMenuItem.Name = "процентыБанкоматаToolStripMenuItem";
-            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.процентыБанкоматаToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.процентыБанкоматаToolStripMenuItem.Text = "Проценты банкоматов";
-            this.процентыБанкоматаToolStripMenuItem.Click += new System.EventHandler(this.процентыБанкоматаToolStripMenuItem_Click);
+            this.процентыБанкоматаToolStripMenuItem.Click +=
+                new System.EventHandler(this.процентыБанкоматаToolStripMenuItem_Click);
             // 
             // dataGridView1
             // 
@@ -177,12 +184,10 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Hash,
-            this.Номер,
-            this.Адрес,
-            this.НазваниеБанка});
+            this.dataGridView1.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.Hash, this.Номер, this.Адрес, this.НазваниеБанка});
             this.dataGridView1.Location = new System.Drawing.Point(21, 140);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -191,7 +196,8 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(300, 464);
             this.dataGridView1.TabIndex = 6;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellClick +=
+                new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Hash
             // 
@@ -204,7 +210,8 @@
             // 
             // Номер
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.Номер.DefaultCellStyle = dataGridViewCellStyle1;
             this.Номер.HeaderText = "Номер";
             this.Номер.Name = "Номер";
@@ -234,7 +241,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label1.Location = new System.Drawing.Point(103, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 25);
@@ -244,7 +252,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label2.Location = new System.Drawing.Point(1041, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 25);
@@ -254,7 +263,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label3.Location = new System.Drawing.Point(431, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 25);
@@ -264,7 +274,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label4.Location = new System.Drawing.Point(728, 112);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 25);
@@ -278,12 +289,10 @@
             this.dataGridView2.AllowUserToResizeColumns = false;
             this.dataGridView2.AllowUserToResizeRows = false;
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Тип,
-            this.Отправитель,
-            this.Получатель,
-            this.Процент});
+            this.dataGridView2.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.Тип, this.Отправитель, this.Получатель, this.Процент});
             this.dataGridView2.Location = new System.Drawing.Point(939, 140);
             this.dataGridView2.MultiSelect = false;
             this.dataGridView2.Name = "dataGridView2";
@@ -292,11 +301,13 @@
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView2.Size = new System.Drawing.Size(300, 464);
             this.dataGridView2.TabIndex = 18;
-            this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
+            this.dataGridView2.CellClick +=
+                new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
             // Тип
             // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.Тип.DefaultCellStyle = dataGridViewCellStyle2;
             this.Тип.HeaderText = "Название операции";
             this.Тип.Name = "Тип";
@@ -339,12 +350,10 @@
             this.dataGridView3.AllowUserToResizeColumns = false;
             this.dataGridView3.AllowUserToResizeRows = false;
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Hash1,
-            this.НомерКарточки,
-            this.Банк,
-            this.ФИО});
+            this.dataGridView3.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.Hash1, this.НомерКарточки, this.Банк, this.ФИО});
             this.dataGridView3.Location = new System.Drawing.Point(327, 140);
             this.dataGridView3.MultiSelect = false;
             this.dataGridView3.Name = "dataGridView3";
@@ -353,7 +362,8 @@
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView3.Size = new System.Drawing.Size(300, 464);
             this.dataGridView3.TabIndex = 10;
-            this.dataGridView3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellClick);
+            this.dataGridView3.CellClick +=
+                new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellClick);
             // 
             // Hash1
             // 
@@ -366,7 +376,8 @@
             // 
             // НомерКарточки
             // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.НомерКарточки.DefaultCellStyle = dataGridViewCellStyle3;
             this.НомерКарточки.HeaderText = "Номер карточки";
             this.НомерКарточки.Name = "НомерКарточки";
@@ -400,12 +411,10 @@
             this.dataGridView4.AllowUserToResizeColumns = false;
             this.dataGridView4.AllowUserToResizeRows = false;
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ТипОперации1,
-            this.НомерКарточки1,
-            this.НомерБанкомата,
-            this.СуммаОперации});
+            this.dataGridView4.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+                {this.ТипОперации1, this.НомерКарточки1, this.НомерБанкомата, this.СуммаОперации});
             this.dataGridView4.Location = new System.Drawing.Point(633, 140);
             this.dataGridView4.MultiSelect = false;
             this.dataGridView4.Name = "dataGridView4";
@@ -414,11 +423,13 @@
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView4.Size = new System.Drawing.Size(300, 464);
             this.dataGridView4.TabIndex = 14;
-            this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
+            this.dataGridView4.CellClick +=
+                new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
             // 
             // ТипОперации1
             // 
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.ТипОперации1.DefaultCellStyle = dataGridViewCellStyle4;
             this.ТипОперации1.HeaderText = "Название операции";
             this.ТипОперации1.Name = "ТипОперации1";
@@ -456,7 +467,8 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button1.Location = new System.Drawing.Point(32, 610);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 30);
@@ -467,7 +479,8 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button2.Location = new System.Drawing.Point(950, 610);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 30);
@@ -478,7 +491,8 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button3.Location = new System.Drawing.Point(338, 610);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 30);
@@ -489,7 +503,8 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button4.Location = new System.Drawing.Point(644, 610);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(139, 30);
@@ -500,7 +515,8 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button5.Location = new System.Drawing.Point(181, 610);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(133, 30);
@@ -511,7 +527,8 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button6.Location = new System.Drawing.Point(483, 610);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(133, 30);
@@ -522,7 +539,8 @@
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button7.Location = new System.Drawing.Point(1095, 610);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(133, 30);
@@ -533,7 +551,8 @@
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button8.Location = new System.Drawing.Point(789, 610);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(133, 30);
@@ -545,7 +564,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label5.Location = new System.Drawing.Point(18, 44);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 18);
@@ -556,13 +576,10 @@
             // 
             this.comboBox1.BackColor = System.Drawing.Color.White;
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Банкомат",
-            "Клиент",
-            "Операция",
-            "Процент"});
+            this.comboBox1.Items.AddRange(new object[] {"Банкомат", "Клиент", "Операция", "Процент"});
             this.comboBox1.Location = new System.Drawing.Point(609, 41);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(128, 23);
@@ -571,7 +588,8 @@
             // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.button9.Location = new System.Drawing.Point(743, 41);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(106, 23);
@@ -617,20 +635,19 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inkostilation";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGridView4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
@@ -661,9 +678,7 @@
         private System.Windows.Forms.ToolStripMenuItem процентыОперацийToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem процентыБанкоматаToolStripMenuItem;
         private System.Windows.Forms.Label label5;
-        public System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button9;
-        private WaterMarkTextBox waterMarkTextBox1;
         private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hash;
         private System.Windows.Forms.DataGridViewTextBoxColumn Номер;
@@ -681,5 +696,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерКарточки1;
         private System.Windows.Forms.DataGridViewTextBoxColumn НомерБанкомата;
         private System.Windows.Forms.DataGridViewTextBoxColumn СуммаОперации;
+        private WindowsFormsApp1.WaterMarkTextBox waterMarkTextBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

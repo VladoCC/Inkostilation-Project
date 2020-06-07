@@ -1,0 +1,5 @@
+<map id="WinFormsApp1.HashFunction.SetSize" name="WinFormsApp1.HashFunction.SetSize">
+<area shape="rect" id="node1" title="Публичный сеттер, позволяющий заменить размер хранилища на новый." alt="" coords="288,43,488,84"/>
+<area shape="rect" id="node2" href="$class_win_forms_app1_1_1_double_hash_storage.html#ac14d1ebc6e1a6e9b7edc0c443c2c4a1b" title="Конструктор, получающий на вход хуш&#45;функции, предоставляющий им информацию о размере,..." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node3" href="$class_win_forms_app1_1_1_hash_map.html#ac556b9e005681115a30448e6eb9e38f9" title="Конструктор, инициализирующий пустую хэш&#45;таблицу." alt="" coords="35,71,211,127"/>
+</map>
