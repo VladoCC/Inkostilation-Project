@@ -265,7 +265,7 @@
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_machine_1a17582d5098a313dade5983551d58fa63" compoundref="_operations_of_machine_8cs" startline="15">WindowsFormsApp1.OperationsOfMachine.index</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_machine_1a75f2e1f9aba85a81e887a5a0fbc205f3" compoundref="_operations_of_machine_8_designer_8cs" startline="214">WindowsFormsApp1.OperationsOfMachine.MachinesKey</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_machine_1ac9e7a8ac7d07baacd05b56827e41a0ef" compoundref="_operations_of_machine_8cs" startline="16">WindowsFormsApp1.OperationsOfMachine.NumRows</references>

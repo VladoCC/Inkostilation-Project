@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parent_741',['Parent',['../class_win_forms_app1_1_1_tree_1_1_position.html#ab3ec8c98be54effcc576e8c200f80a19',1,'WinFormsApp1::Tree::Position']]]
+  ['message_773',['Message',['../class_windows_forms_app1_1_1_result.html#aba464e180fd14dd04b443e22aef43453',1,'WindowsFormsApp1::Result']]]
 ];

@@ -1,3 +1,6 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="node1" href="$class_win_forms_app1_1_1_list_storage_1_1_position.html" title="Структура, представляющая собой элемент односвязного списка, используемая для разрешения коллизий в L..." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node1" href="$interface_win_forms_app1_1_1_i_element.html" title="Интерфейс, описывающий данное, хранящееся в базе." alt="" coords="5,56,172,83"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_operation.html" title="Класс, описывающий банковскую операцию." alt="" coords="237,5,440,32"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_percent.html" title="Класс, описывающий процент по операции." alt="" coords="243,56,434,83"/>
+<area shape="rect" id="node4" href="$interface_win_forms_app1_1_1_i_keyed_element.html" title="Интерфейс, описывающий элемент, обладающий ключом, используемым для генерации хэш&#45;функции." alt="" coords="220,107,457,133"/>
 </map>

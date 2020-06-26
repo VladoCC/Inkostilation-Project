@@ -1,0 +1,21 @@
+<map id="WindowsFormsApp1.Database.Consistence" name="WindowsFormsApp1.Database.Consistence">
+<area shape="rect" id="node1" title="Производит проверку базы данных на целостность." alt="" coords="1031,235,1236,276"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a53114f18cdc0bac00871b10ac152b8e5" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_database.html#aaf665ddd93997a97669503e6b54c0fc9" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,71,983,112"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#a42978ab4f160aec4b93fd0cdc98c02ea" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,136,983,177"/>
+<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_database.html#ac3dce380aef5ec8b9f868aa47d7ebe37" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,201,983,243"/>
+<area shape="rect" id="node12" href="$class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,267,983,308"/>
+<area shape="rect" id="node14" href="$class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,332,983,373"/>
+<area shape="rect" id="node16" href="$class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,397,983,439"/>
+<area shape="rect" id="node18" href="$class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,463,983,504"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_g_u_i.html#a58e18e315b62d13dcd3f728029ee6b13" title=" " alt="" coords="515,5,729,47"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,235,467,276"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_g_u_i.html#a9bf23ccfc1e735fc03f759fa724599cf" title=" " alt="" coords="5,242,200,269"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_g_u_i.html#aac33025990d1c6e8944d610d92317431" title=" " alt="" coords="515,71,729,112"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_g_u_i.html#a37af8cbe482a61813b5075c96b0dbf6b" title=" " alt="" coords="515,136,729,177"/>
+<area shape="rect" id="node11" href="$class_windows_forms_app1_1_1_g_u_i.html#a285e1ef2bd8d62c4455d7df2b109c310" title=" " alt="" coords="515,201,729,243"/>
+<area shape="rect" id="node13" href="$class_windows_forms_app1_1_1_g_u_i.html#aced964d733656ec244107e1f5411d6f6" title=" " alt="" coords="515,267,729,308"/>
+<area shape="rect" id="node15" href="$class_windows_forms_app1_1_1_g_u_i.html#a7e836a05cebc643cfedf9c8f41607ca7" title=" " alt="" coords="515,332,729,373"/>
+<area shape="rect" id="node17" href="$class_windows_forms_app1_1_1_g_u_i.html#aa28e43974d887585ebb4452ad5a79472" title=" " alt="" coords="515,397,729,439"/>
+<area shape="rect" id="node19" href="$class_windows_forms_app1_1_1_g_u_i.html#aa2537a9f14f8f58a340fb38e781d8eee" title=" " alt="" coords="515,463,729,504"/>
+</map>

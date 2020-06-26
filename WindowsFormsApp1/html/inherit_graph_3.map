@@ -1,3 +1,7 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="node1" href="$interface_windows_forms_app1_1_1_i_sorter.html" title=" " alt="" coords="5,5,223,32"/>
+<area shape="rect" id="node1" href="$interface_windows_forms_app1_1_1_i_sorter.html" title="Интерфейс, описывающий сортировщик элементов типа Т." alt="" coords="5,97,220,124"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_bubble_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком...." alt="" coords="268,5,520,32"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_quick_last_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм сортировки пузырьком...." alt="" coords="291,57,497,98"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_quick_stack_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм быстрой сортировки...." alt="" coords="287,122,501,163"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_shell_sorter.html" title="Реализация сортировки для элементов типа Т. Использует алгоритм сортировки Шелла с расстоянием Шелла...." alt="" coords="273,188,515,215"/>
 </map>

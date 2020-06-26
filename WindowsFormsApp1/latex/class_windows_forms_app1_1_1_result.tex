@@ -1,0 +1,231 @@
+\hypertarget{class_windows_forms_app1_1_1_result}{}\doxysection{Класс Windows\+Forms\+App1.\+Result}
+\label{class_windows_forms_app1_1_1_result}\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+
+
+Позволяет возвращать результат выполнения действия, содержащий информацию об успешности и описание события.  
+
+
+
+
+Граф связей класса Windows\+Forms\+App1.\+Result\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_windows_forms_app1_1_1_result__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windows_forms_app1_1_1_result_ac4ed3a95744201d9d40826d705b45432}{Result}} (bool success)
+\begin{DoxyCompactList}\small\item\em Конструктор для результата. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_windows_forms_app1_1_1_result_a3b78944dc1df1c909ff6f492bf992f1a}{Add\+Message}} (string message)
+\begin{DoxyCompactList}\small\item\em Добавляет дополнительную информацию о событии. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_result_a5e1f7489930eb0359b0995c728a4e2e8}{operator+}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} result, string info)
+\begin{DoxyCompactList}\small\item\em Позволяет добавлять информацию к результату при помощи операции сложения. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_result_ae1e01a556debbcb90aab472931a73392}{operator true}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} result)
+\begin{DoxyCompactList}\small\item\em Оператор, позволяющий использовать результат в логических выражениях \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_result_ae2dda2995f6d61acefe76f504c9d1609}{operator false}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} result)
+\begin{DoxyCompactList}\small\item\em Оператор, позволяющий использовать результат в логических выражениях \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_result_acd9841cc3ef6dd00dd2c2ee900f2de51}{operator!}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} result)
+\begin{DoxyCompactList}\small\item\em Оператор, позволяющий использовать результат в логических выражениях \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_windows_forms_app1_1_1_result_ac0dec613fb212f29559c3f238ae20134}{Success}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер и сеттер для успешности результата. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_result_aba464e180fd14dd04b443e22aef43453}{Message}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Публичный геттер и сеттер для описания результата. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_windows_forms_app1_1_1_result_a3afdab68abd7342bd55b05b32e42d490}{\+\_\+success}}
+\begin{DoxyCompactList}\small\item\em Описывает успешно ли действие \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_windows_forms_app1_1_1_result_a105c7a040a67d3fec5783fee93da42e5}{\+\_\+message}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em Дает более подробное описание призошедшего события. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Позволяет возвращать результат выполнения действия, содержащий информацию об успешности и описание события. 
+
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_ac4ed3a95744201d9d40826d705b45432}\label{class_windows_forms_app1_1_1_result_ac4ed3a95744201d9d40826d705b45432}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!Result@{Result}}
+\index{Result@{Result}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{Result()}{Result()}}
+{\footnotesize\ttfamily Windows\+Forms\+App1.\+Result.\+Result (\begin{DoxyParamCaption}\item[{bool}]{success }\end{DoxyParamCaption})}
+
+
+
+Конструктор для результата. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em success} & Предпологаемая успешность действия. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_a3b78944dc1df1c909ff6f492bf992f1a}\label{class_windows_forms_app1_1_1_result_a3b78944dc1df1c909ff6f492bf992f1a}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!AddMessage@{AddMessage}}
+\index{AddMessage@{AddMessage}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{AddMessage()}{AddMessage()}}
+{\footnotesize\ttfamily void Windows\+Forms\+App1.\+Result.\+Add\+Message (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})}
+
+
+
+Добавляет дополнительную информацию о событии. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em message} & Дополнительная информация. \\
+\hline
+\end{DoxyParams}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_result_a3b78944dc1df1c909ff6f492bf992f1a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_ae2dda2995f6d61acefe76f504c9d1609}\label{class_windows_forms_app1_1_1_result_ae2dda2995f6d61acefe76f504c9d1609}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!operator false@{operator false}}
+\index{operator false@{operator false}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{operator false()}{operator false()}}
+{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Result.\+operator false (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}}}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Оператор, позволяющий использовать результат в логических выражениях 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em result} & Результат для преобразования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Логическое значение. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_ae1e01a556debbcb90aab472931a73392}\label{class_windows_forms_app1_1_1_result_ae1e01a556debbcb90aab472931a73392}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!operator true@{operator true}}
+\index{operator true@{operator true}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{operator true()}{operator true()}}
+{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Result.\+operator true (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}}}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Оператор, позволяющий использовать результат в логических выражениях 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em result} & Результат для преобразования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Логическое значение. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_acd9841cc3ef6dd00dd2c2ee900f2de51}\label{class_windows_forms_app1_1_1_result_acd9841cc3ef6dd00dd2c2ee900f2de51}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!operator"!@{operator"!}}
+\index{operator"!@{operator"!}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{operator"!()}{operator!()}}
+{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Result.\+operator! (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}}}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Оператор, позволяющий использовать результат в логических выражениях 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em result} & Результат для преобразования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Логическое значение. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_a5e1f7489930eb0359b0995c728a4e2e8}\label{class_windows_forms_app1_1_1_result_a5e1f7489930eb0359b0995c728a4e2e8}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!operator+@{operator+}}
+\index{operator+@{operator+}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Result.\+operator+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}}}]{result,  }\item[{string}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Позволяет добавлять информацию к результату при помощи операции сложения. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em result} & Результат, к которому добавляется информация. \\
+\hline
+{\em info} & Информация для добавления \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_result_a5e1f7489930eb0359b0995c728a4e2e8_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_a105c7a040a67d3fec5783fee93da42e5}\label{class_windows_forms_app1_1_1_result_a105c7a040a67d3fec5783fee93da42e5}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!\_message@{\_message}}
+\index{\_message@{\_message}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{\_message}{\_message}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Result.\+\_\+message = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Дает более подробное описание призошедшего события. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_a3afdab68abd7342bd55b05b32e42d490}\label{class_windows_forms_app1_1_1_result_a3afdab68abd7342bd55b05b32e42d490}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!\_success@{\_success}}
+\index{\_success@{\_success}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{\_success}{\_success}}
+{\footnotesize\ttfamily bool Windows\+Forms\+App1.\+Result.\+\_\+success\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Описывает успешно ли действие 
+
+
+
+\doxysubsection{Полный список свойств}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_aba464e180fd14dd04b443e22aef43453}\label{class_windows_forms_app1_1_1_result_aba464e180fd14dd04b443e22aef43453}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!Message@{Message}}
+\index{Message@{Message}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{Message}{Message}}
+{\footnotesize\ttfamily string Windows\+Forms\+App1.\+Result.\+Message\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Публичный геттер и сеттер для описания результата. 
+
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_result_ac0dec613fb212f29559c3f238ae20134}\label{class_windows_forms_app1_1_1_result_ac0dec613fb212f29559c3f238ae20134}} 
+\index{WindowsFormsApp1.Result@{WindowsFormsApp1.Result}!Success@{Success}}
+\index{Success@{Success}!WindowsFormsApp1.Result@{WindowsFormsApp1.Result}}
+\doxysubsubsection{\texorpdfstring{Success}{Success}}
+{\footnotesize\ttfamily bool Windows\+Forms\+App1.\+Result.\+Success\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Публичный геттер и сеттер для успешности результата. 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_result_8cs}{Result.\+cs}}\end{DoxyCompactItemize}

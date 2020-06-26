@@ -266,7 +266,7 @@
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_percents_of_operation_1a8d0feff54e14ed35792e03b1f8729fcb" compoundref="_percents_of_operation_8cs" startline="16">WindowsFormsApp1.PercentsOfOperation.NumRows</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="570" endline="584">WindowsFormsApp1.Database.OperationPercentReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="571" endline="585">WindowsFormsApp1.Database.OperationPercentReport</references>
         <references refid="class_windows_forms_app1_1_1_percents_of_operation_1a37e8c43027c149187fb8133e548078c5" compoundref="_percents_of_operation_8_designer_8cs" startline="214">WindowsFormsApp1.PercentsOfOperation.OperationsKey</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
         <references refid="class_windows_forms_app1_1_1_percents_of_operation_1ad39d1964f1455c294f6bc7d6c91343be" compoundref="_percents_of_operation_8_designer_8cs" startline="215">WindowsFormsApp1.PercentsOfOperation.PercentsData</references>

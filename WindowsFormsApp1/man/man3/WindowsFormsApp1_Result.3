@@ -1,0 +1,185 @@
+.TH "WindowsFormsApp1.Result" 3 "Сб 27 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WindowsFormsApp1.Result \- Позволяет возвращать результат выполнения действия, содержащий информацию об успешности и описание события\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBResult\fP (bool success)"
+.br
+.RI "Конструктор для результата\&. "
+.ti -1c
+.RI "void \fBAddMessage\fP (string message)"
+.br
+.RI "Добавляет дополнительную информацию о событии\&. "
+.in -1c
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "static \fBResult\fP \fBoperator+\fP (\fBResult\fP result, string info)"
+.br
+.RI "Позволяет добавлять информацию к результату при помощи операции сложения\&. "
+.ti -1c
+.RI "static bool \fBoperator true\fP (\fBResult\fP result)"
+.br
+.RI "Оператор, позволяющий использовать результат в логических выражениях "
+.ti -1c
+.RI "static bool \fBoperator false\fP (\fBResult\fP result)"
+.br
+.RI "Оператор, позволяющий использовать результат в логических выражениях "
+.ti -1c
+.RI "static bool \fBoperator!\fP (\fBResult\fP result)"
+.br
+.RI "Оператор, позволяющий использовать результат в логических выражениях "
+.in -1c
+.SS "Свойства"
+
+.in +1c
+.ti -1c
+.RI "bool \fBSuccess\fP\fC [get, set]\fP"
+.br
+.RI "Публичный геттер и сеттер для успешности результата\&. "
+.ti -1c
+.RI "string \fBMessage\fP\fC [get]\fP"
+.br
+.RI "Публичный геттер и сеттер для описания результата\&. "
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "bool \fB_success\fP"
+.br
+.RI "Описывает успешно ли действие "
+.ti -1c
+.RI "string \fB_message\fP = ''"
+.br
+.RI "Дает более подробное описание призошедшего события\&. "
+.in -1c
+.SH "Подробное описание"
+.PP 
+Позволяет возвращать результат выполнения действия, содержащий информацию об успешности и описание события\&. 
+
+
+.SH "Конструктор(ы)"
+.PP 
+.SS "WindowsFormsApp1\&.Result\&.Result (bool success)"
+
+.PP
+Конструктор для результата\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIsuccess\fP Предпологаемая успешность действия\&. 
+.RE
+.PP
+
+.SH "Методы"
+.PP 
+.SS "void WindowsFormsApp1\&.Result\&.AddMessage (string message)"
+
+.PP
+Добавляет дополнительную информацию о событии\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fImessage\fP Дополнительная информация\&. 
+.RE
+.PP
+
+.SS "static bool WindowsFormsApp1\&.Result\&.operator false (\fBResult\fP result)\fC [static]\fP"
+
+.PP
+Оператор, позволяющий использовать результат в логических выражениях 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIresult\fP Результат для преобразования\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Логическое значение\&. 
+.RE
+.PP
+
+.SS "static bool WindowsFormsApp1\&.Result\&.operator true (\fBResult\fP result)\fC [static]\fP"
+
+.PP
+Оператор, позволяющий использовать результат в логических выражениях 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIresult\fP Результат для преобразования\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Логическое значение\&. 
+.RE
+.PP
+
+.SS "static bool WindowsFormsApp1\&.Result\&.operator! (\fBResult\fP result)\fC [static]\fP"
+
+.PP
+Оператор, позволяющий использовать результат в логических выражениях 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIresult\fP Результат для преобразования\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Логическое значение\&. 
+.RE
+.PP
+
+.SS "static \fBResult\fP WindowsFormsApp1\&.Result\&.operator+ (\fBResult\fP result, string info)\fC [static]\fP"
+
+.PP
+Позволяет добавлять информацию к результату при помощи операции сложения\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIresult\fP Результат, к которому добавляется информация\&. 
+.br
+\fIinfo\fP Информация для добавления 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+.RE
+.PP
+
+.SH "Данные класса"
+.PP 
+.SS "string WindowsFormsApp1\&.Result\&._message = ''\fC [private]\fP"
+
+.PP
+Дает более подробное описание призошедшего события\&. 
+.SS "bool WindowsFormsApp1\&.Result\&._success\fC [private]\fP"
+
+.PP
+Описывает успешно ли действие 
+.SH "Полный список свойств"
+.PP 
+.SS "string WindowsFormsApp1\&.Result\&.Message\fC [get]\fP"
+
+.PP
+Публичный геттер и сеттер для описания результата\&. 
+.SS "bool WindowsFormsApp1\&.Result\&.Success\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Публичный геттер и сеттер для успешности результата\&. 
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Inkostilation Project из исходного текста\&.

@@ -3,6 +3,7 @@
   <compounddef id="namespace_windows_forms_app1" kind="namespace" language="C#">
     <compoundname>WindowsFormsApp1</compoundname>
     <innerclass refid="class_windows_forms_app1_1_1_bubble_sorter" prot="public">WindowsFormsApp1::BubbleSorter</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_checks" prot="public">WindowsFormsApp1::Checks</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_client" prot="public">WindowsFormsApp1::Client</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_client_found" prot="public">WindowsFormsApp1::ClientFound</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_database" prot="public">WindowsFormsApp1::Database</innerclass>
@@ -29,6 +30,7 @@
     <innerclass refid="class_windows_forms_app1_1_1_quick_stack_sorter" prot="public">WindowsFormsApp1::QuickStackSorter</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_r_b" prot="public">WindowsFormsApp1::RB</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_report" prot="public">WindowsFormsApp1::Report</innerclass>
+    <innerclass refid="class_windows_forms_app1_1_1_result" prot="public">WindowsFormsApp1::Result</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_search_query" prot="public">WindowsFormsApp1::SearchQuery</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_shell_sorter" prot="public">WindowsFormsApp1::ShellSorter</innerclass>
     <innerclass refid="class_windows_forms_app1_1_1_size_container" prot="public">WindowsFormsApp1::SizeContainer</innerclass>

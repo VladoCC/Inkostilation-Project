@@ -125,6 +125,7 @@
     <Compile Include="QuickLastSorter.cs" />
     <Compile Include="QuickStackSorter.cs" />
     <Compile Include="Report.cs" />
+    <Compile Include="Result.cs" />
     <Compile Include="SearchQuery.cs" />
     <Compile Include="ShellSorter.cs" />
     <Compile Include="ISorter.cs" />

@@ -67,9 +67,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Machine.cs" line="57" column="20" bodyfile="Machine.cs" bodystart="57" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" prot="public" static="no" mutable="no">
@@ -102,7 +102,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Machine.cs" line="67" column="23" bodyfile="Machine.cs" bodystart="67" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       </sectiondef>

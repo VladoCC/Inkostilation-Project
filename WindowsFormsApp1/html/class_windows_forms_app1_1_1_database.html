@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -45,6 +49,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_windows_forms_app1_1_1_database.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,11 +80,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_windows_forms_app1.html">WindowsFormsApp1</a></li><li class="navelem"><a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
@@ -105,30 +121,30 @@ $(function() {
 <tr class="memitem:a7fbfcac98864ecc48c83b651a59a69c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a7fbfcac98864ecc48c83b651a59a69c1">Save</a> (string filePath)</td></tr>
 <tr class="memdesc:a7fbfcac98864ecc48c83b651a59a69c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохраняет базу данных на жесткий диск.  <a href="class_windows_forms_app1_1_1_database.html#a7fbfcac98864ecc48c83b651a59a69c1">Подробнее...</a><br /></td></tr>
 <tr class="separator:a7fbfcac98864ecc48c83b651a59a69c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeed3bffd7e44c11f25f76286521bd7f4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#aeed3bffd7e44c11f25f76286521bd7f4">AddClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
-<tr class="memdesc:aeed3bffd7e44c11f25f76286521bd7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет клиента в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#aeed3bffd7e44c11f25f76286521bd7f4">Подробнее...</a><br /></td></tr>
-<tr class="separator:aeed3bffd7e44c11f25f76286521bd7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48f0de5ce0cad4edc36064fe57ec8988"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a48f0de5ce0cad4edc36064fe57ec8988">AddMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
-<tr class="memdesc:a48f0de5ce0cad4edc36064fe57ec8988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет банкомат в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a48f0de5ce0cad4edc36064fe57ec8988">Подробнее...</a><br /></td></tr>
-<tr class="separator:a48f0de5ce0cad4edc36064fe57ec8988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab451a666862c8ec775b8963249a118ec"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ab451a666862c8ec775b8963249a118ec">AddOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
-<tr class="memdesc:ab451a666862c8ec775b8963249a118ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет операцию в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ab451a666862c8ec775b8963249a118ec">Подробнее...</a><br /></td></tr>
-<tr class="separator:ab451a666862c8ec775b8963249a118ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b28d70a75c0082e69838ba188bfaebc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a3b28d70a75c0082e69838ba188bfaebc">AddPercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
-<tr class="memdesc:a3b28d70a75c0082e69838ba188bfaebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет процент в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a3b28d70a75c0082e69838ba188bfaebc">Подробнее...</a><br /></td></tr>
-<tr class="separator:a3b28d70a75c0082e69838ba188bfaebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9cb19136ed2ec74a70eea79062d26c6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6">RemoveClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
-<tr class="memdesc:ae9cb19136ed2ec74a70eea79062d26c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет клиента из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6">Подробнее...</a><br /></td></tr>
-<tr class="separator:ae9cb19136ed2ec74a70eea79062d26c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac85ee56a750ee249cc4dea9555fb0c59"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59">RemoveMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
-<tr class="memdesc:ac85ee56a750ee249cc4dea9555fb0c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет банкомат из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59">Подробнее...</a><br /></td></tr>
-<tr class="separator:ac85ee56a750ee249cc4dea9555fb0c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36e979440befdf7735ef7893a83adb59"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59">RemoveOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
-<tr class="memdesc:a36e979440befdf7735ef7893a83adb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет операцию из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59">Подробнее...</a><br /></td></tr>
-<tr class="separator:a36e979440befdf7735ef7893a83adb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1f0d7128f58f52410c44ca7d3be61b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b">RemovePercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
-<tr class="memdesc:a4b1f0d7128f58f52410c44ca7d3be61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет процент из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b">Подробнее...</a><br /></td></tr>
-<tr class="separator:a4b1f0d7128f58f52410c44ca7d3be61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53114f18cdc0bac00871b10ac152b8e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a53114f18cdc0bac00871b10ac152b8e5">AddClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
+<tr class="memdesc:a53114f18cdc0bac00871b10ac152b8e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет клиента в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a53114f18cdc0bac00871b10ac152b8e5">Подробнее...</a><br /></td></tr>
+<tr class="separator:a53114f18cdc0bac00871b10ac152b8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf665ddd93997a97669503e6b54c0fc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#aaf665ddd93997a97669503e6b54c0fc9">AddMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:aaf665ddd93997a97669503e6b54c0fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет банкомат в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#aaf665ddd93997a97669503e6b54c0fc9">Подробнее...</a><br /></td></tr>
+<tr class="separator:aaf665ddd93997a97669503e6b54c0fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42978ab4f160aec4b93fd0cdc98c02ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a42978ab4f160aec4b93fd0cdc98c02ea">AddOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
+<tr class="memdesc:a42978ab4f160aec4b93fd0cdc98c02ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет операцию в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a42978ab4f160aec4b93fd0cdc98c02ea">Подробнее...</a><br /></td></tr>
+<tr class="separator:a42978ab4f160aec4b93fd0cdc98c02ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3dce380aef5ec8b9f868aa47d7ebe37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ac3dce380aef5ec8b9f868aa47d7ebe37">AddPercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
+<tr class="memdesc:ac3dce380aef5ec8b9f868aa47d7ebe37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавляет процент в базу данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ac3dce380aef5ec8b9f868aa47d7ebe37">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac3dce380aef5ec8b9f868aa47d7ebe37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c6b0a0646fc689f29db7ac61839ca3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3">RemoveClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
+<tr class="memdesc:a31c6b0a0646fc689f29db7ac61839ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет клиента из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a31c6b0a0646fc689f29db7ac61839ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a60f27b0d1655e46db49dbd2277c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c">RemoveMachine</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
+<tr class="memdesc:ad1a60f27b0d1655e46db49dbd2277c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет банкомат из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad1a60f27b0d1655e46db49dbd2277c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e069754e423f09d15d55b82e9077a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3">RemoveOperation</a> (<a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> operation)</td></tr>
+<tr class="memdesc:a59e069754e423f09d15d55b82e9077a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет операцию из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a59e069754e423f09d15d55b82e9077a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d9622d3bc473a6f423f2eb26ce7847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847">RemovePercent</a> (<a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> percent)</td></tr>
+<tr class="memdesc:ab3d9622d3bc473a6f423f2eb26ce7847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет процент из базы данных, если это не нарушает целостность базы данных.  <a href="class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab3d9622d3bc473a6f423f2eb26ce7847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a834c678a454207f313282c1d6102634c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_search_query.html">SearchQuery</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c">FindClient</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
 <tr class="memdesc:a834c678a454207f313282c1d6102634c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит поиск в базе данных клиента, соответствующего входным данным.  <a href="class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c">Подробнее...</a><br /></td></tr>
 <tr class="separator:a834c678a454207f313282c1d6102634c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,9 +199,9 @@ $(function() {
 <tr class="memitem:a44eec367d91e28e33b015684be8a902f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_win_forms_app1_1_1_hash_function.html">HashFunction</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f">MachinesFunction</a> ()</td></tr>
 <tr class="memdesc:a44eec367d91e28e33b015684be8a902f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает хэш-функцию, используемую для таблицы машин данной базы данных.  <a href="class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f">Подробнее...</a><br /></td></tr>
 <tr class="separator:a44eec367d91e28e33b015684be8a902f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc31094c97083f4fbe458f2553649441"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441">Consistence</a> ()</td></tr>
-<tr class="memdesc:acc31094c97083f4fbe458f2553649441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит проверку базы данных на целостность.  <a href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441">Подробнее...</a><br /></td></tr>
-<tr class="separator:acc31094c97083f4fbe458f2553649441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80e24f03aaa1d1a55fa2d9f1c9c8620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620">Consistence</a> ()</td></tr>
+<tr class="memdesc:aa80e24f03aaa1d1a55fa2d9f1c9c8620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производит проверку базы данных на целостность.  <a href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa80e24f03aaa1d1a55fa2d9f1c9c8620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91ae2839b71c9e11139a657f738d7a9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>, <a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a91ae2839b71c9e11139a657f738d7a9c">ClientOperationReport</a> (<a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a> client)</td></tr>
 <tr class="memdesc:a91ae2839b71c9e11139a657f738d7a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет об операциях, проведенных клиентом.  <a href="class_windows_forms_app1_1_1_database.html#a91ae2839b71c9e11139a657f738d7a9c">Подробнее...</a><br /></td></tr>
 <tr class="separator:a91ae2839b71c9e11139a657f738d7a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +212,7 @@ $(function() {
 <tr class="memdesc:a2f822a5afd43da1ca00e1c8c9c768680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет о процентах по указанному типу операций.  <a href="class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680">Подробнее...</a><br /></td></tr>
 <tr class="separator:a2f822a5afd43da1ca00e1c8c9c768680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a499d3d51434f82bb7220766baa2f05bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_windows_forms_app1_1_1_report.html">Report</a>&lt; <a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>, <a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd">MachinePercentReport</a> (<a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a> machine)</td></tr>
-<tr class="memdesc:a499d3d51434f82bb7220766baa2f05bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет о процентах по операциям, проведенныи этим банкоматом.  <a href="class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd">Подробнее...</a><br /></td></tr>
+<tr class="memdesc:a499d3d51434f82bb7220766baa2f05bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает отчет о процентах по операциям, проведенных этим банкоматом.  <a href="class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd">Подробнее...</a><br /></td></tr>
 <tr class="separator:a499d3d51434f82bb7220766baa2f05bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -280,14 +296,14 @@ $(function() {
 </div>
 </div>
 <h2 class="groupheader">Методы</h2>
-<a id="aeed3bffd7e44c11f25f76286521bd7f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeed3bffd7e44c11f25f76286521bd7f4">&#9670;&nbsp;</a></span>AddClient()</h2>
+<a id="a53114f18cdc0bac00871b10ac152b8e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53114f18cdc0bac00871b10ac152b8e5">&#9670;&nbsp;</a></span>AddClient()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.AddClient </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.AddClient </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&#160;</td>
           <td class="paramname"><em>client</em></td><td>)</td>
@@ -307,17 +323,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_cgraph" id="class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_cgraph" id="class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_cgraph">
 <area shape="rect" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_icgraph" id="class_windows_forms_app1_1_1_database_aeed3bffd7e44c11f25f76286521bd7f4_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_icgraph" id="class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5_icgraph">
 <area shape="rect" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a58e18e315b62d13dcd3f728029ee6b13" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -327,14 +343,14 @@ $(function() {
 
 </div>
 </div>
-<a id="a48f0de5ce0cad4edc36064fe57ec8988"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48f0de5ce0cad4edc36064fe57ec8988">&#9670;&nbsp;</a></span>AddMachine()</h2>
+<a id="aaf665ddd93997a97669503e6b54c0fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf665ddd93997a97669503e6b54c0fc9">&#9670;&nbsp;</a></span>AddMachine()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.AddMachine </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.AddMachine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
           <td class="paramname"><em>machine</em></td><td>)</td>
@@ -354,17 +370,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_cgraph" id="class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_cgraph" id="class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_cgraph">
 <area shape="rect" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_icgraph" id="class_windows_forms_app1_1_1_database_a48f0de5ce0cad4edc36064fe57ec8988_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_icgraph" id="class_windows_forms_app1_1_1_database_aaf665ddd93997a97669503e6b54c0fc9_icgraph">
 <area shape="rect" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#aac33025990d1c6e8944d610d92317431" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -374,14 +390,14 @@ $(function() {
 
 </div>
 </div>
-<a id="ab451a666862c8ec775b8963249a118ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab451a666862c8ec775b8963249a118ec">&#9670;&nbsp;</a></span>AddOperation()</h2>
+<a id="a42978ab4f160aec4b93fd0cdc98c02ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42978ab4f160aec4b93fd0cdc98c02ea">&#9670;&nbsp;</a></span>AddOperation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.AddOperation </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.AddOperation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&#160;</td>
           <td class="paramname"><em>operation</em></td><td>)</td>
@@ -401,17 +417,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_cgraph" id="class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_cgraph" id="class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_cgraph">
 <area shape="rect" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_icgraph" id="class_windows_forms_app1_1_1_database_ab451a666862c8ec775b8963249a118ec_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_icgraph" id="class_windows_forms_app1_1_1_database_a42978ab4f160aec4b93fd0cdc98c02ea_icgraph">
 <area shape="rect" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a37af8cbe482a61813b5075c96b0dbf6b" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -421,14 +437,14 @@ $(function() {
 
 </div>
 </div>
-<a id="a3b28d70a75c0082e69838ba188bfaebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b28d70a75c0082e69838ba188bfaebc">&#9670;&nbsp;</a></span>AddPercent()</h2>
+<a id="ac3dce380aef5ec8b9f868aa47d7ebe37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3dce380aef5ec8b9f868aa47d7ebe37">&#9670;&nbsp;</a></span>AddPercent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.AddPercent </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.AddPercent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&#160;</td>
           <td class="paramname"><em>percent</em></td><td>)</td>
@@ -448,17 +464,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_cgraph" id="class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_cgraph" id="class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_cgraph">
 <area shape="rect" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_icgraph" id="class_windows_forms_app1_1_1_database_a3b28d70a75c0082e69838ba188bfaebc_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_icgraph" id="class_windows_forms_app1_1_1_database_ac3dce380aef5ec8b9f868aa47d7ebe37_icgraph">
 <area shape="rect" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a285e1ef2bd8d62c4455d7df2b109c310" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -613,14 +629,14 @@ $(function() {
 
 </div>
 </div>
-<a id="acc31094c97083f4fbe458f2553649441"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc31094c97083f4fbe458f2553649441">&#9670;&nbsp;</a></span>Consistence()</h2>
+<a id="aa80e24f03aaa1d1a55fa2d9f1c9c8620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80e24f03aaa1d1a55fa2d9f1c9c8620">&#9670;&nbsp;</a></span>Consistence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.Consistence </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.Consistence </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -633,17 +649,17 @@ $(function() {
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441_icgraph" id="class_windows_forms_app1_1_1_database_acc31094c97083f4fbe458f2553649441_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_aa80e24f03aaa1d1a55fa2d9f1c9c8620_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_aa80e24f03aaa1d1a55fa2d9f1c9c8620_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_aa80e24f03aaa1d1a55fa2d9f1c9c8620_icgraph" id="class_windows_forms_app1_1_1_database_aa80e24f03aaa1d1a55fa2d9f1c9c8620_icgraph">
 <area shape="rect" title="Производит проверку базы данных на целостность." alt="" coords="1031,235,1236,276"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aeed3bffd7e44c11f25f76286521bd7f4" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a48f0de5ce0cad4edc36064fe57ec8988" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,71,983,112"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#ab451a666862c8ec775b8963249a118ec" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,136,983,177"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a3b28d70a75c0082e69838ba188bfaebc" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,201,983,243"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,267,983,308"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,332,983,373"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,397,983,439"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,463,983,504"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a53114f18cdc0bac00871b10ac152b8e5" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aaf665ddd93997a97669503e6b54c0fc9" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,71,983,112"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a42978ab4f160aec4b93fd0cdc98c02ea" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,136,983,177"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#ac3dce380aef5ec8b9f868aa47d7ebe37" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="777,201,983,243"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,267,983,308"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,332,983,373"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,397,983,439"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,463,983,504"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a58e18e315b62d13dcd3f728029ee6b13" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,235,467,276"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a9bf23ccfc1e735fc03f759fa724599cf" title=" " alt="" coords="5,242,200,269"/>
@@ -1196,7 +1212,7 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
-<p>Создает отчет о процентах по операциям, проведенныи этим банкоматом. </p>
+<p>Создает отчет о процентах по операциям, проведенных этим банкоматом. </p>
 <dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramname">machine</td><td>Банкомат, проценты по операциям которого попадут в отчет. </td></tr>
@@ -1209,7 +1225,7 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_cgraph" alt=""/></div>
 <map name="class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_cgraph" id="class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_cgraph">
-<area shape="rect" title="Создает отчет о процентах по операциям, проведенныи этим банкоматом." alt="" coords="5,5,211,47"/>
+<area shape="rect" title="Создает отчет о процентах по операциям, проведенных этим банкоматом." alt="" coords="5,5,211,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_report.html#ac9be55006f2698fd0945906f9ec370ff" title="Добавляет элемент в отчет." alt="" coords="259,13,469,39"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_report_1_1_container.html#a2a3b9599dd9c38565a01f9511ecb439b" title="Добавляет контейнер в конец списка." alt="" coords="517,5,705,47"/>
 </map>
@@ -1219,7 +1235,7 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_icgraph" alt=""/></div>
 <map name="class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_icgraph" id="class_windows_forms_app1_1_1_database_a499d3d51434f82bb7220766baa2f05bd_icgraph">
-<area shape="rect" title="Создает отчет о процентах по операциям, проведенныи этим банкоматом." alt="" coords="863,39,1068,80"/>
+<area shape="rect" title="Создает отчет о процентах по операциям, проведенных этим банкоматом." alt="" coords="863,39,1068,80"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_percents_of_machine.html#aba639ea7d071f1ec826e7bcd8e230ef5" title=" " alt="" coords="556,5,781,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a108d446699b3d61c667c37d90f80923b" title=" " alt="" coords="523,71,815,112"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_percents_of_machine.html#a8c278862abffdb3c34243d1240c7c05e" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="265,5,466,47"/>
@@ -1469,14 +1485,14 @@ $(function() {
 
 </div>
 </div>
-<a id="ae9cb19136ed2ec74a70eea79062d26c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9cb19136ed2ec74a70eea79062d26c6">&#9670;&nbsp;</a></span>RemoveClient()</h2>
+<a id="a31c6b0a0646fc689f29db7ac61839ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31c6b0a0646fc689f29db7ac61839ca3">&#9670;&nbsp;</a></span>RemoveClient()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.RemoveClient </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.RemoveClient </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_client.html">Client</a>&#160;</td>
           <td class="paramname"><em>client</em></td><td>)</td>
@@ -1496,17 +1512,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_cgraph" id="class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_cgraph" id="class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_cgraph">
 <area shape="rect" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_icgraph" id="class_windows_forms_app1_1_1_database_ae9cb19136ed2ec74a70eea79062d26c6_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_icgraph" id="class_windows_forms_app1_1_1_database_a31c6b0a0646fc689f29db7ac61839ca3_icgraph">
 <area shape="rect" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#aced964d733656ec244107e1f5411d6f6" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -1516,14 +1532,14 @@ $(function() {
 
 </div>
 </div>
-<a id="ac85ee56a750ee249cc4dea9555fb0c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac85ee56a750ee249cc4dea9555fb0c59">&#9670;&nbsp;</a></span>RemoveMachine()</h2>
+<a id="ad1a60f27b0d1655e46db49dbd2277c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a60f27b0d1655e46db49dbd2277c6c">&#9670;&nbsp;</a></span>RemoveMachine()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.RemoveMachine </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.RemoveMachine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_machine.html">Machine</a>&#160;</td>
           <td class="paramname"><em>machine</em></td><td>)</td>
@@ -1543,17 +1559,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_cgraph" id="class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_cgraph" id="class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_cgraph">
 <area shape="rect" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_icgraph" id="class_windows_forms_app1_1_1_database_ac85ee56a750ee249cc4dea9555fb0c59_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_icgraph" id="class_windows_forms_app1_1_1_database_ad1a60f27b0d1655e46db49dbd2277c6c_icgraph">
 <area shape="rect" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7e836a05cebc643cfedf9c8f41607ca7" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -1563,14 +1579,14 @@ $(function() {
 
 </div>
 </div>
-<a id="a36e979440befdf7735ef7893a83adb59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36e979440befdf7735ef7893a83adb59">&#9670;&nbsp;</a></span>RemoveOperation()</h2>
+<a id="a59e069754e423f09d15d55b82e9077a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e069754e423f09d15d55b82e9077a3">&#9670;&nbsp;</a></span>RemoveOperation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.RemoveOperation </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.RemoveOperation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_operation.html">Operation</a>&#160;</td>
           <td class="paramname"><em>operation</em></td><td>)</td>
@@ -1590,17 +1606,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_cgraph" id="class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_cgraph" id="class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_cgraph">
 <area shape="rect" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_icgraph" id="class_windows_forms_app1_1_1_database_a36e979440befdf7735ef7893a83adb59_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_icgraph" id="class_windows_forms_app1_1_1_database_a59e069754e423f09d15d55b82e9077a3_icgraph">
 <area shape="rect" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#aa28e43974d887585ebb4452ad5a79472" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -1610,14 +1626,14 @@ $(function() {
 
 </div>
 </div>
-<a id="a4b1f0d7128f58f52410c44ca7d3be61b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b1f0d7128f58f52410c44ca7d3be61b">&#9670;&nbsp;</a></span>RemovePercent()</h2>
+<a id="ab3d9622d3bc473a6f423f2eb26ce7847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d9622d3bc473a6f423f2eb26ce7847">&#9670;&nbsp;</a></span>RemovePercent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string WindowsFormsApp1.Database.RemovePercent </td>
+          <td class="memname"><a class="el" href="class_windows_forms_app1_1_1_result.html">Result</a> WindowsFormsApp1.Database.RemovePercent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_windows_forms_app1_1_1_percent.html">Percent</a>&#160;</td>
           <td class="paramname"><em>percent</em></td><td>)</td>
@@ -1637,17 +1653,17 @@ $(function() {
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_cgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_cgraph" id="class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_cgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_cgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_cgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_cgraph" id="class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_cgraph">
 <area shape="rect" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="5,5,211,47"/>
-<area shape="rect" href="class_windows_forms_app1_1_1_database.html#acc31094c97083f4fbe458f2553649441" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
+<area shape="rect" href="class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="259,5,464,47"/>
 </map>
 </div>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_icgraph" alt=""/></div>
-<map name="class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_icgraph" id="class_windows_forms_app1_1_1_database_a4b1f0d7128f58f52410c44ca7d3be61b_icgraph">
+<div class="center"><img src="class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_icgraph.png" border="0" usemap="#class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_icgraph" alt=""/></div>
+<map name="class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_icgraph" id="class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_icgraph">
 <area shape="rect" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="777,5,983,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#aa2537a9f14f8f58a340fb38e781d8eee" title=" " alt="" coords="515,5,729,47"/>
 <area shape="rect" href="class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,5,467,47"/>
@@ -1819,11 +1835,15 @@ $(function() {
 <li><a class="el" href="_database_8cs.html">Database.cs</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Создано системой &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_windows_forms_app1.html">WindowsFormsApp1</a></li><li class="navelem"><a class="el" href="class_windows_forms_app1_1_1_database.html">Database</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

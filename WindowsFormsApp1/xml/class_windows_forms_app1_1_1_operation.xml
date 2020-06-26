@@ -87,9 +87,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="67" column="23" bodyfile="Operation.cs" bodystart="67" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="570" endline="584">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="571" endline="585">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
@@ -110,8 +110,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="72" column="20" bodyfile="Operation.cs" bodystart="72" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
@@ -132,9 +132,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="77" column="20" bodyfile="Operation.cs" bodystart="77" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>

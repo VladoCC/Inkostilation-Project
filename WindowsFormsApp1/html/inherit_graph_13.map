@@ -1,5 +1,3 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="node1" href="$class_win_forms_app1_1_1_hash_function.html" title=" " alt="" coords="5,23,201,65"/>
-<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_mod_function.html" title="Функция, определяющая хэш делением." alt="" coords="249,5,471,32"/>
-<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_odd_function.html" title="Функция, генерируяшая нечетные хэши, в пределах размера хранилища." alt="" coords="250,56,470,83"/>
+<area shape="rect" id="node1" href="$class_windows_forms_app1_1_1_size_container.html" title="Структура, предоставляет информацию о размере хранилища данных, для объектов, не имеющих доступа к са..." alt="" coords="5,5,232,32"/>
 </map>

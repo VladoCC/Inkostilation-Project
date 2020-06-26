@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['watermarkcolor_744',['WaterMarkColor',['../class_windows_forms_app1_1_1_water_mark_text_box.html#ab5ed7ecd57a807d59e03ea3695728749',1,'WindowsFormsApp1::WaterMarkTextBox']]],
-  ['watermarktext_745',['WaterMarkText',['../class_windows_forms_app1_1_1_water_mark_text_box.html#aba25e2bc2d36ea85bd5efa8d53cbd341',1,'WindowsFormsApp1::WaterMarkTextBox']]]
+  ['size_776',['Size',['../class_windows_forms_app1_1_1_size_container.html#a2c79eb8e58438245e86fe2a36d65a2f8',1,'WindowsFormsApp1::SizeContainer']]],
+  ['success_777',['Success',['../class_windows_forms_app1_1_1_result.html#ac0dec613fb212f29559c3f238ae20134',1,'WindowsFormsApp1::Result']]]
 ];

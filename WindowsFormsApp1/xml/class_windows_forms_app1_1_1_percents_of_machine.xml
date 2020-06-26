@@ -263,7 +263,7 @@
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
         <references refid="class_windows_forms_app1_1_1_percents_of_machine_1afd170491066bc7c7b512c63efcc50381" compoundref="_percents_of_machine_8cs" startline="15">WindowsFormsApp1.PercentsOfMachine.index</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</references>
         <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a598559650583f650f5068268e0ff304b" compoundref="_percents_of_machine_8_designer_8cs" startline="216">WindowsFormsApp1.PercentsOfMachine.MachinesKey</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_percents_of_machine_1a3f5b7b7be7cc8aeaad22840e43a6bfcb" compoundref="_percents_of_machine_8cs" startline="16">WindowsFormsApp1.PercentsOfMachine.NumRows</references>

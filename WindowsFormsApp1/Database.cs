@@ -104,11 +104,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="client"> Клиент для добавления. </param>
         /// <returns> Сообщение об успешном добавлении или о проблеме целостности. </returns>
-        public string AddClient(Client client)
+        public Result AddClient(Client client)
         {
             _clients.Add(client);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _clients.Remove(client);
             }
@@ -120,11 +120,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="machine"> Банкомат для добавления. </param>
         /// <returns> Сообщение об успешном добавлении или о проблеме целостности. </returns>
-        public string AddMachine(Machine machine)
+        public Result AddMachine(Machine machine)
         {
             _machines.Add(machine);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _machines.Remove(machine);
             }
@@ -136,11 +136,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="operation"> Операция для добавления. </param>
         /// <returns> Сообщение об успешном добавлении или о проблеме целостности. </returns>
-        public string AddOperation(Operation operation)
+        public Result AddOperation(Operation operation)
         {
             _operations.Add(operation);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _operations.Remove(operation);
             }
@@ -152,11 +152,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="percent"> Процент для добавления. </param>
         /// <returns> Сообщение об успешном добавлении или о проблеме целостности. </returns>
-        public string AddPercent(Percent percent)
+        public Result AddPercent(Percent percent)
         {
             _percents.Add(percent);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _percents.Remove(percent);
             }
@@ -168,11 +168,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="client"> Клиент для удаления. </param>
         /// <returns> Сообщение об успешном удалении или о проблеме целостности. </returns>
-        public string RemoveClient(Client client)
+        public Result RemoveClient(Client client)
         {
             _clients.Remove(client);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _clients.Add(client);
             }
@@ -184,11 +184,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="machine"> Банкомат для удаления. </param>
         /// <returns> Сообщение об успешном удалении или о проблеме целостности. </returns>
-        public string RemoveMachine(Machine machine)
+        public Result RemoveMachine(Machine machine)
         { 
             _machines.Remove(machine);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _machines.Add(machine);
             }
@@ -200,11 +200,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="operation"> Операция для удаления. </param>
         /// <returns> Сообщение об успешном удалении или о проблеме целостности. </returns>
-        public string RemoveOperation(Operation operation)
+        public Result RemoveOperation(Operation operation)
         {
             _operations.Remove(operation);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _operations.Add(operation);
             }
@@ -216,11 +216,11 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="percent"> Процент для удаления. </param>
         /// <returns> Сообщение об успешном удалении или о проблеме целостности. </returns>
-        public string RemovePercent(Percent percent)
+        public Result RemovePercent(Percent percent)
         {
             _percents.Remove(percent);
-            string con = Consistence();
-            if (con != "База данных совместима")
+            Result con = Consistence();
+            if (!con)
             {
                 _percents.Remove(percent);
             }
@@ -421,9 +421,9 @@ namespace WindowsFormsApp1
         /// Производит проверку базы данных на целостность.
         /// </summary>
         /// <returns> Сообщение о причине нарушения целостности или отсутствия таковых. </returns>
-        public string Consistence()
+        public Result Consistence()
         {
-            string errors = "";
+            Result result = new Result(false);
             int count = 0;
             if (_percents.Size() > 0 && _operations.Size() > 0)
             {
@@ -442,7 +442,7 @@ namespace WindowsFormsApp1
                     if (!found)
                     {
                         count++;
-                        errors += "Процент с операцией " + percent.OperationName +
+                        result += "Процент с операцией " + percent.OperationName +
                                   " не соответствует ни одной операции\n";
                     }
                 }
@@ -450,10 +450,10 @@ namespace WindowsFormsApp1
             else if (_percents.Size() > 0 && _operations.Size() == 0)
             {
                 count++;
-                errors += "Процент не может существовать без хотя бы одной операции\n";
+                result += "Процент не может существовать без хотя бы одной операции\n";
             }
 
-            errors += "\n";
+            result += "\n";
 
             if (_operations.Size() > 0 && _clients.Size() > 0)
             {
@@ -472,17 +472,17 @@ namespace WindowsFormsApp1
                     if (!found)
                     {
                         count++;
-                        errors += "Операция с номером карты " + operation.CardNumber + " не соответствует ни одному клиенту\n";
+                        result += "Операция с номером карты " + operation.CardNumber + " не соответствует ни одному клиенту\n";
                     }
                 }
             }
             else if (_operations.Size() > 0 && _clients.Size() == 0)
             {
                 count++;
-                errors += "Операция не может существовать без хотя бы одного клиента\n";
+                result += "Операция не может существовать без хотя бы одного клиента\n";
             }
 
-            errors += "\n";
+            result += "\n";
 
             if (_operations.Size() > 0 && _machines.Size() > 0)
             {
@@ -501,7 +501,7 @@ namespace WindowsFormsApp1
                     if (!found)
                     {
                         count++;
-                        errors += "Операция с номером банкомата " + operation.MachineNumber +
+                        result += "Операция с номером банкомата " + operation.MachineNumber +
                                   " не соответствует ни одному банкомату\n";
                     }
                 }
@@ -509,15 +509,16 @@ namespace WindowsFormsApp1
             else if (_operations.Size() > 0 && _machines.Size() == 0)
             {
                 count++;
-                errors += "Операция не может существовать без хотя бы одного банкомата\n";
+                result += "Операция не может существовать без хотя бы одного банкомата\n";
             }
 
             if (count == 0)
             {
-                return "База данных совместима";
+                result.Success = true;
+                return result + "База данных совместима";
             }
 
-            return errors;
+            return result;
         }
 
         /// <summary>

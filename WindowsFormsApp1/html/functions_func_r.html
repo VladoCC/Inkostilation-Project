@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_func_r.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -78,30 +98,36 @@ $(function() {
 , <a class="el" href="class_win_forms_app1_1_1_tree.html#a76585e0c000743abea2a03f81c4fb9d9">WinFormsApp1.Tree&lt; T &gt;</a>
 </li>
 <li>RemoveClient()
-: <a class="el" href="class_windows_forms_app1_1_1_database.html#ae9cb19136ed2ec74a70eea79062d26c6">WindowsFormsApp1.Database</a>
+: <a class="el" href="class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3">WindowsFormsApp1.Database</a>
 </li>
 <li>RemoveMachine()
-: <a class="el" href="class_windows_forms_app1_1_1_database.html#ac85ee56a750ee249cc4dea9555fb0c59">WindowsFormsApp1.Database</a>
+: <a class="el" href="class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c">WindowsFormsApp1.Database</a>
 </li>
 <li>RemoveOperation()
-: <a class="el" href="class_windows_forms_app1_1_1_database.html#a36e979440befdf7735ef7893a83adb59">WindowsFormsApp1.Database</a>
+: <a class="el" href="class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3">WindowsFormsApp1.Database</a>
 </li>
 <li>RemovePercent()
-: <a class="el" href="class_windows_forms_app1_1_1_database.html#a4b1f0d7128f58f52410c44ca7d3be61b">WindowsFormsApp1.Database</a>
+: <a class="el" href="class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847">WindowsFormsApp1.Database</a>
 </li>
 <li>Report()
 : <a class="el" href="class_windows_forms_app1_1_1_report.html#a372b1c74c24075a379bab6ee31527f05">WindowsFormsApp1.Report&lt; K, V &gt;</a>
+</li>
+<li>Result()
+: <a class="el" href="class_windows_forms_app1_1_1_result.html#ac4ed3a95744201d9d40826d705b45432">WindowsFormsApp1.Result</a>
 </li>
 <li>RightRotate()
 : <a class="el" href="class_windows_forms_app1_1_1_r_b.html#a814c224d0e989fe6f25523894c49ace6">WindowsFormsApp1.RB&lt; T &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Создано системой &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

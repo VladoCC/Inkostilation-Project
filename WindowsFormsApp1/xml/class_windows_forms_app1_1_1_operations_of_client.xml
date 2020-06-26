@@ -261,7 +261,7 @@
         </inbodydescription>
         <location file="OperationsOfClient.cs" line="22" column="22" bodyfile="OperationsOfClient.cs" bodystart="22" bodyend="43"/>
         <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" compoundref="_operations_of_client_8_designer_8cs" startline="214">WindowsFormsApp1.OperationsOfClient.ClientsKey</references>
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>

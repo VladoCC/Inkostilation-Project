@@ -3,6 +3,12 @@
   <compound refid="class_windows_forms_app1_1_1_bubble_sorter" kind="class"><name>WindowsFormsApp1::BubbleSorter</name>
     <member refid="class_windows_forms_app1_1_1_bubble_sorter_1a8be5827131880cc2227f39b7d0fcc045" kind="function"><name>Sort</name></member>
   </compound>
+  <compound refid="class_windows_forms_app1_1_1_checks" kind="class"><name>WindowsFormsApp1::Checks</name>
+    <member refid="class_windows_forms_app1_1_1_checks_1ab25e37cdeff513aef088f9b732fc8202" kind="function"><name>CheckMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_checks_1a01ea5bc6b8ae7aadf0d0a01772b1a84f" kind="function"><name>CheckClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_checks_1abbfec2748cfdff637cc851b6676ebe82" kind="function"><name>CheckPercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_checks_1ae2b15a3a568a14af454b0afbd300eadc" kind="function"><name>CheckOperation</name></member>
+  </compound>
   <compound refid="class_windows_forms_app1_1_1_client" kind="class"><name>WindowsFormsApp1::Client</name>
     <member refid="class_windows_forms_app1_1_1_client_1ae2707b3f719cdd468c28603c817ef3d4" kind="variable"><name>_cardNumber</name></member>
     <member refid="class_windows_forms_app1_1_1_client_1a4ff363e0e76d460165e056dd1331a5d6" kind="variable"><name>_bankName</name></member>
@@ -46,14 +52,14 @@
     <member refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" kind="function"><name>GetNewInstance</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" kind="function"><name>Database</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a7fbfcac98864ecc48c83b651a59a69c1" kind="function"><name>Save</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" kind="function"><name>AddClient</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" kind="function"><name>AddMachine</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" kind="function"><name>AddOperation</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" kind="function"><name>AddPercent</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" kind="function"><name>RemoveClient</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" kind="function"><name>RemoveMachine</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" kind="function"><name>RemoveOperation</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" kind="function"><name>RemovePercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" kind="function"><name>AddClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" kind="function"><name>AddMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" kind="function"><name>AddOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" kind="function"><name>AddPercent</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" kind="function"><name>RemoveClient</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" kind="function"><name>RemoveMachine</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" kind="function"><name>RemoveOperation</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" kind="function"><name>RemovePercent</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" kind="function"><name>FindClient</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" kind="function"><name>FindMachine</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" kind="function"><name>FindOperation</name></member>
@@ -72,7 +78,7 @@
     <member refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" kind="function"><name>PercentArray</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" kind="function"><name>ClientsFunction</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" kind="function"><name>MachinesFunction</name></member>
-    <member refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" kind="function"><name>Consistence</name></member>
+    <member refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" kind="function"><name>Consistence</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" kind="function"><name>ClientOperationReport</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" kind="function"><name>MachineOperationReport</name></member>
     <member refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" kind="function"><name>OperationPercentReport</name></member>
@@ -529,6 +535,18 @@
     <member refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" kind="function"><name>Data</name></member>
     <member refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" kind="function"><name>DataSize</name></member>
   </compound>
+  <compound refid="class_windows_forms_app1_1_1_result" kind="class"><name>WindowsFormsApp1::Result</name>
+    <member refid="class_windows_forms_app1_1_1_result_1a3afdab68abd7342bd55b05b32e42d490" kind="variable"><name>_success</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1a105c7a040a67d3fec5783fee93da42e5" kind="variable"><name>_message</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" kind="property"><name>Success</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" kind="property"><name>Message</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1ac4ed3a95744201d9d40826d705b45432" kind="function"><name>Result</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" kind="function"><name>AddMessage</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1a5e1f7489930eb0359b0995c728a4e2e8" kind="function"><name>operator+</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1ae1e01a556debbcb90aab472931a73392" kind="function"><name>operator true</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1ae2dda2995f6d61acefe76f504c9d1609" kind="function"><name>operator false</name></member>
+    <member refid="class_windows_forms_app1_1_1_result_1acd9841cc3ef6dd00dd2c2ee900f2de51" kind="function"><name>operator!</name></member>
+  </compound>
   <compound refid="class_windows_forms_app1_1_1_search_query" kind="class"><name>WindowsFormsApp1::SearchQuery</name>
     <member refid="class_windows_forms_app1_1_1_search_query_1a73399b645227c7748e9508fdc8090055" kind="variable"><name>_request</name></member>
     <member refid="class_windows_forms_app1_1_1_search_query_1a1a973d0e9bdcc27be388c89e73baab33" kind="variable"><name>_counter</name></member>
@@ -672,6 +690,8 @@
   </compound>
   <compound refid="_bubble_sorter_8cs" kind="file"><name>BubbleSorter.cs</name>
   </compound>
+  <compound refid="_checks_8cs" kind="file"><name>Checks.cs</name>
+  </compound>
   <compound refid="_client_8cs" kind="file"><name>Client.cs</name>
   </compound>
   <compound refid="_client_found_8cs" kind="file"><name>ClientFound.cs</name>
@@ -762,6 +782,8 @@
     <member refid="_r_b_8cs_1ab87bacfdad76e61b9412d7124be44c1c" kind="enum"><name>Color</name></member>
   </compound>
   <compound refid="_report_8cs" kind="file"><name>Report.cs</name>
+  </compound>
+  <compound refid="_result_8cs" kind="file"><name>Result.cs</name>
   </compound>
   <compound refid="_search_query_8cs" kind="file"><name>SearchQuery.cs</name>
   </compound>

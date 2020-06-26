@@ -28,6 +28,8 @@
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="BubbleSorter.cs" t="Include" />
+        <e p="Checks.cs" t="Include" />
+        <e p="ClassDiagram1.cd" t="Include" />
         <e p="Client.cs" t="Include" />
         <e p="ClientFound.cs" t="Include" />
         <e p="ClientFound.Designer.cs" t="Include" />
@@ -96,6 +98,7 @@
           <e p="screen.jpg" t="Include" />
           <e p="screen1.jpg" t="Include" />
         </e>
+        <e p="Result.cs" t="Include" />
         <e p="SearchQuery.cs" t="Include" />
         <e p="ShellSorter.cs" t="Include" />
         <e p="SizeContainer.cs" t="Include" />

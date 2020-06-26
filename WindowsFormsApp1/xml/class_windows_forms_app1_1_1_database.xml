@@ -35,13 +35,13 @@
         </inbodydescription>
         <location file="Database.cs" line="28" column="25" bodyfile="Database.cs" bodystart="28" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" compoundref="_database_8cs" startline="236" endline="241">WindowsFormsApp1.Database.FindClient</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" compoundref="_database_8cs" startline="334" endline="337">WindowsFormsApp1.Database.ClientSize</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" compoundref="_database_8cs" startline="370" endline="373">WindowsFormsApp1.Database.ClientArray</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="406" endline="409">WindowsFormsApp1.Database.ClientsFunction</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" prot="private" static="no" mutable="no">
         <type><ref refid="class_win_forms_app1_1_1_hash_map" kindref="compound">HashMap</ref>&lt; int, <ref refid="class_windows_forms_app1_1_1_machine" kindref="compound">Machine</ref> &gt;</type>
@@ -57,13 +57,13 @@
         </inbodydescription>
         <location file="Database.cs" line="34" column="25" bodyfile="Database.cs" bodystart="34" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" compoundref="_database_8cs" startline="249" endline="254">WindowsFormsApp1.Database.FindMachine</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" compoundref="_database_8cs" startline="343" endline="346">WindowsFormsApp1.Database.MachineSize</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" compoundref="_database_8cs" startline="379" endline="382">WindowsFormsApp1.Database.MachineArray</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="415" endline="418">WindowsFormsApp1.Database.MachinesFunction</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" prot="private" static="no" mutable="no">
         <type><ref refid="class_win_forms_app1_1_1_tree" kindref="compound">Tree</ref>&lt; <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
@@ -79,15 +79,15 @@
         </inbodydescription>
         <location file="Database.cs" line="38" column="22" bodyfile="Database.cs" bodystart="38" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" compoundref="_database_8cs" startline="262" endline="267">WindowsFormsApp1.Database.FindOperation</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" compoundref="_database_8cs" startline="352" endline="355">WindowsFormsApp1.Database.OperationSize</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" compoundref="_database_8cs" startline="388" endline="391">WindowsFormsApp1.Database.OperationArray</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="549" endline="563">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" prot="private" static="no" mutable="no">
         <type><ref refid="class_win_forms_app1_1_1_tree" kindref="compound">Tree</ref>&lt; <ref refid="class_windows_forms_app1_1_1_percent" kindref="compound">Percent</ref> &gt;</type>
@@ -103,14 +103,14 @@
         </inbodydescription>
         <location file="Database.cs" line="42" column="22" bodyfile="Database.cs" bodystart="42" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" compoundref="_database_8cs" startline="81" endline="88">WindowsFormsApp1.Database.Database</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" compoundref="_database_8cs" startline="275" endline="280">WindowsFormsApp1.Database.FindPercent</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" compoundref="_database_8cs" startline="361" endline="364">WindowsFormsApp1.Database.PercentSize</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" compoundref="_database_8cs" startline="397" endline="400">WindowsFormsApp1.Database.PercentArray</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="570" endline="584">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="592" endline="612">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="571" endline="585">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -221,9 +221,9 @@
         <location file="Database.cs" line="94" column="21" bodyfile="Database.cs" bodystart="94" bodyend="100"/>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="916" endline="929">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.AddClient</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.AddClient</definition>
         <argsstring>(Client client)</argsstring>
         <name>AddClient</name>
         <param>
@@ -251,12 +251,12 @@
         </inbodydescription>
         <location file="Database.cs" line="107" column="23" bodyfile="Database.cs" bodystart="107" bodyend="116"/>
         <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.AddMachine</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.AddMachine</definition>
         <argsstring>(Machine machine)</argsstring>
         <name>AddMachine</name>
         <param>
@@ -284,12 +284,12 @@
         </inbodydescription>
         <location file="Database.cs" line="123" column="23" bodyfile="Database.cs" bodystart="123" bodyend="132"/>
         <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.AddOperation</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.AddOperation</definition>
         <argsstring>(Operation operation)</argsstring>
         <name>AddOperation</name>
         <param>
@@ -317,12 +317,12 @@
         </inbodydescription>
         <location file="Database.cs" line="139" column="23" bodyfile="Database.cs" bodystart="139" bodyend="148"/>
         <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.AddPercent</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.AddPercent</definition>
         <argsstring>(Percent percent)</argsstring>
         <name>AddPercent</name>
         <param>
@@ -350,12 +350,12 @@
         </inbodydescription>
         <location file="Database.cs" line="155" column="23" bodyfile="Database.cs" bodystart="155" bodyend="164"/>
         <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.RemoveClient</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.RemoveClient</definition>
         <argsstring>(Client client)</argsstring>
         <name>RemoveClient</name>
         <param>
@@ -383,12 +383,12 @@
         </inbodydescription>
         <location file="Database.cs" line="171" column="23" bodyfile="Database.cs" bodystart="171" bodyend="180"/>
         <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.RemoveMachine</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.RemoveMachine</definition>
         <argsstring>(Machine machine)</argsstring>
         <name>RemoveMachine</name>
         <param>
@@ -416,12 +416,12 @@
         </inbodydescription>
         <location file="Database.cs" line="187" column="23" bodyfile="Database.cs" bodystart="187" bodyend="196"/>
         <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.RemoveOperation</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.RemoveOperation</definition>
         <argsstring>(Operation operation)</argsstring>
         <name>RemoveOperation</name>
         <param>
@@ -449,12 +449,12 @@
         </inbodydescription>
         <location file="Database.cs" line="203" column="23" bodyfile="Database.cs" bodystart="203" bodyend="212"/>
         <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.RemovePercent</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.RemovePercent</definition>
         <argsstring>(Percent percent)</argsstring>
         <name>RemovePercent</name>
         <param>
@@ -482,7 +482,7 @@
         </inbodydescription>
         <location file="Database.cs" line="219" column="23" bodyfile="Database.cs" bodystart="219" bodyend="228"/>
         <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
-        <references refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -981,9 +981,9 @@
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>string WindowsFormsApp1.Database.Consistence</definition>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result WindowsFormsApp1.Database.Consistence</definition>
         <argsstring>()</argsstring>
         <name>Consistence</name>
         <briefdescription>
@@ -996,7 +996,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="424" column="23" bodyfile="Database.cs" bodystart="424" bodyend="521"/>
+        <location file="Database.cs" line="424" column="23" bodyfile="Database.cs" bodystart="424" bodyend="522"/>
         <references refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" compoundref="_database_8cs" startline="28">WindowsFormsApp1.Database._clients</references>
         <references refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" compoundref="_database_8cs" startline="34">WindowsFormsApp1.Database._machines</references>
         <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
@@ -1007,14 +1007,15 @@
         <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</referencedby>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="39" endline="42">WindowsFormsApp1.Result.Success</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_report" kindref="compound">Report</ref>&lt; <ref refid="class_windows_forms_app1_1_1_client" kindref="compound">Client</ref>, <ref refid="class_windows_forms_app1_1_1_operation" kindref="compound">Operation</ref> &gt;</type>
@@ -1044,7 +1045,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="528" column="23" bodyfile="Database.cs" bodystart="528" bodyend="542"/>
+        <location file="Database.cs" line="529" column="23" bodyfile="Database.cs" bodystart="529" bodyend="543"/>
         <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
         <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
         <references refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" compoundref="_client_8cs" startline="57">WindowsFormsApp1.Client.CardNumber</references>
@@ -1080,7 +1081,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="549" column="23" bodyfile="Database.cs" bodystart="549" bodyend="563"/>
+        <location file="Database.cs" line="550" column="23" bodyfile="Database.cs" bodystart="550" bodyend="564"/>
         <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
         <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
         <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
@@ -1116,7 +1117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="570" column="23" bodyfile="Database.cs" bodystart="570" bodyend="584"/>
+        <location file="Database.cs" line="571" column="23" bodyfile="Database.cs" bodystart="571" bodyend="585"/>
         <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
         <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
@@ -1134,7 +1135,7 @@
           <declname>machine</declname>
         </param>
         <briefdescription>
-<para>Создает отчет о процентах по операциям, проведенныи этим банкоматом. </para>
+<para>Создает отчет о процентах по операциям, проведенных этим банкоматом. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -1152,7 +1153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Database.cs" line="592" column="23" bodyfile="Database.cs" bodystart="592" bodyend="612"/>
+        <location file="Database.cs" line="593" column="23" bodyfile="Database.cs" bodystart="593" bodyend="613"/>
         <references refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" compoundref="_database_8cs" startline="38">WindowsFormsApp1.Database._operations</references>
         <references refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" compoundref="_database_8cs" startline="42">WindowsFormsApp1.Database._percents</references>
         <references refid="class_windows_forms_app1_1_1_report_1ac9be55006f2698fd0945906f9ec370ff" compoundref="_report_8cs" startline="46" endline="56">WindowsFormsApp1.Report&lt; K, V &gt;.Add</references>
@@ -1269,22 +1270,22 @@
         <link refid="class_windows_forms_app1_1_1_size_container"/>
       </node>
     </collaborationgraph>
-    <location file="Database.cs" line="17" column="11" bodyfile="Database.cs" bodystart="18" bodyend="613"/>
+    <location file="Database.cs" line="17" column="11" bodyfile="Database.cs" bodystart="18" bodyend="614"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_database_1af052b73daa348c75b34ad7971a882b92" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_clients</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a1d8dc98e9c8edc755cd01090d6a5c494" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_instance</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1aa777aebe708018d8792cbd6975486e8d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_machines</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1ad0e30b110197fd32c24579f711e9dfe0" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_operations</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a1a737fdb7991f0ecaf399d95d4cc33e4" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>_percents</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1aeed3bffd7e44c11f25f76286521bd7f4" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddClient</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1a48f0de5ce0cad4edc36064fe57ec8988" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddMachine</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1ab451a666862c8ec775b8963249a118ec" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddOperation</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1a3b28d70a75c0082e69838ba188bfaebc" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddPercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>AddPercent</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientArray</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientOperationReport</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientsFunction</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>ClientSize</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Consistence</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Consistence</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1aa0ba20238d7bce2cfa6aa2d725a070fc" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Database</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindClient</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1afc283698a1c2dd0688f32bbab9f3c6ed" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>FindClient</name></member>
@@ -1306,10 +1307,10 @@
       <member refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>OperationSize</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>PercentArray</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>PercentSize</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1ae9cb19136ed2ec74a70eea79062d26c6" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveClient</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1ac85ee56a750ee249cc4dea9555fb0c59" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveMachine</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1a36e979440befdf7735ef7893a83adb59" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveOperation</name></member>
-      <member refid="class_windows_forms_app1_1_1_database_1a4b1f0d7128f58f52410c44ca7d3be61b" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemovePercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemoveOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>RemovePercent</name></member>
       <member refid="class_windows_forms_app1_1_1_database_1a7fbfcac98864ecc48c83b651a59a69c1" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Database</scope><name>Save</name></member>
     </listofallmembers>
   </compounddef>

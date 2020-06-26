@@ -67,8 +67,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Client.cs" line="57" column="20" bodyfile="Client.cs" bodystart="57" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1acc31094c97083f4fbe458f2553649441" compoundref="_database_8cs" startline="424" endline="521">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="528" endline="542">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" prot="public" static="no" mutable="no">

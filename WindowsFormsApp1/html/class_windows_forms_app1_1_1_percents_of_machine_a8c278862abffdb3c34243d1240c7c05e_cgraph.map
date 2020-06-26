@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_percents_of_machine.html#aba639ea7d071f1ec826e7bcd8e230ef5" title=" " alt="" coords="255,123,480,164"/>
 <area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_report.html#addfc7ca789f2b0726af477c965f42ac1" title="Предоставляет данные, хранящиеся в отчете в виде массива." alt="" coords="528,71,743,98"/>
 <area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_report.html#a9d80497c91dbbc3f4f927b0971a8c2af" title="Возвращает количество элементов в отчете." alt="" coords="541,123,729,164"/>
-<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd" title="Создает отчет о процентах по операциям, проведенныи этим банкоматом." alt="" coords="533,188,738,229"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd" title="Создает отчет о процентах по операциям, проведенных этим банкоматом." alt="" coords="533,188,738,229"/>
 <area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_report_1_1_container.html#ae9cfed22f542b097fc74e5e6aabff9d1" title="Заполняет массив, начиная с указанной позиции, элементами данного списка." alt="" coords="803,5,991,47"/>
 <area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_report_1_1_container.html#a2a5ca1df6a5d4d4c35e52e55fd85021c" title="Возвращает количество элементов в списке." alt="" coords="803,123,991,164"/>
 <area shape="rect" id="node6" href="$interface_windows_forms_app1_1_1_i_sorter.html#a4f91437b489659b252ef608cb2451b39" title="Метод, совершающий сортировку." alt="" coords="791,71,1003,98"/>

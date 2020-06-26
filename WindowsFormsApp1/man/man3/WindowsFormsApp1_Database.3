@@ -1,4 +1,4 @@
-.TH "WindowsFormsApp1.Database" 3 "Вс 7 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.TH "WindowsFormsApp1.Database" 3 "Сб 27 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -15,35 +15,35 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .br
 .RI "Сохраняет базу данных на жесткий диск\&. "
 .ti -1c
-.RI "string \fBAddClient\fP (\fBClient\fP client)"
+.RI "\fBResult\fP \fBAddClient\fP (\fBClient\fP client)"
 .br
 .RI "Добавляет клиента в базу данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBAddMachine\fP (\fBMachine\fP machine)"
+.RI "\fBResult\fP \fBAddMachine\fP (\fBMachine\fP machine)"
 .br
 .RI "Добавляет банкомат в базу данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBAddOperation\fP (\fBOperation\fP operation)"
+.RI "\fBResult\fP \fBAddOperation\fP (\fBOperation\fP operation)"
 .br
 .RI "Добавляет операцию в базу данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBAddPercent\fP (\fBPercent\fP percent)"
+.RI "\fBResult\fP \fBAddPercent\fP (\fBPercent\fP percent)"
 .br
 .RI "Добавляет процент в базу данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBRemoveClient\fP (\fBClient\fP client)"
+.RI "\fBResult\fP \fBRemoveClient\fP (\fBClient\fP client)"
 .br
 .RI "Удаляет клиента из базы данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBRemoveMachine\fP (\fBMachine\fP machine)"
+.RI "\fBResult\fP \fBRemoveMachine\fP (\fBMachine\fP machine)"
 .br
 .RI "Удаляет банкомат из базы данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBRemoveOperation\fP (\fBOperation\fP operation)"
+.RI "\fBResult\fP \fBRemoveOperation\fP (\fBOperation\fP operation)"
 .br
 .RI "Удаляет операцию из базы данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
-.RI "string \fBRemovePercent\fP (\fBPercent\fP percent)"
+.RI "\fBResult\fP \fBRemovePercent\fP (\fBPercent\fP percent)"
 .br
 .RI "Удаляет процент из базы данных, если это не нарушает целостность базы данных\&. "
 .ti -1c
@@ -119,7 +119,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .br
 .RI "Возвращает хэш-функцию, используемую для таблицы машин данной базы данных\&. "
 .ti -1c
-.RI "string \fBConsistence\fP ()"
+.RI "\fBResult\fP \fBConsistence\fP ()"
 .br
 .RI "Производит проверку базы данных на целостность\&. "
 .ti -1c
@@ -137,7 +137,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .ti -1c
 .RI "\fBReport\fP< \fBMachine\fP, \fBPercent\fP > \fBMachinePercentReport\fP (\fBMachine\fP machine)"
 .br
-.RI "Создает отчет о процентах по операциям, проведенныи этим банкоматом\&. "
+.RI "Создает отчет о процентах по операциям, проведенных этим банкоматом\&. "
 .in -1c
 .SS "Открытые статические члены"
 
@@ -200,7 +200,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 Приватный конструктор, используемый для создания пустой базы данных\&. Инициализирует все структуры данных пустыми\&. 
 .SH "Методы"
 .PP 
-.SS "string WindowsFormsApp1\&.Database\&.AddClient (\fBClient\fP client)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.AddClient (\fBClient\fP client)"
 
 .PP
 Добавляет клиента в базу данных, если это не нарушает целостность базы данных\&. 
@@ -216,7 +216,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.AddMachine (\fBMachine\fP machine)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.AddMachine (\fBMachine\fP machine)"
 
 .PP
 Добавляет банкомат в базу данных, если это не нарушает целостность базы данных\&. 
@@ -232,7 +232,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.AddOperation (\fBOperation\fP operation)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.AddOperation (\fBOperation\fP operation)"
 
 .PP
 Добавляет операцию в базу данных, если это не нарушает целостность базы данных\&. 
@@ -248,7 +248,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.AddPercent (\fBPercent\fP percent)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.AddPercent (\fBPercent\fP percent)"
 
 .PP
 Добавляет процент в базу данных, если это не нарушает целостность базы данных\&. 
@@ -313,7 +313,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.Consistence ()"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.Consistence ()"
 
 .PP
 Производит проверку базы данных на целостность\&. 
@@ -517,7 +517,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .SS "\fBReport\fP<\fBMachine\fP, \fBPercent\fP> WindowsFormsApp1\&.Database\&.MachinePercentReport (\fBMachine\fP machine)"
 
 .PP
-Создает отчет о процентах по операциям, проведенныи этим банкоматом\&. 
+Создает отчет о процентах по операциям, проведенных этим банкоматом\&. 
 .PP
 \fBАргументы\fP
 .RS 4
@@ -612,7 +612,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.RemoveClient (\fBClient\fP client)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.RemoveClient (\fBClient\fP client)"
 
 .PP
 Удаляет клиента из базы данных, если это не нарушает целостность базы данных\&. 
@@ -628,7 +628,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.RemoveMachine (\fBMachine\fP machine)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.RemoveMachine (\fBMachine\fP machine)"
 
 .PP
 Удаляет банкомат из базы данных, если это не нарушает целостность базы данных\&. 
@@ -644,7 +644,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.RemoveOperation (\fBOperation\fP operation)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.RemoveOperation (\fBOperation\fP operation)"
 
 .PP
 Удаляет операцию из базы данных, если это не нарушает целостность базы данных\&. 
@@ -660,7 +660,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "string WindowsFormsApp1\&.Database\&.RemovePercent (\fBPercent\fP percent)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.RemovePercent (\fBPercent\fP percent)"
 
 .PP
 Удаляет процент из базы данных, если это не нарушает целостность базы данных\&. 

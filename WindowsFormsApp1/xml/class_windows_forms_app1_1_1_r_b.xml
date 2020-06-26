@@ -442,7 +442,7 @@
           <declname>X</declname>
         </param>
         <briefdescription>
-<para>Checks the tree for any violations after deletion and performs a fix </para>
+<para><ref refid="class_windows_forms_app1_1_1_checks" kindref="compound">Checks</ref> the tree for any violations after deletion and performs a fix </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
