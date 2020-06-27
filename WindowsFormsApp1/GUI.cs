@@ -47,25 +47,29 @@ namespace WindowsFormsApp1
             DialogWindow1.ShowDialog();
             if (!stopflag)
             {
-                dataGridView1.Rows.Add();
-                NumRows1 += 1;
-                dataGridView1.Rows[NumRows1].Cells[1].Value = DialogWindow1.waterMarkTextBox1.Text;
-                dataGridView1.Rows[NumRows1].Cells[2].Value = DialogWindow1.waterMarkTextBox2.Text;
-                dataGridView1.Rows[NumRows1].Cells[3].Value = DialogWindow1.waterMarkTextBox3.Text;
-                Machine NewMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[NumRows1].Cells[1].Value),
-                Convert.ToString(dataGridView1.Rows[NumRows1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[NumRows1].Cells[3].Value));
-                string tempstring = myDatabase.AddMachine(NewMachine);
-                if (tempstring == "База данных совместима")
+                Machine NewMachine = new Machine(Convert.ToInt32(DialogWindow1.waterMarkTextBox1.Text),
+                Convert.ToString(DialogWindow1.waterMarkTextBox2.Text), Convert.ToString(DialogWindow1.waterMarkTextBox3.Text));
+                Result res = myDatabase.AddMachine(NewMachine);
+                if (res.Success)
                 {
-                    HashFunction<int> myHashFunction1 = myDatabase.MachinesFunction();
-                    dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction1.Hash(NewMachine.GetKey());
+                    dataGridView1.Rows.Clear();
+                    NumRows1 = -1;
+                    Machine[] machineArray = myDatabase.MachineArray();
+                    for (int i = 0; i < myDatabase.MachineSize(); i++)
+                    {
+                        dataGridView1.Rows.Add();
+                        NumRows1 += 1;
+                        HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                        dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
+                        dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
+                        dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
+                        dataGridView1.Rows[NumRows1].Cells[3].Value = machineArray[i].BankName;
+                    }
                 }
                 else
                 {
-                    dataGridView1.Rows.RemoveAt(NumRows1);
-                    NumRows1 -= 1;
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                 }
             }
@@ -81,25 +85,29 @@ namespace WindowsFormsApp1
             DialogWindow2.ShowDialog();
             if (!stopflag)
             {
-                dataGridView3.Rows.Add();
-                NumRows2 += 1;
-                dataGridView3.Rows[NumRows2].Cells[1].Value = DialogWindow2.waterMarkTextBox1.Text;
-                dataGridView3.Rows[NumRows2].Cells[2].Value = DialogWindow2.waterMarkTextBox2.Text;
-                dataGridView3.Rows[NumRows2].Cells[3].Value = DialogWindow2.waterMarkTextBox3.Text;
-                Client NewClient = new Client(Convert.ToInt32(dataGridView3.Rows[NumRows2].Cells[1].Value),
-                              Convert.ToString(dataGridView3.Rows[NumRows2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[NumRows2].Cells[3].Value));
-                string tempstring = myDatabase.AddClient(NewClient);
-                if (tempstring == "База данных совместима")
+                Client NewClient = new Client(Convert.ToInt32(DialogWindow2.waterMarkTextBox1.Text),
+                              Convert.ToString(DialogWindow2.waterMarkTextBox2.Text), Convert.ToString(DialogWindow2.waterMarkTextBox3.Text));
+                Result res = myDatabase.AddClient(NewClient);
+                if (res.Success)
                 {
-                    HashFunction<int> myHashFunction2 = myDatabase.ClientsFunction();
-                    dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction2.Hash(NewClient.GetKey());
+                    dataGridView3.Rows.Clear();
+                    NumRows2 = -1;
+                    Client[] clientArray = myDatabase.ClientArray();
+                    for (int i = 0; i < myDatabase.ClientSize(); i++)
+                    {
+                        dataGridView3.Rows.Add();
+                        NumRows2 += 1;
+                        HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                        dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
+                        dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
+                        dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
+                        dataGridView3.Rows[NumRows2].Cells[3].Value = clientArray[i].Name;
+                    }
                 }
                 else
                 {
-                    dataGridView3.Rows.RemoveAt(NumRows2);
-                    NumRows2 -= 1;
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                 }
             }
@@ -116,27 +124,30 @@ namespace WindowsFormsApp1
             DialogWindow3.ShowDialog();
             if (!stopflag)
                 {
-                    dataGridView2.Rows.Add();
-                NumRows3 += 1;
-                dataGridView2.Rows[NumRows3].Cells[0].Value = DialogWindow3.waterMarkTextBox1.Text;
-                dataGridView2.Rows[NumRows3].Cells[1].Value = DialogWindow3.waterMarkTextBox2.Text;
-                dataGridView2.Rows[NumRows3].Cells[2].Value = DialogWindow3.waterMarkTextBox3.Text;
-                dataGridView2.Rows[NumRows3].Cells[3].Value = DialogWindow3.waterMarkTextBox4.Text;
-                Percent NewPercent = new Percent(Convert.ToString(dataGridView2.Rows[NumRows3].Cells[0].Value),
-                           Convert.ToString(dataGridView2.Rows[NumRows3].Cells[1].Value),
-                           Convert.ToString(dataGridView2.Rows[NumRows3].Cells[2].Value),
-                           Convert.ToInt32(dataGridView2.Rows[NumRows3].Cells[3].Value));
-                string tempstring = myDatabase.AddPercent(NewPercent);
-                if (tempstring == "База данных совместима")
+                Percent NewPercent = new Percent(Convert.ToString(DialogWindow3.waterMarkTextBox1.Text),
+                           Convert.ToString(DialogWindow3.waterMarkTextBox2.Text),
+                           Convert.ToString(DialogWindow3.waterMarkTextBox3.Text),
+                           Convert.ToInt32(DialogWindow3.waterMarkTextBox4.Text));
+                Result res = myDatabase.AddPercent(NewPercent);
+                if (res.Success)
                 {
-
+                    dataGridView2.Rows.Clear();
+                    NumRows3 = -1;
+                    Percent[] percentArray = myDatabase.PercentArray();
+                    for (int i = 0; i < myDatabase.PercentSize(); i++)
+                    {
+                        dataGridView2.Rows.Add();
+                        NumRows3 += 1;
+                        dataGridView2.Rows[NumRows3].Cells[0].Value = percentArray[i].OperationName;
+                        dataGridView2.Rows[NumRows3].Cells[1].Value = percentArray[i].SenderBank;
+                        dataGridView2.Rows[NumRows3].Cells[2].Value = percentArray[i].ReceiverBank;
+                        dataGridView2.Rows[NumRows3].Cells[3].Value = percentArray[i].Percent1;
+                    }
                 }
                 else
                 {
-                    dataGridView2.Rows.RemoveAt(NumRows3);
-                    NumRows3 -= 1;
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                 }
             }
@@ -153,27 +164,32 @@ namespace WindowsFormsApp1
             DialogWindow4.ShowDialog();
             if (!stopflag)
             {
-                dataGridView4.Rows.Add();
-                NumRows4 += 1;
-                dataGridView4.Rows[NumRows4].Cells[0].Value = DialogWindow4.waterMarkTextBox1.Text;
-                dataGridView4.Rows[NumRows4].Cells[1].Value = DialogWindow4.waterMarkTextBox2.Text;
-                dataGridView4.Rows[NumRows4].Cells[2].Value = DialogWindow4.waterMarkTextBox3.Text;
-                dataGridView4.Rows[NumRows4].Cells[3].Value = DialogWindow4.waterMarkTextBox4.Text;
-                Operation NewOperation = new Operation(Convert.ToString(dataGridView4.Rows[NumRows4].Cells[0].Value),
-                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[1].Value),
-                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[2].Value),
-                        Convert.ToInt32(dataGridView4.Rows[NumRows4].Cells[3].Value));
-                string tempstring = myDatabase.AddOperation(NewOperation);
-                if (tempstring == "База данных совместима")
+                Operation NewOperation = new Operation(Convert.ToString(DialogWindow4.waterMarkTextBox1.Text),
+                        Convert.ToInt32(DialogWindow4.waterMarkTextBox2.Text),
+                        Convert.ToInt32(DialogWindow4.waterMarkTextBox3.Text),
+                        Convert.ToInt32(DialogWindow4.waterMarkTextBox4.Text));
+                Result res = myDatabase.AddOperation(NewOperation);
+                if (res.Success)
                 {
-
+                    dataGridView4.Rows.Clear();
+                    NumRows4 = -1;
+                    Operation[] operationArray = myDatabase.OperationArray();
+                    for (int i = 0; i < myDatabase.OperationSize(); i++)
+                    {
+                        dataGridView4.Rows.Add();
+                        NumRows4 += 1;
+                        dataGridView4.Rows[NumRows4].Cells[0].Value = operationArray[i].OperationName;
+                        dataGridView4.Rows[NumRows4].Cells[1].Value = operationArray[i].CardNumber;
+                        dataGridView4.Rows[NumRows4].Cells[2].Value = operationArray[i].MachineNumber;
+                        dataGridView4.Rows[NumRows4].Cells[3].Value = operationArray[i].Sum;
+                    }
                 }
                 else
                 {
                     dataGridView4.Rows.RemoveAt(NumRows4);
                     NumRows4 -= 1;
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                 }
             }
@@ -194,15 +210,27 @@ namespace WindowsFormsApp1
             if (index1 != -1)
             {
                 Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
-                string tempstring = myDatabase.RemoveMachine(removableMachine);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemoveMachine(removableMachine);
+                if (res.Success)
                 {
-                    dataGridView1.Rows.RemoveAt(index1);
+                    dataGridView1.Rows.Clear();
+                    NumRows1 = -1;
+                    Machine[] machineArray = myDatabase.MachineArray();
+                    for (int i = 0; i < myDatabase.MachineSize(); i++)
+                    {
+                        dataGridView1.Rows.Add();
+                        NumRows1 += 1;
+                        HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                        dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
+                        dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
+                        dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
+                        dataGridView1.Rows[NumRows1].Cells[3].Value = machineArray[i].BankName;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -222,15 +250,27 @@ namespace WindowsFormsApp1
                     index1 = 0;
                 else return;
                 Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
-                string tempstring = myDatabase.RemoveMachine(removableMachine);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemoveMachine(removableMachine);
+                if (res.Success)
                 {
-                    dataGridView1.Rows.RemoveAt(index1);
+                    dataGridView1.Rows.Clear();
+                    NumRows1 = -1;
+                    Machine[] machineArray = myDatabase.MachineArray();
+                    for (int i = 0; i < myDatabase.MachineSize(); i++)
+                    {
+                        dataGridView1.Rows.Add();
+                        NumRows1 += 1;
+                        HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                        dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
+                        dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
+                        dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
+                        dataGridView1.Rows[NumRows1].Cells[3].Value = machineArray[i].BankName;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -251,15 +291,27 @@ namespace WindowsFormsApp1
             if (index2 != -1)
             {
                 Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
-                string tempstring = myDatabase.RemoveClient(removableClient);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemoveClient(removableClient);
+                if (res.Success)
                 {
-                    dataGridView3.Rows.RemoveAt(index2);
+                    dataGridView3.Rows.Clear();
+                    NumRows2 = -1;
+                    Client[] clientArray = myDatabase.ClientArray();
+                    for (int i = 0; i < myDatabase.ClientSize(); i++)
+                    {
+                        dataGridView3.Rows.Add();
+                        NumRows2 += 1;
+                        HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                        dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
+                        dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
+                        dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
+                        dataGridView3.Rows[NumRows2].Cells[3].Value = clientArray[i].Name;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -279,15 +331,27 @@ namespace WindowsFormsApp1
                     index2 = 0;
                 else return;
                 Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
-                string tempstring = myDatabase.RemoveClient(removableClient);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemoveClient(removableClient);
+                if (res.Success)
                 {
-                    dataGridView3.Rows.RemoveAt(index2);
+                    dataGridView3.Rows.Clear();
+                    NumRows2 = -1;
+                    Client[] clientArray = myDatabase.ClientArray();
+                    for (int i = 0; i < myDatabase.ClientSize(); i++)
+                    {
+                        dataGridView3.Rows.Add();
+                        NumRows2 += 1;
+                        HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                        dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
+                        dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
+                        dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
+                        dataGridView3.Rows[NumRows2].Cells[3].Value = clientArray[i].Name;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -308,15 +372,26 @@ namespace WindowsFormsApp1
             if (index3 != -1)
             {
                 Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
-                string tempstring = myDatabase.RemovePercent(removablePercent);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemovePercent(removablePercent);
+                if (res.Success)
                 {
-                    dataGridView2.Rows.RemoveAt(index3);
+                    dataGridView2.Rows.Clear();
+                    NumRows3 = -1;
+                    Percent[] percentArray = myDatabase.PercentArray();
+                    for (int i = 0; i < myDatabase.PercentSize(); i++)
+                    {
+                        dataGridView2.Rows.Add();
+                        NumRows3 += 1;
+                        dataGridView2.Rows[NumRows3].Cells[0].Value = percentArray[i].OperationName;
+                        dataGridView2.Rows[NumRows3].Cells[1].Value = percentArray[i].SenderBank;
+                        dataGridView2.Rows[NumRows3].Cells[2].Value = percentArray[i].ReceiverBank;
+                        dataGridView2.Rows[NumRows3].Cells[3].Value = percentArray[i].Percent1;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -336,15 +411,26 @@ namespace WindowsFormsApp1
                     index3 = 0;
                 else return;
                 Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
-                string tempstring = myDatabase.RemovePercent(removablePercent);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemovePercent(removablePercent);
+                if (res.Success)
                 {
-                    dataGridView2.Rows.RemoveAt(index3);
+                    dataGridView2.Rows.Clear();
+                    NumRows3 = -1;
+                    Percent[] percentArray = myDatabase.PercentArray();
+                    for (int i = 0; i < myDatabase.PercentSize(); i++)
+                    {
+                        dataGridView2.Rows.Add();
+                        NumRows3 += 1;
+                        dataGridView2.Rows[NumRows3].Cells[0].Value = percentArray[i].OperationName;
+                        dataGridView2.Rows[NumRows3].Cells[1].Value = percentArray[i].SenderBank;
+                        dataGridView2.Rows[NumRows3].Cells[2].Value = percentArray[i].ReceiverBank;
+                        dataGridView2.Rows[NumRows3].Cells[3].Value = percentArray[i].Percent1;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -365,15 +451,26 @@ namespace WindowsFormsApp1
             if (index4 != -1)
             {
                 Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
-                string tempstring = myDatabase.RemoveOperation(removableOperation);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemoveOperation(removableOperation);
+                if (res.Success)
                 {
-                    dataGridView4.Rows.RemoveAt(index4);
+                    dataGridView4.Rows.Clear();
+                    NumRows4 = -1;
+                    Operation[] operationArray = myDatabase.OperationArray();
+                    for (int i = 0; i < myDatabase.OperationSize(); i++)
+                    {
+                        dataGridView4.Rows.Add();
+                        NumRows4 += 1;
+                        dataGridView4.Rows[NumRows4].Cells[0].Value = operationArray[i].OperationName;
+                        dataGridView4.Rows[NumRows4].Cells[1].Value = operationArray[i].CardNumber;
+                        dataGridView4.Rows[NumRows4].Cells[2].Value = operationArray[i].MachineNumber;
+                        dataGridView4.Rows[NumRows4].Cells[3].Value = operationArray[i].Sum;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
@@ -393,15 +490,26 @@ namespace WindowsFormsApp1
                     index4 = 0;
                 else return;
                 Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
-                string tempstring = myDatabase.RemoveOperation(removableOperation);
-                if (tempstring == "База данных совместима")
+                Result res = myDatabase.RemoveOperation(removableOperation);
+                if (res.Success)
                 {
-                    dataGridView4.Rows.RemoveAt(index4);
+                    dataGridView4.Rows.Clear();
+                    NumRows4 = -1;
+                    Operation[] operationArray = myDatabase.OperationArray();
+                    for (int i = 0; i < myDatabase.OperationSize(); i++)
+                    {
+                        dataGridView4.Rows.Add();
+                        NumRows4 += 1;
+                        dataGridView4.Rows[NumRows4].Cells[0].Value = operationArray[i].OperationName;
+                        dataGridView4.Rows[NumRows4].Cells[1].Value = operationArray[i].CardNumber;
+                        dataGridView4.Rows[NumRows4].Cells[2].Value = operationArray[i].MachineNumber;
+                        dataGridView4.Rows[NumRows4].Cells[3].Value = operationArray[i].Sum;
+                    }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = tempstring;
+                    ErrorWindow.label1.Text = res.Message;
                     ErrorWindow.ShowDialog();
                     return;
                 }
