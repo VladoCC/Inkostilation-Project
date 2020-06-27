@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
 
         public static Result LoadInstance(string filePath)
         {
-            _instance = new Database();
+            Database database = new Database();
             Result result = new Result(true);
             foreach (var str in File.ReadLines(filePath))
             {
@@ -71,7 +71,7 @@ namespace WindowsFormsApp1
                         result += res1;
                         if (res1)
                         {
-                            result += _instance.AddClient(new Client(Convert.ToInt32(elems[1]),
+                            result += database.AddClient(new Client(Convert.ToInt32(elems[1]),
                                 elems[2], elems[3]));
                         }
                         break;
@@ -80,7 +80,7 @@ namespace WindowsFormsApp1
                         result += res2;
                         if (res2)
                         {
-                            result += _instance.AddMachine(new Machine(Convert.ToInt32(elems[1]),
+                            result += database.AddMachine(new Machine(Convert.ToInt32(elems[1]),
                                 elems[2], elems[3]));
                         }
                         break;
@@ -89,7 +89,7 @@ namespace WindowsFormsApp1
                         result += res3;
                         if (res3)
                         {
-                            result += _instance.AddOperation(new Operation(elems[1], 
+                            result += database.AddOperation(new Operation(elems[1], 
                                 Convert.ToInt32(elems[2]),Convert.ToInt32(elems[3]),
                                 Convert.ToInt32(elems[4])));
                         }
@@ -99,7 +99,7 @@ namespace WindowsFormsApp1
                         result += res4;
                         if (res4)
                         {
-                            result += _instance.AddPercent(new Percent(elems[1], 
+                            result += database.AddPercent(new Percent(elems[1], 
                                 elems[2],elems[3],
                                 Convert.ToInt32(elems[4])));
                         }
@@ -107,6 +107,11 @@ namespace WindowsFormsApp1
                 }
             }
 
+            if (result)
+            {
+                _instance = database;
+            }
+            
             return result;
         }
 
