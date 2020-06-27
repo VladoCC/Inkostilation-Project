@@ -1020,8 +1020,8 @@ namespace WindowsFormsApp1
             saveFile.OverwritePrompt = true;
             saveFile.InitialDirectory = Application.StartupPath;
             saveFile.RestoreDirectory = true;
-            saveFile.DefaultExt = "*.txt | *.kostil";
-            saveFile.Filter = "txt|*.txt | kostil|*.kostil";
+            saveFile.DefaultExt = ".txt";
+            saveFile.Filter = "Text documents (.txt)|*.txt|kostil (.kostil)|*.kostil";
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && saveFile.FileName.Length > 0)
             {
                 myDatabase.Save(saveFile.FileName);
@@ -1035,11 +1035,18 @@ namespace WindowsFormsApp1
             openFile.CheckFileExists = true;
             openFile.InitialDirectory = Application.StartupPath;
             openFile.RestoreDirectory = true;
-            openFile.DefaultExt = "*.txt | *.kostil";
-            openFile.Filter = "txt|*.txt | kostil|*.kostil";
+            openFile.DefaultExt = ".txt";
+            openFile.Filter = "Text documents (.txt)|*.txt|kostil (.kostil)|*.kostil";
             if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && openFile.FileName.Length > 0)
             {
                 Result res = Database.LoadInstance(openFile.FileName);
+                if (res.Success == false)
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = res.Message;
+                    ErrorWindow.ShowDialog();
+                    return;
+                }
             }
             dataGridView1.Rows.Clear();
             NumRows1 = -1;
