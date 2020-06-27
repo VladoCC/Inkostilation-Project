@@ -95,6 +95,7 @@ namespace WinFormsApp1
             _array = newArray;
             _deleted = newDeleted;
             base.SizeContainer().Size = newArray.Length;
+            _size = 0;
             foreach (V element in arr)
             {
                 Add(_outsideFunction.Hash(element.GetKey()), element);
