@@ -75,6 +75,12 @@ namespace TestProject2
             }
             Assert.AreEqual(20, map.Size());
         }
+
+        [TestMethod]
+        public void ReadTest()
+        {
+            
+        }
         
         [TestMethod]
         public void F5F9Test()
@@ -102,7 +108,7 @@ namespace TestProject2
             database.AddOperation(operation);
             
             database.Save("test.bin");
-            Database instance = Database.GetInstance("test.bin");
+            Database instance = Database.GetInstance();
             
             if (File.Exists("test.bin"))    
             {    

@@ -48,20 +48,66 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="filePath"> Путь к файлу базы данны. Файл должен иметь расширение ".kostil". </param>
         /// <returns> База данных, с которой на данный момент работает программа. </returns>
-        public static Database GetInstance(string filePath = null)
-        {
-            if (filePath != null)
-            {
-                IFormatter formatter = new BinaryFormatter();  
-                Stream stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);  
-                _instance = (Database) formatter.Deserialize(stream);  
-                stream.Close();  
-            }
-            else if (_instance == null)
+        public static Database GetInstance()
+        { 
+            if (_instance == null)
             {
                 _instance = new Database();
             }
             return _instance;
+        }
+
+        public static Result LoadInstance(string filePath)
+        {
+            _instance = new Database();
+            Result result = new Result(true);
+            foreach (var str in File.ReadLines(filePath))
+            {
+                var elems = str.Split(' ');
+                switch (str[0])
+                {
+                    case '1':
+                        Result res1 = Checks.CheckClient(elems[1], elems[2], elems[3]);
+                        result += res1;
+                        if (res1)
+                        {
+                            result += _instance.AddClient(new Client(Convert.ToInt32(elems[1]),
+                                elems[2], elems[3]));
+                        }
+                        break;
+                    case '2':
+                        Result res2 = Checks.CheckMachine(elems[1], elems[2], elems[3]);
+                        result += res2;
+                        if (res2)
+                        {
+                            result += _instance.AddMachine(new Machine(Convert.ToInt32(elems[1]),
+                                elems[2], elems[3]));
+                        }
+                        break;
+                    case '3':
+                        Result res3 = Checks.CheckOperation(elems[1], elems[2], elems[3],elems[4]);
+                        result += res3;
+                        if (res3)
+                        {
+                            result += _instance.AddOperation(new Operation(elems[1], 
+                                Convert.ToInt32(elems[2]),Convert.ToInt32(elems[3]),
+                                Convert.ToInt32(elems[4])));
+                        }
+                        break;
+                    case '4':
+                        Result res4 = Checks.CheckPercent(elems[1], elems[2], elems[3], elems[4]);
+                        result += res4;
+                        if (res4)
+                        {
+                            result += _instance.AddPercent(new Percent(elems[1], 
+                                elems[2],elems[3],
+                                Convert.ToInt32(elems[4])));
+                        }
+                        break;
+                }
+            }
+
+            return result;
         }
 
         /// <summary>
@@ -93,10 +139,26 @@ namespace WindowsFormsApp1
         /// <param name="filePath"> Путь к файлу, в который будет производится сохранение. </param>
         public void Save(string filePath)
         {
-            IFormatter formatter = new BinaryFormatter();  
-            Stream stream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.None);  
-            formatter.Serialize(stream, this);  
-            stream.Close();  
+            String text = "";
+            foreach (Client client in ClientArray())
+            {
+                text += "1 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
+            }
+            foreach (Machine machine in MachineArray())
+            {
+                text += "2 " + machine.MachineNumber + " " + machine.Address + " " + machine.BankName + "\n";
+            }
+            foreach (Operation operation in OperationArray())
+            {
+                text += "3 " + operation.OperationName + " " + operation.CardNumber + " " + operation.MachineNumber + " " + operation.Sum + "\n";
+            }
+            foreach (Percent percent in PercentArray())
+            {
+                text += "4 " + percent.OperationName + " " + percent.SenderBank + " " + percent.ReceiverBank + " " + percent.Percent1 + "\n";
+            }
+
+            text = text.Remove(text.Length - 1);
+            File.WriteAllText(filePath, text);
         }
 
         /// <summary>

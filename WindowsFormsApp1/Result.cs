@@ -61,6 +61,14 @@
             return result;
         }
         
+        public static Result operator +(Result r1, Result r2)
+        {
+            Result result = new Result(r1._success && r2._success);
+            result += r1._message;
+            result += r2._message;
+            return result;
+        }
+        
         /// <summary>
         /// Оператор, позволяющий использовать результат в логических выражениях 
         /// </summary>
