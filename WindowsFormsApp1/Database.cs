@@ -62,6 +62,10 @@ namespace WindowsFormsApp1
             Database database = new Database();
             Result result = new Result(true);
             Result adding = new Result(true);
+            if (File.ReadAllText(filePath).Length < 1)
+            {
+                return new Result(false) + "Невозможно добавить пустую базу данных.";
+            }
             foreach (var str in File.ReadAllLines(filePath))
             {
                 if (!result.Success || !adding.Success)
