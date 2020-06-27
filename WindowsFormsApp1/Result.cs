@@ -29,7 +29,10 @@
         /// <param name="message"> Дополнительная информация. </param>
         public void AddMessage(string message)
         {
-            _message += message + "\n";
+            if (message.Length > 0)
+            {
+                _message += message + "\n";
+            }
         }
 
         /// <summary>
@@ -64,8 +67,16 @@
         public static Result operator +(Result r1, Result r2)
         {
             Result result = new Result(r1._success && r2._success);
-            result += r1._message;
-            result += r2._message;
+            if (r1._message.Length > 0)
+            {
+                result += r1._message.Remove(r1._message.Length - 1);
+            }
+
+            if (r2._message.Length > 0)
+            {
+                result += r2._message.Remove(r2._message.Length - 1);
+            }
+
             return result;
         }
         

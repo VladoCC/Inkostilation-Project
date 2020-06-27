@@ -61,53 +61,93 @@ namespace WindowsFormsApp1
         {
             Database database = new Database();
             Result result = new Result(true);
-            foreach (var str in File.ReadLines(filePath))
+            Result adding = new Result(true);
+            foreach (var str in File.ReadAllLines(filePath))
             {
+                if (!result.Success || !adding.Success)
+                {
+                    break;
+                }
                 var elems = str.Split(' ');
                 switch (str[0])
                 {
                     case '1':
-                        Result res1 = Checks.CheckClient(elems[1], elems[2], elems[3]);
-                        result += res1;
-                        if (res1)
+                        if (elems.Length == 4)
                         {
-                            result += database.AddClient(new Client(Convert.ToInt32(elems[1]),
-                                elems[2], elems[3]));
+                            Result res1 = Checks.CheckClient(elems[1], elems[2], elems[3]);
+                            result += res1;
+                            if (res1)
+                            {
+                                adding = database.AddClient(new Client(Convert.ToInt32(elems[1]),
+                                    elems[2], elems[3]));
+                            }
+                        }
+                        else
+                        {
+                            result.Success = false;
+                            result += "Количество аргументов в строке не соответствует количеству параметров клиента.";
                         }
                         break;
                     case '2':
-                        Result res2 = Checks.CheckMachine(elems[1], elems[2], elems[3]);
-                        result += res2;
-                        if (res2)
+                        if (elems.Length == 4)
                         {
-                            result += database.AddMachine(new Machine(Convert.ToInt32(elems[1]),
-                                elems[2], elems[3]));
+                            Result res2 = Checks.CheckMachine(elems[1], elems[2], elems[3]);
+                            result += res2;
+                            if (res2)
+                            {
+                                adding = database.AddMachine(new Machine(Convert.ToInt32(elems[1]),
+                                    elems[2], elems[3]));
+                            }
                         }
+                        else
+                        {
+                            result.Success = false;
+                            result += "Количество аргументов в строке не соответствует количеству параметров банкомата.";
+                        }
+
                         break;
                     case '3':
-                        Result res3 = Checks.CheckOperation(elems[1], elems[2], elems[3],elems[4]);
-                        result += res3;
-                        if (res3)
+                        if (elems.Length == 5)
                         {
-                            result += database.AddOperation(new Operation(elems[1], 
-                                Convert.ToInt32(elems[2]),Convert.ToInt32(elems[3]),
-                                Convert.ToInt32(elems[4])));
+                            Result res3 = Checks.CheckOperation(elems[1], elems[2], elems[3], elems[4]);
+                            result += res3;
+                            if (res3)
+                            {
+                                adding = database.AddOperation(new Operation(elems[1],
+                                    Convert.ToInt32(elems[2]), Convert.ToInt32(elems[3]),
+                                    Convert.ToInt32(elems[4])));
+                            }
                         }
+                        else
+                        {
+                            result.Success = false;
+                            result += "Количество аргументов в строке не соответствует количеству параметров операции.";
+                        }
+
                         break;
                     case '4':
-                        Result res4 = Checks.CheckPercent(elems[1], elems[2], elems[3], elems[4]);
-                        result += res4;
-                        if (res4)
+                        if (elems.Length == 5)
                         {
-                            result += database.AddPercent(new Percent(elems[1], 
-                                elems[2],elems[3],
-                                Convert.ToInt32(elems[4])));
+                            Result res4 = Checks.CheckPercent(elems[1], elems[2], elems[3], elems[4]);
+                            result += res4;
+                            if (res4)
+                            {
+                                adding = database.AddPercent(new Percent(elems[1],
+                                    elems[2], elems[3],
+                                    Convert.ToInt32(elems[4])));
+                            }
                         }
+                        else
+                        {
+                            result.Success = false;
+                            result += "Количество аргументов в строке не соответствует количеству параметров процента операции.";
+                        }
+
                         break;
                 }
             }
 
-            if (result)
+            if (result.Success && (result += adding).Success)
             {
                 _instance = database;
             }
@@ -142,28 +182,51 @@ namespace WindowsFormsApp1
         /// Сохраняет базу данных на жесткий диск.
         /// </summary>
         /// <param name="filePath"> Путь к файлу, в который будет производится сохранение. </param>
-        public void Save(string filePath)
+        public Result Save(string filePath)
         {
-            String text = "";
-            foreach (Client client in ClientArray())
+            if (ClientSize() > 0 || MachineSize() > 0 || OperationSize() > 0 || PercentSize() > 0)
             {
-                text += "1 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
-            }
-            foreach (Machine machine in MachineArray())
-            {
-                text += "2 " + machine.MachineNumber + " " + machine.Address + " " + machine.BankName + "\n";
-            }
-            foreach (Operation operation in OperationArray())
-            {
-                text += "3 " + operation.OperationName + " " + operation.CardNumber + " " + operation.MachineNumber + " " + operation.Sum + "\n";
-            }
-            foreach (Percent percent in PercentArray())
-            {
-                text += "4 " + percent.OperationName + " " + percent.SenderBank + " " + percent.ReceiverBank + " " + percent.Percent1 + "\n";
-            }
+                String text = "";
+                if (ClientSize() > 0)
+                {
+                    foreach (Client client in ClientArray())
+                    {
+                        text += "1 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
+                    }
+                }
 
-            text = text.Remove(text.Length - 1);
-            File.WriteAllText(filePath, text);
+                if (MachineSize() > 0)
+                {
+                    foreach (Machine machine in MachineArray())
+                    {
+                        text += "2 " + machine.MachineNumber + " " + machine.Address + " " + machine.BankName + "\n";
+                    }
+                }
+
+                if (OperationSize() > 0)
+                {
+                    foreach (Operation operation in OperationArray())
+                    {
+                        text += "3 " + operation.OperationName + " " + operation.CardNumber + " " +
+                                operation.MachineNumber + " " + operation.Sum + "\n";
+                    }
+                }
+
+                if (PercentSize() > 0)
+                {
+                    foreach (Percent percent in PercentArray())
+                    {
+                        text += "4 " + percent.OperationName + " " + percent.SenderBank + " " + percent.ReceiverBank +
+                                " " +
+                                percent.Percent1 + "\n";
+                    }
+                }
+
+                text = text.Remove(text.Length - 1);
+                File.WriteAllText(filePath, text);
+                return new Result(true);
+            }
+            return new Result(false) + "Нельзя сохранить пустую базу данных.";
         }
 
         /// <summary>
@@ -581,8 +644,7 @@ namespace WindowsFormsApp1
 
             if (count == 0)
             {
-                result.Success = true;
-                return result + "База данных совместима";
+                return new Result(true) + "База данных совместима";
             }
 
             return result;
