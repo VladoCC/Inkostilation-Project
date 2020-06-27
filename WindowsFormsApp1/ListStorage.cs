@@ -57,15 +57,12 @@ namespace WinFormsApp1
             {
                 return false;
             }
-            if (array[index].Next == null)
+            if (array[index].Element.Compare(element) == 0)
             {
-                if (array[index].Element.Compare(element) == 0)
-                {
-                    array[index] = null;
-                    return true;
-                }
-                return false;
+                array[index] = array[index].Next;
+                return true;
             }
+            
             return array[index].Remove(element);
         }
 
@@ -197,10 +194,7 @@ namespace WinFormsApp1
                 }
                 if (_next.Element.Compare(element) == 0)
                 {
-                    if (_next.Next != null)
-                    {
-                        _next = _next.Next;
-                    }
+                    _next = _next.Next;
                     return true;
                 }
 
