@@ -234,7 +234,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows1 -= 1;
                 if (index1 == -1)
                 {
 
@@ -274,7 +273,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows1 -= 1;
                 if (index1 == -1)
                 {
                     
@@ -315,7 +313,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows2 -= 1;
                 if (index2 == -1)
                 {
 
@@ -355,7 +352,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows2 -= 1;
                 if (index2 == -1)
                 {
 
@@ -395,7 +391,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows3 -= 1;
                 if (index3 == -1)
                 {
 
@@ -434,7 +429,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows3 -= 1;
                 if (index3 == -1)
                 {
 
@@ -474,7 +468,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows4 -= 1;
                 if (index4 == -1)
                 {
 
@@ -513,7 +506,6 @@ namespace WindowsFormsApp1
                     ErrorWindow.ShowDialog();
                     return;
                 }
-                NumRows4 -= 1;
                 if (index4 == -1)
                 {
 
@@ -1028,8 +1020,8 @@ namespace WindowsFormsApp1
             saveFile.OverwritePrompt = true;
             saveFile.InitialDirectory = Application.StartupPath;
             saveFile.RestoreDirectory = true;
-            saveFile.DefaultExt = "*.kostil";
-            saveFile.Filter = "kostil|*.kostil";
+            saveFile.DefaultExt = "*.txt | *.kostil";
+            saveFile.Filter = "txt|*.txt | kostil|*.kostil";
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && saveFile.FileName.Length > 0)
             {
                 myDatabase.Save(saveFile.FileName);
@@ -1043,20 +1035,11 @@ namespace WindowsFormsApp1
             openFile.CheckFileExists = true;
             openFile.InitialDirectory = Application.StartupPath;
             openFile.RestoreDirectory = true;
-            openFile.DefaultExt = "*.kostil";
-            openFile.Filter = "kostil|*.kostil";
+            openFile.DefaultExt = "*.txt | *.kostil";
+            openFile.Filter = "txt|*.txt | kostil|*.kostil";
             if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && openFile.FileName.Length > 0)
             {
-                try
-                {
-                    myDatabase = Database.GetInstance(openFile.FileName);
-                }
-                catch
-                {
-                    ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = "Некорректный формат загружаемого файла";
-                    ErrorWindow.ShowDialog();
-                }
+                Result res = Database.LoadInstance(openFile.FileName);
             }
             dataGridView1.Rows.Clear();
             NumRows1 = -1;
