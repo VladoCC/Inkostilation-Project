@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
             Result adding = new Result(true);
             if (File.ReadAllText(filePath).Length < 1)
             {
-                return new Result(false) + "Невозможно добавить пустую базу данных.";
+                return new Result(false) + "Невозможно добавить пустую базу данных";
             }
             foreach (var str in File.ReadAllLines(filePath))
             {
@@ -89,7 +89,7 @@ namespace WindowsFormsApp1
                         else
                         {
                             result.Success = false;
-                            result += "Количество аргументов в строке не соответствует количеству параметров клиента.";
+                            result += "Количество аргументов в строке не соответствует количеству параметров клиента";
                         }
                         break;
                     case '2':
@@ -106,7 +106,7 @@ namespace WindowsFormsApp1
                         else
                         {
                             result.Success = false;
-                            result += "Количество аргументов в строке не соответствует количеству параметров банкомата.";
+                            result += "Количество аргументов в строке не соответствует количеству параметров банкомата";
                         }
 
                         break;
@@ -125,7 +125,7 @@ namespace WindowsFormsApp1
                         else
                         {
                             result.Success = false;
-                            result += "Количество аргументов в строке не соответствует количеству параметров операции.";
+                            result += "Количество аргументов в строке не соответствует количеству параметров операции";
                         }
 
                         break;
@@ -144,7 +144,7 @@ namespace WindowsFormsApp1
                         else
                         {
                             result.Success = false;
-                            result += "Количество аргументов в строке не соответствует количеству параметров процента операции.";
+                            result += "Количество аргументов в строке не соответствует количеству параметров процента операции";
                         }
 
                         break;
@@ -230,7 +230,7 @@ namespace WindowsFormsApp1
                 File.WriteAllText(filePath, text);
                 return new Result(true);
             }
-            return new Result(false) + "Нельзя сохранить пустую базу данных.";
+            return new Result(false) + "Нельзя сохранить пустую базу данных";
         }
 
         /// <summary>

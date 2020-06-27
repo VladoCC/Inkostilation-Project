@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
                           Convert.ToInt32(OperationsKey.Rows[index].Cells[1].Value),
                           Convert.ToInt32(OperationsKey.Rows[index].Cells[2].Value),
                           Convert.ToInt32(OperationsKey.Rows[index].Cells[3].Value));
-                Report<Operation, Percent> report = GUI.myDatabase.OperationPercentReport(keyOperation);
+                Report<Operation, Percent> report = Database.GetInstance().OperationPercentReport(keyOperation);
                 Percent[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)

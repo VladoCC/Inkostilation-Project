@@ -27,8 +27,6 @@ namespace WindowsFormsApp1
         string state = "";
 
         public static bool stopflag = false;
-
-        public static Database myDatabase = Database.GetNewInstance();
         public GUI()
         {
             Splash sp = new Splash();
@@ -49,17 +47,17 @@ namespace WindowsFormsApp1
             {
                 Machine NewMachine = new Machine(Convert.ToInt32(DialogWindow1.waterMarkTextBox1.Text),
                 Convert.ToString(DialogWindow1.waterMarkTextBox2.Text), Convert.ToString(DialogWindow1.waterMarkTextBox3.Text));
-                Result res = myDatabase.AddMachine(NewMachine);
+                Result res = Database.GetInstance().AddMachine(NewMachine);
                 if (res.Success)
                 {
                     dataGridView1.Rows.Clear();
                     NumRows1 = -1;
-                    Machine[] machineArray = myDatabase.MachineArray();
-                    for (int i = 0; i < myDatabase.MachineSize(); i++)
+                    Machine[] machineArray = Database.GetInstance().MachineArray();
+                    for (int i = 0; i < Database.GetInstance().MachineSize(); i++)
                     {
                         dataGridView1.Rows.Add();
                         NumRows1 += 1;
-                        HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                        HashFunction<int> myHashFunction = Database.GetInstance().MachinesFunction();
                         dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
                         dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
                         dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
@@ -87,17 +85,17 @@ namespace WindowsFormsApp1
             {
                 Client NewClient = new Client(Convert.ToInt32(DialogWindow2.waterMarkTextBox1.Text),
                               Convert.ToString(DialogWindow2.waterMarkTextBox2.Text), Convert.ToString(DialogWindow2.waterMarkTextBox3.Text));
-                Result res = myDatabase.AddClient(NewClient);
+                Result res = Database.GetInstance().AddClient(NewClient);
                 if (res.Success)
                 {
                     dataGridView3.Rows.Clear();
                     NumRows2 = -1;
-                    Client[] clientArray = myDatabase.ClientArray();
-                    for (int i = 0; i < myDatabase.ClientSize(); i++)
+                    Client[] clientArray = Database.GetInstance().ClientArray();
+                    for (int i = 0; i < Database.GetInstance().ClientSize(); i++)
                     {
                         dataGridView3.Rows.Add();
                         NumRows2 += 1;
-                        HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                        HashFunction<int> myHashFunction = Database.GetInstance().ClientsFunction();
                         dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
                         dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
                         dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
@@ -128,13 +126,13 @@ namespace WindowsFormsApp1
                            Convert.ToString(DialogWindow3.waterMarkTextBox2.Text),
                            Convert.ToString(DialogWindow3.waterMarkTextBox3.Text),
                            Convert.ToInt32(DialogWindow3.waterMarkTextBox4.Text));
-                Result res = myDatabase.AddPercent(NewPercent);
+                Result res = Database.GetInstance().AddPercent(NewPercent);
                 if (res.Success)
                 {
                     dataGridView2.Rows.Clear();
                     NumRows3 = -1;
-                    Percent[] percentArray = myDatabase.PercentArray();
-                    for (int i = 0; i < myDatabase.PercentSize(); i++)
+                    Percent[] percentArray = Database.GetInstance().PercentArray();
+                    for (int i = 0; i < Database.GetInstance().PercentSize(); i++)
                     {
                         dataGridView2.Rows.Add();
                         NumRows3 += 1;
@@ -168,13 +166,13 @@ namespace WindowsFormsApp1
                         Convert.ToInt32(DialogWindow4.waterMarkTextBox2.Text),
                         Convert.ToInt32(DialogWindow4.waterMarkTextBox3.Text),
                         Convert.ToInt32(DialogWindow4.waterMarkTextBox4.Text));
-                Result res = myDatabase.AddOperation(NewOperation);
+                Result res = Database.GetInstance().AddOperation(NewOperation);
                 if (res.Success)
                 {
                     dataGridView4.Rows.Clear();
                     NumRows4 = -1;
-                    Operation[] operationArray = myDatabase.OperationArray();
-                    for (int i = 0; i < myDatabase.OperationSize(); i++)
+                    Operation[] operationArray = Database.GetInstance().OperationArray();
+                    for (int i = 0; i < Database.GetInstance().OperationSize(); i++)
                     {
                         dataGridView4.Rows.Add();
                         NumRows4 += 1;
@@ -210,17 +208,17 @@ namespace WindowsFormsApp1
             if (index1 != -1)
             {
                 Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
-                Result res = myDatabase.RemoveMachine(removableMachine);
+                Result res = Database.GetInstance().RemoveMachine(removableMachine);
                 if (res.Success)
                 {
                     dataGridView1.Rows.Clear();
                     NumRows1 = -1;
-                    Machine[] machineArray = myDatabase.MachineArray();
-                    for (int i = 0; i < myDatabase.MachineSize(); i++)
+                    Machine[] machineArray = Database.GetInstance().MachineArray();
+                    for (int i = 0; i < Database.GetInstance().MachineSize(); i++)
                     {
                         dataGridView1.Rows.Add();
                         NumRows1 += 1;
-                        HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                        HashFunction<int> myHashFunction = Database.GetInstance().MachinesFunction();
                         dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
                         dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
                         dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
@@ -249,17 +247,17 @@ namespace WindowsFormsApp1
                     index1 = 0;
                 else return;
                 Machine removableMachine = new Machine(Convert.ToInt32(dataGridView1.Rows[index1].Cells[1].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[2].Value), Convert.ToString(dataGridView1.Rows[index1].Cells[3].Value));
-                Result res = myDatabase.RemoveMachine(removableMachine);
+                Result res = Database.GetInstance().RemoveMachine(removableMachine);
                 if (res.Success)
                 {
                     dataGridView1.Rows.Clear();
                     NumRows1 = -1;
-                    Machine[] machineArray = myDatabase.MachineArray();
-                    for (int i = 0; i < myDatabase.MachineSize(); i++)
+                    Machine[] machineArray = Database.GetInstance().MachineArray();
+                    for (int i = 0; i < Database.GetInstance().MachineSize(); i++)
                     {
                         dataGridView1.Rows.Add();
                         NumRows1 += 1;
-                        HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                        HashFunction<int> myHashFunction = Database.GetInstance().MachinesFunction();
                         dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
                         dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
                         dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
@@ -289,17 +287,17 @@ namespace WindowsFormsApp1
             if (index2 != -1)
             {
                 Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
-                Result res = myDatabase.RemoveClient(removableClient);
+                Result res = Database.GetInstance().RemoveClient(removableClient);
                 if (res.Success)
                 {
                     dataGridView3.Rows.Clear();
                     NumRows2 = -1;
-                    Client[] clientArray = myDatabase.ClientArray();
-                    for (int i = 0; i < myDatabase.ClientSize(); i++)
+                    Client[] clientArray = Database.GetInstance().ClientArray();
+                    for (int i = 0; i < Database.GetInstance().ClientSize(); i++)
                     {
                         dataGridView3.Rows.Add();
                         NumRows2 += 1;
-                        HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                        HashFunction<int> myHashFunction = Database.GetInstance().ClientsFunction();
                         dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
                         dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
                         dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
@@ -328,17 +326,17 @@ namespace WindowsFormsApp1
                     index2 = 0;
                 else return;
                 Client removableClient = new Client(Convert.ToInt32(dataGridView3.Rows[index2].Cells[1].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[2].Value), Convert.ToString(dataGridView3.Rows[index2].Cells[3].Value));
-                Result res = myDatabase.RemoveClient(removableClient);
+                Result res = Database.GetInstance().RemoveClient(removableClient);
                 if (res.Success)
                 {
                     dataGridView3.Rows.Clear();
                     NumRows2 = -1;
-                    Client[] clientArray = myDatabase.ClientArray();
-                    for (int i = 0; i < myDatabase.ClientSize(); i++)
+                    Client[] clientArray = Database.GetInstance().ClientArray();
+                    for (int i = 0; i < Database.GetInstance().ClientSize(); i++)
                     {
                         dataGridView3.Rows.Add();
                         NumRows2 += 1;
-                        HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                        HashFunction<int> myHashFunction = Database.GetInstance().ClientsFunction();
                         dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
                         dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
                         dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
@@ -368,13 +366,13 @@ namespace WindowsFormsApp1
             if (index3 != -1)
             {
                 Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
-                Result res = myDatabase.RemovePercent(removablePercent);
+                Result res = Database.GetInstance().RemovePercent(removablePercent);
                 if (res.Success)
                 {
                     dataGridView2.Rows.Clear();
                     NumRows3 = -1;
-                    Percent[] percentArray = myDatabase.PercentArray();
-                    for (int i = 0; i < myDatabase.PercentSize(); i++)
+                    Percent[] percentArray = Database.GetInstance().PercentArray();
+                    for (int i = 0; i < Database.GetInstance().PercentSize(); i++)
                     {
                         dataGridView2.Rows.Add();
                         NumRows3 += 1;
@@ -406,13 +404,13 @@ namespace WindowsFormsApp1
                     index3 = 0;
                 else return;
                 Percent removablePercent = new Percent(Convert.ToString(dataGridView2.Rows[index3].Cells[0].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[1].Value), Convert.ToString(dataGridView2.Rows[index3].Cells[2].Value), Convert.ToInt32(dataGridView2.Rows[index3].Cells[3].Value));
-                Result res = myDatabase.RemovePercent(removablePercent);
+                Result res = Database.GetInstance().RemovePercent(removablePercent);
                 if (res.Success)
                 {
                     dataGridView2.Rows.Clear();
                     NumRows3 = -1;
-                    Percent[] percentArray = myDatabase.PercentArray();
-                    for (int i = 0; i < myDatabase.PercentSize(); i++)
+                    Percent[] percentArray = Database.GetInstance().PercentArray();
+                    for (int i = 0; i < Database.GetInstance().PercentSize(); i++)
                     {
                         dataGridView2.Rows.Add();
                         NumRows3 += 1;
@@ -445,13 +443,13 @@ namespace WindowsFormsApp1
             if (index4 != -1)
             {
                 Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
-                Result res = myDatabase.RemoveOperation(removableOperation);
+                Result res = Database.GetInstance().RemoveOperation(removableOperation);
                 if (res.Success)
                 {
                     dataGridView4.Rows.Clear();
                     NumRows4 = -1;
-                    Operation[] operationArray = myDatabase.OperationArray();
-                    for (int i = 0; i < myDatabase.OperationSize(); i++)
+                    Operation[] operationArray = Database.GetInstance().OperationArray();
+                    for (int i = 0; i < Database.GetInstance().OperationSize(); i++)
                     {
                         dataGridView4.Rows.Add();
                         NumRows4 += 1;
@@ -483,13 +481,13 @@ namespace WindowsFormsApp1
                     index4 = 0;
                 else return;
                 Operation removableOperation = new Operation(Convert.ToString(dataGridView4.Rows[index4].Cells[0].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[1].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[2].Value), Convert.ToInt32(dataGridView4.Rows[index4].Cells[3].Value));
-                Result res = myDatabase.RemoveOperation(removableOperation);
+                Result res = Database.GetInstance().RemoveOperation(removableOperation);
                 if (res.Success)
                 {
                     dataGridView4.Rows.Clear();
                     NumRows4 = -1;
-                    Operation[] operationArray = myDatabase.OperationArray();
-                    for (int i = 0; i < myDatabase.OperationSize(); i++)
+                    Operation[] operationArray = Database.GetInstance().OperationArray();
+                    for (int i = 0; i < Database.GetInstance().OperationSize(); i++)
                     {
                         dataGridView4.Rows.Add();
                         NumRows4 += 1;
@@ -569,7 +567,7 @@ namespace WindowsFormsApp1
                     }
                     if (errormessage == "")
                     {
-                        SearchQuery<Machine> query = myDatabase.FindMachine(Convert.ToInt32(waterMarkTextBox1.Text));
+                        SearchQuery<Machine> query = Database.GetInstance().FindMachine(Convert.ToInt32(waterMarkTextBox1.Text));
                         if (query.Found())
                         {
                             string data = string.Empty;
@@ -619,7 +617,7 @@ namespace WindowsFormsApp1
                     }
                     if (errormessage == "")
                     {
-                        SearchQuery<Client> query = myDatabase.FindClient(Convert.ToInt32(waterMarkTextBox1.Text));
+                        SearchQuery<Client> query = Database.GetInstance().FindClient(Convert.ToInt32(waterMarkTextBox1.Text));
                         if (query.Found())
                         {
                             string data = string.Empty;
@@ -717,7 +715,7 @@ namespace WindowsFormsApp1
                     else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
                     if (errormessage == "")
                     {
-                        SearchQuery<Operation> query = myDatabase.FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2));
+                        SearchQuery<Operation> query = Database.GetInstance().FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2));
                         if (query.Found())
                         {
                             string data1 = string.Empty;
@@ -809,7 +807,7 @@ namespace WindowsFormsApp1
                     else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
                     if (errormessage == "")
                     {
-                        SearchQuery<Percent> query = myDatabase.FindPercent(pole, pole1, pole2);
+                        SearchQuery<Percent> query = Database.GetInstance().FindPercent(pole, pole1, pole2);
                         if (query.Found())
                         {
                             string data1 = string.Empty;
@@ -892,7 +890,7 @@ namespace WindowsFormsApp1
                 int NumRows = -1;
                 int index1 = 0;
                 Client keyClient = new Client(Convert.ToInt32(OOC.ClientsKey.Rows[index1].Cells[1].Value), Convert.ToString(OOC.ClientsKey.Rows[index1].Cells[2].Value), Convert.ToString(OOC.ClientsKey.Rows[index1].Cells[3].Value));
-                Report<Client, Operation> report = GUI.myDatabase.ClientOperationReport(keyClient);
+                Report<Client, Operation> report = Database.GetInstance().ClientOperationReport(keyClient);
                 Operation[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)
@@ -926,7 +924,7 @@ namespace WindowsFormsApp1
                 int index1 = 0;
                 Machine keyMachine = new Machine(Convert.ToInt32(OOM.MachinesKey.Rows[index1].Cells[1].Value),
                             Convert.ToString(OOM.MachinesKey.Rows[index1].Cells[2].Value), Convert.ToString(OOM.MachinesKey.Rows[index1].Cells[3].Value));
-                Report<Machine, Operation> report = GUI.myDatabase.MachineOperationReport(keyMachine);
+                Report<Machine, Operation> report = Database.GetInstance().MachineOperationReport(keyMachine);
                 Operation[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)
@@ -962,7 +960,7 @@ namespace WindowsFormsApp1
                            Convert.ToInt32(POO.OperationsKey.Rows[index1].Cells[1].Value),
                            Convert.ToInt32(POO.OperationsKey.Rows[index1].Cells[2].Value),
                            Convert.ToInt32(POO.OperationsKey.Rows[index1].Cells[3].Value));
-                Report<Operation, Percent> report = GUI.myDatabase.OperationPercentReport(keyOperation);
+                Report<Operation, Percent> report = Database.GetInstance().OperationPercentReport(keyOperation);
                 Percent[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)
@@ -996,7 +994,7 @@ namespace WindowsFormsApp1
             {
                 Machine keyMachine = new Machine(Convert.ToInt32(POM.MachinesKey.Rows[index1].Cells[1].Value),
                             Convert.ToString(POM.MachinesKey.Rows[index1].Cells[2].Value), Convert.ToString(POM.MachinesKey.Rows[index1].Cells[3].Value));
-                Report<Machine, Percent> report = GUI.myDatabase.MachinePercentReport(keyMachine);
+                Report<Machine, Percent> report = Database.GetInstance().MachinePercentReport(keyMachine);
                 Percent[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)
@@ -1024,7 +1022,13 @@ namespace WindowsFormsApp1
             saveFile.Filter = "Text documents (.txt)|*.txt|kostil (.kostil)|*.kostil";
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && saveFile.FileName.Length > 0)
             {
-                myDatabase.Save(saveFile.FileName);
+                Result res = Database.GetInstance().Save(saveFile.FileName);
+                if (res.Success == false)
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = res.Message;
+                    ErrorWindow.ShowDialog();
+                }
             }
         }
 
@@ -1039,23 +1043,33 @@ namespace WindowsFormsApp1
             openFile.Filter = "Text documents (.txt)|*.txt|kostil (.kostil)|*.kostil";
             if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK && openFile.FileName.Length > 0)
             {
-                Result res = Database.LoadInstance(openFile.FileName);
-                if (res.Success == false)
+                try
+                {
+                    Result res = Database.LoadInstance(openFile.FileName);
+                    if (res.Success == false)
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = res.Message;
+                        ErrorWindow.ShowDialog();
+                        return;
+                    }
+                }
+                catch
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = res.Message;
+                    ErrorWindow.label1.Text = "Некорректный формат загружаемого файла";
                     ErrorWindow.ShowDialog();
                     return;
                 }
             }
             dataGridView1.Rows.Clear();
             NumRows1 = -1;
-            Machine[] machineArray = myDatabase.MachineArray();
-            for (int i = 0; i < myDatabase.MachineSize(); i++)
+            Machine[] machineArray = Database.GetInstance().MachineArray();
+            for (int i = 0; i < Database.GetInstance().MachineSize(); i++)
             {
                 dataGridView1.Rows.Add();
                 NumRows1 += 1;
-                HashFunction<int> myHashFunction = myDatabase.MachinesFunction();
+                HashFunction<int> myHashFunction = Database.GetInstance().MachinesFunction();
                 dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
                 dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
                 dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
@@ -1063,12 +1077,12 @@ namespace WindowsFormsApp1
             }
             dataGridView3.Rows.Clear();
             NumRows2 = -1;
-            Client[] clientArray = myDatabase.ClientArray();
-            for (int i = 0; i < myDatabase.ClientSize(); i++)
+            Client[] clientArray = Database.GetInstance().ClientArray();
+            for (int i = 0; i < Database.GetInstance().ClientSize(); i++)
             {
                 dataGridView3.Rows.Add();
                 NumRows2 += 1;
-                HashFunction<int> myHashFunction = myDatabase.ClientsFunction();
+                HashFunction<int> myHashFunction = Database.GetInstance().ClientsFunction();
                 dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
                 dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
                 dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
@@ -1076,8 +1090,8 @@ namespace WindowsFormsApp1
             }
             dataGridView4.Rows.Clear();
             NumRows4 = -1;
-            Operation[] operationArray = myDatabase.OperationArray();
-            for (int i = 0; i < myDatabase.OperationSize(); i++)
+            Operation[] operationArray = Database.GetInstance().OperationArray();
+            for (int i = 0; i < Database.GetInstance().OperationSize(); i++)
             {
                 dataGridView4.Rows.Add();
                 NumRows4 += 1;
@@ -1088,8 +1102,8 @@ namespace WindowsFormsApp1
             }
             dataGridView2.Rows.Clear();
             NumRows3 = -1;
-            Percent[] percentArray = myDatabase.PercentArray();
-            for (int i = 0; i < myDatabase.PercentSize(); i++)
+            Percent[] percentArray = Database.GetInstance().PercentArray();
+            for (int i = 0; i < Database.GetInstance().PercentSize(); i++)
             {
                 dataGridView2.Rows.Add();
                 NumRows3 += 1;
@@ -1107,7 +1121,7 @@ namespace WindowsFormsApp1
 
         private void создатьToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            myDatabase = Database.GetNewInstance();
+            Database.GetNewInstance();
             NumRows1 = -1;
             NumRows2 = -1;
             NumRows3 = -1;

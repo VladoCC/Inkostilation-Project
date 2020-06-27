@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
             if (!(index == -1))
             {
                 Client keyClient = new Client(Convert.ToInt32(ClientsKey.Rows[index].Cells[1].Value), Convert.ToString(ClientsKey.Rows[index].Cells[2].Value), Convert.ToString(ClientsKey.Rows[index].Cells[3].Value));
-                Report<Client, Operation> report = GUI.myDatabase.ClientOperationReport(keyClient);
+                Report<Client, Operation> report = Database.GetInstance().ClientOperationReport(keyClient);
                 Operation[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)
