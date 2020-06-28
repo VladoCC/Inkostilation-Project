@@ -118,7 +118,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="156" column="47" bodyfile="percentFound.Designer.cs" bodystart="156" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" prot="public" static="no" mutable="no">
@@ -133,7 +133,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="percentFound.Designer.cs" line="159" column="40" bodyfile="percentFound.Designer.cs" bodystart="159" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1percent_found_1a5e4fdc7a483e17e31d0810bebaaec196" compoundref="percent_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.percentFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>

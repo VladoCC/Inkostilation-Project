@@ -3,10 +3,10 @@
   <compounddef id="class_windows_forms_app1_1_1_checks" kind="class" language="C#" prot="public">
     <compoundname>WindowsFormsApp1::Checks</compoundname>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1ab25e37cdeff513aef088f9b732fc8202" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>static bool WindowsFormsApp1.Checks.CheckMachine</definition>
-        <argsstring>(string number, string address, string name)</argsstring>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1af0be912935ea3f719151ec98c5e8e7f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>static Result WindowsFormsApp1.Checks.CheckMachine</definition>
+        <argsstring>(string number, string address, string bankName)</argsstring>
         <name>CheckMachine</name>
         <param>
           <type>string</type>
@@ -18,49 +18,115 @@
         </param>
         <param>
           <type>string</type>
-          <declname>name</declname>
+          <declname>bankName</declname>
         </param>
         <briefdescription>
+<para>Проверка входных данных на соответствие условиям банкомата. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер банкомата. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Адрес банкомата. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bankName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название банка. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат о соответствии данных условиям для банкомата. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Checks.cs" line="11" column="28" bodyfile="Checks.cs" bodystart="11" bodyend="91"/>
+        <location file="Checks.cs" line="18" column="30" bodyfile="Checks.cs" bodystart="18" bodyend="100"/>
+        <references refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="36">WindowsFormsApp1.Result.AddMessage</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4fcaf5b98941ed0476c7ac6d1e0d9b00" compoundref="_database_8cs" startline="63" endline="167">WindowsFormsApp1.Database.LoadInstance</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1a01ea5bc6b8ae7aadf0d0a01772b1a84f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>static bool WindowsFormsApp1.Checks.CheckClient</definition>
-        <argsstring>(string number, string bank, string name)</argsstring>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1afb7892eb0db1b89debf14168739078ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>static Result WindowsFormsApp1.Checks.CheckClient</definition>
+        <argsstring>(string cardNumber, string bankName, string clientName)</argsstring>
         <name>CheckClient</name>
         <param>
           <type>string</type>
-          <declname>number</declname>
+          <declname>cardNumber</declname>
         </param>
         <param>
           <type>string</type>
-          <declname>bank</declname>
+          <declname>bankName</declname>
         </param>
         <param>
           <type>string</type>
-          <declname>name</declname>
+          <declname>clientName</declname>
         </param>
         <briefdescription>
+<para>Проверка входных данных на соответствие условиям клиента. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cardNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер карты клиента. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bankName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя банка, обслуживающего клиента. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clientName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ФИО клиента. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат о соответствии данных условиям для клиента. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Checks.cs" line="93" column="28" bodyfile="Checks.cs" bodystart="93" bodyend="159"/>
+        <location file="Checks.cs" line="109" column="30" bodyfile="Checks.cs" bodystart="109" bodyend="177"/>
+        <references refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="36">WindowsFormsApp1.Result.AddMessage</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4fcaf5b98941ed0476c7ac6d1e0d9b00" compoundref="_database_8cs" startline="63" endline="167">WindowsFormsApp1.Database.LoadInstance</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1abbfec2748cfdff637cc851b6676ebe82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>static bool WindowsFormsApp1.Checks.CheckPercent</definition>
-        <argsstring>(string name, string sender, string receiver, string percent)</argsstring>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1af0f4e45a17558aca84dc500fa591bdd3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>static Result WindowsFormsApp1.Checks.CheckPercent</definition>
+        <argsstring>(string operationName, string sender, string receiver, string percent)</argsstring>
         <name>CheckPercent</name>
         <param>
           <type>string</type>
-          <declname>name</declname>
+          <declname>operationName</declname>
         </param>
         <param>
           <type>string</type>
@@ -75,17 +141,58 @@
           <declname>percent</declname>
         </param>
         <briefdescription>
+<para>Проверка входных данных на соответствие условиям процента операции. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operationName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название операции. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банк отправитель. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>receiver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Банк получатель. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>percent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Процент операции. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат о соответствии данных условиям для процента операции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Checks.cs" line="160" column="28" bodyfile="Checks.cs" bodystart="160" bodyend="253"/>
+        <location file="Checks.cs" line="187" column="30" bodyfile="Checks.cs" bodystart="187" bodyend="282"/>
+        <references refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="36">WindowsFormsApp1.Result.AddMessage</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4fcaf5b98941ed0476c7ac6d1e0d9b00" compoundref="_database_8cs" startline="63" endline="167">WindowsFormsApp1.Database.LoadInstance</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1ae2b15a3a568a14af454b0afbd300eadc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>static bool WindowsFormsApp1.Checks.CheckOperation</definition>
-        <argsstring>(string name, string number, string bank, string sum)</argsstring>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_checks_1a139b026833c6fc7a3edc5657296f5240" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>static Result WindowsFormsApp1.Checks.CheckOperation</definition>
+        <argsstring>(string name, string cardNumber, string machineNumber, string sum)</argsstring>
         <name>CheckOperation</name>
         <param>
           <type>string</type>
@@ -93,23 +200,64 @@
         </param>
         <param>
           <type>string</type>
-          <declname>number</declname>
+          <declname>cardNumber</declname>
         </param>
         <param>
           <type>string</type>
-          <declname>bank</declname>
+          <declname>machineNumber</declname>
         </param>
         <param>
           <type>string</type>
           <declname>sum</declname>
         </param>
         <briefdescription>
+<para>Проверка входных данных на соответствие условиям операции. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название операции. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cardNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер карты. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>machineNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Номер банкомата. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Сумма операции. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Результат о соответствии данных условиям для операции. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Checks.cs" line="255" column="28" bodyfile="Checks.cs" bodystart="255" bodyend="344"/>
+        <location file="Checks.cs" line="292" column="30" bodyfile="Checks.cs" bodystart="292" bodyend="383"/>
+        <references refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="36">WindowsFormsApp1.Result.AddMessage</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4fcaf5b98941ed0476c7ac6d1e0d9b00" compoundref="_database_8cs" startline="63" endline="167">WindowsFormsApp1.Database.LoadInstance</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -122,12 +270,12 @@
         <link refid="class_windows_forms_app1_1_1_checks"/>
       </node>
     </collaborationgraph>
-    <location file="Checks.cs" line="9" column="11" bodyfile="Checks.cs" bodystart="10" bodyend="345"/>
+    <location file="Checks.cs" line="9" column="11" bodyfile="Checks.cs" bodystart="10" bodyend="384"/>
     <listofallmembers>
-      <member refid="class_windows_forms_app1_1_1_checks_1a01ea5bc6b8ae7aadf0d0a01772b1a84f" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckClient</name></member>
-      <member refid="class_windows_forms_app1_1_1_checks_1ab25e37cdeff513aef088f9b732fc8202" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckMachine</name></member>
-      <member refid="class_windows_forms_app1_1_1_checks_1ae2b15a3a568a14af454b0afbd300eadc" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckOperation</name></member>
-      <member refid="class_windows_forms_app1_1_1_checks_1abbfec2748cfdff637cc851b6676ebe82" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckPercent</name></member>
+      <member refid="class_windows_forms_app1_1_1_checks_1afb7892eb0db1b89debf14168739078ba" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckClient</name></member>
+      <member refid="class_windows_forms_app1_1_1_checks_1af0be912935ea3f719151ec98c5e8e7f3" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckMachine</name></member>
+      <member refid="class_windows_forms_app1_1_1_checks_1a139b026833c6fc7a3edc5657296f5240" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckOperation</name></member>
+      <member refid="class_windows_forms_app1_1_1_checks_1af0f4e45a17558aca84dc500fa591bdd3" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Checks</scope><name>CheckPercent</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

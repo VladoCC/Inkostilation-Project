@@ -17,8 +17,9 @@
         </inbodydescription>
         <location file="Result.cs" line="11" column="22" bodyfile="Result.cs" bodystart="11" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_result_1ac4ed3a95744201d9d40826d705b45432" compoundref="_result_8cs" startline="21" endline="24">WindowsFormsApp1.Result.Result</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_result_1ae1e01a556debbcb90aab472931a73392" compoundref="_result_8cs" startline="69" endline="72">WindowsFormsApp1.Result.operator true</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_result_1acd9841cc3ef6dd00dd2c2ee900f2de51" compoundref="_result_8cs" startline="89" endline="92">WindowsFormsApp1.Result.operator!</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1a69f3d87fe18bf7c3b0365cb537f5e360" compoundref="_result_8cs" startline="67" endline="81">WindowsFormsApp1.Result.operator+</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1ae1e01a556debbcb90aab472931a73392" compoundref="_result_8cs" startline="88" endline="91">WindowsFormsApp1.Result.operator true</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1acd9841cc3ef6dd00dd2c2ee900f2de51" compoundref="_result_8cs" startline="108" endline="111">WindowsFormsApp1.Result.operator!</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_result_1a105c7a040a67d3fec5783fee93da42e5" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -34,7 +35,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Result.cs" line="15" column="24" bodyfile="Result.cs" bodystart="15" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="33">WindowsFormsApp1.Result.AddMessage</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="36">WindowsFormsApp1.Result.AddMessage</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1a69f3d87fe18bf7c3b0365cb537f5e360" compoundref="_result_8cs" startline="67" endline="81">WindowsFormsApp1.Result.operator+</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -50,8 +52,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="38" column="21" bodyfile="Result.cs" bodystart="39" bodyend="42"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
+        <location file="Result.cs" line="41" column="21" bodyfile="Result.cs" bodystart="42" bodyend="45"/>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1af0be912935ea3f719151ec98c5e8e7f3" compoundref="_checks_8cs" startline="18" endline="100">WindowsFormsApp1.Checks.CheckMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1afb7892eb0db1b89debf14168739078ba" compoundref="_checks_8cs" startline="109" endline="177">WindowsFormsApp1.Checks.CheckClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1af0f4e45a17558aca84dc500fa591bdd3" compoundref="_checks_8cs" startline="187" endline="282">WindowsFormsApp1.Checks.CheckPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1a139b026833c6fc7a3edc5657296f5240" compoundref="_checks_8cs" startline="292" endline="383">WindowsFormsApp1.Checks.CheckOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a4fcaf5b98941ed0476c7ac6d1e0d9b00" compoundref="_database_8cs" startline="63" endline="167">WindowsFormsApp1.Database.LoadInstance</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="1014" endline="1033">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -65,7 +81,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="47" column="23" bodyfile="Result.cs" bodystart="48" bodyend="50"/>
+        <location file="Result.cs" line="50" column="23" bodyfile="Result.cs" bodystart="51" bodyend="53"/>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1af0be912935ea3f719151ec98c5e8e7f3" compoundref="_checks_8cs" startline="18" endline="100">WindowsFormsApp1.Checks.CheckMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1afb7892eb0db1b89debf14168739078ba" compoundref="_checks_8cs" startline="109" endline="177">WindowsFormsApp1.Checks.CheckClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1af0f4e45a17558aca84dc500fa591bdd3" compoundref="_checks_8cs" startline="187" endline="282">WindowsFormsApp1.Checks.CheckPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1a139b026833c6fc7a3edc5657296f5240" compoundref="_checks_8cs" startline="292" endline="383">WindowsFormsApp1.Checks.CheckOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="1014" endline="1033">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -97,6 +127,7 @@
         </inbodydescription>
         <location file="Result.cs" line="21" column="16" bodyfile="Result.cs" bodystart="21" bodyend="24"/>
         <references refid="class_windows_forms_app1_1_1_result_1a3afdab68abd7342bd55b05b32e42d490" compoundref="_result_8cs" startline="11">WindowsFormsApp1.Result._success</references>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1a69f3d87fe18bf7c3b0365cb537f5e360" compoundref="_result_8cs" startline="67" endline="81">WindowsFormsApp1.Result.operator+</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -124,9 +155,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="30" column="21" bodyfile="Result.cs" bodystart="30" bodyend="33"/>
+        <location file="Result.cs" line="30" column="21" bodyfile="Result.cs" bodystart="30" bodyend="36"/>
         <references refid="class_windows_forms_app1_1_1_result_1a105c7a040a67d3fec5783fee93da42e5" compoundref="_result_8cs" startline="15">WindowsFormsApp1.Result._message</references>
-        <referencedby refid="class_windows_forms_app1_1_1_result_1a5e1f7489930eb0359b0995c728a4e2e8" compoundref="_result_8cs" startline="58" endline="62">WindowsFormsApp1.Result.operator+</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1afb7892eb0db1b89debf14168739078ba" compoundref="_checks_8cs" startline="109" endline="177">WindowsFormsApp1.Checks.CheckClient</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1af0be912935ea3f719151ec98c5e8e7f3" compoundref="_checks_8cs" startline="18" endline="100">WindowsFormsApp1.Checks.CheckMachine</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1a139b026833c6fc7a3edc5657296f5240" compoundref="_checks_8cs" startline="292" endline="383">WindowsFormsApp1.Checks.CheckOperation</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_checks_1af0f4e45a17558aca84dc500fa591bdd3" compoundref="_checks_8cs" startline="187" endline="282">WindowsFormsApp1.Checks.CheckPercent</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_result_1a5e1f7489930eb0359b0995c728a4e2e8" compoundref="_result_8cs" startline="61" endline="65">WindowsFormsApp1.Result.operator+</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -170,8 +205,32 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="58" column="30" bodyfile="Result.cs" bodystart="58" bodyend="62"/>
-        <references refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="33">WindowsFormsApp1.Result.AddMessage</references>
+        <location file="Result.cs" line="61" column="30" bodyfile="Result.cs" bodystart="61" bodyend="65"/>
+        <references refid="class_windows_forms_app1_1_1_result_1a3b78944dc1df1c909ff6f492bf992f1a" compoundref="_result_8cs" startline="30" endline="36">WindowsFormsApp1.Result.AddMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_app1_1_1_result_1a69f3d87fe18bf7c3b0365cb537f5e360" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+        <definition>static Result WindowsFormsApp1.Result.operator+</definition>
+        <argsstring>(Result r1, Result r2)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_app1_1_1_result" kindref="compound">Result</ref></type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Result.cs" line="67" column="30" bodyfile="Result.cs" bodystart="67" bodyend="81"/>
+        <references refid="class_windows_forms_app1_1_1_result_1a105c7a040a67d3fec5783fee93da42e5" compoundref="_result_8cs" startline="15">WindowsFormsApp1.Result._message</references>
+        <references refid="class_windows_forms_app1_1_1_result_1a3afdab68abd7342bd55b05b32e42d490" compoundref="_result_8cs" startline="11">WindowsFormsApp1.Result._success</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac4ed3a95744201d9d40826d705b45432" compoundref="_result_8cs" startline="21" endline="24">WindowsFormsApp1.Result.Result</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_result_1ae1e01a556debbcb90aab472931a73392" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -201,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="69" column="28" bodyfile="Result.cs" bodystart="69" bodyend="72"/>
+        <location file="Result.cs" line="88" column="28" bodyfile="Result.cs" bodystart="88" bodyend="91"/>
         <references refid="class_windows_forms_app1_1_1_result_1a3afdab68abd7342bd55b05b32e42d490" compoundref="_result_8cs" startline="11">WindowsFormsApp1.Result._success</references>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_result_1ae2dda2995f6d61acefe76f504c9d1609" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -232,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="79" column="28" bodyfile="Result.cs" bodystart="79" bodyend="82"/>
+        <location file="Result.cs" line="98" column="28" bodyfile="Result.cs" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_result_1acd9841cc3ef6dd00dd2c2ee900f2de51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -262,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Result.cs" line="89" column="28" bodyfile="Result.cs" bodystart="89" bodyend="92"/>
+        <location file="Result.cs" line="108" column="28" bodyfile="Result.cs" bodystart="108" bodyend="111"/>
         <references refid="class_windows_forms_app1_1_1_result_1a3afdab68abd7342bd55b05b32e42d490" compoundref="_result_8cs" startline="11">WindowsFormsApp1.Result._success</references>
       </memberdef>
       </sectiondef>
@@ -277,7 +336,7 @@
         <link refid="class_windows_forms_app1_1_1_result"/>
       </node>
     </collaborationgraph>
-    <location file="Result.cs" line="6" column="11" bodyfile="Result.cs" bodystart="7" bodyend="93"/>
+    <location file="Result.cs" line="6" column="11" bodyfile="Result.cs" bodystart="7" bodyend="112"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_result_1a105c7a040a67d3fec5783fee93da42e5" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>_message</name></member>
       <member refid="class_windows_forms_app1_1_1_result_1a3afdab68abd7342bd55b05b32e42d490" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>_success</name></member>
@@ -287,6 +346,7 @@
       <member refid="class_windows_forms_app1_1_1_result_1ae1e01a556debbcb90aab472931a73392" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>operator true</name></member>
       <member refid="class_windows_forms_app1_1_1_result_1acd9841cc3ef6dd00dd2c2ee900f2de51" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>operator!</name></member>
       <member refid="class_windows_forms_app1_1_1_result_1a5e1f7489930eb0359b0995c728a4e2e8" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>operator+</name></member>
+      <member refid="class_windows_forms_app1_1_1_result_1a69f3d87fe18bf7c3b0365cb537f5e360" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>operator+</name></member>
       <member refid="class_windows_forms_app1_1_1_result_1ac4ed3a95744201d9d40826d705b45432" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>Result</name></member>
       <member refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::Result</scope><name>Success</name></member>
     </listofallmembers>

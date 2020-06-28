@@ -17,10 +17,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="19" column="13" bodyfile="GUI.cs" bodystart="19" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -35,10 +35,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="20" column="13" bodyfile="GUI.cs" bodystart="20" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -53,10 +53,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="21" column="13" bodyfile="GUI.cs" bodystart="21" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1ae695f30d30c455d22cc85e7a77a35bd1" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -71,10 +71,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="22" column="13" bodyfile="GUI.cs" bodystart="22" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -89,14 +89,14 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="23" column="13" bodyfile="GUI.cs" bodystart="23" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ae37d60f2a898cb35d5b65e1448f8a4fc" compoundref="_g_u_i_8cs" startline="187" endline="190">WindowsFormsApp1.GUI.dataGridView1_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ae37d60f2a898cb35d5b65e1448f8a4fc" compoundref="_g_u_i_8cs" startline="201" endline="204">WindowsFormsApp1.GUI.dataGridView1_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a7f632137d28e63cfb45c41cf7d0f5d6a" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -111,10 +111,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="24" column="13" bodyfile="GUI.cs" bodystart="24" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e50d6755161ec3050c7f996ba3407a" compoundref="_g_u_i_8cs" startline="420" endline="423">WindowsFormsApp1.GUI.dataGridView3_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e50d6755161ec3050c7f996ba3407a" compoundref="_g_u_i_8cs" startline="518" endline="521">WindowsFormsApp1.GUI.dataGridView3_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a58bc565a12c11b9180d728a259f6c033" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -129,10 +129,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="25" column="13" bodyfile="GUI.cs" bodystart="25" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab25be3dacea45e0aa68ccb629f89177f" compoundref="_g_u_i_8cs" startline="425" endline="428">WindowsFormsApp1.GUI.dataGridView2_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab25be3dacea45e0aa68ccb629f89177f" compoundref="_g_u_i_8cs" startline="523" endline="526">WindowsFormsApp1.GUI.dataGridView2_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a2acf5f8ef452b676bade93a4ac9cc127" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -147,10 +147,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="26" column="13" bodyfile="GUI.cs" bodystart="26" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a8c436b48973ce4cf2c48547a65a5776f" compoundref="_g_u_i_8cs" startline="430" endline="433">WindowsFormsApp1.GUI.dataGridView4_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a8c436b48973ce4cf2c48547a65a5776f" compoundref="_g_u_i_8cs" startline="528" endline="531">WindowsFormsApp1.GUI.dataGridView4_CellClick</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1ae115c4916eef1e2facd4482ce623db89" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -165,9 +165,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="27" column="16" bodyfile="GUI.cs" bodystart="27" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="758" endline="777">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="856" endline="875">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a951d2facb7be07cceb95f39c041f0e89" prot="private" static="no" mutable="no">
         <type>System.ComponentModel.IContainer</type>
@@ -253,13 +253,13 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.Designer.cs" line="659" column="48" bodyfile="GUI.Designer.cs" bodystart="659" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1aa118ae2cdb69b90c3f3fd39c7c0055e9" prot="private" static="no" mutable="no">
@@ -330,11 +330,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.Designer.cs" line="664" column="48" bodyfile="GUI.Designer.cs" bodystart="664" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" prot="private" static="no" mutable="no">
@@ -349,12 +349,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.Designer.cs" line="665" column="48" bodyfile="GUI.Designer.cs" bodystart="665" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" prot="private" static="no" mutable="no">
@@ -369,12 +369,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.Designer.cs" line="666" column="48" bodyfile="GUI.Designer.cs" bodystart="666" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1acdec8c5c8fa63ac15ef474e1c035c2e2" prot="private" static="no" mutable="no">
@@ -837,8 +837,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.Designer.cs" line="699" column="50" bodyfile="GUI.Designer.cs" bodystart="699" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="758" endline="777">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="856" endline="875">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" prot="private" static="no" mutable="no">
@@ -853,8 +853,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.Designer.cs" line="700" column="44" bodyfile="GUI.Designer.cs" bodystart="700" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="758" endline="777">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="856" endline="875">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>
@@ -872,48 +872,14 @@
         <inbodydescription>
         </inbodydescription>
         <location file="GUI.cs" line="29" column="28" bodyfile="GUI.cs" bodystart="29" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_hash_map1_dialog_1ac313e9c04c6127233ac77fed8077f39d" compoundref="_hash_map1_dialog_8cs" startline="107" endline="111">WindowsFormsApp1.HashMap1Dialog.button2_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a0f8f1fa818ae09e3751cead4a9c3fdc8" compoundref="_hash_map2_dialog_8cs" startline="92" endline="96">WindowsFormsApp1.HashMap2Dialog.button2_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_tree1_dialog_1ab4b0d396a9a8d0ba968c701cac24fc23" compoundref="_tree1_dialog_8cs" startline="120" endline="124">WindowsFormsApp1.Tree1Dialog.button2_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_tree2_dialog_1a2c2fc0f280acda3245983865e8a8cca8" compoundref="_tree2_dialog_8cs" startline="115" endline="119">WindowsFormsApp1.Tree2Dialog.button2_Click</referencedby>
-      </memberdef>
-      <memberdef kind="variable" id="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" prot="public" static="yes" mutable="no">
-        <type><ref refid="class_windows_forms_app1_1_1_database" kindref="compound">Database</ref></type>
-        <definition>Database WindowsFormsApp1.GUI.myDatabase</definition>
-        <argsstring></argsstring>
-        <name>myDatabase</name>
-        <initializer>= <ref refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" kindref="member">Database.GetNewInstance</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="GUI.cs" line="31" column="32" bodyfile="GUI.cs" bodystart="31" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="916" endline="929">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -928,7 +894,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="32" column="16" bodyfile="GUI.cs" bodystart="32" bodyend="42"/>
+        <location file="GUI.cs" line="30" column="16" bodyfile="GUI.cs" bodystart="30" bodyend="40"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</references>
       </memberdef>
       </sectiondef>
@@ -952,16 +918,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="44" column="22" bodyfile="GUI.cs" bodystart="44" bodyend="77"/>
-        <references refid="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" compoundref="_database_8cs" startline="123" endline="132">WindowsFormsApp1.Database.AddMachine</references>
+        <location file="GUI.cs" line="42" column="22" bodyfile="GUI.cs" bodystart="42" bodyend="79"/>
+        <references refid="class_windows_forms_app1_1_1_database_1aaf665ddd93997a97669503e6b54c0fc9" compoundref="_database_8cs" startline="266" endline="275">WindowsFormsApp1.Database.AddMachine</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" compoundref="_machine_8cs" startline="62">WindowsFormsApp1.Machine.Address</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" compoundref="_machine_8cs" startline="67">WindowsFormsApp1.Machine.BankName</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
-        <references refid="class_windows_forms_app1_1_1_machine_1a1cce5f01e7e7e4eace9cbc0347f4032a" compoundref="_machine_8cs" startline="43" endline="46">WindowsFormsApp1.Machine.GetKey</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f">WinFormsApp1.HashFunction&lt; T &gt;.Hash</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="415" endline="418">WindowsFormsApp1.Database.MachinesFunction</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" compoundref="_database_8cs" startline="522" endline="525">WindowsFormsApp1.Database.MachineArray</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="558" endline="561">WindowsFormsApp1.Database.MachinesFunction</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7e579f8f91b5cf123ef58cd9d3c2e598" compoundref="_g_u_i_8cs" startline="19">WindowsFormsApp1.GUI.NumRows1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" compoundref="_g_u_i_8cs" startline="29">WindowsFormsApp1.GUI.stopflag</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <references refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a3532ce9b4b03a8dd16da2831107b7a74" compoundref="_hash_map1_dialog_8_designer_8cs" startline="162">WindowsFormsApp1.HashMap1Dialog.waterMarkTextBox1</references>
         <references refid="class_windows_forms_app1_1_1_hash_map1_dialog_1aac80928a30bbcda9615cfb7e36f7207b" compoundref="_hash_map1_dialog_8_designer_8cs" startline="163">WindowsFormsApp1.HashMap1Dialog.waterMarkTextBox2</references>
         <references refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a1e7b07527b7cdc7244f9cd3844889e4c" compoundref="_hash_map1_dialog_8_designer_8cs" startline="164">WindowsFormsApp1.HashMap1Dialog.waterMarkTextBox3</references>
@@ -986,16 +957,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="78" column="22" bodyfile="GUI.cs" bodystart="78" bodyend="111"/>
-        <references refid="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" compoundref="_database_8cs" startline="107" endline="116">WindowsFormsApp1.Database.AddClient</references>
-        <references refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="406" endline="409">WindowsFormsApp1.Database.ClientsFunction</references>
+        <location file="GUI.cs" line="80" column="22" bodyfile="GUI.cs" bodystart="80" bodyend="117"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a53114f18cdc0bac00871b10ac152b8e5" compoundref="_database_8cs" startline="250" endline="259">WindowsFormsApp1.Database.AddClient</references>
+        <references refid="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" compoundref="_client_8cs" startline="62">WindowsFormsApp1.Client.BankName</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" compoundref="_client_8cs" startline="57">WindowsFormsApp1.Client.CardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" compoundref="_database_8cs" startline="513" endline="516">WindowsFormsApp1.Database.ClientArray</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="549" endline="552">WindowsFormsApp1.Database.ClientsFunction</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
-        <references refid="class_windows_forms_app1_1_1_client_1a123281db04c626d34b64f94128a6b372" compoundref="_client_8cs" startline="43" endline="46">WindowsFormsApp1.Client.GetKey</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f">WinFormsApp1.HashFunction&lt; T &gt;.Hash</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" compoundref="_client_8cs" startline="67">WindowsFormsApp1.Client.Name</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" compoundref="_g_u_i_8cs" startline="20">WindowsFormsApp1.GUI.NumRows2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" compoundref="_g_u_i_8cs" startline="29">WindowsFormsApp1.GUI.stopflag</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1abebce85a8cc850b3c4af83971f4acf1c" compoundref="_hash_map2_dialog_8_designer_8cs" startline="161">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox1</references>
         <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a3960455511f2b8e919fc22d0054dd43f" compoundref="_hash_map2_dialog_8_designer_8cs" startline="162">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox2</references>
         <references refid="class_windows_forms_app1_1_1_hash_map2_dialog_1a6ecb3a37304fa36c923f76bcee17d5df" compoundref="_hash_map2_dialog_8_designer_8cs" startline="163">WindowsFormsApp1.HashMap2Dialog.waterMarkTextBox3</references>
@@ -1020,13 +996,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="113" column="22" bodyfile="GUI.cs" bodystart="113" bodyend="148"/>
-        <references refid="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" compoundref="_database_8cs" startline="155" endline="164">WindowsFormsApp1.Database.AddPercent</references>
+        <location file="GUI.cs" line="119" column="22" bodyfile="GUI.cs" bodystart="119" bodyend="157"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ac3dce380aef5ec8b9f868aa47d7ebe37" compoundref="_database_8cs" startline="298" endline="307">WindowsFormsApp1.Database.AddPercent</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" compoundref="_g_u_i_8_designer_8cs" startline="664">WindowsFormsApp1.GUI.dataGridView2</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" compoundref="_g_u_i_8cs" startline="21">WindowsFormsApp1.GUI.NumRows3</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" compoundref="_database_8cs" startline="540" endline="543">WindowsFormsApp1.Database.PercentArray</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" compoundref="_percent_8cs" startline="74">WindowsFormsApp1.Percent.SenderBank</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" compoundref="_g_u_i_8cs" startline="29">WindowsFormsApp1.GUI.stopflag</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <references refid="class_windows_forms_app1_1_1_tree1_dialog_1a9705f17a4294d08a8b7e8bd813ffc9e2" compoundref="_tree1_dialog_8_designer_8cs" startline="185">WindowsFormsApp1.Tree1Dialog.waterMarkTextBox1</references>
         <references refid="class_windows_forms_app1_1_1_tree1_dialog_1a4c54b1166375247ef5178abe38714b17" compoundref="_tree1_dialog_8_designer_8cs" startline="186">WindowsFormsApp1.Tree1Dialog.waterMarkTextBox2</references>
         <references refid="class_windows_forms_app1_1_1_tree1_dialog_1a1fa0c0538c18d11f1e2cabfd210810ce" compoundref="_tree1_dialog_8_designer_8cs" startline="187">WindowsFormsApp1.Tree1Dialog.waterMarkTextBox3</references>
@@ -1052,13 +1035,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="150" column="22" bodyfile="GUI.cs" bodystart="150" bodyend="185"/>
-        <references refid="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" compoundref="_database_8cs" startline="139" endline="148">WindowsFormsApp1.Database.AddOperation</references>
+        <location file="GUI.cs" line="159" column="22" bodyfile="GUI.cs" bodystart="159" bodyend="199"/>
+        <references refid="class_windows_forms_app1_1_1_database_1a42978ab4f160aec4b93fd0cdc98c02ea" compoundref="_database_8cs" startline="282" endline="291">WindowsFormsApp1.Database.AddOperation</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae695f30d30c455d22cc85e7a77a35bd1" compoundref="_g_u_i_8cs" startline="22">WindowsFormsApp1.GUI.NumRows4</references>
+        <references refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" compoundref="_database_8cs" startline="531" endline="534">WindowsFormsApp1.Database.OperationArray</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a41db950ee99757d2e647bbab66769aec" compoundref="_g_u_i_8cs" startline="29">WindowsFormsApp1.GUI.stopflag</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" compoundref="_operation_8cs" startline="82">WindowsFormsApp1.Operation.Sum</references>
         <references refid="class_windows_forms_app1_1_1_tree2_dialog_1ae6112a837f514860da522259feb1148d" compoundref="_tree2_dialog_8_designer_8cs" startline="186">WindowsFormsApp1.Tree2Dialog.waterMarkTextBox1</references>
         <references refid="class_windows_forms_app1_1_1_tree2_dialog_1a2c0915e09b1e8477a753aa1ae2ac232e" compoundref="_tree2_dialog_8_designer_8cs" startline="187">WindowsFormsApp1.Tree2Dialog.waterMarkTextBox2</references>
         <references refid="class_windows_forms_app1_1_1_tree2_dialog_1a8523bcd74e91e2229d91cdc9f363f21a" compoundref="_tree2_dialog_8_designer_8cs" startline="188">WindowsFormsApp1.Tree2Dialog.waterMarkTextBox3</references>
@@ -1084,7 +1074,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="187" column="22" bodyfile="GUI.cs" bodystart="187" bodyend="190"/>
+        <location file="GUI.cs" line="201" column="22" bodyfile="GUI.cs" bodystart="201" bodyend="204"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
@@ -1107,13 +1097,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="192" column="22" bodyfile="GUI.cs" bodystart="192" bodyend="247"/>
+        <location file="GUI.cs" line="206" column="22" bodyfile="GUI.cs" bodystart="206" bodyend="283"/>
+        <references refid="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" compoundref="_machine_8cs" startline="62">WindowsFormsApp1.Machine.Address</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" compoundref="_machine_8cs" startline="67">WindowsFormsApp1.Machine.BankName</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
+        <references refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f">WinFormsApp1.HashFunction&lt; T &gt;.Hash</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" compoundref="_database_8cs" startline="522" endline="525">WindowsFormsApp1.Database.MachineArray</references>
+        <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="558" endline="561">WindowsFormsApp1.Database.MachinesFunction</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7e579f8f91b5cf123ef58cd9d3c2e598" compoundref="_g_u_i_8cs" startline="19">WindowsFormsApp1.GUI.NumRows1</references>
-        <references refid="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" compoundref="_database_8cs" startline="187" endline="196">WindowsFormsApp1.Database.RemoveMachine</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ad1a60f27b0d1655e46db49dbd2277c6c" compoundref="_database_8cs" startline="330" endline="339">WindowsFormsApp1.Database.RemoveMachine</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -1135,13 +1133,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="249" column="22" bodyfile="GUI.cs" bodystart="249" bodyend="304"/>
+        <location file="GUI.cs" line="285" column="22" bodyfile="GUI.cs" bodystart="285" bodyend="362"/>
+        <references refid="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" compoundref="_client_8cs" startline="62">WindowsFormsApp1.Client.BankName</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" compoundref="_client_8cs" startline="57">WindowsFormsApp1.Client.CardNumber</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" compoundref="_database_8cs" startline="513" endline="516">WindowsFormsApp1.Database.ClientArray</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="549" endline="552">WindowsFormsApp1.Database.ClientsFunction</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
+        <references refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f">WinFormsApp1.HashFunction&lt; T &gt;.Hash</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7f632137d28e63cfb45c41cf7d0f5d6a" compoundref="_g_u_i_8cs" startline="24">WindowsFormsApp1.GUI.index2</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" compoundref="_client_8cs" startline="67">WindowsFormsApp1.Client.Name</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" compoundref="_g_u_i_8cs" startline="20">WindowsFormsApp1.GUI.NumRows2</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" compoundref="_database_8cs" startline="171" endline="180">WindowsFormsApp1.Database.RemoveClient</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a31c6b0a0646fc689f29db7ac61839ca3" compoundref="_database_8cs" startline="314" endline="323">WindowsFormsApp1.Database.RemoveClient</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -1163,13 +1169,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="306" column="22" bodyfile="GUI.cs" bodystart="306" bodyend="361"/>
+        <location file="GUI.cs" line="364" column="22" bodyfile="GUI.cs" bodystart="364" bodyend="439"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" compoundref="_g_u_i_8_designer_8cs" startline="664">WindowsFormsApp1.GUI.dataGridView2</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a58bc565a12c11b9180d728a259f6c033" compoundref="_g_u_i_8cs" startline="25">WindowsFormsApp1.GUI.index3</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" compoundref="_g_u_i_8cs" startline="21">WindowsFormsApp1.GUI.NumRows3</references>
-        <references refid="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" compoundref="_database_8cs" startline="219" endline="228">WindowsFormsApp1.Database.RemovePercent</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" compoundref="_database_8cs" startline="540" endline="543">WindowsFormsApp1.Database.PercentArray</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab3d9622d3bc473a6f423f2eb26ce7847" compoundref="_database_8cs" startline="362" endline="371">WindowsFormsApp1.Database.RemovePercent</references>
+        <references refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" compoundref="_percent_8cs" startline="74">WindowsFormsApp1.Percent.SenderBank</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -1191,13 +1204,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="363" column="22" bodyfile="GUI.cs" bodystart="363" bodyend="418"/>
+        <location file="GUI.cs" line="441" column="22" bodyfile="GUI.cs" bodystart="441" bodyend="516"/>
+        <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a2acf5f8ef452b676bade93a4ac9cc127" compoundref="_g_u_i_8cs" startline="26">WindowsFormsApp1.GUI.index4</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae695f30d30c455d22cc85e7a77a35bd1" compoundref="_g_u_i_8cs" startline="22">WindowsFormsApp1.GUI.NumRows4</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" compoundref="_database_8cs" startline="203" endline="212">WindowsFormsApp1.Database.RemoveOperation</references>
+        <references refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" compoundref="_database_8cs" startline="531" endline="534">WindowsFormsApp1.Database.OperationArray</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a59e069754e423f09d15d55b82e9077a3" compoundref="_database_8cs" startline="346" endline="355">WindowsFormsApp1.Database.RemoveOperation</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
+        <references refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" compoundref="_operation_8cs" startline="82">WindowsFormsApp1.Operation.Sum</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_g_u_i_1ab6e50d6755161ec3050c7f996ba3407a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -1219,7 +1239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="420" column="22" bodyfile="GUI.cs" bodystart="420" bodyend="423"/>
+        <location file="GUI.cs" line="518" column="22" bodyfile="GUI.cs" bodystart="518" bodyend="521"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7f632137d28e63cfb45c41cf7d0f5d6a" compoundref="_g_u_i_8cs" startline="24">WindowsFormsApp1.GUI.index2</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
@@ -1242,7 +1262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="425" column="22" bodyfile="GUI.cs" bodystart="425" bodyend="428"/>
+        <location file="GUI.cs" line="523" column="22" bodyfile="GUI.cs" bodystart="523" bodyend="526"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a58bc565a12c11b9180d728a259f6c033" compoundref="_g_u_i_8cs" startline="25">WindowsFormsApp1.GUI.index3</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
@@ -1265,7 +1285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="430" column="22" bodyfile="GUI.cs" bodystart="430" bodyend="433"/>
+        <location file="GUI.cs" line="528" column="22" bodyfile="GUI.cs" bodystart="528" bodyend="531"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a2acf5f8ef452b676bade93a4ac9cc127" compoundref="_g_u_i_8cs" startline="26">WindowsFormsApp1.GUI.index4</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
@@ -1288,7 +1308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="435" column="22" bodyfile="GUI.cs" bodystart="435" bodyend="756"/>
+        <location file="GUI.cs" line="533" column="22" bodyfile="GUI.cs" bodystart="533" bodyend="854"/>
         <references refid="class_windows_forms_app1_1_1_client_found_1ad14abc8eccd4e93b9c0d302aabc2e039" compoundref="_client_found_8_designer_8cs" startline="156">WindowsFormsApp1.ClientFound.ClientResults</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" compoundref="_g_u_i_8_designer_8cs" startline="700">WindowsFormsApp1.GUI.comboBox1</references>
         <references refid="class_windows_forms_app1_1_1_search_query_1a0f4f392303bc7b3b0a3e99673578107b" compoundref="_search_query_8cs" startline="68">WindowsFormsApp1.SearchQuery&lt; T &gt;.Counter</references>
@@ -1296,18 +1316,18 @@
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" compoundref="_g_u_i_8_designer_8cs" startline="664">WindowsFormsApp1.GUI.dataGridView2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" compoundref="_database_8cs" startline="236" endline="241">WindowsFormsApp1.Database.FindClient</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" compoundref="_database_8cs" startline="249" endline="254">WindowsFormsApp1.Database.FindMachine</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" compoundref="_database_8cs" startline="262" endline="267">WindowsFormsApp1.Database.FindOperation</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" compoundref="_database_8cs" startline="275" endline="280">WindowsFormsApp1.Database.FindPercent</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a834c678a454207f313282c1d6102634c" compoundref="_database_8cs" startline="379" endline="384">WindowsFormsApp1.Database.FindClient</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a01c5d00f063b5258d3f114b5317ed03d" compoundref="_database_8cs" startline="392" endline="397">WindowsFormsApp1.Database.FindMachine</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a562a325c28d8027ee82822b6c7423ce9" compoundref="_database_8cs" startline="405" endline="410">WindowsFormsApp1.Database.FindOperation</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a7fc2a176aaf39cc2be15da31e14244ef" compoundref="_database_8cs" startline="418" endline="423">WindowsFormsApp1.Database.FindPercent</references>
         <references refid="class_windows_forms_app1_1_1_search_query_1abfb89356449ca1d3a2d9b984a05bdad6" compoundref="_search_query_8cs" startline="79" endline="82">WindowsFormsApp1.SearchQuery&lt; T &gt;.Found</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
         <references refid="class_windows_forms_app1_1_1operation_found_1a2c1e6038ae51327834a52800c627de51" compoundref="operation_found_8_designer_8cs" startline="159">WindowsFormsApp1.operationFound.label1</references>
         <references refid="class_windows_forms_app1_1_1_client_found_1afbf193bc145f24a1417823ad2a86bfac" compoundref="_client_found_8_designer_8cs" startline="159">WindowsFormsApp1.ClientFound.label1</references>
         <references refid="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" compoundref="_machine_found_8_designer_8cs" startline="159">WindowsFormsApp1.MachineFound.label3</references>
         <references refid="class_windows_forms_app1_1_1percent_found_1a85a34a6e5bb1c0fd32190a83cf3e374e" compoundref="percent_found_8_designer_8cs" startline="159">WindowsFormsApp1.percentFound.label3</references>
         <references refid="class_windows_forms_app1_1_1_machine_found_1ab04f451288713d8f5bd3d7244b192f97" compoundref="_machine_found_8_designer_8cs" startline="156">WindowsFormsApp1.MachineFound.MachineResults</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1operation_found_1adf52a3bd2d35defc9edf2a7020c08a0d" compoundref="operation_found_8_designer_8cs" startline="156">WindowsFormsApp1.operationFound.operationResults</references>
         <references refid="class_windows_forms_app1_1_1percent_found_1a7e6a5d70d86388a5e1a0eb2af2bdd155" compoundref="percent_found_8_designer_8cs" startline="156">WindowsFormsApp1.percentFound.percentResults</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a492a3f20021de7a3283de81e09d53ea8" compoundref="_g_u_i_8_designer_8cs" startline="699">WindowsFormsApp1.GUI.waterMarkTextBox1</references>
@@ -1332,7 +1352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="758" column="22" bodyfile="GUI.cs" bodystart="758" bodyend="777"/>
+        <location file="GUI.cs" line="856" column="22" bodyfile="GUI.cs" bodystart="856" bodyend="875"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" compoundref="_g_u_i_8_designer_8cs" startline="700">WindowsFormsApp1.GUI.comboBox1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae115c4916eef1e2facd4482ce623db89" compoundref="_g_u_i_8cs" startline="27">WindowsFormsApp1.GUI.state</references>
         <references refid="class_windows_forms_app1_1_1_water_mark_text_box_1aba25e2bc2d36ea85bd5efa8d53cbd341" compoundref="_water_mark_text_box_8cs" startline="28" endline="31">WindowsFormsApp1.WaterMarkTextBox.WaterMarkText</references>
@@ -1358,15 +1378,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="779" column="22" bodyfile="GUI.cs" bodystart="779" bodyend="810"/>
+        <location file="GUI.cs" line="877" column="22" bodyfile="GUI.cs" bodystart="877" bodyend="908"/>
         <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="671" endline="685">WindowsFormsApp1.Database.ClientOperationReport</references>
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" compoundref="_operation_8cs" startline="82">WindowsFormsApp1.Operation.Sum</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
@@ -1390,15 +1410,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="812" column="22" bodyfile="GUI.cs" bodystart="812" bodyend="844"/>
+        <location file="GUI.cs" line="910" column="22" bodyfile="GUI.cs" bodystart="910" bodyend="942"/>
         <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="692" endline="706">WindowsFormsApp1.Database.MachineOperationReport</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" compoundref="_operation_8cs" startline="82">WindowsFormsApp1.Operation.Sum</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
@@ -1422,14 +1442,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="846" column="22" bodyfile="GUI.cs" bodystart="846" bodyend="880"/>
+        <location file="GUI.cs" line="944" column="22" bodyfile="GUI.cs" bodystart="944" bodyend="978"/>
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="571" endline="585">WindowsFormsApp1.Database.OperationPercentReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="713" endline="727">WindowsFormsApp1.Database.OperationPercentReport</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
         <references refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" compoundref="_percent_8cs" startline="74">WindowsFormsApp1.Percent.SenderBank</references>
@@ -1454,13 +1474,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="882" column="22" bodyfile="GUI.cs" bodystart="882" bodyend="914"/>
+        <location file="GUI.cs" line="980" column="22" bodyfile="GUI.cs" bodystart="980" bodyend="1012"/>
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
@@ -1486,9 +1506,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="916" column="22" bodyfile="GUI.cs" bodystart="916" bodyend="929"/>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a7fbfcac98864ecc48c83b651a59a69c1" compoundref="_database_8cs" startline="94" endline="100">WindowsFormsApp1.Database.Save</references>
+        <location file="GUI.cs" line="1014" column="22" bodyfile="GUI.cs" bodystart="1014" bodyend="1033"/>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
+        <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -1510,47 +1533,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="931" column="22" bodyfile="GUI.cs" bodystart="931" bodyend="1008"/>
+        <location file="GUI.cs" line="1035" column="22" bodyfile="GUI.cs" bodystart="1035" bodyend="1120"/>
         <references refid="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" compoundref="_machine_8cs" startline="62">WindowsFormsApp1.Machine.Address</references>
         <references refid="class_windows_forms_app1_1_1_client_1aa7ef74feea3a6ed54d3f411c87343973" compoundref="_client_8cs" startline="62">WindowsFormsApp1.Client.BankName</references>
         <references refid="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" compoundref="_machine_8cs" startline="67">WindowsFormsApp1.Machine.BankName</references>
         <references refid="class_windows_forms_app1_1_1_client_1a95db991b40b5e652fd2b727c813331bc" compoundref="_client_8cs" startline="57">WindowsFormsApp1.Client.CardNumber</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" compoundref="_database_8cs" startline="370" endline="373">WindowsFormsApp1.Database.ClientArray</references>
-        <references refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="406" endline="409">WindowsFormsApp1.Database.ClientsFunction</references>
-        <references refid="class_windows_forms_app1_1_1_database_1afb07a7f367fe3ce7348d0d5f70a82536" compoundref="_database_8cs" startline="334" endline="337">WindowsFormsApp1.Database.ClientSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ac2f8af3b2b2bcb40a44b3947802f5c84" compoundref="_database_8cs" startline="513" endline="516">WindowsFormsApp1.Database.ClientArray</references>
+        <references refid="class_windows_forms_app1_1_1_database_1aa1cdc9d9ca1b9f807e8736e07f0ed5b4" compoundref="_database_8cs" startline="549" endline="552">WindowsFormsApp1.Database.ClientsFunction</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" compoundref="_g_u_i_8_designer_8cs" startline="664">WindowsFormsApp1.GUI.dataGridView2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a6b3cb170c1455dfd9eb5bfa73891d006" compoundref="_database_8cs" startline="51" endline="65">WindowsFormsApp1.Database.GetInstance</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_win_forms_app1_1_1_hash_function_1a78a43fc1610e678bff472562d00f727f">WinFormsApp1.HashFunction&lt; T &gt;.Hash</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7f632137d28e63cfb45c41cf7d0f5d6a" compoundref="_g_u_i_8cs" startline="24">WindowsFormsApp1.GUI.index2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a58bc565a12c11b9180d728a259f6c033" compoundref="_g_u_i_8cs" startline="25">WindowsFormsApp1.GUI.index3</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a2acf5f8ef452b676bade93a4ac9cc127" compoundref="_g_u_i_8cs" startline="26">WindowsFormsApp1.GUI.index4</references>
         <references refid="class_windows_forms_app1_1_1_error_form_1a36187ef8bb2aecd6644a998b32ed96d8" compoundref="_error_form_8_designer_8cs" startline="76">WindowsFormsApp1.ErrorForm.label1</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" compoundref="_database_8cs" startline="379" endline="382">WindowsFormsApp1.Database.MachineArray</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a4fcaf5b98941ed0476c7ac6d1e0d9b00" compoundref="_database_8cs" startline="63" endline="167">WindowsFormsApp1.Database.LoadInstance</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a7928c21bf0b7f061a696082f4291b79e" compoundref="_database_8cs" startline="522" endline="525">WindowsFormsApp1.Database.MachineArray</references>
         <references refid="class_windows_forms_app1_1_1_machine_1a205febd727291eb29240d046bf92a449" compoundref="_machine_8cs" startline="57">WindowsFormsApp1.Machine.MachineNumber</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="415" endline="418">WindowsFormsApp1.Database.MachinesFunction</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a9e9603449f45edce04e4413859a989df" compoundref="_database_8cs" startline="343" endline="346">WindowsFormsApp1.Database.MachineSize</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a44eec367d91e28e33b015684be8a902f" compoundref="_database_8cs" startline="558" endline="561">WindowsFormsApp1.Database.MachinesFunction</references>
+        <references refid="class_windows_forms_app1_1_1_result_1aba464e180fd14dd04b443e22aef43453" compoundref="_result_8cs" startline="51" endline="53">WindowsFormsApp1.Result.Message</references>
         <references refid="class_windows_forms_app1_1_1_client_1a05bb4e48163240869b0e2170aa748dd2" compoundref="_client_8cs" startline="67">WindowsFormsApp1.Client.Name</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7e579f8f91b5cf123ef58cd9d3c2e598" compoundref="_g_u_i_8cs" startline="19">WindowsFormsApp1.GUI.NumRows1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" compoundref="_g_u_i_8cs" startline="20">WindowsFormsApp1.GUI.NumRows2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" compoundref="_g_u_i_8cs" startline="21">WindowsFormsApp1.GUI.NumRows3</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae695f30d30c455d22cc85e7a77a35bd1" compoundref="_g_u_i_8cs" startline="22">WindowsFormsApp1.GUI.NumRows4</references>
-        <references refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" compoundref="_database_8cs" startline="388" endline="391">WindowsFormsApp1.Database.OperationArray</references>
+        <references refid="class_windows_forms_app1_1_1_database_1adcac299370aba10305fc5e0d46b68644" compoundref="_database_8cs" startline="531" endline="534">WindowsFormsApp1.Database.OperationArray</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a0aada03c9753ac8ca93a841bd8c796ce" compoundref="_percent_8cs" startline="69">WindowsFormsApp1.Percent.OperationName</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a71bfaac112b0cf14dbfa6ed6828645bf" compoundref="_database_8cs" startline="352" endline="355">WindowsFormsApp1.Database.OperationSize</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a5fa3f3bb5836bbb78b45d970fb601d96" compoundref="_percent_8cs" startline="84">WindowsFormsApp1.Percent.Percent1</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" compoundref="_database_8cs" startline="397" endline="400">WindowsFormsApp1.Database.PercentArray</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a4193279732068c21e5f17702c90348fb" compoundref="_database_8cs" startline="361" endline="364">WindowsFormsApp1.Database.PercentSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a6c72a00968440e4461c41fd6493b2a43" compoundref="_database_8cs" startline="540" endline="543">WindowsFormsApp1.Database.PercentArray</references>
         <references refid="class_windows_forms_app1_1_1_percent_1a9e1d60d11732b772d0ee303595a2f74b" compoundref="_percent_8cs" startline="79">WindowsFormsApp1.Percent.ReceiverBank</references>
         <references refid="class_windows_forms_app1_1_1_percent_1ac22bcc2dbe8f06ce406cbdda4d94b4a6" compoundref="_percent_8cs" startline="74">WindowsFormsApp1.Percent.SenderBank</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae115c4916eef1e2facd4482ce623db89" compoundref="_g_u_i_8cs" startline="27">WindowsFormsApp1.GUI.state</references>
+        <references refid="class_windows_forms_app1_1_1_result_1ac0dec613fb212f29559c3f238ae20134" compoundref="_result_8cs" startline="42" endline="45">WindowsFormsApp1.Result.Success</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a300c7a42d897ea5b55dc6dde1ff4ea01" compoundref="_operation_8cs" startline="82">WindowsFormsApp1.Operation.Sum</references>
         <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7dc34bb399931600b972d0c25b8fe5fa" compoundref="_g_u_i_8_designer_8cs" startline="29" endline="651">WindowsFormsApp1.GUI.InitializeComponent</referencedby>
       </memberdef>
@@ -1573,17 +1594,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GUI.cs" line="1010" column="22" bodyfile="GUI.cs" bodystart="1010" bodyend="1026"/>
+        <location file="GUI.cs" line="1122" column="22" bodyfile="GUI.cs" bodystart="1122" bodyend="1138"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" compoundref="_g_u_i_8_designer_8cs" startline="664">WindowsFormsApp1.GUI.dataGridView2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" compoundref="_database_8cs" startline="71" endline="75">WindowsFormsApp1.Database.GetNewInstance</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a556ccfa19d4624001f2f8f0043510e0a" compoundref="_database_8cs" startline="173" endline="177">WindowsFormsApp1.Database.GetNewInstance</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa07f785d7260aa0d6bdb9a86d50b067e" compoundref="_g_u_i_8cs" startline="23">WindowsFormsApp1.GUI.index1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7f632137d28e63cfb45c41cf7d0f5d6a" compoundref="_g_u_i_8cs" startline="24">WindowsFormsApp1.GUI.index2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a58bc565a12c11b9180d728a259f6c033" compoundref="_g_u_i_8cs" startline="25">WindowsFormsApp1.GUI.index3</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a2acf5f8ef452b676bade93a4ac9cc127" compoundref="_g_u_i_8cs" startline="26">WindowsFormsApp1.GUI.index4</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7e579f8f91b5cf123ef58cd9d3c2e598" compoundref="_g_u_i_8cs" startline="19">WindowsFormsApp1.GUI.NumRows1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" compoundref="_g_u_i_8cs" startline="20">WindowsFormsApp1.GUI.NumRows2</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" compoundref="_g_u_i_8cs" startline="21">WindowsFormsApp1.GUI.NumRows3</references>
@@ -1605,33 +1625,33 @@
         </inbodydescription>
         <location file="GUI.Designer.cs" line="29" column="22" bodyfile="GUI.Designer.cs" bodystart="29" bodyend="651"/>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1acdec8c5c8fa63ac15ef474e1c035c2e2" compoundref="_g_u_i_8_designer_8cs" startline="667">WindowsFormsApp1.GUI.button1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ad563d02bba8981fa437d65f1948e5fa8" compoundref="_g_u_i_8_designer_8cs" startline="668">WindowsFormsApp1.GUI.button2</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ae01e5872f0b33481d2524cad1a86fd1a" compoundref="_g_u_i_8_designer_8cs" startline="669">WindowsFormsApp1.GUI.button3</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a5ad6ae8983036103a72795778958978b" compoundref="_g_u_i_8_designer_8cs" startline="670">WindowsFormsApp1.GUI.button4</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a9b79e18fee610962ff12cfacceb54f27" compoundref="_g_u_i_8_designer_8cs" startline="671">WindowsFormsApp1.GUI.button5</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a7de7a506ecbb57099c7b700107883072" compoundref="_g_u_i_8_designer_8cs" startline="672">WindowsFormsApp1.GUI.button6</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a757a84c45766ff405fd4f42c57097754" compoundref="_g_u_i_8_designer_8cs" startline="673">WindowsFormsApp1.GUI.button7</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a331c63e753e7ada8646e7d0b8872734f" compoundref="_g_u_i_8_designer_8cs" startline="674">WindowsFormsApp1.GUI.button8</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a90052cb9c06941ddbb17b97eaccbc9bb" compoundref="_g_u_i_8_designer_8cs" startline="681">WindowsFormsApp1.GUI.button9</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6f7eafd7d992cd5eef51b096ad3bbb88" compoundref="_g_u_i_8_designer_8cs" startline="700">WindowsFormsApp1.GUI.comboBox1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="758" endline="777">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab1157f1dc0ef8d7e5e1a1aa84f931781" compoundref="_g_u_i_8cs" startline="856" endline="875">WindowsFormsApp1.GUI.comboBox1_SelectedIndexChanged</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a1489d620e6f1cf02f8d19ccf920c173d" compoundref="_g_u_i_8_designer_8cs" startline="659">WindowsFormsApp1.GUI.dataGridView1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1ae37d60f2a898cb35d5b65e1448f8a4fc" compoundref="_g_u_i_8cs" startline="187" endline="190">WindowsFormsApp1.GUI.dataGridView1_CellClick</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1ae37d60f2a898cb35d5b65e1448f8a4fc" compoundref="_g_u_i_8cs" startline="201" endline="204">WindowsFormsApp1.GUI.dataGridView1_CellClick</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a8fd76578a3b922e348857e240e53d0a8" compoundref="_g_u_i_8_designer_8cs" startline="664">WindowsFormsApp1.GUI.dataGridView2</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab25be3dacea45e0aa68ccb629f89177f" compoundref="_g_u_i_8cs" startline="425" endline="428">WindowsFormsApp1.GUI.dataGridView2_CellClick</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab25be3dacea45e0aa68ccb629f89177f" compoundref="_g_u_i_8cs" startline="523" endline="526">WindowsFormsApp1.GUI.dataGridView2_CellClick</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a6618820efc99c8290ac8f47cb647a876" compoundref="_g_u_i_8_designer_8cs" startline="665">WindowsFormsApp1.GUI.dataGridView3</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab6e50d6755161ec3050c7f996ba3407a" compoundref="_g_u_i_8cs" startline="420" endline="423">WindowsFormsApp1.GUI.dataGridView3_CellClick</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab6e50d6755161ec3050c7f996ba3407a" compoundref="_g_u_i_8cs" startline="518" endline="521">WindowsFormsApp1.GUI.dataGridView3_CellClick</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a89d8a61c85b9cd6862d94e945b1d83b4" compoundref="_g_u_i_8_designer_8cs" startline="666">WindowsFormsApp1.GUI.dataGridView4</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a8c436b48973ce4cf2c48547a65a5776f" compoundref="_g_u_i_8cs" startline="430" endline="433">WindowsFormsApp1.GUI.dataGridView4_CellClick</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a8c436b48973ce4cf2c48547a65a5776f" compoundref="_g_u_i_8cs" startline="528" endline="531">WindowsFormsApp1.GUI.dataGridView4_CellClick</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aedf5736a3b5fa4d6e268c8798cf7dab7" compoundref="_g_u_i_8_designer_8cs" startline="683">WindowsFormsApp1.GUI.Hash</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ad4159a88f38c5c4bb3d57fbdda78cfe0" compoundref="_g_u_i_8_designer_8cs" startline="687">WindowsFormsApp1.GUI.Hash1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aa118ae2cdb69b90c3f3fd39c7c0055e9" compoundref="_g_u_i_8_designer_8cs" startline="660">WindowsFormsApp1.GUI.label1</references>
@@ -1658,22 +1678,22 @@
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a61a83bd1ac0c58eb780f821a0e2f2cae" compoundref="_g_u_i_8_designer_8cs" startline="695">WindowsFormsApp1.GUI.ТипОперации1</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1ab73e809a93be45e253ff25832d1eb33b" compoundref="_g_u_i_8_designer_8cs" startline="690">WindowsFormsApp1.GUI.ФИО</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a85902318921ea1b245a6c9823007f90b" compoundref="_g_u_i_8_designer_8cs" startline="657">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a2f420dc7698d87f3c3f8770d0df198e7" compoundref="_g_u_i_8_designer_8cs" startline="677">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1af58a30d943d790965e54b83bdb1e89b6" compoundref="_g_u_i_8_designer_8cs" startline="676">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a2b4ecd4736f3db5d3a3aba79af4e91ee" compoundref="_g_u_i_8_designer_8cs" startline="675">WindowsFormsApp1.GUI.отчётыToolStripMenuItem</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a07a6a4c51992ad3b27ee013e1eb683dd" compoundref="_g_u_i_8_designer_8cs" startline="679">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a79f79e7e45e45879ff0bea51433a7c0a" compoundref="_g_u_i_8_designer_8cs" startline="678">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1a5d553a476b8753bfb8b1dbad6442ec66" compoundref="_g_u_i_8_designer_8cs" startline="656">WindowsFormsApp1.GUI.создатьToolStripMenuItem</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1acc64284a17204bb61bbaca6fe6c64abd" compoundref="_g_u_i_8_designer_8cs" startline="682">WindowsFormsApp1.GUI.создатьToolStripMenuItem1</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1010" endline="1026">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</references>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1a14af1969945b896e813a47ee8a3b9e14" compoundref="_g_u_i_8cs" startline="1122" endline="1138">WindowsFormsApp1.GUI.создатьToolStripMenuItem1_Click</references>
         <references refid="class_windows_forms_app1_1_1_g_u_i_1aedf047b96a2bd6ff19a9815a106a3647" compoundref="_g_u_i_8_designer_8cs" startline="658">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="916" endline="929">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</references>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a9bf23ccfc1e735fc03f759fa724599cf" compoundref="_g_u_i_8cs" startline="32" endline="42">WindowsFormsApp1.GUI.GUI</referencedby>
+        <references refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="1014" endline="1033">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</references>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a9bf23ccfc1e735fc03f759fa724599cf" compoundref="_g_u_i_8cs" startline="30" endline="40">WindowsFormsApp1.GUI.GUI</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -1723,68 +1743,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="10">
-        <label>WinFormsApp1.ICollection&lt; T &gt;</label>
-        <link refid="interface_win_forms_app1_1_1_i_collection"/>
-      </node>
-      <node id="3">
-        <label>WindowsFormsApp1.Database</label>
-        <link refid="class_windows_forms_app1_1_1_database"/>
-        <childnode refid="4" relation="usage">
-          <edgelabel>-_percents</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>-_instance</edgelabel>
-        </childnode>
-        <childnode refid="7" relation="usage">
-          <edgelabel>-_machines</edgelabel>
-        </childnode>
-        <childnode refid="14" relation="usage">
-          <edgelabel>-_operations</edgelabel>
-        </childnode>
-        <childnode refid="15" relation="usage">
-          <edgelabel>-_clients</edgelabel>
-        </childnode>
-      </node>
-      <node id="14">
-        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Operation &gt;</label>
-        <link refid="class_win_forms_app1_1_1_tree"/>
-        <childnode refid="5" relation="template-instance">
-          <edgelabel>&lt; WindowsFormsApp1::Operation &gt;</edgelabel>
-        </childnode>
-      </node>
       <node id="2">
         <label>Form</label>
       </node>
-      <node id="7">
-        <label>WinFormsApp1.HashMap&lt; int, WindowsFormsApp1.Machine &gt;</label>
-        <link refid="class_win_forms_app1_1_1_hash_map"/>
-        <childnode refid="8" relation="template-instance">
-          <edgelabel>&lt; int, WindowsFormsApp1::Machine &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="6">
-        <label>ICollection&lt; T &gt;</label>
-        <link refid="interface_win_forms_app1_1_1_i_collection"/>
-      </node>
-      <node id="8">
-        <label>WinFormsApp1.HashMap&lt; K, V &gt;</label>
-        <link refid="class_win_forms_app1_1_1_hash_map"/>
-        <childnode refid="9" relation="public-inheritance">
-        </childnode>
-        <childnode refid="11" relation="usage">
-          <edgelabel>+Function</edgelabel>
-          <edgelabel>-_function</edgelabel>
-        </childnode>
-      </node>
-      <node id="12">
-        <label>WinFormsApp1.HashFunction&lt; T &gt;</label>
-        <link refid="class_win_forms_app1_1_1_hash_function"/>
-        <childnode refid="13" relation="usage">
-          <edgelabel>-_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="17">
+      <node id="4">
         <label>System</label>
       </node>
       <node id="1">
@@ -1793,12 +1755,9 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>+myDatabase</edgelabel>
-        </childnode>
-        <childnode refid="16" relation="usage">
           <edgelabel>-waterMarkTextBox1</edgelabel>
         </childnode>
-        <childnode refid="17" relation="usage">
+        <childnode refid="4" relation="usage">
           <edgelabel>-Процент</edgelabel>
           <edgelabel>-label1</edgelabel>
           <edgelabel>-dataGridView1</edgelabel>
@@ -1812,49 +1771,11 @@
           <edgelabel>...</edgelabel>
         </childnode>
       </node>
-      <node id="5">
-        <label>WinFormsApp1.Tree&lt; T &gt;</label>
-        <link refid="class_win_forms_app1_1_1_tree"/>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="16">
+      <node id="3">
         <label>WindowsFormsApp1</label>
       </node>
-      <node id="11">
-        <label>WinFormsApp1.HashFunction&lt; K &gt;</label>
-        <link refid="class_win_forms_app1_1_1_hash_function"/>
-        <childnode refid="12" relation="template-instance">
-          <edgelabel>&lt; K &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="15">
-        <label>WinFormsApp1.HashMap&lt; int, WindowsFormsApp1.Client &gt;</label>
-        <link refid="class_win_forms_app1_1_1_hash_map"/>
-        <childnode refid="8" relation="template-instance">
-          <edgelabel>&lt; int, WindowsFormsApp1::Client &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="9">
-        <label>ICollection&lt; V &gt;</label>
-        <link refid="interface_win_forms_app1_1_1_i_collection"/>
-        <childnode refid="10" relation="template-instance">
-          <edgelabel>&lt; V &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="4">
-        <label>WinFormsApp1.Tree&lt; WindowsFormsApp1.Percent &gt;</label>
-        <link refid="class_win_forms_app1_1_1_tree"/>
-        <childnode refid="5" relation="template-instance">
-          <edgelabel>&lt; WindowsFormsApp1::Percent &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="13">
-        <label>WindowsFormsApp1.SizeContainer</label>
-        <link refid="class_windows_forms_app1_1_1_size_container"/>
-      </node>
     </collaborationgraph>
-    <location file="GUI.cs" line="17" column="19" bodyfile="GUI.cs" bodystart="18" bodyend="1027"/>
+    <location file="GUI.cs" line="17" column="19" bodyfile="GUI.cs" bodystart="18" bodyend="1139"/>
     <listofallmembers>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1acdec8c5c8fa63ac15ef474e1c035c2e2" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>button1</name></member>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>button1_Click</name></member>
@@ -1900,7 +1821,6 @@
       <member refid="class_windows_forms_app1_1_1_g_u_i_1a4d99f6fc31eb95b59018fd9b2d751b51" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>label4</name></member>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1ab521296d0f3bcce285bfa215228b62ac" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>label5</name></member>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1a1e8ba039e1e5df7c0ebcc395c9d5801b" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>menuStrip1</name></member>
-      <member refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" prot="public" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>myDatabase</name></member>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1a7e579f8f91b5cf123ef58cd9d3c2e598" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>NumRows1</name></member>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1a6442295d7fbdc8cdc28c34de29001f4d" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>NumRows2</name></member>
       <member refid="class_windows_forms_app1_1_1_g_u_i_1ae1cdb54f20b3327c3894e77f3f9a4278" prot="private" virt="non-virtual"><scope>WindowsFormsApp1::GUI</scope><name>NumRows3</name></member>

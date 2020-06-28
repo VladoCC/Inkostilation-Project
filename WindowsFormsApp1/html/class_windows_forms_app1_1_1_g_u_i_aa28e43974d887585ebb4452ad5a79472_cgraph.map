@@ -1,5 +1,8 @@
 <map id="WindowsFormsApp1.GUI.button8_Click" name="WindowsFormsApp1.GUI.button8_Click">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,220,47"/>
-<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="268,5,473,47"/>
-<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="521,5,727,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,220,112"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#ab27982d71981e2e6fe790743491c43b6" title="Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных ..." alt="" coords="268,5,473,47"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644" title="Возвращает массив операций, доступных в базе данных." alt="" coords="268,71,473,112"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="268,136,473,177"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="521,5,727,47"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="521,136,727,177"/>
 </map>

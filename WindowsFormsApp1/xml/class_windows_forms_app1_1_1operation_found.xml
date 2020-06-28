@@ -118,7 +118,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="156" column="47" bodyfile="operationFound.Designer.cs" bodystart="156" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1operation_found_1a2c1e6038ae51327834a52800c627de51" prot="public" static="no" mutable="no">
@@ -133,7 +133,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="operationFound.Designer.cs" line="159" column="40" bodyfile="operationFound.Designer.cs" bodystart="159" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1operation_found_1af573d7e57f50cc4741e2eec23811d3e0" compoundref="operation_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.operationFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>

@@ -1,4 +1,12 @@
 <map id="WindowsFormsApp1.Result.AddMessage" name="WindowsFormsApp1.Result.AddMessage">
-<area shape="rect" id="node1" title="Добавляет дополнительную информацию о событии." alt="" coords="296,5,483,47"/>
-<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_result.html#a5e1f7489930eb0359b0995c728a4e2e8" title="Позволяет добавлять информацию к результату при помощи операции сложения." alt="" coords="5,13,248,39"/>
+<area shape="rect" id="node1" title="Добавляет дополнительную информацию о событии." alt="" coords="1368,136,1555,177"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_checks.html#afb7892eb0db1b89debf14168739078ba" title="Проверка входных данных на соответствие условиям клиента." alt="" coords="1101,5,1296,47"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_checks.html#af0be912935ea3f719151ec98c5e8e7f3" title="Проверка входных данных на соответствие условиям банкомата." alt="" coords="1101,71,1296,112"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_checks.html#a139b026833c6fc7a3edc5657296f5240" title="Проверка входных данных на соответствие условиям операции." alt="" coords="1101,136,1296,177"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_checks.html#af0f4e45a17558aca84dc500fa591bdd3" title="Проверка входных данных на соответствие условиям процента операции." alt="" coords="1101,201,1296,243"/>
+<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_result.html#a5e1f7489930eb0359b0995c728a4e2e8" title="Позволяет добавлять информацию к результату при помощи операции сложения." alt="" coords="1077,267,1320,294"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#a4fcaf5b98941ed0476c7ac6d1e0d9b00" title="При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных." alt="" coords="824,104,1029,145"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_g_u_i.html#ab6e0a85e2545b6661809ef0730159ae9" title=" " alt="" coords="515,104,776,145"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,104,467,145"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_g_u_i.html#a9bf23ccfc1e735fc03f759fa724599cf" title=" " alt="" coords="5,111,200,138"/>
 </map>

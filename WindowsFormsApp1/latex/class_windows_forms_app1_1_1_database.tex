@@ -7,7 +7,8 @@
 
 
 
-Граф связей класса Windows\+Forms\+App1.\+Database\+:\nopagebreak
+Граф связей класса Windows\+Forms\+App1.\+Database\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -17,7 +18,7 @@
 \doxysubsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1}{Save}} (string file\+Path)
+\mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a2ed7f953a4c8677b376c139b531efe42}{Save}} (string file\+Path)
 \begin{DoxyCompactList}\small\item\em Сохраняет базу данных на жесткий диск. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a53114f18cdc0bac00871b10ac152b8e5}{Add\+Client}} (\mbox{\hyperlink{class_windows_forms_app1_1_1_client}{Client}} client)
 \begin{DoxyCompactList}\small\item\em Добавляет клиента в базу данных, если это не нарушает целостность базы данных. \end{DoxyCompactList}\item 
@@ -84,8 +85,10 @@ int \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a4193279732068c21e5f1
 \doxysubsection*{Открытые статические члены}
 \begin{DoxyCompactItemize}
 \item 
-static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006}{Get\+Instance}} (string file\+Path=null)
-\begin{DoxyCompactList}\small\item\em Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_ab27982d71981e2e6fe790743491c43b6}{Get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных и возвращает ее. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a4fcaf5b98941ed0476c7ac6d1e0d9b00}{Load\+Instance}} (string file\+Path)
+\begin{DoxyCompactList}\small\item\em При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных. \end{DoxyCompactList}\item 
 static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{\hyperlink{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a}{Get\+New\+Instance}} ()
 \begin{DoxyCompactList}\small\item\em Заменяет рабочую базу данных на новую. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Закрытые члены}
@@ -127,7 +130,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 
 Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры данных пустыми. 
 
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -278,7 +282,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Массив клиентов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -330,7 +335,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Хэш-\/функция клиентов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -350,7 +356,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Количество клиентов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -585,36 +592,33 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a526fc972a32bbb9033916a770be56343_cgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006}\label{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006}} 
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_ab27982d71981e2e6fe790743491c43b6}\label{class_windows_forms_app1_1_1_database_ab27982d71981e2e6fe790743491c43b6}} 
 \index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!GetInstance@{GetInstance}}
 \index{GetInstance@{GetInstance}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
 \doxysubsubsection{\texorpdfstring{GetInstance()}{GetInstance()}}
-{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} Windows\+Forms\+App1.\+Database.\+Get\+Instance (\begin{DoxyParamCaption}\item[{string}]{file\+Path = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} Windows\+Forms\+App1.\+Database.\+Get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
-Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него. Иначе при необходимости создает пустую базу данных и возвращает ее. 
+Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных и возвращает ее. 
 
-
-\begin{DoxyParams}{Аргументы}
-{\em file\+Path} & Путь к файлу базы данны. Файл должен иметь расширение \char`\"{}.\+kostil\char`\"{}. \\
-\hline
-\end{DoxyParams}
 \begin{DoxyReturn}{Возвращает}
 База данных, с которой на данный момент работает программа. 
 \end{DoxyReturn}
-Граф вызовов\+:\nopagebreak
+Граф вызовов\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006_cgraph}
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_ab27982d71981e2e6fe790743491c43b6_cgraph}
 \end{center}
 \end{figure}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a6b3cb170c1455dfd9eb5bfa73891d006_icgraph}
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_ab27982d71981e2e6fe790743491c43b6_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a}\label{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a}} 
@@ -644,6 +648,40 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a556ccfa19d4624001f2f8f0043510e0a_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a4fcaf5b98941ed0476c7ac6d1e0d9b00}\label{class_windows_forms_app1_1_1_database_a4fcaf5b98941ed0476c7ac6d1e0d9b00}} 
+\index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!LoadInstance@{LoadInstance}}
+\index{LoadInstance@{LoadInstance}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
+\doxysubsubsection{\texorpdfstring{LoadInstance()}{LoadInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Database.\+Load\+Instance (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em file\+Path} & Путь к файлу базы данных. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат загрузки базы данных. 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a4fcaf5b98941ed0476c7ac6d1e0d9b00_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a4fcaf5b98941ed0476c7ac6d1e0d9b00_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a7928c21bf0b7f061a696082f4291b79e}\label{class_windows_forms_app1_1_1_database_a7928c21bf0b7f061a696082f4291b79e}} 
 \index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!MachineArray@{MachineArray}}
 \index{MachineArray@{MachineArray}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
@@ -657,7 +695,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Массив банкоматов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -741,7 +780,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Хэш-\/функция машин. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -761,7 +801,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Количество банкоматов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -781,7 +822,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Массив операций. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -833,7 +875,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Количество операций. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -853,7 +896,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Массив процентов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -873,7 +917,8 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \begin{DoxyReturn}{Возвращает}
 Количество процентов. 
 \end{DoxyReturn}
-Граф вызова функции\+:\nopagebreak
+Граф вызова функции\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -1008,11 +1053,11 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 \includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_ab3d9622d3bc473a6f423f2eb26ce7847_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1}\label{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1}} 
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_database_a2ed7f953a4c8677b376c139b531efe42}\label{class_windows_forms_app1_1_1_database_a2ed7f953a4c8677b376c139b531efe42}} 
 \index{WindowsFormsApp1.Database@{WindowsFormsApp1.Database}!Save@{Save}}
 \index{Save@{Save}!WindowsFormsApp1.Database@{WindowsFormsApp1.Database}}
 \doxysubsubsection{\texorpdfstring{Save()}{Save()}}
-{\footnotesize\ttfamily void Windows\+Forms\+App1.\+Database.\+Save (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Database.\+Save (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
 
 
 
@@ -1023,11 +1068,23 @@ static \mbox{\hyperlink{class_windows_forms_app1_1_1_database}{Database}} \mbox{
 {\em file\+Path} & Путь к файлу, в который будет производится сохранение. \\
 \hline
 \end{DoxyParams}
-Граф вызова функции\+:\nopagebreak
+\begin{DoxyReturn}{Возвращает}
+Результат сохранения базы данных. 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a7fbfcac98864ecc48c83b651a59a69c1_icgraph}
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a2ed7f953a4c8677b376c139b531efe42_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_database_a2ed7f953a4c8677b376c139b531efe42_icgraph}
 \end{center}
 \end{figure}
 

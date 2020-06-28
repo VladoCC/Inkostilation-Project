@@ -261,13 +261,13 @@
         </inbodydescription>
         <location file="OperationsOfClient.cs" line="22" column="22" bodyfile="OperationsOfClient.cs" bodystart="22" bodyend="43"/>
         <references refid="class_windows_forms_app1_1_1_operation_1a9802bbf5633a41a018817d9fe5cee5f2" compoundref="_operation_8cs" startline="72">WindowsFormsApp1.Operation.CardNumber</references>
-        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</references>
+        <references refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="671" endline="685">WindowsFormsApp1.Database.ClientOperationReport</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_client_1a4fff18a84df5705dd6c66868be4096ea" compoundref="_operations_of_client_8_designer_8cs" startline="214">WindowsFormsApp1.OperationsOfClient.ClientsKey</references>
         <references refid="class_windows_forms_app1_1_1_report_1addfc7ca789f2b0726af477c965f42ac1" compoundref="_report_8cs" startline="62" endline="72">WindowsFormsApp1.Report&lt; K, V &gt;.Data</references>
         <references refid="class_windows_forms_app1_1_1_report_1a9d80497c91dbbc3f4f927b0971a8c2af" compoundref="_report_8cs" startline="78" endline="86">WindowsFormsApp1.Report&lt; K, V &gt;.DataSize</references>
+        <references refid="class_windows_forms_app1_1_1_database_1ab27982d71981e2e6fe790743491c43b6" compoundref="_database_8cs" startline="49" endline="56">WindowsFormsApp1.Database.GetInstance</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_client_1a97c70733776b9796086508fe15e573a8" compoundref="_operations_of_client_8cs" startline="15">WindowsFormsApp1.OperationsOfClient.index</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a062ca9774498607bde95dead4d089df2" compoundref="_operation_8cs" startline="77">WindowsFormsApp1.Operation.MachineNumber</references>
-        <references refid="class_windows_forms_app1_1_1_g_u_i_1a39bd19731d6c3b92d8c663028e6ae242" compoundref="_g_u_i_8cs" startline="31">WindowsFormsApp1.GUI.myDatabase</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_client_1a526cfd89edea0eee4db2e69934d3d392" compoundref="_operations_of_client_8cs" startline="16">WindowsFormsApp1.OperationsOfClient.NumRows</references>
         <references refid="class_windows_forms_app1_1_1_operation_1a2dc68fdc88cff6a812d61c7c8775378a" compoundref="_operation_8cs" startline="67">WindowsFormsApp1.Operation.OperationName</references>
         <references refid="class_windows_forms_app1_1_1_operations_of_client_1a94bdd422da76d2bf4026756b0bc5bcc6" compoundref="_operations_of_client_8_designer_8cs" startline="215">WindowsFormsApp1.OperationsOfClient.OperationsData</references>

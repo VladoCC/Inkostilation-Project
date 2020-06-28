@@ -1,8 +1,10 @@
 <map id="WindowsFormsApp1.GUI.button9_Click" name="WindowsFormsApp1.GUI.button9_Click">
-<area shape="rect" id="node1" title=" " alt="" coords="5,136,220,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,220,211"/>
 <area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c" title="Производит поиск в базе данных клиента, соответствующего входным данным." alt="" coords="279,5,484,47"/>
 <area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#a01c5d00f063b5258d3f114b5317ed03d" title="Производит поиск в базе данных банкомата, соответствующего входным данным." alt="" coords="279,71,484,112"/>
 <area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#a562a325c28d8027ee82822b6c7423ce9" title="Производит поиск в базе данных операции, соответствующей входным данным." alt="" coords="279,136,484,177"/>
 <area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_database.html#a7fc2a176aaf39cc2be15da31e14244ef" title="Производит поиск в базе данных процента, соответствующего входным данным." alt="" coords="279,201,484,243"/>
 <area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_search_query.html#abfb89356449ca1d3a2d9b984a05bdad6" title="Сообщает найден ли элемент, соответствующий искомому." alt="" coords="268,267,495,308"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#ab27982d71981e2e6fe790743491c43b6" title="Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных ..." alt="" coords="279,332,484,373"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="543,332,748,373"/>
 </map>

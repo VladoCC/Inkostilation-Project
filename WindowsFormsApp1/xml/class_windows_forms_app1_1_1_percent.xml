@@ -87,12 +87,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Percent.cs" line="69" column="23" bodyfile="Percent.cs" bodystart="69" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="571" endline="585">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="567" endline="664">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="713" endline="727">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
@@ -110,9 +113,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Percent.cs" line="74" column="23" bodyfile="Percent.cs" bodystart="74" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
@@ -130,10 +136,13 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Percent.cs" line="79" column="23" bodyfile="Percent.cs" bodystart="79" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>
@@ -151,9 +160,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Percent.cs" line="84" column="20" bodyfile="Percent.cs" bodystart="84" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="846" endline="880">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="882" endline="914">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ad88b26c6780127f4e899d5bbfd2511ec" compoundref="_g_u_i_8cs" startline="944" endline="978">WindowsFormsApp1.GUI.процентыОперацийToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a108d446699b3d61c667c37d90f80923b" compoundref="_g_u_i_8cs" startline="980" endline="1012">WindowsFormsApp1.GUI.процентыБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_machine_1aba639ea7d071f1ec826e7bcd8e230ef5" compoundref="_percents_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.PercentsOfMachine.MachinesKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_percents_of_operation_1a4b2de494f71111c0df79ea7fd87f42c6" compoundref="_percents_of_operation_8cs" startline="22" endline="46">WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick</referencedby>
       </memberdef>

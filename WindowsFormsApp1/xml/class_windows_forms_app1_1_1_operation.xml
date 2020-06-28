@@ -87,12 +87,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="67" column="23" bodyfile="Operation.cs" bodystart="67" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="571" endline="585">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="567" endline="664">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2f822a5afd43da1ca00e1c8c9c768680" compoundref="_database_8cs" startline="713" endline="727">WindowsFormsApp1.Database.OperationPercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
@@ -110,11 +113,14 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="72" column="20" bodyfile="Operation.cs" bodystart="72" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="529" endline="543">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="567" endline="664">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a91ae2839b71c9e11139a657f738d7a9c" compoundref="_database_8cs" startline="671" endline="685">WindowsFormsApp1.Database.ClientOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
@@ -132,12 +138,15 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="77" column="20" bodyfile="Operation.cs" bodystart="77" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="567" endline="664">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="692" endline="706">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>
@@ -155,9 +164,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Operation.cs" line="82" column="20" bodyfile="Operation.cs" bodystart="82" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="779" endline="810">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="812" endline="844">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa5ca5f4ac7e00b77fc318a727e3f129d" compoundref="_g_u_i_8cs" startline="877" endline="908">WindowsFormsApp1.GUI.операцииПоКлиентуToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a53aaa0961eb8ce63a5c9fd144424af13" compoundref="_g_u_i_8cs" startline="910" endline="942">WindowsFormsApp1.GUI.операцииБанкоматаToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_client_1af5d4d69eca61e12a41436149050684db" compoundref="_operations_of_client_8cs" startline="22" endline="43">WindowsFormsApp1.OperationsOfClient.ClientsKey_CellClick</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_operations_of_machine_1ab9cfcda505ba8a65bba6040446e7db7b" compoundref="_operations_of_machine_8cs" startline="22" endline="44">WindowsFormsApp1.OperationsOfMachine.MachinesKey_CellClick</referencedby>
       </memberdef>

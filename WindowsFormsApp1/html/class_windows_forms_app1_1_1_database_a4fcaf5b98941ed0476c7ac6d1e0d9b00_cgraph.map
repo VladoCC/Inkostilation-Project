@@ -1,0 +1,9 @@
+<map id="WindowsFormsApp1.Database.LoadInstance" name="WindowsFormsApp1.Database.LoadInstance">
+<area shape="rect" id="node1" title="При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных." alt="" coords="5,136,211,177"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_checks.html#afb7892eb0db1b89debf14168739078ba" title="Проверка входных данных на соответствие условиям клиента." alt="" coords="264,5,459,47"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_checks.html#af0be912935ea3f719151ec98c5e8e7f3" title="Проверка входных данных на соответствие условиям банкомата." alt="" coords="264,71,459,112"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_checks.html#a139b026833c6fc7a3edc5657296f5240" title="Проверка входных данных на соответствие условиям операции." alt="" coords="264,136,459,177"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_checks.html#af0f4e45a17558aca84dc500fa591bdd3" title="Проверка входных данных на соответствие условиям процента операции." alt="" coords="264,201,459,243"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="259,267,464,308"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_result.html#a3b78944dc1df1c909ff6f492bf992f1a" title="Добавляет дополнительную информацию о событии." alt="" coords="512,104,699,145"/>
+</map>

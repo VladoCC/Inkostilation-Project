@@ -49,16 +49,17 @@
         </inbodydescription>
         <location file="ErrorForm.Designer.cs" line="76" column="40" bodyfile="ErrorForm.Designer.cs" bodystart="76" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_error_form_1a417f6e1718375791bc266002fa6aa6a2" compoundref="_error_form_8_designer_8cs" startline="29" endline="72">WindowsFormsApp1.ErrorForm.InitializeComponent</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="78" endline="111">WindowsFormsApp1.GUI.button3_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="113" endline="148">WindowsFormsApp1.GUI.button2_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="150" endline="185">WindowsFormsApp1.GUI.button4_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="192" endline="247">WindowsFormsApp1.GUI.button5_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="249" endline="304">WindowsFormsApp1.GUI.button6_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="306" endline="361">WindowsFormsApp1.GUI.button7_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="363" endline="418">WindowsFormsApp1.GUI.button8_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a58e18e315b62d13dcd3f728029ee6b13" compoundref="_g_u_i_8cs" startline="80" endline="117">WindowsFormsApp1.GUI.button3_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a285e1ef2bd8d62c4455d7df2b109c310" compoundref="_g_u_i_8cs" startline="119" endline="157">WindowsFormsApp1.GUI.button2_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a37af8cbe482a61813b5075c96b0dbf6b" compoundref="_g_u_i_8cs" startline="159" endline="199">WindowsFormsApp1.GUI.button4_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aced964d733656ec244107e1f5411d6f6" compoundref="_g_u_i_8cs" startline="285" endline="362">WindowsFormsApp1.GUI.button6_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa2537a9f14f8f58a340fb38e781d8eee" compoundref="_g_u_i_8cs" startline="364" endline="439">WindowsFormsApp1.GUI.button7_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aa28e43974d887585ebb4452ad5a79472" compoundref="_g_u_i_8cs" startline="441" endline="516">WindowsFormsApp1.GUI.button8_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1af84e2921103ed40e9a57837ef3f212be" compoundref="_g_u_i_8cs" startline="1014" endline="1033">WindowsFormsApp1.GUI.сохранитьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_hash_map1_dialog_1a7ea8932da3c151420f20080cc04e18d8" compoundref="_hash_map1_dialog_8cs" startline="21" endline="105">WindowsFormsApp1.HashMap1Dialog.button1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_hash_map2_dialog_1af20cf2970737611566f5aa216c4c2baa" compoundref="_hash_map2_dialog_8cs" startline="20" endline="90">WindowsFormsApp1.HashMap2Dialog.button1_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_tree1_dialog_1aa9fef6f6ec2b6ee77f456208d94a7a4b" compoundref="_tree1_dialog_8cs" startline="21" endline="118">WindowsFormsApp1.Tree1Dialog.button1_Click</referencedby>

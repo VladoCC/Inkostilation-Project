@@ -1,10 +1,10 @@
 var searchData=
 [
   ['check_508',['Check',['../class_windows_forms_app1_1_1_search_query.html#a0825c5d7798cb583fdb6621dbf5818f2',1,'WindowsFormsApp1::SearchQuery']]],
-  ['checkclient_509',['CheckClient',['../class_windows_forms_app1_1_1_checks.html#a01ea5bc6b8ae7aadf0d0a01772b1a84f',1,'WindowsFormsApp1::Checks']]],
-  ['checkmachine_510',['CheckMachine',['../class_windows_forms_app1_1_1_checks.html#ab25e37cdeff513aef088f9b732fc8202',1,'WindowsFormsApp1::Checks']]],
-  ['checkoperation_511',['CheckOperation',['../class_windows_forms_app1_1_1_checks.html#ae2b15a3a568a14af454b0afbd300eadc',1,'WindowsFormsApp1::Checks']]],
-  ['checkpercent_512',['CheckPercent',['../class_windows_forms_app1_1_1_checks.html#abbfec2748cfdff637cc851b6676ebe82',1,'WindowsFormsApp1::Checks']]],
+  ['checkclient_509',['CheckClient',['../class_windows_forms_app1_1_1_checks.html#afb7892eb0db1b89debf14168739078ba',1,'WindowsFormsApp1::Checks']]],
+  ['checkmachine_510',['CheckMachine',['../class_windows_forms_app1_1_1_checks.html#af0be912935ea3f719151ec98c5e8e7f3',1,'WindowsFormsApp1::Checks']]],
+  ['checkoperation_511',['CheckOperation',['../class_windows_forms_app1_1_1_checks.html#a139b026833c6fc7a3edc5657296f5240',1,'WindowsFormsApp1::Checks']]],
+  ['checkpercent_512',['CheckPercent',['../class_windows_forms_app1_1_1_checks.html#af0f4e45a17558aca84dc500fa591bdd3',1,'WindowsFormsApp1::Checks']]],
   ['client_513',['Client',['../class_windows_forms_app1_1_1_client.html#a553bdd58e3942e532787a6c10c0292ab',1,'WindowsFormsApp1::Client']]],
   ['clientarray_514',['ClientArray',['../class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84',1,'WindowsFormsApp1::Database']]],
   ['clientfound_515',['ClientFound',['../class_windows_forms_app1_1_1_client_found.html#aae787b167c6f47f7f0d49f6977be4487',1,'WindowsFormsApp1::ClientFound']]],

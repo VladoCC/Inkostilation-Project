@@ -1,4 +1,4 @@
-.TH "WindowsFormsApp1.Database" 3 "Сб 27 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.TH "WindowsFormsApp1.Database" 3 "Вс 28 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,7 +11,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 
 .in +1c
 .ti -1c
-.RI "void \fBSave\fP (string filePath)"
+.RI "\fBResult\fP \fBSave\fP (string filePath)"
 .br
 .RI "Сохраняет базу данных на жесткий диск\&. "
 .ti -1c
@@ -143,9 +143,13 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 
 .in +1c
 .ti -1c
-.RI "static \fBDatabase\fP \fBGetInstance\fP (string filePath=null)"
+.RI "static \fBDatabase\fP \fBGetInstance\fP ()"
 .br
-.RI "Функция, предоставляющая доступ к синглтону\&. При указании пути к файлу, загружает базу данных из него\&. Иначе при необходимости создает пустую базу данных и возвращает ее\&. "
+.RI "Функция, предоставляющая доступ к синглтон базе данных\&. При необходимости создает пустую базу данных и возвращает ее\&. "
+.ti -1c
+.RI "static \fBResult\fP \fBLoadInstance\fP (string filePath)"
+.br
+.RI "При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных\&. "
 .ti -1c
 .RI "static \fBDatabase\fP \fBGetNewInstance\fP ()"
 .br
@@ -460,15 +464,10 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "static \fBDatabase\fP WindowsFormsApp1\&.Database\&.GetInstance (string filePath = \fCnull\fP)\fC [static]\fP"
+.SS "static \fBDatabase\fP WindowsFormsApp1\&.Database\&.GetInstance ()\fC [static]\fP"
 
 .PP
-Функция, предоставляющая доступ к синглтону\&. При указании пути к файлу, загружает базу данных из него\&. Иначе при необходимости создает пустую базу данных и возвращает ее\&. 
-.PP
-\fBАргументы\fP
-.RS 4
-\fIfilePath\fP Путь к файлу базы данны\&. Файл должен иметь расширение '\&.kostil'\&. 
-.RE
+Функция, предоставляющая доступ к синглтон базе данных\&. При необходимости создает пустую базу данных и возвращает ее\&. 
 .PP
 \fBВозвращает\fP
 .RS 4
@@ -484,6 +483,22 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 \fBВозвращает\fP
 .RS 4
 Пустая база данных\&. 
+.RE
+.PP
+
+.SS "static \fBResult\fP WindowsFormsApp1\&.Database\&.LoadInstance (string filePath)\fC [static]\fP"
+
+.PP
+При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIfilePath\fP Путь к файлу базы данных\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат загрузки базы данных\&. 
 .RE
 .PP
 
@@ -676,7 +691,7 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 .RE
 .PP
 
-.SS "void WindowsFormsApp1\&.Database\&.Save (string filePath)"
+.SS "\fBResult\fP WindowsFormsApp1\&.Database\&.Save (string filePath)"
 
 .PP
 Сохраняет базу данных на жесткий диск\&. 
@@ -684,6 +699,11 @@ WindowsFormsApp1.Database \- Класс-оболочка базы данных, 
 \fBАргументы\fP
 .RS 4
 \fIfilePath\fP Путь к файлу, в который будет производится сохранение\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат сохранения базы данных\&. 
 .RE
 .PP
 

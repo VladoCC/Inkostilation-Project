@@ -55,7 +55,7 @@ var NAVTREEINDEX =
 "_bubble_sorter_8cs.html",
 "class_windows_forms_app1_1_1_g_u_i.html#a6f7eafd7d992cd5eef51b096ad3bbb88",
 "class_windows_forms_app1_1_1_r_b.html#aa4cf57ca695ce187baf7b6d349d7a7fc",
-"interface_win_forms_app1_1_1_i_keyed_element.html#a2b9820357d065c06d16b3a9c84def646"
+"interface_win_forms_app1_1_1_i_keyed_element.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';

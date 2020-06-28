@@ -1,5 +1,10 @@
 <map id="WindowsFormsApp1.GUI.button5_Click" name="WindowsFormsApp1.GUI.button5_Click">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,220,47"/>
-<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="268,5,473,47"/>
-<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="521,5,727,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,123,220,164"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#ab27982d71981e2e6fe790743491c43b6" title="Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных ..." alt="" coords="281,5,486,47"/>
+<area shape="rect" id="node4" href="$class_win_forms_app1_1_1_hash_function.html#a78a43fc1610e678bff472562d00f727f" title="Преобразует хэшируемое данное в индекс." alt="" coords="268,71,499,98"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e" title="Возвращает массив банкоматов, доступных в базе данных." alt="" coords="281,123,486,164"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f" title="Возвращает хэш&#45;функцию, используемую для таблицы машин данной базы данных." alt="" coords="281,188,486,229"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="281,253,486,295"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="547,5,752,47"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#aa80e24f03aaa1d1a55fa2d9f1c9c8620" title="Производит проверку базы данных на целостность." alt="" coords="547,253,752,295"/>
 </map>

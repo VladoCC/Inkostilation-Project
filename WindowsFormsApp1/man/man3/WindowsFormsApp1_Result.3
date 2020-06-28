@@ -1,4 +1,4 @@
-.TH "WindowsFormsApp1.Result" 3 "Сб 27 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.TH "WindowsFormsApp1.Result" 3 "Вс 28 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -26,6 +26,9 @@ WindowsFormsApp1.Result \- Позволяет возвращать резуль�
 .RI "static \fBResult\fP \fBoperator+\fP (\fBResult\fP result, string info)"
 .br
 .RI "Позволяет добавлять информацию к результату при помощи операции сложения\&. "
+.ti -1c
+.RI "static \fBResult\fP \fBoperator+\fP (\fBResult\fP r1, \fBResult\fP r2)"
+.br
 .ti -1c
 .RI "static bool \fBoperator true\fP (\fBResult\fP result)"
 .br
@@ -141,6 +144,8 @@ WindowsFormsApp1.Result \- Позволяет возвращать резуль�
 Логическое значение\&. 
 .RE
 .PP
+
+.SS "static \fBResult\fP WindowsFormsApp1\&.Result\&.operator+ (\fBResult\fP r1, \fBResult\fP r2)\fC [static]\fP"
 
 .SS "static \fBResult\fP WindowsFormsApp1\&.Result\&.operator+ (\fBResult\fP result, string info)\fC [static]\fP"
 

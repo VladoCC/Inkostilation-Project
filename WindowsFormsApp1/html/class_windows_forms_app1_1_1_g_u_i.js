@@ -51,7 +51,6 @@ var class_windows_forms_app1_1_1_g_u_i =
     [ "label4", "class_windows_forms_app1_1_1_g_u_i.html#a4d99f6fc31eb95b59018fd9b2d751b51", null ],
     [ "label5", "class_windows_forms_app1_1_1_g_u_i.html#ab521296d0f3bcce285bfa215228b62ac", null ],
     [ "menuStrip1", "class_windows_forms_app1_1_1_g_u_i.html#a1e8ba039e1e5df7c0ebcc395c9d5801b", null ],
-    [ "myDatabase", "class_windows_forms_app1_1_1_g_u_i.html#a39bd19731d6c3b92d8c663028e6ae242", null ],
     [ "NumRows1", "class_windows_forms_app1_1_1_g_u_i.html#a7e579f8f91b5cf123ef58cd9d3c2e598", null ],
     [ "NumRows2", "class_windows_forms_app1_1_1_g_u_i.html#a6442295d7fbdc8cdc28c34de29001f4d", null ],
     [ "NumRows3", "class_windows_forms_app1_1_1_g_u_i.html#ae1cdb54f20b3327c3894e77f3f9a4278", null ],

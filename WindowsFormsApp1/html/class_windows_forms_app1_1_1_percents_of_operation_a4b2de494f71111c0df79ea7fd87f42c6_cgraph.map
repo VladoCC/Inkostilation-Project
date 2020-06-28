@@ -1,11 +1,13 @@
 <map id="WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick" name="WindowsFormsApp1.PercentsOfOperation.OperationsKey_CellClick">
-<area shape="rect" id="node1" title=" " alt="" coords="5,115,204,171"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,149,204,205"/>
 <area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_report.html#addfc7ca789f2b0726af477c965f42ac1" title="Предоставляет данные, хранящиеся в отчете в виде массива." alt="" coords="252,71,467,98"/>
 <area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_report.html#a9d80497c91dbbc3f4f927b0971a8c2af" title="Возвращает количество элементов в отчете." alt="" coords="265,123,453,164"/>
-<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680" title="Создает отчет о процентах по указанному типу операций." alt="" coords="257,188,462,229"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#ab27982d71981e2e6fe790743491c43b6" title="Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных ..." alt="" coords="257,188,462,229"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_database.html#a2f822a5afd43da1ca00e1c8c9c768680" title="Создает отчет о процентах по указанному типу операций." alt="" coords="257,253,462,295"/>
 <area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_report_1_1_container.html#ae9cfed22f542b097fc74e5e6aabff9d1" title="Заполняет массив, начиная с указанной позиции, элементами данного списка." alt="" coords="527,5,715,47"/>
 <area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_report_1_1_container.html#a2a5ca1df6a5d4d4c35e52e55fd85021c" title="Возвращает количество элементов в списке." alt="" coords="527,123,715,164"/>
 <area shape="rect" id="node5" href="$interface_windows_forms_app1_1_1_i_sorter.html#a4f91437b489659b252ef608cb2451b39" title="Метод, совершающий сортировку." alt="" coords="515,71,727,98"/>
-<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_report.html#ac9be55006f2698fd0945906f9ec370ff" title="Добавляет элемент в отчет." alt="" coords="515,195,726,222"/>
-<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_report_1_1_container.html#a2a3b9599dd9c38565a01f9511ecb439b" title="Добавляет контейнер в конец списка." alt="" coords="775,188,963,229"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc" title="Приватный конструктор, используемый для создания пустой базы данных. Инициализирует все структуры дан..." alt="" coords="518,188,723,229"/>
+<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_report.html#ac9be55006f2698fd0945906f9ec370ff" title="Добавляет элемент в отчет." alt="" coords="515,261,726,287"/>
+<area shape="rect" id="node11" href="$class_windows_forms_app1_1_1_report_1_1_container.html#a2a3b9599dd9c38565a01f9511ecb439b" title="Добавляет контейнер в конец списка." alt="" coords="775,253,963,295"/>
 </map>

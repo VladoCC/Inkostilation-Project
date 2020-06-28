@@ -119,7 +119,7 @@
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="156" column="47" bodyfile="ClientFound.Designer.cs" bodystart="156" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_client_found_1afbf193bc145f24a1417823ad2a86bfac" prot="public" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -134,7 +134,7 @@
         </inbodydescription>
         <location file="ClientFound.Designer.cs" line="159" column="40" bodyfile="ClientFound.Designer.cs" bodystart="159" bodyend="-1"/>
         <referencedby refid="class_windows_forms_app1_1_1_client_found_1a6f1b63e8ef2f5963b0e710de7f194d15" compoundref="_client_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.ClientFound.InitializeComponent</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

@@ -1,52 +1,52 @@
 <map id="WindowsFormsApp1.GUI.GUI" name="WindowsFormsApp1.GUI.GUI">
-<area shape="rect" id="node1" title=" " alt="" coords="5,1502,200,1529"/>
-<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,1495,467,1536"/>
-<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_g_u_i.html#aac33025990d1c6e8944d610d92317431" title=" " alt="" coords="553,201,768,243"/>
-<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_g_u_i.html#a285e1ef2bd8d62c4455d7df2b109c310" title=" " alt="" coords="553,1037,768,1079"/>
-<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_g_u_i.html#a58e18e315b62d13dcd3f728029ee6b13" title=" " alt="" coords="553,325,768,367"/>
-<area shape="rect" id="node14" href="$class_windows_forms_app1_1_1_g_u_i.html#a37af8cbe482a61813b5075c96b0dbf6b" title=" " alt="" coords="553,1103,768,1144"/>
-<area shape="rect" id="node16" href="$class_windows_forms_app1_1_1_g_u_i.html#a7e836a05cebc643cfedf9c8f41607ca7" title=" " alt="" coords="553,1168,768,1209"/>
-<area shape="rect" id="node18" href="$class_windows_forms_app1_1_1_g_u_i.html#aced964d733656ec244107e1f5411d6f6" title=" " alt="" coords="553,1233,768,1275"/>
-<area shape="rect" id="node20" href="$class_windows_forms_app1_1_1_g_u_i.html#aa2537a9f14f8f58a340fb38e781d8eee" title=" " alt="" coords="553,1299,768,1340"/>
-<area shape="rect" id="node22" href="$class_windows_forms_app1_1_1_g_u_i.html#aa28e43974d887585ebb4452ad5a79472" title=" " alt="" coords="553,1364,768,1405"/>
-<area shape="rect" id="node24" href="$class_windows_forms_app1_1_1_g_u_i.html#accd73f1a0a3b73022103323742eb042d" title=" " alt="" coords="553,1429,768,1471"/>
-<area shape="rect" id="node30" href="$class_windows_forms_app1_1_1_g_u_i.html#ab1157f1dc0ef8d7e5e1a1aa84f931781" title=" " alt="" coords="555,1495,766,1536"/>
-<area shape="rect" id="node31" href="$class_windows_forms_app1_1_1_g_u_i.html#ae37d60f2a898cb35d5b65e1448f8a4fc" title=" " alt="" coords="562,1560,759,1601"/>
-<area shape="rect" id="node32" href="$class_windows_forms_app1_1_1_g_u_i.html#ab25be3dacea45e0aa68ccb629f89177f" title=" " alt="" coords="562,1625,759,1667"/>
-<area shape="rect" id="node33" href="$class_windows_forms_app1_1_1_g_u_i.html#ab6e50d6755161ec3050c7f996ba3407a" title=" " alt="" coords="562,1691,759,1732"/>
-<area shape="rect" id="node34" href="$class_windows_forms_app1_1_1_g_u_i.html#a8c436b48973ce4cf2c48547a65a5776f" title=" " alt="" coords="562,1756,759,1797"/>
-<area shape="rect" id="node35" href="$class_windows_forms_app1_1_1_g_u_i.html#ab6e0a85e2545b6661809ef0730159ae9" title=" " alt="" coords="530,645,791,687"/>
-<area shape="rect" id="node45" href="$class_windows_forms_app1_1_1_g_u_i.html#a53aaa0961eb8ce63a5c9fd144424af13" title=" " alt="" coords="515,1821,807,1863"/>
-<area shape="rect" id="node46" href="$class_windows_forms_app1_1_1_g_u_i.html#aa5ca5f4ac7e00b77fc318a727e3f129d" title=" " alt="" coords="515,1887,807,1928"/>
-<area shape="rect" id="node47" href="$class_windows_forms_app1_1_1_g_u_i.html#a108d446699b3d61c667c37d90f80923b" title=" " alt="" coords="515,1952,807,1993"/>
-<area shape="rect" id="node48" href="$class_windows_forms_app1_1_1_g_u_i.html#ad88b26c6780127f4e899d5bbfd2511ec" title=" " alt="" coords="517,2017,804,2059"/>
-<area shape="rect" id="node49" href="$class_windows_forms_app1_1_1_g_u_i.html#a14af1969945b896e813a47ee8a3b9e14" title=" " alt="" coords="551,2083,770,2124"/>
-<area shape="rect" id="node50" href="$class_windows_forms_app1_1_1_g_u_i.html#af84e2921103ed40e9a57837ef3f212be" title=" " alt="" coords="544,2148,777,2189"/>
-<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#aaf665ddd93997a97669503e6b54c0fc9" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,71,1073,112"/>
-<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_machine.html#a1cce5f01e7e7e4eace9cbc0347f4032a" title=" " alt="" coords="871,5,1069,47"/>
-<area shape="rect" id="node6" href="$class_win_forms_app1_1_1_hash_function.html#a78a43fc1610e678bff472562d00f727f" title="Преобразует хэшируемое данное в индекс." alt="" coords="855,333,1085,359"/>
-<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f" title="Возвращает хэш&#45;функцию, используемую для таблицы машин данной базы данных." alt="" coords="867,201,1073,243"/>
-<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_database.html#ac3dce380aef5ec8b9f868aa47d7ebe37" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,1037,1073,1079"/>
-<area shape="rect" id="node11" href="$class_windows_forms_app1_1_1_database.html#a53114f18cdc0bac00871b10ac152b8e5" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,267,1073,308"/>
-<area shape="rect" id="node12" href="$class_windows_forms_app1_1_1_database.html#aa1cdc9d9ca1b9f807e8736e07f0ed5b4" title="Возвращает хэш&#45;функцию, используемую для таблицы клиентов данной базы данных." alt="" coords="867,384,1073,425"/>
-<area shape="rect" id="node13" href="$class_windows_forms_app1_1_1_client.html#a123281db04c626d34b64f94128a6b372" title=" " alt="" coords="879,136,1061,177"/>
-<area shape="rect" id="node15" href="$class_windows_forms_app1_1_1_database.html#a42978ab4f160aec4b93fd0cdc98c02ea" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,1103,1073,1144"/>
-<area shape="rect" id="node17" href="$class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,1168,1073,1209"/>
-<area shape="rect" id="node19" href="$class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,1233,1073,1275"/>
-<area shape="rect" id="node21" href="$class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,1299,1073,1340"/>
-<area shape="rect" id="node23" href="$class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,1364,1073,1405"/>
-<area shape="rect" id="node25" href="$class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c" title="Производит поиск в базе данных клиента, соответствующего входным данным." alt="" coords="867,1495,1073,1536"/>
-<area shape="rect" id="node26" href="$class_windows_forms_app1_1_1_database.html#a01c5d00f063b5258d3f114b5317ed03d" title="Производит поиск в базе данных банкомата, соответствующего входным данным." alt="" coords="867,1560,1073,1601"/>
-<area shape="rect" id="node27" href="$class_windows_forms_app1_1_1_database.html#a562a325c28d8027ee82822b6c7423ce9" title="Производит поиск в базе данных операции, соответствующей входным данным." alt="" coords="867,1625,1073,1667"/>
-<area shape="rect" id="node28" href="$class_windows_forms_app1_1_1_database.html#a7fc2a176aaf39cc2be15da31e14244ef" title="Производит поиск в базе данных процента, соответствующего входным данным." alt="" coords="867,1691,1073,1732"/>
-<area shape="rect" id="node29" href="$class_windows_forms_app1_1_1_search_query.html#abfb89356449ca1d3a2d9b984a05bdad6" title="Сообщает найден ли элемент, соответствующий искомому." alt="" coords="857,1429,1083,1471"/>
-<area shape="rect" id="node36" href="$class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84" title="Возвращает массив клиентов, доступных в базе данных." alt="" coords="867,449,1073,491"/>
-<area shape="rect" id="node37" href="$class_windows_forms_app1_1_1_database.html#afb07a7f367fe3ce7348d0d5f70a82536" title="Возвращает количество клиентов." alt="" coords="867,515,1073,556"/>
-<area shape="rect" id="node38" href="$class_windows_forms_app1_1_1_database.html#a6b3cb170c1455dfd9eb5bfa73891d006" title="Функция, предоставляющая доступ к синглтону. При указании пути к файлу, загружает базу данных из него..." alt="" coords="867,580,1073,621"/>
-<area shape="rect" id="node39" href="$class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e" title="Возвращает массив банкоматов, доступных в базе данных." alt="" coords="867,645,1073,687"/>
-<area shape="rect" id="node40" href="$class_windows_forms_app1_1_1_database.html#a9e9603449f45edce04e4413859a989df" title="Возвращает количество банкоматов." alt="" coords="867,711,1073,752"/>
-<area shape="rect" id="node41" href="$class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644" title="Возвращает массив операций, доступных в базе данных." alt="" coords="867,776,1073,817"/>
-<area shape="rect" id="node42" href="$class_windows_forms_app1_1_1_database.html#a71bfaac112b0cf14dbfa6ed6828645bf" title="Возвращает количество операций." alt="" coords="867,841,1073,883"/>
-<area shape="rect" id="node43" href="$class_windows_forms_app1_1_1_database.html#a6c72a00968440e4461c41fd6493b2a43" title="Возвращает массив процентов, доступных в базе данных." alt="" coords="867,907,1073,948"/>
-<area shape="rect" id="node44" href="$class_windows_forms_app1_1_1_database.html#a4193279732068c21e5f17702c90348fb" title="Возвращает количество процентов." alt="" coords="867,972,1073,1013"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,979,200,1006"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_g_u_i.html#a7dc34bb399931600b972d0c25b8fe5fa" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="248,972,467,1013"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_g_u_i.html#aac33025990d1c6e8944d610d92317431" title=" " alt="" coords="553,151,768,192"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_g_u_i.html#a285e1ef2bd8d62c4455d7df2b109c310" title=" " alt="" coords="553,645,768,687"/>
+<area shape="rect" id="node12" href="$class_windows_forms_app1_1_1_g_u_i.html#a58e18e315b62d13dcd3f728029ee6b13" title=" " alt="" coords="553,481,768,523"/>
+<area shape="rect" id="node16" href="$class_windows_forms_app1_1_1_g_u_i.html#a37af8cbe482a61813b5075c96b0dbf6b" title=" " alt="" coords="553,776,768,817"/>
+<area shape="rect" id="node19" href="$class_windows_forms_app1_1_1_g_u_i.html#a7e836a05cebc643cfedf9c8f41607ca7" title=" " alt="" coords="553,245,768,287"/>
+<area shape="rect" id="node21" href="$class_windows_forms_app1_1_1_g_u_i.html#aced964d733656ec244107e1f5411d6f6" title=" " alt="" coords="553,564,768,605"/>
+<area shape="rect" id="node23" href="$class_windows_forms_app1_1_1_g_u_i.html#aa2537a9f14f8f58a340fb38e781d8eee" title=" " alt="" coords="553,711,768,752"/>
+<area shape="rect" id="node25" href="$class_windows_forms_app1_1_1_g_u_i.html#aa28e43974d887585ebb4452ad5a79472" title=" " alt="" coords="553,841,768,883"/>
+<area shape="rect" id="node27" href="$class_windows_forms_app1_1_1_g_u_i.html#accd73f1a0a3b73022103323742eb042d" title=" " alt="" coords="553,1299,768,1340"/>
+<area shape="rect" id="node33" href="$class_windows_forms_app1_1_1_g_u_i.html#ab1157f1dc0ef8d7e5e1a1aa84f931781" title=" " alt="" coords="555,907,766,948"/>
+<area shape="rect" id="node34" href="$class_windows_forms_app1_1_1_g_u_i.html#ae37d60f2a898cb35d5b65e1448f8a4fc" title=" " alt="" coords="562,972,759,1013"/>
+<area shape="rect" id="node35" href="$class_windows_forms_app1_1_1_g_u_i.html#ab25be3dacea45e0aa68ccb629f89177f" title=" " alt="" coords="562,1037,759,1079"/>
+<area shape="rect" id="node36" href="$class_windows_forms_app1_1_1_g_u_i.html#ab6e50d6755161ec3050c7f996ba3407a" title=" " alt="" coords="562,1103,759,1144"/>
+<area shape="rect" id="node37" href="$class_windows_forms_app1_1_1_g_u_i.html#a8c436b48973ce4cf2c48547a65a5776f" title=" " alt="" coords="562,1168,759,1209"/>
+<area shape="rect" id="node38" href="$class_windows_forms_app1_1_1_g_u_i.html#ab6e0a85e2545b6661809ef0730159ae9" title=" " alt="" coords="530,384,791,425"/>
+<area shape="rect" id="node40" href="$class_windows_forms_app1_1_1_g_u_i.html#a53aaa0961eb8ce63a5c9fd144424af13" title=" " alt="" coords="515,1364,807,1405"/>
+<area shape="rect" id="node44" href="$class_windows_forms_app1_1_1_g_u_i.html#aa5ca5f4ac7e00b77fc318a727e3f129d" title=" " alt="" coords="515,1495,807,1536"/>
+<area shape="rect" id="node46" href="$class_windows_forms_app1_1_1_g_u_i.html#a108d446699b3d61c667c37d90f80923b" title=" " alt="" coords="515,1625,807,1667"/>
+<area shape="rect" id="node48" href="$class_windows_forms_app1_1_1_g_u_i.html#ad88b26c6780127f4e899d5bbfd2511ec" title=" " alt="" coords="517,1429,804,1471"/>
+<area shape="rect" id="node49" href="$class_windows_forms_app1_1_1_g_u_i.html#a14af1969945b896e813a47ee8a3b9e14" title=" " alt="" coords="551,1560,770,1601"/>
+<area shape="rect" id="node50" href="$class_windows_forms_app1_1_1_g_u_i.html#af84e2921103ed40e9a57837ef3f212be" title=" " alt="" coords="544,1233,777,1275"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#aaf665ddd93997a97669503e6b54c0fc9" title="Добавляет банкомат в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,5,1073,47"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_database.html#ab27982d71981e2e6fe790743491c43b6" title="Функция, предоставляющая доступ к синглтон базе данных. При необходимости создает пустую базу данных ..." alt="" coords="867,972,1073,1013"/>
+<area shape="rect" id="node6" href="$class_win_forms_app1_1_1_hash_function.html#a78a43fc1610e678bff472562d00f727f" title="Преобразует хэшируемое данное в индекс." alt="" coords="855,267,1085,294"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e" title="Возвращает массив банкоматов, доступных в базе данных." alt="" coords="867,71,1073,112"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#a44eec367d91e28e33b015684be8a902f" title="Возвращает хэш&#45;функцию, используемую для таблицы машин данной базы данных." alt="" coords="867,136,1073,177"/>
+<area shape="rect" id="node10" href="$class_windows_forms_app1_1_1_database.html#ac3dce380aef5ec8b9f868aa47d7ebe37" title="Добавляет процент в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,711,1073,752"/>
+<area shape="rect" id="node11" href="$class_windows_forms_app1_1_1_database.html#a6c72a00968440e4461c41fd6493b2a43" title="Возвращает массив процентов, доступных в базе данных." alt="" coords="867,645,1073,687"/>
+<area shape="rect" id="node13" href="$class_windows_forms_app1_1_1_database.html#a53114f18cdc0bac00871b10ac152b8e5" title="Добавляет клиента в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,449,1073,491"/>
+<area shape="rect" id="node14" href="$class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84" title="Возвращает массив клиентов, доступных в базе данных." alt="" coords="867,384,1073,425"/>
+<area shape="rect" id="node15" href="$class_windows_forms_app1_1_1_database.html#aa1cdc9d9ca1b9f807e8736e07f0ed5b4" title="Возвращает хэш&#45;функцию, используемую для таблицы клиентов данной базы данных." alt="" coords="867,515,1073,556"/>
+<area shape="rect" id="node17" href="$class_windows_forms_app1_1_1_database.html#a42978ab4f160aec4b93fd0cdc98c02ea" title="Добавляет операцию в базу данных, если это не нарушает целостность базы данных." alt="" coords="867,841,1073,883"/>
+<area shape="rect" id="node18" href="$class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644" title="Возвращает массив операций, доступных в базе данных." alt="" coords="867,907,1073,948"/>
+<area shape="rect" id="node20" href="$class_windows_forms_app1_1_1_database.html#ad1a60f27b0d1655e46db49dbd2277c6c" title="Удаляет банкомат из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,201,1073,243"/>
+<area shape="rect" id="node22" href="$class_windows_forms_app1_1_1_database.html#a31c6b0a0646fc689f29db7ac61839ca3" title="Удаляет клиента из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,580,1073,621"/>
+<area shape="rect" id="node24" href="$class_windows_forms_app1_1_1_database.html#ab3d9622d3bc473a6f423f2eb26ce7847" title="Удаляет процент из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,776,1073,817"/>
+<area shape="rect" id="node26" href="$class_windows_forms_app1_1_1_database.html#a59e069754e423f09d15d55b82e9077a3" title="Удаляет операцию из базы данных, если это не нарушает целостность базы данных." alt="" coords="867,1037,1073,1079"/>
+<area shape="rect" id="node28" href="$class_windows_forms_app1_1_1_database.html#a834c678a454207f313282c1d6102634c" title="Производит поиск в базе данных клиента, соответствующего входным данным." alt="" coords="867,1168,1073,1209"/>
+<area shape="rect" id="node29" href="$class_windows_forms_app1_1_1_database.html#a01c5d00f063b5258d3f114b5317ed03d" title="Производит поиск в базе данных банкомата, соответствующего входным данным." alt="" coords="867,1233,1073,1275"/>
+<area shape="rect" id="node30" href="$class_windows_forms_app1_1_1_database.html#a562a325c28d8027ee82822b6c7423ce9" title="Производит поиск в базе данных операции, соответствующей входным данным." alt="" coords="867,1299,1073,1340"/>
+<area shape="rect" id="node31" href="$class_windows_forms_app1_1_1_database.html#a7fc2a176aaf39cc2be15da31e14244ef" title="Производит поиск в базе данных процента, соответствующего входным данным." alt="" coords="867,1364,1073,1405"/>
+<area shape="rect" id="node32" href="$class_windows_forms_app1_1_1_search_query.html#abfb89356449ca1d3a2d9b984a05bdad6" title="Сообщает найден ли элемент, соответствующий искомому." alt="" coords="857,1103,1083,1144"/>
+<area shape="rect" id="node39" href="$class_windows_forms_app1_1_1_database.html#a4fcaf5b98941ed0476c7ac6d1e0d9b00" title="При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных." alt="" coords="867,319,1073,360"/>
+<area shape="rect" id="node41" href="$class_windows_forms_app1_1_1_report.html#addfc7ca789f2b0726af477c965f42ac1" title="Предоставляет данные, хранящиеся в отчете в виде массива." alt="" coords="863,1495,1077,1522"/>
+<area shape="rect" id="node42" href="$class_windows_forms_app1_1_1_report.html#a9d80497c91dbbc3f4f927b0971a8c2af" title="Возвращает количество элементов в отчете." alt="" coords="876,1547,1064,1588"/>
+<area shape="rect" id="node43" href="$class_windows_forms_app1_1_1_database.html#a67d46d8ef64a260564d2d03dd3adb818" title="Создает отчет об операциях, проведенных этим банкоматом." alt="" coords="867,1429,1073,1471"/>
+<area shape="rect" id="node45" href="$class_windows_forms_app1_1_1_database.html#a91ae2839b71c9e11139a657f738d7a9c" title="Создает отчет об операциях, проведенных клиентом." alt="" coords="867,1612,1073,1653"/>
+<area shape="rect" id="node47" href="$class_windows_forms_app1_1_1_database.html#a499d3d51434f82bb7220766baa2f05bd" title="Создает отчет о процентах по операциям, проведенных этим банкоматом." alt="" coords="867,1677,1073,1719"/>
 </map>

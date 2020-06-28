@@ -1,4 +1,4 @@
-.TH "WindowsFormsApp1.Checks" 3 "Сб 27 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
+.TH "WindowsFormsApp1.Checks" 3 "Вс 28 Июн 2020" "Inkostilation Project" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -10,27 +10,107 @@ WindowsFormsApp1.Checks
 
 .in +1c
 .ti -1c
-.RI "static bool \fBCheckMachine\fP (string number, string address, string name)"
+.RI "static \fBResult\fP \fBCheckMachine\fP (string number, string address, string bankName)"
 .br
+.RI "Проверка входных данных на соответствие условиям банкомата\&. "
 .ti -1c
-.RI "static bool \fBCheckClient\fP (string number, string bank, string name)"
+.RI "static \fBResult\fP \fBCheckClient\fP (string cardNumber, string bankName, string clientName)"
 .br
+.RI "Проверка входных данных на соответствие условиям клиента\&. "
 .ti -1c
-.RI "static bool \fBCheckPercent\fP (string name, string sender, string receiver, string percent)"
+.RI "static \fBResult\fP \fBCheckPercent\fP (string operationName, string sender, string receiver, string percent)"
 .br
+.RI "Проверка входных данных на соответствие условиям процента операции\&. "
 .ti -1c
-.RI "static bool \fBCheckOperation\fP (string name, string number, string bank, string sum)"
+.RI "static \fBResult\fP \fBCheckOperation\fP (string name, string cardNumber, string machineNumber, string sum)"
 .br
+.RI "Проверка входных данных на соответствие условиям операции\&. "
 .in -1c
 .SH "Методы"
 .PP 
-.SS "static bool WindowsFormsApp1\&.Checks\&.CheckClient (string number, string bank, string name)\fC [static]\fP"
+.SS "static \fBResult\fP WindowsFormsApp1\&.Checks\&.CheckClient (string cardNumber, string bankName, string clientName)\fC [static]\fP"
 
-.SS "static bool WindowsFormsApp1\&.Checks\&.CheckMachine (string number, string address, string name)\fC [static]\fP"
+.PP
+Проверка входных данных на соответствие условиям клиента\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIcardNumber\fP Номер карты клиента\&. 
+.br
+\fIbankName\fP Имя банка, обслуживающего клиента\&. 
+.br
+\fIclientName\fP ФИО клиента\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат о соответствии данных условиям для клиента\&. 
+.RE
+.PP
 
-.SS "static bool WindowsFormsApp1\&.Checks\&.CheckOperation (string name, string number, string bank, string sum)\fC [static]\fP"
+.SS "static \fBResult\fP WindowsFormsApp1\&.Checks\&.CheckMachine (string number, string address, string bankName)\fC [static]\fP"
 
-.SS "static bool WindowsFormsApp1\&.Checks\&.CheckPercent (string name, string sender, string receiver, string percent)\fC [static]\fP"
+.PP
+Проверка входных данных на соответствие условиям банкомата\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fInumber\fP Номер банкомата\&. 
+.br
+\fIaddress\fP Адрес банкомата\&. 
+.br
+\fIbankName\fP Название банка\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат о соответствии данных условиям для банкомата\&. 
+.RE
+.PP
+
+.SS "static \fBResult\fP WindowsFormsApp1\&.Checks\&.CheckOperation (string name, string cardNumber, string machineNumber, string sum)\fC [static]\fP"
+
+.PP
+Проверка входных данных на соответствие условиям операции\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIname\fP Название операции\&. 
+.br
+\fIcardNumber\fP Номер карты\&. 
+.br
+\fImachineNumber\fP Номер банкомата\&. 
+.br
+\fIsum\fP Сумма операции\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат о соответствии данных условиям для операции\&. 
+.RE
+.PP
+
+.SS "static \fBResult\fP WindowsFormsApp1\&.Checks\&.CheckPercent (string operationName, string sender, string receiver, string percent)\fC [static]\fP"
+
+.PP
+Проверка входных данных на соответствие условиям процента операции\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIoperationName\fP Название операции\&. 
+.br
+\fIsender\fP Банк отправитель\&. 
+.br
+\fIreceiver\fP Банк получатель\&. 
+.br
+\fIpercent\fP Процент операции\&. 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Результат о соответствии данных условиям для процента операции\&. 
+.RE
+.PP
 
 
 .SH "Автор"

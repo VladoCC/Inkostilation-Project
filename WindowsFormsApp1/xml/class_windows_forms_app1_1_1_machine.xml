@@ -67,10 +67,13 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Machine.cs" line="57" column="20" bodyfile="Machine.cs" bodystart="57" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="424" endline="522">WindowsFormsApp1.Database.Consistence</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="550" endline="564">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1aa80e24f03aaa1d1a55fa2d9f1c9c8620" compoundref="_database_8cs" startline="567" endline="664">WindowsFormsApp1.Database.Consistence</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a67d46d8ef64a260564d2d03dd3adb818" compoundref="_database_8cs" startline="692" endline="706">WindowsFormsApp1.Database.MachineOperationReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1a01133209c3e25448d8dc56ff959cfa84" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -86,7 +89,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Machine.cs" line="62" column="23" bodyfile="Machine.cs" bodystart="62" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_1aa969fa80384c0df32eaa4c9a5a120aaa" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -102,8 +108,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Machine.cs" line="67" column="23" bodyfile="Machine.cs" bodystart="67" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="593" endline="613">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="931" endline="1008">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a2ed7f953a4c8677b376c139b531efe42" compoundref="_database_8cs" startline="197" endline="243">WindowsFormsApp1.Database.Save</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_database_1a499d3d51434f82bb7220766baa2f05bd" compoundref="_database_8cs" startline="735" endline="755">WindowsFormsApp1.Database.MachinePercentReport</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="42" endline="79">WindowsFormsApp1.GUI.button1_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1a7e836a05cebc643cfedf9c8f41607ca7" compoundref="_g_u_i_8cs" startline="206" endline="283">WindowsFormsApp1.GUI.button5_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1ab6e0a85e2545b6661809ef0730159ae9" compoundref="_g_u_i_8cs" startline="1035" endline="1120">WindowsFormsApp1.GUI.импортироватьToolStripMenuItem_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -176,7 +185,6 @@
         </inbodydescription>
         <location file="Machine.cs" line="43" column="20" bodyfile="Machine.cs" bodystart="43" bodyend="46"/>
         <references refid="class_windows_forms_app1_1_1_machine_1ab4bb5c74274041497bbcfe78a6d12a3b" compoundref="_machine_8cs" startline="16">WindowsFormsApp1.Machine._machineNumber</references>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1aac33025990d1c6e8944d610d92317431" compoundref="_g_u_i_8cs" startline="44" endline="77">WindowsFormsApp1.GUI.button1_Click</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_windows_forms_app1_1_1_machine_1ab7918d407bc68e703bb181b0904ea103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>

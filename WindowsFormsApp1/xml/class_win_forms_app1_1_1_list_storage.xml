@@ -29,10 +29,10 @@
         <referencedby refid="class_win_forms_app1_1_1_list_storage_1acba783dabd167ca9ad1e2417b60bfd6a" compoundref="_list_storage_8cs" startline="24" endline="27">WinFormsApp1.ListStorage&lt; K, V &gt;.ListStorage</referencedby>
         <referencedby refid="class_win_forms_app1_1_1_list_storage_1abb05184af3ecec4b6c80c0a443c14c85" compoundref="_list_storage_8cs" startline="29" endline="40">WinFormsApp1.ListStorage&lt; K, V &gt;.GetSize</referencedby>
         <referencedby refid="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" compoundref="_list_storage_8cs" startline="42" endline="52">WinFormsApp1.ListStorage&lt; K, V &gt;.Add</referencedby>
-        <referencedby refid="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" compoundref="_list_storage_8cs" startline="54" endline="70">WinFormsApp1.ListStorage&lt; K, V &gt;.Remove</referencedby>
-        <referencedby refid="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" compoundref="_list_storage_8cs" startline="72" endline="90">WinFormsApp1.ListStorage&lt; K, V &gt;.ToArray</referencedby>
-        <referencedby refid="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" compoundref="_list_storage_8cs" startline="92" endline="96">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</referencedby>
-        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" compoundref="_list_storage_8cs" startline="216" endline="224">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::FillArray</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" compoundref="_list_storage_8cs" startline="54" endline="67">WinFormsApp1.ListStorage&lt; K, V &gt;.Remove</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" compoundref="_list_storage_8cs" startline="69" endline="87">WinFormsApp1.ListStorage&lt; K, V &gt;.ToArray</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" compoundref="_list_storage_8cs" startline="89" endline="93">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a81ae247d1950cfc4154b3c51f618f45e" compoundref="_list_storage_8cs" startline="210" endline="218">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; V &gt;::FillArray</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_win_forms_app1_1_1_storage_1a5208a1b4cb3b07891d79ceb99ef1b157" prot="private" static="no" mutable="no">
         <type><ref refid="class_windows_forms_app1_1_1_size_container" kindref="compound">SizeContainer</ref></type>
@@ -85,7 +85,7 @@
         </inbodydescription>
         <location file="ListStorage.cs" line="29" column="29" bodyfile="ListStorage.cs" bodystart="29" bodyend="40"/>
         <references refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" compoundref="_list_storage_8cs" startline="18">WinFormsApp1.ListStorage&lt; K, V &gt;.array</references>
-        <referencedby refid="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" compoundref="_list_storage_8cs" startline="72" endline="90">WinFormsApp1.ListStorage&lt; K, V &gt;.ToArray</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" compoundref="_list_storage_8cs" startline="69" endline="87">WinFormsApp1.ListStorage&lt; K, V &gt;.ToArray</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>override void</type>
@@ -127,7 +127,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ListStorage.cs" line="42" column="30" bodyfile="ListStorage.cs" bodystart="42" bodyend="52"/>
-        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" compoundref="_list_storage_8cs" startline="174" endline="184">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Add</references>
+        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a0988d1c851ff7aed9ff9642f0c75755d" compoundref="_list_storage_8cs" startline="171" endline="181">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Add</references>
         <references refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" compoundref="_list_storage_8cs" startline="18">WinFormsApp1.ListStorage&lt; K, V &gt;.array</references>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1aed89173bc2c6cd16708ed19d5610a786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -171,9 +171,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="54" column="30" bodyfile="ListStorage.cs" bodystart="54" bodyend="70"/>
+        <location file="ListStorage.cs" line="54" column="30" bodyfile="ListStorage.cs" bodystart="54" bodyend="67"/>
         <references refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" compoundref="_list_storage_8cs" startline="18">WinFormsApp1.ListStorage&lt; K, V &gt;.array</references>
-        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" compoundref="_list_storage_8cs" startline="192" endline="208">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Remove</references>
+        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" compoundref="_list_storage_8cs" startline="143">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Next</references>
+        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1abc14090ce44164275d6544c90a58b3ee" compoundref="_list_storage_8cs" startline="189" endline="202">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Remove</references>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_list_storage_1ae6715c9d4ea0d993643df004e800d832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>override V[]</type>
@@ -191,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="72" column="27" bodyfile="ListStorage.cs" bodystart="72" bodyend="90"/>
+        <location file="ListStorage.cs" line="69" column="27" bodyfile="ListStorage.cs" bodystart="69" bodyend="87"/>
         <references refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" compoundref="_list_storage_8cs" startline="18">WinFormsApp1.ListStorage&lt; K, V &gt;.array</references>
         <references refid="class_win_forms_app1_1_1_list_storage_1abb05184af3ecec4b6c80c0a443c14c85" compoundref="_list_storage_8cs" startline="29" endline="40">WinFormsApp1.ListStorage&lt; K, V &gt;.GetSize</references>
       </memberdef>
@@ -234,9 +235,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="92" column="30" bodyfile="ListStorage.cs" bodystart="92" bodyend="96"/>
+        <location file="ListStorage.cs" line="89" column="30" bodyfile="ListStorage.cs" bodystart="89" bodyend="93"/>
         <references refid="class_win_forms_app1_1_1_list_storage_1abf2205bd46e9a4c39ce54528e5778288" compoundref="_list_storage_8cs" startline="18">WinFormsApp1.ListStorage&lt; K, V &gt;.array</references>
-        <referencedby refid="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" compoundref="_list_storage_8cs" startline="104" endline="118">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</referencedby>
+        <referencedby refid="class_win_forms_app1_1_1_list_storage_1af407bc9bbf92a5c2f1854da1d28ee04a" compoundref="_list_storage_8cs" startline="101" endline="115">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_win_forms_app1_1_1_storage_1ac346a3e5851c25dd37b462458285f536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_windows_forms_app1_1_1_size_container" kindref="compound">SizeContainer</ref></type>
@@ -298,12 +299,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="ListStorage.cs" line="104" column="22" bodyfile="ListStorage.cs" bodystart="104" bodyend="118"/>
+        <location file="ListStorage.cs" line="101" column="22" bodyfile="ListStorage.cs" bodystart="101" bodyend="115"/>
         <references refid="class_windows_forms_app1_1_1_search_query_1a0825c5d7798cb583fdb6621dbf5818f2" compoundref="_search_query_8cs" startline="42" endline="55">WindowsFormsApp1.SearchQuery&lt; V &gt;::Check</references>
         <references refid="class_windows_forms_app1_1_1_search_query_1a78a82ea1257ecad1b6af48cf3bf787f0" compoundref="_search_query_8cs" startline="60" endline="63">WindowsFormsApp1.SearchQuery&lt; V &gt;::Count</references>
-        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a18614fac450cf1a620729dd81fde386a" compoundref="_list_storage_8cs" startline="141">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Element</references>
-        <references refid="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" compoundref="_list_storage_8cs" startline="92" endline="96">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</references>
-        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" compoundref="_list_storage_8cs" startline="146">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Next</references>
+        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a18614fac450cf1a620729dd81fde386a" compoundref="_list_storage_8cs" startline="138">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Element</references>
+        <references refid="class_win_forms_app1_1_1_list_storage_1a095a3ed5ee3cf8c063a146a7f33b962f" compoundref="_list_storage_8cs" startline="89" endline="93">WinFormsApp1.ListStorage&lt; K, V &gt;.Find</references>
+        <references refid="class_win_forms_app1_1_1_list_storage_1_1_position_1a401edadc94769944f81c56554891cdfb" compoundref="_list_storage_8cs" startline="143">WinFormsApp1.ListStorage&lt; K, V &gt;.Position&lt; T &gt;.Next</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -355,7 +356,7 @@
         <link refid="class_windows_forms_app1_1_1_size_container"/>
       </node>
     </collaborationgraph>
-    <location file="ListStorage.cs" line="13" column="11" bodyfile="ListStorage.cs" bodystart="14" bodyend="226"/>
+    <location file="ListStorage.cs" line="13" column="11" bodyfile="ListStorage.cs" bodystart="14" bodyend="220"/>
     <listofallmembers>
       <member refid="class_win_forms_app1_1_1_storage_1a5208a1b4cb3b07891d79ceb99ef1b157" prot="private" virt="non-virtual"><scope>WinFormsApp1::ListStorage</scope><name>_size</name></member>
       <member refid="class_win_forms_app1_1_1_list_storage_1ae979f90e68a17f6817a6125d2b59f85f" prot="public" virt="virtual"><scope>WinFormsApp1::ListStorage</scope><name>Add</name></member>

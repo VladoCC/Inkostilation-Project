@@ -1,0 +1,11 @@
+<map id="WindowsFormsApp1.Database.Save" name="WindowsFormsApp1.Database.Save">
+<area shape="rect" id="node1" title="Сохраняет базу данных на жесткий диск." alt="" coords="5,242,239,269"/>
+<area shape="rect" id="node2" href="$class_windows_forms_app1_1_1_database.html#ac2f8af3b2b2bcb40a44b3947802f5c84" title="Возвращает массив клиентов, доступных в базе данных." alt="" coords="287,5,492,47"/>
+<area shape="rect" id="node3" href="$class_windows_forms_app1_1_1_database.html#afb07a7f367fe3ce7348d0d5f70a82536" title="Возвращает количество клиентов." alt="" coords="287,71,492,112"/>
+<area shape="rect" id="node4" href="$class_windows_forms_app1_1_1_database.html#a7928c21bf0b7f061a696082f4291b79e" title="Возвращает массив банкоматов, доступных в базе данных." alt="" coords="287,136,492,177"/>
+<area shape="rect" id="node5" href="$class_windows_forms_app1_1_1_database.html#a9e9603449f45edce04e4413859a989df" title="Возвращает количество банкоматов." alt="" coords="287,201,492,243"/>
+<area shape="rect" id="node6" href="$class_windows_forms_app1_1_1_database.html#adcac299370aba10305fc5e0d46b68644" title="Возвращает массив операций, доступных в базе данных." alt="" coords="287,267,492,308"/>
+<area shape="rect" id="node7" href="$class_windows_forms_app1_1_1_database.html#a71bfaac112b0cf14dbfa6ed6828645bf" title="Возвращает количество операций." alt="" coords="287,332,492,373"/>
+<area shape="rect" id="node8" href="$class_windows_forms_app1_1_1_database.html#a6c72a00968440e4461c41fd6493b2a43" title="Возвращает массив процентов, доступных в базе данных." alt="" coords="287,397,492,439"/>
+<area shape="rect" id="node9" href="$class_windows_forms_app1_1_1_database.html#a4193279732068c21e5f17702c90348fb" title="Возвращает количество процентов." alt="" coords="287,463,492,504"/>
+</map>

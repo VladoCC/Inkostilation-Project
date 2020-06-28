@@ -27,5 +27,5 @@ var searchData=
   ['operator_20false_244',['operator false',['../class_windows_forms_app1_1_1_result.html#ae2dda2995f6d61acefe76f504c9d1609',1,'WindowsFormsApp1::Result']]],
   ['operator_20true_245',['operator true',['../class_windows_forms_app1_1_1_result.html#ae1e01a556debbcb90aab472931a73392',1,'WindowsFormsApp1::Result']]],
   ['operator_21_246',['operator!',['../class_windows_forms_app1_1_1_result.html#acd9841cc3ef6dd00dd2c2ee900f2de51',1,'WindowsFormsApp1::Result']]],
-  ['operator_2b_247',['operator+',['../class_windows_forms_app1_1_1_result.html#a5e1f7489930eb0359b0995c728a4e2e8',1,'WindowsFormsApp1::Result']]]
+  ['operator_2b_247',['operator+',['../class_windows_forms_app1_1_1_result.html#a5e1f7489930eb0359b0995c728a4e2e8',1,'WindowsFormsApp1.Result.operator+(Result result, string info)'],['../class_windows_forms_app1_1_1_result.html#a69f3d87fe18bf7c3b0365cb537f5e360',1,'WindowsFormsApp1.Result.operator+(Result r1, Result r2)']]]
 ];

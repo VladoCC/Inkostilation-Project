@@ -118,7 +118,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="156" column="47" bodyfile="MachineFound.Designer.cs" bodystart="156" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_machine_found_1af941857bf202211805a67be4f4409de3" prot="public" static="no" mutable="no">
@@ -133,7 +133,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MachineFound.Designer.cs" line="159" column="40" bodyfile="MachineFound.Designer.cs" bodystart="159" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
         <referencedby refid="class_windows_forms_app1_1_1_machine_found_1a2a5c449bfe010284aff6077c0d56815b" compoundref="_machine_found_8_designer_8cs" startline="29" endline="152">WindowsFormsApp1.MachineFound.InitializeComponent</referencedby>
       </memberdef>
       </sectiondef>

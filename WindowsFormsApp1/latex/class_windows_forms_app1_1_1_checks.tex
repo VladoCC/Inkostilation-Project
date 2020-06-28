@@ -12,41 +12,173 @@
 \doxysubsection*{Открытые статические члены}
 \begin{DoxyCompactItemize}
 \item 
-static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_ab25e37cdeff513aef088f9b732fc8202}{Check\+Machine}} (string number, string address, string name)
-\item 
-static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_a01ea5bc6b8ae7aadf0d0a01772b1a84f}{Check\+Client}} (string number, string bank, string name)
-\item 
-static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_abbfec2748cfdff637cc851b6676ebe82}{Check\+Percent}} (string name, string sender, string receiver, string percent)
-\item 
-static bool \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_ae2b15a3a568a14af454b0afbd300eadc}{Check\+Operation}} (string name, string number, string bank, string sum)
-\end{DoxyCompactItemize}
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_af0be912935ea3f719151ec98c5e8e7f3}{Check\+Machine}} (string number, string address, string bank\+Name)
+\begin{DoxyCompactList}\small\item\em Проверка входных данных на соответствие условиям банкомата. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_afb7892eb0db1b89debf14168739078ba}{Check\+Client}} (string card\+Number, string bank\+Name, string client\+Name)
+\begin{DoxyCompactList}\small\item\em Проверка входных данных на соответствие условиям клиента. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_af0f4e45a17558aca84dc500fa591bdd3}{Check\+Percent}} (string operation\+Name, string sender, string receiver, string percent)
+\begin{DoxyCompactList}\small\item\em Проверка входных данных на соответствие условиям процента операции. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} \mbox{\hyperlink{class_windows_forms_app1_1_1_checks_a139b026833c6fc7a3edc5657296f5240}{Check\+Operation}} (string name, string card\+Number, string machine\+Number, string sum)
+\begin{DoxyCompactList}\small\item\em Проверка входных данных на соответствие условиям операции. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Методы}
-\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_a01ea5bc6b8ae7aadf0d0a01772b1a84f}\label{class_windows_forms_app1_1_1_checks_a01ea5bc6b8ae7aadf0d0a01772b1a84f}} 
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_afb7892eb0db1b89debf14168739078ba}\label{class_windows_forms_app1_1_1_checks_afb7892eb0db1b89debf14168739078ba}} 
 \index{WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}!CheckClient@{CheckClient}}
 \index{CheckClient@{CheckClient}!WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}}
 \doxysubsubsection{\texorpdfstring{CheckClient()}{CheckClient()}}
-{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Checks.\+Check\+Client (\begin{DoxyParamCaption}\item[{string}]{number,  }\item[{string}]{bank,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Checks.\+Check\+Client (\begin{DoxyParamCaption}\item[{string}]{card\+Number,  }\item[{string}]{bank\+Name,  }\item[{string}]{client\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
-\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_ab25e37cdeff513aef088f9b732fc8202}\label{class_windows_forms_app1_1_1_checks_ab25e37cdeff513aef088f9b732fc8202}} 
+
+
+Проверка входных данных на соответствие условиям клиента. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em card\+Number} & Номер карты клиента. \\
+\hline
+{\em bank\+Name} & Имя банка, обслуживающего клиента. \\
+\hline
+{\em client\+Name} & ФИО клиента. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат о соответствии данных условиям для клиента. 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_afb7892eb0db1b89debf14168739078ba_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_afb7892eb0db1b89debf14168739078ba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_af0be912935ea3f719151ec98c5e8e7f3}\label{class_windows_forms_app1_1_1_checks_af0be912935ea3f719151ec98c5e8e7f3}} 
 \index{WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}!CheckMachine@{CheckMachine}}
 \index{CheckMachine@{CheckMachine}!WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}}
 \doxysubsubsection{\texorpdfstring{CheckMachine()}{CheckMachine()}}
-{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Checks.\+Check\+Machine (\begin{DoxyParamCaption}\item[{string}]{number,  }\item[{string}]{address,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Checks.\+Check\+Machine (\begin{DoxyParamCaption}\item[{string}]{number,  }\item[{string}]{address,  }\item[{string}]{bank\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
-\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_ae2b15a3a568a14af454b0afbd300eadc}\label{class_windows_forms_app1_1_1_checks_ae2b15a3a568a14af454b0afbd300eadc}} 
+
+
+Проверка входных данных на соответствие условиям банкомата. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em number} & Номер банкомата. \\
+\hline
+{\em address} & Адрес банкомата. \\
+\hline
+{\em bank\+Name} & Название банка. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат о соответствии данных условиям для банкомата. 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_af0be912935ea3f719151ec98c5e8e7f3_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_af0be912935ea3f719151ec98c5e8e7f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_a139b026833c6fc7a3edc5657296f5240}\label{class_windows_forms_app1_1_1_checks_a139b026833c6fc7a3edc5657296f5240}} 
 \index{WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}!CheckOperation@{CheckOperation}}
 \index{CheckOperation@{CheckOperation}!WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}}
 \doxysubsubsection{\texorpdfstring{CheckOperation()}{CheckOperation()}}
-{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Checks.\+Check\+Operation (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{number,  }\item[{string}]{bank,  }\item[{string}]{sum }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Checks.\+Check\+Operation (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{card\+Number,  }\item[{string}]{machine\+Number,  }\item[{string}]{sum }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
-\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_abbfec2748cfdff637cc851b6676ebe82}\label{class_windows_forms_app1_1_1_checks_abbfec2748cfdff637cc851b6676ebe82}} 
+
+
+Проверка входных данных на соответствие условиям операции. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em name} & Название операции. \\
+\hline
+{\em card\+Number} & Номер карты. \\
+\hline
+{\em machine\+Number} & Номер банкомата. \\
+\hline
+{\em sum} & Сумма операции. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат о соответствии данных условиям для операции. 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_a139b026833c6fc7a3edc5657296f5240_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_a139b026833c6fc7a3edc5657296f5240_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_windows_forms_app1_1_1_checks_af0f4e45a17558aca84dc500fa591bdd3}\label{class_windows_forms_app1_1_1_checks_af0f4e45a17558aca84dc500fa591bdd3}} 
 \index{WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}!CheckPercent@{CheckPercent}}
 \index{CheckPercent@{CheckPercent}!WindowsFormsApp1.Checks@{WindowsFormsApp1.Checks}}
 \doxysubsubsection{\texorpdfstring{CheckPercent()}{CheckPercent()}}
-{\footnotesize\ttfamily static bool Windows\+Forms\+App1.\+Checks.\+Check\+Percent (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{sender,  }\item[{string}]{receiver,  }\item[{string}]{percent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_windows_forms_app1_1_1_result}{Result}} Windows\+Forms\+App1.\+Checks.\+Check\+Percent (\begin{DoxyParamCaption}\item[{string}]{operation\+Name,  }\item[{string}]{sender,  }\item[{string}]{receiver,  }\item[{string}]{percent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+
+
+Проверка входных данных на соответствие условиям процента операции. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em operation\+Name} & Название операции. \\
+\hline
+{\em sender} & Банк отправитель. \\
+\hline
+{\em receiver} & Банк получатель. \\
+\hline
+{\em percent} & Процент операции. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат о соответствии данных условиям для процента операции. 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_af0f4e45a17558aca84dc500fa591bdd3_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windows_forms_app1_1_1_checks_af0f4e45a17558aca84dc500fa591bdd3_icgraph}
+\end{center}
+\end{figure}
 
 
 Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}

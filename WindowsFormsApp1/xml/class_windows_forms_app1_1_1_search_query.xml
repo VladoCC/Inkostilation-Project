@@ -75,7 +75,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="SearchQuery.cs" line="68" column="20" bodyfile="SearchQuery.cs" bodystart="68" bodyend="-1"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_windows_forms_app1_1_1_search_query_1a5b8f1809660b184007fd565ca2f3f042" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -184,7 +184,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="SearchQuery.cs" line="79" column="21" bodyfile="SearchQuery.cs" bodystart="79" bodyend="82"/>
-        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="435" endline="756">WindowsFormsApp1.GUI.button9_Click</referencedby>
+        <referencedby refid="class_windows_forms_app1_1_1_g_u_i_1accd73f1a0a3b73022103323742eb042d" compoundref="_g_u_i_8cs" startline="533" endline="854">WindowsFormsApp1.GUI.button9_Click</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>

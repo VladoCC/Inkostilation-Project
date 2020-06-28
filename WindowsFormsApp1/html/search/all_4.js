@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_96',['data',['../class_windows_forms_app1_1_1_r_b_1_1_node.html#a52c44ef4c774456951af52e28fdec596',1,'WindowsFormsApp1.RB.Node.data()'],['../class_windows_forms_app1_1_1_report.html#addfc7ca789f2b0726af477c965f42ac1',1,'WindowsFormsApp1.Report.Data()']]],
+  ['data_96',['Data',['../class_windows_forms_app1_1_1_report.html#addfc7ca789f2b0726af477c965f42ac1',1,'WindowsFormsApp1.Report.Data()'],['../class_windows_forms_app1_1_1_r_b_1_1_node.html#a52c44ef4c774456951af52e28fdec596',1,'WindowsFormsApp1.RB.Node.data()']]],
   ['database_97',['Database',['../class_windows_forms_app1_1_1_database.html',1,'WindowsFormsApp1.Database'],['../class_windows_forms_app1_1_1_database.html#aa0ba20238d7bce2cfa6aa2d725a070fc',1,'WindowsFormsApp1.Database.Database()']]],
   ['database_2ecs_98',['Database.cs',['../_database_8cs.html',1,'']]],
   ['datagridview1_99',['dataGridView1',['../class_windows_forms_app1_1_1_g_u_i.html#a1489d620e6f1cf02f8d19ccf920c173d',1,'WindowsFormsApp1::GUI']]],
