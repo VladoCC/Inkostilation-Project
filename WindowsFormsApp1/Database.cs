@@ -75,7 +75,7 @@ namespace WindowsFormsApp1
                 var elems = str.Split(' ');
                 switch (str[0])
                 {
-                    case '1':
+                    case '2':
                         if (elems.Length == 4)
                         {
                             Result res1 = Checks.CheckClient(elems[1], elems[2], elems[3]);
@@ -92,7 +92,7 @@ namespace WindowsFormsApp1
                             result += "Количество аргументов в строке не соответствует количеству параметров клиента";
                         }
                         break;
-                    case '2':
+                    case '1':
                         if (elems.Length == 4)
                         {
                             Result res2 = Checks.CheckMachine(elems[1], elems[2], elems[3]);
@@ -148,6 +148,10 @@ namespace WindowsFormsApp1
                         }
 
                         break;
+                    default:
+                        result.Success = false;
+                        result += "Обнаружена строка, начинающаяся с символа \'" + str[0] + "\', который не соответствует ни одному типу данных.";
+                        break;
                 }
             }
 
@@ -195,7 +199,7 @@ namespace WindowsFormsApp1
                 {
                     foreach (Client client in ClientArray())
                     {
-                        text += "1 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
+                        text += "2 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
                     }
                 }
 
@@ -203,7 +207,7 @@ namespace WindowsFormsApp1
                 {
                     foreach (Machine machine in MachineArray())
                     {
-                        text += "2 " + machine.MachineNumber + " " + machine.Address + " " + machine.BankName + "\n";
+                        text += "1 " + machine.MachineNumber + " " + machine.Address + " " + machine.BankName + "\n";
                     }
                 }
 
