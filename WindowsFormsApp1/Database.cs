@@ -42,11 +42,9 @@ namespace WindowsFormsApp1
         private Tree<Percent> _percents;
 
         /// <summary>
-        /// Функция, предоставляющая доступ к синглтону.
-        /// При указании пути к файлу, загружает базу данных из него.
-        /// Иначе при необходимости создает пустую базу данных и возвращает ее.
+        /// Функция, предоставляющая доступ к синглтон базе данных.
+        /// При необходимости создает пустую базу данных и возвращает ее.
         /// </summary>
-        /// <param name="filePath"> Путь к файлу базы данны. Файл должен иметь расширение ".kostil". </param>
         /// <returns> База данных, с которой на данный момент работает программа. </returns>
         public static Database GetInstance()
         { 
@@ -57,6 +55,11 @@ namespace WindowsFormsApp1
             return _instance;
         }
 
+        /// <summary>
+        /// При корректности данных в файле, загружает базу данных из него и делает ее рабочей базой данных.
+        /// </summary>
+        /// <param name="filePath"> Путь к файлу базы данных. </param>
+        /// <returns> Результат загрузки базы данных. </returns>
         public static Result LoadInstance(string filePath)
         {
             Database database = new Database();
@@ -185,29 +188,31 @@ namespace WindowsFormsApp1
             ModFunction function = new ModFunction();
             _clients = new HashMap<int, Client>(function, new DoubleHashStorage<int, Client>(new OddFunction(), function));
         }
-
+        
         /// <summary>
         /// Сохраняет базу данных на жесткий диск.
         /// </summary>
         /// <param name="filePath"> Путь к файлу, в который будет производится сохранение. </param>
+        /// <returns> Результат сохранения базы данных. </returns>
         public Result Save(string filePath)
         {
             if (ClientSize() > 0 || MachineSize() > 0 || OperationSize() > 0 || PercentSize() > 0)
             {
                 String text = "";
-                if (ClientSize() > 0)
-                {
-                    foreach (Client client in ClientArray())
-                    {
-                        text += "2 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
-                    }
-                }
 
                 if (MachineSize() > 0)
                 {
                     foreach (Machine machine in MachineArray())
                     {
                         text += "1 " + machine.MachineNumber + " " + machine.Address + " " + machine.BankName + "\n";
+                    }
+                }
+                
+                if (ClientSize() > 0)
+                {
+                    foreach (Client client in ClientArray())
+                    {
+                        text += "2 " + client.CardNumber + " " + client.BankName + " " + client.Name + "\n";
                     }
                 }
 
