@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox4.Text) < 0) || (Convert.ToInt32(waterMarkTextBox4.Text) > 100)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Процент> 0..100\n\n";
+                    errormessage = errormessage + "Значение " + waterMarkTextBox4.Text + " не попадает в допустимый диапазон поля <Процент> 0..100\n\n";
                 }
                 for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
                 {

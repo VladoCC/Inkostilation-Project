@@ -31,7 +31,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(number) < 1) || (Convert.ToInt32(number) > 500)))
                 {
-                    result.AddMessage("Значение не попадает в допустимый диапазон поля <Номер> 1..500");
+                    result.AddMessage("Значение " + number + " не попадает в допустимый диапазон поля <Номер> 1..500");
                 }
                 for (int i = 0; i < address.Length; i++)
                 {
@@ -114,7 +114,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(number) < 1) || (Convert.ToInt32(number) > 99999999)))
                 {
-                    result.AddMessage("Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999");
+                    result.AddMessage("Значение " + number + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999");
                 }
                 for (int i = 0; i < bank.Length; i++)
                 {
@@ -184,7 +184,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(percent) < 0) || (Convert.ToInt32(percent) > 100)))
                 {
-                    result.AddMessage("Значение не попадает в допустимый диапазон поля <Процент> 0..100");
+                    result.AddMessage("Значение " + percent + " не попадает в допустимый диапазон поля <Процент> 0..100");
                 }
                 for (int i = 0; i < name.Length; i++)
                 {
@@ -311,7 +311,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring1 == false) && ((Convert.ToInt32(number) < 1) || (Convert.ToInt32(number) > 99999999)))
                 {
-                    result.AddMessage("Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999");
+                    result.AddMessage("Значение " + number + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999");
                 }
                 for (int i = 0; i < bank.Length; i++)
                 {
@@ -324,7 +324,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring2 == false) && ((Convert.ToInt32(bank) < 1) || (Convert.ToInt32(bank) > 500)))
                 {
-                    result.AddMessage("Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500");
+                    result.AddMessage("Значение " + bank + " не попадает в допустимый диапазон поля <Номер банкомата> 1..500");
                 }
                 for (int i = 0; i < sum.Length; i++)
                 {
@@ -337,7 +337,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring3 == false) && ((Convert.ToInt32(sum) < 0) || (Convert.ToInt32(sum) > 10000000)))
                 {
-                    result.AddMessage("Значение не попадает в допустимый диапазон поля <Сумма операции> 0..10000000");
+                    result.AddMessage("Значение " + sum + " не попадает в допустимый диапазон поля <Сумма операции> 0..10000000");
                 }
                 if (result.Message == "")
                 {

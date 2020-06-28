@@ -40,7 +40,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 99999999)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
+                    errormessage = errormessage + "Значение " + waterMarkTextBox1.Text + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                 }
                 for (int i = 0; i < waterMarkTextBox2.Text.Length; i++)
                 {

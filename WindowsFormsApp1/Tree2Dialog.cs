@@ -71,7 +71,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring1 == false) && ((Convert.ToInt32(waterMarkTextBox2.Text) < 1) || (Convert.ToInt32(waterMarkTextBox2.Text) > 99999999)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
+                    errormessage = errormessage + "Значение " + waterMarkTextBox2.Text + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                 }
                 for (int i = 0; i < waterMarkTextBox3.Text.Length; i++)
                 {
@@ -84,7 +84,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring2 == false) && ((Convert.ToInt32(waterMarkTextBox3.Text) < 1) || (Convert.ToInt32(waterMarkTextBox3.Text) > 500)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
+                    errormessage = errormessage + "Значение " + waterMarkTextBox3.Text + " не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
                 }
                 for (int i = 0; i < waterMarkTextBox4.Text.Length; i++)
                 {
@@ -97,7 +97,7 @@ namespace WindowsFormsApp1
                 }
                 if ((flagstring3 == false) && ((Convert.ToInt32(waterMarkTextBox4.Text) < 0) || (Convert.ToInt32(waterMarkTextBox4.Text) > 10000000)))
                 {
-                    errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Сумма операции> 0..10000000\n\n";
+                    errormessage = errormessage + "Значение " + waterMarkTextBox4.Text + " не попадает в допустимый диапазон поля <Сумма операции> 0..10000000\n\n";
                 }
                 if (errormessage == "")
                 {
