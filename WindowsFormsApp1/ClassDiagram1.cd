@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="WindowsFormsApp1.BubbleSorter&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="4.5" Width="1.5" />
+    <Position X="11.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BubbleSorter.cs</FileName>
@@ -9,7 +9,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WindowsFormsApp1.Client" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="10.5" Y="7" Width="1.5" />
+    <Position X="9.75" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAAAIAAAAABAAAAAAAAAAAQAgAAAAAAAABBAAAAAAAA=</HashCode>
       <FileName>Client.cs</FileName>
@@ -26,12 +26,12 @@
   <Class Name="WindowsFormsApp1.Database" Collapsed="true">
     <Position X="7.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEEHgIAAIQBAUQEAAAABAACABIgIAIgEBpICAAACBAA=</HashCode>
+      <HashCode>AEEHgIAAIQBAUQEAAAABAACABIgIAIgEBpICAAACFAA=</HashCode>
       <FileName>Database.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.ErrorForm" Collapsed="true">
-    <Position X="13.25" Y="9.25" Width="1.5" />
+    <Position X="13.75" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAABAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
       <FileName>ErrorForm.cs</FileName>
@@ -40,7 +40,7 @@
   <Class Name="WindowsFormsApp1.GUI" Collapsed="true">
     <Position X="18.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BUUFgEAHCKI0IRgQAAioABTDEPy7EAEG8HgPECBDAAA=</HashCode>
+      <HashCode>BUUFgEAHCKI0IRgQAAioABTDEPy7EAEG0HgPECBDAAA=</HashCode>
       <FileName>GUI.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -66,7 +66,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.Machine" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="12.25" Y="7" Width="1.5" />
+    <Position X="9.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAAAAAAAAAAYAAAAAAAACABJAAEAAAAA=</HashCode>
       <FileName>Machine.cs</FileName>
@@ -95,7 +95,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.Operation" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11" Y="8" Width="1.5" />
+    <Position X="12" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IABAAAAAAAgAAAAEAAAAEAIAgAAAAAAAAAJAAAAAAAQ=</HashCode>
       <FileName>Operation.cs</FileName>
@@ -124,7 +124,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.Percent" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="10.25" Y="1.5" Width="1.5" />
+    <Position X="11.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABBAAAAAAAAAAAEAIAQFAAAAAAAgAAAAgBAAAAAAAA=</HashCode>
       <FileName>Percent.cs</FileName>
@@ -160,7 +160,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.QuickLastSorter&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="3.5" Width="1.5" />
+    <Position X="11.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>QuickLastSorter.cs</FileName>
@@ -168,7 +168,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WindowsFormsApp1.QuickStackSorter&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="2.5" Width="1.5" />
+    <Position X="11.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>QuickStackSorter.cs</FileName>
@@ -193,7 +193,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.ShellSorter&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="5.5" Width="1.5" />
+    <Position X="11.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ShellSorter.cs</FileName>
@@ -208,7 +208,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.Splash" Collapsed="true">
-    <Position X="9.5" Y="9.25" Width="1.5" />
+    <Position X="9.75" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Splash.cs</FileName>
@@ -299,13 +299,20 @@
     <TypeIdentifier />
   </Class>
   <Class Name="System.Windows.Forms.Form" Collapsed="true">
-    <Position X="16.5" Y="7.5" Width="1.5" />
+    <Position X="15.75" Y="7.5" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="System.Windows.Forms.ContainerControl" Collapsed="true">
-    <Position X="11.25" Y="9.25" Width="1.5" />
+    <Position X="11.75" Y="10" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsFormsApp1.Checks" Collapsed="true">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAQAAAAACAAAAAAABQAAABAAAAABAAgAA=</HashCode>
+      <FileName>Checks.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="WindowsFormsApp1.ISorter&lt;T&gt;" Collapsed="true">
     <Position X="5.25" Y="10" Width="1.5" />
