@@ -8,6 +8,69 @@ namespace WindowsFormsApp1
 {
     public class Checks
     {
+        public static bool IsNumber(string word)
+        {
+            for (int i = 0; i < word.Length; i++)
+            {
+                if (!(word[i] >= '0' && word[i] <= '9'))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        public static bool IsValidNumber(int num, int n, int m)
+        { 
+            if ((num >= n) && (num <= m))
+                    return true;
+            else return false;
+        }
+
+        public static bool IsWord(string word, bool containSpaces)
+        {
+            if (containSpaces == true)
+            {
+                for (int i = 0; i < word.Length; i++)
+                {
+                    if (!(word[i] >= 'А' && word[i] <= 'Я') && !(word[i] >= 'а' && word[i] <= 'я') && !(word[i] == '_'))
+                    {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            else
+            {
+                for (int i = 0; i < word.Length; i++)
+                {
+                    if (!(word[i] >= 'А' && word[i] <= 'Я') && !(word[i] >= 'а' && word[i] <= 'я'))
+                    {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+
+        public static bool IsFirstLetterBig(string word)
+        {
+            if ((word[0] >= 'А' && word[0] <= 'Я') || (word[0] >= 'A' && word[0] <= 'Z'))
+                return true;
+            else return false;
+        }
+        public static int CountBigLetters(string word)
+        {
+            int rez = 0;
+            for (int i = 0; i < word.Length; i++)
+            {
+                if ((word[i] >= 'А' && word[i] <= 'Я') || (word[i] >= 'A' && word[i] <= 'Z'))
+                {
+                    rez++;
+                }
+            }
+            return rez;
+        }
+        
         /// <summary>
         /// Проверка входных данных на соответствие условиям банкомата.
         /// </summary>
@@ -18,8 +81,6 @@ namespace WindowsFormsApp1
         public static Result CheckMachine(string number, string address, string bankName)
         {
             Result result = new Result(false);
-            bool bigflag = false;
-            bool flagstring = false;
             if ((number == "") || (address == "") || (bankName == ""))
             {
                 result.AddMessage("Поля формы не могут быть пустыми");
@@ -27,63 +88,39 @@ namespace WindowsFormsApp1
             }
             else
             {
-                for (int i = 0; i < number.Length; i++)
+                if (!IsNumber(number))
                 {
-                    if (!(number[i] >= '0' && number[i] <= '9'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Номер>");
-                        flagstring = true;
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Номер>");
                 }
-                if ((flagstring == false) && ((Convert.ToInt32(number) < 1) || (Convert.ToInt32(number) > 500)))
+                if (IsNumber(number) && (!IsValidNumber(Convert.ToInt32(number), 1, 500)))
                 {
                     result.AddMessage("Значение " + number + " не попадает в допустимый диапазон поля <Номер> 1..500");
                 }
-                for (int i = 0; i < address.Length; i++)
+                if (!IsWord(address, false))
                 {
-                    if (!(address[i] >= 'А' && address[i] <= 'Я') && !(address[i] >= 'а' && address[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Адрес>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Адрес>");
                 }
                 if (address.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Адрес> (более 20 символов)");
                 }
-                if ((address[0] >= 'А' && address[0] <= 'Я')
-                    || (address[0] >= 'A' && address[0] <= 'Z'))
-                {
-                    bigflag = true;
-                }
-                else
+                if (!IsFirstLetterBig(address))
                 {
                     result.AddMessage("Поле <Адрес> должно начинаться с заглавной буквы");
                 }
-                for (int i = 1; i < address.Length; i++)
+                if (IsFirstLetterBig(address) && (CountBigLetters(address) > 1))
                 {
-                    if (((address[i] >= 'А' && address[i] <= 'Я') ||
-                        (address[i] >= 'A' && address[i] <= 'Z')) && bigflag)
-                    {
-                        result.AddMessage("В поле <Адрес> не может быть более одной заглавной буквы");
-                        break;
-                    }
+                    result.AddMessage("В поле <Адрес> не может быть более одной заглавной буквы");
                 }
-                for (int i = 0; i < bankName.Length; i++)
+                if (!IsWord(bankName, false))
                 {
-                    if (!(bankName[i] >= 'А' && bankName[i] <= 'Я') && !(bankName[i] >= 'а' && bankName[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Название>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Название>");
                 }
                 if (bankName.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Название> (более 20 символов)");
                 }
-                if (!(bankName[0] >= 'А' && bankName[0] <= 'Я') &&
-                    !(bankName[0] >= 'A' && bankName[0] <= 'Z'))
+                if (!IsFirstLetterBig(bankName))
                 {
                     result.AddMessage("Поле <Название> должно начинаться с заглавной буквы");
                 }
@@ -109,7 +146,6 @@ namespace WindowsFormsApp1
         public static Result CheckClient(string cardNumber, string bankName, string clientName)
         {
             Result result = new Result(false);
-            bool flagstring = false;
             if ((cardNumber == "") || (bankName == "") || (clientName == "") || (clientName == "_"))
             {
                 result.AddMessage("Поля формы не могут быть пустыми");
@@ -117,50 +153,35 @@ namespace WindowsFormsApp1
             }
             else
             {
-                for (int i = 0; i < cardNumber.Length; i++)
-                {
-                    if (!(cardNumber[i] >= '0' && cardNumber[i] <= '9'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Номер карточки>");
-                        flagstring = true;
-                        break;
-                    }
+                if (!IsNumber(cardNumber))
+                { 
+                    result.AddMessage("Неверный формат данных в поле <Номер карточки>");
                 }
-                if ((flagstring == false) && ((Convert.ToInt32(cardNumber) < 1) || (Convert.ToInt32(cardNumber) > 99999999)))
+                if (IsNumber(cardNumber) && (!IsValidNumber(Convert.ToInt32(cardNumber), 1, 99999999)))
                 {
                     result.AddMessage("Значение " + cardNumber + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999");
                 }
-                for (int i = 0; i < bankName.Length; i++)
+                if (!IsWord(bankName, false))
                 {
-                    if (!(bankName[i] >= 'А' && bankName[i] <= 'Я') && !(bankName[i] >= 'а' && bankName[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Обслуживающий банк>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Обслуживающий банк>");
                 }
                 if (bankName.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Обслуживающий банк> (более 20 символов)");
                 }
-                if (!(bankName[0] >= 'А' && bankName[0] <= 'Я')
-                    && !(bankName[0] >= 'A' && bankName[0] <= 'Z'))
+                if (!IsFirstLetterBig(bankName))
                 {
                     result.AddMessage("Поле <Обслуживающий банк> должно начинаться с заглавной буквы");
                 }
-                for (int i = 0; i < clientName.Length; i++)
+                if (!IsWord(clientName, true))
                 {
-                    if (!(clientName[i] >= 'А' && clientName[i] <= 'Я') && !(clientName[i] >= 'а' && clientName[i] <= 'я') && !(clientName[i] == '_'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <ФИО>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <ФИО>");
                 }
                 if (clientName.Length > 40)
                 {
                     result.AddMessage("Слишком длинное поле <ФИО> (более 40 символов)");
                 }
-                if (!(clientName[0] >= 'А' && clientName[0] <= 'Я')
-                    && !(clientName[0] >= 'A' && clientName[0] <= 'Z'))
+                if (!IsFirstLetterBig(clientName))
                 {
                     result.AddMessage("Поле <ФИО> должно начинаться с заглавной буквы");
                 }
@@ -187,8 +208,6 @@ namespace WindowsFormsApp1
         public static Result CheckPercent(string operationName, string sender, string receiver, string percent)
         {
             Result result = new Result(false);
-            bool bigflag = false;
-            bool flagstring = false;
             if ((operationName == "") || (sender == "") || (receiver == "") || (percent == ""))
             {
                 result.AddMessage("Поля формы не могут быть пустыми");
@@ -196,76 +215,51 @@ namespace WindowsFormsApp1
             }
             else
             {
-                for (int i = 0; i < percent.Length; i++)
+                if (!IsNumber(percent))
                 {
-                    if (!(percent[i] >= '0' && percent[i] <= '9'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Процент>");
-                        flagstring = true;
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Процент>");
                 }
-                if ((flagstring == false) && ((Convert.ToInt32(percent) < 0) || (Convert.ToInt32(percent) > 100)))
+                if (IsNumber(percent) && (!IsValidNumber(Convert.ToInt32(percent), 0, 100)))
                 {
                     result.AddMessage("Значение " + percent + " не попадает в допустимый диапазон поля <Процент> 0..100");
                 }
-                for (int i = 0; i < operationName.Length; i++)
+                if (!IsWord(operationName, false))
                 {
-                    if (!(operationName[i] >= 'А' && operationName[i] <= 'Я') && !(operationName[i] >= 'а' && operationName[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Название операции>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Название операции>");
                 }
                 if (operationName.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Название операции> (более 20 символов)");
                 }
-                if ((operationName[0] >= 'А' && operationName[0] <= 'Я') || (operationName[0] >= 'A' && operationName[0] <= 'Z'))
-                {
-                    bigflag = true;
-                }
-                else
+                if (!IsFirstLetterBig(operationName))
                 {
                     result.AddMessage("Поле <Название операции> должно начинаться с заглавной буквы");
                 }
-                for (int i = 1; i < operationName.Length; i++)
+                if (IsFirstLetterBig(operationName) && (CountBigLetters(operationName) > 1))
                 {
-                    if (((operationName[i] >= 'А' && operationName[i] <= 'Я') || (operationName[0] >= 'A' && operationName[0] <= 'Z')) && bigflag)
-                    {
-                        result.AddMessage("В поле <Название операции> не может быть более одной заглавной буквы");
-                        break;
-                    }
+                    result.AddMessage("В поле <Название операции> не может быть более одной заглавной буквы");
                 }
-                for (int i = 0; i < sender.Length; i++)
-                {
-                    if (!(sender[i] >= 'А' && sender[i] <= 'Я') && !(sender[i] >= 'а' && sender[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Банк-отправитель>");
-                        break;
-                    }
+                if (!IsWord(sender, false))
+                { 
+                    result.AddMessage("Неверный формат данных в поле <Банк-отправитель>");
                 }
                 if (sender.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Банк-отправитель> (более 20 символов)");
                 }
-                if (!(sender[0] >= 'А' && sender[0] <= 'Я') && !(sender[0] >= 'A' && sender[0] <= 'Z'))
+                if (!IsFirstLetterBig(sender))
                 {
                     result.AddMessage("Поле <Банк-отправитель> должно начинаться с заглавной буквы");
                 }
-                for (int i = 0; i < receiver.Length; i++)
+                if (!IsWord(receiver, false))
                 {
-                    if (!(receiver[i] >= 'А' && receiver[i] <= 'Я') && !(receiver[i] >= 'а' && receiver[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Банк-получатель>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Банк-получатель>");
                 }
                 if (receiver.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Банк-получатель> (более 20 символов)");
                 }
-                if (!(receiver[0] >= 'А' && receiver[0] <= 'Я') && !(receiver[0] >= 'A' && receiver[0] <= 'Z'))
+                if (!IsFirstLetterBig(receiver))
                 {
                     result.AddMessage("Поле <Банк-получатель> должно начинаться с заглавной буквы");
                 }
@@ -292,10 +286,6 @@ namespace WindowsFormsApp1
         public static Result CheckOperation(string name, string cardNumber, string machineNumber, string sum)
         {
             Result result = new Result(false);
-            bool bigflag = false;
-            bool flagstring1 = false;
-            bool flagstring2 = false;
-            bool flagstring3 = false;
             if ((name == "") || (cardNumber == "") || (machineNumber == "") || (sum == ""))
             {
                 result.AddMessage("Поля формы не могут быть пустыми");
@@ -303,70 +293,43 @@ namespace WindowsFormsApp1
             }
             else
             {
-                for (int i = 0; i < name.Length; i++)
+                if (!IsWord(name, false))
                 {
-                    if (!(name[i] >= 'А' && name[i] <= 'Я') && !(name[i] >= 'а' && name[i] <= 'я'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Название операции>");
-                        break;
-                    }
+                    result.AddMessage("Неверный формат данных в поле <Название операции>");
                 }
                 if (name.Length > 20)
                 {
                     result.AddMessage("Слишком длинное поле <Название операции> (более 20 символов)");
                 }
-                if ((name[0] >= 'А' && name[0] <= 'Я') || (name[0] >= 'A' && name[0] <= 'Z'))
-                {
-                    bigflag = true;
-                }
-                else
+                if (!IsFirstLetterBig(name))
                 {
                     result.AddMessage("Поле <Название операции> должно начинаться с заглавной буквы");
                 }
-                for (int i = 1; i < name.Length; i++)
+                if (IsFirstLetterBig(name) && (CountBigLetters(name) > 1))
                 {
-                    if (((name[i] >= 'А' && name[i] <= 'Я') || (name[i] >= 'A' && name[i] <= 'Z')) && bigflag)
-                    {
-                        result.AddMessage("В поле <Название операции> не может быть более одной заглавной буквы");
-                        break;
-                    }
+                    result.AddMessage("В поле <Название операции> не может быть более одной заглавной буквы");
                 }
-                for (int i = 0; i < cardNumber.Length; i++)
-                {
-                    if (!(cardNumber[i] >= '0' && cardNumber[i] <= '9'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Номер карточки>");
-                        flagstring1 = true;
-                    }
-                    break;
+                if (!IsNumber(cardNumber))
+                { 
+                    result.AddMessage("Неверный формат данных в поле <Номер карточки>");
                 }
-                if ((flagstring1 == false) && ((Convert.ToInt32(cardNumber) < 1) || (Convert.ToInt32(cardNumber) > 99999999)))
+                if (IsNumber(cardNumber) && (!IsValidNumber(Convert.ToInt32(cardNumber), 1, 99999999)))
                 {
                     result.AddMessage("Значение " + cardNumber + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999");
                 }
-                for (int i = 0; i < machineNumber.Length; i++)
-                {
-                    if (!(machineNumber[i] >= '0' && machineNumber[i] <= '9'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Номер банкомата>");
-                        flagstring2 = true;
-                    }
-                    break;
+                if (!IsNumber(machineNumber))
+                { 
+                    result.AddMessage("Неверный формат данных в поле <Номер банкомата>");
                 }
-                if ((flagstring2 == false) && ((Convert.ToInt32(machineNumber) < 1) || (Convert.ToInt32(machineNumber) > 500)))
+                if (IsNumber(machineNumber) && (!IsValidNumber(Convert.ToInt32(machineNumber), 1, 500)))
                 {
                     result.AddMessage("Значение " + machineNumber + " не попадает в допустимый диапазон поля <Номер банкомата> 1..500");
                 }
-                for (int i = 0; i < sum.Length; i++)
+                if (!IsNumber(sum))
                 {
-                    if (!(sum[i] >= '0' && sum[i] <= '9'))
-                    {
-                        result.AddMessage("Неверный формат данных в поле <Сумма операции>");
-                        flagstring3 = true;
-                    }
-                    break;
+                    result.AddMessage("Неверный формат данных в поле <Сумма операции>");
                 }
-                if ((flagstring3 == false) && ((Convert.ToInt32(sum) < 0) || (Convert.ToInt32(sum) > 10000000)))
+                if (IsNumber(sum) && (!IsValidNumber(Convert.ToInt32(sum), 0, 10000000)))
                 {
                     result.AddMessage("Значение " + sum + " не попадает в допустимый диапазон поля <Сумма операции> 0..10000000");
                 }

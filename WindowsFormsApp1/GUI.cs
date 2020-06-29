@@ -541,9 +541,6 @@ namespace WindowsFormsApp1
             string pole = "";
             string pole1 = "";
             string pole2 = "";
-            bool flagstring = false;
-            bool flagstring1 = false;
-            bool flagstring2 = false;
             MachineFound machineFound = new MachineFound();
             ClientFound clientFound = new ClientFound();
             operationFound operationfound = new operationFound();
@@ -552,18 +549,13 @@ namespace WindowsFormsApp1
             {
                 if (Convert.ToString(comboBox1.SelectedItem) == "Банкомат")
                 {
-                    for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
+                    if (!Checks.IsNumber(waterMarkTextBox1.Text))
                     {
-                        if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
-                        {
-                            errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
-                            flagstring = true;
-                            break;
-                        }
+                        errormessage = errormessage + "Неверный формат данных в строке поиска\n";
                     }
-                    if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 500)))
+                    if (Checks.IsNumber(waterMarkTextBox1.Text) && (!Checks.IsValidNumber(Convert.ToInt32(waterMarkTextBox1.Text),1,500)))
                     {
-                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска 1..500\n\n";
+                        errormessage = errormessage + "Значение " + waterMarkTextBox1.Text + " не попадает в допустимый диапазон строки поиска 1..500\n";
                     }
                     if (errormessage == "")
                     {
@@ -602,18 +594,13 @@ namespace WindowsFormsApp1
                 }
                 if (Convert.ToString(comboBox1.SelectedItem) == "Клиент")
                 {
-                    for (int i = 0; i < waterMarkTextBox1.Text.Length; i++)
+                    if (!Checks.IsNumber(waterMarkTextBox1.Text))
                     {
-                        if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
-                        {
-                            errormessage = errormessage + "Неверный формат данных в строке поиска\n\n";
-                            flagstring = true;
-                            break;
-                        }
+                        errormessage = errormessage + "Неверный формат данных в строке поиска\n";
                     }
-                    if ((flagstring == false) && ((Convert.ToInt32(waterMarkTextBox1.Text) < 1) || (Convert.ToInt32(waterMarkTextBox1.Text) > 99999999)))
+                    if (Checks.IsNumber(waterMarkTextBox1.Text) && (!Checks.IsValidNumber(Convert.ToInt32(waterMarkTextBox1.Text), 1, 99999999)))
                     {
-                        errormessage = errormessage + "Значение не попадает в допустимый диапазон строки поиска 1..99999999\n\n";
+                        errormessage = errormessage + "Значение " + waterMarkTextBox1.Text + " не попадает в допустимый диапазон строки поиска 1..99999999\n";
                     }
                     if (errormessage == "")
                     {
@@ -659,11 +646,6 @@ namespace WindowsFormsApp1
                             while (waterMarkTextBox1.Text[i] != '/')
                             {
                                 pole = pole + waterMarkTextBox1.Text[i];
-                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
-                                {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
-                                    break;
-                                }
                                 i++;
                             }
                             l = i;
@@ -674,17 +656,7 @@ namespace WindowsFormsApp1
                             while (waterMarkTextBox1.Text[i] != '/')
                             {
                                 pole1 = pole1 + waterMarkTextBox1.Text[i];
-                                if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
-                                {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n\n";
-                                    flagstring1 = true;
-                                    break;
-                                }
                                 i++;
-                            }
-                            if ((flagstring1 == false) && ((Convert.ToInt32(pole1) < 1) || (Convert.ToInt32(pole1) > 99999999)))
-                            {
-                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n\n";
                             }
                             l = i;
                             break;
@@ -694,25 +666,47 @@ namespace WindowsFormsApp1
                             while (waterMarkTextBox1.Text[i] != '/')
                             {
                                 pole2 = pole2 + waterMarkTextBox1.Text[i];
-                                if (!(waterMarkTextBox1.Text[i] >= '0' && waterMarkTextBox1.Text[i] <= '9'))
-                                {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n\n";
-                                    flagstring2 = true;
-                                    break;
-                                }
                                 i++;
                             }
-                            if ((flagstring2 == false) && ((Convert.ToInt32(pole2) < 1) || (Convert.ToInt32(pole2) > 500)))
-                            {
-                                errormessage = errormessage + "Значение не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n\n";
-                            }
+                        }
+                        if (!Checks.IsWord(pole, false))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n";
+                        }
+                        if (pole.Length > 20)
+                        {
+                            errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n";
+                        }
+                        if (!Checks.IsFirstLetterBig(pole))
+                        {
+                            errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n";
+                        }
+                        if (Checks.IsFirstLetterBig(pole) && (Checks.CountBigLetters(pole) > 1))
+                        {
+                            errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n";
+                        }
+                        if (!Checks.IsNumber(pole1))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в поле <Номер карточки>\n";
+                        }
+                        if (Checks.IsNumber(pole1) && (!Checks.IsValidNumber(Convert.ToInt32(pole1), 1, 99999999)))
+                        {
+                            errormessage = errormessage + "Значение " + pole1 + " не попадает в допустимый диапазон поля <Номер карточки> 1..99999999\n";
+                        }
+                        if (!Checks.IsNumber(pole2))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в поле <Номер банкомата>\n";
+                        }
+                        if (Checks.IsNumber(pole2) && (!Checks.IsValidNumber(Convert.ToInt32(pole2), 1, 500)))
+                        {
+                            errormessage = errormessage + "Значение " + pole2 + " не попадает в допустимый диапазон поля <Номер банкомата> 1..500\n";
                         }
                         if ((pole == "") || (pole1 == "") || (pole2 == ""))
                         {
-                            errormessage = errormessage + "Некорректный формат данных в строке поиска\n\n";
+                            errormessage = errormessage + "Некорректный формат данных в строке поиска\n";
                         }
                     }
-                    else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
+                    else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n";
                     if (errormessage == "")
                     {
                         SearchQuery<Operation> query = Database.GetInstance().FindOperation(pole, Convert.ToInt32(pole1), Convert.ToInt32(pole2));
@@ -761,11 +755,6 @@ namespace WindowsFormsApp1
                             while (waterMarkTextBox1.Text[i] != '/')
                             {
                                 pole = pole + waterMarkTextBox1.Text[i];
-                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
-                                {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n\n";
-                                    break;
-                                }
                                 i++;
                             }
                             l = i;
@@ -776,11 +765,6 @@ namespace WindowsFormsApp1
                             while (waterMarkTextBox1.Text[i] != '/')
                             {
                                 pole1 = pole1 + waterMarkTextBox1.Text[i];
-                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
-                                {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n\n";
-                                    break;
-                                }
                                 i++;
                             }
                             l = i;
@@ -791,20 +775,55 @@ namespace WindowsFormsApp1
                             while (waterMarkTextBox1.Text[i] != '/')
                             {
                                 pole2 = pole2 + waterMarkTextBox1.Text[i];
-                                if (!(waterMarkTextBox1.Text[i] >= 'А' && waterMarkTextBox1.Text[i] <= 'Я') && !(waterMarkTextBox1.Text[i] >= 'а' && waterMarkTextBox1.Text[i] <= 'я'))
-                                {
-                                    errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n\n";
-                                    break;
-                                }
                                 i++;
                             }
                         }
+                        if (!Checks.IsWord(pole, false))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в поле <Название операции>\n";
+                        }
+                        if (pole.Length > 20)
+                        {
+                            errormessage = errormessage + "Слишком длинное поле <Название операции> (более 20 символов)\n";
+                        }
+                        if (!Checks.IsFirstLetterBig(pole))
+                        {
+                            errormessage = errormessage + "Поле <Название операции> должно начинаться с заглавной буквы\n";
+                        }
+                        if (Checks.IsFirstLetterBig(pole) && (Checks.CountBigLetters(pole) > 1))
+                        {
+                            errormessage = errormessage + "В поле <Название операции> не может быть более одной заглавной буквы\n";
+                        }
+                        if (!Checks.IsWord(pole1, false))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в поле <Банк-отправитель>\n";
+                        }
+                        if (pole1.Length > 20)
+                        {
+                            errormessage = errormessage + "Слишком длинное поле <Банк-отправитель (более 20 символов)\n";
+                        }
+                        if (!Checks.IsFirstLetterBig(pole1))
+                        {
+                            errormessage = errormessage + "Поле <Банк-отправитель> должно начинаться с заглавной буквы\n";
+                        }
+                        if (!Checks.IsWord(pole2, false))
+                        {
+                            errormessage = errormessage + "Неверный формат данных в поле <Банк-получатель>\n";
+                        }
+                        if (pole2.Length > 20)
+                        {
+                            errormessage = errormessage + "Слишком длинное поле <Банк-получатель (более 20 символов)\n";
+                        }
+                        if (!Checks.IsFirstLetterBig(pole2))
+                        {
+                            errormessage = errormessage + "Поле <Банк-отправитель> должно начинаться с заглавной буквы\n";
+                        }
                         if ((pole == "") || (pole1 == "") || (pole2 == ""))
                         {
-                            errormessage = errormessage + "Некорректный формат данных в строке поиска\n\n";
+                            errormessage = errormessage + "Некорректный формат данных в строке поиска\n";
                         }
                     }
-                    else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n\n";
+                    else errormessage = errormessage + "Не обнаружен / в конце строки поиска\n";
                     if (errormessage == "")
                     {
                         SearchQuery<Percent> query = Database.GetInstance().FindPercent(pole, pole1, pole2);
@@ -865,11 +884,11 @@ namespace WindowsFormsApp1
            }
            if (comboBox1.SelectedItem.ToString() == "Операция")
            {
-              state = "Введите название операции/номер карточки/номер банкомата/ (Пример: а/1/1/)";
+              state = "Введите название операции/номер карточки/номер банкомата/ (Пример: А/1/1/)";
            }
            if (comboBox1.SelectedItem.ToString() == "Процент")
            {
-              state = "Введите название операции/банк-отправитель/банк-получатель/ (Пример: а/а/а/)";
+              state = "Введите название операции/банк-отправитель/банк-получатель/ (Пример: А/А/А/)";
            }
            waterMarkTextBox1.WaterMarkText = state;
         }
