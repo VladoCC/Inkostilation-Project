@@ -47,27 +47,37 @@ namespace WindowsFormsApp1
             {
                 Machine NewMachine = new Machine(Convert.ToInt32(DialogWindow1.waterMarkTextBox1.Text),
                 Convert.ToString(DialogWindow1.waterMarkTextBox2.Text), Convert.ToString(DialogWindow1.waterMarkTextBox3.Text));
-                Result res = Database.GetInstance().AddMachine(NewMachine);
-                if (res.Success)
+                SearchQuery<Machine> query = Database.GetInstance().FindMachine(NewMachine.MachineNumber);
+                if (!query.Found())
                 {
-                    dataGridView1.Rows.Clear();
-                    NumRows1 = -1;
-                    Machine[] machineArray = Database.GetInstance().MachineArray();
-                    for (int i = 0; i < Database.GetInstance().MachineSize(); i++)
+                    Result res = Database.GetInstance().AddMachine(NewMachine);
+                    if (res.Success)
                     {
-                        dataGridView1.Rows.Add();
-                        NumRows1 += 1;
-                        HashFunction<int> myHashFunction = Database.GetInstance().MachinesFunction();
-                        dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
-                        dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
-                        dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
-                        dataGridView1.Rows[NumRows1].Cells[3].Value = machineArray[i].BankName;
+                        dataGridView1.Rows.Clear();
+                        NumRows1 = -1;
+                        Machine[] machineArray = Database.GetInstance().MachineArray();
+                        for (int i = 0; i < Database.GetInstance().MachineSize(); i++)
+                        {
+                            dataGridView1.Rows.Add();
+                            NumRows1 += 1;
+                            HashFunction<int> myHashFunction = Database.GetInstance().MachinesFunction();
+                            dataGridView1.Rows[NumRows1].Cells[0].Value = myHashFunction.Hash(machineArray[i].GetKey());
+                            dataGridView1.Rows[NumRows1].Cells[1].Value = machineArray[i].MachineNumber;
+                            dataGridView1.Rows[NumRows1].Cells[2].Value = machineArray[i].Address;
+                            dataGridView1.Rows[NumRows1].Cells[3].Value = machineArray[i].BankName;
+                        }
+                    }
+                    else
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = res.Message;
+                        ErrorWindow.ShowDialog();
                     }
                 }
-                else
+                else 
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = res.Message;
+                    ErrorWindow.label1.Text = "Нарушение уникальности ключа <Номер банкомата>";
                     ErrorWindow.ShowDialog();
                 }
             }
@@ -85,27 +95,37 @@ namespace WindowsFormsApp1
             {
                 Client NewClient = new Client(Convert.ToInt32(DialogWindow2.waterMarkTextBox1.Text),
                               Convert.ToString(DialogWindow2.waterMarkTextBox2.Text), Convert.ToString(DialogWindow2.waterMarkTextBox3.Text));
-                Result res = Database.GetInstance().AddClient(NewClient);
-                if (res.Success)
+                SearchQuery<Client> query = Database.GetInstance().FindClient(NewClient.CardNumber);
+                if (!query.Found())
                 {
-                    dataGridView3.Rows.Clear();
-                    NumRows2 = -1;
-                    Client[] clientArray = Database.GetInstance().ClientArray();
-                    for (int i = 0; i < Database.GetInstance().ClientSize(); i++)
+                    Result res = Database.GetInstance().AddClient(NewClient);
+                    if (res.Success)
                     {
-                        dataGridView3.Rows.Add();
-                        NumRows2 += 1;
-                        HashFunction<int> myHashFunction = Database.GetInstance().ClientsFunction();
-                        dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
-                        dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
-                        dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
-                        dataGridView3.Rows[NumRows2].Cells[3].Value = clientArray[i].Name;
+                        dataGridView3.Rows.Clear();
+                        NumRows2 = -1;
+                        Client[] clientArray = Database.GetInstance().ClientArray();
+                        for (int i = 0; i < Database.GetInstance().ClientSize(); i++)
+                        {
+                            dataGridView3.Rows.Add();
+                            NumRows2 += 1;
+                            HashFunction<int> myHashFunction = Database.GetInstance().ClientsFunction();
+                            dataGridView3.Rows[NumRows2].Cells[0].Value = myHashFunction.Hash(clientArray[i].GetKey());
+                            dataGridView3.Rows[NumRows2].Cells[1].Value = clientArray[i].CardNumber;
+                            dataGridView3.Rows[NumRows2].Cells[2].Value = clientArray[i].BankName;
+                            dataGridView3.Rows[NumRows2].Cells[3].Value = clientArray[i].Name;
+                        }
+                    }
+                    else
+                    {
+                        ErrorForm ErrorWindow = new ErrorForm();
+                        ErrorWindow.label1.Text = res.Message;
+                        ErrorWindow.ShowDialog();
                     }
                 }
                 else
                 {
                     ErrorForm ErrorWindow = new ErrorForm();
-                    ErrorWindow.label1.Text = res.Message;
+                    ErrorWindow.label1.Text = "Нарушение уникальности ключа <Номер карточки>";
                     ErrorWindow.ShowDialog();
                 }
             }
