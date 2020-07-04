@@ -250,6 +250,12 @@ namespace WindowsFormsApp1
         public Result AddClient(Client client)
         {
             _clients.Add(client);
+            SearchQuery<Client> query = FindClient(client);
+
+            if (query.Found())
+            {
+                return new Result(false) + "Нарушение уникальности ключа <Номер карточки>";
+            }
             Result con = Consistence();
             if (!con)
             {
@@ -266,6 +272,12 @@ namespace WindowsFormsApp1
         public Result AddMachine(Machine machine)
         {
             _machines.Add(machine);
+            SearchQuery<Machine> query = FindMachine(machine);
+
+            if (query.Found())
+            {
+                return new Result(false) + "Нарушение уникальности ключа <Номер банкомата>";
+            }
             Result con = Consistence();
             if (!con)
             {
