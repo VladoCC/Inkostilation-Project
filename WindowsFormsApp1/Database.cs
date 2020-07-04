@@ -249,13 +249,14 @@ namespace WindowsFormsApp1
         /// <returns> Сообщение об успешном добавлении или о проблеме целостности. </returns>
         public Result AddClient(Client client)
         {
-            _clients.Add(client);
             SearchQuery<Client> query = FindClient(client);
-
             if (query.Found())
             {
                 return new Result(false) + "Нарушение уникальности ключа <Номер карточки>";
             }
+            
+            _clients.Add(client);
+
             Result con = Consistence();
             if (!con)
             {
@@ -271,13 +272,14 @@ namespace WindowsFormsApp1
         /// <returns> Сообщение об успешном добавлении или о проблеме целостности. </returns>
         public Result AddMachine(Machine machine)
         {
-            _machines.Add(machine);
             SearchQuery<Machine> query = FindMachine(machine);
-
             if (query.Found())
-            {
+            { 
                 return new Result(false) + "Нарушение уникальности ключа <Номер банкомата>";
             }
+            
+            _machines.Add(machine);
+
             Result con = Consistence();
             if (!con)
             {

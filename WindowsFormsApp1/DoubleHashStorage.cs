@@ -68,14 +68,11 @@ namespace WinFormsApp1
                 }
             }
 
-            if (!found)
+            _size++;
+            
+            if (_size > _array.Length / 2)
             {
                 Inflate();
-                Add(index, element);
-            }
-            else
-            {
-                _size++;
             }
         }
 
@@ -96,9 +93,12 @@ namespace WinFormsApp1
             _deleted = newDeleted;
             base.SizeContainer().Size = newArray.Length;
             _size = 0;
-            foreach (V element in arr)
+            if (arr.Length > 0)
             {
-                Add(_outsideFunction.Hash(element.GetKey()), element);
+                foreach (V element in arr)
+                {
+                    Add(_outsideFunction.Hash(element.GetKey()), element);
+                }   
             }
         }
      
