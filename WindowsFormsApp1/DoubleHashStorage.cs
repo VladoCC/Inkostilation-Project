@@ -70,7 +70,7 @@ namespace WinFormsApp1
 
             _size++;
             
-            if (_size > _array.Length / 2)
+            if (_size > _array.Length / 4 * 3)
             {
                 Inflate();
             }
