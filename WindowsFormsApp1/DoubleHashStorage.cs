@@ -55,7 +55,6 @@ namespace WinFormsApp1
 
         public override void Add(int index, V element)
         {
-            bool found = false;
             for (int i = 0; i < _array.Length; i++)
             {
                 int realIndex = (index + i * _mainFunction.Hash(element.GetKey())) % _array.Length;
@@ -63,7 +62,6 @@ namespace WinFormsApp1
                 {
                     _array[realIndex] = element;
                     _deleted[realIndex] = false;
-                    found = true;
                     break;
                 }
             }
