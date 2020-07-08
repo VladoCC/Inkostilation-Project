@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class PercentsOfMachine : Form
+    public partial class PercentsOfBank : Form
     {
         int index = -1;
         int NumRows = -1;
-        public PercentsOfMachine()
+        public PercentsOfBank()
         {
             InitializeComponent();
         }
@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             {
                 Machine keyMachine = new Machine(Convert.ToInt32(MachinesKey.Rows[index].Cells[1].Value),
                             Convert.ToString(MachinesKey.Rows[index].Cells[2].Value), Convert.ToString(MachinesKey.Rows[index].Cells[3].Value));
-                Report<Machine, Percent> report = Database.GetInstance().MachinePercentReport(keyMachine);
+                Report<Machine, Percent> report = Database.GetInstance().BankPercentReport(keyMachine);
                 Percent[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)

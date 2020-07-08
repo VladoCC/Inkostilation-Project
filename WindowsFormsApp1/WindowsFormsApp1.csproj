@@ -105,11 +105,11 @@
     <Compile Include="percentFound.Designer.cs">
       <DependentUpon>percentFound.cs</DependentUpon>
     </Compile>
-    <Compile Include="PercentsOfMachine.cs">
+    <Compile Include="PercentsOfBank.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PercentsOfMachine.Designer.cs">
-      <DependentUpon>PercentsOfMachine.cs</DependentUpon>
+    <Compile Include="PercentsOfBank.Designer.cs">
+      <DependentUpon>PercentsOfBank.cs</DependentUpon>
     </Compile>
     <Compile Include="PercentsOfOperation.cs">
       <SubType>Form</SubType>
@@ -203,8 +203,8 @@
     <EmbeddedResource Include="percentFound.resx">
       <DependentUpon>percentFound.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PercentsOfMachine.resx">
-      <DependentUpon>PercentsOfMachine.cs</DependentUpon>
+    <EmbeddedResource Include="PercentsOfBank.resx">
+      <DependentUpon>PercentsOfBank.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PercentsOfOperation.resx">
       <DependentUpon>PercentsOfOperation.cs</DependentUpon>
