@@ -742,20 +742,26 @@ namespace WindowsFormsApp1
         
         
         /// <summary>
-        /// Создает отчет о процентах по операциям, проведенных этим банком.
+        /// Создает отчет о процентах по операциям, проведенных этим банкоматом.
         /// </summary>
-        /// <param name="machine"> Банкомат, проценты по операциям владельца которого попадут в отчет. </param>
-        /// <returns> Отчет о процентах по операциям банка, содержащий их количество и конкретные операции. </returns>
-        public Report<Machine, Percent> BankPercentReport(Machine machine)
+        /// <param name="machine"> Банкомат, проценты по операциям которого попадут в отчет. </param>
+        /// <returns> Отчет о процентах по операциям этого банкомата, содержащий их количество и конкретные операции. </returns>
+        public Report<Machine, Percent> MachinePercentReport(Machine machine)
         {
             Report<Machine, Percent> report = new Report<Machine, Percent>(machine, new QuickLastSorter<Percent>());
-            if (_percents.Size() > 0)
+            if (_percents.Size() > 0 && _operations.Size() > 0)
             {
-                foreach (Percent percent in _percents.ToArray())
+                foreach (Operation operation in _operations.ToArray())
                 {
-                    if (percent.ReceiverBank == machine.BankName)
+                    if (operation.MachineNumber == machine.MachineNumber)
                     {
-                        report.Add(percent);
+                        foreach (Percent percent in _percents.ToArray())
+                        {
+                            if (percent.OperationName == operation.OperationName && percent.ReceiverBank == machine.BankName)
+                            {
+                                report.Add(percent);
+                            }
+                        }
                     }
                 }
             }

@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class PercentsOfBank
+    partial class PercentsOfMachine
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PercentsOfBank));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PercentsOfMachine));
             this.PercentsData = new System.Windows.Forms.DataGridView();
             this.Тип = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Отправитель = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -201,7 +201,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PercentsOfMachine";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Отчёт \"Проценты банков\"";
+            this.Text = "Отчёт \"Проценты банкоматов\"";
             ((System.ComponentModel.ISupportInitialize)(this.PercentsData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MachinesKey)).EndInit();
             this.ResumeLayout(false);

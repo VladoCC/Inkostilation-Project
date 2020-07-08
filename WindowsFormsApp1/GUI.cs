@@ -47,7 +47,10 @@ namespace WindowsFormsApp1
             {
                 Machine NewMachine = new Machine(Convert.ToInt32(DialogWindow1.waterMarkTextBox1.Text),
                 Convert.ToString(DialogWindow1.waterMarkTextBox2.Text), Convert.ToString(DialogWindow1.waterMarkTextBox3.Text));
-                Result res = Database.GetInstance().AddMachine(NewMachine);
+                SearchQuery<Machine> query = Database.GetInstance().FindMachine(NewMachine.MachineNumber);
+                if (!query.Found())
+                {
+                    Result res = Database.GetInstance().AddMachine(NewMachine);
                     if (res.Success)
                     {
                         dataGridView1.Rows.Clear();
@@ -71,6 +74,13 @@ namespace WindowsFormsApp1
                         ErrorWindow.ShowDialog();
                     }
                 }
+                else 
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = "Нарушение уникальности ключа <Номер банкомата>";
+                    ErrorWindow.ShowDialog();
+                }
+            }
             else 
             {
                 stopflag = false;
@@ -85,7 +95,10 @@ namespace WindowsFormsApp1
             {
                 Client NewClient = new Client(Convert.ToInt32(DialogWindow2.waterMarkTextBox1.Text),
                               Convert.ToString(DialogWindow2.waterMarkTextBox2.Text), Convert.ToString(DialogWindow2.waterMarkTextBox3.Text));
-                Result res = Database.GetInstance().AddClient(NewClient);
+                SearchQuery<Client> query = Database.GetInstance().FindClient(NewClient.CardNumber);
+                if (!query.Found())
+                {
+                    Result res = Database.GetInstance().AddClient(NewClient);
                     if (res.Success)
                     {
                         dataGridView3.Rows.Clear();
@@ -108,6 +121,13 @@ namespace WindowsFormsApp1
                         ErrorWindow.label1.Text = res.Message;
                         ErrorWindow.ShowDialog();
                     }
+                }
+                else
+                {
+                    ErrorForm ErrorWindow = new ErrorForm();
+                    ErrorWindow.label1.Text = "Нарушение уникальности ключа <Номер карточки>";
+                    ErrorWindow.ShowDialog();
+                }
             }
             else
             {
@@ -998,36 +1018,36 @@ namespace WindowsFormsApp1
 
         private void процентыБанкоматаToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PercentsOfBank POB = new PercentsOfBank();
+            PercentsOfMachine POM = new PercentsOfMachine();
             foreach (DataGridViewRow r in dataGridView1.Rows)
             {
-                int index = POB.MachinesKey.Rows.Add(r.Clone() as DataGridViewRow);
+                int index = POM.MachinesKey.Rows.Add(r.Clone() as DataGridViewRow);
                 foreach (DataGridViewCell o in r.Cells)
                 {
-                    POB.MachinesKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
+                    POM.MachinesKey.Rows[index].Cells[o.ColumnIndex].Value = o.Value;
                 }
             }
             int NumRows = -1;
             int index1 = 0;
-            if (POB.MachinesKey.RowCount != 0)
+            if (POM.MachinesKey.RowCount != 0)
             {
-                Machine keyMachine = new Machine(Convert.ToInt32(POB.MachinesKey.Rows[index1].Cells[1].Value),
-                            Convert.ToString(POB.MachinesKey.Rows[index1].Cells[2].Value), Convert.ToString(POB.MachinesKey.Rows[index1].Cells[3].Value));
-                Report<Machine, Percent> report = Database.GetInstance().BankPercentReport(keyMachine);
+                Machine keyMachine = new Machine(Convert.ToInt32(POM.MachinesKey.Rows[index1].Cells[1].Value),
+                            Convert.ToString(POM.MachinesKey.Rows[index1].Cells[2].Value), Convert.ToString(POM.MachinesKey.Rows[index1].Cells[3].Value));
+                Report<Machine, Percent> report = Database.GetInstance().MachinePercentReport(keyMachine);
                 Percent[] arr = report.Data();
                 int size = report.DataSize();
                 for (int i = 0; i < size; i++)
                 {
-                    POB.PercentsData.Rows.Add();
+                    POM.PercentsData.Rows.Add();
                     NumRows += 1;
-                    POB.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
-                    POB.PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
-                    POB.PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
-                    POB.PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
+                    POM.PercentsData.Rows[NumRows].Cells[0].Value = arr[i].OperationName;
+                    POM.PercentsData.Rows[NumRows].Cells[1].Value = arr[i].SenderBank;
+                    POM.PercentsData.Rows[NumRows].Cells[2].Value = arr[i].ReceiverBank;
+                    POM.PercentsData.Rows[NumRows].Cells[3].Value = arr[i].Percent1;
                 }
                 NumRows = -1;
             }
-            POB.ShowDialog();
+            POM.ShowDialog();
         }
 
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
