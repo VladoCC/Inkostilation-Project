@@ -757,7 +757,7 @@ namespace WindowsFormsApp1
                     {
                         foreach (Percent percent in _percents.ToArray())
                         {
-                            if (percent.OperationName == operation.OperationName && percent.ReceiverBank != machine.BankName)
+                            if (percent.OperationName == operation.OperationName && percent.ReceiverBank == machine.BankName)
                             {
                                 report.Add(percent);
                             }
